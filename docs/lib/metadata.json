@@ -1,24 +1,405 @@
 {
   "vaultName": "科研思路",
-  "lastExport": 1718953920052,
+  "lastExport": 1718954192626,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager theme-dark show-inline-title show-ribbon h2-underline",
   "useCustomHeadContent": false,
   "useCustomFavicon": false,
   "files": [
-    "主页/欢迎来到我的思维领域.md",
-    "主页/英文期刊投稿中的简写与状态解读.md",
-    "主页/注意事项.md",
-    "Linux和bash脚本/常用命令.md",
-    "Linux和bash脚本/服务器（Xshell）中一次性配置环境变量.md",
-    "Linux和bash脚本/下载现代DNA数据流程.md",
-    "Linux和bash脚本/下载bash.md",
-    "Linux和bash脚本/awk介绍.md",
-    "Linux和bash脚本/BAM文件处理.md",
-    "Linux和bash脚本/Linux最最最常用命令.md",
-    "Linux和bash脚本/Shell基础知识.md",
-    "Linux和bash脚本/shell运算.md",
-    "Linux和bash脚本/VCF文件初识.md",
+    "地质地理术语/阿尔泰山脉.md",
+    "地质地理术语/阿穆尔地区.md",
+    "地质地理术语/白令海峡（Bering Strait）.md",
+    "地质地理术语/北美洲（North America）.md",
+    "地质地理术语/贝加尔湖.md",
+    "地质地理术语/贝冢（贝丘遗址）.md",
+    "地质地理术语/布哈拉绿洲假设（Bactrian Oasis Hypothesis）.md",
+    "地质地理术语/冲绳岛（Okinawa island）.md",
+    "地质地理术语/磁山遗址.md",
+    "地质地理术语/东南亚大陆（Mainland Southeast Asia,MSEA）.md",
+    "地质地理术语/额济纳河（黑河，弱水）.md",
+    "地质地理术语/二里头遗址.md",
+    "地质地理术语/非洲（Africa）.md",
+    "地质地理术语/甘青地区.md",
+    "地质地理术语/高山古城遗址.md",
+    "地质地理术语/宫古岛（Myaaku(Miyako) island）.md",
+    "地质地理术语/广西.md",
+    "地质地理术语/海南.md",
+    "地质地理术语/河姆渡遗址.md",
+    "地质地理术语/横北遗址.md",
+    "地质地理术语/华北地区.md",
+    "地质地理术语/华莱士线（Wallace's Line）.md",
+    "地质地理术语/华龙洞.md",
+    "地质地理术语/贾湖遗址.md",
+    "地质地理术语/江苏.md",
+    "地质地理术语/旧石器时代.md",
+    "地质地理术语/居延海.md",
+    "地质地理术语/老挝.md",
+    "地质地理术语/亮岛.md",
+    "地质地理术语/琉球群岛（ Ryūkyū islands）.md",
+    "地质地理术语/美拉尼西亚.md",
+    "地质地理术语/美洲.md",
+    "地质地理术语/摩梭人（Mosuo）.md",
+    "地质地理术语/磨沟遗址.md",
+    "地质地理术语/末次冰消期（last deglaciation）.md",
+    "地质地理术语/末次盛冰期 (LGM).md",
+    "地质地理术语/南岛.md",
+    "地质地理术语/南美洲（South America）.md",
+    "地质地理术语/内亚山区走廊（Inner Asian Mountain Corridor (IAMC)).md",
+    "地质地理术语/宁夏.md",
+    "地质地理术语/青藏高原.md",
+    "地质地理术语/青铜时期（Bronze Age，BA）.md",
+    "地质地理术语/日本.md",
+    "地质地理术语/三星堆遗址.md",
+    "地质地理术语/石峁遗址.md",
+    "地质地理术语/石垣诸岛.md",
+    "地质地理术语/竖穴墓.md",
+    "地质地理术语/松嫩平原.md",
+    "地质地理术语/塔里木盆地（Tarim Basin）.md",
+    "地质地理术语/台湾.md",
+    "地质地理术语/陶家寨.md",
+    "地质地理术语/铁器时代（Iron Age，IA）.md",
+    "地质地理术语/乌斯季伊希姆区（Ust’-Ishim）.md",
+    "地质地理术语/西辽地区.md",
+    "地质地理术语/小河墓地（Xiaohe site）.md",
+    "地质地理术语/新疆.md",
+    "地质地理术语/新石器时代（Neolithic）.md",
+    "地质地理术语/新仙女木期（Younger Dryas）.md",
+    "地质地理术语/雅鲁藏布江.md",
+    "地质地理术语/月氏国.md",
+    "地质地理术语/云南.md",
+    "地质地理术语/中国北方.md",
+    "地质地理术语/中国东北.md",
+    "地质地理术语/中国东南.md",
+    "地质地理术语/中国南方.md",
+    "地质地理术语/中国西北.md",
+    "地质地理术语/中国西南.md",
+    "地质地理术语/中原地区.md",
+    "地质地理术语/宗日遗址.md",
+    "疾病与基因/8-氧基脱氧鸟嘌呤（8-oxo-dG）.md",
+    "疾病与基因/伴随删除的倒置重复Inverted duplication associated with a deletion.md",
+    "疾病与基因/保守序列区块（CSBs）.md",
+    "疾病与基因/必需氨基酸 1.md",
+    "疾病与基因/表达定量性状位点（Expression Quantitative Trait Locus,eQTL）.md",
+    "疾病与基因/丙二酰辅酶-A-辅酶蛋白质转移酶(malonyl-CoA-acyl carrier protein transacylase,MCAT) 1.md",
+    "疾病与基因/并存实验（Parabiosis experiments）.md",
+    "疾病与基因/沉默突变.md",
+    "疾病与基因/从头NUMTs（De novo NUMTs）.md",
+    "疾病与基因/错义变异（Missense）.md",
+    "疾病与基因/单链 DNA 结合蛋白 1（single stranded DNA binding protein 1 ，SSBP1） 1.md",
+    "疾病与基因/等位基因分数（allelic fractions）.md",
+    "疾病与基因/等位基因频谱(allele frequency spectrum,SFS).md",
+    "疾病与基因/颠换（transversion）.md",
+    "疾病与基因/典型mtDNA变异.md",
+    "疾病与基因/非必须氨基酸 1.md",
+    "疾病与基因/非同义突变（Non-Synonymous Mutation）.md",
+    "疾病与基因/冈崎片段（Okazaki frageme）.md",
+    "疾病与基因/共定位.md",
+    "疾病与基因/过氧化物酶体增殖物激活受体γ共激活因子-1α（PGC-1α）.md",
+    "疾病与基因/核-线片段（NUMTs）.md",
+    "疾病与基因/核内复制机器1（Ribonucleotide Reductase Regulatory Subunit M1,RRM1) 1.md",
+    "疾病与基因/后期有丝分裂组织（post-mitotic tissues）.md",
+    "疾病与基因/活性氧种(Reactive Oxygen Species,ROS).md",
+    "疾病与基因/基因间区域（intergenic regions）.md",
+    "疾病与基因/基因失活变异（Protein-truncating Loss-of-Function，pLoF）.md",
+    "疾病与基因/基因水平转移（horizontal gene transfer，HGT）.md",
+    "疾病与基因/嵴连接（Crista junction, CrJ）.md",
+    "疾病与基因/甲基化.md",
+    "疾病与基因/结构变异（Structural Variations, SVs）的机制.md",
+    "疾病与基因/联合衍生等位基因频率谱（joint Derived Allele Frequency spectrum， joint DAF）.md",
+    "疾病与基因/镰刀型细胞贫血病.md",
+    "疾病与基因/磷酸二羟丙酮.md",
+    "疾病与基因/硫酸乙酰肝素（Keratan sulfate，KS）.md",
+    "疾病与基因/梅勒氏卡盘.md",
+    "疾病与基因/内含子.md",
+    "疾病与基因/内体隔室（Endosomal compartment）.md",
+    "疾病与基因/嘌呤核苷酸磷酸化酶(Purine Nucleoside Phosphorylase,PNP).md",
+    "疾病与基因/葡萄糖-6-磷酸脱氢酶缺乏症(Glucose-6-Phosphate Dehydrogenase deficiency, G6PDD）.md",
+    "疾病与基因/轻链启动子（Light Strand Promoter,LSP）.md",
+    "疾病与基因/人类基因组计划二十年基石.md",
+    "疾病与基因/三羧酸循环（TCA）.md",
+    "疾病与基因/失义或功能丧失（LoF）.md",
+    "疾病与基因/同义突变（Synonymous Mutation）.md",
+    "疾病与基因/同源型变异.md",
+    "疾病与基因/同源重组区域（recombination of homologous,ROH）.md",
+    "疾病与基因/微共线性（microsynteny）.md",
+    "疾病与基因/无嘌呤或无嘧啶核酸内切酶1（Apurinic ,Apyrimidinic Endonuclease 1,APEX1).md",
+    "疾病与基因/细胞外囊泡（Extracellular Vesicle (EV)）.md",
+    "疾病与基因/线粒体的RSRS和rCRS的区别.md",
+    "疾病与基因/线粒体呼吸链复合物I亚单位3（NADH Dehydrogenase Ubiquinone Flavoprotein 3,NDUFV3) 1.md",
+    "疾病与基因/线粒体基因组维护外切酶1(Mitochondrial Genome Maintenance Exonuclease 1，MGME1) 1.md",
+    "疾病与基因/线粒体融合蛋白2(Mitofusin 2,MFN2) 1.md",
+    "疾病与基因/线粒体树的标识符.md",
+    "疾病与基因/线粒体转录因子A（Transcription Factor A Mitochondrial，TFAM）.md",
+    "疾病与基因/线粒体DNA（mtDNA）.md",
+    "疾病与基因/线粒体DNA（mtDNA）的突变定义规则.md",
+    "疾病与基因/线粒体DNA编码、在细胞质中翻译的蛋白质（mtDNA-encoded protein arising from cytosolic translation，mPACT）.md",
+    "疾病与基因/线粒体DNA传播.md",
+    "疾病与基因/线粒体DNA结构（mt-DNA structure）.md",
+    "疾病与基因/线粒体DNA拷贝数（mtCN）.md",
+    "疾病与基因/氧化磷酸化系统调节蛋白1（Oxidative Phosphorylation System Regulator 1,OMA1） 1.md",
+    "疾病与基因/异龄联合（heterochronic parabiosis）.md",
+    "疾病与基因/英国生物银行（UK Biobank ,UKB）.md",
+    "疾病与基因/英国十万人基因组计划（100,000 Genomes Project in England）.md",
+    "疾病与基因/粘液样脂肪肉瘤（myxoid liposarcoma）.md",
+    "疾病与基因/整合应激反应（integrated stress response (ISR).md",
+    "疾病与基因/直系同源基因（Orthologs）与旁系同源基因（Paralogs）.md",
+    "疾病与基因/转换（transition）.md",
+    "疾病与基因/转座酶可访问染色质测定（Assay for Transposase-Accessible Chromatin with high-throughput sequencing，ATAC-seq）.md",
+    "疾病与基因/转座元件（Transposable Elements）.md",
+    "疾病与基因/最大等位基因频率（Maximum Minor Allele Frequency，Max MAF）.md",
+    "疾病与基因/All of Us（AOU）.md",
+    "疾病与基因/DNA翻片（DNA flap）.md",
+    "疾病与基因/Leigh综合征.md",
+    "疾病与基因/Max MAF.md",
+    "疾病与基因/MCAT基因（Mitochondrial Carnitine Acylcarnitine Carrier）.md",
+    "疾病与基因/MELAS综合症（Mitochondrial Encephalomyopathy, Lactic Acidosis, and Stroke-like Episodes）.md",
+    "疾病与基因/PR结构域锌指蛋白9（PRDM9）.md",
+    "疾病与基因/rCRS（revised Cambridge Reference Sequence）.md",
+    "疾病与基因/RSRS（Reconstructed Sapiens Reference Sequence）.md",
+    "疾病与基因/S-腺苷甲硫氨酸 (SAM).md",
+    "疾病与基因/Twinkle基因（TWNK）.md",
+    "疾病与基因/VAF.md",
+    "科研方法及理论/贝叶斯进化树分析（Bayesian Evolutionary Analysis by Sampling Trees，BEAST）.md",
+    "科研方法及理论/贝叶斯马尔科夫链蒙特卡罗分析（Bayesian MCMC analysis）.md",
+    "科研方法及理论/贝叶斯天际线图（Bayesian Skyline Plot ，BSP）.md",
+    "科研方法及理论/贝叶斯天际线图（Bayesian skyline plot，BSP).md",
+    "科研方法及理论/贝叶斯系统发育模型.md",
+    "科研方法及理论/避难所（Refuge）.md",
+    "科研方法及理论/标准化的赔率比（standardized odds ratio，SOR）.md",
+    "科研方法及理论/不完全谱系分选（incomplete lineage sorting，ILS）.md",
+    "科研方法及理论/测序覆盖度（Sequencing Coverage）.md",
+    "科研方法及理论/测序后数据处理概览.md",
+    "科研方法及理论/测序深度（Sequencing Depth）.md",
+    "科研方法及理论/从遗传差异推断种群分离时间(Inference of population separation times from genetic divergence).md",
+    "科研方法及理论/搭车变异（hitchhiked variants）.md",
+    "科研方法及理论/单倍型（haplotypes）.md",
+    "科研方法及理论/等位基因频谱(allele frequency spectrum).md",
+    "科研方法及理论/狄利克雷分布.md",
+    "科研方法及理论/抵消模型.md",
+    "科研方法及理论/典型的nDNA结构变异.md",
+    "科研方法及理论/多态性（Polymorphism）.md",
+    "科研方法及理论/多维缩放（Multidimensional Scaling, MDS）.md",
+    "科研方法及理论/多中心假说.md",
+    "科研方法及理论/非重组区（Y特异性区）（male-specificregion，MSY）（non-recombiningY，NRY）.md",
+    "科研方法及理论/分层LD分数回归（Stratified Linkage Disequilibrium Score Regression，S-LDSC,S-LDSC).md",
+    "科研方法及理论/分子方差分析（AMOVA ，Analysis of Molecular Variance).md",
+    "科研方法及理论/分子钟定年方法(molecular dating approach).md",
+    "科研方法及理论/风险比（Odds Ratio, OR）.md",
+    "科研方法及理论/负选择（Negative Selection）.md",
+    "科研方法及理论/富集分析之桃园三结义：GO、KEGG、GSEA.md",
+    "科研方法及理论/高通量测序（第二代测序技术）（next-generation sequencing，NGS）.md",
+    "科研方法及理论/高通量染色体构象捕获技术(High-throughput chromosome conformation capture,Hi-C).md",
+    "科研方法及理论/估计突变率（Estimating mutation rates）.md",
+    "科研方法及理论/恒定速率（invariable,I）.md",
+    "科研方法及理论/后验包含概率(Posterior Inclusion Probability,PIP).md",
+    "科研方法及理论/后验概率.md",
+    "科研方法及理论/化石标定（fossil calibration）.md",
+    "科研方法及理论/回归分析因子（REGR）.md",
+    "科研方法及理论/基因级稀有变异关联研究（RVAS）.md",
+    "科研方法及理论/基因频率和表达的综合选择 (Integrated Selection on Allele Frequency and Expression，iSAFE).md",
+    "科研方法及理论/基因突变（Gene mutation）.md",
+    "科研方法及理论/基因组测序技术.md",
+    "科研方法及理论/伽马分布（Gamma distribution,Γ）.md",
+    "科研方法及理论/假阳性（False positive）.md",
+    "科研方法及理论/假阴性（False negative）.md",
+    "科研方法及理论/精子发生过程.md",
+    "科研方法及理论/聚合酶链式反应（PCR）.md",
+    "科研方法及理论/均匀分布.md",
+    "科研方法及理论/扩展贝叶斯天际线图（Extended Bayesian Skyline Plot，EBSP）.md",
+    "科研方法及理论/扩展单倍型同源性（ extended haplotype homozygosity，EHH）.md",
+    "科研方法及理论/连锁不平衡（linkage disequilibrium，LD）.md",
+    "科研方法及理论/连续进化附带杂交假说.md",
+    "科研方法及理论/临床研究中基线信息的统计分析与统计图表.md",
+    "科研方法及理论/马尔科夫链（Markov Chain）.md",
+    "科研方法及理论/马尔科夫链蒙特卡罗（Markov Chain Monte Carlo，MCMC）.md",
+    "科研方法及理论/孟德尔随机化分析（Mendelian Randomization, MR）.md",
+    "科研方法及理论/孟德尔遗传（Mendelian laws of inheritance）.md",
+    "科研方法及理论/平行进化（Parallel Evolution）.md",
+    "科研方法及理论/瓶颈效应（bottleneck）.md",
+    "科研方法及理论/泊松分布（Poisson Distribution）.md",
+    "科研方法及理论/趋同进化.md",
+    "科研方法及理论/趋异进化.md",
+    "科研方法及理论/全基因组测序（Whole Genome Sequencing，WGS）.md",
+    "科研方法及理论/如何构思论文？.md",
+    "科研方法及理论/生灭模型(birth-death model).md",
+    "科研方法及理论/生态学十大法则.md",
+    "科研方法及理论/数据科学家 95% 时间都在使用的 10 大基本分布.md",
+    "科研方法及理论/双重假说.md",
+    "科研方法及理论/顺式遗传调控作用(cis-acting genetic control).md",
+    "科研方法及理论/四色问题.md",
+    "科研方法及理论/四种建树方法比较.md",
+    "科研方法及理论/塔岛技术悲剧.md",
+    "科研方法及理论/拓扑学(topology).md",
+    "科研方法及理论/替换积累速率（substitutions accumulate）.md",
+    "科研方法及理论/统一流形近似和投影（Uniform Manifold Approximation and Projection,UMAP）.md",
+    "科研方法及理论/透彻理解p值与假设检验.md",
+    "科研方法及理论/突变率（Mutation rate）.md",
+    "科研方法及理论/伪异质性(pseudo-heteroplasmy).md",
+    "科研方法及理论/为什么要学习贝叶斯统计？.md",
+    "科研方法及理论/物种分歧时间、分子进化速率计算（TimeTree、PAML mcmctree、codeml 、MEGA ).md",
+    "科研方法及理论/系统发育率（phylogenetic rate）.md",
+    "科研方法及理论/系统发育树.md",
+    "科研方法及理论/先验概率.md",
+    "科研方法及理论/新生突变率（de novo mutation rate）.md",
+    "科研方法及理论/序列质量分数.md",
+    "科研方法及理论/循环一致测序（Circular Consensus Sequencing，CCS）.md",
+    "科研方法及理论/遗传漂变（genetic drift）.md",
+    "科研方法及理论/异质性（Heteroplasmy）.md",
+    "科研方法及理论/隐马尔科夫模型（Hiden Markov Model）.md",
+    "科研方法及理论/尤尔模型(Yule model).md",
+    "科研方法及理论/有效群体规模 (effective population size，Ne).md",
+    "科研方法及理论/长程单倍型（long-range haplotypes）.md",
+    "科研方法及理论/长读取测序技术.md",
+    "科研方法及理论/长读长 DNA 测序技术.md",
+    "科研方法及理论/长距离引物.md",
+    "科研方法及理论/正选择（Positive Selection）.md",
+    "科研方法及理论/置信区间.md",
+    "科研方法及理论/中华文明本土说.md",
+    "科研方法及理论/种群分支统计（Population Branch statistic，PBS）.md",
+    "科研方法及理论/种群结构分析（ADMIXTURE）.md",
+    "科研方法及理论/种群配对Fst值（Population pairwise Fst values）.md",
+    "科研方法及理论/烛台理论.md",
+    "科研方法及理论/主成分分析（Principal Component Analysis，PCA）.md",
+    "科研方法及理论/综合单倍型评分（integrated haplotype score, iHS）.md",
+    "科研方法及理论/祖先反卷积（Ancestry deconvolution）.md",
+    "科研方法及理论/最大简约法（Maximum Parsimony）.md",
+    "科研方法及理论/最近共同祖先(Time to most recent common ancesto，MRCA).md",
+    "科研方法及理论/BSX-BAK巨孔.md",
+    "科研方法及理论/CpG甲基化.md",
+    "科研方法及理论/cross-population extended haplotype homozygosity (XP-EHH).md",
+    "科研方法及理论/D 统计量检验（Patterson’s D statistic）.md",
+    "科研方法及理论/DNA双链断裂(DSB).md",
+    "科研方法及理论/Epstein-Barr病毒转化.md",
+    "科研方法及理论/f-3统计.md",
+    "科研方法及理论/f-4统计(没看懂）.md",
+    "科研方法及理论/f-统计（f-statistics）.md",
+    "科研方法及理论/Illumina测序.md",
+    "科研方法及理论/integrated haplotype score (iHS).md",
+    "科研方法及理论/k-mer.md",
+    "科研方法及理论/Oxford Nanopore Technologies牛津纳米孔测序技术 (ONT).md",
+    "科研方法及理论/Pacific Biosciences测序技术（SMRT,PacBio）.md",
+    "科研方法及理论/qpAdm.md",
+    "科研方法及理论/singleton density score (SDS).md",
+    "科研方法及理论/t-分布随机近邻嵌入（t-Distributed Stochastic Neighbor Embedding,t-SNE）.md",
+    "科研方法及理论/Telomere-to-telomere（T2T）.md",
+    "科研方法及理论/TreeMix分析（TreeMix analysis）.md",
+    "科研方法及理论/Watterson 估计量（θw）.md",
+    "科研方法及理论/Y-染色体结构.md",
+    "科研方法及理论/Y-DNA（Y-染色体）.md",
+    "科研方法及理论/Z值.md",
+    "人文术语/阿尔泰语系（Altaic languages）.md",
+    "人文术语/阿尔乌斯塔（Al Wusta）.md",
+    "人文术语/阿凡纳谢沃文化（Afanasievo）.md",
+    "人文术语/阿克瑟斯文明（Oxus civilization）.md",
+    "人文术语/阿匹迪马洞穴（Apidima Cave）.md",
+    "人文术语/阿伊努人.md",
+    "人文术语/安德罗诺沃文化（Andronovo culture）.md",
+    "人文术语/安多藏族.md",
+    "人文术语/安纳托利亚（Anatolian farmer）.md",
+    "人文术语/奥库涅夫文化（Okunev Culture）.md",
+    "人文术语/巴克特里亚·马尔吉亚纳文明区（Bactria–Margiana Archaeological Complex，BMAC）.md",
+    "人文术语/白马藏族.md",
+    "人文术语/百越族群.md",
+    "人文术语/班图语.md",
+    "人文术语/北京猿人.md",
+    "人文术语/贝丘文化(Shell-Mound Culture).md",
+    "人文术语/博泰文化（Botai）.md",
+    "人文术语/藏缅语族（Tibeto-Burman languages）.md",
+    "人文术语/藏族.md",
+    "人文术语/铲形门齿.md",
+    "人文术语/大汶口文化.md",
+    "人文术语/大溪文化.md",
+    "人文术语/傣族（Tai people）.md",
+    "人文术语/袋獾（Sarcophilus harrisii,塔斯马尼亚恶魔）.md",
+    "人文术语/丹尼索瓦人（Denisovan）.md",
+    "人文术语/稻（Oryza sativa L.）.md",
+    "人文术语/氐羌（古）.md",
+    "人文术语/东乡族（Donghxiang）.md",
+    "人文术语/二里头文化.md",
+    "人文术语/非陶器时期(aceramic,non-pottery).md",
+    "人文术语/格鲁吉亚人.md",
+    "人文术语/古崎文化(Gusuku Culture).md",
+    "人文术语/海德堡人.md",
+    "人文术语/汉藏语系.md",
+    "人文术语/和平文化（HòabÌnhian Culture).md",
+    "人文术语/红山文化.md",
+    "人文术语/回辉人 Utsat.md",
+    "人文术语/基底欧亚人（basal Eurasian ancestry）.md",
+    "人文术语/嘉绒藏族.md",
+    "人文术语/简鼻亚目（Haplorrhini）.md",
+    "人文术语/粳稻.md",
+    "人文术语/卡夫泽（Qafzeh）.md",
+    "人文术语/卡拉苏克文化（Karasuk culture）.md",
+    "人文术语/康巴藏族.md",
+    "人文术语/黎族（Li）.md",
+    "人文术语/良渚文化.md",
+    "人文术语/琉球王国（Ryukyu Kingdom）.md",
+    "人文术语/龙山文化.md",
+    "人文术语/罗百氏傍人（Paranthropus robustus）.md",
+    "人文术语/马家窑文化.md",
+    "人文术语/马桥文化.md",
+    "人文术语/梅山文化（蚩尤文化）.md",
+    "人文术语/美洲原住民（Native Americans (NAs)）.md",
+    "人文术语/蒙古语系(Mongolic).md",
+    "人文术语/弥生人.md",
+    "人文术语/弥生时代（Yayoi period）.md",
+    "人文术语/米斯利亚洞穴（Misliya Cave）.md",
+    "人文术语/苗瑶语族（Hmong–Mien languages）.md",
+    "人文术语/母系氏族.md",
+    "人文术语/南岛语系.md",
+    "人文术语/尼安德特人（Neanderthal）.md",
+    "人文术语/平埔族群（Pingpu）.md",
+    "人文术语/齐家文化.md",
+    "人文术语/羌族.md",
+    "人文术语/切穆尔切克文化（克尔木齐文化，Chemurchek）.md",
+    "人文术语/屈家岭文化.md",
+    "人文术语/三苗部落.md",
+    "人文术语/桑巴基（Sambaquis）.md",
+    "人文术语/山顶洞人.md",
+    "人文术语/山戎.md",
+    "人文术语/上山文化.md",
+    "人文术语/绳文人.md",
+    "人文术语/绳文时代.md",
+    "人文术语/菽（Glycine max）.md",
+    "人文术语/黍（Panicum miliaceum）.md",
+    "人文术语/斯虎尔（Skhul）.md",
+    "人文术语/四坝文化（Siba culture）.md",
+    "人文术语/粟（millet）.md",
+    "人文术语/陶寺文化.md",
+    "人文术语/田园洞人.md",
+    "人文术语/突厥.md",
+    "人文术语/突厥语系(Turkic).md",
+    "人文术语/吐火罗语(Tocharian language).md",
+    "人文术语/卫藏藏族.md",
+    "人文术语/下田原文化（Shimotabaru Culture）.md",
+    "人文术语/夏尔巴人.md",
+    "人文术语/籼稻.md",
+    "人文术语/辛塔什塔游牧文化（Sintashta pastoral cultures）.md",
+    "人文术语/新石器时代以来的文化表格.md",
+    "人文术语/匈奴.md",
+    "人文术语/巽他型牙齿.md",
+    "人文术语/颜那亚文化（Yamna culture）.md",
+    "人文术语/仰韶文化.md",
+    "人文术语/印欧语系.md",
+    "人文术语/游牧民族.md",
+    "人文术语/语言概览.md",
+    "人文术语/元谋人.md",
+    "人文术语/原猴亚目（Strepsirrhini）.md",
+    "人文术语/中国新石器时代文化.md",
+    "人文术语/中国型牙齿.md",
+    "人文术语/中华民族.md",
+    "人文术语/壮侗语系（Kra–Dai languages）.md",
+    "神经网络/神经元.md",
+    "神经网络/速通AI大模型基础.md",
+    "书籍/青格历史.md",
+    "书籍/群体演化.md",
+    "书籍/群体遗传学.md",
+    "书籍/统计学关我什么事：生活中的极简统计学.md",
+    "书籍/无字史记.md",
+    "书籍/西西弗神话.md",
+    "obsidian语法进阶/脚注的使用.md",
+    "obsidian语法进阶/callout语法.md",
+    "obsidian语法进阶/Latex语法符号大全.md",
     "lib/scripts/graph-wasm.wasm",
     "lib/fonts/94f2f163d4b698242fef.otf",
     "lib/fonts/72505e6a122c6acd5471.woff2",
@@ -35,6 +416,28 @@
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
     "lib/media/874d8b8e340f75575caa.svg",
     "lib/media/3d6c1bdc4d87cde4de67.svg",
+    "lib/fonts/mathjax_zero.woff",
+    "lib/fonts/mathjax_main-regular.woff",
+    "lib/fonts/mathjax_main-bold.woff",
+    "lib/fonts/mathjax_math-italic.woff",
+    "lib/fonts/mathjax_main-italic.woff",
+    "lib/fonts/mathjax_math-bolditalic.woff",
+    "lib/fonts/mathjax_size1-regular.woff",
+    "lib/fonts/mathjax_size2-regular.woff",
+    "lib/fonts/mathjax_size3-regular.woff",
+    "lib/fonts/mathjax_size4-regular.woff",
+    "lib/fonts/mathjax_ams-regular.woff",
+    "lib/fonts/mathjax_calligraphic-regular.woff",
+    "lib/fonts/mathjax_calligraphic-bold.woff",
+    "lib/fonts/mathjax_fraktur-regular.woff",
+    "lib/fonts/mathjax_fraktur-bold.woff",
+    "lib/fonts/mathjax_sansserif-regular.woff",
+    "lib/fonts/mathjax_sansserif-bold.woff",
+    "lib/fonts/mathjax_sansserif-italic.woff",
+    "lib/fonts/mathjax_script-regular.woff",
+    "lib/fonts/mathjax_typewriter-regular.woff",
+    "lib/fonts/mathjax_vector-regular.woff",
+    "lib/fonts/mathjax_vector-bold.woff",
     "lib/html/file-tree.html",
     "lib/scripts/webpage.js",
     "lib/scripts/graph-view.js",
@@ -68,6 +471,28 @@
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
     "lib/media/874d8b8e340f75575caa.svg",
     "lib/media/3d6c1bdc4d87cde4de67.svg",
+    "lib/fonts/mathjax_zero.woff",
+    "lib/fonts/mathjax_main-regular.woff",
+    "lib/fonts/mathjax_main-bold.woff",
+    "lib/fonts/mathjax_math-italic.woff",
+    "lib/fonts/mathjax_main-italic.woff",
+    "lib/fonts/mathjax_math-bolditalic.woff",
+    "lib/fonts/mathjax_size1-regular.woff",
+    "lib/fonts/mathjax_size2-regular.woff",
+    "lib/fonts/mathjax_size3-regular.woff",
+    "lib/fonts/mathjax_size4-regular.woff",
+    "lib/fonts/mathjax_ams-regular.woff",
+    "lib/fonts/mathjax_calligraphic-regular.woff",
+    "lib/fonts/mathjax_calligraphic-bold.woff",
+    "lib/fonts/mathjax_fraktur-regular.woff",
+    "lib/fonts/mathjax_fraktur-bold.woff",
+    "lib/fonts/mathjax_sansserif-regular.woff",
+    "lib/fonts/mathjax_sansserif-bold.woff",
+    "lib/fonts/mathjax_sansserif-italic.woff",
+    "lib/fonts/mathjax_script-regular.woff",
+    "lib/fonts/mathjax_typewriter-regular.woff",
+    "lib/fonts/mathjax_vector-regular.woff",
+    "lib/fonts/mathjax_vector-bold.woff",
     "lib/html/file-tree.html",
     "lib/scripts/webpage.js",
     "lib/scripts/graph-view.js",
@@ -86,267 +511,2685 @@
   ],
   "fileInfo": {
     "lib/scripts/graph-wasm.wasm": {
-      "modifiedTime": 1718953920052,
+      "modifiedTime": 1718954192626,
       "sourceSize": 23377,
       "exportedPath": "lib/scripts/graph-wasm.wasm",
       "dependencies": []
     },
     "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1718953920052,
+      "modifiedTime": 1718954192626,
       "sourceSize": 66800,
       "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
       "dependencies": []
     },
     "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1718953920052,
+      "modifiedTime": 1718954192626,
       "sourceSize": 104232,
       "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
       "dependencies": []
     },
     "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1718953920052,
+      "modifiedTime": 1718954192626,
       "sourceSize": 104332,
       "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
       "dependencies": []
     },
     "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1718953920052,
+      "modifiedTime": 1718954192626,
       "sourceSize": 98868,
       "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
       "dependencies": []
     },
     "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1718953920052,
+      "modifiedTime": 1718954192626,
       "sourceSize": 106876,
       "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
       "dependencies": []
     },
     "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1718953920052,
+      "modifiedTime": 1718954192626,
       "sourceSize": 105804,
       "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
       "dependencies": []
     },
     "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1718953920052,
+      "modifiedTime": 1718954192626,
       "sourceSize": 106108,
       "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
       "dependencies": []
     },
     "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1718953920052,
+      "modifiedTime": 1718954192626,
       "sourceSize": 111708,
       "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
       "dependencies": []
     },
     "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1718953920052,
+      "modifiedTime": 1718954192626,
       "sourceSize": 192740,
       "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
       "dependencies": []
     },
     "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1718953920052,
+      "modifiedTime": 1718954192626,
       "sourceSize": 161376,
       "exportedPath": "lib/fonts/454577c22304619db035.ttf",
       "dependencies": []
     },
     "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1718953920052,
+      "modifiedTime": 1718954192626,
       "sourceSize": 191568,
       "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
       "dependencies": []
     },
     "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1718953920052,
+      "modifiedTime": 1718954192626,
       "sourceSize": 155288,
       "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
       "dependencies": []
     },
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1718953920052,
+      "modifiedTime": 1718954192626,
       "sourceSize": 7876,
       "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
       "dependencies": []
     },
     "lib/media/874d8b8e340f75575caa.svg": {
-      "modifiedTime": 1718953920052,
+      "modifiedTime": 1718954192626,
       "sourceSize": 317,
       "exportedPath": "lib/media/874d8b8e340f75575caa.svg",
       "dependencies": []
     },
     "lib/media/3d6c1bdc4d87cde4de67.svg": {
-      "modifiedTime": 1718953920052,
+      "modifiedTime": 1718954192626,
       "sourceSize": 279,
       "exportedPath": "lib/media/3d6c1bdc4d87cde4de67.svg",
       "dependencies": []
     },
     "lib/html/file-tree.html": {
-      "modifiedTime": 1718953920052,
-      "sourceSize": 11967,
+      "modifiedTime": 1718954192626,
+      "sourceSize": 291433,
       "exportedPath": "lib/html/file-tree.html",
       "dependencies": []
     },
     "lib/scripts/webpage.js": {
-      "modifiedTime": 1718953920052,
+      "modifiedTime": 1718954192626,
       "sourceSize": 47290,
       "exportedPath": "lib/scripts/webpage.js",
       "dependencies": []
     },
     "lib/scripts/graph-view.js": {
-      "modifiedTime": 1718953920052,
+      "modifiedTime": 1718954192626,
       "sourceSize": 15519,
       "exportedPath": "lib/scripts/graph-view.js",
       "dependencies": []
     },
     "lib/scripts/graph-wasm.js": {
-      "modifiedTime": 1718953920052,
+      "modifiedTime": 1718954192626,
       "sourceSize": 14021,
       "exportedPath": "lib/scripts/graph-wasm.js",
       "dependencies": []
     },
     "lib/scripts/graph-render-worker.js": {
-      "modifiedTime": 1718953920052,
+      "modifiedTime": 1718954192626,
       "sourceSize": 5179,
       "exportedPath": "lib/scripts/graph-render-worker.js",
       "dependencies": []
     },
     "lib/scripts/tinycolor.js": {
-      "modifiedTime": 1718953920052,
+      "modifiedTime": 1718954192626,
       "sourceSize": 29832,
       "exportedPath": "lib/scripts/tinycolor.js",
       "dependencies": []
     },
     "lib/scripts/pixi.js": {
-      "modifiedTime": 1718953920052,
+      "modifiedTime": 1718954192626,
       "sourceSize": 449509,
       "exportedPath": "lib/scripts/pixi.js",
       "dependencies": []
     },
     "lib/scripts/minisearch.js": {
-      "modifiedTime": 1718953920052,
+      "modifiedTime": 1718954192626,
       "sourceSize": 29422,
       "exportedPath": "lib/scripts/minisearch.js",
       "dependencies": []
     },
     "lib/media/favicon.png": {
-      "modifiedTime": 1718953920052,
+      "modifiedTime": 1718954192626,
       "sourceSize": 1105,
       "exportedPath": "lib/media/favicon.png",
       "dependencies": []
     },
     "lib/scripts/graph-data.js": {
-      "modifiedTime": 1718953920052,
-      "sourceSize": 824,
+      "modifiedTime": 1718954192626,
+      "sourceSize": 28229,
       "exportedPath": "lib/scripts/graph-data.js",
       "dependencies": []
     },
     "lib/styles/obsidian.css": {
-      "modifiedTime": 1718953920052,
+      "modifiedTime": 1718954192626,
       "sourceSize": 130183,
       "exportedPath": "lib/styles/obsidian.css",
       "dependencies": []
     },
     "lib/styles/theme.css": {
-      "modifiedTime": 1718953920052,
+      "modifiedTime": 1718954192626,
       "sourceSize": 41426,
       "exportedPath": "lib/styles/theme.css",
       "dependencies": []
     },
     "lib/styles/global-variable-styles.css": {
-      "modifiedTime": 1718953920052,
+      "modifiedTime": 1718954192626,
       "sourceSize": 367,
       "exportedPath": "lib/styles/global-variable-styles.css",
       "dependencies": []
     },
     "lib/styles/supported-plugins.css": {
-      "modifiedTime": 1718953920052,
+      "modifiedTime": 1718954192626,
       "sourceSize": 119,
       "exportedPath": "lib/styles/supported-plugins.css",
       "dependencies": []
     },
     "lib/styles/main-styles.css": {
-      "modifiedTime": 1718953920052,
+      "modifiedTime": 1718954192626,
       "sourceSize": 23130,
       "exportedPath": "lib/styles/main-styles.css",
       "dependencies": []
     },
-    "Linux和bash脚本/常用命令.md": {
-      "modifiedTime": 1718953513273,
-      "sourceSize": 46664,
-      "exportedPath": "linux和bash脚本/常用命令.html",
+    "地质地理术语/阿尔泰山脉.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 786,
+      "exportedPath": "地质地理术语/阿尔泰山脉.html",
       "dependencies": []
     },
-    "Linux和bash脚本/服务器（Xshell）中一次性配置环境变量.md": {
-      "modifiedTime": 1718953513273,
-      "sourceSize": 1227,
-      "exportedPath": "linux和bash脚本/服务器（xshell）中一次性配置环境变量.html",
+    "地质地理术语/阿穆尔地区.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 132,
+      "exportedPath": "地质地理术语/阿穆尔地区.html",
       "dependencies": []
     },
-    "Linux和bash脚本/下载现代DNA数据流程.md": {
-      "modifiedTime": 1718953513273,
-      "sourceSize": 1208,
-      "exportedPath": "linux和bash脚本/下载现代dna数据流程.html",
+    "地质地理术语/白令海峡（Bering Strait）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1301,
+      "exportedPath": "地质地理术语/白令海峡（bering-strait）.html",
       "dependencies": []
     },
-    "Linux和bash脚本/下载bash.md": {
-      "modifiedTime": 1718953513273,
-      "sourceSize": 1575,
-      "exportedPath": "linux和bash脚本/下载bash.html",
+    "地质地理术语/北美洲（North America）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 999,
+      "exportedPath": "地质地理术语/北美洲（north-america）.html",
       "dependencies": []
     },
-    "Linux和bash脚本/awk介绍.md": {
-      "modifiedTime": 1718953513273,
-      "sourceSize": 2798,
-      "exportedPath": "linux和bash脚本/awk介绍.html",
+    "地质地理术语/贝加尔湖.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 769,
+      "exportedPath": "地质地理术语/贝加尔湖.html",
       "dependencies": []
     },
-    "Linux和bash脚本/BAM文件处理.md": {
-      "modifiedTime": 1718953513273,
-      "sourceSize": 4966,
-      "exportedPath": "linux和bash脚本/bam文件处理.html",
+    "地质地理术语/贝冢（贝丘遗址）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1771,
+      "exportedPath": "地质地理术语/贝冢（贝丘遗址）.html",
       "dependencies": []
     },
-    "Linux和bash脚本/Linux最最最常用命令.md": {
-      "modifiedTime": 1718953513273,
-      "sourceSize": 3981,
-      "exportedPath": "linux和bash脚本/linux最最最常用命令.html",
+    "地质地理术语/布哈拉绿洲假设（Bactrian Oasis Hypothesis）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 934,
+      "exportedPath": "地质地理术语/布哈拉绿洲假设（bactrian-oasis-hypothesis）.html",
       "dependencies": []
     },
-    "Linux和bash脚本/Shell基础知识.md": {
-      "modifiedTime": 1718953513273,
-      "sourceSize": 5648,
-      "exportedPath": "linux和bash脚本/shell基础知识.html",
+    "地质地理术语/冲绳岛（Okinawa island）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 479,
+      "exportedPath": "地质地理术语/冲绳岛（okinawa-island）.html",
       "dependencies": []
     },
-    "Linux和bash脚本/shell运算.md": {
-      "modifiedTime": 1718953513273,
+    "地质地理术语/磁山遗址.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 189,
+      "exportedPath": "地质地理术语/磁山遗址.html",
+      "dependencies": []
+    },
+    "地质地理术语/东南亚大陆（Mainland Southeast Asia,MSEA）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1,
+      "exportedPath": "地质地理术语/东南亚大陆（mainland-southeast-asia,msea）.html",
+      "dependencies": []
+    },
+    "地质地理术语/额济纳河（黑河，弱水）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 249,
+      "exportedPath": "地质地理术语/额济纳河（黑河，弱水）.html",
+      "dependencies": []
+    },
+    "地质地理术语/二里头遗址.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1801,
+      "exportedPath": "地质地理术语/二里头遗址.html",
+      "dependencies": []
+    },
+    "地质地理术语/非洲（Africa）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 345,
+      "exportedPath": "地质地理术语/非洲（africa）.html",
+      "dependencies": []
+    },
+    "地质地理术语/甘青地区.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1,
+      "exportedPath": "地质地理术语/甘青地区.html",
+      "dependencies": []
+    },
+    "地质地理术语/高山古城遗址.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 577,
+      "exportedPath": "地质地理术语/高山古城遗址.html",
+      "dependencies": []
+    },
+    "地质地理术语/宫古岛（Myaaku(Miyako) island）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1031,
+      "exportedPath": "地质地理术语/宫古岛（myaaku(miyako)-island）.html",
+      "dependencies": []
+    },
+    "地质地理术语/广西.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 376,
+      "exportedPath": "地质地理术语/广西.html",
+      "dependencies": []
+    },
+    "地质地理术语/海南.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 500,
+      "exportedPath": "地质地理术语/海南.html",
+      "dependencies": []
+    },
+    "地质地理术语/河姆渡遗址.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 572,
+      "exportedPath": "地质地理术语/河姆渡遗址.html",
+      "dependencies": []
+    },
+    "地质地理术语/横北遗址.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1309,
+      "exportedPath": "地质地理术语/横北遗址.html",
+      "dependencies": []
+    },
+    "地质地理术语/华北地区.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 96,
+      "exportedPath": "地质地理术语/华北地区.html",
+      "dependencies": []
+    },
+    "地质地理术语/华莱士线（Wallace's Line）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1583,
+      "exportedPath": "地质地理术语/华莱士线（wallace's-line）.html",
+      "dependencies": []
+    },
+    "地质地理术语/华龙洞.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 162,
+      "exportedPath": "地质地理术语/华龙洞.html",
+      "dependencies": []
+    },
+    "地质地理术语/贾湖遗址.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 265,
+      "exportedPath": "地质地理术语/贾湖遗址.html",
+      "dependencies": []
+    },
+    "地质地理术语/江苏.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 94,
+      "exportedPath": "地质地理术语/江苏.html",
+      "dependencies": []
+    },
+    "地质地理术语/旧石器时代.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1,
+      "exportedPath": "地质地理术语/旧石器时代.html",
+      "dependencies": []
+    },
+    "地质地理术语/居延海.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1991,
+      "exportedPath": "地质地理术语/居延海.html",
+      "dependencies": []
+    },
+    "地质地理术语/老挝.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1,
+      "exportedPath": "地质地理术语/老挝.html",
+      "dependencies": []
+    },
+    "地质地理术语/亮岛.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1189,
+      "exportedPath": "地质地理术语/亮岛.html",
+      "dependencies": []
+    },
+    "地质地理术语/琉球群岛（ Ryūkyū islands）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1378,
+      "exportedPath": "地质地理术语/琉球群岛（-ryūkyū-islands）.html",
+      "dependencies": []
+    },
+    "地质地理术语/美拉尼西亚.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 3925,
+      "exportedPath": "地质地理术语/美拉尼西亚.html",
+      "dependencies": []
+    },
+    "地质地理术语/美洲.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 579,
+      "exportedPath": "地质地理术语/美洲.html",
+      "dependencies": []
+    },
+    "地质地理术语/摩梭人（Mosuo）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 161,
+      "exportedPath": "地质地理术语/摩梭人（mosuo）.html",
+      "dependencies": []
+    },
+    "地质地理术语/磨沟遗址.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 2764,
+      "exportedPath": "地质地理术语/磨沟遗址.html",
+      "dependencies": []
+    },
+    "地质地理术语/末次冰消期（last deglaciation）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 103,
+      "exportedPath": "地质地理术语/末次冰消期（last-deglaciation）.html",
+      "dependencies": []
+    },
+    "地质地理术语/末次盛冰期 (LGM).md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1254,
+      "exportedPath": "地质地理术语/末次盛冰期-(lgm).html",
+      "dependencies": []
+    },
+    "地质地理术语/南岛.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1,
+      "exportedPath": "地质地理术语/南岛.html",
+      "dependencies": []
+    },
+    "地质地理术语/南美洲（South America）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 553,
+      "exportedPath": "地质地理术语/南美洲（south-america）.html",
+      "dependencies": []
+    },
+    "地质地理术语/内亚山区走廊（Inner Asian Mountain Corridor (IAMC)).md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 510,
+      "exportedPath": "地质地理术语/内亚山区走廊（inner-asian-mountain-corridor-(iamc)).html",
+      "dependencies": []
+    },
+    "地质地理术语/宁夏.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 79,
+      "exportedPath": "地质地理术语/宁夏.html",
+      "dependencies": []
+    },
+    "地质地理术语/青藏高原.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1,
+      "exportedPath": "地质地理术语/青藏高原.html",
+      "dependencies": []
+    },
+    "地质地理术语/青铜时期（Bronze Age，BA）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1,
+      "exportedPath": "地质地理术语/青铜时期（bronze-age，ba）.html",
+      "dependencies": []
+    },
+    "地质地理术语/日本.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1,
+      "exportedPath": "地质地理术语/日本.html",
+      "dependencies": []
+    },
+    "地质地理术语/三星堆遗址.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 892,
+      "exportedPath": "地质地理术语/三星堆遗址.html",
+      "dependencies": []
+    },
+    "地质地理术语/石峁遗址.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 178,
+      "exportedPath": "地质地理术语/石峁遗址.html",
+      "dependencies": []
+    },
+    "地质地理术语/石垣诸岛.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 899,
+      "exportedPath": "地质地理术语/石垣诸岛.html",
+      "dependencies": []
+    },
+    "地质地理术语/竖穴墓.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 58,
+      "exportedPath": "地质地理术语/竖穴墓.html",
+      "dependencies": []
+    },
+    "地质地理术语/松嫩平原.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1189,
+      "exportedPath": "地质地理术语/松嫩平原.html",
+      "dependencies": []
+    },
+    "地质地理术语/塔里木盆地（Tarim Basin）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 283,
+      "exportedPath": "地质地理术语/塔里木盆地（tarim-basin）.html",
+      "dependencies": []
+    },
+    "地质地理术语/台湾.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1,
+      "exportedPath": "地质地理术语/台湾.html",
+      "dependencies": []
+    },
+    "地质地理术语/陶家寨.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1,
+      "exportedPath": "地质地理术语/陶家寨.html",
+      "dependencies": []
+    },
+    "地质地理术语/铁器时代（Iron Age，IA）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1,
+      "exportedPath": "地质地理术语/铁器时代（iron-age，ia）.html",
+      "dependencies": []
+    },
+    "地质地理术语/乌斯季伊希姆区（Ust’-Ishim）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 298,
+      "exportedPath": "地质地理术语/乌斯季伊希姆区（ust’-ishim）.html",
+      "dependencies": []
+    },
+    "地质地理术语/西辽地区.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 387,
+      "exportedPath": "地质地理术语/西辽地区.html",
+      "dependencies": []
+    },
+    "地质地理术语/小河墓地（Xiaohe site）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 3020,
+      "exportedPath": "地质地理术语/小河墓地（xiaohe-site）.html",
+      "dependencies": []
+    },
+    "地质地理术语/新疆.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1419,
+      "exportedPath": "地质地理术语/新疆.html",
+      "dependencies": []
+    },
+    "地质地理术语/新石器时代（Neolithic）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 213,
+      "exportedPath": "地质地理术语/新石器时代（neolithic）.html",
+      "dependencies": []
+    },
+    "地质地理术语/新仙女木期（Younger Dryas）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 3854,
+      "exportedPath": "地质地理术语/新仙女木期（younger-dryas）.html",
+      "dependencies": []
+    },
+    "地质地理术语/雅鲁藏布江.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1,
+      "exportedPath": "地质地理术语/雅鲁藏布江.html",
+      "dependencies": []
+    },
+    "地质地理术语/月氏国.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 2009,
+      "exportedPath": "地质地理术语/月氏国.html",
+      "dependencies": []
+    },
+    "地质地理术语/云南.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1,
+      "exportedPath": "地质地理术语/云南.html",
+      "dependencies": []
+    },
+    "地质地理术语/中国北方.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 150,
+      "exportedPath": "地质地理术语/中国北方.html",
+      "dependencies": []
+    },
+    "地质地理术语/中国东北.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1,
+      "exportedPath": "地质地理术语/中国东北.html",
+      "dependencies": []
+    },
+    "地质地理术语/中国东南.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1,
+      "exportedPath": "地质地理术语/中国东南.html",
+      "dependencies": []
+    },
+    "地质地理术语/中国南方.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 130,
+      "exportedPath": "地质地理术语/中国南方.html",
+      "dependencies": []
+    },
+    "地质地理术语/中国西北.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1,
+      "exportedPath": "地质地理术语/中国西北.html",
+      "dependencies": []
+    },
+    "地质地理术语/中国西南.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1,
+      "exportedPath": "地质地理术语/中国西南.html",
+      "dependencies": []
+    },
+    "地质地理术语/中原地区.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 120,
+      "exportedPath": "地质地理术语/中原地区.html",
+      "dependencies": []
+    },
+    "地质地理术语/宗日遗址.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 168,
+      "exportedPath": "地质地理术语/宗日遗址.html",
+      "dependencies": []
+    },
+    "疾病与基因/8-氧基脱氧鸟嘌呤（8-oxo-dG）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1185,
+      "exportedPath": "疾病与基因/8-氧基脱氧鸟嘌呤（8-oxo-dg）.html",
+      "dependencies": []
+    },
+    "疾病与基因/伴随删除的倒置重复Inverted duplication associated with a deletion.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1067,
+      "exportedPath": "疾病与基因/伴随删除的倒置重复inverted-duplication-associated-with-a-deletion.html",
+      "dependencies": []
+    },
+    "疾病与基因/保守序列区块（CSBs）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1,
+      "exportedPath": "疾病与基因/保守序列区块（csbs）.html",
+      "dependencies": []
+    },
+    "疾病与基因/必需氨基酸 1.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 398,
+      "exportedPath": "疾病与基因/必需氨基酸-1.html",
+      "dependencies": []
+    },
+    "疾病与基因/表达定量性状位点（Expression Quantitative Trait Locus,eQTL）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 435,
+      "exportedPath": "疾病与基因/表达定量性状位点（expression-quantitative-trait-locus,eqtl）.html",
+      "dependencies": []
+    },
+    "疾病与基因/丙二酰辅酶-A-辅酶蛋白质转移酶(malonyl-CoA-acyl carrier protein transacylase,MCAT) 1.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 614,
+      "exportedPath": "疾病与基因/丙二酰辅酶-a-辅酶蛋白质转移酶(malonyl-coa-acyl-carrier-protein-transacylase,mcat)-1.html",
+      "dependencies": []
+    },
+    "疾病与基因/并存实验（Parabiosis experiments）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 205,
+      "exportedPath": "疾病与基因/并存实验（parabiosis-experiments）.html",
+      "dependencies": []
+    },
+    "疾病与基因/沉默突变.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 115,
+      "exportedPath": "疾病与基因/沉默突变.html",
+      "dependencies": []
+    },
+    "疾病与基因/从头NUMTs（De novo NUMTs）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 417,
+      "exportedPath": "疾病与基因/从头numts（de-novo-numts）.html",
+      "dependencies": []
+    },
+    "疾病与基因/错义变异（Missense）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 109,
+      "exportedPath": "疾病与基因/错义变异（missense）.html",
+      "dependencies": []
+    },
+    "疾病与基因/单链 DNA 结合蛋白 1（single stranded DNA binding protein 1 ，SSBP1） 1.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 2,
+      "exportedPath": "疾病与基因/单链-dna-结合蛋白-1（single-stranded-dna-binding-protein-1-，ssbp1）-1.html",
+      "dependencies": []
+    },
+    "疾病与基因/等位基因分数（allelic fractions）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 102,
+      "exportedPath": "疾病与基因/等位基因分数（allelic-fractions）.html",
+      "dependencies": []
+    },
+    "疾病与基因/等位基因频谱(allele frequency spectrum,SFS).md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 10239,
+      "exportedPath": "疾病与基因/等位基因频谱(allele-frequency-spectrum,sfs).html",
+      "dependencies": []
+    },
+    "疾病与基因/颠换（transversion）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 323,
+      "exportedPath": "疾病与基因/颠换（transversion）.html",
+      "dependencies": []
+    },
+    "疾病与基因/典型mtDNA变异.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 3833,
+      "exportedPath": "疾病与基因/典型mtdna变异.html",
+      "dependencies": []
+    },
+    "疾病与基因/非必须氨基酸 1.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 551,
+      "exportedPath": "疾病与基因/非必须氨基酸-1.html",
+      "dependencies": []
+    },
+    "疾病与基因/非同义突变（Non-Synonymous Mutation）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 419,
+      "exportedPath": "疾病与基因/非同义突变（non-synonymous-mutation）.html",
+      "dependencies": []
+    },
+    "疾病与基因/冈崎片段（Okazaki frageme）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 251,
+      "exportedPath": "疾病与基因/冈崎片段（okazaki-frageme）.html",
+      "dependencies": []
+    },
+    "疾病与基因/共定位.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 831,
+      "exportedPath": "疾病与基因/共定位.html",
+      "dependencies": []
+    },
+    "疾病与基因/过氧化物酶体增殖物激活受体γ共激活因子-1α（PGC-1α）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1864,
+      "exportedPath": "疾病与基因/过氧化物酶体增殖物激活受体γ共激活因子-1α（pgc-1α）.html",
+      "dependencies": []
+    },
+    "疾病与基因/核-线片段（NUMTs）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 122,
+      "exportedPath": "疾病与基因/核-线片段（numts）.html",
+      "dependencies": []
+    },
+    "疾病与基因/核内复制机器1（Ribonucleotide Reductase Regulatory Subunit M1,RRM1) 1.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 282,
+      "exportedPath": "疾病与基因/核内复制机器1（ribonucleotide-reductase-regulatory-subunit-m1,rrm1)-1.html",
+      "dependencies": []
+    },
+    "疾病与基因/后期有丝分裂组织（post-mitotic tissues）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 280,
+      "exportedPath": "疾病与基因/后期有丝分裂组织（post-mitotic-tissues）.html",
+      "dependencies": []
+    },
+    "疾病与基因/活性氧种(Reactive Oxygen Species,ROS).md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 729,
+      "exportedPath": "疾病与基因/活性氧种(reactive-oxygen-species,ros).html",
+      "dependencies": []
+    },
+    "疾病与基因/基因间区域（intergenic regions）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 454,
+      "exportedPath": "疾病与基因/基因间区域（intergenic-regions）.html",
+      "dependencies": []
+    },
+    "疾病与基因/基因失活变异（Protein-truncating Loss-of-Function，pLoF）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 55,
+      "exportedPath": "疾病与基因/基因失活变异（protein-truncating-loss-of-function，plof）.html",
+      "dependencies": []
+    },
+    "疾病与基因/基因水平转移（horizontal gene transfer，HGT）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 3461,
+      "exportedPath": "疾病与基因/基因水平转移（horizontal-gene-transfer，hgt）.html",
+      "dependencies": []
+    },
+    "疾病与基因/嵴连接（Crista junction, CrJ）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 734,
+      "exportedPath": "疾病与基因/嵴连接（crista-junction,-crj）.html",
+      "dependencies": []
+    },
+    "疾病与基因/甲基化.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1972,
+      "exportedPath": "疾病与基因/甲基化.html",
+      "dependencies": []
+    },
+    "疾病与基因/结构变异（Structural Variations, SVs）的机制.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 2845,
+      "exportedPath": "疾病与基因/结构变异（structural-variations,-svs）的机制.html",
+      "dependencies": []
+    },
+    "疾病与基因/联合衍生等位基因频率谱（joint Derived Allele Frequency spectrum， joint DAF）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 2342,
+      "exportedPath": "疾病与基因/联合衍生等位基因频率谱（joint-derived-allele-frequency-spectrum，-joint-daf）.html",
+      "dependencies": []
+    },
+    "疾病与基因/镰刀型细胞贫血病.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 2234,
+      "exportedPath": "疾病与基因/镰刀型细胞贫血病.html",
+      "dependencies": []
+    },
+    "疾病与基因/磷酸二羟丙酮.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 214,
+      "exportedPath": "疾病与基因/磷酸二羟丙酮.html",
+      "dependencies": []
+    },
+    "疾病与基因/硫酸乙酰肝素（Keratan sulfate，KS）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 550,
+      "exportedPath": "疾病与基因/硫酸乙酰肝素（keratan-sulfate，ks）.html",
+      "dependencies": []
+    },
+    "疾病与基因/梅勒氏卡盘.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1124,
+      "exportedPath": "疾病与基因/梅勒氏卡盘.html",
+      "dependencies": []
+    },
+    "疾病与基因/内含子.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 424,
+      "exportedPath": "疾病与基因/内含子.html",
+      "dependencies": []
+    },
+    "疾病与基因/内体隔室（Endosomal compartment）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1704,
+      "exportedPath": "疾病与基因/内体隔室（endosomal-compartment）.html",
+      "dependencies": []
+    },
+    "疾病与基因/嘌呤核苷酸磷酸化酶(Purine Nucleoside Phosphorylase,PNP).md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 317,
+      "exportedPath": "疾病与基因/嘌呤核苷酸磷酸化酶(purine-nucleoside-phosphorylase,pnp).html",
+      "dependencies": []
+    },
+    "疾病与基因/葡萄糖-6-磷酸脱氢酶缺乏症(Glucose-6-Phosphate Dehydrogenase deficiency, G6PDD）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1535,
+      "exportedPath": "疾病与基因/葡萄糖-6-磷酸脱氢酶缺乏症(glucose-6-phosphate-dehydrogenase-deficiency,-g6pdd）.html",
+      "dependencies": []
+    },
+    "疾病与基因/轻链启动子（Light Strand Promoter,LSP）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 194,
+      "exportedPath": "疾病与基因/轻链启动子（light-strand-promoter,lsp）.html",
+      "dependencies": []
+    },
+    "疾病与基因/人类基因组计划二十年基石.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 9554,
+      "exportedPath": "疾病与基因/人类基因组计划二十年基石.html",
+      "dependencies": []
+    },
+    "疾病与基因/三羧酸循环（TCA）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 3568,
+      "exportedPath": "疾病与基因/三羧酸循环（tca）.html",
+      "dependencies": []
+    },
+    "疾病与基因/失义或功能丧失（LoF）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1068,
+      "exportedPath": "疾病与基因/失义或功能丧失（lof）.html",
+      "dependencies": []
+    },
+    "疾病与基因/同义突变（Synonymous Mutation）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 418,
+      "exportedPath": "疾病与基因/同义突变（synonymous-mutation）.html",
+      "dependencies": []
+    },
+    "疾病与基因/同源型变异.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1044,
+      "exportedPath": "疾病与基因/同源型变异.html",
+      "dependencies": []
+    },
+    "疾病与基因/同源重组区域（recombination of homologous,ROH）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 2249,
+      "exportedPath": "疾病与基因/同源重组区域（recombination-of-homologous,roh）.html",
+      "dependencies": []
+    },
+    "疾病与基因/微共线性（microsynteny）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 187,
+      "exportedPath": "疾病与基因/微共线性（microsynteny）.html",
+      "dependencies": []
+    },
+    "疾病与基因/无嘌呤或无嘧啶核酸内切酶1（Apurinic ,Apyrimidinic Endonuclease 1,APEX1).md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 258,
+      "exportedPath": "疾病与基因/无嘌呤或无嘧啶核酸内切酶1（apurinic-,apyrimidinic-endonuclease-1,apex1).html",
+      "dependencies": []
+    },
+    "疾病与基因/细胞外囊泡（Extracellular Vesicle (EV)）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 2352,
+      "exportedPath": "疾病与基因/细胞外囊泡（extracellular-vesicle-(ev)）.html",
+      "dependencies": []
+    },
+    "疾病与基因/线粒体的RSRS和rCRS的区别.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 2483,
+      "exportedPath": "疾病与基因/线粒体的rsrs和rcrs的区别.html",
+      "dependencies": []
+    },
+    "疾病与基因/线粒体呼吸链复合物I亚单位3（NADH Dehydrogenase Ubiquinone Flavoprotein 3,NDUFV3) 1.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 146,
+      "exportedPath": "疾病与基因/线粒体呼吸链复合物i亚单位3（nadh-dehydrogenase-ubiquinone-flavoprotein-3,ndufv3)-1.html",
+      "dependencies": []
+    },
+    "疾病与基因/线粒体基因组维护外切酶1(Mitochondrial Genome Maintenance Exonuclease 1，MGME1) 1.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 776,
+      "exportedPath": "疾病与基因/线粒体基因组维护外切酶1(mitochondrial-genome-maintenance-exonuclease-1，mgme1)-1.html",
+      "dependencies": []
+    },
+    "疾病与基因/线粒体融合蛋白2(Mitofusin 2,MFN2) 1.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 255,
+      "exportedPath": "疾病与基因/线粒体融合蛋白2(mitofusin-2,mfn2)-1.html",
+      "dependencies": []
+    },
+    "疾病与基因/线粒体树的标识符.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 2425,
+      "exportedPath": "疾病与基因/线粒体树的标识符.html",
+      "dependencies": []
+    },
+    "疾病与基因/线粒体转录因子A（Transcription Factor A Mitochondrial，TFAM）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 408,
+      "exportedPath": "疾病与基因/线粒体转录因子a（transcription-factor-a-mitochondrial，tfam）.html",
+      "dependencies": []
+    },
+    "疾病与基因/线粒体DNA（mtDNA）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1,
+      "exportedPath": "疾病与基因/线粒体dna（mtdna）.html",
+      "dependencies": []
+    },
+    "疾病与基因/线粒体DNA（mtDNA）的突变定义规则.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 2506,
+      "exportedPath": "疾病与基因/线粒体dna（mtdna）的突变定义规则.html",
+      "dependencies": []
+    },
+    "疾病与基因/线粒体DNA编码、在细胞质中翻译的蛋白质（mtDNA-encoded protein arising from cytosolic translation，mPACT）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1,
+      "exportedPath": "疾病与基因/线粒体dna编码、在细胞质中翻译的蛋白质（mtdna-encoded-protein-arising-from-cytosolic-translation，mpact）.html",
+      "dependencies": []
+    },
+    "疾病与基因/线粒体DNA传播.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 2033,
+      "exportedPath": "疾病与基因/线粒体dna传播.html",
+      "dependencies": []
+    },
+    "疾病与基因/线粒体DNA结构（mt-DNA structure）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1177,
+      "exportedPath": "疾病与基因/线粒体dna结构（mt-dna-structure）.html",
+      "dependencies": []
+    },
+    "疾病与基因/线粒体DNA拷贝数（mtCN）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 125,
+      "exportedPath": "疾病与基因/线粒体dna拷贝数（mtcn）.html",
+      "dependencies": []
+    },
+    "疾病与基因/氧化磷酸化系统调节蛋白1（Oxidative Phosphorylation System Regulator 1,OMA1） 1.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 898,
+      "exportedPath": "疾病与基因/氧化磷酸化系统调节蛋白1（oxidative-phosphorylation-system-regulator-1,oma1）-1.html",
+      "dependencies": []
+    },
+    "疾病与基因/异龄联合（heterochronic parabiosis）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 82,
+      "exportedPath": "疾病与基因/异龄联合（heterochronic-parabiosis）.html",
+      "dependencies": []
+    },
+    "疾病与基因/英国生物银行（UK Biobank ,UKB）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 688,
+      "exportedPath": "疾病与基因/英国生物银行（uk-biobank-,ukb）.html",
+      "dependencies": []
+    },
+    "疾病与基因/英国十万人基因组计划（100,000 Genomes Project in England）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 455,
+      "exportedPath": "疾病与基因/英国十万人基因组计划（100,000-genomes-project-in-england）.html",
+      "dependencies": []
+    },
+    "疾病与基因/粘液样脂肪肉瘤（myxoid liposarcoma）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 429,
+      "exportedPath": "疾病与基因/粘液样脂肪肉瘤（myxoid-liposarcoma）.html",
+      "dependencies": []
+    },
+    "疾病与基因/整合应激反应（integrated stress response (ISR).md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 2594,
+      "exportedPath": "疾病与基因/整合应激反应（integrated-stress-response-(isr).html",
+      "dependencies": []
+    },
+    "疾病与基因/直系同源基因（Orthologs）与旁系同源基因（Paralogs）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 999,
+      "exportedPath": "疾病与基因/直系同源基因（orthologs）与旁系同源基因（paralogs）.html",
+      "dependencies": []
+    },
+    "疾病与基因/转换（transition）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 314,
+      "exportedPath": "疾病与基因/转换（transition）.html",
+      "dependencies": []
+    },
+    "疾病与基因/转座酶可访问染色质测定（Assay for Transposase-Accessible Chromatin with high-throughput sequencing，ATAC-seq）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1621,
+      "exportedPath": "疾病与基因/转座酶可访问染色质测定（assay-for-transposase-accessible-chromatin-with-high-throughput-sequencing，atac-seq）.html",
+      "dependencies": []
+    },
+    "疾病与基因/转座元件（Transposable Elements）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 268,
+      "exportedPath": "疾病与基因/转座元件（transposable-elements）.html",
+      "dependencies": []
+    },
+    "疾病与基因/最大等位基因频率（Maximum Minor Allele Frequency，Max MAF）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 400,
+      "exportedPath": "疾病与基因/最大等位基因频率（maximum-minor-allele-frequency，max-maf）.html",
+      "dependencies": []
+    },
+    "疾病与基因/All of Us（AOU）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1,
+      "exportedPath": "疾病与基因/all-of-us（aou）.html",
+      "dependencies": []
+    },
+    "疾病与基因/DNA翻片（DNA flap）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 911,
+      "exportedPath": "疾病与基因/dna翻片（dna-flap）.html",
+      "dependencies": []
+    },
+    "疾病与基因/Leigh综合征.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 807,
+      "exportedPath": "疾病与基因/leigh综合征.html",
+      "dependencies": []
+    },
+    "疾病与基因/Max MAF.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 400,
+      "exportedPath": "疾病与基因/max-maf.html",
+      "dependencies": []
+    },
+    "疾病与基因/MCAT基因（Mitochondrial Carnitine Acylcarnitine Carrier）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 862,
+      "exportedPath": "疾病与基因/mcat基因（mitochondrial-carnitine-acylcarnitine-carrier）.html",
+      "dependencies": []
+    },
+    "疾病与基因/MELAS综合症（Mitochondrial Encephalomyopathy, Lactic Acidosis, and Stroke-like Episodes）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1092,
+      "exportedPath": "疾病与基因/melas综合症（mitochondrial-encephalomyopathy,-lactic-acidosis,-and-stroke-like-episodes）.html",
+      "dependencies": []
+    },
+    "疾病与基因/PR结构域锌指蛋白9（PRDM9）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 909,
+      "exportedPath": "疾病与基因/pr结构域锌指蛋白9（prdm9）.html",
+      "dependencies": []
+    },
+    "疾病与基因/rCRS（revised Cambridge Reference Sequence）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 430,
+      "exportedPath": "疾病与基因/rcrs（revised-cambridge-reference-sequence）.html",
+      "dependencies": []
+    },
+    "疾病与基因/RSRS（Reconstructed Sapiens Reference Sequence）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 403,
+      "exportedPath": "疾病与基因/rsrs（reconstructed-sapiens-reference-sequence）.html",
+      "dependencies": []
+    },
+    "疾病与基因/S-腺苷甲硫氨酸 (SAM).md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 347,
+      "exportedPath": "疾病与基因/s-腺苷甲硫氨酸-(sam).html",
+      "dependencies": []
+    },
+    "疾病与基因/Twinkle基因（TWNK）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 931,
+      "exportedPath": "疾病与基因/twinkle基因（twnk）.html",
+      "dependencies": []
+    },
+    "疾病与基因/VAF.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 87,
+      "exportedPath": "疾病与基因/vaf.html",
+      "dependencies": []
+    },
+    "科研方法及理论/贝叶斯进化树分析（Bayesian Evolutionary Analysis by Sampling Trees，BEAST）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 558,
+      "exportedPath": "科研方法及理论/贝叶斯进化树分析（bayesian-evolutionary-analysis-by-sampling-trees，beast）.html",
+      "dependencies": []
+    },
+    "科研方法及理论/贝叶斯马尔科夫链蒙特卡罗分析（Bayesian MCMC analysis）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 2863,
+      "exportedPath": "科研方法及理论/贝叶斯马尔科夫链蒙特卡罗分析（bayesian-mcmc-analysis）.html",
+      "dependencies": []
+    },
+    "科研方法及理论/贝叶斯天际线图（Bayesian Skyline Plot ，BSP）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1516,
+      "exportedPath": "科研方法及理论/贝叶斯天际线图（bayesian-skyline-plot-，bsp）.html",
+      "dependencies": []
+    },
+    "科研方法及理论/贝叶斯天际线图（Bayesian skyline plot，BSP).md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 456,
+      "exportedPath": "科研方法及理论/贝叶斯天际线图（bayesian-skyline-plot，bsp).html",
+      "dependencies": []
+    },
+    "科研方法及理论/贝叶斯系统发育模型.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1868,
+      "exportedPath": "科研方法及理论/贝叶斯系统发育模型.html",
+      "dependencies": []
+    },
+    "科研方法及理论/避难所（Refuge）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 346,
+      "exportedPath": "科研方法及理论/避难所（refuge）.html",
+      "dependencies": []
+    },
+    "科研方法及理论/标准化的赔率比（standardized odds ratio，SOR）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 672,
+      "exportedPath": "科研方法及理论/标准化的赔率比（standardized-odds-ratio，sor）.html",
+      "dependencies": []
+    },
+    "科研方法及理论/不完全谱系分选（incomplete lineage sorting，ILS）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 906,
+      "exportedPath": "科研方法及理论/不完全谱系分选（incomplete-lineage-sorting，ils）.html",
+      "dependencies": []
+    },
+    "科研方法及理论/测序覆盖度（Sequencing Coverage）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 393,
+      "exportedPath": "科研方法及理论/测序覆盖度（sequencing-coverage）.html",
+      "dependencies": []
+    },
+    "科研方法及理论/测序后数据处理概览.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 589,
+      "exportedPath": "科研方法及理论/测序后数据处理概览.html",
+      "dependencies": []
+    },
+    "科研方法及理论/测序深度（Sequencing Depth）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 361,
+      "exportedPath": "科研方法及理论/测序深度（sequencing-depth）.html",
+      "dependencies": []
+    },
+    "科研方法及理论/从遗传差异推断种群分离时间(Inference of population separation times from genetic divergence).md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1764,
+      "exportedPath": "科研方法及理论/从遗传差异推断种群分离时间(inference-of-population-separation-times-from-genetic-divergence).html",
+      "dependencies": []
+    },
+    "科研方法及理论/搭车变异（hitchhiked variants）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 55,
+      "exportedPath": "科研方法及理论/搭车变异（hitchhiked-variants）.html",
+      "dependencies": []
+    },
+    "科研方法及理论/单倍型（haplotypes）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 844,
+      "exportedPath": "科研方法及理论/单倍型（haplotypes）.html",
+      "dependencies": []
+    },
+    "科研方法及理论/等位基因频谱(allele frequency spectrum).md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 721,
+      "exportedPath": "科研方法及理论/等位基因频谱(allele-frequency-spectrum).html",
+      "dependencies": []
+    },
+    "科研方法及理论/狄利克雷分布.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1454,
+      "exportedPath": "科研方法及理论/狄利克雷分布.html",
+      "dependencies": []
+    },
+    "科研方法及理论/抵消模型.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 220,
+      "exportedPath": "科研方法及理论/抵消模型.html",
+      "dependencies": []
+    },
+    "科研方法及理论/典型的nDNA结构变异.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 3144,
+      "exportedPath": "科研方法及理论/典型的ndna结构变异.html",
+      "dependencies": []
+    },
+    "科研方法及理论/多态性（Polymorphism）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 352,
+      "exportedPath": "科研方法及理论/多态性（polymorphism）.html",
+      "dependencies": []
+    },
+    "科研方法及理论/多维缩放（Multidimensional Scaling, MDS）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 3169,
+      "exportedPath": "科研方法及理论/多维缩放（multidimensional-scaling,-mds）.html",
+      "dependencies": []
+    },
+    "科研方法及理论/多中心假说.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 250,
+      "exportedPath": "科研方法及理论/多中心假说.html",
+      "dependencies": []
+    },
+    "科研方法及理论/非重组区（Y特异性区）（male-specificregion，MSY）（non-recombiningY，NRY）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1,
+      "exportedPath": "科研方法及理论/非重组区（y特异性区）（male-specificregion，msy）（non-recombiningy，nry）.html",
+      "dependencies": []
+    },
+    "科研方法及理论/分层LD分数回归（Stratified Linkage Disequilibrium Score Regression，S-LDSC,S-LDSC).md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 837,
+      "exportedPath": "科研方法及理论/分层ld分数回归（stratified-linkage-disequilibrium-score-regression，s-ldsc,s-ldsc).html",
+      "dependencies": []
+    },
+    "科研方法及理论/分子方差分析（AMOVA ，Analysis of Molecular Variance).md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 2454,
+      "exportedPath": "科研方法及理论/分子方差分析（amova-，analysis-of-molecular-variance).html",
+      "dependencies": []
+    },
+    "科研方法及理论/分子钟定年方法(molecular dating approach).md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 173,
+      "exportedPath": "科研方法及理论/分子钟定年方法(molecular-dating-approach).html",
+      "dependencies": []
+    },
+    "科研方法及理论/风险比（Odds Ratio, OR）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 611,
+      "exportedPath": "科研方法及理论/风险比（odds-ratio,-or）.html",
+      "dependencies": []
+    },
+    "科研方法及理论/负选择（Negative Selection）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 322,
+      "exportedPath": "科研方法及理论/负选择（negative-selection）.html",
+      "dependencies": []
+    },
+    "科研方法及理论/富集分析之桃园三结义：GO、KEGG、GSEA.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 19550,
+      "exportedPath": "科研方法及理论/富集分析之桃园三结义：go、kegg、gsea.html",
+      "dependencies": []
+    },
+    "科研方法及理论/高通量测序（第二代测序技术）（next-generation sequencing，NGS）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 2184,
+      "exportedPath": "科研方法及理论/高通量测序（第二代测序技术）（next-generation-sequencing，ngs）.html",
+      "dependencies": []
+    },
+    "科研方法及理论/高通量染色体构象捕获技术(High-throughput chromosome conformation capture,Hi-C).md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 3815,
+      "exportedPath": "科研方法及理论/高通量染色体构象捕获技术(high-throughput-chromosome-conformation-capture,hi-c).html",
+      "dependencies": []
+    },
+    "科研方法及理论/估计突变率（Estimating mutation rates）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 4504,
+      "exportedPath": "科研方法及理论/估计突变率（estimating-mutation-rates）.html",
+      "dependencies": []
+    },
+    "科研方法及理论/恒定速率（invariable,I）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 46,
+      "exportedPath": "科研方法及理论/恒定速率（invariable,i）.html",
+      "dependencies": []
+    },
+    "科研方法及理论/后验包含概率(Posterior Inclusion Probability,PIP).md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 62,
+      "exportedPath": "科研方法及理论/后验包含概率(posterior-inclusion-probability,pip).html",
+      "dependencies": []
+    },
+    "科研方法及理论/后验概率.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 800,
+      "exportedPath": "科研方法及理论/后验概率.html",
+      "dependencies": []
+    },
+    "科研方法及理论/化石标定（fossil calibration）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1,
+      "exportedPath": "科研方法及理论/化石标定（fossil-calibration）.html",
+      "dependencies": []
+    },
+    "科研方法及理论/回归分析因子（REGR）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1684,
+      "exportedPath": "科研方法及理论/回归分析因子（regr）.html",
+      "dependencies": []
+    },
+    "科研方法及理论/基因级稀有变异关联研究（RVAS）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1855,
+      "exportedPath": "科研方法及理论/基因级稀有变异关联研究（rvas）.html",
+      "dependencies": []
+    },
+    "科研方法及理论/基因频率和表达的综合选择 (Integrated Selection on Allele Frequency and Expression，iSAFE).md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1025,
+      "exportedPath": "科研方法及理论/基因频率和表达的综合选择-(integrated-selection-on-allele-frequency-and-expression，isafe).html",
+      "dependencies": []
+    },
+    "科研方法及理论/基因突变（Gene mutation）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 490,
+      "exportedPath": "科研方法及理论/基因突变（gene-mutation）.html",
+      "dependencies": []
+    },
+    "科研方法及理论/基因组测序技术.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 2760,
+      "exportedPath": "科研方法及理论/基因组测序技术.html",
+      "dependencies": []
+    },
+    "科研方法及理论/伽马分布（Gamma distribution,Γ）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1121,
+      "exportedPath": "科研方法及理论/伽马分布（gamma-distribution,γ）.html",
+      "dependencies": []
+    },
+    "科研方法及理论/假阳性（False positive）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 175,
+      "exportedPath": "科研方法及理论/假阳性（false-positive）.html",
+      "dependencies": []
+    },
+    "科研方法及理论/假阴性（False negative）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 221,
+      "exportedPath": "科研方法及理论/假阴性（false-negative）.html",
+      "dependencies": []
+    },
+    "科研方法及理论/精子发生过程.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1521,
+      "exportedPath": "科研方法及理论/精子发生过程.html",
+      "dependencies": []
+    },
+    "科研方法及理论/聚合酶链式反应（PCR）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1410,
+      "exportedPath": "科研方法及理论/聚合酶链式反应（pcr）.html",
+      "dependencies": []
+    },
+    "科研方法及理论/均匀分布.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1255,
+      "exportedPath": "科研方法及理论/均匀分布.html",
+      "dependencies": []
+    },
+    "科研方法及理论/扩展贝叶斯天际线图（Extended Bayesian Skyline Plot，EBSP）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 479,
+      "exportedPath": "科研方法及理论/扩展贝叶斯天际线图（extended-bayesian-skyline-plot，ebsp）.html",
+      "dependencies": []
+    },
+    "科研方法及理论/扩展单倍型同源性（ extended haplotype homozygosity，EHH）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 464,
+      "exportedPath": "科研方法及理论/扩展单倍型同源性（-extended-haplotype-homozygosity，ehh）.html",
+      "dependencies": []
+    },
+    "科研方法及理论/连锁不平衡（linkage disequilibrium，LD）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1343,
+      "exportedPath": "科研方法及理论/连锁不平衡（linkage-disequilibrium，ld）.html",
+      "dependencies": []
+    },
+    "科研方法及理论/连续进化附带杂交假说.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1,
+      "exportedPath": "科研方法及理论/连续进化附带杂交假说.html",
+      "dependencies": []
+    },
+    "科研方法及理论/临床研究中基线信息的统计分析与统计图表.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 7047,
+      "exportedPath": "科研方法及理论/临床研究中基线信息的统计分析与统计图表.html",
+      "dependencies": []
+    },
+    "科研方法及理论/马尔科夫链（Markov Chain）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 2751,
+      "exportedPath": "科研方法及理论/马尔科夫链（markov-chain）.html",
+      "dependencies": []
+    },
+    "科研方法及理论/马尔科夫链蒙特卡罗（Markov Chain Monte Carlo，MCMC）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 445,
+      "exportedPath": "科研方法及理论/马尔科夫链蒙特卡罗（markov-chain-monte-carlo，mcmc）.html",
+      "dependencies": []
+    },
+    "科研方法及理论/孟德尔随机化分析（Mendelian Randomization, MR）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1218,
+      "exportedPath": "科研方法及理论/孟德尔随机化分析（mendelian-randomization,-mr）.html",
+      "dependencies": []
+    },
+    "科研方法及理论/孟德尔遗传（Mendelian laws of inheritance）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 665,
+      "exportedPath": "科研方法及理论/孟德尔遗传（mendelian-laws-of-inheritance）.html",
+      "dependencies": []
+    },
+    "科研方法及理论/平行进化（Parallel Evolution）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1039,
+      "exportedPath": "科研方法及理论/平行进化（parallel-evolution）.html",
+      "dependencies": []
+    },
+    "科研方法及理论/瓶颈效应（bottleneck）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1446,
+      "exportedPath": "科研方法及理论/瓶颈效应（bottleneck）.html",
+      "dependencies": []
+    },
+    "科研方法及理论/泊松分布（Poisson Distribution）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1802,
+      "exportedPath": "科研方法及理论/泊松分布（poisson-distribution）.html",
+      "dependencies": []
+    },
+    "科研方法及理论/趋同进化.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 607,
+      "exportedPath": "科研方法及理论/趋同进化.html",
+      "dependencies": []
+    },
+    "科研方法及理论/趋异进化.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 461,
+      "exportedPath": "科研方法及理论/趋异进化.html",
+      "dependencies": []
+    },
+    "科研方法及理论/全基因组测序（Whole Genome Sequencing，WGS）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1237,
+      "exportedPath": "科研方法及理论/全基因组测序（whole-genome-sequencing，wgs）.html",
+      "dependencies": []
+    },
+    "科研方法及理论/如何构思论文？.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 534,
+      "exportedPath": "科研方法及理论/如何构思论文？.html",
+      "dependencies": []
+    },
+    "科研方法及理论/生灭模型(birth-death model).md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1388,
+      "exportedPath": "科研方法及理论/生灭模型(birth-death-model).html",
+      "dependencies": []
+    },
+    "科研方法及理论/生态学十大法则.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 4345,
+      "exportedPath": "科研方法及理论/生态学十大法则.html",
+      "dependencies": []
+    },
+    "科研方法及理论/数据科学家 95 时间都在使用的 10 大基本分布.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 10258,
+      "exportedPath": "科研方法及理论/数据科学家-95-时间都在使用的-10-大基本分布.html",
+      "dependencies": []
+    },
+    "科研方法及理论/双重假说.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 684,
+      "exportedPath": "科研方法及理论/双重假说.html",
+      "dependencies": []
+    },
+    "科研方法及理论/顺式遗传调控作用(cis-acting genetic control).md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 788,
+      "exportedPath": "科研方法及理论/顺式遗传调控作用(cis-acting-genetic-control).html",
+      "dependencies": []
+    },
+    "科研方法及理论/四色问题.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 702,
+      "exportedPath": "科研方法及理论/四色问题.html",
+      "dependencies": []
+    },
+    "科研方法及理论/四种建树方法比较.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 5127,
+      "exportedPath": "科研方法及理论/四种建树方法比较.html",
+      "dependencies": []
+    },
+    "科研方法及理论/塔岛技术悲剧.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 482,
+      "exportedPath": "科研方法及理论/塔岛技术悲剧.html",
+      "dependencies": []
+    },
+    "科研方法及理论/拓扑学(topology).md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 675,
+      "exportedPath": "科研方法及理论/拓扑学(topology).html",
+      "dependencies": []
+    },
+    "科研方法及理论/替换积累速率（substitutions accumulate）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 82,
+      "exportedPath": "科研方法及理论/替换积累速率（substitutions-accumulate）.html",
+      "dependencies": []
+    },
+    "科研方法及理论/统一流形近似和投影（Uniform Manifold Approximation and Projection,UMAP）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 454,
+      "exportedPath": "科研方法及理论/统一流形近似和投影（uniform-manifold-approximation-and-projection,umap）.html",
+      "dependencies": []
+    },
+    "科研方法及理论/透彻理解p值与假设检验.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 6731,
+      "exportedPath": "科研方法及理论/透彻理解p值与假设检验.html",
+      "dependencies": []
+    },
+    "科研方法及理论/突变率（Mutation rate）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 321,
+      "exportedPath": "科研方法及理论/突变率（mutation-rate）.html",
+      "dependencies": []
+    },
+    "科研方法及理论/伪异质性(pseudo-heteroplasmy).md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 541,
+      "exportedPath": "科研方法及理论/伪异质性(pseudo-heteroplasmy).html",
+      "dependencies": []
+    },
+    "科研方法及理论/为什么要学习贝叶斯统计？.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 24305,
+      "exportedPath": "科研方法及理论/为什么要学习贝叶斯统计？.html",
+      "dependencies": []
+    },
+    "科研方法及理论/物种分歧时间、分子进化速率计算（TimeTree、PAML mcmctree、codeml 、MEGA ).md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 3217,
+      "exportedPath": "科研方法及理论/物种分歧时间、分子进化速率计算（timetree、paml-mcmctree、codeml-、mega-).html",
+      "dependencies": []
+    },
+    "科研方法及理论/系统发育率（phylogenetic rate）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 201,
+      "exportedPath": "科研方法及理论/系统发育率（phylogenetic-rate）.html",
+      "dependencies": []
+    },
+    "科研方法及理论/系统发育树.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 7059,
+      "exportedPath": "科研方法及理论/系统发育树.html",
+      "dependencies": []
+    },
+    "科研方法及理论/先验概率.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 236,
+      "exportedPath": "科研方法及理论/先验概率.html",
+      "dependencies": []
+    },
+    "科研方法及理论/新生突变率（de novo mutation rate）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 91,
+      "exportedPath": "科研方法及理论/新生突变率（de-novo-mutation-rate）.html",
+      "dependencies": []
+    },
+    "科研方法及理论/序列质量分数.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 2102,
+      "exportedPath": "科研方法及理论/序列质量分数.html",
+      "dependencies": []
+    },
+    "科研方法及理论/循环一致测序（Circular Consensus Sequencing，CCS）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1474,
+      "exportedPath": "科研方法及理论/循环一致测序（circular-consensus-sequencing，ccs）.html",
+      "dependencies": []
+    },
+    "科研方法及理论/遗传漂变（genetic drift）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 424,
+      "exportedPath": "科研方法及理论/遗传漂变（genetic-drift）.html",
+      "dependencies": []
+    },
+    "科研方法及理论/异质性（Heteroplasmy）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 50,
+      "exportedPath": "科研方法及理论/异质性（heteroplasmy）.html",
+      "dependencies": []
+    },
+    "科研方法及理论/隐马尔科夫模型（Hiden Markov Model）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 3744,
+      "exportedPath": "科研方法及理论/隐马尔科夫模型（hiden-markov-model）.html",
+      "dependencies": []
+    },
+    "科研方法及理论/尤尔模型(Yule model).md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1209,
+      "exportedPath": "科研方法及理论/尤尔模型(yule-model).html",
+      "dependencies": []
+    },
+    "科研方法及理论/有效群体规模 (effective population size，Ne).md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1165,
+      "exportedPath": "科研方法及理论/有效群体规模-(effective-population-size，ne).html",
+      "dependencies": []
+    },
+    "科研方法及理论/长程单倍型（long-range haplotypes）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 61,
+      "exportedPath": "科研方法及理论/长程单倍型（long-range-haplotypes）.html",
+      "dependencies": []
+    },
+    "科研方法及理论/长读取测序技术.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1335,
+      "exportedPath": "科研方法及理论/长读取测序技术.html",
+      "dependencies": []
+    },
+    "科研方法及理论/长读长 DNA 测序技术.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 7718,
+      "exportedPath": "科研方法及理论/长读长-dna-测序技术.html",
+      "dependencies": []
+    },
+    "科研方法及理论/长距离引物.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 2760,
+      "exportedPath": "科研方法及理论/长距离引物.html",
+      "dependencies": []
+    },
+    "科研方法及理论/正选择（Positive Selection）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 373,
+      "exportedPath": "科研方法及理论/正选择（positive-selection）.html",
+      "dependencies": []
+    },
+    "科研方法及理论/置信区间.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 996,
+      "exportedPath": "科研方法及理论/置信区间.html",
+      "dependencies": []
+    },
+    "科研方法及理论/中华文明本土说.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1,
+      "exportedPath": "科研方法及理论/中华文明本土说.html",
+      "dependencies": []
+    },
+    "科研方法及理论/种群分支统计（Population Branch statistic，PBS）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1991,
+      "exportedPath": "科研方法及理论/种群分支统计（population-branch-statistic，pbs）.html",
+      "dependencies": []
+    },
+    "科研方法及理论/种群结构分析（ADMIXTURE）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1115,
+      "exportedPath": "科研方法及理论/种群结构分析（admixture）.html",
+      "dependencies": []
+    },
+    "科研方法及理论/种群配对Fst值（Population pairwise Fst values）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 6802,
+      "exportedPath": "科研方法及理论/种群配对fst值（population-pairwise-fst-values）.html",
+      "dependencies": []
+    },
+    "科研方法及理论/烛台理论.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 106,
+      "exportedPath": "科研方法及理论/烛台理论.html",
+      "dependencies": []
+    },
+    "科研方法及理论/主成分分析（Principal Component Analysis，PCA）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 4790,
+      "exportedPath": "科研方法及理论/主成分分析（principal-component-analysis，pca）.html",
+      "dependencies": []
+    },
+    "科研方法及理论/综合单倍型评分（integrated haplotype score, iHS）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1221,
+      "exportedPath": "科研方法及理论/综合单倍型评分（integrated-haplotype-score,-ihs）.html",
+      "dependencies": []
+    },
+    "科研方法及理论/祖先反卷积（Ancestry deconvolution）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 580,
+      "exportedPath": "科研方法及理论/祖先反卷积（ancestry-deconvolution）.html",
+      "dependencies": []
+    },
+    "科研方法及理论/最大简约法（Maximum Parsimony）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 987,
+      "exportedPath": "科研方法及理论/最大简约法（maximum-parsimony）.html",
+      "dependencies": []
+    },
+    "科研方法及理论/最近共同祖先(Time to most recent common ancesto，MRCA).md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 2830,
+      "exportedPath": "科研方法及理论/最近共同祖先(time-to-most-recent-common-ancesto，mrca).html",
+      "dependencies": []
+    },
+    "科研方法及理论/BSX-BAK巨孔.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1,
+      "exportedPath": "科研方法及理论/bsx-bak巨孔.html",
+      "dependencies": []
+    },
+    "科研方法及理论/CpG甲基化.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 291,
+      "exportedPath": "科研方法及理论/cpg甲基化.html",
+      "dependencies": []
+    },
+    "科研方法及理论/cross-population extended haplotype homozygosity (XP-EHH).md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1,
+      "exportedPath": "科研方法及理论/cross-population-extended-haplotype-homozygosity-(xp-ehh).html",
+      "dependencies": []
+    },
+    "科研方法及理论/D 统计量检验（Patterson’s D statistic）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 2158,
+      "exportedPath": "科研方法及理论/d-统计量检验（patterson’s-d-statistic）.html",
+      "dependencies": []
+    },
+    "科研方法及理论/DNA双链断裂(DSB).md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1,
+      "exportedPath": "科研方法及理论/dna双链断裂(dsb).html",
+      "dependencies": []
+    },
+    "科研方法及理论/Epstein-Barr病毒转化.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1653,
+      "exportedPath": "科研方法及理论/epstein-barr病毒转化.html",
+      "dependencies": []
+    },
+    "科研方法及理论/f-3统计.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1033,
+      "exportedPath": "科研方法及理论/f-3统计.html",
+      "dependencies": []
+    },
+    "科研方法及理论/f-4统计(没看懂）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 885,
+      "exportedPath": "科研方法及理论/f-4统计(没看懂）.html",
+      "dependencies": []
+    },
+    "科研方法及理论/f-统计（f-statistics）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1484,
+      "exportedPath": "科研方法及理论/f-统计（f-statistics）.html",
+      "dependencies": []
+    },
+    "科研方法及理论/Illumina测序.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 201,
+      "exportedPath": "科研方法及理论/illumina测序.html",
+      "dependencies": []
+    },
+    "科研方法及理论/integrated haplotype score (iHS).md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1,
+      "exportedPath": "科研方法及理论/integrated-haplotype-score-(ihs).html",
+      "dependencies": []
+    },
+    "科研方法及理论/k-mer.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1405,
+      "exportedPath": "科研方法及理论/k-mer.html",
+      "dependencies": []
+    },
+    "科研方法及理论/Oxford Nanopore Technologies牛津纳米孔测序技术 (ONT).md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1843,
+      "exportedPath": "科研方法及理论/oxford-nanopore-technologies牛津纳米孔测序技术-(ont).html",
+      "dependencies": []
+    },
+    "科研方法及理论/Pacific Biosciences测序技术（SMRT,PacBio）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 2427,
+      "exportedPath": "科研方法及理论/pacific-biosciences测序技术（smrt,pacbio）.html",
+      "dependencies": []
+    },
+    "科研方法及理论/qpAdm.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1128,
+      "exportedPath": "科研方法及理论/qpadm.html",
+      "dependencies": []
+    },
+    "科研方法及理论/singleton density score (SDS).md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1,
+      "exportedPath": "科研方法及理论/singleton-density-score-(sds).html",
+      "dependencies": []
+    },
+    "科研方法及理论/t-分布随机近邻嵌入（t-Distributed Stochastic Neighbor Embedding,t-SNE）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 587,
+      "exportedPath": "科研方法及理论/t-分布随机近邻嵌入（t-distributed-stochastic-neighbor-embedding,t-sne）.html",
+      "dependencies": []
+    },
+    "科研方法及理论/Telomere-to-telomere（T2T）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1233,
+      "exportedPath": "科研方法及理论/telomere-to-telomere（t2t）.html",
+      "dependencies": []
+    },
+    "科研方法及理论/TreeMix分析（TreeMix analysis）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 689,
+      "exportedPath": "科研方法及理论/treemix分析（treemix-analysis）.html",
+      "dependencies": []
+    },
+    "科研方法及理论/Watterson 估计量（θw）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 887,
+      "exportedPath": "科研方法及理论/watterson-估计量（θw）.html",
+      "dependencies": []
+    },
+    "科研方法及理论/Y-染色体结构.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1837,
+      "exportedPath": "科研方法及理论/y-染色体结构.html",
+      "dependencies": []
+    },
+    "科研方法及理论/Y-DNA（Y-染色体）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1,
+      "exportedPath": "科研方法及理论/y-dna（y-染色体）.html",
+      "dependencies": []
+    },
+    "科研方法及理论/Z值.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 918,
+      "exportedPath": "科研方法及理论/z值.html",
+      "dependencies": []
+    },
+    "人文术语/阿尔泰语系（Altaic languages）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 952,
+      "exportedPath": "人文术语/阿尔泰语系（altaic-languages）.html",
+      "dependencies": []
+    },
+    "人文术语/阿尔乌斯塔（Al Wusta）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1,
+      "exportedPath": "人文术语/阿尔乌斯塔（al-wusta）.html",
+      "dependencies": []
+    },
+    "人文术语/阿凡纳谢沃文化（Afanasievo）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 884,
+      "exportedPath": "人文术语/阿凡纳谢沃文化（afanasievo）.html",
+      "dependencies": []
+    },
+    "人文术语/阿克瑟斯文明（Oxus civilization）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 112,
+      "exportedPath": "人文术语/阿克瑟斯文明（oxus-civilization）.html",
+      "dependencies": []
+    },
+    "人文术语/阿匹迪马洞穴（Apidima Cave）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1,
+      "exportedPath": "人文术语/阿匹迪马洞穴（apidima-cave）.html",
+      "dependencies": []
+    },
+    "人文术语/阿伊努人.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 688,
+      "exportedPath": "人文术语/阿伊努人.html",
+      "dependencies": []
+    },
+    "人文术语/安德罗诺沃文化（Andronovo culture）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1509,
+      "exportedPath": "人文术语/安德罗诺沃文化（andronovo-culture）.html",
+      "dependencies": []
+    },
+    "人文术语/安多藏族.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 181,
+      "exportedPath": "人文术语/安多藏族.html",
+      "dependencies": []
+    },
+    "人文术语/安纳托利亚（Anatolian farmer）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 2665,
+      "exportedPath": "人文术语/安纳托利亚（anatolian-farmer）.html",
+      "dependencies": []
+    },
+    "人文术语/奥库涅夫文化（Okunev Culture）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1319,
+      "exportedPath": "人文术语/奥库涅夫文化（okunev-culture）.html",
+      "dependencies": []
+    },
+    "人文术语/巴克特里亚·马尔吉亚纳文明区（Bactria–Margiana Archaeological Complex，BMAC）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1070,
+      "exportedPath": "人文术语/巴克特里亚·马尔吉亚纳文明区（bactria–margiana-archaeological-complex，bmac）.html",
+      "dependencies": []
+    },
+    "人文术语/白马藏族.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 206,
+      "exportedPath": "人文术语/白马藏族.html",
+      "dependencies": []
+    },
+    "人文术语/百越族群.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1,
+      "exportedPath": "人文术语/百越族群.html",
+      "dependencies": []
+    },
+    "人文术语/班图语.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 671,
+      "exportedPath": "人文术语/班图语.html",
+      "dependencies": []
+    },
+    "人文术语/北京猿人.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 113,
+      "exportedPath": "人文术语/北京猿人.html",
+      "dependencies": []
+    },
+    "人文术语/贝丘文化(Shell-Mound Culture).md": {
+      "modifiedTime": 1718954192626,
       "sourceSize": 720,
-      "exportedPath": "linux和bash脚本/shell运算.html",
+      "exportedPath": "人文术语/贝丘文化(shell-mound-culture).html",
       "dependencies": []
     },
-    "Linux和bash脚本/VCF文件初识.md": {
-      "modifiedTime": 1718953513273,
-      "sourceSize": 17542,
-      "exportedPath": "linux和bash脚本/vcf文件初识.html",
+    "人文术语/博泰文化（Botai）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 392,
+      "exportedPath": "人文术语/博泰文化（botai）.html",
       "dependencies": []
     },
-    "主页/欢迎来到我的思维领域.md": {
-      "modifiedTime": 1718953920052,
-      "sourceSize": 3280,
-      "exportedPath": "主页/欢迎来到我的思维领域.html",
+    "人文术语/藏缅语族（Tibeto-Burman languages）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1123,
+      "exportedPath": "人文术语/藏缅语族（tibeto-burman-languages）.html",
       "dependencies": []
     },
-    "主页/英文期刊投稿中的简写与状态解读.md": {
-      "modifiedTime": 1718953920052,
-      "sourceSize": 5744,
-      "exportedPath": "主页/英文期刊投稿中的简写与状态解读.html",
+    "人文术语/藏族.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 6129,
+      "exportedPath": "人文术语/藏族.html",
       "dependencies": []
     },
-    "主页/注意事项.md": {
-      "modifiedTime": 1718953920052,
-      "sourceSize": 1320,
-      "exportedPath": "主页/注意事项.html",
+    "人文术语/铲形门齿.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 145,
+      "exportedPath": "人文术语/铲形门齿.html",
+      "dependencies": []
+    },
+    "人文术语/大汶口文化.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1,
+      "exportedPath": "人文术语/大汶口文化.html",
+      "dependencies": []
+    },
+    "人文术语/大溪文化.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 2079,
+      "exportedPath": "人文术语/大溪文化.html",
+      "dependencies": []
+    },
+    "人文术语/傣族（Tai people）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 263,
+      "exportedPath": "人文术语/傣族（tai-people）.html",
+      "dependencies": []
+    },
+    "人文术语/袋獾（Sarcophilus harrisii,塔斯马尼亚恶魔）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1127,
+      "exportedPath": "人文术语/袋獾（sarcophilus-harrisii,塔斯马尼亚恶魔）.html",
+      "dependencies": []
+    },
+    "人文术语/丹尼索瓦人（Denisovan）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 219,
+      "exportedPath": "人文术语/丹尼索瓦人（denisovan）.html",
+      "dependencies": []
+    },
+    "人文术语/稻（Oryza sativa L.）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1071,
+      "exportedPath": "人文术语/稻（oryza-sativa-l.）.html",
+      "dependencies": []
+    },
+    "人文术语/氐羌（古）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 815,
+      "exportedPath": "人文术语/氐羌（古）.html",
+      "dependencies": []
+    },
+    "人文术语/东乡族（Donghxiang）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1,
+      "exportedPath": "人文术语/东乡族（donghxiang）.html",
+      "dependencies": []
+    },
+    "人文术语/二里头文化.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1127,
+      "exportedPath": "人文术语/二里头文化.html",
+      "dependencies": []
+    },
+    "人文术语/非陶器时期(aceramic,non-pottery).md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 506,
+      "exportedPath": "人文术语/非陶器时期(aceramic,non-pottery).html",
+      "dependencies": []
+    },
+    "人文术语/格鲁吉亚人.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 93,
+      "exportedPath": "人文术语/格鲁吉亚人.html",
+      "dependencies": []
+    },
+    "人文术语/古崎文化(Gusuku Culture).md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1101,
+      "exportedPath": "人文术语/古崎文化(gusuku-culture).html",
+      "dependencies": []
+    },
+    "人文术语/海德堡人.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 253,
+      "exportedPath": "人文术语/海德堡人.html",
+      "dependencies": []
+    },
+    "人文术语/汉藏语系.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 25,
+      "exportedPath": "人文术语/汉藏语系.html",
+      "dependencies": []
+    },
+    "人文术语/和平文化（HòabÌnhian Culture).md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 858,
+      "exportedPath": "人文术语/和平文化（hòabìnhian-culture).html",
+      "dependencies": []
+    },
+    "人文术语/红山文化.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1388,
+      "exportedPath": "人文术语/红山文化.html",
+      "dependencies": []
+    },
+    "人文术语/回辉人 Utsat.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1,
+      "exportedPath": "人文术语/回辉人-utsat.html",
+      "dependencies": []
+    },
+    "人文术语/基底欧亚人（basal Eurasian ancestry）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 386,
+      "exportedPath": "人文术语/基底欧亚人（basal-eurasian-ancestry）.html",
+      "dependencies": []
+    },
+    "人文术语/嘉绒藏族.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 178,
+      "exportedPath": "人文术语/嘉绒藏族.html",
+      "dependencies": []
+    },
+    "人文术语/简鼻亚目（Haplorrhini）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 593,
+      "exportedPath": "人文术语/简鼻亚目（haplorrhini）.html",
+      "dependencies": []
+    },
+    "人文术语/粳稻.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 844,
+      "exportedPath": "人文术语/粳稻.html",
+      "dependencies": []
+    },
+    "人文术语/卡夫泽（Qafzeh）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1,
+      "exportedPath": "人文术语/卡夫泽（qafzeh）.html",
+      "dependencies": []
+    },
+    "人文术语/卡拉苏克文化（Karasuk culture）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1428,
+      "exportedPath": "人文术语/卡拉苏克文化（karasuk-culture）.html",
+      "dependencies": []
+    },
+    "人文术语/康巴藏族.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 289,
+      "exportedPath": "人文术语/康巴藏族.html",
+      "dependencies": []
+    },
+    "人文术语/黎族（Li）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 520,
+      "exportedPath": "人文术语/黎族（li）.html",
+      "dependencies": []
+    },
+    "人文术语/良渚文化.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1325,
+      "exportedPath": "人文术语/良渚文化.html",
+      "dependencies": []
+    },
+    "人文术语/琉球王国（Ryukyu Kingdom）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1244,
+      "exportedPath": "人文术语/琉球王国（ryukyu-kingdom）.html",
+      "dependencies": []
+    },
+    "人文术语/龙山文化.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1,
+      "exportedPath": "人文术语/龙山文化.html",
+      "dependencies": []
+    },
+    "人文术语/罗百氏傍人（Paranthropus robustus）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 446,
+      "exportedPath": "人文术语/罗百氏傍人（paranthropus-robustus）.html",
+      "dependencies": []
+    },
+    "人文术语/马家窑文化.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1,
+      "exportedPath": "人文术语/马家窑文化.html",
+      "dependencies": []
+    },
+    "人文术语/马桥文化.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1522,
+      "exportedPath": "人文术语/马桥文化.html",
+      "dependencies": []
+    },
+    "人文术语/梅山文化（蚩尤文化）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 2297,
+      "exportedPath": "人文术语/梅山文化（蚩尤文化）.html",
+      "dependencies": []
+    },
+    "人文术语/美洲原住民（Native Americans (NAs)）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 304,
+      "exportedPath": "人文术语/美洲原住民（native-americans-(nas)）.html",
+      "dependencies": []
+    },
+    "人文术语/蒙古语系(Mongolic).md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1387,
+      "exportedPath": "人文术语/蒙古语系(mongolic).html",
+      "dependencies": []
+    },
+    "人文术语/弥生人.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 600,
+      "exportedPath": "人文术语/弥生人.html",
+      "dependencies": []
+    },
+    "人文术语/弥生时代（Yayoi period）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1141,
+      "exportedPath": "人文术语/弥生时代（yayoi-period）.html",
+      "dependencies": []
+    },
+    "人文术语/米斯利亚洞穴（Misliya Cave）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1,
+      "exportedPath": "人文术语/米斯利亚洞穴（misliya-cave）.html",
+      "dependencies": []
+    },
+    "人文术语/苗瑶语族（Hmong–Mien languages）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 995,
+      "exportedPath": "人文术语/苗瑶语族（hmong–mien-languages）.html",
+      "dependencies": []
+    },
+    "人文术语/母系氏族.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 7859,
+      "exportedPath": "人文术语/母系氏族.html",
+      "dependencies": []
+    },
+    "人文术语/南岛语系.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1,
+      "exportedPath": "人文术语/南岛语系.html",
+      "dependencies": []
+    },
+    "人文术语/尼安德特人（Neanderthal）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 321,
+      "exportedPath": "人文术语/尼安德特人（neanderthal）.html",
+      "dependencies": []
+    },
+    "人文术语/平埔族群（Pingpu）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 395,
+      "exportedPath": "人文术语/平埔族群（pingpu）.html",
+      "dependencies": []
+    },
+    "人文术语/齐家文化.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1451,
+      "exportedPath": "人文术语/齐家文化.html",
+      "dependencies": []
+    },
+    "人文术语/羌族.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 508,
+      "exportedPath": "人文术语/羌族.html",
+      "dependencies": []
+    },
+    "人文术语/切穆尔切克文化（克尔木齐文化，Chemurchek）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 606,
+      "exportedPath": "人文术语/切穆尔切克文化（克尔木齐文化，chemurchek）.html",
+      "dependencies": []
+    },
+    "人文术语/屈家岭文化.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1450,
+      "exportedPath": "人文术语/屈家岭文化.html",
+      "dependencies": []
+    },
+    "人文术语/三苗部落.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 3229,
+      "exportedPath": "人文术语/三苗部落.html",
+      "dependencies": []
+    },
+    "人文术语/桑巴基（Sambaquis）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 688,
+      "exportedPath": "人文术语/桑巴基（sambaquis）.html",
+      "dependencies": []
+    },
+    "人文术语/山顶洞人.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 650,
+      "exportedPath": "人文术语/山顶洞人.html",
+      "dependencies": []
+    },
+    "人文术语/山戎.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 30,
+      "exportedPath": "人文术语/山戎.html",
+      "dependencies": []
+    },
+    "人文术语/上山文化.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 594,
+      "exportedPath": "人文术语/上山文化.html",
+      "dependencies": []
+    },
+    "人文术语/绳文人.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 2153,
+      "exportedPath": "人文术语/绳文人.html",
+      "dependencies": []
+    },
+    "人文术语/绳文时代.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1,
+      "exportedPath": "人文术语/绳文时代.html",
+      "dependencies": []
+    },
+    "人文术语/菽（Glycine max）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1275,
+      "exportedPath": "人文术语/菽（glycine-max）.html",
+      "dependencies": []
+    },
+    "人文术语/黍（Panicum miliaceum）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 262,
+      "exportedPath": "人文术语/黍（panicum-miliaceum）.html",
+      "dependencies": []
+    },
+    "人文术语/斯虎尔（Skhul）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 474,
+      "exportedPath": "人文术语/斯虎尔（skhul）.html",
+      "dependencies": []
+    },
+    "人文术语/四坝文化（Siba culture）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1231,
+      "exportedPath": "人文术语/四坝文化（siba-culture）.html",
+      "dependencies": []
+    },
+    "人文术语/粟（millet）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 145,
+      "exportedPath": "人文术语/粟（millet）.html",
+      "dependencies": []
+    },
+    "人文术语/陶寺文化.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1322,
+      "exportedPath": "人文术语/陶寺文化.html",
+      "dependencies": []
+    },
+    "人文术语/田园洞人.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 746,
+      "exportedPath": "人文术语/田园洞人.html",
+      "dependencies": []
+    },
+    "人文术语/突厥.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 927,
+      "exportedPath": "人文术语/突厥.html",
+      "dependencies": []
+    },
+    "人文术语/突厥语系(Turkic).md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1496,
+      "exportedPath": "人文术语/突厥语系(turkic).html",
+      "dependencies": []
+    },
+    "人文术语/吐火罗语(Tocharian language).md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 323,
+      "exportedPath": "人文术语/吐火罗语(tocharian-language).html",
+      "dependencies": []
+    },
+    "人文术语/卫藏藏族.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 307,
+      "exportedPath": "人文术语/卫藏藏族.html",
+      "dependencies": []
+    },
+    "人文术语/下田原文化（Shimotabaru Culture）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1015,
+      "exportedPath": "人文术语/下田原文化（shimotabaru-culture）.html",
+      "dependencies": []
+    },
+    "人文术语/夏尔巴人.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 313,
+      "exportedPath": "人文术语/夏尔巴人.html",
+      "dependencies": []
+    },
+    "人文术语/籼稻.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1356,
+      "exportedPath": "人文术语/籼稻.html",
+      "dependencies": []
+    },
+    "人文术语/辛塔什塔游牧文化（Sintashta pastoral cultures）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 674,
+      "exportedPath": "人文术语/辛塔什塔游牧文化（sintashta-pastoral-cultures）.html",
+      "dependencies": []
+    },
+    "人文术语/新石器时代以来的文化表格.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 5788,
+      "exportedPath": "人文术语/新石器时代以来的文化表格.html",
+      "dependencies": []
+    },
+    "人文术语/匈奴.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 908,
+      "exportedPath": "人文术语/匈奴.html",
+      "dependencies": []
+    },
+    "人文术语/巽他型牙齿.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 145,
+      "exportedPath": "人文术语/巽他型牙齿.html",
+      "dependencies": []
+    },
+    "人文术语/颜那亚文化（Yamna culture）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1544,
+      "exportedPath": "人文术语/颜那亚文化（yamna-culture）.html",
+      "dependencies": []
+    },
+    "人文术语/仰韶文化.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 2760,
+      "exportedPath": "人文术语/仰韶文化.html",
+      "dependencies": []
+    },
+    "人文术语/印欧语系.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1,
+      "exportedPath": "人文术语/印欧语系.html",
+      "dependencies": []
+    },
+    "人文术语/游牧民族.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 4362,
+      "exportedPath": "人文术语/游牧民族.html",
+      "dependencies": []
+    },
+    "人文术语/语言概览.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1272,
+      "exportedPath": "人文术语/语言概览.html",
+      "dependencies": []
+    },
+    "人文术语/元谋人.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 129,
+      "exportedPath": "人文术语/元谋人.html",
+      "dependencies": []
+    },
+    "人文术语/原猴亚目（Strepsirrhini）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 185,
+      "exportedPath": "人文术语/原猴亚目（strepsirrhini）.html",
+      "dependencies": []
+    },
+    "人文术语/中国新石器时代文化.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1099,
+      "exportedPath": "人文术语/中国新石器时代文化.html",
+      "dependencies": []
+    },
+    "人文术语/中国型牙齿.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 140,
+      "exportedPath": "人文术语/中国型牙齿.html",
+      "dependencies": []
+    },
+    "人文术语/中华民族.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 520,
+      "exportedPath": "人文术语/中华民族.html",
+      "dependencies": []
+    },
+    "人文术语/壮侗语系（Kra–Dai languages）.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 2580,
+      "exportedPath": "人文术语/壮侗语系（kra–dai-languages）.html",
+      "dependencies": []
+    },
+    "神经网络/神经元.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 937,
+      "exportedPath": "神经网络/神经元.html",
+      "dependencies": []
+    },
+    "神经网络/速通AI大模型基础.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 6534,
+      "exportedPath": "神经网络/速通ai大模型基础.html",
+      "dependencies": []
+    },
+    "书籍/青格历史.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 2792,
+      "exportedPath": "书籍/青格历史.html",
+      "dependencies": []
+    },
+    "书籍/群体演化.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 784,
+      "exportedPath": "书籍/群体演化.html",
+      "dependencies": []
+    },
+    "书籍/群体遗传学.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 2468,
+      "exportedPath": "书籍/群体遗传学.html",
+      "dependencies": []
+    },
+    "书籍/统计学关我什么事：生活中的极简统计学.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 2491,
+      "exportedPath": "书籍/统计学关我什么事：生活中的极简统计学.html",
+      "dependencies": []
+    },
+    "书籍/无字史记.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 52801,
+      "exportedPath": "书籍/无字史记.html",
+      "dependencies": []
+    },
+    "书籍/西西弗神话.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 10631,
+      "exportedPath": "书籍/西西弗神话.html",
+      "dependencies": []
+    },
+    "obsidian语法进阶/脚注的使用.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 561,
+      "exportedPath": "obsidian语法进阶/脚注的使用.html",
+      "dependencies": []
+    },
+    "obsidian语法进阶/callout语法.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 189,
+      "exportedPath": "obsidian语法进阶/callout语法.html",
+      "dependencies": []
+    },
+    "obsidian语法进阶/Latex语法符号大全.md": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1908,
+      "exportedPath": "obsidian语法进阶/latex语法符号大全.html",
+      "dependencies": []
+    },
+    "lib/fonts/mathjax_zero.woff": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1368,
+      "exportedPath": "lib/fonts/mathjax_zero.woff",
+      "dependencies": []
+    },
+    "lib/fonts/mathjax_main-regular.woff": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 34160,
+      "exportedPath": "lib/fonts/mathjax_main-regular.woff",
+      "dependencies": []
+    },
+    "lib/fonts/mathjax_main-bold.woff": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 34464,
+      "exportedPath": "lib/fonts/mathjax_main-bold.woff",
+      "dependencies": []
+    },
+    "lib/fonts/mathjax_math-italic.woff": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 19360,
+      "exportedPath": "lib/fonts/mathjax_math-italic.woff",
+      "dependencies": []
+    },
+    "lib/fonts/mathjax_main-italic.woff": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 20832,
+      "exportedPath": "lib/fonts/mathjax_main-italic.woff",
+      "dependencies": []
+    },
+    "lib/fonts/mathjax_math-bolditalic.woff": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 19776,
+      "exportedPath": "lib/fonts/mathjax_math-bolditalic.woff",
+      "dependencies": []
+    },
+    "lib/fonts/mathjax_size1-regular.woff": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 5792,
+      "exportedPath": "lib/fonts/mathjax_size1-regular.woff",
+      "dependencies": []
+    },
+    "lib/fonts/mathjax_size2-regular.woff": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 5464,
+      "exportedPath": "lib/fonts/mathjax_size2-regular.woff",
+      "dependencies": []
+    },
+    "lib/fonts/mathjax_size3-regular.woff": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 3244,
+      "exportedPath": "lib/fonts/mathjax_size3-regular.woff",
+      "dependencies": []
+    },
+    "lib/fonts/mathjax_size4-regular.woff": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 5148,
+      "exportedPath": "lib/fonts/mathjax_size4-regular.woff",
+      "dependencies": []
+    },
+    "lib/fonts/mathjax_ams-regular.woff": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 40808,
+      "exportedPath": "lib/fonts/mathjax_ams-regular.woff",
+      "dependencies": []
+    },
+    "lib/fonts/mathjax_calligraphic-regular.woff": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 9600,
+      "exportedPath": "lib/fonts/mathjax_calligraphic-regular.woff",
+      "dependencies": []
+    },
+    "lib/fonts/mathjax_calligraphic-bold.woff": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 9908,
+      "exportedPath": "lib/fonts/mathjax_calligraphic-bold.woff",
+      "dependencies": []
+    },
+    "lib/fonts/mathjax_fraktur-regular.woff": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 21480,
+      "exportedPath": "lib/fonts/mathjax_fraktur-regular.woff",
+      "dependencies": []
+    },
+    "lib/fonts/mathjax_fraktur-bold.woff": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 22340,
+      "exportedPath": "lib/fonts/mathjax_fraktur-bold.woff",
+      "dependencies": []
+    },
+    "lib/fonts/mathjax_sansserif-regular.woff": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 12660,
+      "exportedPath": "lib/fonts/mathjax_sansserif-regular.woff",
+      "dependencies": []
+    },
+    "lib/fonts/mathjax_sansserif-bold.woff": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 15944,
+      "exportedPath": "lib/fonts/mathjax_sansserif-bold.woff",
+      "dependencies": []
+    },
+    "lib/fonts/mathjax_sansserif-italic.woff": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 14628,
+      "exportedPath": "lib/fonts/mathjax_sansserif-italic.woff",
+      "dependencies": []
+    },
+    "lib/fonts/mathjax_script-regular.woff": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 11852,
+      "exportedPath": "lib/fonts/mathjax_script-regular.woff",
+      "dependencies": []
+    },
+    "lib/fonts/mathjax_typewriter-regular.woff": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 17604,
+      "exportedPath": "lib/fonts/mathjax_typewriter-regular.woff",
+      "dependencies": []
+    },
+    "lib/fonts/mathjax_vector-regular.woff": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1136,
+      "exportedPath": "lib/fonts/mathjax_vector-regular.woff",
+      "dependencies": []
+    },
+    "lib/fonts/mathjax_vector-bold.woff": {
+      "modifiedTime": 1718954192626,
+      "sourceSize": 1116,
+      "exportedPath": "lib/fonts/mathjax_vector-bold.woff",
       "dependencies": []
     }
   }
