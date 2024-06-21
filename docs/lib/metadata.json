@@ -1,6 +1,6 @@
 {
   "vaultName": "科研思路",
-  "lastExport": 1718954192626,
+  "lastExport": 1718955020656,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager theme-dark show-inline-title show-ribbon h2-underline",
   "useCustomHeadContent": false,
@@ -389,6 +389,158 @@
     "人文术语/中国型牙齿.md",
     "人文术语/中华民族.md",
     "人文术语/壮侗语系（Kra–Dai languages）.md",
+    "软件/其它生信软件/格式比对/使用 PLINK 转换 VCF 到 BED, BIM, FAM.md",
+    "软件/其它生信软件/格式比对/序列比对的思考.md",
+    "软件/其它生信软件/格式比对/Align软件使用.md",
+    "软件/其它生信软件/格式比对/FASTQ转SAM和BAM.md",
+    "软件/其它生信软件/格式比对/Fst绘制矩阵.md",
+    "软件/其它生信软件/格式比对/MAFFT多序列比对教程.md",
+    "软件/其它生信软件/格式比对/The GUIDANCE2 Server 多序列比对置信软件.md",
+    "软件/其它生信软件/格式比对/TrimAl自动剪切对齐序列.md",
+    "软件/其它生信软件/格式比对/Trimal自动修剪序列不可靠区域.md",
+    "软件/其它生信软件/全基因组/简易的mtDNA分析流程.md",
+    "软件/其它生信软件/全基因组/线粒体基因组分析流程.md",
+    "软件/其它生信软件/全基因组/线粒体DNA工作流程.md",
+    "软件/其它生信软件/全基因组/dinumt.md",
+    "软件/其它生信软件/全基因组/haplocheck检测污染.md",
+    "软件/其它生信软件/全基因组/mitofinder软件安装和使用.md",
+    "软件/其它生信软件/全基因组/MToolBox.md",
+    "软件/其它生信软件/全基因组/NUMT-detector.md",
+    "软件/其它生信软件/全基因组/NUMT-detector错误排查.canvas",
+    "软件/其它生信软件/群体遗传/根据单倍群频率使用sklearn进行降维.md",
+    "软件/其它生信软件/群体遗传/根据共享单倍群频率绘制人群热图.md",
+    "软件/其它生信软件/群体遗传/根据Fst算MDS.md",
+    "软件/其它生信软件/群体遗传/基于Fst绘制Neighbor-Joining (NJ)树.md",
+    "软件/其它生信软件/群体遗传/基于Fst绘制Network图.md",
+    "软件/其它生信软件/群体遗传/进化树美化网站.md",
+    "软件/其它生信软件/群体遗传/利用R进行iTol注释文件生成.md",
+    "软件/其它生信软件/群体遗传/特定某个单倍群与经纬度相关性回归.md",
+    "软件/其它生信软件/群体遗传/位点频谱SFS (site frequency spectrum).md",
+    "软件/其它生信软件/群体遗传/相关性热图绘制.md",
+    "软件/其它生信软件/群体遗传/自制FastHaN脚本——2024年5月13日更新.md",
+    "软件/其它生信软件/群体遗传/自制FastHaN脚本——2024年5月16日更新.md",
+    "软件/其它生信软件/群体遗传/自制FastHaN脚本——2024年5月22日更新.md",
+    "软件/其它生信软件/群体遗传/ANGSD（Analysis of Next Generation Sequencing Data）.md",
+    "软件/其它生信软件/群体遗传/easySFS.md",
+    "软件/其它生信软件/群体遗传/FastHaN软件——陈华.md",
+    "软件/其它生信软件/群体遗传/fastsimcoal2.md",
+    "软件/其它生信软件/群体遗传/Haplogrep3分型.md",
+    "软件/其它生信软件/群体遗传/iTol完全美化.md",
+    "软件/其它生信软件/群体遗传/linkET相关性分析.md",
+    "软件/其它生信软件/群体遗传/PhyloSuite开发——不简单的工作让系统发育分析变得简单.md",
+    "软件/其它生信软件/群体遗传/python：快速整理线粒体单倍群至目标单倍群.md",
+    "软件/其它生信软件/利用R进行iTol注释文件生成.md",
+    "软件/其它生信软件/自制FastHaN脚本——2024年5月16日更新.md",
+    "软件/其它生信软件/Advanced Circos：绘制NUMT弦图教程.md",
+    "软件/Adobe illustrator绘图/第二节 倾斜工具.md",
+    "软件/Adobe illustrator绘图/第六节 直线工具.md",
+    "软件/Adobe illustrator绘图/第七节 混合工具.md",
+    "软件/Adobe illustrator绘图/第三节 钢笔工具.md",
+    "软件/Adobe illustrator绘图/第四节 文字工具.md",
+    "软件/Adobe illustrator绘图/第五节 形状工具.md",
+    "软件/Adobe illustrator绘图/第一节 基础导入导出功能.md",
+    "软件/Adobe illustrator绘图/思维总览.canvas",
+    "软件/arcgis绘图/地理空间数据.md",
+    "软件/arcgis绘图/绘制省份人口数.md",
+    "软件/arcgis绘图/绘制XY数据.md",
+    "软件/arcgis绘图/基础绘图.md",
+    "软件/arcgis绘图/没有ObjectID字段解决办法.md",
+    "软件/arcgis绘图/使用Arcgis绘制单倍群等值线图.md",
+    "软件/arcgis绘图/QGIS绘制XY散点图.md",
+    "软件/BEAST/BEAST：1代参数设置（简略版）.md",
+    "软件/BEAST/BEAST：使用指南.canvas",
+    "软件/BEAST/BEAST：替换模型.md",
+    "软件/BEAST/BEAST：线粒体DNA的BSP设置.md",
+    "软件/BEAST/MrBayes：贝叶斯方法建树.md",
+    "软件/IQtree/iqtree：基础操作.md",
+    "软件/IQtree/iqtree：线粒体最大似然树.md",
+    "软件/IQtree/iqtree：寻找最优模型及分区.md",
+    "软件/origin绘图/Origin：教学—弦图绘制.md",
+    "软件/Python/地理经纬/根据国家、地区求经纬度.md",
+    "软件/Python/地理经纬/根据经纬度获取海拔.md",
+    "软件/Python/地理经纬/根据经纬度求国家.md",
+    "软件/Python/地理经纬/根据中文求拼音.md",
+    "软件/Python/地理经纬/Python经纬度和地址互转.md",
+    "软件/Python/格式转换/多个fasta、txt合并为一个.md",
+    "软件/Python/格式转换/根据共享单倍群频率绘制人群柱状图.md",
+    "软件/Python/格式转换/将FASTA文件与Aln文件合并.md",
+    "软件/Python/格式转换/将FASTA文件中的序列分组到指定的组中.md",
+    "软件/Python/格式转换/将FASTA转换成Arp.md",
+    "软件/Python/格式转换/将VCF文件伪二倍体转化为单倍体fatsa文件.md",
+    "软件/Python/格式转换/将VCF文件转为rdf并重新命名ID.md",
+    "软件/Python/格式转换/利用Python将主成分表转换成R脚本.md",
+    "软件/Python/格式转换/利用Python快速填写频率表.md",
+    "软件/Python/格式转换/利用Python迅速查找上游单倍型（2024年6月19日更新）.md",
+    "软件/Python/格式转换/利用python一键绘制线粒体单倍群频率热图.md",
+    "软件/Python/格式转换/批量修改VCF文件至Arp格式.md",
+    "软件/Python/格式转换/删除fasta中的指定位点.md",
+    "软件/Python/格式转换/提取fasta序列至新的fasta.md",
+    "软件/Python/格式转换/一键生成Y染色体各级单倍群累加表格.md",
+    "软件/Python/格式转换/AMOVA便捷分组.md",
+    "软件/Python/格式转换/AMOVA及Fst分析软件操作.md",
+    "软件/Python/格式转换/fasta文件加个单倍群label.md",
+    "软件/Python/格式转换/FASTA文件转NEX（2024年6月12日更新）.md",
+    "软件/Python/格式转换/Python绘制省份频率地图.md",
+    "软件/Python/格式转换/VCF文件转换成NEX.md",
+    "软件/Python/数据获取/利用Python下载NCBI数据.md",
+    "软件/Python/数据获取/下载SRA.md",
+    "软件/Python/学习笔记/八、Python函数.md",
+    "软件/Python/学习笔记/二、Python注释.md",
+    "软件/Python/学习笔记/二十、 Numpy探索.md",
+    "软件/Python/学习笔记/二十八、 Python数据可视化.md",
+    "软件/Python/学习笔记/二十二、Pandas操作.md",
+    "软件/Python/学习笔记/二十九、 Python线性回归.md",
+    "软件/Python/学习笔记/二十六、 清洗数据.md",
+    "软件/Python/学习笔记/二十七、 通过API获取数据.md",
+    "软件/Python/学习笔记/二十三、 Pandas的Dataframe.md",
+    "软件/Python/学习笔记/二十四、 获取数据.md",
+    "软件/Python/学习笔记/二十五、 评估数据.md",
+    "软件/Python/学习笔记/二十一、Pandas入门.md",
+    "软件/Python/学习笔记/九、Python模块.md",
+    "软件/Python/学习笔记/利用Python生成词云.md",
+    "软件/Python/学习笔记/六、Python while循环.md",
+    "软件/Python/学习笔记/七、Python 格式化字符串.md",
+    "软件/Python/学习笔记/三、Python if语句.md",
+    "软件/Python/学习笔记/三十、 Python逻辑回归.md",
+    "软件/Python/学习笔记/三十一、 Python爬虫.md",
+    "软件/Python/学习笔记/十、Python创建类.md",
+    "软件/Python/学习笔记/十八、 Jupyter使用.md",
+    "软件/Python/学习笔记/十二、 Python文件操作.md",
+    "软件/Python/学习笔记/十九、 Numpy入门.md",
+    "软件/Python/学习笔记/十六、 Python高阶函数.md",
+    "软件/Python/学习笔记/十七、Jupyter数据分析安装.md",
+    "软件/Python/学习笔记/十三、Python 文件操作.md",
+    "软件/Python/学习笔记/十四、Python预判.md",
+    "软件/Python/学习笔记/十五、 Python测试.md",
+    "软件/Python/学习笔记/十一、 Python文件路径.md",
+    "软件/Python/学习笔记/四、Python列表和字典.md",
+    "软件/Python/学习笔记/五、Python for循环.md",
+    "软件/Python/学习笔记/一、Python数据类型.md",
+    "软件/Python/学习笔记/Python交互式库.md",
+    "软件/Python/学习笔记/Scikit-Learn 的建模万能模板！.md",
+    "软件/R语言语法/基本数据集.md",
+    "软件/R语言语法/基本运算符.md",
+    "软件/R语言语法/配色图.md",
+    "软件/R语言语法/谱系树修饰.md",
+    "软件/R语言语法/相关性热图.md",
+    "软件/R语言语法/相关性图.md",
+    "软件/R语言语法/小提琴图.md",
+    "软件/R语言语法/ggplot2个性化绘制散点图.md",
+    "软件/R语言语法/ggplot2简介.md",
+    "软件/R语言语法/GWalkR——一行代码将数据集转化为交互式可视化分析工具.md",
+    "软件/SPSS/八、单因素方差分析及多重比较.md",
+    "软件/SPSS/二、认识变量.md",
+    "软件/SPSS/九、非参数检验（秩和检验）.md",
+    "软件/SPSS/六、独立样本T检验.md",
+    "软件/SPSS/七、配对样本T检验.md",
+    "软件/SPSS/三、正态分布.md",
+    "软件/SPSS/十、 二元 Logistic回归分析.md",
+    "软件/SPSS/四、线性回归分析.md",
+    "软件/SPSS/五、卡方检验.md",
+    "软件/SPSS/一、认识SPSS.md",
+    "软件/SPSS/SPSS主成分分析.md",
+    "软件/在VS Code中搭建你的R语言运行环境.md",
+    "软件/Win10安装WSL1.0.md",
     "神经网络/神经元.md",
     "神经网络/速通AI大模型基础.md",
     "书籍/青格历史.md",
@@ -397,6 +549,163 @@
     "书籍/统计学关我什么事：生活中的极简统计学.md",
     "书籍/无字史记.md",
     "书籍/西西弗神话.md",
+    "文献及报道/报道/“龙人”促使人们重新思考东亚中更新世古人类的谱系关系.md",
+    "文献及报道/报道/23andMe.md",
+    "文献及报道/报道/200万年！最早古人类基因数据.md",
+    "文献及报道/报道/跋山遗址群.md",
+    "文献及报道/报道/藏族人群在高原缺氧环境中保持高生殖力的遗传机制.md",
+    "文献及报道/报道/非洲裔美国人的基因组研究.md",
+    "文献及报道/报道/改写教科书：刘兴国组发现线粒体基因编码第14个蛋白质.md",
+    "文献及报道/报道/高龄父亲会给后代带来更多基因突变.md",
+    "文献及报道/报道/古脊椎所合作破译世界最古老的现代人基因组.md",
+    "文献及报道/报道/华龙洞古人类化石研究新进展—下颌骨形态研究.md",
+    "文献及报道/报道/华夏肇始，几点基本的考古学知识.md",
+    "文献及报道/报道/环状染色体是“不致病的”染色体 还是“致病的”染色体.md",
+    "文献及报道/报道/甲基化、去甲基化是什么意思？.md",
+    "文献及报道/报道/杰贝尔依罗人（Jebel Irhoud）.md",
+    "文献及报道/报道/解码2022年诺贝尔奖背后的古基因组学：“我们来自哪里？”.md",
+    "文献及报道/报道/解析结构变异，Hi-C优势显著！.md",
+    "文献及报道/报道/解析全球瘤牛的基因组遗传多样性、种间渗入和适应性进化.md",
+    "文献及报道/报道/灵长类进化中大猿特异的基因组结构变异及其对大猿创新表型起源的贡献.md",
+    "文献及报道/报道/目前：线粒体研究的5大热点.md",
+    "文献及报道/报道/苹果泛基因组.md",
+    "文献及报道/报道/染色体的故事——线粒体DNA.md",
+    "文献及报道/报道/人类参考泛基因组（Human Pangenome Reference ）.md",
+    "文献及报道/报道/山东沂水史前考古大发现，跋山水库10万年前古人类与古生物共存.md",
+    "文献及报道/报道/什么是泛基因组？.md",
+    "文献及报道/报道/石峁遗址贵族DNA基因被成功检测出来，这里真的是黄帝的遗址吗？.md",
+    "文献及报道/报道/使用单倍型长读来区分古人类渗入片段.md",
+    "文献及报道/报道/世界史前人群与文化的交流互鉴.md",
+    "文献及报道/报道/瞬息全碱基——泛基因.md",
+    "文献及报道/报道/王传超：2023年中国人群古DNA和古蛋白研究代表性成果及进展评述.md",
+    "文献及报道/报道/现代人起源以及一些吐槽.md",
+    "文献及报道/报道/线粒体基因组高级分析.md",
+    "文献及报道/报道/新研究发现线粒体可通过应激反应调控肺泡细胞命运.md",
+    "文献及报道/报道/与灵长类动物的全基因组比对揭示了人类保守的DNA元件.md",
+    "文献及报道/报道/玉米起源.md",
+    "文献及报道/报道/中亚群体基因组学揭示了古代跨欧亚的遗传混合与文化交流.md",
+    "文献及报道/报道/重构人类演化中族群融合与基因交流历史的方法.md",
+    "文献及报道/报道/FADS基因突变帮助早期人类适应新食物.md",
+    "文献及报道/报道/Nat. Methods 科学家如何看待高维数据降维，关于PCA、t-SNE与UMAP的应用与挑战.md",
+    "文献及报道/报道/UKB 50万人类基因组序列集最新发布.md",
+    "文献及报道/模版/公众号模板.md",
+    "文献及报道/模版/摘要插图欣赏.md",
+    "文献及报道/文献/11,000 年前东亚和东南亚交汇处的人类人口历史.md",
+    "文献及报道/文献/66,083个人类基因组中的核嵌入线粒体DNA序列.md",
+    "文献及报道/文献/9500-1800年前的山东的母系遗传结构.md",
+    "文献及报道/文献/45000年前的西部西伯利亚现代人类的基因组测序.md",
+    "文献及报道/文献/比较基因组微共线性来阐明哺乳动物中核线粒体DNA片段（NUMTs）的快速进化.md",
+    "文献及报道/文献/比较基因组微合成揭示了哺乳动物中核线粒体片段（NUMTs）的快速进化(详细解读).md",
+    "文献及报道/文献/藏人的双重起源：来自线粒体基因组的证据.md",
+    "文献及报道/文献/川西走廊羌族人口的遗传结构.md",
+    "文献及报道/文献/串联重复变异的深层深度参考面板.md",
+    "文献及报道/文献/从海南岛原住民黎族溯源百越族.md",
+    "文献及报道/文献/从全基因组重测序数据推断日本列岛南部琉球岛民的人口历史.md",
+    "文献及报道/文献/从线粒体DNA的角度追溯早期海南岛人的遗产.md",
+    "文献及报道/文献/大规模并行测序的线粒体基因组解释了壮侗语的海南黎族母系多样和遗传结构.md",
+    "文献及报道/文献/氐羌族和汉族的关系.md",
+    "文献及报道/文献/东部大猩猩的幽灵混合.md",
+    "文献及报道/文献/东亚北部从晚更新世到全新世的深层人口历史.md",
+    "文献及报道/文献/复旦大学张梦翰团队揭露声调起源的系统进化之谜.md",
+    "文献及报道/文献/高深度非洲人群基因组测序推断迁徙和健康.md",
+    "文献及报道/文献/高通量单细胞分析揭示了细胞周期内逐渐出现的线粒体DNA镶嵌现象.md",
+    "文献及报道/文献/古代基因组揭示了中国西南地区新石器时代粟与水稻混交种植发展中人口和文化扩散并存.md",
+    "文献及报道/文献/古代线粒体基因组解释了新石器时代北方中国的石峁群体的起源和基因结构.md",
+    "文献及报道/文献/古代新疆线粒体基因组解释了强烈的混合和高度的基因多样性.md",
+    "文献及报道/文献/古代DNA揭示北方汉人的基因结构早在3000年前就已经形成.md",
+    "文献及报道/文献/古基因组揭示了新石器时期到青铜时期的川滇先民主要来自于黄河流域.md",
+    "文献及报道/文献/河流流域塑造了汉族的母系遗传景观.md",
+    "文献及报道/文献/核-线粒体DNA片段类似于人类父系遗传的线粒体DNA（未完）.md",
+    "文献及报道/文献/呼吁法医学中线粒体DNA数据质量控制.md",
+    "文献及报道/文献/基因与中国汉族吸烟习惯的关系的研究.md",
+    "文献及报道/文献/基于古代线粒体基因组的人类进化修订时间表.md",
+    "文献及报道/文献/精子mtDNA消失的机制.md",
+    "文献及报道/文献/两名丹尼索瓦人的核与线粒体DNA测序.md",
+    "文献及报道/文献/墨西哥生物库推进不同祖先的人口和医学基因组学.md",
+    "文献及报道/文献/农业起源研究的生物进化论视角.md",
+    "文献及报道/文献/胚系分选塑造了人类的线粒体DNA多样性.md",
+    "文献及报道/文献/评论：66,083个人类基因组中的核嵌入线粒体DNA序列.md",
+    "文献及报道/文献/青藏高原过去4000年来的母系遗传景观.md",
+    "文献及报道/文献/青藏高原及部分周边地区古代人群线粒体基因组研究.md",
+    "文献及报道/文献/青藏高原近5100年人类遗传史.md",
+    "文献及报道/文献/青铜器和铁器时代的人口流动是新疆人口史的基础.md",
+    "文献及报道/文献/全球人类线粒体 DNA 变异的更新综合系统发育树.md",
+    "文献及报道/文献/人类癌细胞中线粒体DNA频繁地转移到核基因组.md",
+    "文献及报道/文献/人类端粒到端粒参考基因组中线粒体假基因 (NUMT) 的全面鉴定.md",
+    "文献及报道/文献/人类泛基因组计划（The Human Pangenome Project a global resource to mapgenomic diversity）.md",
+    "文献及报道/文献/人类辐射演化和疾病中的线粒体 DNA 变异.md",
+    "文献及报道/文献/人类线粒体DNA异质性研究进展及其法医学应用.md",
+    "文献及报道/文献/人类mtDNA拷贝数和异质性的核遗传控制.md",
+    "文献及报道/文献/三个共存的中国穆斯林群体的起源和遗传结构 撒拉族、博安族和东乡族.md",
+    "文献及报道/文献/使用 MPS 系统和人工混合物样品评估商业面板上检测到的线粒体 DNA 异质性.md",
+    "文献及报道/文献/使用基因组数据进行贝叶斯物种分化时间估计.md",
+    "文献及报道/文献/使用基因组数据推断群体历史和关系的方法.md",
+    "文献及报道/文献/探寻傣族的母系历史.md",
+    "文献及报道/文献/陶寺考古与石峁DNA结果出现断链，夏朝的源头或不在中原.md",
+    "文献及报道/文献/体细胞核线粒体DNA插入在人脑中普遍存在，并随着时间的推移在成纤维细胞中积累.md",
+    "文献及报道/文献/通过长读长单细胞测序获得人类结直肠癌全长转录组图谱.md",
+    "文献及报道/文献/王萌鸽博士论文.md",
+    "文献及报道/文献/西伯利亚丹尼索瓦洞穴的个古老人类群体的遗传.md",
+    "文献及报道/文献/细胞凋亡应激导致衰老过程中 mtDNA 释放并驱动 SASP.md",
+    "文献及报道/文献/现代人类祖先的起源：综述.md",
+    "文献及报道/文献/线粒体 DNA 基因组的长扩增子 HiFi 测序.md",
+    "文献及报道/文献/线粒体：健康与疾病.md",
+    "文献及报道/文献/线粒体过氧化氢释放不会直接导致染色体 DNA 损伤.md",
+    "文献及报道/文献/线粒体基因组证据显示两次辐射事件以及母系血统从中国北部沿海向美洲和日本的扩散.md",
+    "文献及报道/文献/线粒体内共生的中断是炎症疾病的基础.md",
+    "文献及报道/文献/线粒体外膜通透性（mitochondrial outer membrane permeabilization,MOMP）.md",
+    "文献及报道/文献/线粒体DNA变异和相关人类疾病.md",
+    "文献及报道/文献/线粒体DNA分型指南.md",
+    "文献及报道/文献/线粒体DNA基因内倒位：线粒体肌病患者的一种新型致病突变.md",
+    "文献及报道/文献/线粒体DNA基因组揭示了末次冰期末后人口扩张中选择性净化作用的松弛.md",
+    "文献及报道/文献/新石器时代的粟（作）农（民）通过采用大麦农业为青藏高原的永久定居做出了贡献.md",
+    "文献及报道/文献/新石器时代的仰韶文化的母系遗传结构.md",
+    "文献及报道/文献/信息枢纽--线粒体.md",
+    "文献及报道/文献/性别偏见的适应塑造了藏人的单亲基因库.md",
+    "文献及报道/文献/修改人类突变率：对理解人类进化的影响.md",
+    "文献及报道/文献/遗传证据支持汉族文化的流行扩散.md",
+    "文献及报道/文献/英国生物银行线粒体 DNA 基因型-表型关联图谱.md",
+    "文献及报道/文献/有害的异质线粒体突变与总体死亡率和癌症特异性死亡率的风险增加有关.md",
+    "文献及报道/文献/原南岛人的形成：来自父系创始人谱系修订后的见解.md",
+    "文献及报道/文献/早期南岛人：进出台湾.md",
+    "文献及报道/文献/长读长人类基因组测序及其应用.md",
+    "文献及报道/文献/中国母系摩梭人的线粒体起源.md",
+    "文献及报道/文献/主流分子钟定年方法的原理、误差来源和使用建议.md",
+    "文献及报道/文献/AJOPA 东亚南部线粒体 DNA 多样性和群体分化.md",
+    "文献及报道/文献/BMC Bioinformatics 用于估算线粒体 DNA 变异的全球多样化参考比对和面板.md",
+    "文献及报道/文献/Cell Metabolism 由线粒体基因 CYTB 编码的新型蛋白质 CYTB-187AA 调节哺乳动物早期发育.md",
+    "文献及报道/文献/D-Loop-BASE 现已上线中欧线粒体 DNA 数据库.md",
+    "文献及报道/文献/DNA分析显示亚洲迁移模式和早期农业的关联.md",
+    "文献及报道/文献/EMPOP——法医 mtDNA 数据库.md",
+    "文献及报道/文献/GUIDANCE2：准确检测不可靠的对准区域，考虑多个参数的不确定性.md",
+    "文献及报道/文献/HmtDB，用于基于线粒体的人类变异性研究的基因组资源.md",
+    "文献及报道/文献/HmtVar：人类线粒体变异和致病性数据的全新资源.md",
+    "文献及报道/文献/JOURNAL OF EXTRACELLULAR VESICLES 在年轻生物体内循环的细胞外囊泡可促进健康长寿.md",
+    "文献及报道/文献/mit-o-matic：用于临床评估下一代测序数据集线粒体变异的综合计算管道.md",
+    "文献及报道/文献/MitBASE ：一个全面且集成的线粒体 DNA 数据库.md",
+    "文献及报道/文献/MitoBamAnnotator：一种基于网络的工具，用于检测和注释人类线粒体 DNA 序列中的异质性.md",
+    "文献及报道/文献/MITOMAP：人类线粒体基因组数据库 — 2004 年更新.md",
+    "文献及报道/文献/MitoPhen 数据库：一种基于人类表型本体论的方法来识别线粒体 DNA 疾病.md",
+    "文献及报道/文献/MitoSeek：提取线粒体信息并进行高通量线粒体测序分析.md",
+    "文献及报道/文献/Molecular Biology and Evolution mtDNA谱系揭示东亚苗语族群的遗传结构.md",
+    "文献及报道/文献/mtDNA-Server：云端人类线粒体 DNA 的新一代测序数据分析.md",
+    "文献及报道/文献/MToolBox：高度自动化的管道，用于高通量测序中人类线粒体变异的异质性注释和优先级分析.md",
+    "文献及报道/文献/Nature 单细胞mtDNA分析与细胞水平的”自然选择“.md",
+    "文献及报道/文献/Nature aging 来自年轻血浆的小细胞外囊泡通过改善线粒体能量代谢来逆转与年龄相关的功能衰退.md",
+    "文献及报道/文献/Nature communications 长期新冠肺炎患者劳累后不适后肌肉异常恶化.md",
+    "文献及报道/文献/Nature Perspective 基因组学何去何从.md",
+    "文献及报道/文献/Nature Perspective 线粒体转移的力量和潜力.md",
+    "文献及报道/文献/NUMT：线粒体 DNA 在核基因组中展示其代码.md",
+    "文献及报道/文献/Phenomics Review 探索阳气与线粒体功能的交叉点.md",
+    "文献及报道/文献/PNAS 单细胞水平的高频和功能性线粒体 DNA 突变.md",
+    "文献及报道/文献/PNAS 线粒体DNA第3243位异质性的逐渐增加导致突然的转录重编程.md",
+    "文献及报道/文献/Scientific reports 完整的线粒体基因组序列揭示了更新世以来日本列岛的种群动态.md",
+    "文献及报道/文献/SCIENTIFIC REPORTS 中国穆斯林群体东乡族和回族的东亚起源的遗传证据.md",
+    "文献及报道/文献/Trends in Cell Biology 线粒体纳米隧道.md",
+    "文献及报道/文献汇报分享/2023年11月13日李玉春.md",
+    "文献及报道/文献汇报分享/2023年11月20日.md",
+    "文献及报道/文献汇报分享/2024年4月22日.md",
+    "文献及报道/文献汇报分享/2024年6月12日.md",
     "obsidian语法进阶/脚注的使用.md",
     "obsidian语法进阶/callout语法.md",
     "obsidian语法进阶/Latex语法符号大全.md",
@@ -511,187 +820,187 @@
   ],
   "fileInfo": {
     "lib/scripts/graph-wasm.wasm": {
-      "modifiedTime": 1718954192626,
+      "modifiedTime": 1718955020656,
       "sourceSize": 23377,
       "exportedPath": "lib/scripts/graph-wasm.wasm",
       "dependencies": []
     },
     "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1718954192626,
+      "modifiedTime": 1718955020656,
       "sourceSize": 66800,
       "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
       "dependencies": []
     },
     "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1718954192626,
+      "modifiedTime": 1718955020656,
       "sourceSize": 104232,
       "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
       "dependencies": []
     },
     "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1718954192626,
+      "modifiedTime": 1718955020656,
       "sourceSize": 104332,
       "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
       "dependencies": []
     },
     "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1718954192626,
+      "modifiedTime": 1718955020656,
       "sourceSize": 98868,
       "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
       "dependencies": []
     },
     "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1718954192626,
+      "modifiedTime": 1718955020656,
       "sourceSize": 106876,
       "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
       "dependencies": []
     },
     "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1718954192626,
+      "modifiedTime": 1718955020656,
       "sourceSize": 105804,
       "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
       "dependencies": []
     },
     "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1718954192626,
+      "modifiedTime": 1718955020656,
       "sourceSize": 106108,
       "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
       "dependencies": []
     },
     "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1718954192626,
+      "modifiedTime": 1718955020656,
       "sourceSize": 111708,
       "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
       "dependencies": []
     },
     "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1718954192626,
+      "modifiedTime": 1718955020656,
       "sourceSize": 192740,
       "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
       "dependencies": []
     },
     "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1718954192626,
+      "modifiedTime": 1718955020656,
       "sourceSize": 161376,
       "exportedPath": "lib/fonts/454577c22304619db035.ttf",
       "dependencies": []
     },
     "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1718954192626,
+      "modifiedTime": 1718955020656,
       "sourceSize": 191568,
       "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
       "dependencies": []
     },
     "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1718954192626,
+      "modifiedTime": 1718955020656,
       "sourceSize": 155288,
       "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
       "dependencies": []
     },
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1718954192626,
+      "modifiedTime": 1718955020656,
       "sourceSize": 7876,
       "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
       "dependencies": []
     },
     "lib/media/874d8b8e340f75575caa.svg": {
-      "modifiedTime": 1718954192626,
+      "modifiedTime": 1718955020656,
       "sourceSize": 317,
       "exportedPath": "lib/media/874d8b8e340f75575caa.svg",
       "dependencies": []
     },
     "lib/media/3d6c1bdc4d87cde4de67.svg": {
-      "modifiedTime": 1718954192626,
+      "modifiedTime": 1718955020656,
       "sourceSize": 279,
       "exportedPath": "lib/media/3d6c1bdc4d87cde4de67.svg",
       "dependencies": []
     },
     "lib/html/file-tree.html": {
-      "modifiedTime": 1718954192626,
-      "sourceSize": 291433,
+      "modifiedTime": 1718955020656,
+      "sourceSize": 539282,
       "exportedPath": "lib/html/file-tree.html",
       "dependencies": []
     },
     "lib/scripts/webpage.js": {
-      "modifiedTime": 1718954192626,
+      "modifiedTime": 1718955020656,
       "sourceSize": 47290,
       "exportedPath": "lib/scripts/webpage.js",
       "dependencies": []
     },
     "lib/scripts/graph-view.js": {
-      "modifiedTime": 1718954192626,
+      "modifiedTime": 1718955020656,
       "sourceSize": 15519,
       "exportedPath": "lib/scripts/graph-view.js",
       "dependencies": []
     },
     "lib/scripts/graph-wasm.js": {
-      "modifiedTime": 1718954192626,
+      "modifiedTime": 1718955020656,
       "sourceSize": 14021,
       "exportedPath": "lib/scripts/graph-wasm.js",
       "dependencies": []
     },
     "lib/scripts/graph-render-worker.js": {
-      "modifiedTime": 1718954192626,
+      "modifiedTime": 1718955020656,
       "sourceSize": 5179,
       "exportedPath": "lib/scripts/graph-render-worker.js",
       "dependencies": []
     },
     "lib/scripts/tinycolor.js": {
-      "modifiedTime": 1718954192626,
+      "modifiedTime": 1718955020656,
       "sourceSize": 29832,
       "exportedPath": "lib/scripts/tinycolor.js",
       "dependencies": []
     },
     "lib/scripts/pixi.js": {
-      "modifiedTime": 1718954192626,
+      "modifiedTime": 1718955020656,
       "sourceSize": 449509,
       "exportedPath": "lib/scripts/pixi.js",
       "dependencies": []
     },
     "lib/scripts/minisearch.js": {
-      "modifiedTime": 1718954192626,
+      "modifiedTime": 1718955020656,
       "sourceSize": 29422,
       "exportedPath": "lib/scripts/minisearch.js",
       "dependencies": []
     },
     "lib/media/favicon.png": {
-      "modifiedTime": 1718954192626,
+      "modifiedTime": 1718955020656,
       "sourceSize": 1105,
       "exportedPath": "lib/media/favicon.png",
       "dependencies": []
     },
     "lib/scripts/graph-data.js": {
-      "modifiedTime": 1718954192626,
-      "sourceSize": 28229,
+      "modifiedTime": 1718955020656,
+      "sourceSize": 56376,
       "exportedPath": "lib/scripts/graph-data.js",
       "dependencies": []
     },
     "lib/styles/obsidian.css": {
-      "modifiedTime": 1718954192626,
+      "modifiedTime": 1718955020656,
       "sourceSize": 130183,
       "exportedPath": "lib/styles/obsidian.css",
       "dependencies": []
     },
     "lib/styles/theme.css": {
-      "modifiedTime": 1718954192626,
+      "modifiedTime": 1718955020656,
       "sourceSize": 41426,
       "exportedPath": "lib/styles/theme.css",
       "dependencies": []
     },
     "lib/styles/global-variable-styles.css": {
-      "modifiedTime": 1718954192626,
+      "modifiedTime": 1718955020656,
       "sourceSize": 367,
       "exportedPath": "lib/styles/global-variable-styles.css",
       "dependencies": []
     },
     "lib/styles/supported-plugins.css": {
-      "modifiedTime": 1718954192626,
+      "modifiedTime": 1718955020656,
       "sourceSize": 119,
       "exportedPath": "lib/styles/supported-plugins.css",
       "dependencies": []
     },
     "lib/styles/main-styles.css": {
-      "modifiedTime": 1718954192626,
+      "modifiedTime": 1718955020656,
       "sourceSize": 23130,
       "exportedPath": "lib/styles/main-styles.css",
       "dependencies": []
@@ -1183,7 +1492,7 @@
       "dependencies": []
     },
     "疾病与基因/等位基因频谱(allele frequency spectrum,SFS).md": {
-      "modifiedTime": 1718954192626,
+      "modifiedTime": 1718955020656,
       "sourceSize": 10239,
       "exportedPath": "疾病与基因/等位基因频谱(allele-frequency-spectrum,sfs).html",
       "dependencies": []
@@ -1999,7 +2308,7 @@
       "dependencies": []
     },
     "科研方法及理论/数据科学家 95 时间都在使用的 10 大基本分布.md": {
-      "modifiedTime": 1718954192626,
+      "modifiedTime": 1718955020656,
       "sourceSize": 10258,
       "exportedPath": "科研方法及理论/数据科学家-95-时间都在使用的-10-大基本分布.html",
       "dependencies": []
@@ -2245,7 +2554,7 @@
       "dependencies": []
     },
     "科研方法及理论/BSX-BAK巨孔.md": {
-      "modifiedTime": 1718954192626,
+      "modifiedTime": 1718955020656,
       "sourceSize": 1,
       "exportedPath": "科研方法及理论/bsx-bak巨孔.html",
       "dependencies": []
@@ -2641,7 +2950,7 @@
       "dependencies": []
     },
     "人文术语/康巴藏族.md": {
-      "modifiedTime": 1718954192626,
+      "modifiedTime": 1718955020656,
       "sourceSize": 289,
       "exportedPath": "人文术语/康巴藏族.html",
       "dependencies": []
@@ -2707,7 +3016,7 @@
       "dependencies": []
     },
     "人文术语/弥生人.md": {
-      "modifiedTime": 1718954192626,
+      "modifiedTime": 1718955020656,
       "sourceSize": 600,
       "exportedPath": "人文术语/弥生人.html",
       "dependencies": []
@@ -3061,135 +3370,1989 @@
       "dependencies": []
     },
     "lib/fonts/mathjax_zero.woff": {
-      "modifiedTime": 1718954192626,
+      "modifiedTime": 1718955020656,
       "sourceSize": 1368,
       "exportedPath": "lib/fonts/mathjax_zero.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_main-regular.woff": {
-      "modifiedTime": 1718954192626,
+      "modifiedTime": 1718955020656,
       "sourceSize": 34160,
       "exportedPath": "lib/fonts/mathjax_main-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_main-bold.woff": {
-      "modifiedTime": 1718954192626,
+      "modifiedTime": 1718955020656,
       "sourceSize": 34464,
       "exportedPath": "lib/fonts/mathjax_main-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_math-italic.woff": {
-      "modifiedTime": 1718954192626,
+      "modifiedTime": 1718955020656,
       "sourceSize": 19360,
       "exportedPath": "lib/fonts/mathjax_math-italic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_main-italic.woff": {
-      "modifiedTime": 1718954192626,
+      "modifiedTime": 1718955020656,
       "sourceSize": 20832,
       "exportedPath": "lib/fonts/mathjax_main-italic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_math-bolditalic.woff": {
-      "modifiedTime": 1718954192626,
+      "modifiedTime": 1718955020656,
       "sourceSize": 19776,
       "exportedPath": "lib/fonts/mathjax_math-bolditalic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size1-regular.woff": {
-      "modifiedTime": 1718954192626,
+      "modifiedTime": 1718955020656,
       "sourceSize": 5792,
       "exportedPath": "lib/fonts/mathjax_size1-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size2-regular.woff": {
-      "modifiedTime": 1718954192626,
+      "modifiedTime": 1718955020656,
       "sourceSize": 5464,
       "exportedPath": "lib/fonts/mathjax_size2-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size3-regular.woff": {
-      "modifiedTime": 1718954192626,
+      "modifiedTime": 1718955020656,
       "sourceSize": 3244,
       "exportedPath": "lib/fonts/mathjax_size3-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size4-regular.woff": {
-      "modifiedTime": 1718954192626,
+      "modifiedTime": 1718955020656,
       "sourceSize": 5148,
       "exportedPath": "lib/fonts/mathjax_size4-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_ams-regular.woff": {
-      "modifiedTime": 1718954192626,
+      "modifiedTime": 1718955020656,
       "sourceSize": 40808,
       "exportedPath": "lib/fonts/mathjax_ams-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_calligraphic-regular.woff": {
-      "modifiedTime": 1718954192626,
+      "modifiedTime": 1718955020656,
       "sourceSize": 9600,
       "exportedPath": "lib/fonts/mathjax_calligraphic-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_calligraphic-bold.woff": {
-      "modifiedTime": 1718954192626,
+      "modifiedTime": 1718955020656,
       "sourceSize": 9908,
       "exportedPath": "lib/fonts/mathjax_calligraphic-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_fraktur-regular.woff": {
-      "modifiedTime": 1718954192626,
+      "modifiedTime": 1718955020656,
       "sourceSize": 21480,
       "exportedPath": "lib/fonts/mathjax_fraktur-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_fraktur-bold.woff": {
-      "modifiedTime": 1718954192626,
+      "modifiedTime": 1718955020656,
       "sourceSize": 22340,
       "exportedPath": "lib/fonts/mathjax_fraktur-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_sansserif-regular.woff": {
-      "modifiedTime": 1718954192626,
+      "modifiedTime": 1718955020656,
       "sourceSize": 12660,
       "exportedPath": "lib/fonts/mathjax_sansserif-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_sansserif-bold.woff": {
-      "modifiedTime": 1718954192626,
+      "modifiedTime": 1718955020656,
       "sourceSize": 15944,
       "exportedPath": "lib/fonts/mathjax_sansserif-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_sansserif-italic.woff": {
-      "modifiedTime": 1718954192626,
+      "modifiedTime": 1718955020656,
       "sourceSize": 14628,
       "exportedPath": "lib/fonts/mathjax_sansserif-italic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_script-regular.woff": {
-      "modifiedTime": 1718954192626,
+      "modifiedTime": 1718955020656,
       "sourceSize": 11852,
       "exportedPath": "lib/fonts/mathjax_script-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_typewriter-regular.woff": {
-      "modifiedTime": 1718954192626,
+      "modifiedTime": 1718955020656,
       "sourceSize": 17604,
       "exportedPath": "lib/fonts/mathjax_typewriter-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_vector-regular.woff": {
-      "modifiedTime": 1718954192626,
+      "modifiedTime": 1718955020656,
       "sourceSize": 1136,
       "exportedPath": "lib/fonts/mathjax_vector-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_vector-bold.woff": {
-      "modifiedTime": 1718954192626,
+      "modifiedTime": 1718955020656,
       "sourceSize": 1116,
       "exportedPath": "lib/fonts/mathjax_vector-bold.woff",
+      "dependencies": []
+    },
+    "软件/其它生信软件/格式比对/使用 PLINK 转换 VCF 到 BED, BIM, FAM.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 2392,
+      "exportedPath": "软件/其它生信软件/格式比对/使用-plink-转换-vcf-到-bed,-bim,-fam.html",
+      "dependencies": []
+    },
+    "软件/其它生信软件/格式比对/序列比对的思考.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 15270,
+      "exportedPath": "软件/其它生信软件/格式比对/序列比对的思考.html",
+      "dependencies": []
+    },
+    "软件/其它生信软件/格式比对/Align软件使用.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 10761,
+      "exportedPath": "软件/其它生信软件/格式比对/align软件使用.html",
+      "dependencies": []
+    },
+    "软件/其它生信软件/格式比对/FASTQ转SAM和BAM.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 781,
+      "exportedPath": "软件/其它生信软件/格式比对/fastq转sam和bam.html",
+      "dependencies": []
+    },
+    "软件/其它生信软件/格式比对/Fst绘制矩阵.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 5482,
+      "exportedPath": "软件/其它生信软件/格式比对/fst绘制矩阵.html",
+      "dependencies": []
+    },
+    "软件/其它生信软件/格式比对/MAFFT多序列比对教程.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 2120,
+      "exportedPath": "软件/其它生信软件/格式比对/mafft多序列比对教程.html",
+      "dependencies": []
+    },
+    "软件/其它生信软件/格式比对/The GUIDANCE2 Server 多序列比对置信软件.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 5024,
+      "exportedPath": "软件/其它生信软件/格式比对/the-guidance2-server-多序列比对置信软件.html",
+      "dependencies": []
+    },
+    "软件/其它生信软件/格式比对/TrimAl自动剪切对齐序列.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 726,
+      "exportedPath": "软件/其它生信软件/格式比对/trimal自动剪切对齐序列.html",
+      "dependencies": []
+    },
+    "软件/其它生信软件/格式比对/Trimal自动修剪序列不可靠区域.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 6541,
+      "exportedPath": "软件/其它生信软件/格式比对/trimal自动修剪序列不可靠区域.html",
+      "dependencies": []
+    },
+    "软件/其它生信软件/全基因组/简易的mtDNA分析流程.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 3105,
+      "exportedPath": "软件/其它生信软件/全基因组/简易的mtdna分析流程.html",
+      "dependencies": []
+    },
+    "软件/其它生信软件/全基因组/线粒体基因组分析流程.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 11618,
+      "exportedPath": "软件/其它生信软件/全基因组/线粒体基因组分析流程.html",
+      "dependencies": []
+    },
+    "软件/其它生信软件/全基因组/线粒体DNA工作流程.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 9912,
+      "exportedPath": "软件/其它生信软件/全基因组/线粒体dna工作流程.html",
+      "dependencies": []
+    },
+    "软件/其它生信软件/全基因组/dinumt.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 4664,
+      "exportedPath": "软件/其它生信软件/全基因组/dinumt.html",
+      "dependencies": []
+    },
+    "软件/其它生信软件/全基因组/haplocheck检测污染.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 783,
+      "exportedPath": "软件/其它生信软件/全基因组/haplocheck检测污染.html",
+      "dependencies": []
+    },
+    "软件/其它生信软件/全基因组/mitofinder软件安装和使用.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 3101,
+      "exportedPath": "软件/其它生信软件/全基因组/mitofinder软件安装和使用.html",
+      "dependencies": []
+    },
+    "软件/其它生信软件/全基因组/MToolBox.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 13104,
+      "exportedPath": "软件/其它生信软件/全基因组/mtoolbox.html",
+      "dependencies": []
+    },
+    "软件/其它生信软件/全基因组/NUMT-detector.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 47109,
+      "exportedPath": "软件/其它生信软件/全基因组/numt-detector.html",
+      "dependencies": []
+    },
+    "软件/其它生信软件/全基因组/NUMT-detector错误排查.canvas": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 10654,
+      "exportedPath": "软件/其它生信软件/全基因组/numt-detector错误排查.html",
+      "dependencies": []
+    },
+    "软件/其它生信软件/群体遗传/根据单倍群频率使用sklearn进行降维.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 3256,
+      "exportedPath": "软件/其它生信软件/群体遗传/根据单倍群频率使用sklearn进行降维.html",
+      "dependencies": []
+    },
+    "软件/其它生信软件/群体遗传/根据共享单倍群频率绘制人群热图.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 5357,
+      "exportedPath": "软件/其它生信软件/群体遗传/根据共享单倍群频率绘制人群热图.html",
+      "dependencies": []
+    },
+    "软件/其它生信软件/群体遗传/根据Fst算MDS.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 6567,
+      "exportedPath": "软件/其它生信软件/群体遗传/根据fst算mds.html",
+      "dependencies": []
+    },
+    "软件/其它生信软件/群体遗传/基于Fst绘制Neighbor-Joining (NJ)树.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 10474,
+      "exportedPath": "软件/其它生信软件/群体遗传/基于fst绘制neighbor-joining-(nj)树.html",
+      "dependencies": []
+    },
+    "软件/其它生信软件/群体遗传/基于Fst绘制Network图.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 47410,
+      "exportedPath": "软件/其它生信软件/群体遗传/基于fst绘制network图.html",
+      "dependencies": []
+    },
+    "软件/其它生信软件/群体遗传/进化树美化网站.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 727,
+      "exportedPath": "软件/其它生信软件/群体遗传/进化树美化网站.html",
+      "dependencies": []
+    },
+    "软件/其它生信软件/群体遗传/利用R进行iTol注释文件生成.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 11043,
+      "exportedPath": "软件/其它生信软件/群体遗传/利用r进行itol注释文件生成.html",
+      "dependencies": []
+    },
+    "软件/其它生信软件/群体遗传/特定某个单倍群与经纬度相关性回归.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 3035,
+      "exportedPath": "软件/其它生信软件/群体遗传/特定某个单倍群与经纬度相关性回归.html",
+      "dependencies": []
+    },
+    "软件/其它生信软件/群体遗传/位点频谱SFS (site frequency spectrum).md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 2524,
+      "exportedPath": "软件/其它生信软件/群体遗传/位点频谱sfs-(site-frequency-spectrum).html",
+      "dependencies": []
+    },
+    "软件/其它生信软件/群体遗传/相关性热图绘制.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 7086,
+      "exportedPath": "软件/其它生信软件/群体遗传/相关性热图绘制.html",
+      "dependencies": []
+    },
+    "软件/其它生信软件/群体遗传/自制FastHaN脚本——2024年5月13日更新.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 5558,
+      "exportedPath": "软件/其它生信软件/群体遗传/自制fasthan脚本——2024年5月13日更新.html",
+      "dependencies": []
+    },
+    "软件/其它生信软件/群体遗传/自制FastHaN脚本——2024年5月16日更新.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 4812,
+      "exportedPath": "软件/其它生信软件/群体遗传/自制fasthan脚本——2024年5月16日更新.html",
+      "dependencies": []
+    },
+    "软件/其它生信软件/群体遗传/自制FastHaN脚本——2024年5月22日更新.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 2215,
+      "exportedPath": "软件/其它生信软件/群体遗传/自制fasthan脚本——2024年5月22日更新.html",
+      "dependencies": []
+    },
+    "软件/其它生信软件/群体遗传/ANGSD（Analysis of Next Generation Sequencing Data）.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 645,
+      "exportedPath": "软件/其它生信软件/群体遗传/angsd（analysis-of-next-generation-sequencing-data）.html",
+      "dependencies": []
+    },
+    "软件/其它生信软件/群体遗传/easySFS.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 11545,
+      "exportedPath": "软件/其它生信软件/群体遗传/easysfs.html",
+      "dependencies": []
+    },
+    "软件/其它生信软件/群体遗传/FastHaN软件——陈华.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 12491,
+      "exportedPath": "软件/其它生信软件/群体遗传/fasthan软件——陈华.html",
+      "dependencies": []
+    },
+    "软件/其它生信软件/群体遗传/fastsimcoal2.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 9957,
+      "exportedPath": "软件/其它生信软件/群体遗传/fastsimcoal2.html",
+      "dependencies": []
+    },
+    "软件/其它生信软件/群体遗传/Haplogrep3分型.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 5029,
+      "exportedPath": "软件/其它生信软件/群体遗传/haplogrep3分型.html",
+      "dependencies": []
+    },
+    "软件/其它生信软件/群体遗传/iTol完全美化.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 30860,
+      "exportedPath": "软件/其它生信软件/群体遗传/itol完全美化.html",
+      "dependencies": []
+    },
+    "软件/其它生信软件/群体遗传/linkET相关性分析.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 10203,
+      "exportedPath": "软件/其它生信软件/群体遗传/linket相关性分析.html",
+      "dependencies": []
+    },
+    "软件/其它生信软件/群体遗传/PhyloSuite开发——不简单的工作让系统发育分析变得简单.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 4557,
+      "exportedPath": "软件/其它生信软件/群体遗传/phylosuite开发——不简单的工作让系统发育分析变得简单.html",
+      "dependencies": []
+    },
+    "软件/其它生信软件/群体遗传/python：快速整理线粒体单倍群至目标单倍群.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 5049,
+      "exportedPath": "软件/其它生信软件/群体遗传/python：快速整理线粒体单倍群至目标单倍群.html",
+      "dependencies": []
+    },
+    "软件/其它生信软件/利用R进行iTol注释文件生成.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 11043,
+      "exportedPath": "软件/其它生信软件/利用r进行itol注释文件生成.html",
+      "dependencies": []
+    },
+    "软件/其它生信软件/自制FastHaN脚本——2024年5月16日更新.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 4812,
+      "exportedPath": "软件/其它生信软件/自制fasthan脚本——2024年5月16日更新.html",
+      "dependencies": []
+    },
+    "软件/其它生信软件/Advanced Circos：绘制NUMT弦图教程.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 3607,
+      "exportedPath": "软件/其它生信软件/advanced-circos：绘制numt弦图教程.html",
+      "dependencies": []
+    },
+    "软件/Adobe illustrator绘图/第二节 倾斜工具.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 764,
+      "exportedPath": "软件/adobe-illustrator绘图/第二节-倾斜工具.html",
+      "dependencies": []
+    },
+    "软件/Adobe illustrator绘图/第六节 直线工具.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 456,
+      "exportedPath": "软件/adobe-illustrator绘图/第六节-直线工具.html",
+      "dependencies": []
+    },
+    "软件/Adobe illustrator绘图/第七节 混合工具.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 885,
+      "exportedPath": "软件/adobe-illustrator绘图/第七节-混合工具.html",
+      "dependencies": []
+    },
+    "软件/Adobe illustrator绘图/第三节 钢笔工具.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 974,
+      "exportedPath": "软件/adobe-illustrator绘图/第三节-钢笔工具.html",
+      "dependencies": []
+    },
+    "软件/Adobe illustrator绘图/第四节 文字工具.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 599,
+      "exportedPath": "软件/adobe-illustrator绘图/第四节-文字工具.html",
+      "dependencies": []
+    },
+    "软件/Adobe illustrator绘图/第五节 形状工具.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 844,
+      "exportedPath": "软件/adobe-illustrator绘图/第五节-形状工具.html",
+      "dependencies": []
+    },
+    "软件/Adobe illustrator绘图/第一节 基础导入导出功能.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 1245,
+      "exportedPath": "软件/adobe-illustrator绘图/第一节-基础导入导出功能.html",
+      "dependencies": []
+    },
+    "软件/Adobe illustrator绘图/思维总览.canvas": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 1848,
+      "exportedPath": "软件/adobe-illustrator绘图/思维总览.html",
+      "dependencies": []
+    },
+    "软件/arcgis绘图/地理空间数据.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 769,
+      "exportedPath": "软件/arcgis绘图/地理空间数据.html",
+      "dependencies": []
+    },
+    "软件/arcgis绘图/绘制省份人口数.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 794,
+      "exportedPath": "软件/arcgis绘图/绘制省份人口数.html",
+      "dependencies": []
+    },
+    "软件/arcgis绘图/绘制XY数据.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 771,
+      "exportedPath": "软件/arcgis绘图/绘制xy数据.html",
+      "dependencies": []
+    },
+    "软件/arcgis绘图/基础绘图.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 1705,
+      "exportedPath": "软件/arcgis绘图/基础绘图.html",
+      "dependencies": []
+    },
+    "软件/arcgis绘图/没有ObjectID字段解决办法.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 577,
+      "exportedPath": "软件/arcgis绘图/没有objectid字段解决办法.html",
+      "dependencies": []
+    },
+    "软件/arcgis绘图/使用Arcgis绘制单倍群等值线图.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 2359,
+      "exportedPath": "软件/arcgis绘图/使用arcgis绘制单倍群等值线图.html",
+      "dependencies": []
+    },
+    "软件/arcgis绘图/QGIS绘制XY散点图.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 1662,
+      "exportedPath": "软件/arcgis绘图/qgis绘制xy散点图.html",
+      "dependencies": []
+    },
+    "软件/BEAST/BEAST：1代参数设置（简略版）.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 4119,
+      "exportedPath": "软件/beast/beast：1代参数设置（简略版）.html",
+      "dependencies": []
+    },
+    "软件/BEAST/BEAST：使用指南.canvas": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 8638,
+      "exportedPath": "软件/beast/beast：使用指南.html",
+      "dependencies": []
+    },
+    "软件/BEAST/BEAST：替换模型.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 7004,
+      "exportedPath": "软件/beast/beast：替换模型.html",
+      "dependencies": []
+    },
+    "软件/BEAST/BEAST：线粒体DNA的BSP设置.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 2124,
+      "exportedPath": "软件/beast/beast：线粒体dna的bsp设置.html",
+      "dependencies": []
+    },
+    "软件/BEAST/MrBayes：贝叶斯方法建树.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 13939,
+      "exportedPath": "软件/beast/mrbayes：贝叶斯方法建树.html",
+      "dependencies": []
+    },
+    "软件/IQtree/iqtree：基础操作.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 3635,
+      "exportedPath": "软件/iqtree/iqtree：基础操作.html",
+      "dependencies": []
+    },
+    "软件/IQtree/iqtree：线粒体最大似然树.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 788,
+      "exportedPath": "软件/iqtree/iqtree：线粒体最大似然树.html",
+      "dependencies": []
+    },
+    "软件/IQtree/iqtree：寻找最优模型及分区.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 8827,
+      "exportedPath": "软件/iqtree/iqtree：寻找最优模型及分区.html",
+      "dependencies": []
+    },
+    "软件/origin绘图/Origin：教学—弦图绘制.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 1691,
+      "exportedPath": "软件/origin绘图/origin：教学—弦图绘制.html",
+      "dependencies": []
+    },
+    "软件/Python/地理经纬/根据国家、地区求经纬度.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 2581,
+      "exportedPath": "软件/python/地理经纬/根据国家、地区求经纬度.html",
+      "dependencies": []
+    },
+    "软件/Python/地理经纬/根据经纬度获取海拔.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 3661,
+      "exportedPath": "软件/python/地理经纬/根据经纬度获取海拔.html",
+      "dependencies": []
+    },
+    "软件/Python/地理经纬/根据经纬度求国家.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 2295,
+      "exportedPath": "软件/python/地理经纬/根据经纬度求国家.html",
+      "dependencies": []
+    },
+    "软件/Python/地理经纬/根据中文求拼音.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 693,
+      "exportedPath": "软件/python/地理经纬/根据中文求拼音.html",
+      "dependencies": []
+    },
+    "软件/Python/地理经纬/Python经纬度和地址互转.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 710,
+      "exportedPath": "软件/python/地理经纬/python经纬度和地址互转.html",
+      "dependencies": []
+    },
+    "软件/Python/格式转换/多个fasta、txt合并为一个.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 2355,
+      "exportedPath": "软件/python/格式转换/多个fasta、txt合并为一个.html",
+      "dependencies": []
+    },
+    "软件/Python/格式转换/根据共享单倍群频率绘制人群柱状图.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 3017,
+      "exportedPath": "软件/python/格式转换/根据共享单倍群频率绘制人群柱状图.html",
+      "dependencies": []
+    },
+    "软件/Python/格式转换/将FASTA文件与Aln文件合并.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 5585,
+      "exportedPath": "软件/python/格式转换/将fasta文件与aln文件合并.html",
+      "dependencies": []
+    },
+    "软件/Python/格式转换/将FASTA文件中的序列分组到指定的组中.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 3270,
+      "exportedPath": "软件/python/格式转换/将fasta文件中的序列分组到指定的组中.html",
+      "dependencies": []
+    },
+    "软件/Python/格式转换/将FASTA转换成Arp.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 10717,
+      "exportedPath": "软件/python/格式转换/将fasta转换成arp.html",
+      "dependencies": []
+    },
+    "软件/Python/格式转换/将VCF文件伪二倍体转化为单倍体fatsa文件.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 4892,
+      "exportedPath": "软件/python/格式转换/将vcf文件伪二倍体转化为单倍体fatsa文件.html",
+      "dependencies": []
+    },
+    "软件/Python/格式转换/将VCF文件转为rdf并重新命名ID.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 10575,
+      "exportedPath": "软件/python/格式转换/将vcf文件转为rdf并重新命名id.html",
+      "dependencies": []
+    },
+    "软件/Python/格式转换/利用Python将主成分表转换成R脚本.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 18560,
+      "exportedPath": "软件/python/格式转换/利用python将主成分表转换成r脚本.html",
+      "dependencies": []
+    },
+    "软件/Python/格式转换/利用Python快速填写频率表.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 5862,
+      "exportedPath": "软件/python/格式转换/利用python快速填写频率表.html",
+      "dependencies": []
+    },
+    "软件/Python/格式转换/利用Python迅速查找上游单倍型（2024年6月19日更新）.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 232155,
+      "exportedPath": "软件/python/格式转换/利用python迅速查找上游单倍型（2024年6月19日更新）.html",
+      "dependencies": []
+    },
+    "软件/Python/格式转换/利用python一键绘制线粒体单倍群频率热图.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 14433,
+      "exportedPath": "软件/python/格式转换/利用python一键绘制线粒体单倍群频率热图.html",
+      "dependencies": []
+    },
+    "软件/Python/格式转换/批量修改VCF文件至Arp格式.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 2062,
+      "exportedPath": "软件/python/格式转换/批量修改vcf文件至arp格式.html",
+      "dependencies": []
+    },
+    "软件/Python/格式转换/删除fasta中的指定位点.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 1405,
+      "exportedPath": "软件/python/格式转换/删除fasta中的指定位点.html",
+      "dependencies": []
+    },
+    "软件/Python/格式转换/提取fasta序列至新的fasta.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 2596,
+      "exportedPath": "软件/python/格式转换/提取fasta序列至新的fasta.html",
+      "dependencies": []
+    },
+    "软件/Python/格式转换/一键生成Y染色体各级单倍群累加表格.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 3901,
+      "exportedPath": "软件/python/格式转换/一键生成y染色体各级单倍群累加表格.html",
+      "dependencies": []
+    },
+    "软件/Python/格式转换/AMOVA便捷分组.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 1643,
+      "exportedPath": "软件/python/格式转换/amova便捷分组.html",
+      "dependencies": []
+    },
+    "软件/Python/格式转换/AMOVA及Fst分析软件操作.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 5877,
+      "exportedPath": "软件/python/格式转换/amova及fst分析软件操作.html",
+      "dependencies": []
+    },
+    "软件/Python/格式转换/fasta文件加个单倍群label.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 1319,
+      "exportedPath": "软件/python/格式转换/fasta文件加个单倍群label.html",
+      "dependencies": []
+    },
+    "软件/Python/格式转换/FASTA文件转NEX（2024年6月12日更新）.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 14714,
+      "exportedPath": "软件/python/格式转换/fasta文件转nex（2024年6月12日更新）.html",
+      "dependencies": []
+    },
+    "软件/Python/格式转换/Python绘制省份频率地图.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 6554,
+      "exportedPath": "软件/python/格式转换/python绘制省份频率地图.html",
+      "dependencies": []
+    },
+    "软件/Python/格式转换/VCF文件转换成NEX.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 3425,
+      "exportedPath": "软件/python/格式转换/vcf文件转换成nex.html",
+      "dependencies": []
+    },
+    "软件/Python/数据获取/利用Python下载NCBI数据.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 6167,
+      "exportedPath": "软件/python/数据获取/利用python下载ncbi数据.html",
+      "dependencies": []
+    },
+    "软件/Python/数据获取/下载SRA.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 5556,
+      "exportedPath": "软件/python/数据获取/下载sra.html",
+      "dependencies": []
+    },
+    "软件/Python/学习笔记/八、Python函数.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 1317,
+      "exportedPath": "软件/python/学习笔记/八、python函数.html",
+      "dependencies": []
+    },
+    "软件/Python/学习笔记/二、Python注释.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 339,
+      "exportedPath": "软件/python/学习笔记/二、python注释.html",
+      "dependencies": []
+    },
+    "软件/Python/学习笔记/二十、 Numpy探索.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 2096,
+      "exportedPath": "软件/python/学习笔记/二十、-numpy探索.html",
+      "dependencies": []
+    },
+    "软件/Python/学习笔记/二十八、 Python数据可视化.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 3822,
+      "exportedPath": "软件/python/学习笔记/二十八、-python数据可视化.html",
+      "dependencies": []
+    },
+    "软件/Python/学习笔记/二十二、Pandas操作.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 1258,
+      "exportedPath": "软件/python/学习笔记/二十二、pandas操作.html",
+      "dependencies": []
+    },
+    "软件/Python/学习笔记/二十九、 Python线性回归.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 1639,
+      "exportedPath": "软件/python/学习笔记/二十九、-python线性回归.html",
+      "dependencies": []
+    },
+    "软件/Python/学习笔记/二十六、 清洗数据.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 1071,
+      "exportedPath": "软件/python/学习笔记/二十六、-清洗数据.html",
+      "dependencies": []
+    },
+    "软件/Python/学习笔记/二十七、 通过API获取数据.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 446,
+      "exportedPath": "软件/python/学习笔记/二十七、-通过api获取数据.html",
+      "dependencies": []
+    },
+    "软件/Python/学习笔记/二十三、 Pandas的Dataframe.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 2634,
+      "exportedPath": "软件/python/学习笔记/二十三、-pandas的dataframe.html",
+      "dependencies": []
+    },
+    "软件/Python/学习笔记/二十四、 获取数据.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 1858,
+      "exportedPath": "软件/python/学习笔记/二十四、-获取数据.html",
+      "dependencies": []
+    },
+    "软件/Python/学习笔记/二十五、 评估数据.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 1447,
+      "exportedPath": "软件/python/学习笔记/二十五、-评估数据.html",
+      "dependencies": []
+    },
+    "软件/Python/学习笔记/二十一、Pandas入门.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 793,
+      "exportedPath": "软件/python/学习笔记/二十一、pandas入门.html",
+      "dependencies": []
+    },
+    "软件/Python/学习笔记/九、Python模块.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 318,
+      "exportedPath": "软件/python/学习笔记/九、python模块.html",
+      "dependencies": []
+    },
+    "软件/Python/学习笔记/利用Python生成词云.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 2108,
+      "exportedPath": "软件/python/学习笔记/利用python生成词云.html",
+      "dependencies": []
+    },
+    "软件/Python/学习笔记/六、Python while循环.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 933,
+      "exportedPath": "软件/python/学习笔记/六、python-while循环.html",
+      "dependencies": []
+    },
+    "软件/Python/学习笔记/七、Python 格式化字符串.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 385,
+      "exportedPath": "软件/python/学习笔记/七、python-格式化字符串.html",
+      "dependencies": []
+    },
+    "软件/Python/学习笔记/三、Python if语句.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 758,
+      "exportedPath": "软件/python/学习笔记/三、python-if语句.html",
+      "dependencies": []
+    },
+    "软件/Python/学习笔记/三十、 Python逻辑回归.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 1052,
+      "exportedPath": "软件/python/学习笔记/三十、-python逻辑回归.html",
+      "dependencies": []
+    },
+    "软件/Python/学习笔记/三十一、 Python爬虫.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 3136,
+      "exportedPath": "软件/python/学习笔记/三十一、-python爬虫.html",
+      "dependencies": []
+    },
+    "软件/Python/学习笔记/十、Python创建类.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 1717,
+      "exportedPath": "软件/python/学习笔记/十、python创建类.html",
+      "dependencies": []
+    },
+    "软件/Python/学习笔记/十八、 Jupyter使用.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 4,
+      "exportedPath": "软件/python/学习笔记/十八、-jupyter使用.html",
+      "dependencies": []
+    },
+    "软件/Python/学习笔记/十二、 Python文件操作.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 1210,
+      "exportedPath": "软件/python/学习笔记/十二、-python文件操作.html",
+      "dependencies": []
+    },
+    "软件/Python/学习笔记/十九、 Numpy入门.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 1126,
+      "exportedPath": "软件/python/学习笔记/十九、-numpy入门.html",
+      "dependencies": []
+    },
+    "软件/Python/学习笔记/十六、 Python高阶函数.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 722,
+      "exportedPath": "软件/python/学习笔记/十六、-python高阶函数.html",
+      "dependencies": []
+    },
+    "软件/Python/学习笔记/十七、Jupyter数据分析安装.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 590,
+      "exportedPath": "软件/python/学习笔记/十七、jupyter数据分析安装.html",
+      "dependencies": []
+    },
+    "软件/Python/学习笔记/十三、Python 文件操作.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 719,
+      "exportedPath": "软件/python/学习笔记/十三、python-文件操作.html",
+      "dependencies": []
+    },
+    "软件/Python/学习笔记/十四、Python预判.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 366,
+      "exportedPath": "软件/python/学习笔记/十四、python预判.html",
+      "dependencies": []
+    },
+    "软件/Python/学习笔记/十五、 Python测试.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 443,
+      "exportedPath": "软件/python/学习笔记/十五、-python测试.html",
+      "dependencies": []
+    },
+    "软件/Python/学习笔记/十一、 Python文件路径.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 680,
+      "exportedPath": "软件/python/学习笔记/十一、-python文件路径.html",
+      "dependencies": []
+    },
+    "软件/Python/学习笔记/四、Python列表和字典.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 864,
+      "exportedPath": "软件/python/学习笔记/四、python列表和字典.html",
+      "dependencies": []
+    },
+    "软件/Python/学习笔记/五、Python for循环.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 670,
+      "exportedPath": "软件/python/学习笔记/五、python-for循环.html",
+      "dependencies": []
+    },
+    "软件/Python/学习笔记/一、Python数据类型.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 1364,
+      "exportedPath": "软件/python/学习笔记/一、python数据类型.html",
+      "dependencies": []
+    },
+    "软件/Python/学习笔记/Python交互式库.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 2887,
+      "exportedPath": "软件/python/学习笔记/python交互式库.html",
+      "dependencies": []
+    },
+    "软件/Python/学习笔记/Scikit-Learn 的建模万能模板！.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 14805,
+      "exportedPath": "软件/python/学习笔记/scikit-learn-的建模万能模板！.html",
+      "dependencies": []
+    },
+    "软件/R语言语法/基本数据集.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 2253,
+      "exportedPath": "软件/r语言语法/基本数据集.html",
+      "dependencies": []
+    },
+    "软件/R语言语法/基本运算符.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 949,
+      "exportedPath": "软件/r语言语法/基本运算符.html",
+      "dependencies": []
+    },
+    "软件/R语言语法/配色图.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 1961,
+      "exportedPath": "软件/r语言语法/配色图.html",
+      "dependencies": []
+    },
+    "软件/R语言语法/谱系树修饰.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 7552,
+      "exportedPath": "软件/r语言语法/谱系树修饰.html",
+      "dependencies": []
+    },
+    "软件/R语言语法/相关性热图.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 7606,
+      "exportedPath": "软件/r语言语法/相关性热图.html",
+      "dependencies": []
+    },
+    "软件/R语言语法/相关性图.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 8530,
+      "exportedPath": "软件/r语言语法/相关性图.html",
+      "dependencies": []
+    },
+    "软件/R语言语法/小提琴图.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 3214,
+      "exportedPath": "软件/r语言语法/小提琴图.html",
+      "dependencies": []
+    },
+    "软件/R语言语法/ggplot2个性化绘制散点图.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 9109,
+      "exportedPath": "软件/r语言语法/ggplot2个性化绘制散点图.html",
+      "dependencies": []
+    },
+    "软件/R语言语法/ggplot2简介.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 6484,
+      "exportedPath": "软件/r语言语法/ggplot2简介.html",
+      "dependencies": []
+    },
+    "软件/R语言语法/GWalkR——一行代码将数据集转化为交互式可视化分析工具.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 2067,
+      "exportedPath": "软件/r语言语法/gwalkr——一行代码将数据集转化为交互式可视化分析工具.html",
+      "dependencies": []
+    },
+    "软件/SPSS/八、单因素方差分析及多重比较.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 2023,
+      "exportedPath": "软件/spss/八、单因素方差分析及多重比较.html",
+      "dependencies": []
+    },
+    "软件/SPSS/二、认识变量.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 1232,
+      "exportedPath": "软件/spss/二、认识变量.html",
+      "dependencies": []
+    },
+    "软件/SPSS/九、非参数检验（秩和检验）.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 2963,
+      "exportedPath": "软件/spss/九、非参数检验（秩和检验）.html",
+      "dependencies": []
+    },
+    "软件/SPSS/六、独立样本T检验.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 1841,
+      "exportedPath": "软件/spss/六、独立样本t检验.html",
+      "dependencies": []
+    },
+    "软件/SPSS/七、配对样本T检验.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 1700,
+      "exportedPath": "软件/spss/七、配对样本t检验.html",
+      "dependencies": []
+    },
+    "软件/SPSS/三、正态分布.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 1089,
+      "exportedPath": "软件/spss/三、正态分布.html",
+      "dependencies": []
+    },
+    "软件/SPSS/十、 二元 Logistic回归分析.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 1646,
+      "exportedPath": "软件/spss/十、-二元-logistic回归分析.html",
+      "dependencies": []
+    },
+    "软件/SPSS/四、线性回归分析.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 3042,
+      "exportedPath": "软件/spss/四、线性回归分析.html",
+      "dependencies": []
+    },
+    "软件/SPSS/五、卡方检验.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 1175,
+      "exportedPath": "软件/spss/五、卡方检验.html",
+      "dependencies": []
+    },
+    "软件/SPSS/一、认识SPSS.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 2111,
+      "exportedPath": "软件/spss/一、认识spss.html",
+      "dependencies": []
+    },
+    "软件/SPSS/SPSS主成分分析.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 7552,
+      "exportedPath": "软件/spss/spss主成分分析.html",
+      "dependencies": []
+    },
+    "软件/在VS Code中搭建你的R语言运行环境.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 3995,
+      "exportedPath": "软件/在vs-code中搭建你的r语言运行环境.html",
+      "dependencies": []
+    },
+    "软件/Win10安装WSL1.0.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 3297,
+      "exportedPath": "软件/win10安装wsl1.0.html",
+      "dependencies": []
+    },
+    "文献及报道/报道/“龙人”促使人们重新思考东亚中更新世古人类的谱系关系.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 3707,
+      "exportedPath": "文献及报道/报道/“龙人”促使人们重新思考东亚中更新世古人类的谱系关系.html",
+      "dependencies": []
+    },
+    "文献及报道/报道/23andMe.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 555,
+      "exportedPath": "文献及报道/报道/23andme.html",
+      "dependencies": []
+    },
+    "文献及报道/报道/200万年！最早古人类基因数据.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 4359,
+      "exportedPath": "文献及报道/报道/200万年！最早古人类基因数据.html",
+      "dependencies": []
+    },
+    "文献及报道/报道/跋山遗址群.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 1009,
+      "exportedPath": "文献及报道/报道/跋山遗址群.html",
+      "dependencies": []
+    },
+    "文献及报道/报道/藏族人群在高原缺氧环境中保持高生殖力的遗传机制.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 3606,
+      "exportedPath": "文献及报道/报道/藏族人群在高原缺氧环境中保持高生殖力的遗传机制.html",
+      "dependencies": []
+    },
+    "文献及报道/报道/非洲裔美国人的基因组研究.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 4076,
+      "exportedPath": "文献及报道/报道/非洲裔美国人的基因组研究.html",
+      "dependencies": []
+    },
+    "文献及报道/报道/改写教科书：刘兴国组发现线粒体基因编码第14个蛋白质.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 14382,
+      "exportedPath": "文献及报道/报道/改写教科书：刘兴国组发现线粒体基因编码第14个蛋白质.html",
+      "dependencies": []
+    },
+    "文献及报道/报道/高龄父亲会给后代带来更多基因突变.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 5002,
+      "exportedPath": "文献及报道/报道/高龄父亲会给后代带来更多基因突变.html",
+      "dependencies": []
+    },
+    "文献及报道/报道/古脊椎所合作破译世界最古老的现代人基因组.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 3713,
+      "exportedPath": "文献及报道/报道/古脊椎所合作破译世界最古老的现代人基因组.html",
+      "dependencies": []
+    },
+    "文献及报道/报道/华龙洞古人类化石研究新进展—下颌骨形态研究.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 6922,
+      "exportedPath": "文献及报道/报道/华龙洞古人类化石研究新进展—下颌骨形态研究.html",
+      "dependencies": []
+    },
+    "文献及报道/报道/华夏肇始，几点基本的考古学知识.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 6031,
+      "exportedPath": "文献及报道/报道/华夏肇始，几点基本的考古学知识.html",
+      "dependencies": []
+    },
+    "文献及报道/报道/环状染色体是“不致病的”染色体 还是“致病的”染色体.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 34113,
+      "exportedPath": "文献及报道/报道/环状染色体是“不致病的”染色体-还是“致病的”染色体.html",
+      "dependencies": []
+    },
+    "文献及报道/报道/甲基化、去甲基化是什么意思？.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 8757,
+      "exportedPath": "文献及报道/报道/甲基化、去甲基化是什么意思？.html",
+      "dependencies": []
+    },
+    "文献及报道/报道/杰贝尔依罗人（Jebel Irhoud）.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 6406,
+      "exportedPath": "文献及报道/报道/杰贝尔依罗人（jebel-irhoud）.html",
+      "dependencies": []
+    },
+    "文献及报道/报道/解码2022年诺贝尔奖背后的古基因组学：“我们来自哪里？”.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 11319,
+      "exportedPath": "文献及报道/报道/解码2022年诺贝尔奖背后的古基因组学：“我们来自哪里？”.html",
+      "dependencies": []
+    },
+    "文献及报道/报道/解析结构变异，Hi-C优势显著！.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 3775,
+      "exportedPath": "文献及报道/报道/解析结构变异，hi-c优势显著！.html",
+      "dependencies": []
+    },
+    "文献及报道/报道/解析全球瘤牛的基因组遗传多样性、种间渗入和适应性进化.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 7051,
+      "exportedPath": "文献及报道/报道/解析全球瘤牛的基因组遗传多样性、种间渗入和适应性进化.html",
+      "dependencies": []
+    },
+    "文献及报道/报道/灵长类进化中大猿特异的基因组结构变异及其对大猿创新表型起源的贡献.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 3326,
+      "exportedPath": "文献及报道/报道/灵长类进化中大猿特异的基因组结构变异及其对大猿创新表型起源的贡献.html",
+      "dependencies": []
+    },
+    "文献及报道/报道/目前：线粒体研究的5大热点.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 1718,
+      "exportedPath": "文献及报道/报道/目前：线粒体研究的5大热点.html",
+      "dependencies": []
+    },
+    "文献及报道/报道/苹果泛基因组.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 24644,
+      "exportedPath": "文献及报道/报道/苹果泛基因组.html",
+      "dependencies": []
+    },
+    "文献及报道/报道/染色体的故事——线粒体DNA.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 10946,
+      "exportedPath": "文献及报道/报道/染色体的故事——线粒体dna.html",
+      "dependencies": []
+    },
+    "文献及报道/报道/人类参考泛基因组（Human Pangenome Reference ）.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 3655,
+      "exportedPath": "文献及报道/报道/人类参考泛基因组（human-pangenome-reference-）.html",
+      "dependencies": []
+    },
+    "文献及报道/报道/山东沂水史前考古大发现，跋山水库10万年前古人类与古生物共存.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 7356,
+      "exportedPath": "文献及报道/报道/山东沂水史前考古大发现，跋山水库10万年前古人类与古生物共存.html",
+      "dependencies": []
+    },
+    "文献及报道/报道/什么是泛基因组？.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 3730,
+      "exportedPath": "文献及报道/报道/什么是泛基因组？.html",
+      "dependencies": []
+    },
+    "文献及报道/报道/石峁遗址贵族DNA基因被成功检测出来，这里真的是黄帝的遗址吗？.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 6490,
+      "exportedPath": "文献及报道/报道/石峁遗址贵族dna基因被成功检测出来，这里真的是黄帝的遗址吗？.html",
+      "dependencies": []
+    },
+    "文献及报道/报道/使用单倍型长读来区分古人类渗入片段.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 4124,
+      "exportedPath": "文献及报道/报道/使用单倍型长读来区分古人类渗入片段.html",
+      "dependencies": []
+    },
+    "文献及报道/报道/世界史前人群与文化的交流互鉴.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 15555,
+      "exportedPath": "文献及报道/报道/世界史前人群与文化的交流互鉴.html",
+      "dependencies": []
+    },
+    "文献及报道/报道/瞬息全碱基——泛基因.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 16956,
+      "exportedPath": "文献及报道/报道/瞬息全碱基——泛基因.html",
+      "dependencies": []
+    },
+    "文献及报道/报道/王传超：2023年中国人群古DNA和古蛋白研究代表性成果及进展评述.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 21047,
+      "exportedPath": "文献及报道/报道/王传超：2023年中国人群古dna和古蛋白研究代表性成果及进展评述.html",
+      "dependencies": []
+    },
+    "文献及报道/报道/现代人起源以及一些吐槽.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 15135,
+      "exportedPath": "文献及报道/报道/现代人起源以及一些吐槽.html",
+      "dependencies": []
+    },
+    "文献及报道/报道/线粒体基因组高级分析.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 9588,
+      "exportedPath": "文献及报道/报道/线粒体基因组高级分析.html",
+      "dependencies": []
+    },
+    "文献及报道/报道/新研究发现线粒体可通过应激反应调控肺泡细胞命运.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 1798,
+      "exportedPath": "文献及报道/报道/新研究发现线粒体可通过应激反应调控肺泡细胞命运.html",
+      "dependencies": []
+    },
+    "文献及报道/报道/与灵长类动物的全基因组比对揭示了人类保守的DNA元件.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 6311,
+      "exportedPath": "文献及报道/报道/与灵长类动物的全基因组比对揭示了人类保守的dna元件.html",
+      "dependencies": []
+    },
+    "文献及报道/报道/玉米起源.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 6466,
+      "exportedPath": "文献及报道/报道/玉米起源.html",
+      "dependencies": []
+    },
+    "文献及报道/报道/中亚群体基因组学揭示了古代跨欧亚的遗传混合与文化交流.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 5310,
+      "exportedPath": "文献及报道/报道/中亚群体基因组学揭示了古代跨欧亚的遗传混合与文化交流.html",
+      "dependencies": []
+    },
+    "文献及报道/报道/重构人类演化中族群融合与基因交流历史的方法.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 21663,
+      "exportedPath": "文献及报道/报道/重构人类演化中族群融合与基因交流历史的方法.html",
+      "dependencies": []
+    },
+    "文献及报道/报道/FADS基因突变帮助早期人类适应新食物.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 3412,
+      "exportedPath": "文献及报道/报道/fads基因突变帮助早期人类适应新食物.html",
+      "dependencies": []
+    },
+    "文献及报道/报道/Nat. Methods 科学家如何看待高维数据降维，关于PCA、t-SNE与UMAP的应用与挑战.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 17488,
+      "exportedPath": "文献及报道/报道/nat.-methods-科学家如何看待高维数据降维，关于pca、t-sne与umap的应用与挑战.html",
+      "dependencies": []
+    },
+    "文献及报道/报道/UKB 50万人类基因组序列集最新发布.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 4462,
+      "exportedPath": "文献及报道/报道/ukb-50万人类基因组序列集最新发布.html",
+      "dependencies": []
+    },
+    "文献及报道/模版/公众号模板.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 104,
+      "exportedPath": "文献及报道/模版/公众号模板.html",
+      "dependencies": []
+    },
+    "文献及报道/模版/摘要插图欣赏.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 676,
+      "exportedPath": "文献及报道/模版/摘要插图欣赏.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/11,000 年前东亚和东南亚交汇处的人类人口历史.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 5325,
+      "exportedPath": "文献及报道/文献/11,000-年前东亚和东南亚交汇处的人类人口历史.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/66,083个人类基因组中的核嵌入线粒体DNA序列.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 8709,
+      "exportedPath": "文献及报道/文献/66,083个人类基因组中的核嵌入线粒体dna序列.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/9500-1800年前的山东的母系遗传结构.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 5778,
+      "exportedPath": "文献及报道/文献/9500-1800年前的山东的母系遗传结构.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/45000年前的西部西伯利亚现代人类的基因组测序.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 2387,
+      "exportedPath": "文献及报道/文献/45000年前的西部西伯利亚现代人类的基因组测序.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/比较基因组微共线性来阐明哺乳动物中核线粒体DNA片段（NUMTs）的快速进化.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 9713,
+      "exportedPath": "文献及报道/文献/比较基因组微共线性来阐明哺乳动物中核线粒体dna片段（numts）的快速进化.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/比较基因组微合成揭示了哺乳动物中核线粒体片段（NUMTs）的快速进化(详细解读).md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 21381,
+      "exportedPath": "文献及报道/文献/比较基因组微合成揭示了哺乳动物中核线粒体片段（numts）的快速进化(详细解读).html",
+      "dependencies": []
+    },
+    "文献及报道/文献/藏人的双重起源：来自线粒体基因组的证据.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 2195,
+      "exportedPath": "文献及报道/文献/藏人的双重起源：来自线粒体基因组的证据.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/川西走廊羌族人口的遗传结构.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 4985,
+      "exportedPath": "文献及报道/文献/川西走廊羌族人口的遗传结构.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/串联重复变异的深层深度参考面板.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 12103,
+      "exportedPath": "文献及报道/文献/串联重复变异的深层深度参考面板.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/从海南岛原住民黎族溯源百越族.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 5000,
+      "exportedPath": "文献及报道/文献/从海南岛原住民黎族溯源百越族.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/从全基因组重测序数据推断日本列岛南部琉球岛民的人口历史.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 10143,
+      "exportedPath": "文献及报道/文献/从全基因组重测序数据推断日本列岛南部琉球岛民的人口历史.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/从线粒体DNA的角度追溯早期海南岛人的遗产.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 2307,
+      "exportedPath": "文献及报道/文献/从线粒体dna的角度追溯早期海南岛人的遗产.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/大规模并行测序的线粒体基因组解释了壮侗语的海南黎族母系多样和遗传结构.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 2005,
+      "exportedPath": "文献及报道/文献/大规模并行测序的线粒体基因组解释了壮侗语的海南黎族母系多样和遗传结构.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/氐羌族和汉族的关系.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 3065,
+      "exportedPath": "文献及报道/文献/氐羌族和汉族的关系.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/东部大猩猩的幽灵混合.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 2375,
+      "exportedPath": "文献及报道/文献/东部大猩猩的幽灵混合.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/东亚北部从晚更新世到全新世的深层人口历史.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 5037,
+      "exportedPath": "文献及报道/文献/东亚北部从晚更新世到全新世的深层人口历史.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/复旦大学张梦翰团队揭露声调起源的系统进化之谜.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 1292,
+      "exportedPath": "文献及报道/文献/复旦大学张梦翰团队揭露声调起源的系统进化之谜.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/高深度非洲人群基因组测序推断迁徙和健康.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 12181,
+      "exportedPath": "文献及报道/文献/高深度非洲人群基因组测序推断迁徙和健康.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/高通量单细胞分析揭示了细胞周期内逐渐出现的线粒体DNA镶嵌现象.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 21643,
+      "exportedPath": "文献及报道/文献/高通量单细胞分析揭示了细胞周期内逐渐出现的线粒体dna镶嵌现象.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/古代基因组揭示了中国西南地区新石器时代粟与水稻混交种植发展中人口和文化扩散并存.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 1954,
+      "exportedPath": "文献及报道/文献/古代基因组揭示了中国西南地区新石器时代粟与水稻混交种植发展中人口和文化扩散并存.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/古代线粒体基因组解释了新石器时代北方中国的石峁群体的起源和基因结构.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 5112,
+      "exportedPath": "文献及报道/文献/古代线粒体基因组解释了新石器时代北方中国的石峁群体的起源和基因结构.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/古代新疆线粒体基因组解释了强烈的混合和高度的基因多样性.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 3122,
+      "exportedPath": "文献及报道/文献/古代新疆线粒体基因组解释了强烈的混合和高度的基因多样性.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/古代DNA揭示北方汉人的基因结构早在3000年前就已经形成.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 8967,
+      "exportedPath": "文献及报道/文献/古代dna揭示北方汉人的基因结构早在3000年前就已经形成.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/古基因组揭示了新石器时期到青铜时期的川滇先民主要来自于黄河流域.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 3662,
+      "exportedPath": "文献及报道/文献/古基因组揭示了新石器时期到青铜时期的川滇先民主要来自于黄河流域.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/河流流域塑造了汉族的母系遗传景观.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 7974,
+      "exportedPath": "文献及报道/文献/河流流域塑造了汉族的母系遗传景观.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/核-线粒体DNA片段类似于人类父系遗传的线粒体DNA（未完）.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 8598,
+      "exportedPath": "文献及报道/文献/核-线粒体dna片段类似于人类父系遗传的线粒体dna（未完）.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/呼吁法医学中线粒体DNA数据质量控制.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 3788,
+      "exportedPath": "文献及报道/文献/呼吁法医学中线粒体dna数据质量控制.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/基因与中国汉族吸烟习惯的关系的研究.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 1993,
+      "exportedPath": "文献及报道/文献/基因与中国汉族吸烟习惯的关系的研究.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/基于古代线粒体基因组的人类进化修订时间表.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 5068,
+      "exportedPath": "文献及报道/文献/基于古代线粒体基因组的人类进化修订时间表.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/精子mtDNA消失的机制.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 2438,
+      "exportedPath": "文献及报道/文献/精子mtdna消失的机制.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/两名丹尼索瓦人的核与线粒体DNA测序.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 5220,
+      "exportedPath": "文献及报道/文献/两名丹尼索瓦人的核与线粒体dna测序.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/墨西哥生物库推进不同祖先的人口和医学基因组学.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 14870,
+      "exportedPath": "文献及报道/文献/墨西哥生物库推进不同祖先的人口和医学基因组学.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/农业起源研究的生物进化论视角.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 3639,
+      "exportedPath": "文献及报道/文献/农业起源研究的生物进化论视角.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/胚系分选塑造了人类的线粒体DNA多样性.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 214,
+      "exportedPath": "文献及报道/文献/胚系分选塑造了人类的线粒体dna多样性.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/评论：66,083个人类基因组中的核嵌入线粒体DNA序列.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 6632,
+      "exportedPath": "文献及报道/文献/评论：66,083个人类基因组中的核嵌入线粒体dna序列.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/青藏高原过去4000年来的母系遗传景观.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 5612,
+      "exportedPath": "文献及报道/文献/青藏高原过去4000年来的母系遗传景观.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/青藏高原及部分周边地区古代人群线粒体基因组研究.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 1210,
+      "exportedPath": "文献及报道/文献/青藏高原及部分周边地区古代人群线粒体基因组研究.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/青藏高原近5100年人类遗传史.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 3939,
+      "exportedPath": "文献及报道/文献/青藏高原近5100年人类遗传史.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/青铜器和铁器时代的人口流动是新疆人口史的基础.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 13044,
+      "exportedPath": "文献及报道/文献/青铜器和铁器时代的人口流动是新疆人口史的基础.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/全球人类线粒体 DNA 变异的更新综合系统发育树.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 4671,
+      "exportedPath": "文献及报道/文献/全球人类线粒体-dna-变异的更新综合系统发育树.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/人类癌细胞中线粒体DNA频繁地转移到核基因组.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 1830,
+      "exportedPath": "文献及报道/文献/人类癌细胞中线粒体dna频繁地转移到核基因组.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/人类端粒到端粒参考基因组中线粒体假基因 (NUMT) 的全面鉴定.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 19289,
+      "exportedPath": "文献及报道/文献/人类端粒到端粒参考基因组中线粒体假基因-(numt)-的全面鉴定.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/人类泛基因组计划（The Human Pangenome Project a global resource to mapgenomic diversity）.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 8240,
+      "exportedPath": "文献及报道/文献/人类泛基因组计划（the-human-pangenome-project-a-global-resource-to-mapgenomic-diversity）.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/人类辐射演化和疾病中的线粒体 DNA 变异.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 19657,
+      "exportedPath": "文献及报道/文献/人类辐射演化和疾病中的线粒体-dna-变异.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/人类线粒体DNA异质性研究进展及其法医学应用.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 4787,
+      "exportedPath": "文献及报道/文献/人类线粒体dna异质性研究进展及其法医学应用.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/人类mtDNA拷贝数和异质性的核遗传控制.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 47492,
+      "exportedPath": "文献及报道/文献/人类mtdna拷贝数和异质性的核遗传控制.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/三个共存的中国穆斯林群体的起源和遗传结构 撒拉族、博安族和东乡族.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 13527,
+      "exportedPath": "文献及报道/文献/三个共存的中国穆斯林群体的起源和遗传结构-撒拉族、博安族和东乡族.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/使用 MPS 系统和人工混合物样品评估商业面板上检测到的线粒体 DNA 异质性.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 3579,
+      "exportedPath": "文献及报道/文献/使用-mps-系统和人工混合物样品评估商业面板上检测到的线粒体-dna-异质性.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/使用基因组数据进行贝叶斯物种分化时间估计.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 1960,
+      "exportedPath": "文献及报道/文献/使用基因组数据进行贝叶斯物种分化时间估计.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/使用基因组数据推断群体历史和关系的方法.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 53694,
+      "exportedPath": "文献及报道/文献/使用基因组数据推断群体历史和关系的方法.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/探寻傣族的母系历史.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 5312,
+      "exportedPath": "文献及报道/文献/探寻傣族的母系历史.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/陶寺考古与石峁DNA结果出现断链，夏朝的源头或不在中原.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 9918,
+      "exportedPath": "文献及报道/文献/陶寺考古与石峁dna结果出现断链，夏朝的源头或不在中原.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/体细胞核线粒体DNA插入在人脑中普遍存在，并随着时间的推移在成纤维细胞中积累.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 11382,
+      "exportedPath": "文献及报道/文献/体细胞核线粒体dna插入在人脑中普遍存在，并随着时间的推移在成纤维细胞中积累.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/通过长读长单细胞测序获得人类结直肠癌全长转录组图谱.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 1954,
+      "exportedPath": "文献及报道/文献/通过长读长单细胞测序获得人类结直肠癌全长转录组图谱.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/王萌鸽博士论文.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 7164,
+      "exportedPath": "文献及报道/文献/王萌鸽博士论文.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/西伯利亚丹尼索瓦洞穴的个古老人类群体的遗传.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 3668,
+      "exportedPath": "文献及报道/文献/西伯利亚丹尼索瓦洞穴的个古老人类群体的遗传.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/细胞凋亡应激导致衰老过程中 mtDNA 释放并驱动 SASP.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 16071,
+      "exportedPath": "文献及报道/文献/细胞凋亡应激导致衰老过程中-mtdna-释放并驱动-sasp.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/现代人类祖先的起源：综述.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 16040,
+      "exportedPath": "文献及报道/文献/现代人类祖先的起源：综述.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/线粒体 DNA 基因组的长扩增子 HiFi 测序.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 19189,
+      "exportedPath": "文献及报道/文献/线粒体-dna-基因组的长扩增子-hifi-测序.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/线粒体：健康与疾病.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 23907,
+      "exportedPath": "文献及报道/文献/线粒体：健康与疾病.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/线粒体过氧化氢释放不会直接导致染色体 DNA 损伤.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 18824,
+      "exportedPath": "文献及报道/文献/线粒体过氧化氢释放不会直接导致染色体-dna-损伤.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/线粒体基因组证据显示两次辐射事件以及母系血统从中国北部沿海向美洲和日本的扩散.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 7223,
+      "exportedPath": "文献及报道/文献/线粒体基因组证据显示两次辐射事件以及母系血统从中国北部沿海向美洲和日本的扩散.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/线粒体内共生的中断是炎症疾病的基础.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 16742,
+      "exportedPath": "文献及报道/文献/线粒体内共生的中断是炎症疾病的基础.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/线粒体外膜通透性（mitochondrial outer membrane permeabilization,MOMP）.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 693,
+      "exportedPath": "文献及报道/文献/线粒体外膜通透性（mitochondrial-outer-membrane-permeabilization,momp）.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/线粒体DNA变异和相关人类疾病.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 6942,
+      "exportedPath": "文献及报道/文献/线粒体dna变异和相关人类疾病.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/线粒体DNA分型指南.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 5210,
+      "exportedPath": "文献及报道/文献/线粒体dna分型指南.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/线粒体DNA基因内倒位：线粒体肌病患者的一种新型致病突变.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 729,
+      "exportedPath": "文献及报道/文献/线粒体dna基因内倒位：线粒体肌病患者的一种新型致病突变.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/线粒体DNA基因组揭示了末次冰期末后人口扩张中选择性净化作用的松弛.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 7409,
+      "exportedPath": "文献及报道/文献/线粒体dna基因组揭示了末次冰期末后人口扩张中选择性净化作用的松弛.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/新石器时代的粟（作）农（民）通过采用大麦农业为青藏高原的永久定居做出了贡献.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 2282,
+      "exportedPath": "文献及报道/文献/新石器时代的粟（作）农（民）通过采用大麦农业为青藏高原的永久定居做出了贡献.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/新石器时代的仰韶文化的母系遗传结构.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 2470,
+      "exportedPath": "文献及报道/文献/新石器时代的仰韶文化的母系遗传结构.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/信息枢纽--线粒体.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 3482,
+      "exportedPath": "文献及报道/文献/信息枢纽-线粒体.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/性别偏见的适应塑造了藏人的单亲基因库.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 6071,
+      "exportedPath": "文献及报道/文献/性别偏见的适应塑造了藏人的单亲基因库.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/修改人类突变率：对理解人类进化的影响.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 3940,
+      "exportedPath": "文献及报道/文献/修改人类突变率：对理解人类进化的影响.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/遗传证据支持汉族文化的流行扩散.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 6708,
+      "exportedPath": "文献及报道/文献/遗传证据支持汉族文化的流行扩散.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/英国生物银行线粒体 DNA 基因型-表型关联图谱.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 195,
+      "exportedPath": "文献及报道/文献/英国生物银行线粒体-dna-基因型-表型关联图谱.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/有害的异质线粒体突变与总体死亡率和癌症特异性死亡率的风险增加有关.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 21088,
+      "exportedPath": "文献及报道/文献/有害的异质线粒体突变与总体死亡率和癌症特异性死亡率的风险增加有关.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/原南岛人的形成：来自父系创始人谱系修订后的见解.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 2863,
+      "exportedPath": "文献及报道/文献/原南岛人的形成：来自父系创始人谱系修订后的见解.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/早期南岛人：进出台湾.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 3314,
+      "exportedPath": "文献及报道/文献/早期南岛人：进出台湾.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/长读长人类基因组测序及其应用.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 4064,
+      "exportedPath": "文献及报道/文献/长读长人类基因组测序及其应用.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/中国母系摩梭人的线粒体起源.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 9738,
+      "exportedPath": "文献及报道/文献/中国母系摩梭人的线粒体起源.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/主流分子钟定年方法的原理、误差来源和使用建议.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 16444,
+      "exportedPath": "文献及报道/文献/主流分子钟定年方法的原理、误差来源和使用建议.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/AJOPA 东亚南部线粒体 DNA 多样性和群体分化.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 17125,
+      "exportedPath": "文献及报道/文献/ajopa-东亚南部线粒体-dna-多样性和群体分化.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/BMC Bioinformatics 用于估算线粒体 DNA 变异的全球多样化参考比对和面板.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 8565,
+      "exportedPath": "文献及报道/文献/bmc-bioinformatics-用于估算线粒体-dna-变异的全球多样化参考比对和面板.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/Cell Metabolism 由线粒体基因 CYTB 编码的新型蛋白质 CYTB-187AA 调节哺乳动物早期发育.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 14392,
+      "exportedPath": "文献及报道/文献/cell-metabolism-由线粒体基因-cytb-编码的新型蛋白质-cytb-187aa-调节哺乳动物早期发育.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/D-Loop-BASE 现已上线中欧线粒体 DNA 数据库.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 2258,
+      "exportedPath": "文献及报道/文献/d-loop-base-现已上线中欧线粒体-dna-数据库.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/DNA分析显示亚洲迁移模式和早期农业的关联.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 4605,
+      "exportedPath": "文献及报道/文献/dna分析显示亚洲迁移模式和早期农业的关联.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/EMPOP——法医 mtDNA 数据库.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 2710,
+      "exportedPath": "文献及报道/文献/empop——法医-mtdna-数据库.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/GUIDANCE2：准确检测不可靠的对准区域，考虑多个参数的不确定性.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 5043,
+      "exportedPath": "文献及报道/文献/guidance2：准确检测不可靠的对准区域，考虑多个参数的不确定性.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/HmtDB，用于基于线粒体的人类变异性研究的基因组资源.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 5341,
+      "exportedPath": "文献及报道/文献/hmtdb，用于基于线粒体的人类变异性研究的基因组资源.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/HmtVar：人类线粒体变异和致病性数据的全新资源.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 2288,
+      "exportedPath": "文献及报道/文献/hmtvar：人类线粒体变异和致病性数据的全新资源.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/JOURNAL OF EXTRACELLULAR VESICLES 在年轻生物体内循环的细胞外囊泡可促进健康长寿.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 8997,
+      "exportedPath": "文献及报道/文献/journal-of-extracellular-vesicles-在年轻生物体内循环的细胞外囊泡可促进健康长寿.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/mit-o-matic：用于临床评估下一代测序数据集线粒体变异的综合计算管道.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 6094,
+      "exportedPath": "文献及报道/文献/mit-o-matic：用于临床评估下一代测序数据集线粒体变异的综合计算管道.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/MitBASE ：一个全面且集成的线粒体 DNA 数据库.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 1731,
+      "exportedPath": "文献及报道/文献/mitbase-：一个全面且集成的线粒体-dna-数据库.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/MitoBamAnnotator：一种基于网络的工具，用于检测和注释人类线粒体 DNA 序列中的异质性.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 3130,
+      "exportedPath": "文献及报道/文献/mitobamannotator：一种基于网络的工具，用于检测和注释人类线粒体-dna-序列中的异质性.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/MITOMAP：人类线粒体基因组数据库 — 2004 年更新.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 7160,
+      "exportedPath": "文献及报道/文献/mitomap：人类线粒体基因组数据库-—-2004-年更新.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/MitoPhen 数据库：一种基于人类表型本体论的方法来识别线粒体 DNA 疾病.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 4368,
+      "exportedPath": "文献及报道/文献/mitophen-数据库：一种基于人类表型本体论的方法来识别线粒体-dna-疾病.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/MitoSeek：提取线粒体信息并进行高通量线粒体测序分析.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 5368,
+      "exportedPath": "文献及报道/文献/mitoseek：提取线粒体信息并进行高通量线粒体测序分析.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/Molecular Biology and Evolution mtDNA谱系揭示东亚苗语族群的遗传结构.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 25876,
+      "exportedPath": "文献及报道/文献/molecular-biology-and-evolution-mtdna谱系揭示东亚苗语族群的遗传结构.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/mtDNA-Server：云端人类线粒体 DNA 的新一代测序数据分析.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 5709,
+      "exportedPath": "文献及报道/文献/mtdna-server：云端人类线粒体-dna-的新一代测序数据分析.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/MToolBox：高度自动化的管道，用于高通量测序中人类线粒体变异的异质性注释和优先级分析.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 3137,
+      "exportedPath": "文献及报道/文献/mtoolbox：高度自动化的管道，用于高通量测序中人类线粒体变异的异质性注释和优先级分析.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/Nature 单细胞mtDNA分析与细胞水平的”自然选择“.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 15517,
+      "exportedPath": "文献及报道/文献/nature-单细胞mtdna分析与细胞水平的”自然选择“.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/Nature aging 来自年轻血浆的小细胞外囊泡通过改善线粒体能量代谢来逆转与年龄相关的功能衰退.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 24858,
+      "exportedPath": "文献及报道/文献/nature-aging-来自年轻血浆的小细胞外囊泡通过改善线粒体能量代谢来逆转与年龄相关的功能衰退.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/Nature communications 长期新冠肺炎患者劳累后不适后肌肉异常恶化.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 20370,
+      "exportedPath": "文献及报道/文献/nature-communications-长期新冠肺炎患者劳累后不适后肌肉异常恶化.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/Nature Perspective 基因组学何去何从.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 5575,
+      "exportedPath": "文献及报道/文献/nature-perspective-基因组学何去何从.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/Nature Perspective 线粒体转移的力量和潜力.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 41394,
+      "exportedPath": "文献及报道/文献/nature-perspective-线粒体转移的力量和潜力.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/NUMT：线粒体 DNA 在核基因组中展示其代码.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 14568,
+      "exportedPath": "文献及报道/文献/numt：线粒体-dna-在核基因组中展示其代码.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/Phenomics Review 探索阳气与线粒体功能的交叉点.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 20041,
+      "exportedPath": "文献及报道/文献/phenomics-review-探索阳气与线粒体功能的交叉点.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/PNAS 单细胞水平的高频和功能性线粒体 DNA 突变.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 15918,
+      "exportedPath": "文献及报道/文献/pnas-单细胞水平的高频和功能性线粒体-dna-突变.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/PNAS 线粒体DNA第3243位异质性的逐渐增加导致突然的转录重编程.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 16088,
+      "exportedPath": "文献及报道/文献/pnas-线粒体dna第3243位异质性的逐渐增加导致突然的转录重编程.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/Scientific reports 完整的线粒体基因组序列揭示了更新世以来日本列岛的种群动态.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 13421,
+      "exportedPath": "文献及报道/文献/scientific-reports-完整的线粒体基因组序列揭示了更新世以来日本列岛的种群动态.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/SCIENTIFIC REPORTS 中国穆斯林群体东乡族和回族的东亚起源的遗传证据.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 7264,
+      "exportedPath": "文献及报道/文献/scientific-reports-中国穆斯林群体东乡族和回族的东亚起源的遗传证据.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/Trends in Cell Biology 线粒体纳米隧道.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 18388,
+      "exportedPath": "文献及报道/文献/trends-in-cell-biology-线粒体纳米隧道.html",
+      "dependencies": []
+    },
+    "文献及报道/文献汇报分享/2023年11月13日李玉春.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 8033,
+      "exportedPath": "文献及报道/文献汇报分享/2023年11月13日李玉春.html",
+      "dependencies": []
+    },
+    "文献及报道/文献汇报分享/2023年11月20日.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 3268,
+      "exportedPath": "文献及报道/文献汇报分享/2023年11月20日.html",
+      "dependencies": []
+    },
+    "文献及报道/文献汇报分享/2024年4月22日.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 11002,
+      "exportedPath": "文献及报道/文献汇报分享/2024年4月22日.html",
+      "dependencies": []
+    },
+    "文献及报道/文献汇报分享/2024年6月12日.md": {
+      "modifiedTime": 1718955020656,
+      "sourceSize": 1844,
+      "exportedPath": "文献及报道/文献汇报分享/2024年6月12日.html",
       "dependencies": []
     }
   }

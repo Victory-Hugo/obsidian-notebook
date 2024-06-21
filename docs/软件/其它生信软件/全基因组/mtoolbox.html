@@ -1,0 +1,220 @@
+<!DOCTYPE html> <html><head>
+		<title>MToolBox</title>
+		<base href="..\..\../">
+		<meta id="root-path" root-path="..\..\../">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, minimum-scale=1.0, maximum-scale=5.0">
+		<meta charset="UTF-8">
+		<meta name="description" content="科研思路 - MToolBox">
+		<meta property="og:title" content="MToolBox">
+		<meta property="og:description" content="科研思路 - MToolBox">
+		<meta property="og:type" content="website">
+		<meta property="og:url" content="软件/其它生信软件/全基因组/mtoolbox.html">
+		<meta property="og:image" content="undefined">
+		<meta property="og:site_name" content="科研思路">
+		<link rel="alternate" type="application/rss+xml" title="RSS Feed" href="lib/rss.xml"><script async="" id="webpage-script" src="lib/scripts/webpage.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script type="module" async="" id="graph-view-script" src="lib/scripts/graph-view.js"></script><script async="" id="graph-wasm-script" src="lib/scripts/graph-wasm.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="graph-render-worker-script" src="lib/scripts/graph-render-worker.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="tinycolor-script" src="lib/scripts/tinycolor.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="pixi-script" src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/7.4.0/pixi.min.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="minisearch-script" src="https://cdn.jsdelivr.net/npm/minisearch@6.3.0/dist/umd/index.min.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><link rel="icon" href="lib/media/favicon.png"><script async="" id="graph-data-script" src="lib/scripts/graph-data.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><style>body{--line-width:40em;--line-width-adaptive:40em;--file-line-width:40em;--sidebar-width:min(20em, 80vw);--collapse-arrow-size:11px;--tree-horizontal-spacing:0.6em;--tree-vertical-spacing:0.6em;--sidebar-margin:12px}.sidebar{height:100%;min-width:calc(var(--sidebar-width) + var(--divider-width-hover));max-width:calc(var(--sidebar-width) + var(--divider-width-hover));font-size:14px;z-index:10;position:relative;overflow:hidden;transition:min-width ease-in-out,max-width ease-in-out;transition-duration:.2s;contain:size}.sidebar-left{left:0}.sidebar-right{right:0}.sidebar.is-collapsed{min-width:0;max-width:0}body.floating-sidebars .sidebar{position:absolute}.sidebar-content{height:100%;min-width:calc(var(--sidebar-width) - var(--divider-width-hover));top:0;padding:var(--sidebar-margin);padding-top:4em;line-height:var(--line-height-tight);background-color:var(--background-secondary);transition:background-color,border-right,border-left,box-shadow;transition-duration:var(--color-fade-speed);transition-timing-function:ease-in-out;position:absolute;display:flex;flex-direction:column}.sidebar:not(.is-collapsed) .sidebar-content{min-width:calc(max(100%,var(--sidebar-width)) - 3px);max-width:calc(max(100%,var(--sidebar-width)) - 3px)}.sidebar-left .sidebar-content{left:0;border-top-right-radius:var(--radius-l);border-bottom-right-radius:var(--radius-l)}.sidebar-right .sidebar-content{right:0;border-top-left-radius:var(--radius-l);border-bottom-left-radius:var(--radius-l)}.sidebar:has(.sidebar-content:empty):has(.topbar-content:empty){display:none}.sidebar-topbar{height:2em;width:var(--sidebar-width);top:var(--sidebar-margin);padding-inline:var(--sidebar-margin);z-index:1;position:fixed;display:flex;align-items:center;transition:width ease-in-out;transition-duration:inherit}.sidebar.is-collapsed .sidebar-topbar{width:calc(2.3em + var(--sidebar-margin) * 2)}.sidebar .sidebar-topbar.is-collapsed{width:0}.sidebar-left .sidebar-topbar{left:0}.sidebar-right .sidebar-topbar{right:0}.topbar-content{overflow:hidden;overflow:clip;width:100%;height:100%;display:flex;align-items:center;transition:inherit}.sidebar.is-collapsed .topbar-content{width:0;transition:inherit}.clickable-icon.sidebar-collapse-icon{background-color:transparent;color:var(--icon-color-focused);padding:0!important;margin:0!important;height:100%!important;width:2.3em!important;margin-inline:0.14em!important;position:absolute}.sidebar-left .clickable-icon.sidebar-collapse-icon{transform:rotateY(180deg);right:var(--sidebar-margin)}.sidebar-right .clickable-icon.sidebar-collapse-icon{transform:rotateY(180deg);left:var(--sidebar-margin)}.clickable-icon.sidebar-collapse-icon svg.svg-icon{width:100%;height:100%}.sidebar-section-header{margin:0 0 1em 0;text-transform:uppercase;letter-spacing:.06em;font-weight:600}body{transition:background-color var(--color-fade-speed) ease-in-out}.webpage-container{display:flex;flex-direction:row;height:100%;width:100%;align-items:stretch;justify-content:center}.document-container{opacity:1;flex-basis:100%;max-width:100%;width:100%;height:100%;display:flex;flex-direction:column;align-items:center;transition:opacity .2s ease-in-out;contain:inline-size}.hide{opacity:0;transition:opacity .2s ease-in-out}.document-container>.markdown-preview-view{margin:var(--sidebar-margin);margin-bottom:0;width:100%;width:-webkit-fill-available;width:-moz-available;width:fill-available;background-color:var(--background-primary);transition:background-color var(--color-fade-speed) ease-in-out;border-top-right-radius:var(--window-radius,var(--radius-m));border-top-left-radius:var(--window-radius,var(--radius-m));overflow-x:hidden!important;overflow-y:auto!important;display:flex!important;flex-direction:column!important;align-items:center!important;contain:inline-size}.document-container>.markdown-preview-view>.markdown-preview-sizer{padding-bottom:80vh!important;width:100%!important;max-width:var(--line-width)!important;flex-basis:var(--line-width)!important;transition:background-color var(--color-fade-speed) ease-in-out;contain:inline-size}.markdown-rendered img:not([width]),.view-content img:not([width]){max-width:100%;outline:0}.document-container>.view-content.embed{display:flex;padding:1em;height:100%;width:100%;align-items:center;justify-content:center}.document-container>.view-content.embed>*{max-width:100%;max-height:100%;object-fit:contain}:has(> :is(.math,table)){overflow-x:auto!important}.document-container>.view-content{overflow-x:auto;contain:content;padding:0;margin:0;height:100%}.scroll-highlight{position:absolute;width:100%;height:100%;pointer-events:none;z-index:1000;background-color:hsla(var(--color-accent-hsl),.25);opacity:0;padding:1em;inset:50%;translate:-50% -50%;border-radius:var(--radius-s)}</style><script defer="">async function loadIncludes(){if("file:"!=location.protocol){let e=document.querySelectorAll("include");for(let t=0;t<e.length;t++){let o=e[t],l=o.getAttribute("src");try{const e=await fetch(l);if(!e.ok){console.log("Could not include file: "+l),o?.remove();continue}let t=await e.text(),n=document.createRange().createContextualFragment(t),i=Array.from(n.children);for(let e of i)e.classList.add("hide"),e.style.transition="opacity 0.5s ease-in-out",setTimeout((()=>{e.classList.remove("hide")}),10);o.before(n),o.remove(),console.log("Included file: "+l)}catch(e){o?.remove(),console.log("Could not include file: "+l,e);continue}}}else{if(document.querySelectorAll("include").length>0){var e=document.createElement("div");e.id="error",e.textContent="Web server exports must be hosted on an http / web server to be viewed correctly.",e.style.position="fixed",e.style.top="50%",e.style.left="50%",e.style.transform="translate(-50%, -50%)",e.style.fontSize="1.5em",e.style.fontWeight="bold",e.style.textAlign="center",document.body.appendChild(e),document.querySelector(".document-container")?.classList.remove("hide")}}}document.addEventListener("DOMContentLoaded",(()=>{loadIncludes()}));let isFileProtocol="file:"==location.protocol;function waitLoadScripts(e,t){let o=e.map((e=>document.getElementById(e+"-script"))),l=0;!function e(){let n=o[l];l++,n&&"true"!=n.getAttribute("loaded")||l<o.length&&e(),l<o.length?n.addEventListener("load",e):t()}()}</script><link rel="stylesheet" href="lib/styles/obsidian.css"><link rel="stylesheet" href="lib/styles/theme.css"><link rel="preload" href="lib/styles/global-variable-styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="lib/styles/global-variable-styles.css"></noscript><link rel="preload" href="lib/styles/supported-plugins.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="lib/styles/supported-plugins.css"></noscript><link rel="preload" href="lib/styles/main-styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="lib/styles/main-styles.css"></noscript></head><body class="publish css-settings-manager theme-dark show-inline-title show-ribbon h2-underline"><script defer="">let theme=localStorage.getItem("theme")||(window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");"dark"==theme?(document.body.classList.add("theme-dark"),document.body.classList.remove("theme-light")):(document.body.classList.add("theme-light"),document.body.classList.remove("theme-dark")),window.innerWidth<480?document.body.classList.add("is-phone"):window.innerWidth<768?document.body.classList.add("is-tablet"):window.innerWidth<1024?document.body.classList.add("is-small-screen"):document.body.classList.add("is-large-screen")</script><div class="webpage-container workspace"><div class="sidebar-left sidebar"><div class="sidebar-handle"></div><div class="sidebar-topbar"><div class="topbar-content"><label class="theme-toggle-container" for="theme_toggle"><input class="theme-toggle-input" type="checkbox" id="theme_toggle"><div class="toggle-background"></div></label></div><div class="clickable-icon sidebar-collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><path d="M21 3H3C1.89543 3 1 3.89543 1 5V19C1 20.1046 1.89543 21 3 21H21C22.1046 21 23 20.1046 23 19V5C23 3.89543 22.1046 3 21 3Z"></path><path d="M10 4V20"></path><path d="M4 7H7"></path><path d="M4 10H7"></path><path d="M4 13H7"></path></svg></div></div><div class="sidebar-content"><div class="search-input-container"><input enterkeyhint="search" type="search" spellcheck="false" placeholder="Search..."><div class="search-input-clear-button" aria-label="Clear search"></div></div><include src="lib/html/file-tree.html"></include></div><script defer="">let ls = document.querySelector(".sidebar-left"); ls.classList.add("is-collapsed"); if (window.innerWidth > 768) ls.classList.remove("is-collapsed"); ls.style.setProperty("--sidebar-width", localStorage.getItem("sidebar-left-width"));</script></div><div class="document-container markdown-reading-view hide"><div class="markdown-preview-view markdown-rendered allow-fold-headings allow-fold-lists is-readable-line-width"><style id="MJX-CHTML-styles"></style><div class="markdown-preview-sizer markdown-preview-section"><h1 class="page-title heading inline-title" id="1. 安装"><ol dir="auto">
+<li dir="auto">安装</li>
+</ol></h1><div class="heading-wrapper"><div class="heading-children"><div><p dir="auto">使用以下命令将 MToolBox 的路径添加到系统的 PATH 中：</p></div><div><pre dir="auto" class="language-shell" tabindex="0"><code class="language-shell is-loaded"><span class="token builtin class-name">export</span> <span class="token assign-left variable"><span class="token environment constant">PATH</span></span><span class="token operator">=</span><span class="token string">"/path/to/MToolBox/:<span class="token environment constant">$PATH</span>"</span>
+</code><button class="copy-code-button">复制</button></pre></div><div><p dir="auto">在 MToolBox 文件夹中，运行 <code>install.sh</code> 脚本（适用于 Linux 发行版）：</p></div><div><pre dir="auto" class="language-shell" tabindex="0"><code class="language-shell is-loaded">./install.sh
+</code><button class="copy-code-button">复制</button></pre></div><div><p dir="auto">以完成所有 MToolBox 依赖项的完整安装。这可能需要一些时间，请耐心等待，直到整个过程成功完成。我们强烈建议使用安装脚本提供的默认版本：</p></div><div><ul dir="auto">
+<li data-line="0" dir="auto">GSNAP 2015-12-31.v7</li>
+<li data-line="1" dir="auto">Anaconda distribution 2-2.5.0</li>
+<li data-line="2" dir="auto">Zlib 版本 1.2.8</li>
+<li data-line="3" dir="auto">MUSCLE 版本 3.8.31</li>
+<li data-line="4" dir="auto">samtools 版本 1.3</li>
+</ul></div><div><p dir="auto">GSNAP 数据库生成的默认 Kmer 值是 15。不过，如果您想在完整安装过程中更改上述版本或参数，请指定以下选项：</p></div><div><pre dir="auto" class="language-shell" tabindex="0"><code class="language-shell is-loaded">./install.sh -g <span class="token operator">&lt;</span>gsnap_version<span class="token operator">&gt;</span> -a <span class="token operator">&lt;</span>anaconda_version<span class="token operator">&gt;</span> -z <span class="token operator">&lt;</span>zlib_version<span class="token operator">&gt;</span> -m <span class="token operator">&lt;</span>muscle_file<span class="token operator">&gt;</span> -s <span class="token operator">&lt;</span>samtools_version<span class="token operator">&gt;</span> -k <span class="token operator">&lt;</span>kmer_to_build_gsnap_db<span class="token operator">&gt;</span>
+</code><button class="copy-code-button">复制</button></pre></div><div><p dir="auto">要重新安装/更新某个 MToolBox 软件依赖项，请执行：</p></div><div><pre dir="auto" class="language-shell" tabindex="0"><code class="language-shell is-loaded">./install.sh -i <span class="token operator">&lt;</span>software_name<span class="token operator">&gt;</span>
+</code><button class="copy-code-button">复制</button></pre></div><div><p dir="auto">其中可能的软件名称包括：</p></div><div><ul dir="auto">
+<li data-line="0" dir="auto">gsnap</li>
+<li data-line="1" dir="auto">anaconda</li>
+<li data-line="2" dir="auto">muscle</li>
+<li data-line="3" dir="auto">zlib</li>
+<li data-line="4" dir="auto">samtools</li>
+<li data-line="5" dir="auto">gsnap_db</li>
+</ul></div><div><pre dir="auto" class="language-shell" tabindex="0"><code class="language-shell is-loaded">./install.sh -i gsnap -g <span class="token number">2016</span>-05-25
+</code><button class="copy-code-button">复制</button></pre></div></div></div><div class="heading-wrapper"><h1 data-heading="2. 系统要求" dir="auto" class="heading" id="2._系统要求">2. 系统要求</h1><div class="heading-children"><div><ul dir="auto">
+<li data-line="0" dir="auto">基于 UNIX 的操作系统</li>
+<li data-line="1" dir="auto">MacOS</li>
+</ul></div><div><p dir="auto">运行 <code>install.sh</code> 脚本（参见安装部分）时，将默认安装以下所有依赖项：</p></div><div><ul dir="auto">
+<li data-line="0" dir="auto">Python 2.7 (<a data-tooltip-position="top" aria-label="http://www.python.org" rel="noopener" class="external-link" href="http://www.python.org" target="_blank">www.python.org</a>, 包含在 Anaconda 发行版中, <a rel="noopener" class="external-link" href="https://www.continuum.io/downloads" target="_blank">https://www.continuum.io/downloads</a>)<br>
+</li>
+<li data-line="2" dir="auto">GSNAP (<a rel="noopener" class="external-link" href="http://research-pub.gene.com/gmap/" target="_blank">http://research-pub.gene.com/gmap/</a>)<br>
+</li>
+<li data-line="4" dir="auto">Samtools (<a rel="noopener" class="external-link" href="https://sourceforge.net/projects/samtools/files/samtools/" target="_blank">https://sourceforge.net/projects/samtools/files/samtools/</a>)<br>
+</li>
+<li data-line="6" dir="auto">MUSCLE (<a rel="noopener" class="external-link" href="http://www.drive5.com/muscle/downloads.htm" target="_blank">http://www.drive5.com/muscle/downloads.htm</a>)<br>
+</li>
+<li data-line="8" dir="auto">ZLIB (<a rel="noopener" class="external-link" href="http://zlib.net/" target="_blank">http://zlib.net/</a>)<br>
+</li>
+<li data-line="10" dir="auto">GATK（可选，仅当用户希望运行 GATK IndelRealigner 时。<a data-tooltip-position="top" aria-label="https://software.broadinstitute.org/gatk/download/%EF%BC%89%E3%80%82%E7%94%A8%E6%88%B7%E9%9C%80%E8%A6%81%E5%B0%86" rel="noopener" class="external-link" href="https://software.broadinstitute.org/gatk/download/%EF%BC%89%E3%80%82%E7%94%A8%E6%88%B7%E9%9C%80%E8%A6%81%E5%B0%86" target="_blank">https://software.broadinstitute.org/gatk/download/）。用户需要将</a> GATK 包放入 MToolBox/ext_tools 文件夹中：
+  <code>mv GenomeAnalysisTK.jar /path/to/MToolBox/MToolBox/ext_tools/</code></li>
+</ul></div><div class="heading-wrapper"><h2 data-heading="其他所需文件" dir="auto" class="heading" id="其他所需文件"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>其他所需文件</h2><div class="heading-children"><div><p dir="auto">默认情况下，MToolBox 采用 RSRS（重建智人参考序列，PMID: 22482806）作为线粒体参考基因组，hg19 作为核参考基因组。或者，用户也可以选择使用 rCRS（修订的剑桥参考序列）。MToolBox 使用的 hg19 核基因组和线粒体 DNA 的 Fasta 文件可在 <a rel="noopener" class="external-link" href="https://sourceforge.net/projects/mtoolbox/" target="_blank">https://sourceforge.net/projects/mtoolbox/</a> 上获取，以方便用户使用。然而，在流水线的 v.1.0 版本中，这些文件现在通过 <code>install.sh</code> MToolBox 脚本默认下载和安装，连同所需的 GSNAP 数据库。</p></div><div><p dir="auto">MToolBox 文件夹包含 MITOMAP_HMTDB_known_indels.vcf 文件，其中包含 127 个在 MITOMAP 和 HmtDB 中注释的已知插入缺失变异，以及 GATK 的 GenomeAnalysisTK.jar 模块使用的相关 intervals_file.list。MToolBox 文件夹还包括两个以制表符分隔的文件，patho_table.txt 和 sitevar_modified.txt，分别包含在注释步骤中使用的变异特异性和位点特异性信息。</p></div></div></div><div class="heading-wrapper"><h2 data-heading="文件命名注意事项" dir="auto" class="heading" id="文件命名注意事项"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>文件命名注意事项</h2><div class="heading-children"><div><p dir="auto">对于每个样本，输出文件夹和文件的基本名称将从输入文件名中解析。</p></div><div><ul dir="auto">
+<li data-line="0" dir="auto">BAM/SAM 文件：BAM 或 SAM 文件必须重命名为 <code>&lt;sample_name&gt;.ext</code>，例如：</li>
+</ul></div><div><pre dir="auto" class="language-shell" tabindex="0"><code class="language-shell is-loaded"><span class="token function">mv</span> HG00096.chrom20.ILLUMINA.bwa.GBR.low_coverage.20101123.bam HG00096.bam
+</code><button class="copy-code-button">复制</button></pre></div><div><p dir="auto">这样“HG00096”将成为输出的基本名称。</p></div><div><ul dir="auto">
+<li data-line="0" dir="auto">FASTQ 文件：对于配对末端数据，FASTQ 文件必须重命名为 <code>&lt;sample_name&gt;.R1.fastq</code> 和 <code>&lt;sample_name&gt;.R2.fastq</code>；对于单端数据，必须重命名为 <code>&lt;sample_name&gt;.fastq</code>。FASTQ 压缩输入文件可以接受 *.fastq.gz 扩展名。</li>
+</ul></div><div><p dir="auto">重要：请注意，MToolBox 每个样本只能识别一对配对末端的 fastq 文件（R1+R2）和一个单端 fastq 文件。</p></div></div></div></div></div><div class="heading-wrapper"><h1 data-heading="3. 使用" dir="auto" class="heading" id="3._使用">3. 使用</h1><div class="heading-children"><div class="heading-wrapper"><h2 data-heading="MToolBox.sh 选项：" dir="auto" class="heading" id="MToolBox.sh_选项："><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>MToolBox.sh 选项：</h2><div class="heading-children"><div><ul dir="auto">
+<li data-line="0" dir="auto"><code>-i</code> 配置文件 [强制]</li>
+<li data-line="1" dir="auto"><code>-m</code> mapExome 脚本的选项 [参见 <code>mapExome.py -h</code> 了解详情]</li>
+<li data-line="2" dir="auto"><code>-a</code> assembleMTgenome 脚本的选项 [参见 <code>assembleMTgenome.py -h</code> 了解详情]</li>
+<li data-line="3" dir="auto"><code>-c</code> mt-classifier 脚本的选项 [参见 <code>mt-classifier.py -h</code> 了解详情]</li>
+</ul></div></div></div><div class="heading-wrapper"><h2 data-heading="帮助选项：" dir="auto" class="heading" id="帮助选项："><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>帮助选项：</h2><div class="heading-children"><div><ul dir="auto">
+<li data-line="0" dir="auto"><code>-h</code> 显示此帮助信息</li>
+<li data-line="1" dir="auto"><code>-v</code> 显示版本信息</li>
+</ul></div><div><p dir="auto">用法：</p></div><div><pre dir="auto" class="language-shell" tabindex="0"><code class="language-shell is-loaded"><span class="token comment">#此命令将在 test_config.sh 文件中指定的样本集上运行 MToolBox，将 GSNAP 线程数设置为 20 (-m "-t 20..")，即从读取端允许保留 indel 的最小核苷酸距离为 10 （-a“-t 10”）和在 FASTA 共有序列中保留核苷酸变异的异质性阈值 0.6（-a“-z 0.6”）。</span>
+MToolBox.sh -i test_config.sh -m <span class="token string">"-t 20"</span> -a <span class="token string">"-t 10 -z 0.6"</span>
+</code><button class="copy-code-button">复制</button></pre></div></div></div></div></div><div class="heading-wrapper"><h1 data-heading="4. 输出文件" dir="auto" class="heading" id="4._输出文件">4. 输出文件</h1><div class="heading-children"><div><p dir="auto">MToolBox 的默认输出包括：</p></div><div><ul dir="auto">
+<li data-line="0" dir="auto"><code>VCF_file.vcf</code>：包含所有与 RSRS/rCRS 比较的线粒体变异位点和其他元信息。</li>
+<li data-line="1" dir="auto"><code>mt_classification_best_results.csv</code>：报告每个序列的最佳单倍群预测结果。如果排序结果中有多个具有相同概率的最佳单倍群预测，输出将包含所有这些预测。</li>
+<li data-line="2" dir="auto"><code>prioritized_variants.txt</code>：仅包含每个样本分析的优先变异的注释，这些变异是由三个参考序列（rCRS、RSRS 和 MHCS）识别的，并按核苷酸变异性递增排序。</li>
+<li data-line="3" dir="auto"><code>summary_&lt;date_time&gt;.txt</code>：报告所选选项的简要摘要、预测的单倍群、每个样本的总变异和优先变异数量，以及仅针对 NGS 数据的重建基因组覆盖率、同质性和异质性变异数量。</li>
+<li data-line="4" dir="auto"><div class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><code>OUT_&lt;sample_name&gt;</code> 文件夹包含：
+<ul dir="auto">
+<li data-line="5" dir="auto"><code>outmt.sam</code>：映射到人类线粒体 DNA 的读取；</li>
+<li data-line="6" dir="auto"><code>logmt.txt</code>：线粒体 DNA 映射的 GSNAP 日志文件；</li>
+<li data-line="7" dir="auto"><code>outmt.fastq</code>：从 <code>outmt.sam</code> 文件中提取的单端读取的 fastq 文件；</li>
+<li data-line="8" dir="auto"><code>outmt1.fastq</code>：从 <code>outmt.sam</code> 文件中提取的配对读取的 fastq 文件；</li>
+<li data-line="9" dir="auto"><code>outmt2.fastq</code>：从 <code>outmt.sam</code> 文件中提取的配对读取的 fastq 文件；</li>
+<li data-line="10" dir="auto"><code>outhumanS.sam</code>：映射到整个基因组的人类基因组的单端读取；</li>
+<li data-line="11" dir="auto"><code>loghumanS.txt</code>：人类基因组映射（单端读取）的 GSNAP 日志文件；</li>
+<li data-line="12" dir="auto"><code>outhumanP.sam</code>：映射到整个基因组的人类基因组的配对读取；</li>
+<li data-line="13" dir="auto"><code>loghumanP.txt</code>：人类基因组映射（配对读取）的 GSNAP 日志文件；</li>
+<li data-line="14" dir="auto"><code>OUT.sam</code>：唯一映射到线粒体基因组的读取对齐；</li>
+<li data-line="15" dir="auto"><code>OUT2.sam</code>：在经过 IndelRealigner 和/或 MarkDuplicates 处理后唯一映射到线粒体基因组的读取对齐。即使禁用这两个过程，也会生成此文件；</li>
+<li data-line="16" dir="auto"><code>mtDNAassembly-table.txt</code>：描述组装位置的主要表格；</li>
+<li data-line="17" dir="auto"><code>mtDNAassembly-Contigs.fasta</code>：包含所有重建 contig 的 fasta 文件；</li>
+<li data-line="18" dir="auto"><code>mtDNAassembly-coverage.txt</code>：包含每个 contig 和已知线粒体注释的覆盖率的文本文件；</li>
+<li data-line="19" dir="auto"><code>logassemble.txt</code>：assembleMTgenome.py 脚本的日志文件；</li>
+<li data-line="20" dir="auto"><div class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><code>sorted.csv</code>：包含预测概率超过 90% 的每个单倍群的表格。包括以下字段：
+<ol dir="auto">
+<li data-line="21" dir="auto"><code>N</code> = 片段序列相对于 RSRS 的 SNP 数量；</li>
+<li data-line="22" dir="auto"><code>Nph</code> = 在 Phylotree 中映射的 SNP 数量（在 N 中）；</li>
+<li data-line="23" dir="auto"><code>Nph_tot</code> = 整个基因组中定义单倍群的 SNP 数量；</li>
+<li data-line="24" dir="auto"><code>Nph_exp</code> = 片段区域中定义单倍群的 SNP 数量；</li>
+<li data-line="25" dir="auto"><code>P_Hg</code> = 单倍群的预测百分比值（Nph/Nph_exp*100）；</li>
+<li data-line="26" dir="auto"><code>Missing sites</code> = 在查询基因组中不存在但预期在其相应路径上的变异。这些变异也可能指向测序错误；</li>
+</ol>
+</li>
+<li data-line="27" dir="auto"><code>merged_diff.csv</code>：报告查询基因组与三个序列（RSRS、rCRS 和 hg_MHCS（Macro-Haplogroup Consensus Sequence））之间的 SNP；</li>
+<li data-line="28" dir="auto"><code>&lt;sample_name&gt;.csv</code>：包含表格，其中报告了 Phylotree Build 15 中所有单倍群的相同数据，如 <code>&lt;sequence_name&gt;.sorted.csv</code> 文件，但不包括 Missing Sites 字段；</li>
+<li data-line="29" dir="auto"><div class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><code>annotation.csv</code>：对 <code>merged_diff.csv</code> 文件的进一步解释，为每个 mt 变异等位基因提供多个注释，查询基因组和三个序列（RSRS、rCRS 和 hg_MHCS）之间：
+<ul dir="auto">
+<li data-line="30" dir="auto"><code>Sample</code> = 样本名称；</li>
+<li data-line="31" dir="auto"><code>Variant Allele</code> = 线粒体基因组中的核苷酸位置及变异等位基因；</li>
+<li data-line="32" dir="auto"><code>HF</code> = VCF 文件中报告的异质性比例；</li>
+<li data-line="33" dir="auto"><code>CI_lower;CI_upper</code> = 异质性比例置信区间的上下限；</li>
+<li data-line="34" dir="auto"><code>RSRS</code> = 如果为“是”，则变异被 RSRS 识别；</li>
+<li data-line="35" dir="auto"><code>MHCS</code> = 如果为“是”，则变异被 Macro-Haplogroup Consensus Sequence 识别；</li>
+<li data-line="36" dir="auto"><code>rCRS</code> = 如果为“是”，则变异被 rCRS 识别；</li>
+<li data-line="37" dir="auto"><code>Haplogroup</code> = 最佳预测单倍群；</li>
+<li data-line="38" dir="auto"><code>Other Haplogroups</code> = 如果为“+”，则该变异定义了其他单倍群；</li>
+<li data-line="39" dir="auto"><code>Locus</code> = 线粒体基因座；</li>
+<li data-line="40" dir="auto"><code>Nt Variability</code> = SiteVar 变异性值；</li>
+<li data-line="41" dir="auto"><code>Codon Position</code> = 密码子内的核苷酸位置；</li>
+<li data-line="42" dir="auto"><code>Aa Change</code> = 氨基酸变化；</li>
+<li data-line="43" dir="auto"><code>Aa variability</code> = MitVarProt 氨基酸变异性值；</li>
+<li data-line="44" dir="auto"><code>tRNA annotation</code> = 线粒体 tRNA 基因的特定信息（在 tRNA 中的位置；tRNA 类型；三叶草二级结构区域；成熟核苷酸；特定位置在 tRNA 折叠中的作用）；</li>
+<li data-line="45" dir="auto"><code>Disease score</code> = 综合疾病评分，作为非同义变异致病性预测评分的加权平均。详情参见相关出版物（PMID: 26621530）；</li>
+<li data-line="46" dir="auto"><code>RNA predictions</code> = rRNA 基因中的 49 个变异和 tRNA 基因中的 207 个变异的评分（PMID: 24092330；PMID: 21882289；PMID: 23696415）。评分在 0 到 1 的范围内。rRNA 的阈值为 0.51，tRNA 的阈值为 0.31。低致病性低于固定阈值；</li>
+<li data-line="47" dir="auto"><code>MutPred pred</code> = MutPred 预测（高致病性，低致病性）；</li>
+<li data-line="48" dir="auto"><code>MutPred Score</code> = MutPred 致病性评分（0.000-1.000）；</li>
+<li data-line="49" dir="auto"><code>PolyPhen-2 HumDiv Pred</code> = Polyphen-2 HumDiv 预测（良性，可能有害，可能有害，未知）；</li>
+<li data-line="50" dir="auto"><code>PolyPhen-2 HumDiv Prob</code> = Polyphen-2 HumDiv 概率（0.000-1.000）；</li>
+<li data-line="51" dir="auto"><code>PolyPhen-2 HumVar Pred</code> = Polyphen-2 HumVar 预测（良性，可能有害，可能有害，未知）；</li>
+<li data-line="52" dir="auto"><code>PolyPhen-2 HumVar Prob</code> = Polyphen-2 HumVar 概率（0.000-1.000）；</li>
+<li data-line="53" dir="auto"><code>PANTHER Pred</code> = 通过 SNPs&amp;GO 软件进行的 PANTHER 预测（中性，疾病，未分类）；</li>
+<li data-line="54" dir="auto"><code>PANTHER Prob</code> = 通过 SNPs&amp;GO 软件进行的 PANTHER 概率（0.000-1.000）；</li>
+<li data-line="55" dir="auto"><code>PhD-SNP Pred</code> = 通过 SNPs&amp;GO 软件进行的 PhD-SNP 预测（中性，疾病，未分类）；</li>
+<li data-line="56" dir="auto"><code>PhD-SNP Prob</code> = 通过 SNPs&amp;GO 软件进行的 PhD-SNP 概率（0.000-1.000）；</li>
+<li data-line="57" dir="auto"><code>SNPs&amp;GO Pred</code> = 通过 SNPs&amp;GO 软件进行的 SNPs&amp;GO 预测（中性，疾病，未分类）；</li>
+<li data-line="58" dir="auto"><code>SNPs&amp;GO Prob</code> = 通过 SNPs&amp;GO 软件进行的 SNPs&amp;GO 概率（0.000-1.000）；</li>
+<li data-line="59" dir="auto"><code>Mitomap Associated Disease(s)</code> = MITOMAP 疾病相关突变注释；</li>
+<li data-line="60" dir="auto"><code>Mitomap Homoplasmy</code> = MITOMAP 同质性状态注释；</li>
+<li data-line="61" dir="auto"><code>Mitomap Heteroplasmy</code> = MITOMAP 异质性状态注释；</li>
+<li data-line="62" dir="auto"><code>Somatic Mutations</code> = MITOMAP 体细胞突变的细胞或组织类型注释；</li>
+<li data-line="63" dir="auto"><code>SM Homoplasmy</code> = 体细胞突变的同质性状态注释；</li>
+<li data-line="64" dir="auto"><code>SM Heteroplasmy</code> = 体细胞突变的异质性状态注释；</li>
+<li data-line="65" dir="auto"><code>ClinVar</code> = ClinVar 疾病相关突变注释；</li>
+<li data-line="66" dir="auto"><code>OMIM Link</code> = OMIM 条目链接；</li>
+<li data-line="67" dir="auto"><code>dbSNP ID</code> = dbSNP 数据库中的 rs ID；</li>
+<li data-line="68" dir="auto"><code>Mamit-tRNA link</code> = Mamit-tRNA 站点注释链接；</li>
+<li data-line="69" dir="auto"><code>PhastCons20Way</code> = 使用 hg38+rCRS 作为参考序列计算的 20 个脊椎动物的 PhastCons 保守性评分；</li>
+<li data-line="70" dir="auto"><code>PhyloP20Way</code> = 使用 hg38+rCRS 作为参考序列计算的 20 个脊椎动物的 PhyloP 保守性评分；</li>
+<li data-line="71" dir="auto"><code>AC/AN 1000 Genomes</code> = 在 1000 Genomes 中找到的可能致病变异的等位基因计数与等位基因数量的比率；</li>
+<li data-line="72" dir="auto"><code>1000 Genomes Homoplasmy</code> = 1000 Genomes 变异中的同质性状态注释；</li>
+<li data-line="73" dir="auto"><code>1000 Genomes Heteroplasmy</code> = 1000 Genomes 变异中的异质性状态注释。</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul></div><div><p dir="auto">警告：请注意，异质性比例和相关的置信区间仅会报告针对选择的参考序列进行读取映射的变异。</p></div></div></div><div class="heading-wrapper"><h1 data-heading="5. 处理 MToolBox 数据的辅助脚本" dir="auto" class="heading" id="5._处理_MToolBox_数据的辅助脚本">5. 处理 MToolBox 数据的辅助脚本</h1><div class="heading-children"><div><p dir="auto">这些脚本位于 MToolBox 的 <code>aux</code> 文件夹中。</p></div><div><ul dir="auto">
+<li data-line="0" dir="auto"><code>get_prioritized_var_and_summary.sh</code> 是一个辅助脚本，用于从 MToolBox 的 <code>annotation.csv</code> 文件中生成 <code>summary.txt</code> 和 <code>prioritized_variant.txt</code> 文件。<br>
+运行以下命令以获取脚本使用帮助：<br>
+<code>./get_prioritized_var_and_summary.sh</code></li>
+<li data-line="3" dir="auto"><code>filter_HF.py</code> 是一个辅助脚本，用于过滤 MToolBox VCF 文件（版本 &lt; 1.2 生成的文件）的 HF 和 DP，并将多等位基因 SNP 分割为每行一个。<br>
+<code>python filter_HF.py</code> </li>
+<li data-line="5" dir="auto"><code>filter_HF_v2.py</code> 是一个辅助脚本，用于过滤 MToolBox VCF 文件（版本 &gt;= 1.2 生成的文件）的 HF 和 DP，并将多等位基因 SNP 分割为每行一个。<br>
+<code>python filter_HF_v2.py</code></li>
+</ul></div><div class="heading-wrapper"><h2 data-heading="使用示例" dir="auto" class="heading" id="使用示例"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>使用示例</h2><div class="heading-children"><div><pre dir="auto" class="language-shell" tabindex="0"><code class="language-shell is-loaded">python filter_HF_v2.py HG00119 HG00119.vcf <span class="token number">0.8</span> <span class="token number">100</span> txt HG00119.txt No
+</code><button class="copy-code-button">复制</button></pre></div></div></div><div class="heading-wrapper"><h2 data-heading="预期的 `HG00119.txt` 输出内容" dir="auto" class="heading" id="预期的_`HG00119.txt`_输出内容"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>预期的 <code>HG00119.txt</code> 输出内容</h2><div class="heading-children"><div dir="auto" style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th>CHROM</th>
+<th>POS</th>
+<th>ID</th>
+<th>REF</th>
+<th>ALT</th>
+<th>DP</th>
+<th>HF</th>
+<th>CIL</th>
+<th>CIU</th>
+<th>SDP_F</th>
+<th>SDP_R</th>
+<th>HG00119</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>chrMT</td>
+<td>73</td>
+<td>.</td>
+<td>A</td>
+<td>G</td>
+<td>246</td>
+<td>1.0</td>
+<td>0.981</td>
+<td>1.0</td>
+<td>117</td>
+<td>129</td>
+<td>HG00119</td>
+</tr>
+<tr>
+<td>chrMT</td>
+<td>195</td>
+<td>.</td>
+<td>T</td>
+<td>C</td>
+<td>234</td>
+<td>1.0</td>
+<td>0.981</td>
+<td>1.0</td>
+<td>67</td>
+<td>167</td>
+<td>HG00119</td>
+</tr>
+</tbody>
+</table></div><div class="mod-footer"></div></div></div></div></div></div></div></div><div class="sidebar-right sidebar"><div class="sidebar-handle"></div><div class="sidebar-topbar"><div class="topbar-content"></div><div class="clickable-icon sidebar-collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><path d="M21 3H3C1.89543 3 1 3.89543 1 5V19C1 20.1046 1.89543 21 3 21H21C22.1046 21 23 20.1046 23 19V5C23 3.89543 22.1046 3 21 3Z"></path><path d="M10 4V20"></path><path d="M4 7H7"></path><path d="M4 10H7"></path><path d="M4 13H7"></path></svg></div></div><div class="sidebar-content"><div class="graph-view-wrapper"><div class="sidebar-section-header">Interactive Graph</div><div class="graph-view-placeholder">
+		<div class="graph-view-container">
+			<div class="graph-icon graph-expand" role="button" aria-label="Expand" data-tooltip-position="top"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></div>
+			<canvas id="graph-canvas" class="hide" width="512px" height="512px"></canvas>
+		</div>
+		</div></div><div class="tree-container mod-root nav-folder tree-item outline-tree" data-depth="0"><div class="tree-header"><span class="sidebar-section-header">Table Of Contents</span><button class="clickable-icon collapse-tree-button" aria-label="Collapse All"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></svg></button></div><div class="tree-scroll-area tree-item-children nav-folder-children"><div class="tree-item mod-tree-folder nav-folder mod-collapsible is-collapsed" style="display: none;"></div><div class="tree-item" data-depth="1"><a class="tree-link" href="软件\其它生信软件\全基因组\mtoolbox.html#1. 安装"><div class="tree-item-contents heading-link" heading-name="
+安装
+"><span class="tree-item-title">安装</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="1"><a class="tree-link" href="软件\其它生信软件\全基因组\mtoolbox.html#2._系统要求"><div class="tree-item-contents heading-link" heading-name="2. 系统要求"><span class="tree-item-title">2. 
+系统要求
+</span></div></a><div class="tree-item-children nav-folder-children"><div class="tree-item" data-depth="2"><a class="tree-link" href="软件\其它生信软件\全基因组\mtoolbox.html#其他所需文件"><div class="tree-item-contents heading-link" heading-name="其他所需文件"><span class="tree-item-title">其他所需文件</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="2"><a class="tree-link" href="软件\其它生信软件\全基因组\mtoolbox.html#文件命名注意事项"><div class="tree-item-contents heading-link" heading-name="文件命名注意事项"><span class="tree-item-title">文件命名注意事项</span></div></a><div class="tree-item-children nav-folder-children"></div></div></div></div><div class="tree-item" data-depth="1"><a class="tree-link" href="软件\其它生信软件\全基因组\mtoolbox.html#3._使用"><div class="tree-item-contents heading-link" heading-name="3. 使用"><span class="tree-item-title">3. 
+使用
+</span></div></a><div class="tree-item-children nav-folder-children"><div class="tree-item" data-depth="2"><a class="tree-link" href="软件\其它生信软件\全基因组\mtoolbox.html#MToolBox.sh_选项："><div class="tree-item-contents heading-link" heading-name="MToolBox.sh 选项："><span class="tree-item-title">MToolBox.sh 选项：</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="2"><a class="tree-link" href="软件\其它生信软件\全基因组\mtoolbox.html#帮助选项："><div class="tree-item-contents heading-link" heading-name="帮助选项："><span class="tree-item-title">帮助选项：</span></div></a><div class="tree-item-children nav-folder-children"></div></div></div></div><div class="tree-item" data-depth="1"><a class="tree-link" href="软件\其它生信软件\全基因组\mtoolbox.html#4._输出文件"><div class="tree-item-contents heading-link" heading-name="4. 输出文件"><span class="tree-item-title">4. 
+输出文件
+</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="1"><a class="tree-link" href="软件\其它生信软件\全基因组\mtoolbox.html#5._处理_MToolBox_数据的辅助脚本"><div class="tree-item-contents heading-link" heading-name="5. 处理 MToolBox 数据的辅助脚本"><span class="tree-item-title">5. 
+处理 MToolBox 数据的辅助脚本
+</span></div></a><div class="tree-item-children nav-folder-children"><div class="tree-item" data-depth="2"><a class="tree-link" href="软件\其它生信软件\全基因组\mtoolbox.html#使用示例"><div class="tree-item-contents heading-link" heading-name="使用示例"><span class="tree-item-title">使用示例</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="2"><a class="tree-link" href="软件\其它生信软件\全基因组\mtoolbox.html#预期的_`HG00119.txt`_输出内容"><div class="tree-item-contents heading-link" heading-name="预期的 `HG00119.txt` 输出内容"><span class="tree-item-title">预期的 <code>HG00119.txt</code> 输出内容</span></div></a><div class="tree-item-children nav-folder-children"></div></div></div></div></div></div></div><script defer="">let rs = document.querySelector(".sidebar-right"); rs.classList.add("is-collapsed"); if (window.innerWidth > 768) rs.classList.remove("is-collapsed"); rs.style.setProperty("--sidebar-width", localStorage.getItem("sidebar-right-width"));</script></div></div></body></html>
