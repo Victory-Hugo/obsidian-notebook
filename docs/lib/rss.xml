@@ -1,4 +1,62 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[科研思路]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>科研思路</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Fri, 21 Jun 2024 07:05:15 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Fri, 21 Jun 2024 07:05:13 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[常用命令]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[科研思路]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>科研思路</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Fri, 21 Jun 2024 07:12:00 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Fri, 21 Jun 2024 07:12:00 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[欢迎来到我的思维领域]]></title><description><![CDATA[ 
+ <br>这是我的主页（也是我的思维领域）<br>
+当然，你也可以访问我的其他主页：<br>
+<br><a data-tooltip-position="top" aria-label="https://www.yuque.com/wusheng-s0bue" rel="noopener" class="external-link" href="https://www.yuque.com/wusheng-s0bue" target="_blank">梧之声 · 语雀 (yuque.com)</a>
+<br><a data-tooltip-position="top" aria-label="https://blog.csdn.net/2301_79082700?type=blog" rel="noopener" class="external-link" href="https://blog.csdn.net/2301_79082700?type=blog" target="_blank">梧叶之声-CSDN博客</a>
+<br><br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240616211539.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240616211548.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240616211555.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240616211605.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>花园里有什么？  <br>你不能从这里学到任何东西  
+除非你多次尝试。熟能生巧。
+<br>我把自己的笔记分享到这里
+包括但不限于R语言、生物信息学以及一些你可能不感兴趣的内容。
+<br>Important
+以下学科：马克思主义哲学、逻辑学、宗教学、伦理学、、经济统计学、财政学、税收学、法学、民法学、刑法学、行政法学、商法学、国际法学、教育学、学前教育学、小学教育学、特殊教育学、教育技术学、中国语言文学、外国语言文学、比较文学与世界文学、新闻传播学、中国史、世界史、史学理论及史学史、考古学、数学、物理学、化学、生物科学、地理科学、机械工程、电子科学与技术、计算机科学与技术、土木工程、化学工程与技术、环境科学与工程、、植物保护学、林学、畜牧学、水产养殖学、基础医学、临床医学、口腔医学、公共卫生与预防医学、中药学、药学、军事学、美术学、设计学、戏剧与影视学、数字人文学科、计算机辅助工程、有限元分析、计算流体力学、生物电脑学、物理电脑学、化学电脑学……<br>
+几乎都没有。  
+<br>
+Σ(⊙▽⊙"a你不会还在看吧？
+]]></description><link>主页\欢迎来到我的思维领域.html</link><guid isPermaLink="false">主页/欢迎来到我的思维领域.md</guid><pubDate>Fri, 21 Jun 2024 01:46:50 GMT</pubDate><enclosure url="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240616211539.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240616211539.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[英文期刊投稿中的简写与状态解读]]></title><description><![CDATA[ 
+ <br><br>投稿后，进入审稿阶段，可以看到一些奇怪的缩写，现将其小结如下：  <br>Authors：作者，不用多说了。  <br>EIC： Editors in Chief，主编，权力最大，有稿件最终决定权。  <br>AE：Associate Editors，副编辑，（就是文章发表后在首页第一栏下方的contributing editor），对你的稿件来说，此人非常重要&nbsp;，他会在审稿人意见的基础上对文章作个综合评价后，给主编一个recommendation。一般主编都会按照AE的意见写最终的decision letter。  <br>ADM：Administrator，相当于编辑部的执行编辑（Managing Editor），你会发现编辑部给你的信大都是他写给你的。 他是编辑部里和你最接近的人，给你分配稿件号（Edit the manuscript ID number），修改各种投稿状态和日期（Edit the submission date）。  <br>Reviewers： 审稿人。（Article要求两个审稿人＋AE，总共三个人审。communication只有一个人审，这个人或者是编辑部指定的审稿人，或者是AE）<br>典型的审稿流程如下：author&nbsp;<a data-tooltip-position="top" aria-label="https://so.csdn.net/so/search?q=submit&amp;spm=1001.2101.3001.7020" rel="noopener" class="external-link" href="https://so.csdn.net/so/search?q=submit&amp;spm=1001.2101.3001.7020" target="_blank">submit</a>&nbsp;--》&nbsp;Admin Checks and Passes to EIC --》&nbsp;EIC Assigns to Associate Editor --》AE Invites and /or Assigns Reviewers --》Reviewers Score --》AE Makes Final Decision<br><br>
+<br>awaiting admin. procession&nbsp; 一般3－4天后就会安排主编。
+<br>awaiting reviewer assignment&nbsp;&nbsp;等待指定审稿人。 主编在选择审稿人，等待审稿人回复是否同意审稿。一般在一周以内。看审稿人回复速度。
+<br>awaiting reviewer scores&nbsp;&nbsp;等待审稿人审稿意见。一般会有一个审稿限期。但是审稿人觉得时间时间不够，可以写信给主编要求延长审稿期限。这个时间长短要取决于审稿人是否有空看你的文章，还要看他是否守时。
+<br>awaiting AE assignment&nbsp;等待AE的指派。编辑部在选择/联系AE。一般1－3天左右。
+<br>awaiting AE recommendation&nbsp;等待AE的推荐。 一般AE比较守时。但基本都是期限的最后一两天才给结果。
+<br>awaiting EIC decision&nbsp;－激动人心的时刻。 等待主编的决定。一般3－4天。
+<br>如果communication的话，就没有第4和第5步。
+<br><br>
+<br>&nbsp;Submitted to Journal&nbsp;当上传结束后，显示的状态是Submitted to Journal，这个状态是自然形成的无需处理。
+<br>With editor&nbsp;如果在投稿的时候没有要求选择编辑，就先到主编那里，主编会分派给别的编辑。这当中就会有另两个状态：&nbsp;① Editor assigned　编辑分； ② Editor Declined Invitation　编辑拒绝邀请，这时主编不得不将投稿文章重新分派给其它编辑。
+<br>Reviewer(s) invited&nbsp;说明编辑已接手处理，正在邀请审稿人中。有时该过程会持续很长时间，如果其中原因是编辑一直没有找到合适的审稿人，这时投稿者可以向编辑推荐审稿人。
+<br>Under&nbsp;review&nbsp;审稿人的意见已上传，说明审稿人已接受审稿，正在审稿中，这应该是一个漫长的等待（期刊通常会限定审稿人审稿时间，一般为一个月左右）。当然前面各步骤也可能很慢的，要看编辑的处理情况。如果被邀请审稿人不想审，就会decline，编辑会重新邀请别的审稿人。
+<br>required&nbsp;review&nbsp;completed&nbsp;审稿结束，等编辑处理，该过程短则几天，长则无期，科学堂 有一篇文章出现required&nbsp;review&nbsp;completed状态已近一个月了，还是没有消息。
+<br>Decision in Process&nbsp;到了这一步就快要有结果了，编辑开始考虑是给修改还是直接拒，当然也有可能直接接受的，但可能性很小，呵呵。
+<br>Minor revision/Major revision&nbsp;小修/大修，这个时候可以稍微庆祝一下了，因为有修改就有可能。具体怎么改就不多说了，谦虚谨慎是不可少的（因为修改后一般会再发给审稿人看，所以一定要 细心的回答每一个审稿人的每一个问题，态度要谦逊，要让审稿人觉得他提的每个问题都很有水准的，然后针对他的问题，一个一个的做出答复，能修改的就修改， 不能修改的给出理由，而且都要列出来，文章的哪一段哪一行修改了最好都说出来，记住：给审稿人减少麻烦就是给你自己减少麻烦！另注：&nbsp;有时，审稿人会在修改意见里隐讳里说出要你仔细阅读某几篇文献，这时可要注意了，其中某些文章可能就是评审者自己发表的，这时你最好在你的修改稿中加以引用），修改后被拒绝的例子也多不胜数的。
+<br>Revision Submitted to Journal&nbsp;修改后重新提交，等待编辑审理。
+<br>Accepted&nbsp;如果不要再审，只是小修改，编辑看后会马上显示这个状态，但如果要再审也会有上面的部分状态。一步会比较快，但也有慢的。看杂志的。
+<br>Rejected&nbsp;相信大家见了Rejected，都会很郁闷。但也不要太灰心，耐心将评审意见看完，一般评审者会给出有益的建议，相信看后你会有所收获。
+<br><br><br>
+<br>－Accept
+<br>&nbsp;-&nbsp;accept after minor revision( 小修后接收，withour re-review不需要再送审)
+<br>－reconsideration after major revision.(大修之后再送审，即要再经过审稿流程3－6)
+<br>－reject and resubmit&nbsp;(论文现在状态不能接受，但可以修改后重新再投。要重新经过审稿流程1－6)
+<br>－reject&nbsp;（没希望了，改投把)
+]]></description><link>主页\英文期刊投稿中的简写与状态解读.html</link><guid isPermaLink="false">主页/英文期刊投稿中的简写与状态解读.md</guid><pubDate>Thu, 20 Jun 2024 13:46:14 GMT</pubDate></item><item><title><![CDATA[伦理填报]]></title><description><![CDATA[ 
+ <br><br>
+<br><a data-tooltip-position="top" aria-label="http://ctmsec.cd120.com/" rel="noopener" class="external-link" href="http://ctmsec.cd120.com/" target="_blank">打开官网</a>
+<br>http://ctmsec.cd120.com/
+复制<br>
+<br>登陆账号：
+<br>账号：20229186
+密码：Hgl2wmg@1314
+复制<br>
+<br>点击右上角：<br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401231018522.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;">
+<br>选择研究者发起的临床研究备案及伦理申报。<br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401231018154.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;">
+<br>按照下图的模板进行填写，注意项目名称、研究例数、内容摘要填写自己的，人类遗传资源选择唾液。<br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401231015320.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;">
+<br>填报之后下载附件，附件应该具备如下：<br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401231021189.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;">
+<br>附件打印填写，然后扫描上传。
+<br><br>这是国家超算成都中心的链接，你们几个都去熟悉一下界面和操作。软件安装在固定位置/public/home/heguanglin/biosoftware，软连接到/public/home/heguanglin/biosoftware/bin。<br><br>@马金玥 @罗林焘 两位，我早期做的mtDNA的群体数据和博后课题组的mtDNA家系样本数据已储存于/home/guanglinhe/10_mtDNA，可以慢慢开始学习数据分析了]]></description><link>主页\注意事项.html</link><guid isPermaLink="false">主页/注意事项.md</guid><pubDate>Mon, 17 Jun 2024 07:53:30 GMT</pubDate><enclosure url="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401231018522.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401231018522.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[常用命令]]></title><description><![CDATA[ 
  <br>##############################################################################
 
 # BASH CHEATSHEET (中文速查表)  -  by skywind (created on 2018/02/14)
@@ -2354,33 +2412,4 @@ bcftools annotate -a /ifs1/Database/gatk/hg38/dbsnp_146.hg38.vcf.gz -c ID,QUAL
 复制<br>-a 参数指定注释用的数据库文件，格式可以是 VCF, BED, 或者是\t 分隔的自定义文件。在\t 分隔的自定义文件中，必须包含 CHROM, POS 字段；<br>
 -c 参数指定将数据库的哪些信息添加到输出文件中。<br>#编辑 VCF 文件，比如去除其中的某些注释信息，或者去除某些样本
 bcftools annotate -x ID,INFO/DP,FORMAT/DP view.vcf -o removed.id.vcf
-复制<br>-x 参数表示去除 VCF 文件中的注释信息，可以是其中的某一列，比如 ID, 也可以是某些字段，比如 INFO/DP，多个字段的信息用逗号分隔；去除之后，这些信息所在的列并不会去除，而是用.填充。]]></description><link>linux和bash脚本\vcf文件初识.html</link><guid isPermaLink="false">Linux和bash脚本/VCF文件初识.md</guid><pubDate>Thu, 20 Jun 2024 13:19:46 GMT</pubDate><enclosure url="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401230846638.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401230846638.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[脚注的使用]]></title><description><![CDATA[ 
- <br>要创建脚注参考，请在方括号<a data-footref="1" href="about:blank#fn-1-4f2cbb206aa38b57" class="footnote-link" target="_self" rel="noopener">[1]</a>内添加插入符号和标识符。标识符可以是数字或单词，但不能包含空格或制表符。<br>
-标识符仅将脚注参考弱脚注本身相关联- 在输出中，脚注按顺序编号。<br>脚注代号 ：(脚注代号会直接显示在渲染界面)；<br>
-脚注代号可以随便命名，不过推荐使用数字序号；<br>
-脚注代号+:+ 空格 + 脚注内容。<br>mtDNA是一种母系遗传的物质<a data-footref="1" href="about:blank#fn-1-4f2cbb206aa38b57" class="footnote-link" target="_self" rel="noopener">[1-1]</a>。我们需要明确其单倍型<a data-footref="2" href="about:blank#fn-2-4f2cbb206aa38b57" class="footnote-link" target="_self" rel="noopener">[2]</a>。<br><br><br>
-<br>
-<br>mtDNA与进化。<a href="about:blank#fnref-1-4f2cbb206aa38b57" class="footnote-backref footnote-link" target="_self" rel="noopener">↩︎</a><a href="about:blank#fnref-1-1-4f2cbb206aa38b57" class="footnote-backref footnote-link" target="_self" rel="noopener">↩︎</a>
-<br>世界的起源。<a href="about:blank#fnref-2-4f2cbb206aa38b57" class="footnote-backref footnote-link" target="_self" rel="noopener">↩︎</a>
-]]></description><link>obsidian语法进阶\脚注的使用.html</link><guid isPermaLink="false">obsidian语法进阶/脚注的使用.md</guid><pubDate>Sat, 18 May 2024 10:57:53 GMT</pubDate></item><item><title><![CDATA[callout语法]]></title><description><![CDATA[ 
- <br>Note<br>Abstract<br>Info<br>Todo<br>Tip<br>Success<br>Question<br>Warning<br>Failure<br>Danger<br>Bug<br>Example<br>Quote]]></description><link>obsidian语法进阶\callout语法.html</link><guid isPermaLink="false">obsidian语法进阶/callout语法.md</guid><pubDate>Thu, 20 Jun 2024 13:59:00 GMT</pubDate></item><item><title><![CDATA[Latex语法符号大全]]></title><description><![CDATA[ 
- <br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401022134851.png" referrerpolicy="no-referrer" style="width: 550px; max-width: 100%;"><br>
-<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401022134155.png" referrerpolicy="no-referrer" style="width: 550px; max-width: 100%;"><br>
-<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401022134997.png" referrerpolicy="no-referrer" style="width: 550px; max-width: 100%;"><br>
-<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401022134210.png" referrerpolicy="no-referrer" style="width: 550px; max-width: 100%;"><br>
-<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401022134883.png" referrerpolicy="no-referrer" style="width: 550px; max-width: 100%;"><br>
-<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401022135955.png" referrerpolicy="no-referrer" style="width: 550px; max-width: 100%;"><br>
-<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401022135856.png" referrerpolicy="no-referrer" style="width: 550px; max-width: 100%;"><br>
-<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401022135088.png" referrerpolicy="no-referrer" style="width: 550px; max-width: 100%;"><br>
-<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401022135457.png" referrerpolicy="no-referrer" style="width: 550px; max-width: 100%;"><br>
-<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401022135718.png" referrerpolicy="no-referrer" style="width: 550px; max-width: 100%;"><br>
-<img src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401022135718.png" referrerpolicy="no-referrer"><br>
-<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401022135089.png" referrerpolicy="no-referrer" style="width: 550px; max-width: 100%;"><br>
-<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401022135748.png" referrerpolicy="no-referrer" style="width: 550px; max-width: 100%;"><br>
-<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401022135189.png" referrerpolicy="no-referrer" style="width: 550px; max-width: 100%;"><br>
-<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401022135001.png" referrerpolicy="no-referrer" style="width: 550px; max-width: 100%;"><br>
-<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401022135919.png" referrerpolicy="no-referrer" style="width: 550px; max-width: 100%;"><br>
-<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401022135181.png" referrerpolicy="no-referrer" style="width: 550px; max-width: 100%;"><br>
-<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401022135395.png" referrerpolicy="no-referrer" style="width: 550px; max-width: 100%;"><br>
-<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401022135510.png" referrerpolicy="no-referrer" style="width: 550px; max-width: 100%;"><br>
-<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401022136266.png" referrerpolicy="no-referrer" style="width: 550px; max-width: 100%;">]]></description><link>obsidian语法进阶\latex语法符号大全.html</link><guid isPermaLink="false">obsidian语法进阶/Latex语法符号大全.md</guid><pubDate>Sat, 18 May 2024 10:57:09 GMT</pubDate><enclosure url="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401022134851.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401022134851.png"&gt;&lt;/figure&gt;</content:encoded></item></channel></rss>
+复制<br>-x 参数表示去除 VCF 文件中的注释信息，可以是其中的某一列，比如 ID, 也可以是某些字段，比如 INFO/DP，多个字段的信息用逗号分隔；去除之后，这些信息所在的列并不会去除，而是用.填充。]]></description><link>linux和bash脚本\vcf文件初识.html</link><guid isPermaLink="false">Linux和bash脚本/VCF文件初识.md</guid><pubDate>Thu, 20 Jun 2024 13:19:46 GMT</pubDate><enclosure url="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401230846638.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401230846638.png"&gt;&lt;/figure&gt;</content:encoded></item></channel></rss>
