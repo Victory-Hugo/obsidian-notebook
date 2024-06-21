@@ -1,59 +1,2386 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[科研思路]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>科研思路</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Fri, 21 Jun 2024 06:56:55 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Fri, 21 Jun 2024 06:56:55 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[英文期刊投稿中的简写与状态解读]]></title><description><![CDATA[ 
- <br><br>投稿后，进入审稿阶段，可以看到一些奇怪的缩写，现将其小结如下：  <br>Authors：作者，不用多说了。  <br>EIC： Editors in Chief，主编，权力最大，有稿件最终决定权。  <br>AE：Associate Editors，副编辑，（就是文章发表后在首页第一栏下方的contributing editor），对你的稿件来说，此人非常重要&nbsp;，他会在审稿人意见的基础上对文章作个综合评价后，给主编一个recommendation。一般主编都会按照AE的意见写最终的decision letter。  <br>ADM：Administrator，相当于编辑部的执行编辑（Managing Editor），你会发现编辑部给你的信大都是他写给你的。 他是编辑部里和你最接近的人，给你分配稿件号（Edit the manuscript ID number），修改各种投稿状态和日期（Edit the submission date）。  <br>Reviewers： 审稿人。（Article要求两个审稿人＋AE，总共三个人审。communication只有一个人审，这个人或者是编辑部指定的审稿人，或者是AE）<br>典型的审稿流程如下：author&nbsp;<a data-tooltip-position="top" aria-label="https://so.csdn.net/so/search?q=submit&amp;spm=1001.2101.3001.7020" rel="noopener" class="external-link" href="https://so.csdn.net/so/search?q=submit&amp;spm=1001.2101.3001.7020" target="_blank">submit</a>&nbsp;--》&nbsp;Admin Checks and Passes to EIC --》&nbsp;EIC Assigns to Associate Editor --》AE Invites and /or Assigns Reviewers --》Reviewers Score --》AE Makes Final Decision<br><br>
-<br>awaiting admin. procession&nbsp; 一般3－4天后就会安排主编。
-<br>awaiting reviewer assignment&nbsp;&nbsp;等待指定审稿人。 主编在选择审稿人，等待审稿人回复是否同意审稿。一般在一周以内。看审稿人回复速度。
-<br>awaiting reviewer scores&nbsp;&nbsp;等待审稿人审稿意见。一般会有一个审稿限期。但是审稿人觉得时间时间不够，可以写信给主编要求延长审稿期限。这个时间长短要取决于审稿人是否有空看你的文章，还要看他是否守时。
-<br>awaiting AE assignment&nbsp;等待AE的指派。编辑部在选择/联系AE。一般1－3天左右。
-<br>awaiting AE recommendation&nbsp;等待AE的推荐。 一般AE比较守时。但基本都是期限的最后一两天才给结果。
-<br>awaiting EIC decision&nbsp;－激动人心的时刻。 等待主编的决定。一般3－4天。
-<br>如果communication的话，就没有第4和第5步。
-<br><br>
-<br>&nbsp;Submitted to Journal&nbsp;当上传结束后，显示的状态是Submitted to Journal，这个状态是自然形成的无需处理。
-<br>With editor&nbsp;如果在投稿的时候没有要求选择编辑，就先到主编那里，主编会分派给别的编辑。这当中就会有另两个状态：&nbsp;① Editor assigned　编辑分； ② Editor Declined Invitation　编辑拒绝邀请，这时主编不得不将投稿文章重新分派给其它编辑。
-<br>Reviewer(s) invited&nbsp;说明编辑已接手处理，正在邀请审稿人中。有时该过程会持续很长时间，如果其中原因是编辑一直没有找到合适的审稿人，这时投稿者可以向编辑推荐审稿人。
-<br>Under&nbsp;review&nbsp;审稿人的意见已上传，说明审稿人已接受审稿，正在审稿中，这应该是一个漫长的等待（期刊通常会限定审稿人审稿时间，一般为一个月左右）。当然前面各步骤也可能很慢的，要看编辑的处理情况。如果被邀请审稿人不想审，就会decline，编辑会重新邀请别的审稿人。
-<br>required&nbsp;review&nbsp;completed&nbsp;审稿结束，等编辑处理，该过程短则几天，长则无期，科学堂 有一篇文章出现required&nbsp;review&nbsp;completed状态已近一个月了，还是没有消息。
-<br>Decision in Process&nbsp;到了这一步就快要有结果了，编辑开始考虑是给修改还是直接拒，当然也有可能直接接受的，但可能性很小，呵呵。
-<br>Minor revision/Major revision&nbsp;小修/大修，这个时候可以稍微庆祝一下了，因为有修改就有可能。具体怎么改就不多说了，谦虚谨慎是不可少的（因为修改后一般会再发给审稿人看，所以一定要 细心的回答每一个审稿人的每一个问题，态度要谦逊，要让审稿人觉得他提的每个问题都很有水准的，然后针对他的问题，一个一个的做出答复，能修改的就修改， 不能修改的给出理由，而且都要列出来，文章的哪一段哪一行修改了最好都说出来，记住：给审稿人减少麻烦就是给你自己减少麻烦！另注：&nbsp;有时，审稿人会在修改意见里隐讳里说出要你仔细阅读某几篇文献，这时可要注意了，其中某些文章可能就是评审者自己发表的，这时你最好在你的修改稿中加以引用），修改后被拒绝的例子也多不胜数的。
-<br>Revision Submitted to Journal&nbsp;修改后重新提交，等待编辑审理。
-<br>Accepted&nbsp;如果不要再审，只是小修改，编辑看后会马上显示这个状态，但如果要再审也会有上面的部分状态。一步会比较快，但也有慢的。看杂志的。
-<br>Rejected&nbsp;相信大家见了Rejected，都会很郁闷。但也不要太灰心，耐心将评审意见看完，一般评审者会给出有益的建议，相信看后你会有所收获。
-<br><br><br>
-<br>－Accept
-<br>&nbsp;-&nbsp;accept after minor revision( 小修后接收，withour re-review不需要再送审)
-<br>－reconsideration after major revision.(大修之后再送审，即要再经过审稿流程3－6)
-<br>－reject and resubmit&nbsp;(论文现在状态不能接受，但可以修改后重新再投。要重新经过审稿流程1－6)
-<br>－reject&nbsp;（没希望了，改投把)
-]]></description><link>主页\英文期刊投稿中的简写与状态解读.html</link><guid isPermaLink="false">主页/英文期刊投稿中的简写与状态解读.md</guid><pubDate>Thu, 20 Jun 2024 13:46:14 GMT</pubDate></item><item><title><![CDATA[伦理填报]]></title><description><![CDATA[ 
- <br><br>
-<br><a data-tooltip-position="top" aria-label="http://ctmsec.cd120.com/" rel="noopener" class="external-link" href="http://ctmsec.cd120.com/" target="_blank">打开官网</a>
-<br>http://ctmsec.cd120.com/
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[科研思路]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>科研思路</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Fri, 21 Jun 2024 07:05:15 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Fri, 21 Jun 2024 07:05:13 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[常用命令]]></title><description><![CDATA[ 
+ <br>##############################################################################
+
+# BASH CHEATSHEET (中文速查表)  -  by skywind (created on 2018/02/14)
+
+# Version: 47, Last Modified: 2019/09/24 17:58
+
+# https://github.com/skywind3000/awesome-cheatsheets
+
+##############################################################################
+
+  
+  
+
+##############################################################################
+
+# 常用快捷键（默认使用 Emacs 键位）
+
+##############################################################################
+
+  
+
+CTRL+A              # 移动到行首，同 &lt;Home&gt;
+
+CTRL+B              # 向后移动，同 &lt;Left&gt;
+
+CTRL+C              # 结束当前命令
+
+CTRL+D              # 删除光标前的字符，同 &lt;Delete&gt; ，或者没有内容时，退出会话
+
+CTRL+E              # 移动到行末，同 &lt;End&gt;
+
+CTRL+F              # 向前移动，同 &lt;Right&gt;
+
+CTRL+G              # 退出当前编辑（比如正在 CTRL+R 搜索历史时）
+
+CTRL+H              # 删除光标左边的字符，同 &lt;Backspace&gt;
+
+CTRL+K              # 删除光标位置到行末的内容
+
+CTRL+L              # 清屏并重新显示
+
+CTRL+N              # 移动到命令历史的下一行，同 &lt;Down&gt;
+
+CTRL+O              # 类似回车，但是会显示下一行历史
+
+CTRL+P              # 移动到命令历史的上一行，同 &lt;Up&gt;
+
+CTRL+R              # 历史命令反向搜索，使用 CTRL+G 退出搜索
+
+CTRL+S              # 历史命令正向搜索，使用 CTRL+G 退出搜索
+
+CTRL+T              # 交换前后两个字符
+
+CTRL+U              # 删除字符到行首
+
+CTRL+V              # 输入字符字面量，先按 CTRL+V 再按任意键
+
+CTRL+W              # 删除光标左边的一个单词
+
+CTRL+X              # 列出可能的补全
+
+CTRL+Y              # 粘贴前面 CTRL+u/k/w 删除过的内容
+
+CTRL+Z              # 暂停前台进程返回 bash，需要时可用 fg 将其切换回前台
+
+CTRL+_              # 撤销（undo），有的终端将 CTRL+_ 映射为 CTRL+/ 或 CTRL+7
+
+  
+
+ALT+b               # 向后（左边）移动一个单词
+
+ALT+d               # 删除光标后（右边）一个单词
+
+ALT+f               # 向前（右边）移动一个单词
+
+ALT+t               # 交换字符
+
+ALT+BACKSPACE       # 删除光标前面一个单词，类似 CTRL+W，但不影响剪贴板
+
+  
+
+CTRL+X CTRL+X       # 连续按两次 CTRL+X，光标在当前位置和行首来回跳转
+
+CTRL+X CTRL+E       # 用你指定的编辑器，编辑当前命令
+
+  
+  
+
+##############################################################################
+
+# BASH 基本操作
+
+##############################################################################
+
+  
+
+exit                # 退出当前登陆
+
+env                 # 显示环境变量
+
+echo $SHELL         # 显示你在使用什么 SHELL
+
+  
+
+bash                # 使用 bash，用 exit 返回
+
+which bash          # 搜索 $PATH，查找哪个程序对应命令 bash
+
+whereis bash        # 搜索可执行，头文件和帮助信息的位置，使用系统内建数据库
+
+whatis bash         # 查看某个命令的解释，一句话告诉你这是干什么的
+
+  
+
+clear               # 清初屏幕内容
+
+reset               # 重置终端（当你不小心 cat 了一个二进制，终端状态乱掉时使用）
+
+  
+  
+
+##############################################################################
+
+# 目录操作
+
+##############################################################################
+
+  
+
+cd                  # 返回自己 $HOME 目录
+
+cd {dirname}        # 进入目录
+
+pwd                 # 显示当前所在目录
+
+mkdir {dirname}     # 创建目录
+
+mkdir -p {dirname}  # 递归创建目录
+
+pushd {dirname}     # 目录压栈并进入新目录
+
+popd                # 弹出并进入栈顶的目录
+
+dirs -v             # 列出当前目录栈
+
+cd -                # 回到之前的目录
+
+cd -{N}             # 切换到目录栈中的第 N个目录，比如 cd -2 将切换到第二个
+
+  
+  
+
+##############################################################################
+
+# 文件操作
+
+##############################################################################
+
+  
+
+ls                  # 显示当前目录内容，后面可接目录名：ls {dir} 显示指定目录
+
+ls -l               # 列表方式显示目录内容，包括文件日期，大小，权限等信息
+
+ls -1               # 列表方式显示目录内容，只显示文件名称，减号后面是数字 1
+
+ls -a               # 显示所有文件和目录，包括隐藏文件（.开头的文件/目录名）
+
+ln -s {fn} {link}   # 给指定文件创建一个软链接
+
+cp {src} {dest}     # 拷贝文件，cp -r dir1 dir2 可以递归拷贝（目录）
+
+rm {fn}             # 删除文件，rm -r 递归删除目录，rm -f 强制删除
+
+mv {src} {dest}     # 移动文件，如果 dest 是目录，则移动，是文件名则覆盖
+
+touch {fn}          # 创建或者更新一下制定文件
+
+cat {fn}            # 输出文件原始内容
+
+any_cmd &gt; {fn}      # 执行任意命令并将标准输出重定向到指定文件
+
+more {fn}           # 逐屏显示某文件内容，空格翻页，q 退出
+
+less {fn}           # 更高级点的 more，更多操作，q 退出
+
+head {fn}           # 显示文件头部数行，可用 head -3 abc.txt 显示头三行
+
+tail {fn}           # 显示文件尾部数行，可用 tail -3 abc.txt 显示尾部三行
+
+tail -f {fn}        # 持续显示文件尾部数据，可用于监控日志
+
+nano {fn}           # 使用 nano 编辑器编辑文件
+
+vim {fn}            # 使用 vim 编辑文件
+
+diff {f1} {f2}      # 比较两个文件的内容
+
+wc {fn}             # 统计文件有多少行，多少个单词
+
+chmod 644 {fn}      # 修改文件权限为 644，可以接 -R 对目录循环改权限
+
+chgrp group {fn}    # 修改文件所属的用户组
+
+chown user1 {fn}    # 修改文件所有人为 user1, chown user1:group1 fn 可以修改组
+
+file {fn}           # 检测文件的类型和编码
+
+basename {fn}       # 查看文件的名字（不包括路径）
+
+dirname {fn}        # 查看文件的路径（不包括名字）
+
+grep {pat} {fn}     # 在文件中查找出现过 pat 的内容
+
+grep -r {pat} .     # 在当前目录下递归查找所有出现过 pat 的文件内容
+
+stat {fn}           # 显示文件的详细信息
+
+  
+  
+
+##############################################################################
+
+# 用户管理
+
+##############################################################################
+
+  
+
+whoami              # 显示我的用户名
+
+who                 # 显示已登陆用户信息，w / who / users 内容略有不同
+
+w                   # 显示已登陆用户信息，w / who / users 内容略有不同
+
+users               # 显示已登陆用户信息，w / who / users 内容略有不同
+
+passwd              # 修改密码，passwd {user} 可以用于 root 修改别人密码
+
+finger {user}       # 显示某用户信息，包括 id, 名字, 登陆状态等
+
+adduser {user}      # 添加用户
+
+deluser {user}      # 删除用户
+
+w                   # 查看谁在线
+
+su                  # 切换到 root 用户
+
+su -                # 切换到 root 用户并登陆（执行登陆脚本）
+
+su {user}           # 切换到某用户
+
+su -{user}          # 切换到某用户并登陆（执行登陆脚本）
+
+id {user}           # 查看用户的 uid，gid 以及所属其他用户组
+
+id -u {user}        # 打印用户 uid
+
+id -g {user}        # 打印用户 gid
+
+write {user}        # 向某用户发送一句消息
+
+last                # 显示最近用户登陆列表
+
+last {user}         # 显示登陆记录
+
+lastb               # 显示失败登陆记录
+
+lastlog             # 显示所有用户的最近登陆记录
+
+sudo {command}      # 以 root 权限执行某命令
+
+  
+  
+
+##############################################################################
+
+# 进程管理
+
+##############################################################################
+
+  
+
+ps                        # 查看当前会话进程
+
+ps ax                     # 查看所有进程，类似 ps -e
+
+ps aux                    # 查看所有进程详细信息，类似 ps -ef
+
+ps auxww                  # 查看所有进程，并且显示进程的完整启动命令
+
+ps -u {user}              # 查看某用户进程
+
+ps axjf                   # 列出进程树
+
+ps xjf -u {user}          # 列出某用户的进程树
+
+ps -eo pid,user,command   # 按用户指定的格式查看进程
+
+ps aux | grep httpd       # 查看名为 httpd 的所有进程
+
+ps --ppid {pid}           # 查看父进程为 pid 的所有进程
+
+pstree                    # 树形列出所有进程，pstree 默认一般不带，需安装
+
+pstree {user}             # 进程树列出某用户的进程
+
+pstree -u                 # 树形列出所有进程以及所属用户
+
+pgrep {procname}          # 搜索名字匹配的进程的 pid，比如 pgrep apache2
+
+  
+
+kill {pid}                # 结束进程
+
+kill -9 {pid}             # 强制结束进程，9/SIGKILL 是强制不可捕获结束信号
+
+kill -KILL {pid}          # 强制执行进程，kill -9 的另外一种写法
+
+kill -l                   # 查看所有信号
+
+kill -l TERM              # 查看 TERM 信号的编号
+
+killall {procname}        # 按名称结束所有进程
+
+pkill {procname}          # 按名称结束进程，除名称外还可以有其他参数
+
+  
+
+top                       # 查看最活跃的进程
+
+top -u {user}             # 查看某用户最活跃的进程
+
+  
+
+any_command &amp;             # 在后台运行某命令，也可用 CTRL+Z 将当前进程挂到后台
+
+jobs                      # 查看所有后台进程（jobs）
+
+bg                        # 查看后台进程，并切换过去
+
+fg                        # 切换后台进程到前台
+
+fg {job}                  # 切换特定后台进程到前台
+
+  
+
+trap cmd sig1 sig2        # 在脚本中设置信号处理命令
+
+trap "" sig1 sig2         # 在脚本中屏蔽某信号
+
+trap - sig1 sig2          # 恢复默认信号处理行为
+
+  
+
+nohup {command}           # 长期运行某程序，在你退出登陆都保持它运行
+
+nohup {command} &amp;         # 在后台长期运行某程序
+
+disown {PID|JID}          # 将进程从后台任务列表（jobs）移除
+
+  
+
+wait                      # 等待所有后台进程任务结束
+
+  
+  
+
+##############################################################################
+
+# 常用命令：SSH / 系统信息 / 网络
+
+##############################################################################
+
+  
+
+ssh user@host             # 以用户 user 登陆到远程主机 host
+
+ssh -p {port} user@host   # 指定端口登陆主机
+
+ssh-copy-id user@host     # 拷贝你的 ssh key 到远程主机，避免重复输入密码
+
+scp {fn} user@host:path   # 拷贝文件到远程主机
+
+scp user@host:path dest   # 从远程主机拷贝文件回来
+
+scp -P {port} ...         # 指定端口远程拷贝文件
+
+  
+
+uname -a                  # 查看内核版本等信息
+
+man {help}                # 查看帮助
+
+man -k {keyword}          # 查看哪些帮助文档里包含了该关键字
+
+info {help}               # 查看 info pages，比 man 更强的帮助系统
+
+uptime                    # 查看系统启动时间
+
+date                      # 显示日期
+
+cal                       # 显示日历
+
+vmstat                    # 显示内存和 CPU 使用情况
+
+vmstat 10                 # 每 10 秒打印一行内存和 CPU情况，CTRL+C 退出
+
+free                      # 显示内存和交换区使用情况
+
+df                        # 显示磁盘使用情况
+
+du                        # 显示当前目录占用，du . --max-depth=2 可以指定深度
+
+du -h                     # 显示当前目录占用，-h 以方便阅读的格式输出 (K/M/G)
+
+uname                     # 显示系统版本号
+
+hostname                  # 显示主机名称
+
+showkey -a                # 查看终端发送的按键编码
+
+  
+
+ping {host}               # ping 远程主机并显示结果，CTRL+C 退出
+
+ping -c N {host}          # ping 远程主机 N 次
+
+traceroute {host}         # 侦测路由连通情况
+
+mtr {host}                # 高级版本 traceroute
+
+host {domain}             # DNS 查询，{domain} 前面可加 -a 查看详细信息
+
+whois {domain}            # 取得域名 whois 信息
+
+dig {domain}              # 取得域名 dns 信息
+
+route -n                  # 查看路由表
+
+netstat -a                # 列出所有端口
+
+netstat -an               # 查看所有连接信息，不解析域名
+
+netstat -anp              # 查看所有连接信息，包含进程信息（需要 sudo）
+
+netstat -l                # 查看所有监听的端口
+
+netstat -t                # 查看所有 TCP 链接
+
+netstat -lntu             # 显示所有正在监听的 TCP 和 UDP 信息
+
+netstat -lntup            # 显示所有正在监听的 socket 及进程信息
+
+netstat -i                # 显示网卡信息
+
+netstat -rn               # 显示当前系统路由表，同 route -n
+
+ss -an                    # 比 netstat -an 更快速更详细
+
+ss -s                     # 统计 TCP 的 established, wait 等
+
+  
+
+wget {url}                # 下载文件，可加 --no-check-certificate 忽略 ssl 验证
+
+wget -qO- {url}           # 下载文件并输出到标准输出（不保存）
+
+curl -sL {url}            # 同 wget -qO- {url} 没有 wget 的时候使用
+
+  
+
+sz {file}                 # 发送文件到终端，zmodem 协议
+
+rz                        # 接收终端发送过来的文件
+
+  
+  
+
+##############################################################################
+
+# 变量操作
+
+##############################################################################
+
+  
+
+varname=value             # 定义变量
+
+varname=value command     # 定义子进程变量并执行子进程
+
+echo $varname             # 查看变量内容
+
+echo $$                   # 查看当前 shell 的进程号
+
+echo $!                   # 查看最近调用的后台任务进程号
+
+echo $?                   # 查看最近一条命令的返回码
+
+export VARNAME=value      # 设置环境变量（将会影响到子进程）
+
+  
+
+array[0]=valA             # 定义数组
+
+array[1]=valB
+
+array[2]=valC
+
+array=([0]=valA [1]=valB [2]=valC)   # 另一种方式
+
+array=(valA valB valC)               # 另一种方式
+
+  
+
+${array[i]}               # 取得数组中的元素
+
+${#array[@]}              # 取得数组的长度
+
+${#array[i]}              # 取得数组中某个变量的长度
+
+  
+
+declare -a                # 查看所有数组
+
+declare -f                # 查看所有函数
+
+declare -F                # 查看所有函数，仅显示函数名
+
+declare -i                # 查看所有整数
+
+declare -r                # 查看所有只读变量
+
+declare -x                # 查看所有被导出成环境变量的东西
+
+declare -p varname        # 输出变量是怎么定义的（类型+值）
+
+  
+
+${varname:-word}          # 如果变量不为空则返回变量，否则返回 word
+
+${varname:=word}          # 如果变量不为空则返回变量，否则赋值成 word 并返回
+
+${varname:?message}       # 如果变量不为空则返回变量，否则打印错误信息并退出
+
+${varname:+word}          # 如果变量不为空则返回 word，否则返回 null
+
+${varname:offset:len}     # 取得字符串的子字符串
+
+  
+
+${variable#pattern}       # 如果变量头部匹配 pattern，则删除最小匹配部分返回剩下的
+
+${variable##pattern}      # 如果变量头部匹配 pattern，则删除最大匹配部分返回剩下的
+
+${variable%pattern}       # 如果变量尾部匹配 pattern，则删除最小匹配部分返回剩下的
+
+${variable%%pattern}      # 如果变量尾部匹配 pattern，则删除最大匹配部分返回剩下的
+
+${variable/pattern/str}   # 将变量中第一个匹配 pattern 的替换成 str，并返回
+
+${variable//pattern/str}  # 将变量中所有匹配 pattern 的地方替换成 str 并返回
+
+  
+
+${#varname}               # 返回字符串长度
+
+  
+
+*(patternlist)            # 零次或者多次匹配
+
++(patternlist)            # 一次或者多次匹配
+
+?(patternlist)            # 零次或者一次匹配
+
+@(patternlist)            # 单词匹配
+
+!(patternlist)            # 不匹配
+
+  
+
+array=($text)             # 按空格分隔 text 成数组，并赋值给变量
+
+IFS="/" array=($text)     # 按斜杆分隔字符串 text 成数组，并赋值给变量
+
+text="${array[*]}"        # 用空格链接数组并赋值给变量
+
+text=$(IFS=/; echo "${array[*]}")  # 用斜杠链接数组并赋值给变量
+
+  
+
+A=( foo bar "a  b c" 42 ) # 数组定义
+
+B=("${A[@]:1:2}")         # 数组切片：B=( bar "a  b c" )
+
+C=("${A[@]:1}")           # 数组切片：C=( bar "a  b c" 42 )
+
+echo "${B[@]}"            # bar a  b c
+
+echo "${B[1]}"            # a  b c
+
+echo "${C[@]}"            # bar a  b c 42
+
+echo "${C[@]: -2:2}"      # a  b c 42  减号前的空格是必须的
+
+  
+
+$(UNIX command)           # 运行命令，并将标准输出内容捕获并返回
+
+varname=$(id -u user)     # 将用户名为 user 的 uid 赋值给 varname 变量
+
+  
+
+num=$(expr 1 + 2)         # 兼容 posix sh 的计算，使用 expr 命令计算结果
+
+num=$(expr $num + 1)      # 数字自增
+
+expr 2 \* \( 2 + 3 \)     # 兼容 posix sh 的复杂计算，输出 10
+
+  
+
+num=$((1 + 2))            # 计算 1+2 赋值给 num，使用 bash 独有的 $((..)) 计算
+
+num=$(($num + 1))         # 变量递增
+
+num=$((num + 1))          # 变量递增，双括号内的 $ 可以省略
+
+num=$((1 + (2 + 3) * 2))  # 复杂计算
+
+  
+  
+
+##############################################################################
+
+# 事件指示符
+
+##############################################################################
+
+  
+
+!!                  # 上一条命令
+
+!^                  # 上一条命令的第一个单词
+
+!:n                 # 上一条命令的第n个单词
+
+!:n-$               # 上一条命令的第n个单词到最后一个单词
+
+!$                  # 上一条命令的最后一个单词
+
+!-n:$               # 上n条命令的最后一个单词
+
+!string             # 最近一条包含string的命令
+
+!^string1^string2   # 最近一条包含string1的命令, 快速替换string1为string2
+
+!#                  # 本条命令之前所有的输入内容
+
+!#:n                # 本条命令之前的第n个单词, 快速备份cp /etc/passwd !#:1.bak
+
+  
+  
+
+##############################################################################
+
+# 函数
+
+##############################################################################
+
+  
+
+# 定义一个新函数
+
+function myfunc() {
+
+    # $1 代表第一个参数，$N 代表第 N 个参数
+
+    # $# 代表参数个数
+
+    # $0 代表被调用者自身的名字
+
+    # $@ 代表所有参数，类型是个数组，想传递所有参数给其他命令用 cmd "$@"
+
+    # $* 空格链接起来的所有参数，类型是字符串
+
+    {shell commands ...}
+
+}
+
+  
+
+myfunc                    # 调用函数 myfunc
+
+myfunc arg1 arg2 arg3     # 带参数的函数调用
+
+myfunc "$@"               # 将所有参数传递给函数
+
+myfunc "${array[@]}"      # 将一个数组当作多个参数传递给函数
+
+shift                     # 参数左移
+
+  
+
+unset -f myfunc           # 删除函数
+
+declare -f                # 列出函数定义
+
+  
+  
+
+##############################################################################
+
+# 条件判断（兼容 posix sh 的条件判断）：man test
+
+##############################################################################
+
+  
+
+statement1 &amp;&amp; statement2  # and 操作符
+
+statement1 || statement2  # or 操作符
+
+  
+
+exp1 -a exp2              # exp1 和 exp2 同时为真时返回真（POSIX XSI扩展）
+
+exp1 -o exp2              # exp1 和 exp2 有一个为真就返回真（POSIX XSI扩展）
+
+( expression )            # 如果 expression 为真时返回真，输入注意括号前反斜杆
+
+! expression              # 如果 expression 为假那返回真
+
+  
+
+str1 = str2               # 判断字符串相等，如 [ "$x" = "$y" ] &amp;&amp; echo yes
+
+str1 != str2              # 判断字符串不等，如 [ "$x" != "$y" ] &amp;&amp; echo yes
+
+str1 &lt; str2               # 字符串小于，如 [ "$x" \&lt; "$y" ] &amp;&amp; echo yes
+
+str2 &gt; str2               # 字符串大于，注意 &lt; 或 &gt; 是字面量，输入时要加反斜杆
+
+-n str1                   # 判断字符串不为空（长度大于零）
+
+-z str1                   # 判断字符串为空（长度等于零）
+
+  
+
+-a file                   # 判断文件存在，如 [ -a /tmp/abc ] &amp;&amp; echo "exists"
+
+-d file                   # 判断文件存在，且该文件是一个目录
+
+-e file                   # 判断文件存在，和 -a 等价
+
+-f file                   # 判断文件存在，且该文件是一个普通文件（非目录等）
+
+-r file                   # 判断文件存在，且可读
+
+-s file                   # 判断文件存在，且尺寸大于0
+
+-w file                   # 判断文件存在，且可写
+
+-x file                   # 判断文件存在，且执行
+
+-N file                   # 文件上次修改过后还没有读取过
+
+-O file                   # 文件存在且属于当前用户
+
+-G file                   # 文件存在且匹配你的用户组
+
+file1 -nt file2           # 文件1 比 文件2 新
+
+file1 -ot file2           # 文件1 比 文件2 旧
+
+  
+
+num1 -eq num2             # 数字判断：num1 == num2
+
+num1 -ne num2             # 数字判断：num1 != num2
+
+num1 -lt num2             # 数字判断：num1 &lt; num2
+
+num1 -le num2             # 数字判断：num1 &lt;= num2
+
+num1 -gt num2             # 数字判断：num1 &gt; num2
+
+num1 -ge num2             # 数字判断：num1 &gt;= num2
+
+  
+  
+
+##############################################################################
+
+# 分支控制：if 和经典 test，兼容 posix sh 的条件判断语句
+
+##############################################################################
+
+  
+
+test {expression}         # 判断条件为真的话 test 程序返回0 否则非零
+
+[ expression ]            # 判断条件为真的话返回0 否则非零
+
+  
+
+test "abc" = "def"        # 查看返回值 echo $? 显示 1，因为条件为假
+
+test "abc" != "def"       # 查看返回值 echo $? 显示 0，因为条件为真
+
+  
+
+test -a /tmp; echo $?     # 调用 test 判断 /tmp 是否存在，并打印 test 的返回值
+
+[ -a /tmp ]; echo $?      # 和上面完全等价，/tmp 肯定是存在的，所以输出是 0
+
+  
+
+test cond &amp;&amp; cmd1         # 判断条件为真时执行 cmd1
+
+[ cond ] &amp;&amp; cmd1          # 和上面完全等价
+
+[ cond ] &amp;&amp; cmd1 || cmd2  # 条件为真执行 cmd1 否则执行 cmd2
+
+  
+
+# 判断 /etc/passwd 文件是否存在
+
+# 经典的 if 语句就是判断后面的命令返回值为0的话，认为条件为真，否则为假
+
+if test -e /etc/passwd; then
+
+    echo "alright it exists ... "
+
+else
+
+    echo "it doesn't exist ... "
+
+fi
+
+  
+
+# 和上面完全等价，[ 是个和 test 一样的可执行程序，但最后一个参数必须为 ]
+
+# 这个名字为 "[" 的可执行程序一般就在 /bin 或 /usr/bin 下面，比 test 优雅些
+
+if [ -e /etc/passwd ]; then  
+
+    echo "alright it exists ... "
+
+else
+
+    echo "it doesn't exist ... "
+
+fi
+
+  
+
+# 和上面两个完全等价，其实到 bash 时代 [ 已经是内部命令了，用 enable 可以看到
+
+[ -e /etc/passwd ] &amp;&amp; echo "alright it exists" || echo "it doesn't exist"
+
+  
+
+# 判断变量的值
+
+if [ "$varname" = "foo" ]; then
+
+    echo "this is foo"
+
+elif [ "$varname" = "bar" ]; then
+
+    echo "this is bar"
+
+else
+
+    echo "neither"
+
+fi
+
+  
+
+# 复杂条件判断，注意 || 和 &amp;&amp; 是完全兼容 POSIX 的推荐写法
+
+if [ $x -gt 10 ] &amp;&amp; [ $x -lt 20 ]; then
+
+    echo "yes, between 10 and 20"
+
+fi
+
+  
+
+# 可以用 &amp;&amp; 命令连接符来做和上面完全等价的事情
+
+[ $x -gt 10 ] &amp;&amp; [ $x -lt 20 ] &amp;&amp; echo "yes, between 10 and 20"
+
+  
+
+# 小括号和 -a -o 是 POSIX XSI 扩展写法，小括号是字面量，输入时前面要加反斜杆
+
+if [ \( $x -gt 10 \) -a \( $x -lt 20 \) ]; then
+
+    echo "yes, between 10 and 20"
+
+fi
+
+  
+
+# 同样可以用 &amp;&amp; 命令连接符来做和上面完全等价的事情
+
+[ \( $x -gt 10 \) -a \( $x -lt 20 \) ] &amp;&amp; echo "yes, between 10 and 20"
+
+  
+  
+
+# 判断程序存在的话就执行
+
+[ -x /bin/ls ] &amp;&amp; /bin/ls -l
+
+  
+
+# 如果不考虑兼容 posix sh 和 dash 这些的话，可用 bash 独有的 ((..)) 和 [[..]]:
+
+https://www.ibm.com/developerworks/library/l-bash-test/index.html
+
+  
+  
+
+##############################################################################
+
+# 流程控制：while / for / case / until
+
+##############################################################################
+
+  
+
+# while 循环
+
+while condition; do
+
+    statements
+
+done
+
+  
+
+i=1
+
+while [ $i -le 10 ]; do
+
+    echo $i;
+
+    i=$(expr $i + 1)
+
+done
+
+  
+
+# for 循环：上面的 while 语句等价
+
+for i in {1..10}; do
+
+    echo $i
+
+done
+
+  
+
+for name [in list]; do
+
+    statements
+
+done
+
+  
+
+# for 列举某目录下面的所有文件
+
+for f in /home/*; do
+
+    echo $f
+
+done
+
+  
+
+# bash 独有的 (( .. )) 语句，更接近 C 语言，但是不兼容 posix sh
+
+for (( initialisation ; ending condition ; update )); do
+
+    statements
+
+done
+
+  
+
+# 和上面的写法等价
+
+for ((i = 0; i &lt; 10; i++)); do echo $i; done
+
+  
+
+# case 判断
+
+case expression in
+
+    pattern1 )
+
+        statements ;;
+
+    pattern2 )
+
+        statements ;;
+
+    * )
+
+        otherwise ;;
+
+esac
+
+  
+
+# until 语句
+
+until condition; do
+
+    statements
+
+done
+
+  
+
+# select 语句
+
+select name [in list]; do
+
+  statements that can use $name
+
+done
+
+  
+  
+
+##############################################################################
+
+# 命令处理
+
+##############################################################################
+
+  
+
+command ls                         # 忽略 alias 直接执行程序或者内建命令 ls
+
+builtin cd                         # 忽略 alias 直接运行内建的 cd 命令
+
+enable                             # 列出所有 bash 内置命令，或禁止某命令
+
+help {builtin_command}             # 查看内置命令的帮助（仅限 bash 内置命令）
+
+  
+
+eval $script                       # 对 script 变量中的字符串求值（执行）
+
+  
+  
+
+##############################################################################
+
+# 输出/输入 重定向
+
+##############################################################################
+
+  
+
+cmd1 | cmd2                        # 管道，cmd1 的标准输出接到 cmd2 的标准输入
+
+&lt; file                             # 将文件内容重定向为命令的标准输入
+
+&gt; file                             # 将命令的标准输出重定向到文件，会覆盖文件
+
+&gt;&gt; file                            # 将命令的标准输出重定向到文件，追加不覆盖
+
+&gt;| file                            # 强制输出到文件，即便设置过：set -o noclobber
+
+n&gt;| file                           # 强制将文件描述符 n的输出重定向到文件
+
+&lt;&gt; file                            # 同时使用该文件作为标准输入和标准输出
+
+n&lt;&gt; file                           # 同时使用文件作为文件描述符 n 的输出和输入
+
+n&gt; file                            # 重定向文件描述符 n 的输出到文件
+
+n&lt; file                            # 重定向文件描述符 n 的输入为文件内容
+
+n&gt;&amp;                                # 将标准输出 dup/合并 到文件描述符 n
+
+n&lt;&amp;                                # 将标准输入 dump/合并 定向为描述符 n
+
+n&gt;&amp;m                               # 文件描述符 n 被作为描述符 m 的副本，输出用
+
+n&lt;&amp;m                               # 文件描述符 n 被作为描述符 m 的副本，输入用
+
+&amp;&gt;file                             # 将标准输出和标准错误重定向到文件
+
+&lt;&amp;-                                # 关闭标准输入
+
+&gt;&amp;-                                # 关闭标准输出
+
+n&gt;&amp;-                               # 关闭作为输出的文件描述符 n
+
+n&lt;&amp;-                               # 关闭作为输入的文件描述符 n
+
+diff &lt;(cmd1) &lt;(cmd2)               # 比较两个命令的输出
+
+  
+  
+
+##############################################################################
+
+# 文本处理 - cut
+
+##############################################################################
+
+  
+
+cut -c 1-16                        # 截取每行头16个字符
+
+cut -c 1-16 file                   # 截取指定文件中每行头 16个字符
+
+cut -c3-                           # 截取每行从第三个字符开始到行末的内容
+
+cut -d':' -f5                      # 截取用冒号分隔的第五列内容
+
+cut -d';' -f2,10                   # 截取用分号分隔的第二和第十列内容
+
+cut -d' ' -f3-7                    # 截取空格分隔的三到七列
+
+echo "hello" | cut -c1-3           # 显示 hel
+
+echo "hello sir" | cut -d' ' -f2   # 显示 sir
+
+ps | tr -s " " | cut -d " " -f 2,3,4  # cut 搭配 tr 压缩字符
+
+  
+  
+
+##############################################################################
+
+# 文本处理 - awk / sed
+
+##############################################################################
+
+  
+
+awk '{print $5}' file              # 打印文件中以空格分隔的第五列
+
+awk -F ',' '{print $5}' file       # 打印文件中以逗号分隔的第五列
+
+awk '/str/ {print $2}' file        # 打印文件中包含 str 的所有行的第二列
+
+awk -F ',' '{print $NF}' file      # 打印逗号分隔的文件中的每行最后一列
+
+awk '{s+=$1} END {print s}' file   # 计算所有第一列的合
+
+awk 'NR%3==1' file                 # 从第一行开始，每隔三行打印一行
+
+  
+
+sed 's/find/replace/' file         # 替换文件中首次出现的字符串并输出结果
+
+sed '10s/find/replace/' file       # 替换文件第 10 行内容
+
+sed '10,20s/find/replace/' file    # 替换文件中 10-20 行内容
+
+sed -r 's/regex/replace/g' file    # 替换文件中所有出现的字符串
+
+sed -i 's/find/replace/g' file     # 替换文件中所有出现的字符并且覆盖文件
+
+sed -i '/find/i\newline' file      # 在文件的匹配文本前插入行
+
+sed -i '/find/a\newline' file      # 在文件的匹配文本后插入行
+
+sed '/line/s/find/replace/' file   # 先搜索行特征再执行替换
+
+sed -e 's/f/r/' -e 's/f/r' file    # 执行多次替换
+
+sed 's#find#replace#' file         # 使用 # 替换 / 来避免 pattern 中有斜杆
+
+sed -i -r 's/^\s+//g' file         # 删除文件每行头部空格
+
+sed '/^$/d' file                   # 删除文件空行并打印
+
+sed -i 's/\s\+$//' file            # 删除文件每行末尾多余空格
+
+sed -n '2p' file                   # 打印文件第二行
+
+sed -n '2,5p' file                 # 打印文件第二到第五行
+
+  
+  
+
+##############################################################################
+
+# 排序 - sort
+
+##############################################################################
+
+  
+
+sort file                          # 排序文件
+
+sort -r file                       # 反向排序（降序）
+
+sort -n file                       # 使用数字而不是字符串进行比较
+
+sort -t: -k 3n /etc/passwd         # 按 passwd 文件的第三列进行排序
+
+sort -u file                       # 去重排序
+
+sort -h file                       # 支持 K/M/G 等量级符号，可与 du 结合使用
+
+  
+  
+
+##############################################################################
+
+# 快速跳转 - https://github.com/rupa/z
+
+##############################################################################
+
+  
+
+source /path/to/z.sh               # .bashrc 中初始化 z.sh
+
+z                                  # 列出所有历史路径以及他们的权重
+
+z foo                              # 跳到历史路径中匹配 foo 的权重最大的目录
+
+z foo bar                          # 跳到历史路径中匹配 foo 和 bar 权重最大的目录
+
+z -l foo                           # 列出所有历史路径中匹配 foo 的目录及权重
+
+z -r foo                           # 按照最高访问次数优先进行匹配跳转
+
+z -t foo                           # 按照最近访问优先进行匹配跳转
+
+  
+  
+
+##############################################################################
+
+# 键盘绑定
+
+##############################################################################
+
+  
+
+bind '"\eh":"\C-b"'                # 绑定 ALT+h 为光标左移，同 CTRL+b / &lt;Left&gt;
+
+bind '"\el":"\C-f"'                # 绑定 ALT+l 为光标右移，同 CTRL+f / &lt;Right&gt;
+
+bind '"\ej":"\C-n"'                # 绑定 ALT+j 为下条历史，同 CTRL+n / &lt;Down&gt;
+
+bind '"\ek":"\C-p"'                # 绑定 ALT+k 为上条历史，同 CTRL+p / &lt;Up&gt;
+
+bind '"\eH":"\eb"'                 # 绑定 ALT+H 为光标左移一个单词，同 ALT-b
+
+bind '"\eL":"\ef"'                 # 绑定 ALT+L 为光标右移一个单词，同 ALT-f
+
+bind '"\eJ":"\C-a"'                # 绑定 ALT+J 为移动到行首，同 CTRL+a / &lt;Home&gt;
+
+bind '"\eK":"\C-e"'                # 绑定 ALT+K 为移动到行末，同 CTRL+e / &lt;End&gt;
+
+bind '"\e;":"ls -l\n"'             # 绑定 ALT+; 为执行 ls -l 命令
+
+  
+  
+
+##############################################################################
+
+# 网络管理：ip / ifconfig / nmap ...
+
+##############################################################################
+
+  
+
+ip a                               # 显示所有网络地址，同 ip address
+
+ip a show eth1                     # 显示网卡 IP 地址
+
+ip a add 172.16.1.23/24 dev eth1   # 添加网卡 IP 地址
+
+ip a del 172.16.1.23/24 dev eth1   # 删除网卡 IP 地址
+
+ip link show dev eth0              # 显示网卡设备属性
+
+ip link set eth1 up                # 激活网卡
+
+ip link set eth1 down              # 关闭网卡
+
+ip link set eth1 address {mac}     # 修改 MAC 地址
+
+ip neighbour                       # 查看 ARP 缓存
+
+ip route                           # 查看路由表
+
+ip route add 10.1.0.0/24 via 10.0.0.253 dev eth0    # 添加静态路由
+
+ip route del 10.1.0.0/24           # 删除静态路由
+
+  
+
+ifconfig                           # 显示所有网卡和接口信息
+
+ifconfig -a                        # 显示所有网卡（包括开机没启动的）信息
+
+ifconfig eth0                      # 指定设备显示信息
+
+ifconfig eth0 up                   # 激活网卡
+
+ifconfig eth0 down                 # 关闭网卡
+
+ifconfig eth0 192.168.120.56       # 给网卡配置 IP 地址
+
+ifconfig eth0 10.0.0.8 netmask 255.255.255.0 up     # 配置 IP 并启动
+
+ifconfig eth0 hw ether 00:aa:bb:cc:dd:ee            # 修改 MAC 地址
+
+  
+
+nmap 10.0.0.12                     # 扫描主机 1-1000 端口
+
+nmap -p 1024-65535 10.0.0.12       # 扫描给定端口
+
+nmap 10.0.0.0/24                   # 给定网段扫描局域网内所有主机
+
+nmap -O -sV 10.0.0.12              # 探测主机服务和操作系统版本
+
+  
+  
+
+##############################################################################
+
+# 有趣的命令
+
+##############################################################################
+
+  
+
+man hier                           # 查看文件系统的结构和含义
+
+man test                           # 查看 posix sh 的条件判断帮助
+
+man ascii                          # 显示 ascii 表
+
+getconf LONG_BIT                   # 查看系统是 32 位还是 64 位
+
+bind -P                            # 列出所有 bash 的快捷键
+
+mount | column -t                  # 漂亮的列出当前加载的文件系统
+
+curl ip.cn                         # 取得外网 ip 地址和服务商信息
+
+disown -a &amp;&amp; exit                  # 关闭所有后台任务并退出
+
+cat /etc/issue                     # 查看 Linux 发行版信息
+
+lsof -i port:80                    # 哪个程序在使用 80 端口？
+
+showkey -a                         # 取得按键的 ASCII 码
+
+svn diff | view -                  # 使用 Vim 来显示带色彩的 diff 输出
+
+mv filename.{old,new}              # 快速文件改名
+
+time read                          # 使用 CTRL-D 停止，最简单的计时功能
+
+cp file.txt{,.bak}                 # 快速备份文件
+
+sudo touch /forcefsck              # 强制在下次重启时扫描磁盘
+
+find ~ -mmin 60 -type f            # 查找 $HOME 目录中，60 分钟内修改过的文件
+
+curl wttr.in/~beijing              # 查看北京的天气预报
+
+echo ${SSH_CLIENT%% *}             # 取得你是从什么 IP 链接到当前主机上的
+
+echo $[RANDOM%X+1]                 # 取得 1 到 X 之间的随机数
+
+bind -x '"\C-l":ls -l'             # 设置 CTRL+l 为执行 ls -l 命令
+
+find / -type f -size +5M           # 查找大于 5M 的文件
+
+chmod --reference f1 f2            # 将 f2 的权限设置成 f1 一模一样的
+
+curl -L cheat.sh                   # 速查表大全
+
+  
+  
+
+##############################################################################
+
+# 常用技巧
+
+##############################################################################
+
+  
+
+# 列出最常使用的命令
+
+history | awk '{a[$2]++}END{for(i in a){print a[i] " " i}}' | sort -rn | head
+
+  
+
+# 列出所有网络状态：ESTABLISHED / TIME_WAIT / FIN_WAIT1 / FIN_WAIT2
+
+netstat -n | awk '/^tcp/ {++tt[$NF]} END {for (a in tt) print a, tt[a]}'
+
+  
+
+# 通过 SSH 来 mount 文件系统
+
+sshfs name@server:/path/to/folder /path/to/mount/point
+
+  
+
+# 显示前十个运行的进程并按内存使用量排序
+
+ps aux | sort -nk +4 | tail
+
+  
+
+# 在右上角显示时钟
+
+while sleep 1;do tput sc;tput cup 0 $(($(tput cols)-29));date;tput rc;done&amp;
+
+  
+
+# 从网络上的压缩文件中解出一个文件来，并避免保存中间文件
+
+wget -qO - "http://www.tarball.com/tarball.gz" | tar zxvf -
+
+  
+
+# 性能测试：测试处理器性能
+
+python -c "import test.pystone;print(test.pystone.pystones())"
+
+  
+
+# 性能测试：测试内存带宽
+
+dd if=/dev/zero of=/dev/null bs=1M count=32768
+
+  
+
+# Linux 下挂载一个 iso 文件
+
+mount /path/to/file.iso /mnt/cdrom -oloop
+
+  
+
+# 通过主机 A 直接 ssh 到主机 B
+
+ssh -t hostA ssh hostB
+
+  
+
+# 下载一个网站的所有图片
+
+wget -r -l1 --no-parent -nH -nd -P/tmp -A".gif,.jpg" http://example.com/images
+
+  
+
+# 快速创建项目目录
+
+mkdir -p work/{project1,project2}/{src,bin,bak}
+
+  
+
+# 按日期范围查找文件
+
+find . -type f -newermt "2010-01-01" ! -newermt "2010-06-01"
+
+  
+
+# 显示当前正在使用网络的进程
+
+lsof -P -i -n | cut -f 1 -d " "| uniq | tail -n +2
+
+  
+
+# Vim 中保存一个没有权限的文件
+
+:w !sudo tee &gt; /dev/null %
+
+  
+
+# 在 .bashrc / .bash_profile 中加载另外一个文件（比如你保存在 github 上的配置）
+
+source ~/github/profiles/my_bash_init.sh
+
+  
+
+# 反向代理：将外网主机（202.115.8.1）端口（8443）转发到内网主机 192.168.1.2:443
+
+ssh -CqTnN -R 0.0.0.0:8443:192.168.1.2:443  user@202.115.8.1
+
+  
+
+# 正向代理：将本地主机的 8443 端口，通过 192.168.1.3 转发到 192.168.1.2:443
+
+ssh -CqTnN -L 0.0.0.0:8443:192.168.1.2:443  user@192.168.1.3
+
+  
+
+# socks5 代理：把本地 1080 端口的 socks5 的代理请求通过远程主机转发出去
+
+ssh -CqTnN -D localhost:1080  user@202.115.8.1
+
+  
+
+# 终端下正确设置 ALT 键和 BackSpace 键
+
+http://www.skywind.me/blog/archives/2021
+
+  
+  
+
+##############################################################################
+
+# 有用的函数
+
+##############################################################################
+
+  
+
+# 自动解压：判断文件后缀名并调用相应解压命令
+
+function q-extract() {
+
+    if [ -f $1 ] ; then
+
+        case $1 in
+
+        *.tar.bz2)   tar -xvjf $1    ;;
+
+        *.tar.gz)    tar -xvzf $1    ;;
+
+        *.tar.xz)    tar -xvJf $1    ;;
+
+        *.bz2)       bunzip2 $1     ;;
+
+        *.rar)       rar x $1       ;;
+
+        *.gz)        gunzip $1      ;;
+
+        *.tar)       tar -xvf $1     ;;
+
+        *.tbz2)      tar -xvjf $1    ;;
+
+        *.tgz)       tar -xvzf $1    ;;
+
+        *.zip)       unzip $1       ;;
+
+        *.Z)         uncompress $1  ;;
+
+        *.7z)        7z x $1        ;;
+
+        *)           echo "don't know how to extract '$1'..." ;;
+
+        esac
+
+    else
+
+        echo "'$1' is not a valid file!"
+
+    fi
+
+}
+
+  
+
+# 自动压缩：判断后缀名并调用相应压缩程序
+
+function q-compress() {
+
+    if [ -n "$1" ] ; then
+
+        FILE=$1
+
+        case $FILE in
+
+        *.tar) shift &amp;&amp; tar -cf $FILE $* ;;
+
+        *.tar.bz2) shift &amp;&amp; tar -cjf $FILE $* ;;
+
+        *.tar.xz) shift &amp;&amp; tar -cJf $FILE $* ;;
+
+        *.tar.gz) shift &amp;&amp; tar -czf $FILE $* ;;
+
+        *.tgz) shift &amp;&amp; tar -czf $FILE $* ;;
+
+        *.zip) shift &amp;&amp; zip $FILE $* ;;
+
+        *.rar) shift &amp;&amp; rar $FILE $* ;;
+
+        esac
+
+    else
+
+        echo "usage: q-compress &lt;foo.tar.gz&gt; ./foo ./bar"
+
+    fi
+
+}
+
+  
+
+# 漂亮的带语法高亮的 color cat ，需要先 pip install pygments
+
+function ccat() {
+
+    local style="monokai"
+
+    if [ $# -eq 0 ]; then
+
+        pygmentize -P style=$style -P tabsize=4 -f terminal256 -g
+
+    else
+
+        for NAME in $@; do
+
+            pygmentize -P style=$style -P tabsize=4 -f terminal256 -g "$NAME"
+
+        done
+
+    fi
+
+}
+
+  
+  
+
+##############################################################################
+
+# 好玩的配置
+
+##############################################################################
+
+  
+
+# 放到你的 ~/.bashrc 配置文件中，给 man 增加漂亮的色彩高亮
+
+export LESS_TERMCAP_mb=$'\E[1m\E[32m'
+
+export LESS_TERMCAP_mh=$'\E[2m'
+
+export LESS_TERMCAP_mr=$'\E[7m'
+
+export LESS_TERMCAP_md=$'\E[1m\E[36m'
+
+export LESS_TERMCAP_ZW=""
+
+export LESS_TERMCAP_us=$'\E[4m\E[1m\E[37m'
+
+export LESS_TERMCAP_me=$'\E(B\E[m'
+
+export LESS_TERMCAP_ue=$'\E[24m\E(B\E[m'
+
+export LESS_TERMCAP_ZO=""
+
+export LESS_TERMCAP_ZN=""
+
+export LESS_TERMCAP_se=$'\E[27m\E(B\E[m'
+
+export LESS_TERMCAP_ZV=""
+
+export LESS_TERMCAP_so=$'\E[1m\E[33m\E[44m'
+
+  
+
+# ALT+hjkl/HJKL 快速移动光标，将下面内容添加到 ~/.inputrc 中可作用所有工具，
+
+# 包括 bash/zsh/python/lua 等使用 readline 的工具，帮助见：info rluserman
+
+"\eh": backward-char
+
+"\el": forward-char
+
+"\ej": next-history
+
+"\ek": previous-history
+
+"\eH": backward-word
+
+"\eL": forward-word
+
+"\eJ": beginning-of-line
+
+"\eK": end-of-line
+
+  
+  
+
+##############################################################################
+
+# References
+
+##############################################################################
+
+  
+
+https://github.com/Idnan/bash-guide
+
+http://www.linuxstall.com/linux-command-line-tips-that-every-linux-user-should-know/
+
+https://ss64.com/bash/syntax-keyboard.html
+
+http://wiki.bash-hackers.org/commands/classictest
+
+https://www.ibm.com/developerworks/library/l-bash-test/index.html
+
+https://www.cyberciti.biz/faq/bash-loop-over-file/
+
+https://linuxconfig.org/bash-scripting-tutorial
+
+https://github.com/LeCoupa/awesome-cheatsheets/blob/master/languages/bash.sh
+
+https://devhints.io/bash
+
+https://github.com/jlevy/the-art-of-command-line
+
+https://yq.aliyun.com/articles/68541
+
+  
+
+# vim: set ts=4 sw=4 tw=0 et :
+复制]]></description><link>linux和bash脚本\常用命令.html</link><guid isPermaLink="false">Linux和bash脚本/常用命令.md</guid><pubDate>Thu, 20 Jun 2024 13:19:51 GMT</pubDate></item><item><title><![CDATA[服务器（Xshell）中一次性配置环境变量]]></title><description><![CDATA[ 
+ <br>
+<br>打开Xshell
+<br>进入编辑器
+<br>输入以下代码并回车：
+<br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401230952497.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>vim ~/.bashrc
 复制<br>
-<br>登陆账号：
-<br>账号：20229186
-密码：Hgl2wmg@1314
-复制<br>
-<br>点击右上角：<br>
-<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401231018522.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;">
-<br>选择研究者发起的临床研究备案及伦理申报。<br>
-<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401231018154.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;">
-<br>按照下图的模板进行填写，注意项目名称、研究例数、内容摘要填写自己的，人类遗传资源选择唾液。<br>
-<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401231015320.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;">
-<br>填报之后下载附件，附件应该具备如下：<br>
-<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401231021189.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;">
-<br>附件打印填写，然后扫描上传。
-<br><br>这是国家超算成都中心的链接，你们几个都去熟悉一下界面和操作。软件安装在固定位置/public/home/heguanglin/biosoftware，软连接到/public/home/heguanglin/biosoftware/bin。<br><br>@马金玥 @罗林焘 两位，我早期做的mtDNA的群体数据和博后课题组的mtDNA家系样本数据已储存于/home/guanglinhe/10_mtDNA，可以慢慢开始学习数据分析了]]></description><link>主页\注意事项.html</link><guid isPermaLink="false">主页/注意事项.md</guid><pubDate>Mon, 17 Jun 2024 07:53:30 GMT</pubDate><enclosure url="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401231018522.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401231018522.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[欢迎来到我的思维领域]]></title><description><![CDATA[ 
- <br>这是我的主页（也是我的思维领域）<br>
-当然，你也可以访问我的其他主页：<br>
-<br><a data-tooltip-position="top" aria-label="https://www.yuque.com/wusheng-s0bue" rel="noopener" class="external-link" href="https://www.yuque.com/wusheng-s0bue" target="_blank">梧之声 · 语雀 (yuque.com)</a>
-<br><a data-tooltip-position="top" aria-label="https://blog.csdn.net/2301_79082700?type=blog" rel="noopener" class="external-link" href="https://blog.csdn.net/2301_79082700?type=blog" target="_blank">梧叶之声-CSDN博客</a>
-<br><br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240616211539.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240616211548.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240616211555.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240616211605.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>花园里有什么？  <br>你不能从这里学到任何东西  
-除非你多次尝试。熟能生巧。
-<br>我把自己的笔记分享到这里
-包括但不限于R语言、生物信息学以及一些你可能不感兴趣的内容。
-<br>Important
-以下学科：马克思主义哲学、逻辑学、宗教学、伦理学、、经济统计学、财政学、税收学、法学、民法学、刑法学、行政法学、商法学、国际法学、教育学、学前教育学、小学教育学、特殊教育学、教育技术学、中国语言文学、外国语言文学、比较文学与世界文学、新闻传播学、中国史、世界史、史学理论及史学史、考古学、数学、物理学、化学、生物科学、地理科学、机械工程、电子科学与技术、计算机科学与技术、土木工程、化学工程与技术、环境科学与工程、、植物保护学、林学、畜牧学、水产养殖学、基础医学、临床医学、口腔医学、公共卫生与预防医学、中药学、药学、军事学、美术学、设计学、戏剧与影视学、数字人文学科、计算机辅助工程、有限元分析、计算流体力学、生物电脑学、物理电脑学、化学电脑学……<br>
-几乎都没有。  
+<br>将代码粘贴进去：
+<br>export PATH=/home/zhiyongwang/.aspera/cli/bin:/home/bin/:/home/guanglinhe/biosoftware/AdmixTools/bin/:/home/anaconda3/include/:/usr/include/:/usr/share/R/include/:/home/biosoftware/OpenBLAS/:/home/anaconda3/bin/:/home/bin/:/root/bin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+复制<br>这段代码的目的是将多个目录路径添加到环境变量 PATH 中，以便在Shell中运行命令时，操作系统可以在这些目录中查找到相应的可执行文件。这对于配置环境以便运行特定的软件或工具非常有用。<br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401230954096.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
+<br>退出vim：
+
+<br>按下 Esc 键，确保你不处于编辑模式。
+<br>输入 : 进入命令模式。
+<br>输入 wq 并按下 Enter 键，这将强制退出vim编辑器并且保存对文件的修改。
+
+
+<br>回到刚才的编辑器，然后输入以下代码并回车：
+<br>source ~/.bashrc
+复制]]></description><link>linux和bash脚本\服务器（xshell）中一次性配置环境变量.html</link><guid isPermaLink="false">Linux和bash脚本/服务器（Xshell）中一次性配置环境变量.md</guid><pubDate>Thu, 20 Jun 2024 13:19:52 GMT</pubDate><enclosure url="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401230952497.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401230952497.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[下载现代DNA数据流程]]></title><description><![CDATA[ 
+ <br>
 <br>
-Σ(⊙▽⊙"a你不会还在看吧？
-]]></description><link>主页\欢迎来到我的思维领域.html</link><guid isPermaLink="false">主页/欢迎来到我的思维领域.md</guid><pubDate>Fri, 21 Jun 2024 01:46:50 GMT</pubDate><enclosure url="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240616211539.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240616211539.png"&gt;&lt;/figure&gt;</content:encoded></item></channel></rss>
+找文献
+
+<br>
+在文献中寻找测序的DNA序列信息
+
+<br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401221624030.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;">
+
+
+<br>
+首先准备好Accession No，最简单的办法就是使用Excel键入，填充，然后粘贴到一个文本文档里面。
+
+<br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401221627242.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;">
+
+
+<br>
+保存这个文本文档，然后登陆对应数据库的官网，例如上图提到了NCBI数据库，那么就进入NCBI取数据网址：[Batch Entrez (nih.gov)](https://www.ncbi.nlm.nih.gov/sites/batchentrez)
+
+<br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401221628924.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;">
+
+
+<br>
+然后点击取回
+
+<br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401221629829.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;">
+
+
+<br>
+依次点击下列：
+
+<br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401221630824.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;">
+
+
+<br>
+就得到一个包含了刚才所有的序列的fasta文件。将这个文件上传到服务器自己的文件夹内。
+
+<br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401221645000.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;">
+
+
+]]></description><link>linux和bash脚本\下载现代dna数据流程.html</link><guid isPermaLink="false">Linux和bash脚本/下载现代DNA数据流程.md</guid><pubDate>Thu, 20 Jun 2024 13:19:49 GMT</pubDate><enclosure url="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401221624030.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401221624030.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[下载bash]]></title><description><![CDATA[ 
+ <br>###欧洲 单独###
+
+/home/guanglinhe/.aspera/connect/bin/ascp -T -i /home/guanglinhe/.aspera/connect/etc/asperaweb_id_dsa.openssh -l 300m --mode=recv --host=fasp.sra.ebi.ac.uk -P 33001 --user=era-fasp aspera01@download.cncb.ac.cn:gsa-human/HRA002671 ./
+复制<br>###中国数据库 单独###
+/home/guanglinhe/.aspera/connect/bin/ascp -P33001 -i /home/biosoftware/aspera01.openssh -QT -l 100m -k 1 -d aspera01@download.cncb.ac.cn:gsa-human/HRA000123 ./
+复制<br>###循环 整体###
+for i in `cat 1`; do /home/guanglinhe/.aspera/connect/bin/ascp -T -i /home/zhiyongwang/.conda/pkgs/aspera-cli-3.9.6-h5e1937b_0/etc/asperaweb_id_dsa.openssh -l 300m --mode=recv --host=fasp.sra.ebi.ac.uk -P 33001 --user=era-fasp ${i} ./ ;done
+
+
+for i in `cat 1`; do
+/home/guanglinhe/.aspera/connect/bin/ascp  -T -l 300m -P 33001 -i /home/zhiyongwang/.aspera/cli/etc/asperaweb_id_dsa.openssh era-fasp@fasp.sra.ebi.ac.uk:${i} ./;done
+复制<br>###密匙
+/home/zhiyongwang/.aspera/cli/etc/asperaweb_id_dsa.openssh
+/home/zhiyongwang/.conda/envs/ascp/etc/asperaweb_id_dsa.openssh
+/home/zhiyongwang/.conda/pkgs/aspera-cli-3.9.6-h5e1937b_0/etc/asperaweb_id_dsa.openssh
+
+
+/home/guanglinhe/.aspera/connect/etc/asperaweb_id_dsa.openssh
+/home/zhiyongwang/.conda/envs/ascp/etc/asperaweb_id_dsa.openssh
+/home/zhiyongwang/.conda/pkgs/aspera-cli-3.9.6-h5e1937b_0/etc/asperaweb_id_dsa.openssh
+/home/zhiyongwang/.aspera/cli/etc/asperaweb_id_dsa.openssh
+/home/zhiyongwang/.conda/envs/ascp/etc/asperaweb_id_dsa.openssh
+/home/zhiyongwang/.conda/pkgs/aspera-cli-3.9.6-h5e1937b_0/etc/asperaweb_id_dsa.openssh
+
+复制]]></description><link>linux和bash脚本\下载bash.html</link><guid isPermaLink="false">Linux和bash脚本/下载bash.md</guid><pubDate>Thu, 20 Jun 2024 13:19:47 GMT</pubDate></item><item><title><![CDATA[cut命令]]></title><description><![CDATA[ 
+ <br><br>假如我们有这样一个文件AA.txt<br>name age sex ID 
+张三 25 男 512351189874510014
+李四 23 女 512121149874510014
+复制<br>首先可以查看这个文件，使用命令：<br>cat AA.txt
+复制<br><br>-f 列号： 提取第几列<br>
+-d 分隔符： 按照指定分隔符分割列<br>如果我们想要把sex给提取出来，那么我们可以使用<br>cut -f 3 AA.txt
+复制<br>如果我们想把以:分割的第1列和第3列提取出来，那么我们可以使用<br>cut -d ":" -f 1,3 AA.txt
+复制<br>cut命令的局限性：不能分割不定长度的空格。<br><br>把文件逐行的读入，以空格为默认分隔符将每行切片，切开的部分再进行各种分析处理。<br>语法：awk ‘条件1{动作1}条件2{动作2}...’文件名<br>eg:[root@qianfeng01 ~]# df -h | awk '{print $1 "\t" $3}' 显示第一列和第三列
+复制<br>的 | 符号。这个符号在 Unix 和 Linux shell 中称为管道（pipe）。将一个命令的输出传递给另一个命令作为输入。<br><br>这里有一份文件，假如文件名字是information.txt。<br>Name,Gender,Age
+Alice,Female,30
+Bob,Male,25
+Charlie,Male,35
+Diana,Female,28
+复制<br>
+<br>我想把Age提取出来，怎么办？
+<br>awk '{print $3}' information.txt
+复制<br>
+<br>想把Name,Age提取出来，并放到一个名为information2.txt的文件里，怎么办怎么办？
+<br>awk -F',' '{print $1 "," $3}' information.txt &gt; information2.txt
+复制<br>-F, 指定字段分隔符为逗号（,）;如果原文件是以空格或制表符分隔的，需要相应地调整 awk 命令中的字段分隔符设置。<br>
+对于空格分隔的文件：不需要，因为 awk 默认使用空格作为字段分隔符。<br>
+对于制表符分隔的文件：制表符可以用 \t 表示。<br>
+<br>假如我想把Age放在第一列，Name放在第二列，并放到一个名为information2.txt的文件里，怎么办？
+<br>awk -F',' '{print $3 "," $1}' information.txt &gt; information2.txt
+复制<br>
+<br>假如我想把源文件是以制表符分隔的，有些名字比如Alice_Hugo有下划线分割，我只需要Alice，不需要Hugo，那么我应该如何提取它们？
+<br>awk -F'\t' '{split($1, a, "_"); print a[1] "\t" $3}' information.txt &gt; information2.txt
+复制<br>
+<br>-F'\t' 设置字段分隔符为制表符。
+<br>split($1, a, "_") 仍然用于将第一个字段（$1，即 Name 字段）按下划线 (_) 分割，并将结果存储在数组 a 中。
+<br>print a[1] "\t" $3 表示打印出处理过的 Name 字段和原始的 Age 字段，两者之间用制表符分隔。
+<br>information.txt 是您的输入文件。
+<br>&gt; 用于将输出重定向到 information2.txt 文件。
+]]></description><link>linux和bash脚本\awk介绍.html</link><guid isPermaLink="false">Linux和bash脚本/awk介绍.md</guid><pubDate>Thu, 20 Jun 2024 13:19:38 GMT</pubDate></item><item><title><![CDATA[建立索引]]></title><description><![CDATA[ 
+ <br><br>samtools index 您的文件.bam
+M15-1.bam
+M819.bam
+
+复制<br><br>samtools idxstats your_file.bam
+# 只查看特定染色体
+samtools idxstats your_file.bam | grep 'MT'
+复制<br><br>#!/bin/bash
+
+# 设置工作目录为含有BAM文件的目录
+WORK_DIR="/mnt/mount_1/ancient_DNA/Asian/China/Tarim_18"
+
+# 进入工作目录
+cd "$WORK_DIR"
+
+# 遍历当前目录下所有的.bam文件
+for bamfile in *.bam; do
+    # 检查文件名是否为空（避免没有.bam文件的情况）
+    if [ ! -z "$bamfile" ]; then
+        # 检查索引文件是否存在
+        index_file="${bamfile}.bai"
+        if [ ! -f "$index_file" ]; then
+            echo "为 $bamfile 创建索引..."
+            samtools index "$bamfile"
+        fi
+        
+        # 提取文件的基本名（不含扩展名）
+        base_name=$(basename "$bamfile" .bam)
+        
+        # 使用samtools提取MT染色体，并保存为新的BAM文件
+        echo "提取 $bamfile 中的MT染色体..."
+        samtools view -b "$bamfile" MT &gt; "${base_name}_MT.bam"
+        
+        
+        # 检查提取的MT BAM文件是否非空，只为非空文件创建索引
+        if [ -s "${base_name}_MT.bam" ]; then
+            samtools index "${base_name}_MT.bam"
+        else
+            echo "${base_name}_MT.bam 是空的，不创建索引。"
+            # 删除空的MT BAM文件，可选操作
+            rm "${base_name}_MT.bam"
+            echo "${base_name}_MT.bam已经移除！"
+        fi
+    fi
+done
+
+echo "所有MT染色体提取和索引创建完成。"
+
+复制<br><br>
+#!/bin/bash
+
+# 定义源路径和目标路径
+SOURCE_DIR="/mnt/mount_1/ancient_DNA/Asian/China/hexi_33/HRA004375"
+TARGET_DIR="/mnt/mount_1/ancient_DNA/Mt_DNA/East_Asian"
+
+# 创建目标目录，如果它还不存在的话
+mkdir -p "$TARGET_DIR"
+
+# 遍历源目录中的所有.bam文件
+find "$SOURCE_DIR" -type f -name "*.bam" | while read bam_file; do
+    # 为.bam文件建立索引
+    samtools index "$bam_file"
+    
+    # 从.bam文件中提取MT染色体，形成新的.bam文件
+    mt_bam_file="${bam_file%.bam}_MT.bam"
+    samtools view -b "$bam_file" MT &gt; "$mt_bam_file"
+    
+    # 检查MT.bam文件是否为空
+    if [ ! -s "$mt_bam_file" ]; then
+        echo "警告！文件为空：$mt_bam_file"
+        exit 1
+    else
+        # 如果文件不为空，将其移动到目标目录
+        mv "$mt_bam_file" "$TARGET_DIR/"
+    fi
+done
+
+echo "所有操作已完成。"
+
+复制<br><br>#!/bin/bash
+
+# 目标目录，包含所有的子文件夹
+TARGET_DIR="/mnt/mount_1/ancient_DNA/Asian/China/Tibetan_97"
+
+# 进入目标目录
+cd $TARGET_DIR
+
+# 遍历目标目录下的所有文件夹
+for dir in HRR*; do
+    if [ -d "$dir" ]; then
+        # 进入子文件夹
+        cd $dir
+        # 检查BAM文件是否存在
+        if [ -f "${dir}.bam" ]; then
+            echo "处理文件: $dir/${dir}.bam"
+            # 使用samtools提取MT染色体，并保存为新的BAM文件
+            samtools view -b ${dir}.bam MT &gt; ${dir}_MT.bam
+            # 为新的BAM文件创建索引
+            samtools index ${dir}_MT.bam
+        else
+            echo "未找到BAM文件: $dir/${dir}.bam"
+        fi
+        # 返回到父目录
+        cd ..
+    fi
+done
+
+echo "所有MT染色体提取完成。"
+
+复制<br><br>#!/bin/bash
+
+# 设置工作目录为含有BAM文件的目录
+WORK_DIR="/mnt/mount_1/ancient_DNA/Asian/China/Tarim_18"
+
+# 进入工作目录
+cd "$WORK_DIR"
+
+# 遍历当前目录下所有的.bam文件
+for bamfile in *.bam; do
+    # 检查文件名是否为空（避免没有.bam文件的情况）
+    if [ ! -z "$bamfile" ]; then
+        # 提取文件的基本名（不含扩展名）
+        base_name=$(basename "$bamfile" .bam)
+        # 使用samtools提取MT染色体，并保存为新的BAM文件
+        echo "提取 $bamfile 中的MT染色体..."
+        samtools view -b "$bamfile" MT &gt; "${base_name}_MT.bam"
+        # 为新的BAM文件创建索引
+        samtools index "${base_name}_MT.bam"
+    fi
+done
+
+echo "所有MT染色体提取完成。"
+
+复制<br><br>#!/bin/bash
+
+# 定义源目录，即包含所有MT BAM文件的父目录
+SOURCE_DIR="/mnt/mount_1/ancient_DNA/Asian/China/Tibetan_97"
+
+# 定义目标目录，即所有MT BAM文件将要被移动到的目录
+TARGET_DIR="/mnt/mount_1/ancient_DNA/Mt_DNA/East_Asian/Human genetic history on the Tibetan Plateau in the past 5100 years"
+
+# 创建目标目录，如果它不存在的话
+mkdir -p "$TARGET_DIR"
+
+# 查找并移动所有以_MT.bam结尾的文件到目标目录
+find "$SOURCE_DIR" -type f -name "*_MT.bam" -exec mv {} "$TARGET_DIR" \;
+
+echo "所有MT BAM文件已移动到$TARGET_DIR。"
+
+复制]]></description><link>linux和bash脚本\bam文件处理.html</link><guid isPermaLink="false">Linux和bash脚本/BAM文件处理.md</guid><pubDate>Thu, 20 Jun 2024 13:19:54 GMT</pubDate></item><item><title><![CDATA[基础]]></title><description><![CDATA[ 
+ <br><br>
+<br>与win一样，你首先需要知道你自己正处于哪个文件夹，可以使用ls来查看。<br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401221347362.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;">
+<br>为了进入任何一个文件夹，可以使用cd进入。<br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401221348388.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;">
+<br>想知道现在所处的位置在整个系统中的层级关系，使用pwd。<br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401221350400.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;">
+<br>为了打开一个文件（一般来说都是数据，毕竟应该没有谁想在Linux系统里改word文档），可以使用以下代码：
+
+<br>cat:
+
+
+<br>使用 cat 命令可以显示整个文件的内容。
+<br>示例：cat file.txt
+
+
+<br>less 和 more:
+
+
+<br>这些命令对于查看较大的文件非常有用，因为它们允许您逐页浏览文件内容。
+<br>使用 less（更先进）或 more 可以在需要时查看文件的一部分。
+<br>示例：less file.csv 或 more file.csv
+
+
+<br>head 和 tail:
+
+
+<br>head 默认显示文件的前 10 行，而 tail 显示最后 10 行。
+<br>这对于快速查看文件的开头或结尾部分非常有用。
+<br>示例：head file.vcf 或 tail file.vcf
+<br>您还可以指定要显示的行数，例如：head -n 20 file.vcf 显示前 20 行。
+
+
+<br>grep:
+
+
+<br>当您想要搜索文件中的特定文本时，grep 是一个非常有用的工具。
+<br>示例：grep "search_term" file.txt
+<br>它将显示包含搜索词的所有行。
+
+
+<br>awk 和 sed:
+
+
+<br>这些是更高级的文本处理工具，非常适合处理格式化数据，如 CSV 文件。
+<br>awk 特别适合处理和打印列格式数据。
+<br>示例：awk '{print $1}' file.csv 会打印 CSV 文件的第一列。
+
+
+<br>文本编辑器（nano、vi、emacs）:
+
+
+<br>如果您想要更交互式地查看或编辑文件，可以使用文本编辑器，如 nano、vi（或 vim）和 emacs。
+<br>示例：nano file.txt、vi file.txt
+
+
+<br>这里有一个压缩文件，如何把这个压缩文件进行解压？使用unzip来进行例如 unzip  PhyloSuite_v1.2.3_Win64_with_plugins.rar。
+<br>解压完成之后，你可以选择rm来删除压缩包，例如rm PhyloSuite_v1.2.3_Win64_with_plugins.rar。
+<br><br>
+<br>
+正斜杠 /：
+
+<br>路径分隔符：在 Linux 和类 Unix 系统中，/ 被用作路径分隔符，用于区分文件路径中的不同层级。例如，/home/username/Documents 表示一个从根目录开始的路径，依次通过 home、username 目录，最后到达 Documents 目录。
+<br>根目录：单独一个 / 符号代表系统的根目录，这是文件系统层级结构的最顶层。
+
+
+<br>
+反斜杠 \：
+
+<br>转义字符：在 Linux 中，\ 通常用作转义字符。这意味着它可以用来表示紧随其后的字符具有特殊含义或应被解释为字面值。例如，在命令行中，echo "Line1\nLine2" 不会产生预期的换行效果，但如果使用 echo -e "Line1\nLine2"，则 \n 会被解释为换行符。
+<br>特殊字符的处理：反斜杠用于处理诸如空格、换行符、制表符等特殊字符。例如，如果您有一个名为 File Name（中间有空格）的文件，您可以在命令行中使用 File\ Name 来引用它。
+
+
+<br><br>#把二倍体转换为单倍体
+# 1. `s/0[\/\|]0/0/g`: 这个表达式会替换所有的 `0/0` 或 `0|0` 为 `0`。
+# 2. `s/1[\/\|]1/1/g`: 这个表达式会替换所有的 `1/1` 或 `1|1` 为 `1`。
+# 3. `s/.[\/\|]././g`: 这个表达式会将任意字符（用 `.` 表示）和 `/` 或 `|` 以及其后的任意字符组合替换成 `.`。
+cat Illumina_mtDNA.vcf |sed 's/0[\/\|]0/0/g;s/1[\/\|]1/1/g;s/.[\/\|]././g' &gt; Illumina_mtDNA_haplo.vcf
+
+复制]]></description><link>linux和bash脚本\linux最最最常用命令.html</link><guid isPermaLink="false">Linux和bash脚本/Linux最最最常用命令.md</guid><pubDate>Thu, 20 Jun 2024 13:19:40 GMT</pubDate><enclosure url="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401221347362.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401221347362.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[什么是shell？]]></title><description><![CDATA[ 
+ <br><br>shell是一个编辑器。<br>
+Shell是命令解释器(command interpreter)，是Unix操作系统的用户接口，程序从用户接口得到输入信息，shell将用户程序及其输入翻译成操作系统内核（kernel）能够识别的指令，并且操作系统内核执行完将返回的输出通过shell再呈现给用户。<br><br><br>
+<br>文件的扩展名必须是.sh
+<br>文件的首行必须使用#! 如：#!/bin/bash指定script的运行shell环境(即脚本解释器)
+<br>脚本里的行注释符号为#
+<br>指令、选项、参数之间即使有多个空格仍会被视为一个空格。
+<br>tab键形成的空白也被视为一个空格键
+<br><br>vi helloworld.sh
+# 进入编辑器
+
+# ！/bin/bash 
+# 打印hello world
+echo "hello world"
+复制<br>返回命令行，然后输入sh helloworld.sh或者bash helloworld.sh就可以打印出hello world。<br>如果我们在使用的时候提示command not found，可能是权限不够，对于权限可以从ll命令中查看-r是读，-w是写。<br><br>将*.sh放入~/bin目录下，因为PATH里拼接了~/bin目录。<br>
+注意：~/bin目录必须自行创建<br>当前可以使用的环境变量可以有如下指令查看：<br>echo $PATH
+复制<br>例如：<br>[root@qianfengOl shellTest]# echo $PATH
+/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/root/bin
+复制<br><br><br>
+<br>命名只能使用英文字母，数字和下划线。首个字符不能以数字开头。
+<br>字母习惯使用大写。
+<br>中间不能有空格。
+<br>不能使用标点符号。
+<br>不能使用bash里的关键字（可用help命令查看保留关键字）
+<br><br>
+<br>直接定义变量名称，没有类型需要强调（类似于数学中:x=1,y=2,z=x+y）<br>
+举例：
+<br>a=5
+复制<br>
+<br>赋值时，"="前后不能有空格
+<br>命令的执行结果赋值给变量时，使用反单引号 如：TIME=date
+<br>调用变量时，必须使用$ 格式： $变量名 或 ${变量名}
+<br><br>
+<br>局部变量：也就是用户自定义的变量，在脚本中或命令中定义
+<br>环境变量：保存和系统操作环境相关的数据。$HOME、$PWD、$SHELL、$USER等等
+<br>特殊变量：
+
+<br>一种是位置参数变量：主要用来向脚本中传递参数或数据，变量名不能自定义，变量作用固定。
+<br>一种是预定义变量：是Bash中已经定义好的变量，变量名不能自定义，变量作用也是固定的。
+
+
+<br><br>用户自定义的变量由字母或下划线开头，由字母，数字或下划线序列组成，并且大小写字母意义不同，变量名长度没有限制。<br><br>习惯上用大写字母来命名变量。变量名以字母表示的字符开头，不能用数字。<br><br>在使用变量时，要在变量名前加上前缀$<br>[root@qianfeng01 ~]# echo $A
+复制<br><br>
+<br>定义时赋值
+<br>[root@qianfeng01 ~]# STR="hello world"
+[root@qianfeng01 ~]# A=9
+复制<br>注意，等号=两侧不能用空格。<br>
+<br>将一个命令的执行结果赋给变量
+<br>eg: [root@qianfeng01 ~]# A=`ls -la` ，运行里面的命令，并把结果返回给变量A
+# 这里的意思是A就是运行ls 再运行la
+eg: [root@qianfeng01 ~]# A=$(ls -la) 等价于反引号
+eg: [root@qianfeng01 ~]# AA=$((4+5))
+# 在使用$符号的时候，里面应该存放命令，由于4+5是运算而非命令，所以用两个小括号括起来。
+eg: [root@qianfeng01 ~]# BB=`expr 4 + 5 `
+复制<br>
+<br>将一个变量赋给另一个变量
+<br>A=$STR
+复制<br><br>重点提醒：这种办法可以将多个文本链接在一起。<br>eg: [root@qianfeng01 ~]# A=123
+eg: [root@qianfeng01 ~]# C="$A"456
+eg: [root@qianfeng01 ~]# D=${A}789
+
+echo $C
+echo $D
+复制<br>单引号和双引号的区别
+现象：单引号里的内容会全部输出，而双引号里的内容会有变化
+原因：单引号会将所有特殊字符脱意
+eg:
+[root@qianfeng01 ~]# NUM=10
+[root@qianfeng01 ~]# SUM="$NUM hehe"
+
+[root@qianfeng01 ~]# echo $SUM     输出10 hehe
+
+[root@qianfeng01 ~]# SUM2='$NUM hehe'
+
+[root@qianfeng01 ~]# echo $SUM2     输出$NUM hehe
+复制<br><br>[root@qianfeng01 ~]# set
+复制<br><br>unset A
+# 撤销变量A
+复制<br>注意：用户自定义的变量，作用域为当前的shell，尽在当前有效。<br><br>用户自定义变量只在当前的shell中生效，而环境变量会在当前shell和其所有子shell中生效。如果把环境变量写入相应的配置文件，那么这个环境变量就会在所有的shell中生效。<br><br><br>$* 和 $@的区别:<br>
+$* 和 $@ 都表示传递给函数或脚本的所有参数，不被双引号" "包含时，都以"$1" "$2" … "$n" 的形式输出所有参数<br>当它们被双引号" "包含时，"$*" 会将所有的参数作为一个整体，以"$1 $2 … $n"的形式输出所有参数；"$@" 会将各个参数分开，以"$1" "$2" … "$n" 的形式输出所有参数。]]></description><link>linux和bash脚本\shell基础知识.html</link><guid isPermaLink="false">Linux和bash脚本/Shell基础知识.md</guid><pubDate>Thu, 20 Jun 2024 13:19:43 GMT</pubDate></item><item><title><![CDATA[expr对整数型进行算术运算]]></title><description><![CDATA[ 
+ <br><br># 运算符前后必须有空格
+expr 4 + 5
+expr 5 - 3
+expr $((3+4))
+
+# 乘号*需要注意必须转义
+expr 5 \* 4
+expr 10 / 3 
+复制<br><br>[root@qianfeng01 ~]# S=`expr 2 + 3`
+[root@qianfeng01 ~]# expr $S \* 4
+复制<br>[root@qianfeng01 ~]# expr `expr 2 + 3` \* 4
+[root@qianfeng01 ~]# S=`expr \` expr 2 + 3 \` \* 4`
+[root@qianfeng01 ~]# echo $S
+或
+[root@qianfeng01 ~]# echo $(((2 + 3) * 4))
+复制<br><br>$( )的用途和反引号``一样，用来表示优先执行的命令
+eg: [root@qianfeng01 ~]# echo $(ls /root)
+
+${ } 就是取变量
+eg：[root@qianfeng01 ~]# echo ${PATH}
+
+$((运算内容)) 适用于数值运算
+eg: [root@qianfeng01 ~]# echo $((3+1*4))
+复制]]></description><link>linux和bash脚本\shell运算.html</link><guid isPermaLink="false">Linux和bash脚本/shell运算.md</guid><pubDate>Thu, 20 Jun 2024 13:19:44 GMT</pubDate></item><item><title><![CDATA[背景]]></title><description><![CDATA[ 
+ <br><br>VCF 是生物信息分析中非常重要的一种格式。主要用来描述基因组突变的信息，无论是检测出来的 SNP，indel，cnv，还是 SV，都可以存储格式都为 vcf 格式。从比对生成的 bam 文件中，将潜在变异信息筛选出来，就是 vcf 格式。vcf 是一种列表格式，里面包含很多的内容。需要掌握每一列的信息，并能使用相对应的软件对 vcf 进行处理。处理 VCF 格式软件主要包括 bcftools，vcftools，gatk，python pyvcf，plink 等。<br><br><br>VCF 是 Variant Call Format 的简称，是一种定义的专门用于存储基因序列突变信息的文本格式。在生物信息分析中会大量用到 VCF 格式。例如基因组中的单碱基突变,SNP，插入/缺失INDEL, 拷贝数变异 CNV，和结构变异 SV 等，都是利用 VCF 格式来存储的。vcf 是一种文本格式，可以直接查看。将其存储为二进制格式就是 BCF，二进制格式节省更多存储，vcf 与bcf 的关系类似 sam 与 bam 的关系。需要特别之处的是，不同软件产生的 vcf 会有很大的不同，有时候同样的操作命令在不同的 vcf 中会出错。当前 vcf 的版本为 4.3，可以参考下面的帮助文档，格式说明：<br>https://samtools.github.io/hts-specs/
+复制<br><br>vcf 是一种表格格式，主要分为三部分，第一部分为双井号注释的部分，为文件头信息，主要介绍文件内容以及 INFO 部分的详细解释；<br>第二部分单井号注释，为表头信息，基本内容分为 8 列，对于多样品可以继续添加列。前 8列信息分别为：<br>
+1.CHROM [chromosome]：染色体名称，
+2.POS [position]： 参考基因组突变碱基位置，如果是 INDEL，位置是 INDEL 的第一个碱基位置。
+3.ID [identifier]：突变的名称，
+4.REF [reference base(s)]：参考染色体的碱基
+5.ALT [alternate base(s)]：与参考序列比较，发生突变的碱基，
+6.QUAL [quality]：Phred 标准下的质量值
+7.FILTER [filter status]：使用其它的方法进行过滤后得到的过滤结果
+8.INFO
+复制<br>vcf 中可以保存多个样品的信息，当文件中包含多个样品时，就会出现“FORMAT” 一列，用于提示后续不同样品中展示的信息。由于样品多，不同样品不能展示全部 INFO 的信息，通常 FORMAT 只展示少部分信息，例如“Genotype”一个信息。接下来是样品名。每个样品在后面增加一列即可，展示FORMAT 中及介绍的内容，这样就能构成一个很大的矩阵，可以用于统计检验。<br><br>vcf 中的 INFO 关键字非常多，而且每个软件生成的 vcf 文件都可以单独自定义关键字。都是以 “TAG=Value”,并使用”;”分隔的形式。其中很多的 TAG 含义在 VCF 文件的头部注释信息##INFO 中已给出。这些关键字信息包含了非常多的内容，描述了每一个突变详细的信息。例如突变的类型，SNP 还是 SV，如果是 SNP 杂合还是纯合，如果是 SV，具体哪种类型，发生变化的长度是多少，有多少条 reads 支持等信息。这些信息根据不同的需求可以从中提取。在 vcf 文件格式的详细描述中会有介绍，无需掌握全部内容，只需要了解一些常见的关键信息即可。<br>下面介绍一些常见关键字内容，更多内容可以查看表头信息，或者查看 vcf 详细文档。<br>GT：GT 为基因型（genotype）的简写，是 vcf 中非常重要的关键字。在做变异检测之后通常还要做一步 genotype 就是为了得到这个信息。两个数字中间用’/"分开，这两个数字表示双倍体的 sample 的基因型，<br>0 表示样品的基因型与 ref 的 allele 相同；<br>1 表示样品中基因型与 alt variant 的相同；<br>2 表示有第二个 variant 的 allele（和 ALT 的第二种碱基相同）<br>所以，我们就可以根据 GT 关键字判断出样品的基因型。假设这个突变中 REF 为 A 碱基， ALT 为 T 碱基。如果 GT 为：<br>
+0/0 ：表示 sample 中该位点为纯合位点，和 REF 的碱基类型一致，那么就是 AA。
+0/1：表示 sample 中该位点为杂合突变，有 REF 和 ALT 两个基因型，那么就是 AT；如果是 GT 是
+1/0，则表示 TA。
+1/1：表示 sample 中该位点为纯合突变，总体突变类型和 ALT 碱基类型一致，为 TT。
+1/2：表示 sample 中该位点为杂合突变，有 ALT1 和 ALT2 两个基因型，可能是 TC 或者 TG。
+复制<br>AD：Allele Depth：为 sample 中每一种 allele（等位碱基）的 reads 覆盖度，在 diploid（二倍体，或可指代多倍型）中则是用逗号分隔的两个值，前者对应 REF 基因，后者对应 ALT基因型；<br>DP：Depth：为 sample 中该位点的覆盖度，是所支持的两个 AD 值（逗号前和逗号后）的加和，支持数越高，结果越可信，通常可以用于 DP 进行突变结果过滤，例如将小于 5 条 reads支持的过滤掉。<br>GQ：基因型的质量值(Genotype Quality)。Phred 格式(Phred_scaled)的质量值，表示在该位点该基因型存在的可能性；该值越高，则 Genotype 的可能性越 大；计算方法：Phred 值 = -10 * log (1-p) p 为基因型存在的概率。和 DP 类似，也可以用于突变结果过滤。<br>PL：指定的三种基因型的质量值(provieds the likelihoods of the given genotypes)。这三种指定的基因型为(0/0,0/1,1/1)，这三种基因型的概率总和为 1。和之前不一致，该值越大，表明为该种基因型的可能性越小。Phred 值 = -10 * log (p) p 为基因型存在的概率。<br>AC：（Allele Count）：Alt Allele 的数目（即当前位点等位基因数量）。<br>AN：（Allele Number）：表示 alt Allele 的总数目。<br>AF：（Allele Frequency）：表示 alt Allele 的频率，AF 值=AC 值/AN 值。<br>FS：FS 是一个通过 Fisher 检验的 p-value 转换而来的值，它要描述的是测序或者比对时对于只含有变异的 read 以及只含有参考序列碱基的 read 是否存在着明显的正负链特异性（Strand bias，或者说是差异性）。这个差异反映了测序过程不够随机，或者是比对算法在基因组的某些区域存在一定的选择偏向。如果测序过程是随机的，比对是没问题的，那么不管 read 是否含有变异，以及是否来自基因组的正链或者负链，只要是真实的它们就都应该是比较均匀的，也就是说，不会出现链特异的比对结果，FS 应该接近于零。<br>MLEAC：AC（Allele counts）的极大似然期望值。<br>MLEAF：AF（Allele Frequency）的极大似然期望值。<br>MQ：（Mapping quality）：比对质量值。<br><br>在 vcf 文件中，SV 通常可以通过 SVTYPE 关键字进行描述，然后用 SVLEN 关键字描述具体发生 SV 的长度。由于 SV 包含多种类型，SVTYPE 关键字也可以分成以下几种：<br>DEL ：缺失，Deletion relative to the reference
+INS： 插入，Insertion of novel sequence relative to the reference
+DUP ：倍增，Region of elevated copy number relative to the reference
+INV ：翻转，Inversion of reference sequence
+CNV ：拷贝数变异，Copy number variable region (may be both deletion and duplication)
+BND ：断开，Breakend
+复制<br>CNV 拷贝数变化属于插入和缺失范畴，有些软件没有被单独列为一个类目，被包含在倍增DUP，缺失 DEL 以及插入 INS 中。<br><br>
+<br>不同版本的 vcf 格式文件有所差别，在使用过程中需要注意 vcf 的版本；
+<br>不同软件生成的 vcf 有很大的差别，尤其是对于 SV 的描述方法，例如 gatk，freebayes，sniffles 等，有很大的不同。
+<br>不同软件生成的 vcf 文件，INFO 部分会有很大的不同，在使用过程中要根据具体的内容修改代码。
+<br><br><br>处理 VCF 格式软件：bcftools，vcftools，gatk，python pyvcf，plink 等。最常用的为 bcftools。这里我们分别介绍 bcftools 与 vcftools。bcfools 可以直接处理 vcf 文件，也可以处理二进制bcf 文件。<br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401230846638.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
+<a data-tooltip-position="top" aria-label="http://www.htslib.org/doc/bcftools.html" rel="noopener" class="external-link" href="http://www.htslib.org/doc/bcftools.html" target="_blank">软件说明文档点这里</a><br>
+bcftools 是专门用来处理 vcf 以及 bcf 文件格式的工具，使用起来类似于 samtools。软件的安装和使用非常简单。<br>  # 安装
+  conda install -y bcftools
+复制<br><br>主要分为三大功能类。<br>
+<br>Indexing 建立索引；
+<br>VCF/BCF manipulation ：vcf 和 bcf 文件操作；
+<br>VCF/BCF analysis ：vcf 和 bcf 文件分析；
+<br><br>  index，就是为文件建立索引；
+复制<br><br>annotate 注释，用于增加或者移除注释信息；
+concat 连接同一个样品或者同一个数据集的 vcf 或者 bcf 文件；
+convert 格式转换 VCF 与 BCF 之间转换，或者转换为其他格式；
+isec 取交集，多个 vcf 文件文件可以取共有的突变；
+merge 和 samtools 的 merge 类似，合并文件，
+norm normalize 标准化 indels
+plugin 用户自定义功能
+query 将 vcf 或 bcf 转换为用户自定义格式；
+reheader 修改 header 文件，修改样品名等；
+sort 对文件排序；
+view 查看文件
+复制<br><br>call Call SNP 和 Indel；
+consensus 将所有变异位点合并成一个一致性序列
+cnv Copy Number Variation caller，检测拷贝数变异
+csq 检测变异的一致性序列；
+filter 过滤 vcf
+gtcheck 检查样本一致性，检测样品交换和污染
+mpileup 和 samtools 的 mpileup 类似；
+roh 识别 autozygosity
+stats 进行统计
+复制<br><br>output options:
+--no-version 
+-o, --output &lt;XXX&gt; ：输出文件名，最好与文件类型保持一致，例如 vcf，vcf.gz，bcf，
+bcf.gz 
+-O, --output-type &lt;b|u|z|v&gt;：输出文件类型，b,u,z,v 分别对应 bcf 与 vcf，以及是否压缩
+ --threads &lt;int&gt; ：线程数
+-e, --exclude &lt;expr&gt; ：排除
+-i, --include &lt;expr&gt; ：包括
+-r, --regions &lt;region&gt; ：区域，给定表达式，染色体：起始位置-终止位置
+-R, --regions-XXX &lt;XXX&gt; ：区域，bed 文件
+-s, --samples &lt;list&gt; ：样品名，多个样品之间用逗号分隔
+-S, --samples-XXX &lt;XXX&gt; ：样品名文件
+-t, --targets &lt;region&gt; ：目标，染色体名字，例如 chr1，多个染色体之间用逗号分隔
+-T, --targets-XXX &lt;XXX&gt; ：目标，写到文件中
+-l, --compression-level [0-9] ：压缩等级，数字越大，压缩率越高，压缩时间越长
+
+复制<br><br><a data-tooltip-position="top" aria-label="http://www.htslib.org/doc/bcftools.html#expressions" rel="noopener" class="external-link" href="http://www.htslib.org/doc/bcftools.html#expressions" target="_blank">参见这个网址</a><br><br>我将用一个真实的案例进行说明。<br>
+<br>格式转换<br>
+格式转换是将 vcf 与 bcf 之间进行格式转换，并同时进行压缩，bcf 为二进制格式，无法使用 less 等命令直接查看，但更加节约存储。如果是 bcf 格式文件，可以使用 view 功能进行查看。vcf 或者 bcf 必须使用 bgzip 压缩。假如你的vcf文件名称是xxx。
+<br>&nbsp;<br>#格式转换压缩
+bcftools view  XXX.vcf -O b -o XXX.bcf.gz
+
+# 我发现这个命令也挺好用，和上面那个差不多
+bgzip -c XXX.vcf &gt; XXX.vcf.gz
+复制<br>
+<br>建立索引<br>
+对于行数较多的数据，需要建立索引。这样便于快速检索。索引需要基于排序后的结果。后面很多应用都需要使用到索引。排序可以使用 sort 功能，索引使用 index 功能。index 命令用于对 VCF 文件建立索引，要求输入的 VCF 文件必须是使用 bgzip 压缩之后的文件，支持.csi和.tbi 两种索引，默认情况下建立的索引是.csi 格式。
+<br>
+#排序
+bcftools sort XXX.bcf.gz
+# （一般来说应该已经排序好了，如果是这样，就可以跳过这一步）
+# 如何查看有没有排好？使用 less -S命令。
+
+#建立索引
+bcftools index XXX.bcf.gz
+复制<br>容我BB两句，如果我们只想对某条染色体进行分析（例如X、Y或者mtDNA），那么我们需要先把单独的染色体提取出来，不然分析将会很慢。那样的话请先看第下文中如何6.提取某一条染色体。<br>
+3. 统计绘图<br>
+如果想知道 vcf 中包含多少种突变，以及每种突变对应的数据，就需要对文件进行统计，stats选项可以用于 vcf 文件的统计。可以直接统计突变个数、突变类型的个数、转换颠换个数、测序深度、Indel 长度。统计完成之后可以使用 plot-vcfstats 进行可视化绘图。<br># 数据统计与绘图
+bcftools stats XXX.bcf.gz &gt;view.stats
+plot-vcfstats view.stats -p output
+复制<br>
+<br>查看固定区域<br>
+建立索引之后，就可以快速检索目标区域，例如得到结果之后，想快速查看某一区域，或者某个基因的情况，可以直接填写目标区域，格式为“染色体：起始位点-终止位点”。如果一次要查看多个区域，则可以添加一个 bed 文件。
+<br>#查看固定区域
+bcftools view XXX.bcf.gz
+bcftools view all.bcf.gz 12:200000-300000
+#选出位于 bed 文件中的所有区域的突变位点
+bcftools view -R Target.bed XXX.bcf.gz &gt;filt.onTarget.vcf
+复制<br>
+<br>拆分不同类型
+<br>#提取 SNP
+bcftools view -v snps chr22.vcf &gt;chr22.snp.vcf
+#提取 InDel
+bcftools view -v indels chr22.vcf &gt;chr22.indel.vcf
+#提取 SV
+bcftools view -v other chr22.vcf &gt;chr22.sv.vcf
+复制<br>
+<br>提取某一条染色体
+<br>#提取 26号染色体
+bcftools view -r 26 XXX.vcf.gz &gt; Chromosome_26_variants.vcf
+复制<br>
+<br>concat 合并
+<br>#合并 21 和 22 号染色体的结果
+bcftools concat chr21.vcf chr22.vcf -o merge.bcf.gz -O b
+#合并 SNP 与 InDel
+bcftools concat chr22.snp.vcf chr22.indel.vcf -o chr22.merge.vcf
+复制<br>
+<br>提取固定样品
+<br>#筛选样品 HG00100
+bcftools view -s HG00100
+ALL.chr1.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.vcf.gz -O
+b &gt;HG00100.vcf
+#筛选样品 HG00141
+bcftools view -s HG00141
+ALL.chr1.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.vcf.gz -O
+b &gt;HG00141.vcf
+复制<br>
+<br>merge 合并<br>
+vcf 中不仅可以包含单个样品，也可以同时包含多个样品的信息，只需要将多个样品的 vcf合并即可。可以使用 merge 功能进行合并，与 concat“横向合并”不同，merge 合并为“纵向合并”，是合并不同样品到同一个 vcf 文件中。注意合并之前需要对每个样品创建索引。
+<br># 合并样品 HG00100 与 HG00141
+bcftools merge a.vcf.gz b.vcf.gz -o merge.vcf
+复制<br>注意：输入文件必须是经过 bgzip 压缩的文件， 而且还需要有.tbi 的索引。<br>
+<br>集合运算<br>
+isec 用于在多个 VCF 文件之间取交集，差集，并集等操作，经典的应用场景是对多种软件的SNP calling 结果进行 venn 分析。用法如下
+<br>&nbsp;isec 用于在多个 VCF 文件之间取交集，差集，并集等操作，经典的应用场景是对多种软件的SNP calling 结果进行 venn 分析。用法如下
+复制<br>默认参数就是取交集，更多高级用法请参考帮助文档
+
+<br>query 功能<br>
+vcf 里面包含的信息非常多，比较混乱，如果只想从中筛选出需要的内容，例如只需要Genotype 信息，可以使用 bcftools 的 query 功能实现。query 中最重要的就是表达式的写法。
+
+<br>bcftools query -f '%CHROM\t%POS\t%REF\t%ALT[\t%SAMPLE=%GT]\n' A1.bcf.gz
+复制<br>注意格式的熟悉，每个关键字前面使用%，“\t”或者“\n”代表制表符与换行符。<br>
+<br>过滤<br>
+变异检测的策略一般是先找全，然后再找准。也就是软件首先输出尽可能多的结果，保存到vcf 文件中，然后再采取不同的标准对 vcf 进行过滤。过滤可以采取很多的标准，一般包括测序深度，打分制，碱基质量值，先验概率等。可以使用 bcftools 进行过滤。bcftools 的 filter功能其实与 query，view 都类似，可以进行多种模式的过滤，关键是要掌握其表达式EXPRESSIONS 的写法。
+<br>#过滤掉等位频率&gt;0.3 同时覆盖深度小于 10 的突变位点
+bcftools filter -e "INFO/AF[0] &gt; 0.3 &amp; FORMAT/DP &lt; 30" A1.bcf.gz
+bcftools view -i '%TYPE!="snp" &amp; MAF[0]&lt;0.01'
+ALL.chr1.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.vcf.g
+复制<br>
+<br>注释<br>
+vcf 的注释主要是将突变位点定位到基因组上，确定突变发生在哪个基因，因为不同的突变发生位置，会对基因产生不同的影响，例如同义突变，错误突变或者无义突变等。另外一种注释就是与已知突变位点进行比较，定位到已知的 rs number 号上面。
+<br>#注释 VCF 文件，用法如下
+bcftools annotate -a /ifs1/Database/gatk/hg38/dbsnp_146.hg38.vcf.gz -c ID,QUAL
+,+TAG XXX.vcf -o annotate.vcf
+复制<br>-a 参数指定注释用的数据库文件，格式可以是 VCF, BED, 或者是\t 分隔的自定义文件。在\t 分隔的自定义文件中，必须包含 CHROM, POS 字段；<br>
+-c 参数指定将数据库的哪些信息添加到输出文件中。<br>#编辑 VCF 文件，比如去除其中的某些注释信息，或者去除某些样本
+bcftools annotate -x ID,INFO/DP,FORMAT/DP view.vcf -o removed.id.vcf
+复制<br>-x 参数表示去除 VCF 文件中的注释信息，可以是其中的某一列，比如 ID, 也可以是某些字段，比如 INFO/DP，多个字段的信息用逗号分隔；去除之后，这些信息所在的列并不会去除，而是用.填充。]]></description><link>linux和bash脚本\vcf文件初识.html</link><guid isPermaLink="false">Linux和bash脚本/VCF文件初识.md</guid><pubDate>Thu, 20 Jun 2024 13:19:46 GMT</pubDate><enclosure url="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401230846638.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401230846638.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[脚注的使用]]></title><description><![CDATA[ 
+ <br>要创建脚注参考，请在方括号<a data-footref="1" href="about:blank#fn-1-4f2cbb206aa38b57" class="footnote-link" target="_self" rel="noopener">[1]</a>内添加插入符号和标识符。标识符可以是数字或单词，但不能包含空格或制表符。<br>
+标识符仅将脚注参考弱脚注本身相关联- 在输出中，脚注按顺序编号。<br>脚注代号 ：(脚注代号会直接显示在渲染界面)；<br>
+脚注代号可以随便命名，不过推荐使用数字序号；<br>
+脚注代号+:+ 空格 + 脚注内容。<br>mtDNA是一种母系遗传的物质<a data-footref="1" href="about:blank#fn-1-4f2cbb206aa38b57" class="footnote-link" target="_self" rel="noopener">[1-1]</a>。我们需要明确其单倍型<a data-footref="2" href="about:blank#fn-2-4f2cbb206aa38b57" class="footnote-link" target="_self" rel="noopener">[2]</a>。<br><br><br>
+<br>
+<br>mtDNA与进化。<a href="about:blank#fnref-1-4f2cbb206aa38b57" class="footnote-backref footnote-link" target="_self" rel="noopener">↩︎</a><a href="about:blank#fnref-1-1-4f2cbb206aa38b57" class="footnote-backref footnote-link" target="_self" rel="noopener">↩︎</a>
+<br>世界的起源。<a href="about:blank#fnref-2-4f2cbb206aa38b57" class="footnote-backref footnote-link" target="_self" rel="noopener">↩︎</a>
+]]></description><link>obsidian语法进阶\脚注的使用.html</link><guid isPermaLink="false">obsidian语法进阶/脚注的使用.md</guid><pubDate>Sat, 18 May 2024 10:57:53 GMT</pubDate></item><item><title><![CDATA[callout语法]]></title><description><![CDATA[ 
+ <br>Note<br>Abstract<br>Info<br>Todo<br>Tip<br>Success<br>Question<br>Warning<br>Failure<br>Danger<br>Bug<br>Example<br>Quote]]></description><link>obsidian语法进阶\callout语法.html</link><guid isPermaLink="false">obsidian语法进阶/callout语法.md</guid><pubDate>Thu, 20 Jun 2024 13:59:00 GMT</pubDate></item><item><title><![CDATA[Latex语法符号大全]]></title><description><![CDATA[ 
+ <br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401022134851.png" referrerpolicy="no-referrer" style="width: 550px; max-width: 100%;"><br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401022134155.png" referrerpolicy="no-referrer" style="width: 550px; max-width: 100%;"><br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401022134997.png" referrerpolicy="no-referrer" style="width: 550px; max-width: 100%;"><br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401022134210.png" referrerpolicy="no-referrer" style="width: 550px; max-width: 100%;"><br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401022134883.png" referrerpolicy="no-referrer" style="width: 550px; max-width: 100%;"><br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401022135955.png" referrerpolicy="no-referrer" style="width: 550px; max-width: 100%;"><br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401022135856.png" referrerpolicy="no-referrer" style="width: 550px; max-width: 100%;"><br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401022135088.png" referrerpolicy="no-referrer" style="width: 550px; max-width: 100%;"><br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401022135457.png" referrerpolicy="no-referrer" style="width: 550px; max-width: 100%;"><br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401022135718.png" referrerpolicy="no-referrer" style="width: 550px; max-width: 100%;"><br>
+<img src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401022135718.png" referrerpolicy="no-referrer"><br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401022135089.png" referrerpolicy="no-referrer" style="width: 550px; max-width: 100%;"><br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401022135748.png" referrerpolicy="no-referrer" style="width: 550px; max-width: 100%;"><br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401022135189.png" referrerpolicy="no-referrer" style="width: 550px; max-width: 100%;"><br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401022135001.png" referrerpolicy="no-referrer" style="width: 550px; max-width: 100%;"><br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401022135919.png" referrerpolicy="no-referrer" style="width: 550px; max-width: 100%;"><br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401022135181.png" referrerpolicy="no-referrer" style="width: 550px; max-width: 100%;"><br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401022135395.png" referrerpolicy="no-referrer" style="width: 550px; max-width: 100%;"><br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401022135510.png" referrerpolicy="no-referrer" style="width: 550px; max-width: 100%;"><br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401022136266.png" referrerpolicy="no-referrer" style="width: 550px; max-width: 100%;">]]></description><link>obsidian语法进阶\latex语法符号大全.html</link><guid isPermaLink="false">obsidian语法进阶/Latex语法符号大全.md</guid><pubDate>Sat, 18 May 2024 10:57:09 GMT</pubDate><enclosure url="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401022134851.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401022134851.png"&gt;&lt;/figure&gt;</content:encoded></item></channel></rss>

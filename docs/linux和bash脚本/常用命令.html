@@ -1,0 +1,1757 @@
+<!DOCTYPE html> <html><head>
+		<title>常用命令</title>
+		<base href="../">
+		<meta id="root-path" root-path="../">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, minimum-scale=1.0, maximum-scale=5.0">
+		<meta charset="UTF-8">
+		<meta name="description" content="科研思路 - 常用命令">
+		<meta property="og:title" content="常用命令">
+		<meta property="og:description" content="科研思路 - 常用命令">
+		<meta property="og:type" content="website">
+		<meta property="og:url" content="linux和bash脚本/常用命令.html">
+		<meta property="og:image" content="undefined">
+		<meta property="og:site_name" content="科研思路">
+		<link rel="alternate" type="application/rss+xml" title="RSS Feed" href="lib/rss.xml"><script async="" id="webpage-script" src="lib/scripts/webpage.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script type="module" async="" id="graph-view-script" src="lib/scripts/graph-view.js"></script><script async="" id="graph-wasm-script" src="lib/scripts/graph-wasm.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="graph-render-worker-script" src="lib/scripts/graph-render-worker.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="tinycolor-script" src="lib/scripts/tinycolor.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="pixi-script" src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/7.4.0/pixi.min.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="minisearch-script" src="https://cdn.jsdelivr.net/npm/minisearch@6.3.0/dist/umd/index.min.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><link rel="icon" href="lib/media/favicon.png"><script async="" id="graph-data-script" src="lib/scripts/graph-data.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><style>body{--line-width:40em;--line-width-adaptive:40em;--file-line-width:40em;--sidebar-width:min(20em, 80vw);--collapse-arrow-size:11px;--tree-horizontal-spacing:0.6em;--tree-vertical-spacing:0.6em;--sidebar-margin:12px}.sidebar{height:100%;min-width:calc(var(--sidebar-width) + var(--divider-width-hover));max-width:calc(var(--sidebar-width) + var(--divider-width-hover));font-size:14px;z-index:10;position:relative;overflow:hidden;transition:min-width ease-in-out,max-width ease-in-out;transition-duration:.2s;contain:size}.sidebar-left{left:0}.sidebar-right{right:0}.sidebar.is-collapsed{min-width:0;max-width:0}body.floating-sidebars .sidebar{position:absolute}.sidebar-content{height:100%;min-width:calc(var(--sidebar-width) - var(--divider-width-hover));top:0;padding:var(--sidebar-margin);padding-top:4em;line-height:var(--line-height-tight);background-color:var(--background-secondary);transition:background-color,border-right,border-left,box-shadow;transition-duration:var(--color-fade-speed);transition-timing-function:ease-in-out;position:absolute;display:flex;flex-direction:column}.sidebar:not(.is-collapsed) .sidebar-content{min-width:calc(max(100%,var(--sidebar-width)) - 3px);max-width:calc(max(100%,var(--sidebar-width)) - 3px)}.sidebar-left .sidebar-content{left:0;border-top-right-radius:var(--radius-l);border-bottom-right-radius:var(--radius-l)}.sidebar-right .sidebar-content{right:0;border-top-left-radius:var(--radius-l);border-bottom-left-radius:var(--radius-l)}.sidebar:has(.sidebar-content:empty):has(.topbar-content:empty){display:none}.sidebar-topbar{height:2em;width:var(--sidebar-width);top:var(--sidebar-margin);padding-inline:var(--sidebar-margin);z-index:1;position:fixed;display:flex;align-items:center;transition:width ease-in-out;transition-duration:inherit}.sidebar.is-collapsed .sidebar-topbar{width:calc(2.3em + var(--sidebar-margin) * 2)}.sidebar .sidebar-topbar.is-collapsed{width:0}.sidebar-left .sidebar-topbar{left:0}.sidebar-right .sidebar-topbar{right:0}.topbar-content{overflow:hidden;overflow:clip;width:100%;height:100%;display:flex;align-items:center;transition:inherit}.sidebar.is-collapsed .topbar-content{width:0;transition:inherit}.clickable-icon.sidebar-collapse-icon{background-color:transparent;color:var(--icon-color-focused);padding:0!important;margin:0!important;height:100%!important;width:2.3em!important;margin-inline:0.14em!important;position:absolute}.sidebar-left .clickable-icon.sidebar-collapse-icon{transform:rotateY(180deg);right:var(--sidebar-margin)}.sidebar-right .clickable-icon.sidebar-collapse-icon{transform:rotateY(180deg);left:var(--sidebar-margin)}.clickable-icon.sidebar-collapse-icon svg.svg-icon{width:100%;height:100%}.sidebar-section-header{margin:0 0 1em 0;text-transform:uppercase;letter-spacing:.06em;font-weight:600}body{transition:background-color var(--color-fade-speed) ease-in-out}.webpage-container{display:flex;flex-direction:row;height:100%;width:100%;align-items:stretch;justify-content:center}.document-container{opacity:1;flex-basis:100%;max-width:100%;width:100%;height:100%;display:flex;flex-direction:column;align-items:center;transition:opacity .2s ease-in-out;contain:inline-size}.hide{opacity:0;transition:opacity .2s ease-in-out}.document-container>.markdown-preview-view{margin:var(--sidebar-margin);margin-bottom:0;width:100%;width:-webkit-fill-available;width:-moz-available;width:fill-available;background-color:var(--background-primary);transition:background-color var(--color-fade-speed) ease-in-out;border-top-right-radius:var(--window-radius,var(--radius-m));border-top-left-radius:var(--window-radius,var(--radius-m));overflow-x:hidden!important;overflow-y:auto!important;display:flex!important;flex-direction:column!important;align-items:center!important;contain:inline-size}.document-container>.markdown-preview-view>.markdown-preview-sizer{padding-bottom:80vh!important;width:100%!important;max-width:var(--line-width)!important;flex-basis:var(--line-width)!important;transition:background-color var(--color-fade-speed) ease-in-out;contain:inline-size}.markdown-rendered img:not([width]),.view-content img:not([width]){max-width:100%;outline:0}.document-container>.view-content.embed{display:flex;padding:1em;height:100%;width:100%;align-items:center;justify-content:center}.document-container>.view-content.embed>*{max-width:100%;max-height:100%;object-fit:contain}:has(> :is(.math,table)){overflow-x:auto!important}.document-container>.view-content{overflow-x:auto;contain:content;padding:0;margin:0;height:100%}.scroll-highlight{position:absolute;width:100%;height:100%;pointer-events:none;z-index:1000;background-color:hsla(var(--color-accent-hsl),.25);opacity:0;padding:1em;inset:50%;translate:-50% -50%;border-radius:var(--radius-s)}</style><script defer="">async function loadIncludes(){if("file:"!=location.protocol){let e=document.querySelectorAll("include");for(let t=0;t<e.length;t++){let o=e[t],l=o.getAttribute("src");try{const e=await fetch(l);if(!e.ok){console.log("Could not include file: "+l),o?.remove();continue}let t=await e.text(),n=document.createRange().createContextualFragment(t),i=Array.from(n.children);for(let e of i)e.classList.add("hide"),e.style.transition="opacity 0.5s ease-in-out",setTimeout((()=>{e.classList.remove("hide")}),10);o.before(n),o.remove(),console.log("Included file: "+l)}catch(e){o?.remove(),console.log("Could not include file: "+l,e);continue}}}else{if(document.querySelectorAll("include").length>0){var e=document.createElement("div");e.id="error",e.textContent="Web server exports must be hosted on an http / web server to be viewed correctly.",e.style.position="fixed",e.style.top="50%",e.style.left="50%",e.style.transform="translate(-50%, -50%)",e.style.fontSize="1.5em",e.style.fontWeight="bold",e.style.textAlign="center",document.body.appendChild(e),document.querySelector(".document-container")?.classList.remove("hide")}}}document.addEventListener("DOMContentLoaded",(()=>{loadIncludes()}));let isFileProtocol="file:"==location.protocol;function waitLoadScripts(e,t){let o=e.map((e=>document.getElementById(e+"-script"))),l=0;!function e(){let n=o[l];l++,n&&"true"!=n.getAttribute("loaded")||l<o.length&&e(),l<o.length?n.addEventListener("load",e):t()}()}</script><link rel="stylesheet" href="lib/styles/obsidian.css"><link rel="stylesheet" href="lib/styles/theme.css"><link rel="preload" href="lib/styles/global-variable-styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="lib/styles/global-variable-styles.css"></noscript><link rel="preload" href="lib/styles/supported-plugins.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="lib/styles/supported-plugins.css"></noscript><link rel="preload" href="lib/styles/main-styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="lib/styles/main-styles.css"></noscript></head><body class="publish css-settings-manager theme-dark show-inline-title show-ribbon h2-underline"><script defer="">let theme=localStorage.getItem("theme")||(window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");"dark"==theme?(document.body.classList.add("theme-dark"),document.body.classList.remove("theme-light")):(document.body.classList.add("theme-light"),document.body.classList.remove("theme-dark")),window.innerWidth<480?document.body.classList.add("is-phone"):window.innerWidth<768?document.body.classList.add("is-tablet"):window.innerWidth<1024?document.body.classList.add("is-small-screen"):document.body.classList.add("is-large-screen")</script><div class="webpage-container workspace"><div class="sidebar-left sidebar"><div class="sidebar-handle"></div><div class="sidebar-topbar"><div class="topbar-content"><label class="theme-toggle-container" for="theme_toggle"><input class="theme-toggle-input" type="checkbox" id="theme_toggle"><div class="toggle-background"></div></label></div><div class="clickable-icon sidebar-collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><path d="M21 3H3C1.89543 3 1 3.89543 1 5V19C1 20.1046 1.89543 21 3 21H21C22.1046 21 23 20.1046 23 19V5C23 3.89543 22.1046 3 21 3Z"></path><path d="M10 4V20"></path><path d="M4 7H7"></path><path d="M4 10H7"></path><path d="M4 13H7"></path></svg></div></div><div class="sidebar-content"><div class="search-input-container"><input enterkeyhint="search" type="search" spellcheck="false" placeholder="Search..."><div class="search-input-clear-button" aria-label="Clear search"></div></div><include src="lib/html/file-tree.html"></include></div><script defer="">let ls = document.querySelector(".sidebar-left"); ls.classList.add("is-collapsed"); if (window.innerWidth > 768) ls.classList.remove("is-collapsed"); ls.style.setProperty("--sidebar-width", localStorage.getItem("sidebar-left-width"));</script></div><div class="document-container markdown-reading-view hide"><div class="markdown-preview-view markdown-rendered allow-fold-headings allow-fold-lists is-readable-line-width"><style id="MJX-CHTML-styles"></style><div class="markdown-preview-sizer markdown-preview-section"><h1 class="page-title heading inline-title" id="常用命令"><p dir="auto">常用命令</p></h1><div><pre dir="auto" class="language-shell" tabindex="0"><code class="language-shell is-loaded"><span class="token comment">##############################################################################</span>
+
+<span class="token comment"># BASH CHEATSHEET (中文速查表)  -  by skywind (created on 2018/02/14)</span>
+
+<span class="token comment"># Version: 47, Last Modified: 2019/09/24 17:58</span>
+
+<span class="token comment"># https://github.com/skywind3000/awesome-cheatsheets</span>
+
+<span class="token comment">##############################################################################</span>
+
+  
+  
+
+<span class="token comment">##############################################################################</span>
+
+<span class="token comment"># 常用快捷键（默认使用 Emacs 键位）</span>
+
+<span class="token comment">##############################################################################</span>
+
+  
+
+CTRL+A              <span class="token comment"># 移动到行首，同 &lt;Home&gt;</span>
+
+CTRL+B              <span class="token comment"># 向后移动，同 &lt;Left&gt;</span>
+
+CTRL+C              <span class="token comment"># 结束当前命令</span>
+
+CTRL+D              <span class="token comment"># 删除光标前的字符，同 &lt;Delete&gt; ，或者没有内容时，退出会话</span>
+
+CTRL+E              <span class="token comment"># 移动到行末，同 &lt;End&gt;</span>
+
+CTRL+F              <span class="token comment"># 向前移动，同 &lt;Right&gt;</span>
+
+CTRL+G              <span class="token comment"># 退出当前编辑（比如正在 CTRL+R 搜索历史时）</span>
+
+CTRL+H              <span class="token comment"># 删除光标左边的字符，同 &lt;Backspace&gt;</span>
+
+CTRL+K              <span class="token comment"># 删除光标位置到行末的内容</span>
+
+CTRL+L              <span class="token comment"># 清屏并重新显示</span>
+
+CTRL+N              <span class="token comment"># 移动到命令历史的下一行，同 &lt;Down&gt;</span>
+
+CTRL+O              <span class="token comment"># 类似回车，但是会显示下一行历史</span>
+
+CTRL+P              <span class="token comment"># 移动到命令历史的上一行，同 &lt;Up&gt;</span>
+
+CTRL+R              <span class="token comment"># 历史命令反向搜索，使用 CTRL+G 退出搜索</span>
+
+CTRL+S              <span class="token comment"># 历史命令正向搜索，使用 CTRL+G 退出搜索</span>
+
+CTRL+T              <span class="token comment"># 交换前后两个字符</span>
+
+CTRL+U              <span class="token comment"># 删除字符到行首</span>
+
+CTRL+V              <span class="token comment"># 输入字符字面量，先按 CTRL+V 再按任意键</span>
+
+CTRL+W              <span class="token comment"># 删除光标左边的一个单词</span>
+
+CTRL+X              <span class="token comment"># 列出可能的补全</span>
+
+CTRL+Y              <span class="token comment"># 粘贴前面 CTRL+u/k/w 删除过的内容</span>
+
+CTRL+Z              <span class="token comment"># 暂停前台进程返回 bash，需要时可用 fg 将其切换回前台</span>
+
+CTRL+_              <span class="token comment"># 撤销（undo），有的终端将 CTRL+_ 映射为 CTRL+/ 或 CTRL+7</span>
+
+  
+
+ALT+b               <span class="token comment"># 向后（左边）移动一个单词</span>
+
+ALT+d               <span class="token comment"># 删除光标后（右边）一个单词</span>
+
+ALT+f               <span class="token comment"># 向前（右边）移动一个单词</span>
+
+ALT+t               <span class="token comment"># 交换字符</span>
+
+ALT+BACKSPACE       <span class="token comment"># 删除光标前面一个单词，类似 CTRL+W，但不影响剪贴板</span>
+
+  
+
+CTRL+X CTRL+X       <span class="token comment"># 连续按两次 CTRL+X，光标在当前位置和行首来回跳转</span>
+
+CTRL+X CTRL+E       <span class="token comment"># 用你指定的编辑器，编辑当前命令</span>
+
+  
+  
+
+<span class="token comment">##############################################################################</span>
+
+<span class="token comment"># BASH 基本操作</span>
+
+<span class="token comment">##############################################################################</span>
+
+  
+
+<span class="token builtin class-name">exit</span>                <span class="token comment"># 退出当前登陆</span>
+
+<span class="token function">env</span>                 <span class="token comment"># 显示环境变量</span>
+
+<span class="token builtin class-name">echo</span> <span class="token environment constant">$SHELL</span>         <span class="token comment"># 显示你在使用什么 SHELL</span>
+
+  
+
+<span class="token function">bash</span>                <span class="token comment"># 使用 bash，用 exit 返回</span>
+
+<span class="token function">which</span> <span class="token function">bash</span>          <span class="token comment"># 搜索 $PATH，查找哪个程序对应命令 bash</span>
+
+<span class="token function">whereis</span> <span class="token function">bash</span>        <span class="token comment"># 搜索可执行，头文件和帮助信息的位置，使用系统内建数据库</span>
+
+whatis <span class="token function">bash</span>         <span class="token comment"># 查看某个命令的解释，一句话告诉你这是干什么的</span>
+
+  
+
+<span class="token function">clear</span>               <span class="token comment"># 清初屏幕内容</span>
+
+reset               <span class="token comment"># 重置终端（当你不小心 cat 了一个二进制，终端状态乱掉时使用）</span>
+
+  
+  
+
+<span class="token comment">##############################################################################</span>
+
+<span class="token comment"># 目录操作</span>
+
+<span class="token comment">##############################################################################</span>
+
+  
+
+<span class="token builtin class-name">cd</span>                  <span class="token comment"># 返回自己 $HOME 目录</span>
+
+<span class="token builtin class-name">cd</span> <span class="token punctuation">{</span>dirname<span class="token punctuation">}</span>        <span class="token comment"># 进入目录</span>
+
+<span class="token builtin class-name">pwd</span>                 <span class="token comment"># 显示当前所在目录</span>
+
+<span class="token function">mkdir</span> <span class="token punctuation">{</span>dirname<span class="token punctuation">}</span>     <span class="token comment"># 创建目录</span>
+
+<span class="token function">mkdir</span> -p <span class="token punctuation">{</span>dirname<span class="token punctuation">}</span>  <span class="token comment"># 递归创建目录</span>
+
+<span class="token function">pushd</span> <span class="token punctuation">{</span>dirname<span class="token punctuation">}</span>     <span class="token comment"># 目录压栈并进入新目录</span>
+
+<span class="token function">popd</span>                <span class="token comment"># 弹出并进入栈顶的目录</span>
+
+<span class="token function">dirs</span> -v             <span class="token comment"># 列出当前目录栈</span>
+
+<span class="token builtin class-name">cd</span> -                <span class="token comment"># 回到之前的目录</span>
+
+<span class="token builtin class-name">cd</span> -<span class="token punctuation">{</span>N<span class="token punctuation">}</span>             <span class="token comment"># 切换到目录栈中的第 N个目录，比如 cd -2 将切换到第二个</span>
+
+  
+  
+
+<span class="token comment">##############################################################################</span>
+
+<span class="token comment"># 文件操作</span>
+
+<span class="token comment">##############################################################################</span>
+
+  
+
+<span class="token function">ls</span>                  <span class="token comment"># 显示当前目录内容，后面可接目录名：ls {dir} 显示指定目录</span>
+
+<span class="token function">ls</span> -l               <span class="token comment"># 列表方式显示目录内容，包括文件日期，大小，权限等信息</span>
+
+<span class="token function">ls</span> -1               <span class="token comment"># 列表方式显示目录内容，只显示文件名称，减号后面是数字 1</span>
+
+<span class="token function">ls</span> -a               <span class="token comment"># 显示所有文件和目录，包括隐藏文件（.开头的文件/目录名）</span>
+
+<span class="token function">ln</span> -s <span class="token punctuation">{</span>fn<span class="token punctuation">}</span> <span class="token punctuation">{</span>link<span class="token punctuation">}</span>   <span class="token comment"># 给指定文件创建一个软链接</span>
+
+<span class="token function">cp</span> <span class="token punctuation">{</span>src<span class="token punctuation">}</span> <span class="token punctuation">{</span>dest<span class="token punctuation">}</span>     <span class="token comment"># 拷贝文件，cp -r dir1 dir2 可以递归拷贝（目录）</span>
+
+<span class="token function">rm</span> <span class="token punctuation">{</span>fn<span class="token punctuation">}</span>             <span class="token comment"># 删除文件，rm -r 递归删除目录，rm -f 强制删除</span>
+
+<span class="token function">mv</span> <span class="token punctuation">{</span>src<span class="token punctuation">}</span> <span class="token punctuation">{</span>dest<span class="token punctuation">}</span>     <span class="token comment"># 移动文件，如果 dest 是目录，则移动，是文件名则覆盖</span>
+
+<span class="token function">touch</span> <span class="token punctuation">{</span>fn<span class="token punctuation">}</span>          <span class="token comment"># 创建或者更新一下制定文件</span>
+
+<span class="token function">cat</span> <span class="token punctuation">{</span>fn<span class="token punctuation">}</span>            <span class="token comment"># 输出文件原始内容</span>
+
+any_cmd <span class="token operator">&gt;</span> <span class="token punctuation">{</span>fn<span class="token punctuation">}</span>      <span class="token comment"># 执行任意命令并将标准输出重定向到指定文件</span>
+
+<span class="token function">more</span> <span class="token punctuation">{</span>fn<span class="token punctuation">}</span>           <span class="token comment"># 逐屏显示某文件内容，空格翻页，q 退出</span>
+
+<span class="token function">less</span> <span class="token punctuation">{</span>fn<span class="token punctuation">}</span>           <span class="token comment"># 更高级点的 more，更多操作，q 退出</span>
+
+<span class="token function">head</span> <span class="token punctuation">{</span>fn<span class="token punctuation">}</span>           <span class="token comment"># 显示文件头部数行，可用 head -3 abc.txt 显示头三行</span>
+
+<span class="token function">tail</span> <span class="token punctuation">{</span>fn<span class="token punctuation">}</span>           <span class="token comment"># 显示文件尾部数行，可用 tail -3 abc.txt 显示尾部三行</span>
+
+<span class="token function">tail</span> -f <span class="token punctuation">{</span>fn<span class="token punctuation">}</span>        <span class="token comment"># 持续显示文件尾部数据，可用于监控日志</span>
+
+<span class="token function">nano</span> <span class="token punctuation">{</span>fn<span class="token punctuation">}</span>           <span class="token comment"># 使用 nano 编辑器编辑文件</span>
+
+<span class="token function">vim</span> <span class="token punctuation">{</span>fn<span class="token punctuation">}</span>            <span class="token comment"># 使用 vim 编辑文件</span>
+
+<span class="token function">diff</span> <span class="token punctuation">{</span>f1<span class="token punctuation">}</span> <span class="token punctuation">{</span>f2<span class="token punctuation">}</span>      <span class="token comment"># 比较两个文件的内容</span>
+
+<span class="token function">wc</span> <span class="token punctuation">{</span>fn<span class="token punctuation">}</span>             <span class="token comment"># 统计文件有多少行，多少个单词</span>
+
+<span class="token function">chmod</span> <span class="token number">644</span> <span class="token punctuation">{</span>fn<span class="token punctuation">}</span>      <span class="token comment"># 修改文件权限为 644，可以接 -R 对目录循环改权限</span>
+
+<span class="token function">chgrp</span> group <span class="token punctuation">{</span>fn<span class="token punctuation">}</span>    <span class="token comment"># 修改文件所属的用户组</span>
+
+<span class="token function">chown</span> user1 <span class="token punctuation">{</span>fn<span class="token punctuation">}</span>    <span class="token comment"># 修改文件所有人为 user1, chown user1:group1 fn 可以修改组</span>
+
+<span class="token function">file</span> <span class="token punctuation">{</span>fn<span class="token punctuation">}</span>           <span class="token comment"># 检测文件的类型和编码</span>
+
+<span class="token function">basename</span> <span class="token punctuation">{</span>fn<span class="token punctuation">}</span>       <span class="token comment"># 查看文件的名字（不包括路径）</span>
+
+<span class="token function">dirname</span> <span class="token punctuation">{</span>fn<span class="token punctuation">}</span>        <span class="token comment"># 查看文件的路径（不包括名字）</span>
+
+<span class="token function">grep</span> <span class="token punctuation">{</span>pat<span class="token punctuation">}</span> <span class="token punctuation">{</span>fn<span class="token punctuation">}</span>     <span class="token comment"># 在文件中查找出现过 pat 的内容</span>
+
+<span class="token function">grep</span> -r <span class="token punctuation">{</span>pat<span class="token punctuation">}</span> <span class="token builtin class-name">.</span>     <span class="token comment"># 在当前目录下递归查找所有出现过 pat 的文件内容</span>
+
+<span class="token function">stat</span> <span class="token punctuation">{</span>fn<span class="token punctuation">}</span>           <span class="token comment"># 显示文件的详细信息</span>
+
+  
+  
+
+<span class="token comment">##############################################################################</span>
+
+<span class="token comment"># 用户管理</span>
+
+<span class="token comment">##############################################################################</span>
+
+  
+
+<span class="token function">whoami</span>              <span class="token comment"># 显示我的用户名</span>
+
+<span class="token function">who</span>                 <span class="token comment"># 显示已登陆用户信息，w / who / users 内容略有不同</span>
+
+w                   <span class="token comment"># 显示已登陆用户信息，w / who / users 内容略有不同</span>
+
+<span class="token function">users</span>               <span class="token comment"># 显示已登陆用户信息，w / who / users 内容略有不同</span>
+
+<span class="token function">passwd</span>              <span class="token comment"># 修改密码，passwd {user} 可以用于 root 修改别人密码</span>
+
+finger <span class="token punctuation">{</span>user<span class="token punctuation">}</span>       <span class="token comment"># 显示某用户信息，包括 id, 名字, 登陆状态等</span>
+
+adduser <span class="token punctuation">{</span>user<span class="token punctuation">}</span>      <span class="token comment"># 添加用户</span>
+
+deluser <span class="token punctuation">{</span>user<span class="token punctuation">}</span>      <span class="token comment"># 删除用户</span>
+
+w                   <span class="token comment"># 查看谁在线</span>
+
+<span class="token function">su</span>                  <span class="token comment"># 切换到 root 用户</span>
+
+<span class="token function">su</span> -                <span class="token comment"># 切换到 root 用户并登陆（执行登陆脚本）</span>
+
+<span class="token function">su</span> <span class="token punctuation">{</span>user<span class="token punctuation">}</span>           <span class="token comment"># 切换到某用户</span>
+
+<span class="token function">su</span> -<span class="token punctuation">{</span>user<span class="token punctuation">}</span>          <span class="token comment"># 切换到某用户并登陆（执行登陆脚本）</span>
+
+<span class="token function">id</span> <span class="token punctuation">{</span>user<span class="token punctuation">}</span>           <span class="token comment"># 查看用户的 uid，gid 以及所属其他用户组</span>
+
+<span class="token function">id</span> -u <span class="token punctuation">{</span>user<span class="token punctuation">}</span>        <span class="token comment"># 打印用户 uid</span>
+
+<span class="token function">id</span> -g <span class="token punctuation">{</span>user<span class="token punctuation">}</span>        <span class="token comment"># 打印用户 gid</span>
+
+<span class="token function">write</span> <span class="token punctuation">{</span>user<span class="token punctuation">}</span>        <span class="token comment"># 向某用户发送一句消息</span>
+
+last                <span class="token comment"># 显示最近用户登陆列表</span>
+
+last <span class="token punctuation">{</span>user<span class="token punctuation">}</span>         <span class="token comment"># 显示登陆记录</span>
+
+lastb               <span class="token comment"># 显示失败登陆记录</span>
+
+lastlog             <span class="token comment"># 显示所有用户的最近登陆记录</span>
+
+<span class="token function">sudo</span> <span class="token punctuation">{</span>command<span class="token punctuation">}</span>      <span class="token comment"># 以 root 权限执行某命令</span>
+
+  
+  
+
+<span class="token comment">##############################################################################</span>
+
+<span class="token comment"># 进程管理</span>
+
+<span class="token comment">##############################################################################</span>
+
+  
+
+<span class="token function">ps</span>                        <span class="token comment"># 查看当前会话进程</span>
+
+<span class="token function">ps</span> ax                     <span class="token comment"># 查看所有进程，类似 ps -e</span>
+
+<span class="token function">ps</span> aux                    <span class="token comment"># 查看所有进程详细信息，类似 ps -ef</span>
+
+<span class="token function">ps</span> auxww                  <span class="token comment"># 查看所有进程，并且显示进程的完整启动命令</span>
+
+<span class="token function">ps</span> -u <span class="token punctuation">{</span>user<span class="token punctuation">}</span>              <span class="token comment"># 查看某用户进程</span>
+
+<span class="token function">ps</span> axjf                   <span class="token comment"># 列出进程树</span>
+
+<span class="token function">ps</span> xjf -u <span class="token punctuation">{</span>user<span class="token punctuation">}</span>          <span class="token comment"># 列出某用户的进程树</span>
+
+<span class="token function">ps</span> -eo pid,user,command   <span class="token comment"># 按用户指定的格式查看进程</span>
+
+<span class="token function">ps</span> aux <span class="token operator">|</span> <span class="token function">grep</span> httpd       <span class="token comment"># 查看名为 httpd 的所有进程</span>
+
+<span class="token function">ps</span> --ppid <span class="token punctuation">{</span>pid<span class="token punctuation">}</span>           <span class="token comment"># 查看父进程为 pid 的所有进程</span>
+
+pstree                    <span class="token comment"># 树形列出所有进程，pstree 默认一般不带，需安装</span>
+
+pstree <span class="token punctuation">{</span>user<span class="token punctuation">}</span>             <span class="token comment"># 进程树列出某用户的进程</span>
+
+pstree -u                 <span class="token comment"># 树形列出所有进程以及所属用户</span>
+
+pgrep <span class="token punctuation">{</span>procname<span class="token punctuation">}</span>          <span class="token comment"># 搜索名字匹配的进程的 pid，比如 pgrep apache2</span>
+
+  
+
+<span class="token function">kill</span> <span class="token punctuation">{</span>pid<span class="token punctuation">}</span>                <span class="token comment"># 结束进程</span>
+
+<span class="token function">kill</span> -9 <span class="token punctuation">{</span>pid<span class="token punctuation">}</span>             <span class="token comment"># 强制结束进程，9/SIGKILL 是强制不可捕获结束信号</span>
+
+<span class="token function">kill</span> -KILL <span class="token punctuation">{</span>pid<span class="token punctuation">}</span>          <span class="token comment"># 强制执行进程，kill -9 的另外一种写法</span>
+
+<span class="token function">kill</span> -l                   <span class="token comment"># 查看所有信号</span>
+
+<span class="token function">kill</span> -l <span class="token environment constant">TERM</span>              <span class="token comment"># 查看 TERM 信号的编号</span>
+
+<span class="token function">killall</span> <span class="token punctuation">{</span>procname<span class="token punctuation">}</span>        <span class="token comment"># 按名称结束所有进程</span>
+
+<span class="token function">pkill</span> <span class="token punctuation">{</span>procname<span class="token punctuation">}</span>          <span class="token comment"># 按名称结束进程，除名称外还可以有其他参数</span>
+
+  
+
+<span class="token function">top</span>                       <span class="token comment"># 查看最活跃的进程</span>
+
+<span class="token function">top</span> -u <span class="token punctuation">{</span>user<span class="token punctuation">}</span>             <span class="token comment"># 查看某用户最活跃的进程</span>
+
+  
+
+any_command <span class="token operator">&amp;</span>             <span class="token comment"># 在后台运行某命令，也可用 CTRL+Z 将当前进程挂到后台</span>
+
+<span class="token function">jobs</span>                      <span class="token comment"># 查看所有后台进程（jobs）</span>
+
+<span class="token function">bg</span>                        <span class="token comment"># 查看后台进程，并切换过去</span>
+
+<span class="token function">fg</span>                        <span class="token comment"># 切换后台进程到前台</span>
+
+<span class="token function">fg</span> <span class="token punctuation">{</span>job<span class="token punctuation">}</span>                  <span class="token comment"># 切换特定后台进程到前台</span>
+
+  
+
+<span class="token builtin class-name">trap</span> cmd sig1 sig2        <span class="token comment"># 在脚本中设置信号处理命令</span>
+
+<span class="token builtin class-name">trap</span> <span class="token string">""</span> sig1 sig2         <span class="token comment"># 在脚本中屏蔽某信号</span>
+
+<span class="token builtin class-name">trap</span> - sig1 sig2          <span class="token comment"># 恢复默认信号处理行为</span>
+
+  
+
+<span class="token function">nohup</span> <span class="token punctuation">{</span>command<span class="token punctuation">}</span>           <span class="token comment"># 长期运行某程序，在你退出登陆都保持它运行</span>
+
+<span class="token function">nohup</span> <span class="token punctuation">{</span>command<span class="token punctuation">}</span> <span class="token operator">&amp;</span>         <span class="token comment"># 在后台长期运行某程序</span>
+
+disown <span class="token punctuation">{</span>PID<span class="token operator">|</span>JID<span class="token punctuation">}</span>          <span class="token comment"># 将进程从后台任务列表（jobs）移除</span>
+
+  
+
+<span class="token function">wait</span>                      <span class="token comment"># 等待所有后台进程任务结束</span>
+
+  
+  
+
+<span class="token comment">##############################################################################</span>
+
+<span class="token comment"># 常用命令：SSH / 系统信息 / 网络</span>
+
+<span class="token comment">##############################################################################</span>
+
+  
+
+<span class="token function">ssh</span> user@host             <span class="token comment"># 以用户 user 登陆到远程主机 host</span>
+
+<span class="token function">ssh</span> -p <span class="token punctuation">{</span>port<span class="token punctuation">}</span> user@host   <span class="token comment"># 指定端口登陆主机</span>
+
+ssh-copy-id user@host     <span class="token comment"># 拷贝你的 ssh key 到远程主机，避免重复输入密码</span>
+
+<span class="token function">scp</span> <span class="token punctuation">{</span>fn<span class="token punctuation">}</span> user@host:path   <span class="token comment"># 拷贝文件到远程主机</span>
+
+<span class="token function">scp</span> user@host:path dest   <span class="token comment"># 从远程主机拷贝文件回来</span>
+
+<span class="token function">scp</span> -P <span class="token punctuation">{</span>port<span class="token punctuation">}</span> <span class="token punctuation">..</span>.         <span class="token comment"># 指定端口远程拷贝文件</span>
+
+  
+
+<span class="token function">uname</span> -a                  <span class="token comment"># 查看内核版本等信息</span>
+
+<span class="token function">man</span> <span class="token punctuation">{</span>help<span class="token punctuation">}</span>                <span class="token comment"># 查看帮助</span>
+
+<span class="token function">man</span> -k <span class="token punctuation">{</span>keyword<span class="token punctuation">}</span>          <span class="token comment"># 查看哪些帮助文档里包含了该关键字</span>
+
+info <span class="token punctuation">{</span>help<span class="token punctuation">}</span>               <span class="token comment"># 查看 info pages，比 man 更强的帮助系统</span>
+
+<span class="token function">uptime</span>                    <span class="token comment"># 查看系统启动时间</span>
+
+<span class="token function">date</span>                      <span class="token comment"># 显示日期</span>
+
+<span class="token function">cal</span>                       <span class="token comment"># 显示日历</span>
+
+<span class="token function">vmstat</span>                    <span class="token comment"># 显示内存和 CPU 使用情况</span>
+
+<span class="token function">vmstat</span> <span class="token number">10</span>                 <span class="token comment"># 每 10 秒打印一行内存和 CPU情况，CTRL+C 退出</span>
+
+<span class="token function">free</span>                      <span class="token comment"># 显示内存和交换区使用情况</span>
+
+<span class="token function">df</span>                        <span class="token comment"># 显示磁盘使用情况</span>
+
+<span class="token function">du</span>                        <span class="token comment"># 显示当前目录占用，du . --max-depth=2 可以指定深度</span>
+
+<span class="token function">du</span> -h                     <span class="token comment"># 显示当前目录占用，-h 以方便阅读的格式输出 (K/M/G)</span>
+
+<span class="token function">uname</span>                     <span class="token comment"># 显示系统版本号</span>
+
+<span class="token function">hostname</span>                  <span class="token comment"># 显示主机名称</span>
+
+showkey -a                <span class="token comment"># 查看终端发送的按键编码</span>
+
+  
+
+<span class="token function">ping</span> <span class="token punctuation">{</span>host<span class="token punctuation">}</span>               <span class="token comment"># ping 远程主机并显示结果，CTRL+C 退出</span>
+
+<span class="token function">ping</span> -c N <span class="token punctuation">{</span>host<span class="token punctuation">}</span>          <span class="token comment"># ping 远程主机 N 次</span>
+
+<span class="token function">traceroute</span> <span class="token punctuation">{</span>host<span class="token punctuation">}</span>         <span class="token comment"># 侦测路由连通情况</span>
+
+<span class="token function">mtr</span> <span class="token punctuation">{</span>host<span class="token punctuation">}</span>                <span class="token comment"># 高级版本 traceroute</span>
+
+<span class="token function">host</span> <span class="token punctuation">{</span>domain<span class="token punctuation">}</span>             <span class="token comment"># DNS 查询，{domain} 前面可加 -a 查看详细信息</span>
+
+whois <span class="token punctuation">{</span>domain<span class="token punctuation">}</span>            <span class="token comment"># 取得域名 whois 信息</span>
+
+<span class="token function">dig</span> <span class="token punctuation">{</span>domain<span class="token punctuation">}</span>              <span class="token comment"># 取得域名 dns 信息</span>
+
+route -n                  <span class="token comment"># 查看路由表</span>
+
+<span class="token function">netstat</span> -a                <span class="token comment"># 列出所有端口</span>
+
+<span class="token function">netstat</span> -an               <span class="token comment"># 查看所有连接信息，不解析域名</span>
+
+<span class="token function">netstat</span> -anp              <span class="token comment"># 查看所有连接信息，包含进程信息（需要 sudo）</span>
+
+<span class="token function">netstat</span> -l                <span class="token comment"># 查看所有监听的端口</span>
+
+<span class="token function">netstat</span> -t                <span class="token comment"># 查看所有 TCP 链接</span>
+
+<span class="token function">netstat</span> -lntu             <span class="token comment"># 显示所有正在监听的 TCP 和 UDP 信息</span>
+
+<span class="token function">netstat</span> -lntup            <span class="token comment"># 显示所有正在监听的 socket 及进程信息</span>
+
+<span class="token function">netstat</span> -i                <span class="token comment"># 显示网卡信息</span>
+
+<span class="token function">netstat</span> -rn               <span class="token comment"># 显示当前系统路由表，同 route -n</span>
+
+ss -an                    <span class="token comment"># 比 netstat -an 更快速更详细</span>
+
+ss -s                     <span class="token comment"># 统计 TCP 的 established, wait 等</span>
+
+  
+
+<span class="token function">wget</span> <span class="token punctuation">{</span>url<span class="token punctuation">}</span>                <span class="token comment"># 下载文件，可加 --no-check-certificate 忽略 ssl 验证</span>
+
+<span class="token function">wget</span> -qO- <span class="token punctuation">{</span>url<span class="token punctuation">}</span>           <span class="token comment"># 下载文件并输出到标准输出（不保存）</span>
+
+<span class="token function">curl</span> -sL <span class="token punctuation">{</span>url<span class="token punctuation">}</span>            <span class="token comment"># 同 wget -qO- {url} 没有 wget 的时候使用</span>
+
+  
+
+sz <span class="token punctuation">{</span>file<span class="token punctuation">}</span>                 <span class="token comment"># 发送文件到终端，zmodem 协议</span>
+
+rz                        <span class="token comment"># 接收终端发送过来的文件</span>
+
+  
+  
+
+<span class="token comment">##############################################################################</span>
+
+<span class="token comment"># 变量操作</span>
+
+<span class="token comment">##############################################################################</span>
+
+  
+
+<span class="token assign-left variable">varname</span><span class="token operator">=</span>value             <span class="token comment"># 定义变量</span>
+
+<span class="token assign-left variable">varname</span><span class="token operator">=</span>value <span class="token builtin class-name">command</span>     <span class="token comment"># 定义子进程变量并执行子进程</span>
+
+<span class="token builtin class-name">echo</span> <span class="token variable">$varname</span>             <span class="token comment"># 查看变量内容</span>
+
+<span class="token builtin class-name">echo</span> <span class="token variable">$$</span>                   <span class="token comment"># 查看当前 shell 的进程号</span>
+
+<span class="token builtin class-name">echo</span> <span class="token variable">$!</span>                   <span class="token comment"># 查看最近调用的后台任务进程号</span>
+
+<span class="token builtin class-name">echo</span> <span class="token variable">$?</span>                   <span class="token comment"># 查看最近一条命令的返回码</span>
+
+<span class="token builtin class-name">export</span> <span class="token assign-left variable">VARNAME</span><span class="token operator">=</span>value      <span class="token comment"># 设置环境变量（将会影响到子进程）</span>
+
+  
+
+array<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token operator">=</span>valA             <span class="token comment"># 定义数组</span>
+
+array<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token operator">=</span>valB
+
+array<span class="token punctuation">[</span><span class="token number">2</span><span class="token punctuation">]</span><span class="token operator">=</span>valC
+
+<span class="token assign-left variable">array</span><span class="token operator">=</span><span class="token punctuation">(</span><span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token operator">=</span>valA <span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token operator">=</span>valB <span class="token punctuation">[</span><span class="token number">2</span><span class="token punctuation">]</span><span class="token operator">=</span>valC<span class="token punctuation">)</span>   <span class="token comment"># 另一种方式</span>
+
+<span class="token assign-left variable">array</span><span class="token operator">=</span><span class="token punctuation">(</span>valA valB valC<span class="token punctuation">)</span>               <span class="token comment"># 另一种方式</span>
+
+  
+
+<span class="token variable">${array<span class="token punctuation">[</span>i<span class="token punctuation">]</span>}</span>               <span class="token comment"># 取得数组中的元素</span>
+
+<span class="token variable">${<span class="token operator">#</span>array<span class="token punctuation">[</span>@<span class="token punctuation">]</span>}</span>              <span class="token comment"># 取得数组的长度</span>
+
+<span class="token variable">${<span class="token operator">#</span>array<span class="token punctuation">[</span>i<span class="token punctuation">]</span>}</span>              <span class="token comment"># 取得数组中某个变量的长度</span>
+
+  
+
+<span class="token builtin class-name">declare</span> -a                <span class="token comment"># 查看所有数组</span>
+
+<span class="token builtin class-name">declare</span> -f                <span class="token comment"># 查看所有函数</span>
+
+<span class="token builtin class-name">declare</span> -F                <span class="token comment"># 查看所有函数，仅显示函数名</span>
+
+<span class="token builtin class-name">declare</span> -i                <span class="token comment"># 查看所有整数</span>
+
+<span class="token builtin class-name">declare</span> -r                <span class="token comment"># 查看所有只读变量</span>
+
+<span class="token builtin class-name">declare</span> -x                <span class="token comment"># 查看所有被导出成环境变量的东西</span>
+
+<span class="token builtin class-name">declare</span> -p varname        <span class="token comment"># 输出变量是怎么定义的（类型+值）</span>
+
+  
+
+<span class="token variable">${varname<span class="token operator">:-</span>word}</span>          <span class="token comment"># 如果变量不为空则返回变量，否则返回 word</span>
+
+<span class="token variable">${varname<span class="token operator">:=</span>word}</span>          <span class="token comment"># 如果变量不为空则返回变量，否则赋值成 word 并返回</span>
+
+<span class="token variable">${varname<span class="token operator">:?</span>message}</span>       <span class="token comment"># 如果变量不为空则返回变量，否则打印错误信息并退出</span>
+
+<span class="token variable">${varname<span class="token operator">:+</span>word}</span>          <span class="token comment"># 如果变量不为空则返回 word，否则返回 null</span>
+
+<span class="token variable">${varname<span class="token operator">:</span>offset<span class="token operator">:</span>len}</span>     <span class="token comment"># 取得字符串的子字符串</span>
+
+  
+
+<span class="token variable">${variable<span class="token operator">#</span>pattern}</span>       <span class="token comment"># 如果变量头部匹配 pattern，则删除最小匹配部分返回剩下的</span>
+
+<span class="token variable">${variable<span class="token operator">##</span>pattern}</span>      <span class="token comment"># 如果变量头部匹配 pattern，则删除最大匹配部分返回剩下的</span>
+
+<span class="token variable">${variable<span class="token operator">%</span>pattern}</span>       <span class="token comment"># 如果变量尾部匹配 pattern，则删除最小匹配部分返回剩下的</span>
+
+<span class="token variable">${variable<span class="token operator">%%</span>pattern}</span>      <span class="token comment"># 如果变量尾部匹配 pattern，则删除最大匹配部分返回剩下的</span>
+
+<span class="token variable">${variable<span class="token operator">/</span>pattern<span class="token operator">/</span>str}</span>   <span class="token comment"># 将变量中第一个匹配 pattern 的替换成 str，并返回</span>
+
+<span class="token variable">${variable<span class="token operator">/</span><span class="token operator">/</span>pattern<span class="token operator">/</span>str}</span>  <span class="token comment"># 将变量中所有匹配 pattern 的地方替换成 str 并返回</span>
+
+  
+
+<span class="token variable">${<span class="token operator">#</span>varname}</span>               <span class="token comment"># 返回字符串长度</span>
+
+  
+
+*<span class="token punctuation">(</span>patternlist<span class="token punctuation">)</span>            <span class="token comment"># 零次或者多次匹配</span>
+
++<span class="token punctuation">(</span>patternlist<span class="token punctuation">)</span>            <span class="token comment"># 一次或者多次匹配</span>
+
+?<span class="token punctuation">(</span>patternlist<span class="token punctuation">)</span>            <span class="token comment"># 零次或者一次匹配</span>
+
+@<span class="token punctuation">(</span>patternlist<span class="token punctuation">)</span>            <span class="token comment"># 单词匹配</span>
+
+<span class="token operator">!</span><span class="token punctuation">(</span>patternlist<span class="token punctuation">)</span>            <span class="token comment"># 不匹配</span>
+
+  
+
+<span class="token assign-left variable">array</span><span class="token operator">=</span><span class="token punctuation">(</span><span class="token variable">$text</span><span class="token punctuation">)</span>             <span class="token comment"># 按空格分隔 text 成数组，并赋值给变量</span>
+
+<span class="token assign-left variable"><span class="token environment constant">IFS</span></span><span class="token operator">=</span><span class="token string">"/"</span> <span class="token assign-left variable">array</span><span class="token operator">=</span><span class="token punctuation">(</span><span class="token variable">$text</span><span class="token punctuation">)</span>     <span class="token comment"># 按斜杆分隔字符串 text 成数组，并赋值给变量</span>
+
+<span class="token assign-left variable">text</span><span class="token operator">=</span><span class="token string">"<span class="token variable">${array<span class="token punctuation">[</span>*<span class="token punctuation">]</span>}</span>"</span>        <span class="token comment"># 用空格链接数组并赋值给变量</span>
+
+<span class="token assign-left variable">text</span><span class="token operator">=</span><span class="token variable"><span class="token variable">$(</span><span class="token assign-left variable"><span class="token environment constant">IFS</span></span><span class="token operator">=</span>/<span class="token punctuation">;</span> <span class="token builtin class-name">echo</span> <span class="token string">"<span class="token variable">${array<span class="token punctuation">[</span>*<span class="token punctuation">]</span>}</span>"</span><span class="token variable">)</span></span>  <span class="token comment"># 用斜杠链接数组并赋值给变量</span>
+
+  
+
+<span class="token assign-left variable">A</span><span class="token operator">=</span><span class="token punctuation">(</span> foo bar <span class="token string">"a  b c"</span> <span class="token number">42</span> <span class="token punctuation">)</span> <span class="token comment"># 数组定义</span>
+
+<span class="token assign-left variable">B</span><span class="token operator">=</span><span class="token punctuation">(</span><span class="token string">"<span class="token variable">${A<span class="token punctuation">[</span>@<span class="token punctuation">]</span><span class="token operator">:</span>1<span class="token operator">:</span>2}</span>"</span><span class="token punctuation">)</span>         <span class="token comment"># 数组切片：B=( bar "a  b c" )</span>
+
+<span class="token assign-left variable">C</span><span class="token operator">=</span><span class="token punctuation">(</span><span class="token string">"<span class="token variable">${A<span class="token punctuation">[</span>@<span class="token punctuation">]</span><span class="token operator">:</span>1}</span>"</span><span class="token punctuation">)</span>           <span class="token comment"># 数组切片：C=( bar "a  b c" 42 )</span>
+
+<span class="token builtin class-name">echo</span> <span class="token string">"<span class="token variable">${B<span class="token punctuation">[</span>@<span class="token punctuation">]</span>}</span>"</span>            <span class="token comment"># bar a  b c</span>
+
+<span class="token builtin class-name">echo</span> <span class="token string">"<span class="token variable">${B<span class="token punctuation">[</span>1<span class="token punctuation">]</span>}</span>"</span>            <span class="token comment"># a  b c</span>
+
+<span class="token builtin class-name">echo</span> <span class="token string">"<span class="token variable">${C<span class="token punctuation">[</span>@<span class="token punctuation">]</span>}</span>"</span>            <span class="token comment"># bar a  b c 42</span>
+
+<span class="token builtin class-name">echo</span> <span class="token string">"<span class="token variable">${C<span class="token punctuation">[</span>@<span class="token punctuation">]</span><span class="token operator">:</span> -2<span class="token operator">:</span>2}</span>"</span>      <span class="token comment"># a  b c 42  减号前的空格是必须的</span>
+
+  
+
+<span class="token variable"><span class="token variable">$(</span>UNIX <span class="token builtin class-name">command</span><span class="token variable">)</span></span>           <span class="token comment"># 运行命令，并将标准输出内容捕获并返回</span>
+
+<span class="token assign-left variable">varname</span><span class="token operator">=</span><span class="token variable"><span class="token variable">$(</span><span class="token function">id</span> -u user<span class="token variable">)</span></span>     <span class="token comment"># 将用户名为 user 的 uid 赋值给 varname 变量</span>
+
+  
+
+<span class="token assign-left variable">num</span><span class="token operator">=</span><span class="token variable"><span class="token variable">$(</span><span class="token function">expr</span> <span class="token number">1</span> + <span class="token number">2</span><span class="token variable">)</span></span>         <span class="token comment"># 兼容 posix sh 的计算，使用 expr 命令计算结果</span>
+
+<span class="token assign-left variable">num</span><span class="token operator">=</span><span class="token variable"><span class="token variable">$(</span><span class="token function">expr</span> $num + <span class="token number">1</span><span class="token variable">)</span></span>      <span class="token comment"># 数字自增</span>
+
+<span class="token function">expr</span> <span class="token number">2</span> <span class="token punctuation">\</span>* <span class="token punctuation">\</span><span class="token punctuation">(</span> <span class="token number">2</span> + <span class="token number">3</span> <span class="token punctuation">\</span><span class="token punctuation">)</span>     <span class="token comment"># 兼容 posix sh 的复杂计算，输出 10</span>
+
+  
+
+<span class="token assign-left variable">num</span><span class="token operator">=</span><span class="token variable"><span class="token variable">$((</span><span class="token number">1</span> <span class="token operator">+</span> <span class="token number">2</span><span class="token variable">))</span></span>            <span class="token comment"># 计算 1+2 赋值给 num，使用 bash 独有的 $((..)) 计算</span>
+
+<span class="token assign-left variable">num</span><span class="token operator">=</span><span class="token variable"><span class="token variable">$((</span>$num <span class="token operator">+</span> <span class="token number">1</span><span class="token variable">))</span></span>         <span class="token comment"># 变量递增</span>
+
+<span class="token assign-left variable">num</span><span class="token operator">=</span><span class="token variable"><span class="token variable">$((</span>num <span class="token operator">+</span> <span class="token number">1</span><span class="token variable">))</span></span>          <span class="token comment"># 变量递增，双括号内的 $ 可以省略</span>
+
+<span class="token assign-left variable">num</span><span class="token operator">=</span><span class="token variable"><span class="token variable">$((</span><span class="token number">1</span> <span class="token operator">+</span> <span class="token punctuation">(</span><span class="token number">2</span> <span class="token operator">+</span> <span class="token number">3</span><span class="token punctuation">)</span> <span class="token operator">*</span> <span class="token number">2</span><span class="token variable">))</span></span>  <span class="token comment"># 复杂计算</span>
+
+  
+  
+
+<span class="token comment">##############################################################################</span>
+
+<span class="token comment"># 事件指示符</span>
+
+<span class="token comment">##############################################################################</span>
+
+  
+
+<span class="token operator">!</span><span class="token operator">!</span>                  <span class="token comment"># 上一条命令</span>
+
+<span class="token operator">!</span>^                  <span class="token comment"># 上一条命令的第一个单词</span>
+
+<span class="token operator">!</span>:n                 <span class="token comment"># 上一条命令的第n个单词</span>
+
+<span class="token operator">!</span>:n-$               <span class="token comment"># 上一条命令的第n个单词到最后一个单词</span>
+
+<span class="token operator">!</span>$                  <span class="token comment"># 上一条命令的最后一个单词</span>
+
+<span class="token operator">!</span>-n:$               <span class="token comment"># 上n条命令的最后一个单词</span>
+
+<span class="token operator">!</span>string             <span class="token comment"># 最近一条包含string的命令</span>
+
+<span class="token operator">!</span>^string1^string2   <span class="token comment"># 最近一条包含string1的命令, 快速替换string1为string2</span>
+
+<span class="token operator">!</span><span class="token comment">#                  # 本条命令之前所有的输入内容</span>
+
+<span class="token operator">!</span><span class="token comment">#:n                # 本条命令之前的第n个单词, 快速备份cp /etc/passwd !#:1.bak</span>
+
+  
+  
+
+<span class="token comment">##############################################################################</span>
+
+<span class="token comment"># 函数</span>
+
+<span class="token comment">##############################################################################</span>
+
+  
+
+<span class="token comment"># 定义一个新函数</span>
+
+<span class="token keyword">function</span> <span class="token function-name function">myfunc</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+
+    <span class="token comment"># $1 代表第一个参数，$N 代表第 N 个参数</span>
+
+    <span class="token comment"># $# 代表参数个数</span>
+
+    <span class="token comment"># $0 代表被调用者自身的名字</span>
+
+    <span class="token comment"># $@ 代表所有参数，类型是个数组，想传递所有参数给其他命令用 cmd "$@"</span>
+
+    <span class="token comment"># $* 空格链接起来的所有参数，类型是字符串</span>
+
+    <span class="token punctuation">{</span>shell commands <span class="token punctuation">..</span>.<span class="token punctuation">}</span>
+
+<span class="token punctuation">}</span>
+
+  
+
+myfunc                    <span class="token comment"># 调用函数 myfunc</span>
+
+myfunc arg1 arg2 arg3     <span class="token comment"># 带参数的函数调用</span>
+
+myfunc <span class="token string">"<span class="token variable">$@</span>"</span>               <span class="token comment"># 将所有参数传递给函数</span>
+
+myfunc <span class="token string">"<span class="token variable">${array<span class="token punctuation">[</span>@<span class="token punctuation">]</span>}</span>"</span>      <span class="token comment"># 将一个数组当作多个参数传递给函数</span>
+
+<span class="token builtin class-name">shift</span>                     <span class="token comment"># 参数左移</span>
+
+  
+
+<span class="token builtin class-name">unset</span> -f myfunc           <span class="token comment"># 删除函数</span>
+
+<span class="token builtin class-name">declare</span> -f                <span class="token comment"># 列出函数定义</span>
+
+  
+  
+
+<span class="token comment">##############################################################################</span>
+
+<span class="token comment"># 条件判断（兼容 posix sh 的条件判断）：man test</span>
+
+<span class="token comment">##############################################################################</span>
+
+  
+
+statement1 <span class="token operator">&amp;&amp;</span> statement2  <span class="token comment"># and 操作符</span>
+
+statement1 <span class="token operator">||</span> statement2  <span class="token comment"># or 操作符</span>
+
+  
+
+exp1 -a exp2              <span class="token comment"># exp1 和 exp2 同时为真时返回真（POSIX XSI扩展）</span>
+
+exp1 -o exp2              <span class="token comment"># exp1 和 exp2 有一个为真就返回真（POSIX XSI扩展）</span>
+
+<span class="token punctuation">(</span> expression <span class="token punctuation">)</span>            <span class="token comment"># 如果 expression 为真时返回真，输入注意括号前反斜杆</span>
+
+<span class="token operator">!</span> expression              <span class="token comment"># 如果 expression 为假那返回真</span>
+
+  
+
+str1 <span class="token operator">=</span> str2               <span class="token comment"># 判断字符串相等，如 [ "$x" = "$y" ] &amp;&amp; echo yes</span>
+
+str1 <span class="token operator">!=</span> str2              <span class="token comment"># 判断字符串不等，如 [ "$x" != "$y" ] &amp;&amp; echo yes</span>
+
+str1 <span class="token operator">&lt;</span> str2               <span class="token comment"># 字符串小于，如 [ "$x" \&lt; "$y" ] &amp;&amp; echo yes</span>
+
+str2 <span class="token operator">&gt;</span> str2               <span class="token comment"># 字符串大于，注意 &lt; 或 &gt; 是字面量，输入时要加反斜杆</span>
+
+-n str1                   <span class="token comment"># 判断字符串不为空（长度大于零）</span>
+
+-z str1                   <span class="token comment"># 判断字符串为空（长度等于零）</span>
+
+  
+
+-a <span class="token function">file</span>                   <span class="token comment"># 判断文件存在，如 [ -a /tmp/abc ] &amp;&amp; echo "exists"</span>
+
+-d <span class="token function">file</span>                   <span class="token comment"># 判断文件存在，且该文件是一个目录</span>
+
+-e <span class="token function">file</span>                   <span class="token comment"># 判断文件存在，和 -a 等价</span>
+
+-f <span class="token function">file</span>                   <span class="token comment"># 判断文件存在，且该文件是一个普通文件（非目录等）</span>
+
+-r <span class="token function">file</span>                   <span class="token comment"># 判断文件存在，且可读</span>
+
+-s <span class="token function">file</span>                   <span class="token comment"># 判断文件存在，且尺寸大于0</span>
+
+-w <span class="token function">file</span>                   <span class="token comment"># 判断文件存在，且可写</span>
+
+-x <span class="token function">file</span>                   <span class="token comment"># 判断文件存在，且执行</span>
+
+-N <span class="token function">file</span>                   <span class="token comment"># 文件上次修改过后还没有读取过</span>
+
+-O <span class="token function">file</span>                   <span class="token comment"># 文件存在且属于当前用户</span>
+
+-G <span class="token function">file</span>                   <span class="token comment"># 文件存在且匹配你的用户组</span>
+
+file1 -nt file2           <span class="token comment"># 文件1 比 文件2 新</span>
+
+file1 -ot file2           <span class="token comment"># 文件1 比 文件2 旧</span>
+
+  
+
+num1 -eq num2             <span class="token comment"># 数字判断：num1 == num2</span>
+
+num1 -ne num2             <span class="token comment"># 数字判断：num1 != num2</span>
+
+num1 -lt num2             <span class="token comment"># 数字判断：num1 &lt; num2</span>
+
+num1 -le num2             <span class="token comment"># 数字判断：num1 &lt;= num2</span>
+
+num1 -gt num2             <span class="token comment"># 数字判断：num1 &gt; num2</span>
+
+num1 -ge num2             <span class="token comment"># 数字判断：num1 &gt;= num2</span>
+
+  
+  
+
+<span class="token comment">##############################################################################</span>
+
+<span class="token comment"># 分支控制：if 和经典 test，兼容 posix sh 的条件判断语句</span>
+
+<span class="token comment">##############################################################################</span>
+
+  
+
+<span class="token builtin class-name">test</span> <span class="token punctuation">{</span>expression<span class="token punctuation">}</span>         <span class="token comment"># 判断条件为真的话 test 程序返回0 否则非零</span>
+
+<span class="token punctuation">[</span> expression <span class="token punctuation">]</span>            <span class="token comment"># 判断条件为真的话返回0 否则非零</span>
+
+  
+
+<span class="token builtin class-name">test</span> <span class="token string">"abc"</span> <span class="token operator">=</span> <span class="token string">"def"</span>        <span class="token comment"># 查看返回值 echo $? 显示 1，因为条件为假</span>
+
+<span class="token builtin class-name">test</span> <span class="token string">"abc"</span> <span class="token operator">!=</span> <span class="token string">"def"</span>       <span class="token comment"># 查看返回值 echo $? 显示 0，因为条件为真</span>
+
+  
+
+<span class="token builtin class-name">test</span> -a /tmp<span class="token punctuation">;</span> <span class="token builtin class-name">echo</span> <span class="token variable">$?</span>     <span class="token comment"># 调用 test 判断 /tmp 是否存在，并打印 test 的返回值</span>
+
+<span class="token punctuation">[</span> -a /tmp <span class="token punctuation">]</span><span class="token punctuation">;</span> <span class="token builtin class-name">echo</span> <span class="token variable">$?</span>      <span class="token comment"># 和上面完全等价，/tmp 肯定是存在的，所以输出是 0</span>
+
+  
+
+<span class="token builtin class-name">test</span> cond <span class="token operator">&amp;&amp;</span> cmd1         <span class="token comment"># 判断条件为真时执行 cmd1</span>
+
+<span class="token punctuation">[</span> cond <span class="token punctuation">]</span> <span class="token operator">&amp;&amp;</span> cmd1          <span class="token comment"># 和上面完全等价</span>
+
+<span class="token punctuation">[</span> cond <span class="token punctuation">]</span> <span class="token operator">&amp;&amp;</span> cmd1 <span class="token operator">||</span> cmd2  <span class="token comment"># 条件为真执行 cmd1 否则执行 cmd2</span>
+
+  
+
+<span class="token comment"># 判断 /etc/passwd 文件是否存在</span>
+
+<span class="token comment"># 经典的 if 语句就是判断后面的命令返回值为0的话，认为条件为真，否则为假</span>
+
+<span class="token keyword">if</span> <span class="token builtin class-name">test</span> -e /etc/passwd<span class="token punctuation">;</span> <span class="token keyword">then</span>
+
+    <span class="token builtin class-name">echo</span> <span class="token string">"alright it exists ... "</span>
+
+<span class="token keyword">else</span>
+
+    <span class="token builtin class-name">echo</span> <span class="token string">"it doesn't exist ... "</span>
+
+<span class="token keyword">fi</span>
+
+  
+
+<span class="token comment"># 和上面完全等价，[ 是个和 test 一样的可执行程序，但最后一个参数必须为 ]</span>
+
+<span class="token comment"># 这个名字为 "[" 的可执行程序一般就在 /bin 或 /usr/bin 下面，比 test 优雅些</span>
+
+<span class="token keyword">if</span> <span class="token punctuation">[</span> -e /etc/passwd <span class="token punctuation">]</span><span class="token punctuation">;</span> <span class="token keyword">then</span>  
+
+    <span class="token builtin class-name">echo</span> <span class="token string">"alright it exists ... "</span>
+
+<span class="token keyword">else</span>
+
+    <span class="token builtin class-name">echo</span> <span class="token string">"it doesn't exist ... "</span>
+
+<span class="token keyword">fi</span>
+
+  
+
+<span class="token comment"># 和上面两个完全等价，其实到 bash 时代 [ 已经是内部命令了，用 enable 可以看到</span>
+
+<span class="token punctuation">[</span> -e /etc/passwd <span class="token punctuation">]</span> <span class="token operator">&amp;&amp;</span> <span class="token builtin class-name">echo</span> <span class="token string">"alright it exists"</span> <span class="token operator">||</span> <span class="token builtin class-name">echo</span> <span class="token string">"it doesn't exist"</span>
+
+  
+
+<span class="token comment"># 判断变量的值</span>
+
+<span class="token keyword">if</span> <span class="token punctuation">[</span> <span class="token string">"<span class="token variable">$varname</span>"</span> <span class="token operator">=</span> <span class="token string">"foo"</span> <span class="token punctuation">]</span><span class="token punctuation">;</span> <span class="token keyword">then</span>
+
+    <span class="token builtin class-name">echo</span> <span class="token string">"this is foo"</span>
+
+<span class="token keyword">elif</span> <span class="token punctuation">[</span> <span class="token string">"<span class="token variable">$varname</span>"</span> <span class="token operator">=</span> <span class="token string">"bar"</span> <span class="token punctuation">]</span><span class="token punctuation">;</span> <span class="token keyword">then</span>
+
+    <span class="token builtin class-name">echo</span> <span class="token string">"this is bar"</span>
+
+<span class="token keyword">else</span>
+
+    <span class="token builtin class-name">echo</span> <span class="token string">"neither"</span>
+
+<span class="token keyword">fi</span>
+
+  
+
+<span class="token comment"># 复杂条件判断，注意 || 和 &amp;&amp; 是完全兼容 POSIX 的推荐写法</span>
+
+<span class="token keyword">if</span> <span class="token punctuation">[</span> <span class="token variable">$x</span> -gt <span class="token number">10</span> <span class="token punctuation">]</span> <span class="token operator">&amp;&amp;</span> <span class="token punctuation">[</span> <span class="token variable">$x</span> -lt <span class="token number">20</span> <span class="token punctuation">]</span><span class="token punctuation">;</span> <span class="token keyword">then</span>
+
+    <span class="token builtin class-name">echo</span> <span class="token string">"yes, between 10 and 20"</span>
+
+<span class="token keyword">fi</span>
+
+  
+
+<span class="token comment"># 可以用 &amp;&amp; 命令连接符来做和上面完全等价的事情</span>
+
+<span class="token punctuation">[</span> <span class="token variable">$x</span> -gt <span class="token number">10</span> <span class="token punctuation">]</span> <span class="token operator">&amp;&amp;</span> <span class="token punctuation">[</span> <span class="token variable">$x</span> -lt <span class="token number">20</span> <span class="token punctuation">]</span> <span class="token operator">&amp;&amp;</span> <span class="token builtin class-name">echo</span> <span class="token string">"yes, between 10 and 20"</span>
+
+  
+
+<span class="token comment"># 小括号和 -a -o 是 POSIX XSI 扩展写法，小括号是字面量，输入时前面要加反斜杆</span>
+
+<span class="token keyword">if</span> <span class="token punctuation">[</span> <span class="token punctuation">\</span><span class="token punctuation">(</span> <span class="token variable">$x</span> -gt <span class="token number">10</span> <span class="token punctuation">\</span><span class="token punctuation">)</span> -a <span class="token punctuation">\</span><span class="token punctuation">(</span> <span class="token variable">$x</span> -lt <span class="token number">20</span> <span class="token punctuation">\</span><span class="token punctuation">)</span> <span class="token punctuation">]</span><span class="token punctuation">;</span> <span class="token keyword">then</span>
+
+    <span class="token builtin class-name">echo</span> <span class="token string">"yes, between 10 and 20"</span>
+
+<span class="token keyword">fi</span>
+
+  
+
+<span class="token comment"># 同样可以用 &amp;&amp; 命令连接符来做和上面完全等价的事情</span>
+
+<span class="token punctuation">[</span> <span class="token punctuation">\</span><span class="token punctuation">(</span> <span class="token variable">$x</span> -gt <span class="token number">10</span> <span class="token punctuation">\</span><span class="token punctuation">)</span> -a <span class="token punctuation">\</span><span class="token punctuation">(</span> <span class="token variable">$x</span> -lt <span class="token number">20</span> <span class="token punctuation">\</span><span class="token punctuation">)</span> <span class="token punctuation">]</span> <span class="token operator">&amp;&amp;</span> <span class="token builtin class-name">echo</span> <span class="token string">"yes, between 10 and 20"</span>
+
+  
+  
+
+<span class="token comment"># 判断程序存在的话就执行</span>
+
+<span class="token punctuation">[</span> -x /bin/ls <span class="token punctuation">]</span> <span class="token operator">&amp;&amp;</span> /bin/ls -l
+
+  
+
+<span class="token comment"># 如果不考虑兼容 posix sh 和 dash 这些的话，可用 bash 独有的 ((..)) 和 [[..]]:</span>
+
+https://www.ibm.com/developerworks/library/l-bash-test/index.html
+
+  
+  
+
+<span class="token comment">##############################################################################</span>
+
+<span class="token comment"># 流程控制：while / for / case / until</span>
+
+<span class="token comment">##############################################################################</span>
+
+  
+
+<span class="token comment"># while 循环</span>
+
+<span class="token keyword">while</span> condition<span class="token punctuation">;</span> <span class="token keyword">do</span>
+
+    statements
+
+<span class="token keyword">done</span>
+
+  
+
+<span class="token assign-left variable">i</span><span class="token operator">=</span><span class="token number">1</span>
+
+<span class="token keyword">while</span> <span class="token punctuation">[</span> <span class="token variable">$i</span> -le <span class="token number">10</span> <span class="token punctuation">]</span><span class="token punctuation">;</span> <span class="token keyword">do</span>
+
+    <span class="token builtin class-name">echo</span> <span class="token variable">$i</span><span class="token punctuation">;</span>
+
+    <span class="token assign-left variable">i</span><span class="token operator">=</span><span class="token variable"><span class="token variable">$(</span><span class="token function">expr</span> $i + <span class="token number">1</span><span class="token variable">)</span></span>
+
+<span class="token keyword">done</span>
+
+  
+
+<span class="token comment"># for 循环：上面的 while 语句等价</span>
+
+<span class="token keyword">for</span> <span class="token for-or-select variable">i</span> <span class="token keyword">in</span> <span class="token punctuation">{</span><span class="token number">1</span><span class="token punctuation">..</span><span class="token number">10</span><span class="token punctuation">}</span><span class="token punctuation">;</span> <span class="token keyword">do</span>
+
+    <span class="token builtin class-name">echo</span> <span class="token variable">$i</span>
+
+<span class="token keyword">done</span>
+
+  
+
+<span class="token keyword">for</span> name <span class="token punctuation">[</span>in list<span class="token punctuation">]</span><span class="token punctuation">;</span> <span class="token keyword">do</span>
+
+    statements
+
+<span class="token keyword">done</span>
+
+  
+
+<span class="token comment"># for 列举某目录下面的所有文件</span>
+
+<span class="token keyword">for</span> <span class="token for-or-select variable">f</span> <span class="token keyword">in</span> /home/*<span class="token punctuation">;</span> <span class="token keyword">do</span>
+
+    <span class="token builtin class-name">echo</span> <span class="token variable">$f</span>
+
+<span class="token keyword">done</span>
+
+  
+
+<span class="token comment"># bash 独有的 (( .. )) 语句，更接近 C 语言，但是不兼容 posix sh</span>
+
+<span class="token keyword">for</span> <span class="token variable"><span class="token punctuation">((</span> initialisation <span class="token punctuation">;</span> ending condition <span class="token punctuation">;</span> update <span class="token punctuation">))</span></span><span class="token punctuation">;</span> <span class="token keyword">do</span>
+
+    statements
+
+<span class="token keyword">done</span>
+
+  
+
+<span class="token comment"># 和上面的写法等价</span>
+
+<span class="token keyword">for</span> <span class="token variable"><span class="token punctuation">((</span>i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> <span class="token number">10</span><span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">))</span></span><span class="token punctuation">;</span> <span class="token keyword">do</span> <span class="token builtin class-name">echo</span> <span class="token variable">$i</span><span class="token punctuation">;</span> <span class="token keyword">done</span>
+
+  
+
+<span class="token comment"># case 判断</span>
+
+<span class="token keyword">case</span> expression <span class="token keyword">in</span>
+
+    pattern1 <span class="token punctuation">)</span>
+
+        statements <span class="token punctuation">;</span><span class="token punctuation">;</span>
+
+    pattern2 <span class="token punctuation">)</span>
+
+        statements <span class="token punctuation">;</span><span class="token punctuation">;</span>
+
+    * <span class="token punctuation">)</span>
+
+        otherwise <span class="token punctuation">;</span><span class="token punctuation">;</span>
+
+<span class="token keyword">esac</span>
+
+  
+
+<span class="token comment"># until 语句</span>
+
+<span class="token keyword">until</span> condition<span class="token punctuation">;</span> <span class="token keyword">do</span>
+
+    statements
+
+<span class="token keyword">done</span>
+
+  
+
+<span class="token comment"># select 语句</span>
+
+<span class="token keyword">select</span> name <span class="token punctuation">[</span>in list<span class="token punctuation">]</span><span class="token punctuation">;</span> <span class="token keyword">do</span>
+
+  statements that can use <span class="token variable">$name</span>
+
+<span class="token keyword">done</span>
+
+  
+  
+
+<span class="token comment">##############################################################################</span>
+
+<span class="token comment"># 命令处理</span>
+
+<span class="token comment">##############################################################################</span>
+
+  
+
+<span class="token builtin class-name">command</span> <span class="token function">ls</span>                         <span class="token comment"># 忽略 alias 直接执行程序或者内建命令 ls</span>
+
+<span class="token builtin class-name">builtin</span> <span class="token builtin class-name">cd</span>                         <span class="token comment"># 忽略 alias 直接运行内建的 cd 命令</span>
+
+<span class="token builtin class-name">enable</span>                             <span class="token comment"># 列出所有 bash 内置命令，或禁止某命令</span>
+
+<span class="token builtin class-name">help</span> <span class="token punctuation">{</span>builtin_command<span class="token punctuation">}</span>             <span class="token comment"># 查看内置命令的帮助（仅限 bash 内置命令）</span>
+
+  
+
+<span class="token builtin class-name">eval</span> <span class="token variable">$script</span>                       <span class="token comment"># 对 script 变量中的字符串求值（执行）</span>
+
+  
+  
+
+<span class="token comment">##############################################################################</span>
+
+<span class="token comment"># 输出/输入 重定向</span>
+
+<span class="token comment">##############################################################################</span>
+
+  
+
+cmd1 <span class="token operator">|</span> cmd2                        <span class="token comment"># 管道，cmd1 的标准输出接到 cmd2 的标准输入</span>
+
+<span class="token operator">&lt;</span> <span class="token function">file</span>                             <span class="token comment"># 将文件内容重定向为命令的标准输入</span>
+
+<span class="token operator">&gt;</span> <span class="token function">file</span>                             <span class="token comment"># 将命令的标准输出重定向到文件，会覆盖文件</span>
+
+<span class="token operator">&gt;&gt;</span> <span class="token function">file</span>                            <span class="token comment"># 将命令的标准输出重定向到文件，追加不覆盖</span>
+
+<span class="token operator">&gt;|</span> <span class="token function">file</span>                            <span class="token comment"># 强制输出到文件，即便设置过：set -o noclobber</span>
+
+n<span class="token operator">&gt;|</span> <span class="token function">file</span>                           <span class="token comment"># 强制将文件描述符 n的输出重定向到文件</span>
+
+<span class="token operator">&lt;&gt;</span> <span class="token function">file</span>                            <span class="token comment"># 同时使用该文件作为标准输入和标准输出</span>
+
+n<span class="token operator">&lt;&gt;</span> <span class="token function">file</span>                           <span class="token comment"># 同时使用文件作为文件描述符 n 的输出和输入</span>
+
+n<span class="token operator">&gt;</span> <span class="token function">file</span>                            <span class="token comment"># 重定向文件描述符 n 的输出到文件</span>
+
+n<span class="token operator">&lt;</span> <span class="token function">file</span>                            <span class="token comment"># 重定向文件描述符 n 的输入为文件内容</span>
+
+n<span class="token operator">&gt;&amp;</span>                                <span class="token comment"># 将标准输出 dup/合并 到文件描述符 n</span>
+
+n<span class="token operator">&lt;&amp;</span>                                <span class="token comment"># 将标准输入 dump/合并 定向为描述符 n</span>
+
+n<span class="token operator">&gt;&amp;</span>m                               <span class="token comment"># 文件描述符 n 被作为描述符 m 的副本，输出用</span>
+
+n<span class="token operator">&lt;&amp;</span>m                               <span class="token comment"># 文件描述符 n 被作为描述符 m 的副本，输入用</span>
+
+<span class="token operator">&amp;&gt;</span>file                             <span class="token comment"># 将标准输出和标准错误重定向到文件</span>
+
+<span class="token operator">&lt;&amp;</span>-                                <span class="token comment"># 关闭标准输入</span>
+
+<span class="token operator">&gt;&amp;</span>-                                <span class="token comment"># 关闭标准输出</span>
+
+n<span class="token operator">&gt;&amp;</span>-                               <span class="token comment"># 关闭作为输出的文件描述符 n</span>
+
+n<span class="token operator">&lt;&amp;</span>-                               <span class="token comment"># 关闭作为输入的文件描述符 n</span>
+
+<span class="token function">diff</span> <span class="token operator">&lt;</span><span class="token punctuation">(</span>cmd1<span class="token punctuation">)</span> <span class="token operator">&lt;</span><span class="token punctuation">(</span>cmd2<span class="token punctuation">)</span>               <span class="token comment"># 比较两个命令的输出</span>
+
+  
+  
+
+<span class="token comment">##############################################################################</span>
+
+<span class="token comment"># 文本处理 - cut</span>
+
+<span class="token comment">##############################################################################</span>
+
+  
+
+<span class="token function">cut</span> -c <span class="token number">1</span>-16                        <span class="token comment"># 截取每行头16个字符</span>
+
+<span class="token function">cut</span> -c <span class="token number">1</span>-16 <span class="token function">file</span>                   <span class="token comment"># 截取指定文件中每行头 16个字符</span>
+
+<span class="token function">cut</span> -c3-                           <span class="token comment"># 截取每行从第三个字符开始到行末的内容</span>
+
+<span class="token function">cut</span> -d<span class="token string">':'</span> -f5                      <span class="token comment"># 截取用冒号分隔的第五列内容</span>
+
+<span class="token function">cut</span> -d<span class="token string">';'</span> -f2,10                   <span class="token comment"># 截取用分号分隔的第二和第十列内容</span>
+
+<span class="token function">cut</span> -d<span class="token string">' '</span> -f3-7                    <span class="token comment"># 截取空格分隔的三到七列</span>
+
+<span class="token builtin class-name">echo</span> <span class="token string">"hello"</span> <span class="token operator">|</span> <span class="token function">cut</span> -c1-3           <span class="token comment"># 显示 hel</span>
+
+<span class="token builtin class-name">echo</span> <span class="token string">"hello sir"</span> <span class="token operator">|</span> <span class="token function">cut</span> -d<span class="token string">' '</span> -f2   <span class="token comment"># 显示 sir</span>
+
+<span class="token function">ps</span> <span class="token operator">|</span> <span class="token function">tr</span> -s <span class="token string">" "</span> <span class="token operator">|</span> <span class="token function">cut</span> -d <span class="token string">" "</span> -f <span class="token number">2,3</span>,4  <span class="token comment"># cut 搭配 tr 压缩字符</span>
+
+  
+  
+
+<span class="token comment">##############################################################################</span>
+
+<span class="token comment"># 文本处理 - awk / sed</span>
+
+<span class="token comment">##############################################################################</span>
+
+  
+
+<span class="token function">awk</span> <span class="token string">'{print $5}'</span> <span class="token function">file</span>              <span class="token comment"># 打印文件中以空格分隔的第五列</span>
+
+<span class="token function">awk</span> -F <span class="token string">','</span> <span class="token string">'{print $5}'</span> <span class="token function">file</span>       <span class="token comment"># 打印文件中以逗号分隔的第五列</span>
+
+<span class="token function">awk</span> <span class="token string">'/str/ {print $2}'</span> <span class="token function">file</span>        <span class="token comment"># 打印文件中包含 str 的所有行的第二列</span>
+
+<span class="token function">awk</span> -F <span class="token string">','</span> <span class="token string">'{print $NF}'</span> <span class="token function">file</span>      <span class="token comment"># 打印逗号分隔的文件中的每行最后一列</span>
+
+<span class="token function">awk</span> <span class="token string">'{s+=$1} END {print s}'</span> <span class="token function">file</span>   <span class="token comment"># 计算所有第一列的合</span>
+
+<span class="token function">awk</span> <span class="token string">'NR%3==1'</span> <span class="token function">file</span>                 <span class="token comment"># 从第一行开始，每隔三行打印一行</span>
+
+  
+
+<span class="token function">sed</span> <span class="token string">'s/find/replace/'</span> <span class="token function">file</span>         <span class="token comment"># 替换文件中首次出现的字符串并输出结果</span>
+
+<span class="token function">sed</span> <span class="token string">'10s/find/replace/'</span> <span class="token function">file</span>       <span class="token comment"># 替换文件第 10 行内容</span>
+
+<span class="token function">sed</span> <span class="token string">'10,20s/find/replace/'</span> <span class="token function">file</span>    <span class="token comment"># 替换文件中 10-20 行内容</span>
+
+<span class="token function">sed</span> -r <span class="token string">'s/regex/replace/g'</span> <span class="token function">file</span>    <span class="token comment"># 替换文件中所有出现的字符串</span>
+
+<span class="token function">sed</span> -i <span class="token string">'s/find/replace/g'</span> <span class="token function">file</span>     <span class="token comment"># 替换文件中所有出现的字符并且覆盖文件</span>
+
+<span class="token function">sed</span> -i <span class="token string">'/find/i\newline'</span> <span class="token function">file</span>      <span class="token comment"># 在文件的匹配文本前插入行</span>
+
+<span class="token function">sed</span> -i <span class="token string">'/find/a\newline'</span> <span class="token function">file</span>      <span class="token comment"># 在文件的匹配文本后插入行</span>
+
+<span class="token function">sed</span> <span class="token string">'/line/s/find/replace/'</span> <span class="token function">file</span>   <span class="token comment"># 先搜索行特征再执行替换</span>
+
+<span class="token function">sed</span> -e <span class="token string">'s/f/r/'</span> -e <span class="token string">'s/f/r'</span> <span class="token function">file</span>    <span class="token comment"># 执行多次替换</span>
+
+<span class="token function">sed</span> <span class="token string">'s#find#replace#'</span> <span class="token function">file</span>         <span class="token comment"># 使用 # 替换 / 来避免 pattern 中有斜杆</span>
+
+<span class="token function">sed</span> -i -r <span class="token string">'s/^\s+//g'</span> <span class="token function">file</span>         <span class="token comment"># 删除文件每行头部空格</span>
+
+<span class="token function">sed</span> <span class="token string">'/^$/d'</span> <span class="token function">file</span>                   <span class="token comment"># 删除文件空行并打印</span>
+
+<span class="token function">sed</span> -i <span class="token string">'s/\s\+$//'</span> <span class="token function">file</span>            <span class="token comment"># 删除文件每行末尾多余空格</span>
+
+<span class="token function">sed</span> -n <span class="token string">'2p'</span> <span class="token function">file</span>                   <span class="token comment"># 打印文件第二行</span>
+
+<span class="token function">sed</span> -n <span class="token string">'2,5p'</span> <span class="token function">file</span>                 <span class="token comment"># 打印文件第二到第五行</span>
+
+  
+  
+
+<span class="token comment">##############################################################################</span>
+
+<span class="token comment"># 排序 - sort</span>
+
+<span class="token comment">##############################################################################</span>
+
+  
+
+<span class="token function">sort</span> <span class="token function">file</span>                          <span class="token comment"># 排序文件</span>
+
+<span class="token function">sort</span> -r <span class="token function">file</span>                       <span class="token comment"># 反向排序（降序）</span>
+
+<span class="token function">sort</span> -n <span class="token function">file</span>                       <span class="token comment"># 使用数字而不是字符串进行比较</span>
+
+<span class="token function">sort</span> -t: -k 3n /etc/passwd         <span class="token comment"># 按 passwd 文件的第三列进行排序</span>
+
+<span class="token function">sort</span> -u <span class="token function">file</span>                       <span class="token comment"># 去重排序</span>
+
+<span class="token function">sort</span> -h <span class="token function">file</span>                       <span class="token comment"># 支持 K/M/G 等量级符号，可与 du 结合使用</span>
+
+  
+  
+
+<span class="token comment">##############################################################################</span>
+
+<span class="token comment"># 快速跳转 - https://github.com/rupa/z</span>
+
+<span class="token comment">##############################################################################</span>
+
+  
+
+<span class="token builtin class-name">source</span> /path/to/z.sh               <span class="token comment"># .bashrc 中初始化 z.sh</span>
+
+z                                  <span class="token comment"># 列出所有历史路径以及他们的权重</span>
+
+z foo                              <span class="token comment"># 跳到历史路径中匹配 foo 的权重最大的目录</span>
+
+z foo bar                          <span class="token comment"># 跳到历史路径中匹配 foo 和 bar 权重最大的目录</span>
+
+z -l foo                           <span class="token comment"># 列出所有历史路径中匹配 foo 的目录及权重</span>
+
+z -r foo                           <span class="token comment"># 按照最高访问次数优先进行匹配跳转</span>
+
+z -t foo                           <span class="token comment"># 按照最近访问优先进行匹配跳转</span>
+
+  
+  
+
+<span class="token comment">##############################################################################</span>
+
+<span class="token comment"># 键盘绑定</span>
+
+<span class="token comment">##############################################################################</span>
+
+  
+
+<span class="token builtin class-name">bind</span> <span class="token string">'"\eh":"\C-b"'</span>                <span class="token comment"># 绑定 ALT+h 为光标左移，同 CTRL+b / &lt;Left&gt;</span>
+
+<span class="token builtin class-name">bind</span> <span class="token string">'"\el":"\C-f"'</span>                <span class="token comment"># 绑定 ALT+l 为光标右移，同 CTRL+f / &lt;Right&gt;</span>
+
+<span class="token builtin class-name">bind</span> <span class="token string">'"\ej":"\C-n"'</span>                <span class="token comment"># 绑定 ALT+j 为下条历史，同 CTRL+n / &lt;Down&gt;</span>
+
+<span class="token builtin class-name">bind</span> <span class="token string">'"\ek":"\C-p"'</span>                <span class="token comment"># 绑定 ALT+k 为上条历史，同 CTRL+p / &lt;Up&gt;</span>
+
+<span class="token builtin class-name">bind</span> <span class="token string">'"\eH":"\eb"'</span>                 <span class="token comment"># 绑定 ALT+H 为光标左移一个单词，同 ALT-b</span>
+
+<span class="token builtin class-name">bind</span> <span class="token string">'"\eL":"\ef"'</span>                 <span class="token comment"># 绑定 ALT+L 为光标右移一个单词，同 ALT-f</span>
+
+<span class="token builtin class-name">bind</span> <span class="token string">'"\eJ":"\C-a"'</span>                <span class="token comment"># 绑定 ALT+J 为移动到行首，同 CTRL+a / &lt;Home&gt;</span>
+
+<span class="token builtin class-name">bind</span> <span class="token string">'"\eK":"\C-e"'</span>                <span class="token comment"># 绑定 ALT+K 为移动到行末，同 CTRL+e / &lt;End&gt;</span>
+
+<span class="token builtin class-name">bind</span> <span class="token string">'"\e;":"ls -l\n"'</span>             <span class="token comment"># 绑定 ALT+; 为执行 ls -l 命令</span>
+
+  
+  
+
+<span class="token comment">##############################################################################</span>
+
+<span class="token comment"># 网络管理：ip / ifconfig / nmap ...</span>
+
+<span class="token comment">##############################################################################</span>
+
+  
+
+<span class="token function">ip</span> a                               <span class="token comment"># 显示所有网络地址，同 ip address</span>
+
+<span class="token function">ip</span> a show eth1                     <span class="token comment"># 显示网卡 IP 地址</span>
+
+<span class="token function">ip</span> a <span class="token function">add</span> <span class="token number">172.16</span>.1.23/24 dev eth1   <span class="token comment"># 添加网卡 IP 地址</span>
+
+<span class="token function">ip</span> a del <span class="token number">172.16</span>.1.23/24 dev eth1   <span class="token comment"># 删除网卡 IP 地址</span>
+
+<span class="token function">ip</span> <span class="token function">link</span> show dev eth0              <span class="token comment"># 显示网卡设备属性</span>
+
+<span class="token function">ip</span> <span class="token function">link</span> <span class="token builtin class-name">set</span> eth1 up                <span class="token comment"># 激活网卡</span>
+
+<span class="token function">ip</span> <span class="token function">link</span> <span class="token builtin class-name">set</span> eth1 down              <span class="token comment"># 关闭网卡</span>
+
+<span class="token function">ip</span> <span class="token function">link</span> <span class="token builtin class-name">set</span> eth1 address <span class="token punctuation">{</span>mac<span class="token punctuation">}</span>     <span class="token comment"># 修改 MAC 地址</span>
+
+<span class="token function">ip</span> neighbour                       <span class="token comment"># 查看 ARP 缓存</span>
+
+<span class="token function">ip</span> route                           <span class="token comment"># 查看路由表</span>
+
+<span class="token function">ip</span> route <span class="token function">add</span> <span class="token number">10.1</span>.0.0/24 via <span class="token number">10.0</span>.0.253 dev eth0    <span class="token comment"># 添加静态路由</span>
+
+<span class="token function">ip</span> route del <span class="token number">10.1</span>.0.0/24           <span class="token comment"># 删除静态路由</span>
+
+  
+
+<span class="token function">ifconfig</span>                           <span class="token comment"># 显示所有网卡和接口信息</span>
+
+<span class="token function">ifconfig</span> -a                        <span class="token comment"># 显示所有网卡（包括开机没启动的）信息</span>
+
+<span class="token function">ifconfig</span> eth0                      <span class="token comment"># 指定设备显示信息</span>
+
+<span class="token function">ifconfig</span> eth0 up                   <span class="token comment"># 激活网卡</span>
+
+<span class="token function">ifconfig</span> eth0 down                 <span class="token comment"># 关闭网卡</span>
+
+<span class="token function">ifconfig</span> eth0 <span class="token number">192.168</span>.120.56       <span class="token comment"># 给网卡配置 IP 地址</span>
+
+<span class="token function">ifconfig</span> eth0 <span class="token number">10.0</span>.0.8 netmask <span class="token number">255.255</span>.255.0 up     <span class="token comment"># 配置 IP 并启动</span>
+
+<span class="token function">ifconfig</span> eth0 hw ether 00:aa:bb:cc:dd:ee            <span class="token comment"># 修改 MAC 地址</span>
+
+  
+
+nmap <span class="token number">10.0</span>.0.12                     <span class="token comment"># 扫描主机 1-1000 端口</span>
+
+nmap -p <span class="token number">1024</span>-65535 <span class="token number">10.0</span>.0.12       <span class="token comment"># 扫描给定端口</span>
+
+nmap <span class="token number">10.0</span>.0.0/24                   <span class="token comment"># 给定网段扫描局域网内所有主机</span>
+
+nmap -O -sV <span class="token number">10.0</span>.0.12              <span class="token comment"># 探测主机服务和操作系统版本</span>
+
+  
+  
+
+<span class="token comment">##############################################################################</span>
+
+<span class="token comment"># 有趣的命令</span>
+
+<span class="token comment">##############################################################################</span>
+
+  
+
+<span class="token function">man</span> hier                           <span class="token comment"># 查看文件系统的结构和含义</span>
+
+<span class="token function">man</span> <span class="token builtin class-name">test</span>                           <span class="token comment"># 查看 posix sh 的条件判断帮助</span>
+
+<span class="token function">man</span> ascii                          <span class="token comment"># 显示 ascii 表</span>
+
+getconf LONG_BIT                   <span class="token comment"># 查看系统是 32 位还是 64 位</span>
+
+<span class="token builtin class-name">bind</span> -P                            <span class="token comment"># 列出所有 bash 的快捷键</span>
+
+<span class="token function">mount</span> <span class="token operator">|</span> <span class="token function">column</span> -t                  <span class="token comment"># 漂亮的列出当前加载的文件系统</span>
+
+<span class="token function">curl</span> ip.cn                         <span class="token comment"># 取得外网 ip 地址和服务商信息</span>
+
+disown -a <span class="token operator">&amp;&amp;</span> <span class="token builtin class-name">exit</span>                  <span class="token comment"># 关闭所有后台任务并退出</span>
+
+<span class="token function">cat</span> /etc/issue                     <span class="token comment"># 查看 Linux 发行版信息</span>
+
+<span class="token function">lsof</span> -i port:80                    <span class="token comment"># 哪个程序在使用 80 端口？</span>
+
+showkey -a                         <span class="token comment"># 取得按键的 ASCII 码</span>
+
+svn <span class="token function">diff</span> <span class="token operator">|</span> view -                  <span class="token comment"># 使用 Vim 来显示带色彩的 diff 输出</span>
+
+<span class="token function">mv</span> filename.<span class="token punctuation">{</span>old,new<span class="token punctuation">}</span>              <span class="token comment"># 快速文件改名</span>
+
+<span class="token function">time</span> <span class="token builtin class-name">read</span>                          <span class="token comment"># 使用 CTRL-D 停止，最简单的计时功能</span>
+
+<span class="token function">cp</span> file.txt<span class="token punctuation">{</span>,.bak<span class="token punctuation">}</span>                 <span class="token comment"># 快速备份文件</span>
+
+<span class="token function">sudo</span> <span class="token function">touch</span> /forcefsck              <span class="token comment"># 强制在下次重启时扫描磁盘</span>
+
+<span class="token function">find</span> ~ -mmin <span class="token number">60</span> -type f            <span class="token comment"># 查找 $HOME 目录中，60 分钟内修改过的文件</span>
+
+<span class="token function">curl</span> wttr.in/~beijing              <span class="token comment"># 查看北京的天气预报</span>
+
+<span class="token builtin class-name">echo</span> <span class="token variable">${SSH_CLIENT<span class="token operator">%%</span> *}</span>             <span class="token comment"># 取得你是从什么 IP 链接到当前主机上的</span>
+
+<span class="token builtin class-name">echo</span> $<span class="token punctuation">[</span><span class="token environment constant">RANDOM</span>%X+1<span class="token punctuation">]</span>                 <span class="token comment"># 取得 1 到 X 之间的随机数</span>
+
+<span class="token builtin class-name">bind</span> -x <span class="token string">'"\C-l":ls -l'</span>             <span class="token comment"># 设置 CTRL+l 为执行 ls -l 命令</span>
+
+<span class="token function">find</span> / -type f -size +5M           <span class="token comment"># 查找大于 5M 的文件</span>
+
+<span class="token function">chmod</span> --reference f1 f2            <span class="token comment"># 将 f2 的权限设置成 f1 一模一样的</span>
+
+<span class="token function">curl</span> -L cheat.sh                   <span class="token comment"># 速查表大全</span>
+
+  
+  
+
+<span class="token comment">##############################################################################</span>
+
+<span class="token comment"># 常用技巧</span>
+
+<span class="token comment">##############################################################################</span>
+
+  
+
+<span class="token comment"># 列出最常使用的命令</span>
+
+<span class="token function">history</span> <span class="token operator">|</span> <span class="token function">awk</span> <span class="token string">'{a[$2]++}END{for(i in a){print a[i] " " i}}'</span> <span class="token operator">|</span> <span class="token function">sort</span> -rn <span class="token operator">|</span> <span class="token function">head</span>
+
+  
+
+<span class="token comment"># 列出所有网络状态：ESTABLISHED / TIME_WAIT / FIN_WAIT1 / FIN_WAIT2</span>
+
+<span class="token function">netstat</span> -n <span class="token operator">|</span> <span class="token function">awk</span> <span class="token string">'/^tcp/ {++tt[$NF]} END {for (a in tt) print a, tt[a]}'</span>
+
+  
+
+<span class="token comment"># 通过 SSH 来 mount 文件系统</span>
+
+sshfs name@server:/path/to/folder /path/to/mount/point
+
+  
+
+<span class="token comment"># 显示前十个运行的进程并按内存使用量排序</span>
+
+<span class="token function">ps</span> aux <span class="token operator">|</span> <span class="token function">sort</span> -nk +4 <span class="token operator">|</span> <span class="token function">tail</span>
+
+  
+
+<span class="token comment"># 在右上角显示时钟</span>
+
+<span class="token keyword">while</span> <span class="token function">sleep</span> <span class="token number">1</span><span class="token punctuation">;</span><span class="token keyword">do</span> tput sc<span class="token punctuation">;</span>tput cup <span class="token number">0</span> <span class="token variable"><span class="token variable">$((</span>$<span class="token punctuation">(</span>tput cols<span class="token punctuation">)</span><span class="token operator">-</span><span class="token number">29</span><span class="token variable">))</span></span><span class="token punctuation">;</span><span class="token function">date</span><span class="token punctuation">;</span>tput rc<span class="token punctuation">;</span><span class="token keyword">done</span><span class="token operator">&amp;</span>
+
+  
+
+<span class="token comment"># 从网络上的压缩文件中解出一个文件来，并避免保存中间文件</span>
+
+<span class="token function">wget</span> -qO - <span class="token string">"http://www.tarball.com/tarball.gz"</span> <span class="token operator">|</span> <span class="token function">tar</span> zxvf -
+
+  
+
+<span class="token comment"># 性能测试：测试处理器性能</span>
+
+python -c <span class="token string">"import test.pystone;print(test.pystone.pystones())"</span>
+
+  
+
+<span class="token comment"># 性能测试：测试内存带宽</span>
+
+<span class="token function">dd</span> <span class="token assign-left variable">if</span><span class="token operator">=</span>/dev/zero <span class="token assign-left variable">of</span><span class="token operator">=</span>/dev/null <span class="token assign-left variable">bs</span><span class="token operator">=</span>1M <span class="token assign-left variable">count</span><span class="token operator">=</span><span class="token number">32768</span>
+
+  
+
+<span class="token comment"># Linux 下挂载一个 iso 文件</span>
+
+<span class="token function">mount</span> /path/to/file.iso /mnt/cdrom -oloop
+
+  
+
+<span class="token comment"># 通过主机 A 直接 ssh 到主机 B</span>
+
+<span class="token function">ssh</span> -t hostA <span class="token function">ssh</span> hostB
+
+  
+
+<span class="token comment"># 下载一个网站的所有图片</span>
+
+<span class="token function">wget</span> -r -l1 --no-parent -nH -nd -P/tmp -A<span class="token string">".gif,.jpg"</span> http://example.com/images
+
+  
+
+<span class="token comment"># 快速创建项目目录</span>
+
+<span class="token function">mkdir</span> -p work/<span class="token punctuation">{</span>project1,project2<span class="token punctuation">}</span>/<span class="token punctuation">{</span>src,bin,bak<span class="token punctuation">}</span>
+
+  
+
+<span class="token comment"># 按日期范围查找文件</span>
+
+<span class="token function">find</span> <span class="token builtin class-name">.</span> -type f -newermt <span class="token string">"2010-01-01"</span> <span class="token operator">!</span> -newermt <span class="token string">"2010-06-01"</span>
+
+  
+
+<span class="token comment"># 显示当前正在使用网络的进程</span>
+
+<span class="token function">lsof</span> -P -i -n <span class="token operator">|</span> <span class="token function">cut</span> -f <span class="token number">1</span> -d <span class="token string">" "</span><span class="token operator">|</span> <span class="token function">uniq</span> <span class="token operator">|</span> <span class="token function">tail</span> -n +2
+
+  
+
+<span class="token comment"># Vim 中保存一个没有权限的文件</span>
+
+:w <span class="token operator">!</span>sudo <span class="token function">tee</span> <span class="token operator">&gt;</span> /dev/null %
+
+  
+
+<span class="token comment"># 在 .bashrc / .bash_profile 中加载另外一个文件（比如你保存在 github 上的配置）</span>
+
+<span class="token builtin class-name">source</span> ~/github/profiles/my_bash_init.sh
+
+  
+
+<span class="token comment"># 反向代理：将外网主机（202.115.8.1）端口（8443）转发到内网主机 192.168.1.2:443</span>
+
+<span class="token function">ssh</span> -CqTnN -R <span class="token number">0.0</span>.0.0:8443:192.168.1.2:443  user@202.115.8.1
+
+  
+
+<span class="token comment"># 正向代理：将本地主机的 8443 端口，通过 192.168.1.3 转发到 192.168.1.2:443</span>
+
+<span class="token function">ssh</span> -CqTnN -L <span class="token number">0.0</span>.0.0:8443:192.168.1.2:443  user@192.168.1.3
+
+  
+
+<span class="token comment"># socks5 代理：把本地 1080 端口的 socks5 的代理请求通过远程主机转发出去</span>
+
+<span class="token function">ssh</span> -CqTnN -D localhost:1080  user@202.115.8.1
+
+  
+
+<span class="token comment"># 终端下正确设置 ALT 键和 BackSpace 键</span>
+
+http://www.skywind.me/blog/archives/2021
+
+  
+  
+
+<span class="token comment">##############################################################################</span>
+
+<span class="token comment"># 有用的函数</span>
+
+<span class="token comment">##############################################################################</span>
+
+  
+
+<span class="token comment"># 自动解压：判断文件后缀名并调用相应解压命令</span>
+
+<span class="token keyword">function</span> <span class="token function-name function">q-extract</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+
+    <span class="token keyword">if</span> <span class="token punctuation">[</span> -f <span class="token variable">$1</span> <span class="token punctuation">]</span> <span class="token punctuation">;</span> <span class="token keyword">then</span>
+
+        <span class="token keyword">case</span> <span class="token variable">$1</span> <span class="token keyword">in</span>
+
+        *.tar.bz2<span class="token punctuation">)</span>   <span class="token function">tar</span> -xvjf <span class="token variable">$1</span>    <span class="token punctuation">;</span><span class="token punctuation">;</span>
+
+        *.tar.gz<span class="token punctuation">)</span>    <span class="token function">tar</span> -xvzf <span class="token variable">$1</span>    <span class="token punctuation">;</span><span class="token punctuation">;</span>
+
+        *.tar.xz<span class="token punctuation">)</span>    <span class="token function">tar</span> -xvJf <span class="token variable">$1</span>    <span class="token punctuation">;</span><span class="token punctuation">;</span>
+
+        *.bz2<span class="token punctuation">)</span>       bunzip2 <span class="token variable">$1</span>     <span class="token punctuation">;</span><span class="token punctuation">;</span>
+
+        *.rar<span class="token punctuation">)</span>       <span class="token function">rar</span> x <span class="token variable">$1</span>       <span class="token punctuation">;</span><span class="token punctuation">;</span>
+
+        *.gz<span class="token punctuation">)</span>        gunzip <span class="token variable">$1</span>      <span class="token punctuation">;</span><span class="token punctuation">;</span>
+
+        *.tar<span class="token punctuation">)</span>       <span class="token function">tar</span> -xvf <span class="token variable">$1</span>     <span class="token punctuation">;</span><span class="token punctuation">;</span>
+
+        *.tbz2<span class="token punctuation">)</span>      <span class="token function">tar</span> -xvjf <span class="token variable">$1</span>    <span class="token punctuation">;</span><span class="token punctuation">;</span>
+
+        *.tgz<span class="token punctuation">)</span>       <span class="token function">tar</span> -xvzf <span class="token variable">$1</span>    <span class="token punctuation">;</span><span class="token punctuation">;</span>
+
+        *.zip<span class="token punctuation">)</span>       <span class="token function">unzip</span> <span class="token variable">$1</span>       <span class="token punctuation">;</span><span class="token punctuation">;</span>
+
+        *.Z<span class="token punctuation">)</span>         uncompress <span class="token variable">$1</span>  <span class="token punctuation">;</span><span class="token punctuation">;</span>
+
+        *.7z<span class="token punctuation">)</span>        7z x <span class="token variable">$1</span>        <span class="token punctuation">;</span><span class="token punctuation">;</span>
+
+        *<span class="token punctuation">)</span>           <span class="token builtin class-name">echo</span> <span class="token string">"don't know how to extract '<span class="token variable">$1</span>'..."</span> <span class="token punctuation">;</span><span class="token punctuation">;</span>
+
+        <span class="token keyword">esac</span>
+
+    <span class="token keyword">else</span>
+
+        <span class="token builtin class-name">echo</span> <span class="token string">"'<span class="token variable">$1</span>' is not a valid file!"</span>
+
+    <span class="token keyword">fi</span>
+
+<span class="token punctuation">}</span>
+
+  
+
+<span class="token comment"># 自动压缩：判断后缀名并调用相应压缩程序</span>
+
+<span class="token keyword">function</span> <span class="token function-name function">q-compress</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+
+    <span class="token keyword">if</span> <span class="token punctuation">[</span> -n <span class="token string">"<span class="token variable">$1</span>"</span> <span class="token punctuation">]</span> <span class="token punctuation">;</span> <span class="token keyword">then</span>
+
+        <span class="token assign-left variable">FILE</span><span class="token operator">=</span><span class="token variable">$1</span>
+
+        <span class="token keyword">case</span> <span class="token variable">$FILE</span> <span class="token keyword">in</span>
+
+        *.tar<span class="token punctuation">)</span> <span class="token builtin class-name">shift</span> <span class="token operator">&amp;&amp;</span> <span class="token function">tar</span> -cf <span class="token variable">$FILE</span> <span class="token variable">$*</span> <span class="token punctuation">;</span><span class="token punctuation">;</span>
+
+        *.tar.bz2<span class="token punctuation">)</span> <span class="token builtin class-name">shift</span> <span class="token operator">&amp;&amp;</span> <span class="token function">tar</span> -cjf <span class="token variable">$FILE</span> <span class="token variable">$*</span> <span class="token punctuation">;</span><span class="token punctuation">;</span>
+
+        *.tar.xz<span class="token punctuation">)</span> <span class="token builtin class-name">shift</span> <span class="token operator">&amp;&amp;</span> <span class="token function">tar</span> -cJf <span class="token variable">$FILE</span> <span class="token variable">$*</span> <span class="token punctuation">;</span><span class="token punctuation">;</span>
+
+        *.tar.gz<span class="token punctuation">)</span> <span class="token builtin class-name">shift</span> <span class="token operator">&amp;&amp;</span> <span class="token function">tar</span> -czf <span class="token variable">$FILE</span> <span class="token variable">$*</span> <span class="token punctuation">;</span><span class="token punctuation">;</span>
+
+        *.tgz<span class="token punctuation">)</span> <span class="token builtin class-name">shift</span> <span class="token operator">&amp;&amp;</span> <span class="token function">tar</span> -czf <span class="token variable">$FILE</span> <span class="token variable">$*</span> <span class="token punctuation">;</span><span class="token punctuation">;</span>
+
+        *.zip<span class="token punctuation">)</span> <span class="token builtin class-name">shift</span> <span class="token operator">&amp;&amp;</span> <span class="token function">zip</span> <span class="token variable">$FILE</span> <span class="token variable">$*</span> <span class="token punctuation">;</span><span class="token punctuation">;</span>
+
+        *.rar<span class="token punctuation">)</span> <span class="token builtin class-name">shift</span> <span class="token operator">&amp;&amp;</span> <span class="token function">rar</span> <span class="token variable">$FILE</span> <span class="token variable">$*</span> <span class="token punctuation">;</span><span class="token punctuation">;</span>
+
+        <span class="token keyword">esac</span>
+
+    <span class="token keyword">else</span>
+
+        <span class="token builtin class-name">echo</span> <span class="token string">"usage: q-compress &lt;foo.tar.gz&gt; ./foo ./bar"</span>
+
+    <span class="token keyword">fi</span>
+
+<span class="token punctuation">}</span>
+
+  
+
+<span class="token comment"># 漂亮的带语法高亮的 color cat ，需要先 pip install pygments</span>
+
+<span class="token keyword">function</span> <span class="token function-name function">ccat</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+
+    <span class="token builtin class-name">local</span> <span class="token assign-left variable">style</span><span class="token operator">=</span><span class="token string">"monokai"</span>
+
+    <span class="token keyword">if</span> <span class="token punctuation">[</span> <span class="token variable">$#</span> -eq <span class="token number">0</span> <span class="token punctuation">]</span><span class="token punctuation">;</span> <span class="token keyword">then</span>
+
+        pygmentize -P <span class="token assign-left variable">style</span><span class="token operator">=</span><span class="token variable">$style</span> -P <span class="token assign-left variable">tabsize</span><span class="token operator">=</span><span class="token number">4</span> -f terminal256 -g
+
+    <span class="token keyword">else</span>
+
+        <span class="token keyword">for</span> <span class="token for-or-select variable">NAME</span> <span class="token keyword">in</span> <span class="token variable">$@</span><span class="token punctuation">;</span> <span class="token keyword">do</span>
+
+            pygmentize -P <span class="token assign-left variable">style</span><span class="token operator">=</span><span class="token variable">$style</span> -P <span class="token assign-left variable">tabsize</span><span class="token operator">=</span><span class="token number">4</span> -f terminal256 -g <span class="token string">"<span class="token variable">$NAME</span>"</span>
+
+        <span class="token keyword">done</span>
+
+    <span class="token keyword">fi</span>
+
+<span class="token punctuation">}</span>
+
+  
+  
+
+<span class="token comment">##############################################################################</span>
+
+<span class="token comment"># 好玩的配置</span>
+
+<span class="token comment">##############################################################################</span>
+
+  
+
+<span class="token comment"># 放到你的 ~/.bashrc 配置文件中，给 man 增加漂亮的色彩高亮</span>
+
+<span class="token builtin class-name">export</span> <span class="token assign-left variable">LESS_TERMCAP_mb</span><span class="token operator">=</span><span class="token string">$'<span class="token entity" title="\E">\E</span>[1m<span class="token entity" title="\E">\E</span>[32m'</span>
+
+<span class="token builtin class-name">export</span> <span class="token assign-left variable">LESS_TERMCAP_mh</span><span class="token operator">=</span><span class="token string">$'<span class="token entity" title="\E">\E</span>[2m'</span>
+
+<span class="token builtin class-name">export</span> <span class="token assign-left variable">LESS_TERMCAP_mr</span><span class="token operator">=</span><span class="token string">$'<span class="token entity" title="\E">\E</span>[7m'</span>
+
+<span class="token builtin class-name">export</span> <span class="token assign-left variable">LESS_TERMCAP_md</span><span class="token operator">=</span><span class="token string">$'<span class="token entity" title="\E">\E</span>[1m<span class="token entity" title="\E">\E</span>[36m'</span>
+
+<span class="token builtin class-name">export</span> <span class="token assign-left variable">LESS_TERMCAP_ZW</span><span class="token operator">=</span><span class="token string">""</span>
+
+<span class="token builtin class-name">export</span> <span class="token assign-left variable">LESS_TERMCAP_us</span><span class="token operator">=</span><span class="token string">$'<span class="token entity" title="\E">\E</span>[4m<span class="token entity" title="\E">\E</span>[1m<span class="token entity" title="\E">\E</span>[37m'</span>
+
+<span class="token builtin class-name">export</span> <span class="token assign-left variable">LESS_TERMCAP_me</span><span class="token operator">=</span><span class="token string">$'<span class="token entity" title="\E">\E</span>(B<span class="token entity" title="\E">\E</span>[m'</span>
+
+<span class="token builtin class-name">export</span> <span class="token assign-left variable">LESS_TERMCAP_ue</span><span class="token operator">=</span><span class="token string">$'<span class="token entity" title="\E">\E</span>[24m<span class="token entity" title="\E">\E</span>(B<span class="token entity" title="\E">\E</span>[m'</span>
+
+<span class="token builtin class-name">export</span> <span class="token assign-left variable">LESS_TERMCAP_ZO</span><span class="token operator">=</span><span class="token string">""</span>
+
+<span class="token builtin class-name">export</span> <span class="token assign-left variable">LESS_TERMCAP_ZN</span><span class="token operator">=</span><span class="token string">""</span>
+
+<span class="token builtin class-name">export</span> <span class="token assign-left variable">LESS_TERMCAP_se</span><span class="token operator">=</span><span class="token string">$'<span class="token entity" title="\E">\E</span>[27m<span class="token entity" title="\E">\E</span>(B<span class="token entity" title="\E">\E</span>[m'</span>
+
+<span class="token builtin class-name">export</span> <span class="token assign-left variable">LESS_TERMCAP_ZV</span><span class="token operator">=</span><span class="token string">""</span>
+
+<span class="token builtin class-name">export</span> <span class="token assign-left variable">LESS_TERMCAP_so</span><span class="token operator">=</span><span class="token string">$'<span class="token entity" title="\E">\E</span>[1m<span class="token entity" title="\E">\E</span>[33m<span class="token entity" title="\E">\E</span>[44m'</span>
+
+  
+
+<span class="token comment"># ALT+hjkl/HJKL 快速移动光标，将下面内容添加到 ~/.inputrc 中可作用所有工具，</span>
+
+<span class="token comment"># 包括 bash/zsh/python/lua 等使用 readline 的工具，帮助见：info rluserman</span>
+
+<span class="token string">"<span class="token entity" title="\e">\e</span>h"</span><span class="token builtin class-name">:</span> backward-char
+
+<span class="token string">"<span class="token entity" title="\e">\e</span>l"</span><span class="token builtin class-name">:</span> forward-char
+
+<span class="token string">"<span class="token entity" title="\e">\e</span>j"</span><span class="token builtin class-name">:</span> next-history
+
+<span class="token string">"<span class="token entity" title="\e">\e</span>k"</span><span class="token builtin class-name">:</span> previous-history
+
+<span class="token string">"<span class="token entity" title="\e">\e</span>H"</span><span class="token builtin class-name">:</span> backward-word
+
+<span class="token string">"<span class="token entity" title="\e">\e</span>L"</span><span class="token builtin class-name">:</span> forward-word
+
+<span class="token string">"<span class="token entity" title="\e">\e</span>J"</span><span class="token builtin class-name">:</span> beginning-of-line
+
+<span class="token string">"<span class="token entity" title="\e">\e</span>K"</span><span class="token builtin class-name">:</span> end-of-line
+
+  
+  
+
+<span class="token comment">##############################################################################</span>
+
+<span class="token comment"># References</span>
+
+<span class="token comment">##############################################################################</span>
+
+  
+
+https://github.com/Idnan/bash-guide
+
+http://www.linuxstall.com/linux-command-line-tips-that-every-linux-user-should-know/
+
+https://ss64.com/bash/syntax-keyboard.html
+
+http://wiki.bash-hackers.org/commands/classictest
+
+https://www.ibm.com/developerworks/library/l-bash-test/index.html
+
+https://www.cyberciti.biz/faq/bash-loop-over-file/
+
+https://linuxconfig.org/bash-scripting-tutorial
+
+https://github.com/LeCoupa/awesome-cheatsheets/blob/master/languages/bash.sh
+
+https://devhints.io/bash
+
+https://github.com/jlevy/the-art-of-command-line
+
+https://yq.aliyun.com/articles/68541
+
+  
+
+<span class="token comment"># vim: set ts=4 sw=4 tw=0 et :</span>
+</code><button class="copy-code-button">复制</button></pre></div><div class="mod-footer"></div></div></div></div><div class="sidebar-right sidebar"><div class="sidebar-handle"></div><div class="sidebar-topbar"><div class="topbar-content"></div><div class="clickable-icon sidebar-collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><path d="M21 3H3C1.89543 3 1 3.89543 1 5V19C1 20.1046 1.89543 21 3 21H21C22.1046 21 23 20.1046 23 19V5C23 3.89543 22.1046 3 21 3Z"></path><path d="M10 4V20"></path><path d="M4 7H7"></path><path d="M4 10H7"></path><path d="M4 13H7"></path></svg></div></div><div class="sidebar-content"><div class="graph-view-wrapper"><div class="sidebar-section-header">Interactive Graph</div><div class="graph-view-placeholder">
+		<div class="graph-view-container">
+			<div class="graph-icon graph-expand" role="button" aria-label="Expand" data-tooltip-position="top"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></div>
+			<canvas id="graph-canvas" class="hide" width="512px" height="512px"></canvas>
+		</div>
+		</div></div><div class="tree-container mod-root nav-folder tree-item outline-tree" data-depth="0"><div class="tree-header"><span class="sidebar-section-header">Table Of Contents</span><button class="clickable-icon collapse-tree-button" aria-label="Collapse All"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></svg></button></div><div class="tree-scroll-area tree-item-children nav-folder-children"><div class="tree-item mod-tree-folder nav-folder mod-collapsible is-collapsed" style="display: none;"></div><div class="tree-item" data-depth="1"><a class="tree-link" href="linux和bash脚本\常用命令.html#常用命令"><div class="tree-item-contents heading-link" heading-name="常用命令"><span class="tree-item-title">常用命令</span></div></a><div class="tree-item-children nav-folder-children"></div></div></div></div></div><script defer="">let rs = document.querySelector(".sidebar-right"); rs.classList.add("is-collapsed"); if (window.innerWidth > 768) rs.classList.remove("is-collapsed"); rs.style.setProperty("--sidebar-width", localStorage.getItem("sidebar-right-width"));</script></div></div></body></html>
