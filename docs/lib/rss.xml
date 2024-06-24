@@ -1,4 +1,14 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[科研思路]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>科研思路</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Mon, 24 Jun 2024 04:08:15 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Mon, 24 Jun 2024 04:08:09 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[1 .&nbsp;<a data-href="正态分布 (Normal Distribution)" href="正态分布 (Normal Distribution)" class="internal-link" target="_self" rel="noopener">正态分布 (Normal Distribution)</a>]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[科研思路]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>科研思路</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Mon, 24 Jun 2024 05:52:38 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Mon, 24 Jun 2024 05:52:35 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[成纤维细胞生长因子21（Fibroblast Growth Factor 21，FGF21）]]></title><description><![CDATA[ 
+ <br>FGF21（成纤维细胞生长因子21）：<br>
+<br>FGF21是一种属于成纤维细胞生长因子家族的蛋白质，通常在肝脏中表达，但也在肌肉和脂肪组织中有表达。
+<br>它参与调节糖代谢、脂肪氧化和能量平衡。
+<br>在线粒体疾病中，特别是那些影响线粒体翻译和功能的疾病中，FGF21的水平可能会上升。这是因为线粒体功能障碍会激活与FGF21表达相关的途径，从而作为线粒体应激的响应指标。
+]]></description><link>疾病与基因\成纤维细胞生长因子21（fibroblast-growth-factor-21，fgf21）.html</link><guid isPermaLink="false">疾病与基因/成纤维细胞生长因子21（Fibroblast Growth Factor 21，FGF21）.md</guid><pubDate>Mon, 24 Jun 2024 05:27:56 GMT</pubDate></item><item><title><![CDATA[生长分化因子15（Growth Differentiation Factor 15，GDF15）]]></title><description><![CDATA[ 
+ <br>
+<br>GDF15是属于转化生长因子β（TGF-β）超家族的一员，它在多种组织中表达，尤其在应激或组织损伤时表达量增加。
+<br>GDF15在调节炎症反应、细胞生长和细胞死亡过程中起作用。
+<br>在线粒体疾病中，GDF15的水平也可能因为线粒体功能障碍而增加。研究表明，GDF15是反应线粒体损伤的敏感指标，因此在诊断和监测线粒体相关的疾病中具有重要价值。
+]]></description><link>疾病与基因\生长分化因子15（growth-differentiation-factor-15，gdf15）.html</link><guid isPermaLink="false">疾病与基因/生长分化因子15（Growth Differentiation Factor 15，GDF15）.md</guid><pubDate>Mon, 24 Jun 2024 05:28:28 GMT</pubDate></item><item><title><![CDATA[1 .&nbsp;<a data-href="正态分布 (Normal Distribution)" href="正态分布 (Normal Distribution)" class="internal-link" target="_self" rel="noopener">正态分布 (Normal Distribution)</a>]]></title><description><![CDATA[ 
  <br><br>正态分布在我们的生活中随处可见，我们身高的分布、体重的分布，甚至是考试成绩的分布都可能符合正态分布。它的形状就像一个钟形曲线，最高点在中间，两边逐渐低下，具有对称性。<br>
 <img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517091725.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br>伯努利分布又名两点分布或者0-1分布，是描述只有两种可能结果的随机试验的概率分布，比如抛硬币或投掷骰子。它将这两种结果分别表示为1和0，通常用 p 来表示事件的成功概率，而1-p 表示事件的失败概率。比如，你在玩一个抛硬币的游戏。硬币只有两面：正面和反面。当你抛硬币时，只有两种可能的结果：硬币出现正面或反面。伯努利分布就像是描述硬币落地后是正面还是反面的概率分布。在伯努利分布中，我们关心的是事件的成功概率，即出现期望结果的概率。比如，在抛硬币时，成功的概率就是硬币出现正面的概率。<br>伯努利分布的变异程度通常由成功和失败的概率决定。如果硬币是公平的，那么成功和失败的概率都是相等的，变异程度就较小。假设你在玩一个猜硬币正反面的游戏，如果你猜对了，你就赢得奖品。这种情况下，游戏的结果可以用伯努利分布来描述。<br>
 <img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517091815.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br>泊松分布常常用于描述单位时间或空间内事件发生的次数，比如在一小时内接到的电话数量、一天内发生的交通事故数量等。<br>它的形状看起来有点像钟形曲线，但是更加扁平。在图的中心，事件发生的次数最多，然后随着次数的增加，概率逐渐减小。<br>平均值告诉我们在单位时间或空间内预期事件的平均发生次数。<br>
@@ -31,7 +41,50 @@
 <br>负二项分布 (Negative Binomial Distribution)：描述在一系列独立的伯努利试验中，达到指定数量的成功之前的失败次数。
 <br>威布尔分布 (Weibull Distribution)：常用于可靠性工程和寿命分析，描述随机事件的生存时间。<br>
 
-<br>这些分布覆盖了数据科学中许多常见的场景，从描述连续变量到描述离散变量，以及描述等待时间和间隔时间等各种情况。]]></description><link>科研方法及理论\数据科学家-95-时间都在使用的-10-大基本分布.html</link><guid isPermaLink="false">科研方法及理论/数据科学家 95% 时间都在使用的 10 大基本分布.md</guid><pubDate>Thu, 20 Jun 2024 12:25:33 GMT</pubDate><enclosure url="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517091725.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517091725.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[python：快速整理线粒体单倍群至目标上游单倍群]]></title><description><![CDATA[ 
+<br>这些分布覆盖了数据科学中许多常见的场景，从描述连续变量到描述离散变量，以及描述等待时间和间隔时间等各种情况。]]></description><link>科研方法及理论\数据科学家-95-时间都在使用的-10-大基本分布.html</link><guid isPermaLink="false">科研方法及理论/数据科学家 95% 时间都在使用的 10 大基本分布.md</guid><pubDate>Thu, 20 Jun 2024 12:25:33 GMT</pubDate><enclosure url="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517091725.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517091725.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[摘要]]></title><description><![CDATA[ 
+ <br>
+Mitochondrial disease in adults: recent advances and  future promise
+<br><br>线粒体疾病是一些最常见的遗传性神经代谢疾病，过去 5 年我们对这些疾病的理解、诊断和治疗取得了重大进展。线粒体疾病队列的发展和国际合作改变了我们对线粒体疾病临床表型和自然史的认识。高通量测序技术的进步通过越来越多地使用遗传学优先的方法改变了线粒体疾病的诊断算法，迄今为止已鉴定出 350 多个致病基因。虽然目前线粒体疾病的管理策略侧重于监测多系统参与和有效的对症治疗，但正在努力寻找更好的治疗方法，包括重新利用现有药物、使用新型小分子和基因疗法。生殖技术的发展为女性提供了预防将 DNA 相关线粒体疾病传染给孩子的机会。<br><br>文章主要探讨了遗传性线粒体疾病，这是一类复杂的神经遗传性疾病，为神经科医生在临床诊断和治疗上带来了诸多挑战。文章强调了线粒体疾病的临床表现具有高度变异性，并且经常涉及其他组织，这可能导致对潜在线粒体疾病的识别延迟。确立线粒体疾病的遗传诊断具有一定难度，因为线粒体受到核基因组和线粒体基因组的双重遗传控制。对于那些表现出已知临床综合征或有明确家族病史的个体，遗传诊断相对直接；然而，对许多患者来说，线粒体疾病只是复杂神经遗传性疾病鉴别诊断中的一部分。尽管如此，确定遗传原因对预后和遗传咨询至关重要，特别是在涉及 <a data-href="线粒体DNA（mtDNA）" href="疾病与基因\线粒体dna（mtdna）.html" class="internal-link" target="_self" rel="noopener">线粒体DNA（mtDNA）</a> 相关疾病的情况下，这对受影响女性在生育选择上提出了独特的挑战。<br>文章回顾了过去几年在线粒体疾病研究领域取得的重大进展，突出了神经科医生在识别、诊断和管理成人线粒体疾病方面需要注意的重要方面。随着大型患者群体的建立和基因型特异性症状的识别，我们对线粒体疾病的临床谱系有了更深入的了解。遗传测序技术的进步促使人们认识到超过350个源自线粒体和核的基因缺陷可能导致线粒体疾病，从而转变了诊断方式。尽管目前还没有治愈线粒体疾病的方法，但基于共识的临床指南可以帮助管理患者，对于某些线粒体疾病，潜在的治疗方法正在出现。越来越多的临床试验正在研究新的或重新利用的小分子和基因治疗。最后，如线粒体替代疗法等生殖技术的发展为携带mtDNA相关疾病的母亲带来了希望。<br><br>线粒体作为人体细胞中必不可少的细胞器，其病变可影响所有器官，但神经系统的受累尤为显著。线粒体疾病初期多定义为一系列临床综合征特征的聚合体，如 <a data-href="MELAS综合症（Mitochondrial Encephalomyopathy, Lactic Acidosis, and Stroke-like Episodes）" href="疾病与基因\melas综合症（mitochondrial-encephalomyopathy,-lactic-acidosis,-and-stroke-like-episodes）.html" class="internal-link" target="_self" rel="noopener">MELAS综合症（Mitochondrial Encephalomyopathy, Lactic Acidosis, and Stroke-like Episodes）</a> 、<a data-href="线粒体肌病（Mitochondrial Myopathy）" href="论文\综述\线粒体肌病（mitochondrial-myopathy）.html" class="internal-link" target="_self" rel="noopener">线粒体肌病（Mitochondrial Myopathy）</a> 、脑病和Kearns-Sayre综合征。然而，只有少数患者在初次表现时展现全部症状。<br>关键在于通过深入表型描述、全面的临床特征描述和其他器官受累的识别来识别线粒体疾病患者。线粒体疾病的初次临床表现可能是神经系统相关，也可能不是，且表现可能是急性的、亚急性的或缓慢发展的。<br><br>
+<br>神经系统的急性和亚急性表现：类卒中发作是线粒体疾病中的一个特征，通常表现为头痛、恶心和呕吐、脑病、局部起始的癫痫发作或精神症状，然后发展为局部神经功能缺失。患者可能体验到视觉障碍和头痛。磁共振成像上，线粒体病变通常不对应于血管区域，涉及皮层和邻近皮层的白质。
+<br>癫痫：癫痫是线粒体疾病的常见特征，包括全面性和局部性癫痫发作。特定遗传变异的患者中，癫痫活动可能导致类卒中发作，并对药物治疗（包括全身麻醉）具有难以控制或极难控制的特性。
+<br>脑干功能的代谢失代偿：Leigh综合征是儿童线粒体疾病最常见的表现形式，当代谢受到挑战（如感染期间）时，患者可能发展出亚急性脑干功能障碍。
+<br>视力急性下降和视神经病变：Leber遗传性视神经病变（LHON）是线粒体疾病中的一个典型表现，起始通常为单眼，随后数周或数月内第二只眼睛也会受累。
+<br>慢性神经系统表现：包括慢性进展性外眼肌麻痹（CPEO）和其他慢性神经症状如小脑或感觉性共济失调、周围神经病、偏头痛、认知障碍、痉挛性和锥体外运动障碍等。
+<br><br>随着基因组学和生物标志物的快速发展，线粒体疾病的诊断得到了显著提高。通过对特定基因变异的了解，可以更有针对性地进行治疗，帮助管理和监控特定并发症，提供生殖选择的咨询，并使患者能够参与适当的临床试验。然而，诊断测试的获取在某些国家仍不平等。<br>
+<br>
+线粒体功能障碍的新生物标志物：<a data-href="成纤维细胞生长因子21（Fibroblast Growth Factor 21，FGF21）" href="疾病与基因\成纤维细胞生长因子21（fibroblast-growth-factor-21，fgf21）.html" class="internal-link" target="_self" rel="noopener">成纤维细胞生长因子21（Fibroblast Growth Factor 21，FGF21）</a>和<a data-href="生长分化因子15（Growth Differentiation Factor 15，GDF15）" href="疾病与基因\生长分化因子15（growth-differentiation-factor-15，gdf15）.html" class="internal-link" target="_self" rel="noopener">生长分化因子15（Growth Differentiation Factor 15，GDF15）</a>是两种新发现的线粒体功能障碍生物标志物，它们在成人线粒体疾病中具有较高的敏感性和特异性，尤其是在与肌肉相关的线粒体翻译缺陷（如病理性mt tRNA变异和mtDNA缺失）相关的情况下。这些生物标志物的水平与肌肉中的生化缺陷的严重程度相关。<br>
+
+
+<br>
+新的流体生物标志物：包括氨基酸和单碳代谢中的新生物标志物，例如循环的无细胞mtDNA。这种生物标志物在m.3243A→G相关的线粒体疾病中增加，可能用于监测疾病的严重程度。<a data-href="PNAS 线粒体DNA第3243位异质性的逐渐增加导致突然的转录重编程" href="文献及报道\文献\pnas-线粒体dna第3243位异质性的逐渐增加导致突然的转录重编程.html" class="internal-link" target="_self" rel="noopener">PNAS 线粒体DNA第3243位异质性的逐渐增加导致突然的转录重编程</a>。
+
+<br>
+mtDNA和核DNA的基因组学：线粒体疾病通常是由氧化磷酸化系统的缺陷引起的，该系统由核基因和线粒体基因编码的亚基组成。mtDNA的病理性变异可以通过全基因组测序（WGS）和全外显子组测序（WES）数据来检测。此外，核DNA中的病理性变异也是线粒体疾病的常见原因，目前已知超过300个核基因可能导致线粒体疾病。<br>
+
+
+<br>
+功能测试和生化评估：传统上，对疑似线粒体疾病的调查主要集中在检测肌肉组织中的生化功能障碍，例如COX缺陷纤维和氧化磷酸化系统酶活性的测定。肌肉活检在基因组测试不确定后常用于诊断，并且可以为新发现的遗传变异的病理性提供宝贵的信息。
+
+<br><br>纵向和自然历史数据的稀缺性构成了制定明确和全面的医疗管理指导的重大障碍，并阻碍了临床试验的发展以及以患者为中心的临床相关结果指标的制定。通常，描述单一线粒体疾病病例或特定基因型的回顾性病例系列的出版物经常报道所谓的经典临床表现的患者，因此反映了对重症的偏见。通过基于队列的观察性研究和采用标准化的数据收集方法，提供了对线粒体疾病的临床表型和疾病严重性的谱系的更深入理解。<br>建立这些患者队列有助于调查以表型为先的方法，进一步了解特定临床特征的线粒体疾病的多样化遗传原因，如锥体外运动障碍、癫痫、肌阵挛、慢性进展性外眼肌麻痹（CPEO）、妊娠相关并发症和胃肠症状等。此外，通过对这些队列研究的系统评估和随访，对非常罕见但临床重要的事件的理解（如携带m.3243A→G变异的患者突然意外死亡）也得到了增强。<br>这些自然历史研究提供了对疾病不同阶段和风险分层的洞察，现在对常见的mtDNA相关疾病的并发症监测已成常规。患者队列的研究还提供了有关由线粒体功能障碍引起的新疾病机制的见解——例如，患有多种mt tRNA合成酶缺陷（如AARS2、DARS2和EARS2）的患者在MRI上观察到的脑白质营养不良，表明线粒体在髓磷脂代谢中的作用。<br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240624133929.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
+图1：线粒体疾病的神经影像学特征<br>此外，建立患者队列对于制定基于共识的国际指导方针、发展专门针对线粒体疾病的临床表型和基因组资源（包括在gnomAD和GENOMIT中的mtDNA变异数据）以及为临床试验选择结果指标至关重要。这些成果对提高线粒体疾病的诊断精度、改善患者管理和促进疾病的长期监控具有显著影响。<br><br><br>
+<br>Idebenone 是在欧洲获批的首个用于治疗Leber遗传性视神经病变（LHON）视觉障碍的药物。但在慢性阶段使用该药物的证据不足。
+<br>L-精氨酸 用于治疗类卒中发作的效果仍具争议。
+<br>牛磺酸 对MELAS综合症患者的类卒中发作频率有所减少，但由于缺乏对照组，该研究结果的有效性存在疑问。
+<br><br>
+<br>小分子药物 和 基因疗法 正在开发中，包括用于校正生化异常、代谢重编程或其它基因疗法。
+<br>烟酸（维生素B3） 在一项试点研究中显示，它能恢复低NAD+水平并改善患有线粒体肌病的少数患者的肌力和代谢。
+<br><br>
+<br>对于CPEO患者，与经验丰富的眼整形外科医生合作讨论管理方案，可以显著提高生活质量。
+<br>鼓励进行锻炼，因为它有助于改善总体健康状况，包括心血管健康。
+<br><br>
+<br>对于携带mtDNA病理性变异的女性，提供的生殖咨询比其他类型的突变更为复杂。例如，家庭成员计划中可能包括产前检测和植入前遗传诊断。
+<br>在英国，高度监管的环境中，现在可以选择线粒体捐赠（线粒体置换疗法）作为一种选择。
+<br><br>
+<br>遗传性和环境因素导致不同的疾病严重程度。例如，在携带LHON三种常见病理性变异之一的家庭中，男性发展视力丧失的风险比女性更高。
+<br><br>过去 5 年，我们对线粒体疾病的理解以及诊断和预防线粒体疾病的能力取得了重大进展，这使我们对改善线粒体疾病患者的生活产生了谨慎乐观的态度。强有力的指南正在用于患者管理和针对性的治疗。此外，体外受精的发展意味着患有线粒体疾病的家庭可以获得新的生殖选择。<br>尽管如此，这一进展凸显了我们未来研究重点的必要性。阐明疾病机制对于理解为什么特定患者具有线粒体疾病的组织特异性表现是必要的。需要新的或重新利用的药物，并且需要认识到某些方法（例如基因疗法）可能是基因型特异性的。新疗法的开发不仅需要进行临床试验的患者队列，还需要与相关的经过验证的结果测量。推动研究进步的一个关键因素是临床和基础科学家、开发新疗法的制药行业以及患者组织之间的密切合作。<br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240624134008.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
+图 2：线粒体氧化磷酸化系统和其他通常与成人线粒体疾病有关的途径的图示<br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240624134033.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
+图 3：线粒体疾病诊断<br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240624134104.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
+图 4：线粒体异质性和原核转移]]></description><link>文献及报道\文献\the-lancet-neurology-成年人的线粒体疾病：最新进展和未来前景.html</link><guid isPermaLink="false">文献及报道/文献/The Lancet Neurology 成年人的线粒体疾病：最新进展和未来前景.md</guid><pubDate>Mon, 24 Jun 2024 05:46:46 GMT</pubDate><enclosure url="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240624133929.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240624133929.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[python：快速整理线粒体单倍群至目标上游单倍群]]></title><description><![CDATA[ 
  <br>在利用单倍群频率进行 PCA 分析的时候，需要将单倍群划分到合理的级别。我们可以参考之前的研究来将单倍群进行统一。例如，我们可以参考这篇文献 <a data-footref="1" href="about:blank#fn-1-501bc15722118cb8" class="footnote-link" target="_self" rel="noopener">[1]</a>。附表中存在这样：<br>Haplogroup	Anhui	Beijing	Chongqing	Fujian	Gansu	Guangxi	Guangdong	Guizhou
 A9.35 8.46 5.75 4.84 9.03 4.05 3.97 8.28 
 B410.43 10.24 11.50 11.94 11.94 12.61 12.23 8.28 
