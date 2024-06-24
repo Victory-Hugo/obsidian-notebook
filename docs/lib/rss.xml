@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[科研思路]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>科研思路</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Mon, 24 Jun 2024 09:01:28 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Mon, 24 Jun 2024 09:01:25 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[1 .&nbsp;<a data-href="正态分布 (Normal Distribution)" href="正态分布 (Normal Distribution)" class="internal-link" target="_self" rel="noopener">正态分布 (Normal Distribution)</a>]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[科研思路]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>科研思路</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Mon, 24 Jun 2024 12:56:29 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Mon, 24 Jun 2024 12:56:26 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[1 .&nbsp;<a data-href="正态分布 (Normal Distribution)" href="正态分布 (Normal Distribution)" class="internal-link" target="_self" rel="noopener">正态分布 (Normal Distribution)</a>]]></title><description><![CDATA[ 
  <br><br>正态分布在我们的生活中随处可见，我们身高的分布、体重的分布，甚至是考试成绩的分布都可能符合正态分布。它的形状就像一个钟形曲线，最高点在中间，两边逐渐低下，具有对称性。<br>
 <img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517091725.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br>伯努利分布又名两点分布或者0-1分布，是描述只有两种可能结果的随机试验的概率分布，比如抛硬币或投掷骰子。它将这两种结果分别表示为1和0，通常用 p 来表示事件的成功概率，而1-p 表示事件的失败概率。比如，你在玩一个抛硬币的游戏。硬币只有两面：正面和反面。当你抛硬币时，只有两种可能的结果：硬币出现正面或反面。伯努利分布就像是描述硬币落地后是正面还是反面的概率分布。在伯努利分布中，我们关心的是事件的成功概率，即出现期望结果的概率。比如，在抛硬币时，成功的概率就是硬币出现正面的概率。<br>伯努利分布的变异程度通常由成功和失败的概率决定。如果硬币是公平的，那么成功和失败的概率都是相等的，变异程度就较小。假设你在玩一个猜硬币正反面的游戏，如果你猜对了，你就赢得奖品。这种情况下，游戏的结果可以用伯努利分布来描述。<br>
 <img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517091815.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br>泊松分布常常用于描述单位时间或空间内事件发生的次数，比如在一小时内接到的电话数量、一天内发生的交通事故数量等。<br>它的形状看起来有点像钟形曲线，但是更加扁平。在图的中心，事件发生的次数最多，然后随着次数的增加，概率逐渐减小。<br>平均值告诉我们在单位时间或空间内预期事件的平均发生次数。<br>
@@ -31,7 +31,70 @@
 <br>负二项分布 (Negative Binomial Distribution)：描述在一系列独立的伯努利试验中，达到指定数量的成功之前的失败次数。
 <br>威布尔分布 (Weibull Distribution)：常用于可靠性工程和寿命分析，描述随机事件的生存时间。<br>
 
-<br>这些分布覆盖了数据科学中许多常见的场景，从描述连续变量到描述离散变量，以及描述等待时间和间隔时间等各种情况。]]></description><link>科研方法及理论\数据科学家-95-时间都在使用的-10-大基本分布.html</link><guid isPermaLink="false">科研方法及理论/数据科学家 95% 时间都在使用的 10 大基本分布.md</guid><pubDate>Thu, 20 Jun 2024 12:25:33 GMT</pubDate><enclosure url="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517091725.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517091725.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[欢迎来到我的思维领域]]></title><description><![CDATA[ 
+<br>这些分布覆盖了数据科学中许多常见的场景，从描述连续变量到描述离散变量，以及描述等待时间和间隔时间等各种情况。]]></description><link>科研方法及理论\数据科学家-95-时间都在使用的-10-大基本分布.html</link><guid isPermaLink="false">科研方法及理论/数据科学家 95% 时间都在使用的 10 大基本分布.md</guid><pubDate>Thu, 20 Jun 2024 12:25:33 GMT</pubDate><enclosure url="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517091725.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517091725.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[原理]]></title><description><![CDATA[ 
+ <br><br>我们使用以下公式来计算单倍型/单倍群的法医学参数。单倍型/单倍群多样性(Haplotype/haplogroup diversity, HD)是基于 Nei 和 Tajima 提出来的公式进行计算：<br>
+其中 n 表示观察到单倍型/单倍群的数量，pi 表示第 i个单倍型/单倍群的频率。分辨能力(Discrimination capacity,DC)使用观察的单倍型/单倍群数量和所有单倍型/单倍群数量的比值。<br><br>准备一个 txt 文件：<br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240624155053.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br>import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+from scipy.stats import kruskal
+
+# 读取数据
+file_path = '新建 Text Document.txt'
+output_file_path = 'group_haplotype_diversities.csv'
+data = pd.read_csv(file_path, sep='\t')
+
+# 分组并计算每个群体的单倍型多样性
+diversities = []
+group_sizes = data['Population_Province'].value_counts()
+
+for group, group_data in data.groupby('Population_Province'):
+    n = len(group_data)
+    if n &gt;= 20:
+        haplotype_counts = group_data['Haplo'].value_counts()
+        haplotype_frequencies = haplotype_counts / n
+        HD = n * (1 - sum(haplotype_frequencies**2)) / (n - 1)
+        diversities.append((group, HD, n))
+
+# 转为DataFrame
+diversity_df = pd.DataFrame(diversities, columns=['Group', 'Haplotype Diversity', 'Sample Size'])
+
+# 统计学检验
+groups = diversity_df['Group'].unique()
+group_data = [diversity_df[diversity_df['Group'] == group]['Haplotype Diversity'].values for group in groups]
+stat, p = kruskal(*group_data)
+
+# 输出统计学检验结果
+print(f"Kruskal-Wallis H检验结果: H-statistic = {stat}, p-value = {p}")
+
+# 保存结果到CSV文件
+with open(output_file_path, 'w') as f:
+    f.write(f"Kruskal-Wallis H检验结果: H-statistic = {stat}, p-value = {p}\n")
+diversity_df.to_csv(output_file_path, mode='a', index=False)
+
+# 排序数据
+diversity_df = diversity_df.sort_values(by='Haplotype Diversity')
+
+# 添加群体数量到群体名称
+diversity_df['Group'] = diversity_df.apply(lambda row: f"{row['Group']} ({row['Sample Size']})", axis=1)
+
+# 可视化结果：柱状图
+plt.figure(figsize=(14, 7))
+sns.barplot(x='Group', y='Haplotype Diversity', data=diversity_df, palette='hsv')
+plt.xlabel('Group')
+plt.ylabel('Haplotype Diversity')
+plt.title('Haplotype Diversity of Different Groups')
+plt.xticks(rotation=90)  # 群体名称旋转90度便于阅读
+plt.tight_layout()
+
+# 展示图表
+plt.show()
+
+# 可选：保存图表
+# output_chart_path = 'group_haplotype_diversities_barplot.png'
+# plt.savefig(output_chart_path)
+
+复制<br><br><img alt="Figure_1.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/Figure_1.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;">]]></description><link>软件\其它生信软件\群体遗传\python：计算群体单倍群单倍型多样性.html</link><guid isPermaLink="false">软件/其它生信软件/群体遗传/python：计算群体单倍群单倍型多样性.md</guid><pubDate>Mon, 24 Jun 2024 12:56:12 GMT</pubDate><enclosure url="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240624155053.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240624155053.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[欢迎来到我的思维领域]]></title><description><![CDATA[ 
  <br><br>
 这是我的主页（也是我的思维领域）<br>
 当然，你也可以访问我的其他主页：<br>
@@ -113,70 +176,7 @@ print(f"文件已成功转换并保存为: {output_file_path}")
 <img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240612172823.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240612172852.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
 <img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240612172905.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>注意，最终生成的 xml 文件内，不能出现@和'符号，这个坑很重要。注意把单倍群中的特殊字符删去!!<br><br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240612172943.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
 <img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240612173008.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;">]]></description><link>软件\beast\beast：1代参数设置（简略版）.html</link><guid isPermaLink="false">软件/BEAST/BEAST：1代参数设置（简略版）.md</guid><pubDate>Mon, 24 Jun 2024 08:46:48 GMT</pubDate><enclosure url="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240612171601.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240612171601.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[M 单倍群]]></title><description><![CDATA[ 
- <br><br>60500年前<br><br>58200年前<br><br>54300年前]]></description><link>软件\beast\beast：线粒体单倍群时间.html</link><guid isPermaLink="false">软件/BEAST/BEAST：线粒体单倍群时间.md</guid><pubDate>Mon, 24 Jun 2024 08:02:28 GMT</pubDate></item><item><title><![CDATA[原理]]></title><description><![CDATA[ 
- <br><br>我们使用以下公式来计算单倍型/单倍群的法医学参数。单倍型/单倍群多样性(Haplotype/haplogroup diversity, HD)是基于 Nei 和 Tajima 提出来的公式进行计算：<br>
-其中 n 表示观察到单倍型/单倍群的数量，pi 表示第 i个单倍型/单倍群的频率。分辨能力(Discrimination capacity,DC)使用观察的单倍型/单倍群数量和所有单倍型/单倍群数量的比值。<br><br>准备一个 txt 文件：<br>
-<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240624155053.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br>import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
-from scipy.stats import kruskal
-
-# 读取数据
-file_path = '新建 Text Document.txt'
-output_file_path = 'group_haplotype_diversities.csv'
-data = pd.read_csv(file_path, sep='\t')
-
-# 分组并计算每个群体的单倍型多样性
-diversities = []
-group_sizes = data['Population_Province'].value_counts()
-
-for group, group_data in data.groupby('Population_Province'):
-    n = len(group_data)
-    if n &gt;= 20:
-        haplotype_counts = group_data['Haplo_filter'].value_counts()
-        haplotype_frequencies = haplotype_counts / n
-        HD = n * (1 - sum(haplotype_frequencies**2)) / (n - 1)
-        diversities.append((group, HD, n))
-
-# 转为DataFrame
-diversity_df = pd.DataFrame(diversities, columns=['Group', 'Haplotype Diversity', 'Sample Size'])
-
-# 统计学检验
-groups = diversity_df['Group'].unique()
-group_data = [diversity_df[diversity_df['Group'] == group]['Haplotype Diversity'].values for group in groups]
-stat, p = kruskal(*group_data)
-
-# 输出统计学检验结果
-print(f"Kruskal-Wallis H检验结果: H-statistic = {stat}, p-value = {p}")
-
-# 保存结果到CSV文件
-with open(output_file_path, 'w') as f:
-    f.write(f"Kruskal-Wallis H检验结果: H-statistic = {stat}, p-value = {p}\n")
-diversity_df.to_csv(output_file_path, mode='a', index=False)
-
-# 排序数据
-diversity_df = diversity_df.sort_values(by='Haplotype Diversity')
-
-# 添加群体数量到群体名称
-diversity_df['Group'] = diversity_df.apply(lambda row: f"{row['Group']} ({row['Sample Size']})", axis=1)
-
-# 可视化结果：柱状图
-plt.figure(figsize=(14, 7))
-sns.barplot(x='Group', y='Haplotype Diversity', data=diversity_df, palette='hsv')
-plt.xlabel('Group')
-plt.ylabel('Haplotype Diversity')
-plt.title('Haplotype Diversity of Different Groups')
-plt.xticks(rotation=90)  # 群体名称旋转90度便于阅读
-plt.tight_layout()
-
-# 展示图表
-plt.show()
-
-# 可选：保存图表
-# output_chart_path = 'group_haplotype_diversities_barplot.png'
-# plt.savefig(output_chart_path)
-
-复制<br><br><img alt="Figure_1.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/Figure_1.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;">]]></description><link>软件\其它生信软件\群体遗传\python：计算群体单倍群单倍型多样性.html</link><guid isPermaLink="false">软件/其它生信软件/群体遗传/python：计算群体单倍群单倍型多样性.md</guid><pubDate>Mon, 24 Jun 2024 07:51:39 GMT</pubDate><enclosure url="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240624155053.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240624155053.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[成纤维细胞生长因子21（Fibroblast Growth Factor 21，FGF21）]]></title><description><![CDATA[ 
+ <br><br>60500年前<br><br>58200年前<br><br>54300年前]]></description><link>软件\beast\beast：线粒体单倍群时间.html</link><guid isPermaLink="false">软件/BEAST/BEAST：线粒体单倍群时间.md</guid><pubDate>Mon, 24 Jun 2024 08:02:28 GMT</pubDate></item><item><title><![CDATA[成纤维细胞生长因子21（Fibroblast Growth Factor 21，FGF21）]]></title><description><![CDATA[ 
  <br>FGF21（成纤维细胞生长因子21）：<br>
 <br>FGF21是一种属于成纤维细胞生长因子家族的蛋白质，通常在肝脏中表达，但也在肌肉和脂肪组织中有表达。
 <br>它参与调节糖代谢、脂肪氧化和能量平衡。
