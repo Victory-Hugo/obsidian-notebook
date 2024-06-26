@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[科研思路]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>科研思路</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Mon, 24 Jun 2024 12:56:29 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Mon, 24 Jun 2024 12:56:26 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[1 .&nbsp;<a data-href="正态分布 (Normal Distribution)" href="正态分布 (Normal Distribution)" class="internal-link" target="_self" rel="noopener">正态分布 (Normal Distribution)</a>]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[科研思路]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>科研思路</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Wed, 26 Jun 2024 14:46:36 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Wed, 26 Jun 2024 14:46:32 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[1 .&nbsp;<a data-href="正态分布 (Normal Distribution)" href="正态分布 (Normal Distribution)" class="internal-link" target="_self" rel="noopener">正态分布 (Normal Distribution)</a>]]></title><description><![CDATA[ 
  <br><br>正态分布在我们的生活中随处可见，我们身高的分布、体重的分布，甚至是考试成绩的分布都可能符合正态分布。它的形状就像一个钟形曲线，最高点在中间，两边逐渐低下，具有对称性。<br>
 <img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517091725.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br>伯努利分布又名两点分布或者0-1分布，是描述只有两种可能结果的随机试验的概率分布，比如抛硬币或投掷骰子。它将这两种结果分别表示为1和0，通常用 p 来表示事件的成功概率，而1-p 表示事件的失败概率。比如，你在玩一个抛硬币的游戏。硬币只有两面：正面和反面。当你抛硬币时，只有两种可能的结果：硬币出现正面或反面。伯努利分布就像是描述硬币落地后是正面还是反面的概率分布。在伯努利分布中，我们关心的是事件的成功概率，即出现期望结果的概率。比如，在抛硬币时，成功的概率就是硬币出现正面的概率。<br>伯努利分布的变异程度通常由成功和失败的概率决定。如果硬币是公平的，那么成功和失败的概率都是相等的，变异程度就较小。假设你在玩一个猜硬币正反面的游戏，如果你猜对了，你就赢得奖品。这种情况下，游戏的结果可以用伯努利分布来描述。<br>
 <img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517091815.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br>泊松分布常常用于描述单位时间或空间内事件发生的次数，比如在一小时内接到的电话数量、一天内发生的交通事故数量等。<br>它的形状看起来有点像钟形曲线，但是更加扁平。在图的中心，事件发生的次数最多，然后随着次数的增加，概率逐渐减小。<br>平均值告诉我们在单位时间或空间内预期事件的平均发生次数。<br>
@@ -31,7 +31,94 @@
 <br>负二项分布 (Negative Binomial Distribution)：描述在一系列独立的伯努利试验中，达到指定数量的成功之前的失败次数。
 <br>威布尔分布 (Weibull Distribution)：常用于可靠性工程和寿命分析，描述随机事件的生存时间。<br>
 
-<br>这些分布覆盖了数据科学中许多常见的场景，从描述连续变量到描述离散变量，以及描述等待时间和间隔时间等各种情况。]]></description><link>科研方法及理论\数据科学家-95-时间都在使用的-10-大基本分布.html</link><guid isPermaLink="false">科研方法及理论/数据科学家 95% 时间都在使用的 10 大基本分布.md</guid><pubDate>Thu, 20 Jun 2024 12:25:33 GMT</pubDate><enclosure url="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517091725.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517091725.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[原理]]></title><description><![CDATA[ 
+<br>这些分布覆盖了数据科学中许多常见的场景，从描述连续变量到描述离散变量，以及描述等待时间和间隔时间等各种情况。]]></description><link>科研方法及理论\数据科学家-95-时间都在使用的-10-大基本分布.html</link><guid isPermaLink="false">科研方法及理论/数据科学家 95% 时间都在使用的 10 大基本分布.md</guid><pubDate>Thu, 20 Jun 2024 12:25:33 GMT</pubDate><enclosure url="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517091725.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517091725.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[融生型民族]]></title><description><![CDATA[ 
+ <br>由已经成为民族的众多民族的成分，由于某种原因发生融合，而形成的民族。]]></description><link>人文术语\融生型民族.html</link><guid isPermaLink="false">人文术语/融生型民族.md</guid><pubDate>Wed, 26 Jun 2024 08:08:29 GMT</pubDate></item><item><title><![CDATA[原生型民族]]></title><description><![CDATA[ 
+ <br>主要是指其民族形成起点是在氏族、部落、部落联盟的基础上，经历了原始社会末期的发展阶段，发展成为民族共同体。]]></description><link>人文术语\原生型民族.html</link><guid isPermaLink="false">人文术语/原生型民族.md</guid><pubDate>Wed, 26 Jun 2024 08:08:11 GMT</pubDate></item><item><title><![CDATA[概念]]></title><description><![CDATA[ 
+ <br><br>把在一个群体中出现的<br><br>def find_terminal_haplogroups(input_file_path, output_file_path):
+    import pandas as pd
+    
+    # 读取文件并忽略第一行标题
+    df = pd.read_csv(input_file_path, sep='\t', header=0)
+    
+    # 提取所有单倍群
+    all_haplogroups = set(df.iloc[:, 0])
+    upstream_haplogroups = set(df.iloc[:, 1:].stack())
+    
+    # 找出末端单倍群（仅在第一列出现的单倍群）
+    terminal_haplogroups = all_haplogroups - upstream_haplogroups
+    
+    # 保存结果
+    with open(output_file_path, 'w') as f:
+        for haplogroup in terminal_haplogroups:
+            f.write(f"{haplogroup}\n")
+
+# 输入和输出文件路径
+input_file_path = '逆序等级.txt'
+output_file_path = 'terminal_haplogroups.txt'
+
+# 调用函数处理文件
+find_terminal_haplogroups(input_file_path, output_file_path)
+
+复制<br><br>]]></description><link>软件\其它生信软件\群体遗传\python：查找末端单倍群.html</link><guid isPermaLink="false">软件/其它生信软件/群体遗传/python：查找末端单倍群.md</guid><pubDate>Mon, 24 Jun 2024 11:00:29 GMT</pubDate></item><item><title><![CDATA[傻逼服务器 ：]]></title><description><![CDATA[ 
+ <br><br>export LD_LIBRARY_PATH=$HOME/lib:$LD_LIBRARY_PATH
+复制<br><br>#!/bin/bash
+export PATH=/home/luolintao/SRA_download/sratoolkit.3.1.0-ubuntu64/bin:/home/zhiyongwang/.aspera/cli/bin:/home/bin:/home/guanglinhe/biosoftware/AdmixTools/bin:/home/anaconda3/include:/usr/include:/usr/share/R/include:/home/biosoftware/OpenBLAS:/home/anaconda3/bin:/home/bin:/root/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+export LD_LIBRARY_PATH=$HOME/lib:$LD_LIBRARY_PATH
+export PERL5LIB="/home/luolintao/perl5/lib/perl5${PERL5LIB:+:${PERL5LIB}}"
+export PERL_LOCAL_LIB_ROOT="/home/luolintao/perl5${PERL_LOCAL_LIB_ROOT:+:${PERL_LOCAL_LIB_ROOT}}"
+export PERL_MB_OPT="--install_base \"/home/luolintao/perl5\""
+export PERL_MM_OPT="INSTALL_BASE=/home/luolintao/perl5"
+
+# 启动 beast
+/home/luolintao/BEASTv1.10.4/BEASTv1.10.4/bin/beast -beagle_cpu -beagle_order 1 /home/luolintao/BEASTv1.10.4/BEASTv1.10.4/INPUT/Han_N.xml
+
+复制<br><br>
+<br>-beagle_off: 不使用BEAGLE库进行计算。
+<br>-beagle: 如果可用，使用BEAGLE库（默认开启）。
+<br>-beagle_info: 显示可用的BEAGLE资源信息。
+<br>-beagle_order: 设置资源使用顺序。例如，-beagle_order 1意味着使用资源1。
+<br>-beagle_instances: 在多个实例之间划分站点模式。
+<br>-beagle_CPU: 使用CPU实例进行计算。
+<br>-beagle_GPU: 如果可用，使用GPU实例进行计算。
+<br>-beagle_SSE: 如果可用，使用SSE扩展进行计算。
+<br>-beagle_SSE_off: 禁用SSE扩展。
+<br>-beagle_cuda: 如果可用，使用CUDA并行化进行计算。
+<br>-beagle_opencl: 如果可用，使用OpenCL并行化进行计算。
+<br>-beagle_single: 如果可用，使用单精度计算。
+<br>-beagle_double: 如果可用，使用双精度计算。
+<br>-beagle_async: 如果可用，使用异步内核。
+<br>-beagle_scaling: 指定使用的缩放方案。
+<br>-beagle_rescale: 动态缩放时指定重新缩放的频率。
+<br><br>beast -beagle_cuda -beagle_order 1 data.xml
+复制<br>/to/your/path/beast/bin/beast -beagle_GPU -beagle_SSE /to/your/path/输入文件.xml
+复制<br><br>输入命令 /to/your/path/beast/bin/beast -h 可以查看完整的命令行参数，需要注意的几点有<a data-footref="1" href="about:blank#fn-1-19df11fcbd58dedf" class="footnote-link" target="_self" rel="noopener">[1]</a>：  <br>
+<br>beast 会根据机器的计算资源，来自动的配置线程数，通常情况下，这个线程数会是你的机器能开启的最大线程，所以，除非你十分了解你的机器或希望约束beast 所调用的资源，那么就你不应该设置一个 --threads 参数来约束 beast 所开启的线程数目。  
+<br>beast_instances 的作用是给输入文件划分子分区，注意，这是子分区而不是分区，分区是输入文件中定义的，beast 计算程序不会给输入文件划分分区，根据，如果划分了子分区，一般都会导致计算性能的下降。  
+<br>beast_order 用来指定各个分区或子分区依次使用哪些计算资源，如果不指定该参数，那么程序将只会调用起一块计算资源。参数就是1,2,3,4这样的自然数，分别对应机器上的第一块CPU（GPU），第二块CPU（GPU）。  
+<br>如果输入文件没有分区，那么即使指定了 beagle_order 选项，也无法调用起多块计算资源，这时可以通过beagle_instances划分子分区来强行调用多块资源来进行计算，但是计算效率未必尽如人意。  
+<br>如果输入文件有 4 个分区，那么只有指定了 beagle_order 选项，才会调用起多块资源来并行计算。  
+线粒体 DNA 分区为2，可使用 beagle_order 2
+
+<br>执行 /to/your/path/beast/bin/beast -beagle_info 可以查看 beast 识别到的机器上的计算资源。  
+<br>每次beast开始计算时，都会在执行命令的目录下产生程序的日志输出文件，如果不删除该日志文件来重新计算同一个输入文件，那么会报错说日志文件已存在，这时可以手动删除该文件或添加 -overwrite 参数来强行覆盖原来的日志输出文件。  
+<br>查看英伟达显卡显存和利用效率的命令为：nvidia-smi
+<br><br><br>
+<br>
+<br><a data-tooltip-position="top" aria-label="https://blog.qiql.net/archives/beast" rel="noopener" class="external-link" href="https://blog.qiql.net/archives/beast" target="_blank">🔥Linux 平台 BEAST 安装及调试指南【附安装脚本】 (qiql.net)</a><a href="about:blank#fnref-1-19df11fcbd58dedf" class="footnote-backref footnote-link" target="_self" rel="noopener">↩︎</a>
+]]></description><link>软件\beast\beast：在服务器内运行.html</link><guid isPermaLink="false">软件/BEAST/BEAST：在服务器内运行.md</guid><pubDate>Wed, 26 Jun 2024 06:44:33 GMT</pubDate></item><item><title><![CDATA[中国少数民族的形成]]></title><description><![CDATA[ 
+ <br><br>从中国少数民族形成的起点，即从发生学角度方面考察，中国少数民族的形成大体有两种类型和途径：一种是<a data-href="原生型民族" href="人文术语\原生型民族.html" class="internal-link" target="_self" rel="noopener">原生型民族</a>，一种是<a data-href="融生型民族" href="人文术语\融生型民族.html" class="internal-link" target="_self" rel="noopener">融生型民族</a>。<br>所谓原生型民族，主要是指其民族形成起点是在氏族、部落、部落联盟的基础上，经历了原始社会末期的发展阶段，发展成为民族共同体。这里所说原始社会末期的发展阶段，并不是指整个人类的原始社会发展历程，也不是指作为中国历史上中原地区原始社会末期哪个时代，而是具体指我国某个地区和某个民族自身发展的区域性的原始社会发展末期。譬如11、12世纪，就中国中原和大部分地区来说，已经处于比较发达的封建社会的历史时期，然而蒙古地区的一些地方的人群，却仍然处于原始社会末期。再如我国黑龙江地区和云南某些地区，一直到我国近代，原始社会才出现瓦解的局面。<br>因此，原生型民族并不是指其形成时间的早迟，而是指其形成的起点，是在原始社会发展的末期阶段，是在氏族、部落、部落联盟的基础上形成为民族。这类少数民族在我国民族中是比较多的。例如：苗族、羌族、藏族、维吾尔族、蒙古族以及云南、东北等地的许多民族，都经历了氏族、部落、部落联盟最后进人了民族共同体的阶段。<br>所谓融生型民族，主要是指由已经成为民族的众多民族的成分，由于某种原因发生融合，而形成的民族。其民族形成的起点是比较高的社会发展阶段，其民族共同体的发展并未经历过原始社会的氏族、胞族、部落以及奴隶社会等社会发展阶段。就我国来说，封建社会发展阶段漫长，这类民族共同体基本上都产生于这个历史时期。其中如回族、东乡族、保安族、撒拉族、土族、哈萨克族、乌孜别克族等众多民族。<br>如何确认我国少数民族族源的方法问题，实际上在我国少数民族研究中，已经基本解决。族源的确定要避免主观臆测和想象，要有客观依据。<br>
+<br>首先，由于大多数少数民族与汉族和历代中央王朝有密切关系和交往，而我国历代“正史”和其他文献也都有记述少数民族社会活动的传统，因此在我国典籍中，对少数民族的记载是很多的，其中不乏关于民族族源的历史资料，因此汉文历史典籍，是我国绝大多数少数民族族源的重要根据；
+<br>其次，我国一些少数民族如蒙古族、藏族、壮族以及历史上的突厥、回等都有自己的文字和有关文献，这些也都是确定这些少数民族族源的基本资料，把少数民族的历史文献资料与汉族文献资料进行比较研究，那更是研究其族源的最好根据；
+<br>再次，当前使用的语言学谱系分类法，是研究民族间语言关系亲疏的重要手段，通过对语言关系的研究来确定民族之间的亲疏关系，特别是族源关系，也是十分有效的方法；
+<br>最后，通过社会调查，从民间流传的各种传说、各民族习俗、社会生活等方面进行分析比较研究，也是确认民族族源的重要方法。此外，现代基因技术的发展和在民族学中的应用，对研究一个民族的族源，也有重要的参考价值。
+目前也许应该通过分子生物学的证据进行考究，这也是一个新的方法。
+
+<br><br>
+<br>多源性特征：我国现代绝大多数民族，从族源上说都是多源的。而且从其发展过程来说，它的每一个发展阶段，每一个源头也都是多源的。不同阶段的多源，不同源头的多源。从这个意义上说，任何一个民族都是在融合、同化、分化中产生和发展的，纯粹血统、纯粹体征、纯粹文化的民族是不存在的。例如藏族，从7世纪初，开始作为一个稳定的民族共同体登上了中国多民族的历史舞台。在此以前，就他的族源来说，最基础的部分是西藏地区的土著原始部落，他们早就在西藏地区生息并进行开发，这些土著原始部落的存在，已为西藏地区的考古所证实。根据《唐书》记载，羌族的一支发羌，于战国末年，辗转由东向西南迁徙，进人青藏高原，成为藏族的重要族源之一。在松赞干布时期，又统了西藏高原的附国、大小羊同、象雄、苏毗等部落，从而正式形成了民族共同体。藏族形成后，在北上、东进、西下的过程中，又有大批羌、氏、吐谷浑、西南夷和西域民族成分加人，特别是有大量汉族成分加人，使藏族成为辉煌一时的古代强大民族。藏族的大部分成分，都是较稳定的，如羌、氏、吐谷浑以及汉族等，他们本身也是由许多民族成分融合而成的，因此可以说，藏族族源不仅是多源的，而且其族源的各部分也都是来自多源民族共同体的成分。
+<br>地域性特征：我国现代大多数民族，一般来说都有自己祖祖辈辈长期生存生活的区域，而其族源一般都与自己区域内古代活动过的民族有一定的传承关系，因此一个民族的族源，往往带有很强的地域特征。例如满族，作为一个稳定的民族共同体，形成于16世纪末17世纪初，以白山黑水著称的东北地区是他们的发源地。其族源，一般来说，基本上来自在这一地区曾经活动过的各族，具体来说，他们的族源既直接来源于女真，也有契丹、娄、肃慎等东北各族的成分。再如蒙古族，形成于12世纪末13世纪初的蒙古高原，在成吉思汗统一蒙古高原各部时，就将操不同语言，有不同文化的各部统合到了蒙古部之中，形成了蒙古族。这些操不同语言，有不同文化传统、历史渊源的各部，实际上是蒙古高原上从匈奴以来的各古代民族的遗部，蒙古族完全可以说是历史上长期生活于蒙古高原上的北方各族的集大成者。在民族族源地域性特征方面还有一种情况，即古代的一些民族大迁徙到新地域之后，与当地民族融合，产生出一种新的民族。
+<br>主源性特征：虽然绝大多数民族在族源上表现为多源性特征，但同时每个民族的族源的成分，在形成该民族中也都有主次之分，即该民族的诸多族源中，明显表现出主源的痕迹。在古代民族中，如吐谷浑族，在其族源中虽有大量的羌族、氏族以及西南夷的成分，但其主源则明显是鲜卑族的成分，这主要表现在其文化的传承、语言的族属、族内结构、族源认同等方面，更多地反映出鲜卑族的特征。羌族成分的特征在吐谷浑族中虽也突出，但比起鲜卑族的特征来，显然并不占主要地位。其他现代民族如维吾尔族，其族源虽然在西域地区吸收了大量古代西域民族的成分，但是从其历史发展、体貌特征、习俗文化、文化传承等方面看，其族源的主要成分仍是回鹃。再如蒙古族，其族源成分中几乎吸纳了北方的古代各民族成分，但就其族源的最主要的成分，直接出于东胡的室韦，特别是蒙兀室韦。因此，每个民族的族源的主要成分，是可以认识的，这也是民族学研究的一项重要任务。
+<br>文化继承特征：在分析民族族源的成分时，有许多因素可以作为根据，其中如历史记载、口碑传说、经济文化类型、共同地域范围等，都可以提供定的根据，来确认一个民族的族源成分。而其中比较明显的一个重要因素就是文化，包括语言、习俗、口碑传说、宗教等。特别是语言因素，由于语言、文字在一个民族中影响最普遍，与一个民族的思维方式、感情传递、心理状态、相互交往都有最密切的关系，因此是最不易变动、最稳定的因素，从而也成为判断和剖析一个民族族源的重要根据。以上这些是我国少数民族（包括汉族在内），在民族族源、民族形成方面的一些特点。根据上述一些看法，我们认为我国各少数民族（除了朝鲜族和俄罗斯族外）在族源的关系上，可以用下面这个图表来作一个大体的表述。
+]]></description><link>书籍\中国少数民族通史.html</link><guid isPermaLink="false">书籍/中国少数民族通史.md</guid><pubDate>Wed, 26 Jun 2024 08:14:13 GMT</pubDate></item><item><title><![CDATA[原理]]></title><description><![CDATA[ 
  <br><br>我们使用以下公式来计算单倍型/单倍群的法医学参数。单倍型/单倍群多样性(Haplotype/haplogroup diversity, HD)是基于 Nei 和 Tajima 提出来的公式进行计算：<br>
 其中 n 表示观察到单倍型/单倍群的数量，pi 表示第 i个单倍型/单倍群的频率。分辨能力(Discrimination capacity,DC)使用观察的单倍型/单倍群数量和所有单倍型/单倍群数量的比值。<br><br>准备一个 txt 文件：<br>
 <img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240624155053.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br>import pandas as pd
