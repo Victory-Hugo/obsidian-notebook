@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[科研思路]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>科研思路</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Thu, 27 Jun 2024 07:12:48 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Thu, 27 Jun 2024 07:12:46 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[1 .&nbsp;<a data-href="正态分布 (Normal Distribution)" href="正态分布 (Normal Distribution)" class="internal-link" target="_self" rel="noopener">正态分布 (Normal Distribution)</a>]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[科研思路]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>科研思路</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Thu, 27 Jun 2024 07:53:11 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Thu, 27 Jun 2024 07:53:08 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[1 .&nbsp;<a data-href="正态分布 (Normal Distribution)" href="正态分布 (Normal Distribution)" class="internal-link" target="_self" rel="noopener">正态分布 (Normal Distribution)</a>]]></title><description><![CDATA[ 
  <br><br>正态分布在我们的生活中随处可见，我们身高的分布、体重的分布，甚至是考试成绩的分布都可能符合正态分布。它的形状就像一个钟形曲线，最高点在中间，两边逐渐低下，具有对称性。<br>
 <img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517091725.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br>伯努利分布又名两点分布或者0-1分布，是描述只有两种可能结果的随机试验的概率分布，比如抛硬币或投掷骰子。它将这两种结果分别表示为1和0，通常用 p 来表示事件的成功概率，而1-p 表示事件的失败概率。比如，你在玩一个抛硬币的游戏。硬币只有两面：正面和反面。当你抛硬币时，只有两种可能的结果：硬币出现正面或反面。伯努利分布就像是描述硬币落地后是正面还是反面的概率分布。在伯努利分布中，我们关心的是事件的成功概率，即出现期望结果的概率。比如，在抛硬币时，成功的概率就是硬币出现正面的概率。<br>伯努利分布的变异程度通常由成功和失败的概率决定。如果硬币是公平的，那么成功和失败的概率都是相等的，变异程度就较小。假设你在玩一个猜硬币正反面的游戏，如果你猜对了，你就赢得奖品。这种情况下，游戏的结果可以用伯努利分布来描述。<br>
 <img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517091815.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br>泊松分布常常用于描述单位时间或空间内事件发生的次数，比如在一小时内接到的电话数量、一天内发生的交通事故数量等。<br>它的形状看起来有点像钟形曲线，但是更加扁平。在图的中心，事件发生的次数最多，然后随着次数的增加，概率逐渐减小。<br>平均值告诉我们在单位时间或空间内预期事件的平均发生次数。<br>
@@ -32,6 +32,153 @@
 <br>威布尔分布 (Weibull Distribution)：常用于可靠性工程和寿命分析，描述随机事件的生存时间。<br>
 
 <br>这些分布覆盖了数据科学中许多常见的场景，从描述连续变量到描述离散变量，以及描述等待时间和间隔时间等各种情况。]]></description><link>人文与科学术语\数据科学家-95-时间都在使用的-10-大基本分布.html</link><guid isPermaLink="false">人文与科学术语/数据科学家 95% 时间都在使用的 10 大基本分布.md</guid><pubDate>Thu, 20 Jun 2024 12:25:33 GMT</pubDate><enclosure url="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517091725.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517091725.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[摘要]]></title><description><![CDATA[ 
+ <br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240627154131.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br>对考古、解剖、语言和遗传数据的分析一致表明，中国的南北人口之间存在着显着的界限<a data-footref="1" href="about:blank#fn-1-c9bce68308415e3f" class="footnote-link" target="_self" rel="noopener">[1]</a>。然而，这个边界的确切位置和强度仍然存在争议。本研究利用91个人群的 mtDNA 数据和143个人群的 Y 染色体数据，系统地探讨了人类人群的空间遗传结构和南北划分的界限。我们的结果强调了母系和父系的空间遗传结构之间的明显差异。南北人群显着的遗传分化是母系结构的特征，具有显着的不间断的遗传边界，大致沿秦岭淮河。然而，在父系方面，北方和南方种群之间没有明显的遗传差异。<br><br>
+<br>遗传差异的历史研究：历史上，基于经典标记、STR标记、mtDNA和Y染色体SNP标记的分析表明，中国南北人群存在明显的遗传分界。不同研究的结果不一，如Xiao等人发现遗传分界线大致位于长江，而Wen等人发现mtDNA单倍群分布在南北之间有明显差异，但Y染色体单倍群的差异则不那么明显。<br>
+
+<br>方法学的探讨：以往的研究主要使用了主成分分析（PCA）和聚类分析等统计方法，但这些方法在反映空间或地理信息方面存在局限<a data-footref="2" href="about:blank#fn-2-c9bce68308415e3f" class="footnote-link" target="_self" rel="noopener">[2]</a>。因此，本研究采用了结合逆距离加权插值的PCA方法，以及改进的Monmonier算法模型来更准确地探索和可视化mtDNA和Y染色体数据的空间遗传模式。<br>
+
+<br>地理信息系统（GIS）的应用：本研究利用GIS来管理、分析和展示地理信息，这有助于更好地理解和展示遗传信息的空间模式。<br>
+
+<br>数据收集与分析：研究基于91个人群的36种mtDNA单倍群和143个人群的9种Y染色体单倍群数据，开发了空间数据库，进一步分析了中国人群的空间遗传结构和遗传分化的界限，尤其是在母系和父系谱系之间的比较。
+<br><br>
+<br>地理遗传梯度：
+
+<br>母系（mtDNA）：PC1和PC2的插值显示了一个明显的南北遗传梯度（PC1贡献率19.83%）和一个西东遗传梯度（PC2贡献率14.84%）。
+<br>父系（Y染色体）：对于父系遗传，南北遗传梯度不太明显（PC1贡献33.07%，PC2贡献率17.07%），显示了不同的地理遗传梯度模式。
+
+
+<br>空间遗传界限：
+
+<br>包含汉族和非汉族人群：遗传界限主要位于边缘山区，未观察到南北之间的显著遗传界限。
+<br>仅包含汉族人群：南北人群间开始出现遗传界限，特别是在母系中这种分界显著，最明显的分界线沿着淮河和秦岭以北地区，其他两个界限的统计重要性较低。
+
+
+<br>包含或不包含少数民族在遗传研究中对遗传结构差异产生影响？
+中国的汉族和多数少数民族之间存在着长期的、复杂的历史交互和迁移模式。少数民族往往居住在相对偏远或地理上具有隔离性的区域，如山区或边疆地带。这种地理和历史上的隔离可能导致遗传上的显著差异。当这些群体被纳入分析时，他们独特的遗传背景可能会增加整体的遗传多样性，从而影响南北或其他地理遗传结构的检测。<br>
+少数民族的加入可以提供更宽的遗传基线。例如，如果一个研究仅包括汉族人群，其遗传多样性可能较为有限，而一旦包括了多样的少数民族，遗传背景的复杂度和变异性将增加。这种增加的遗传多样性可以淡化原有的遗传界限，因为这些新加入的群体可能带有与汉族不同的独特遗传标记。<br>
+包含少数民族可能会导致遗传数据中信号与噪声比的变化，从而影响如主成分分析（PCA）或结构分析中界限的识别。不同群体之间的遗传差异可能被增强或被模糊，取决于所分析的人群组合。
+<br>
+<br>空间自相关性：
+
+<br>母系：对于91个汉族和非汉族人群的分析显示，有些mtDNA单倍群在局部地理区域表现出显著的空间自相关，而其他则在中国的广阔地理区域中随机分布。在仅含汉族的人群中，大多数mtDNA单倍群显示随机分布。
+<br>父系：大多数Y染色体单倍群在汉族和非汉族人群中表现出空间自相关，特别是在距离类别从1800到2100公里的遗传距离显著增加，显示了强烈的南北空间自相关性。
+
+
+<br><br>
+<br>
+遗传谱系的地理特定性：
+
+<br>根据Kivissild等人的研究，东亚mtDNA谱系的系统发育框架被两个超级单倍群M和N完全覆盖，显示出明显的地域特定性。
+<br>分布图显示，M单倍群在中国北部（包括北方汉族、阿尔泰族和北部藏缅族群）的频率较高，而N单倍群在南部（包括南方汉族、傣族、苗侗族、南亚语系和南部藏缅族群）的频率较高。
+
+
+<br>
+地理遗传界限：
+
+<br>利用图3b中的边界I，可以将大多数单倍群分类为南方优势单倍群（SDH）或北方优势单倍群（NDH），尽管有些单倍群无法明确分类。
+
+
+<br>
+空间遗传结构的进一步分析：
+
+<br>利用PCA，对NDHs和SDHs的合成图进行了绘制，显示南北人群之间的遗传差异更为显著。
+<br>进行的遗传距离图分析显示，NDHs和SDHs均表现出显著的空间自相关性，表明母系谱系在中国南北具有显著的空间遗传相关性。
+
+
+<br><br>
+<br>
+遗传谱系分布的普遍性与差异性：
+
+<br>Y染色体单倍群的系统发育分析显示，M89主支在所有研究人群中普遍存在，没有显著的南北差异。
+<br>然而，某些单倍群如K在藏缅走廊及云南地区的分布定义了特定的地理模式。
+
+
+<br>
+与语言分类的相关性：
+
+<br>Y染色体单倍群与语言分类之间存在相关性，某些单倍群在特定语言族群中的频率较高。
+
+
+<br>
+南北汉族人群的遗传同质性测试：
+
+<br>将汉族人群按照mtDNA的边界划分为南北，测试显示南北汉族人群在Y染色体单倍群的分布上并无显著差异，表明父系谱系与母系谱系不同，多数Y染色体单倍群无法明确归类为SDH或NDH。
+
+
+<br><br><br>
+<br>
+空间遗传结构：
+
+<br>母系谱系显示出明显的南北遗传梯度和分界线，特别是在非汉族人群被排除后，南北分界更为明显。
+<br>父系谱系中则没有观察到明显的南北遗传分化，即使在仅汉族人群的分析中也是如此。
+
+
+<br>
+历史人口迁移：
+- 过去两千年中国**南迁的重大人口流动通常呈性别偏向**，主要**涉及更多男性而非女性**，这种性别偏向的基因流对现存人群的遗传结构产生了重大影响。
+复制
+一个可能解释的原因是，在进行大规模人口迁徙的时候，女性常常不会跟随。这样的例子有很多，例如秦始皇统一六国后的迁移，唐朝的军事屯田制，清朝的八旗制度和屯兵。
+
+<br>
+空间遗传界限的尺度依赖性：
+
+<br>在仅包含汉族的分析中，南北人群间的遗传界限开始显现。这表明空间遗传界限的模式是尺度依赖的。
+
+
+<br><br>
+<br>
+空间数据库的限制：
+
+<br>尽管研究包括了大量个体和人群，样本点的分布和密度考虑到东亚的遗传结构复杂性，仍然不够理想。
+<br>mtDNA的分辨率高于Y染色体，可能导致对母系和父系遗传差异的结果存在偏差。
+
+
+<br>
+遗传插值和界限检测方法：
+
+<br>选择逆距离加权（IDW）算法显示空间遗传模式，因为它与其他方法相比具有相似或稍好的效果。
+<br>改进的Monmonier算法被用于识别空间遗传界限，因其比其他方法如Wombling和SAMOVA在确定空间遗传界限上表现更好。
+
+
+<br>
+空间遗传自相关性的统计检测：
+
+<br>使用基于Fst统计的遗传距离测量，通过遗传距离图（genetic distograms）检测空间遗传自相关性。
+<br>遗传距离图的构建有两大优势：它能同时描述多个变量的空间模式，并使用遗传距离的既定概念来衡量差异性。
+
+
+<br><br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240627150945.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
+图1： (a) 91 个 mtDNA 采样群体和 (b) 143 个 Y 染色体采样群体的位置。<br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240627150446.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
+图2：地理遗传梯度的插值。<br>
+(a) PC1 (19.83%) 和 (b) PC2 (14.84%)：<br>
+这两张图显示了使用91个人群中的36个 mtDNA 单倍群进行的主成分分析结果。PC1图显示了明显的南北遗传梯度，而 PC2图揭示了东西方向的遗传梯度。<br>
+(c) PC1 (33.07%) 和 (d) PC2 (17.07%)：<br>
+这两张图基于143个人群中的9个 Y 染色体单倍群进行插值。结果显示，父系遗传标记的地理遗传梯度不如母系明显。<br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240627150529.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
+图3：空间遗传界限<br>
+(a) 和 (b) 用于展示 mtDNA 的空间遗传界限：<br>
+(a) 图包含了91个汉族和非汉族人群，显示了主要位于边缘地区的遗传界限。<br>
+(b) 图仅包括19个汉族人群，显示了更明显的南北分界。<br>
+(c) 和 (d) 用于展示 Y 染色体的空间遗传界限：<br>
+(c) 图包括143个汉族和非汉族人群，而 (d) 图仅包括35个汉族人群。父系遗传界限不如母系界限显著，且在汉族内部几乎看不到明显的遗传分界。<br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240627150709.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
+图4：遗传距离图<br>
+(a) 到 (f) 显示了不同人群和单倍群组合的平均 Fst 值的遗传距离图。<br>
+(a) 和 (b) 针对 mtDNA 的遗传距离图，显示了不同距离类别中的遗传分化。<br>
+(c) 和 (d) 分别针对10个 NDHs 和23个 SDHs 的遗传距离图，展示了南北人群的遗传差异。<br>
+(e) 和 (f) 针对 Y 染色体的遗传距离图，强调了在不同人群中父系遗传标记的空间自相关性。<br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240627150726.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
+图5：主导 mtDNA 单倍群的频率图<br>
+(a) 和 (b) 分别展示了 M 和 N 两个主要 mtDNA 单倍群（及其亚单倍群）的分布。<br>
+M 单倍群主要在北方，而 N 单倍群主要在南方。<br>
+(c) 和 (d) 为合成图，基于 PC1分别显示了10个 NDHs 和23个 SDHs 在91个人群中的分布。<br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240627151326.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
+图6：143个汉族和非汉族人群 Y 染色体单倍群的两个频率图<br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240627151949.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
+表1：线粒体DNA南北优势单倍群分布。显着性水平定义为 0.05。虽然单倍群 B、B4、B5、F1b、F1c、F2a、M7a、M7b2、R* 和 R9c 的频率在南方和北方之间没有统计显着性，但它们实际上在南方语言群体中占主导地位。因此，它们被识别为 SDH。<br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240627153600.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
+表2：Y 染色体单倍群分布频率。<br><br><br><br>
+<br>
+<br>Jin L, Su B: Natives or immigrants: origin and migrations of modern humans in East Asia. Nat Rev Genet 2000; 1: 126 – 133.<a href="about:blank#fnref-1-c9bce68308415e3f" class="footnote-backref footnote-link" target="_self" rel="noopener"><span></span>︎</a><img class="emoji" draggable="false" alt="↩" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/21a9.svg" height="16px" style="max-width: 100%;">
+<br>Manni F, Guerard E, Heyer E: Geographic patterns of (genetic, morphology, linguistic) variation: how barriers can be detected by ‘Monmonier’s algorithm’. Hum Biol 2004; 76: 173 – 190.<a href="about:blank#fnref-2-c9bce68308415e3f" class="footnote-backref footnote-link" target="_self" rel="noopener"><span></span>︎</a><img class="emoji" draggable="false" alt="↩" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/21a9.svg" height="16px" style="max-width: 100%;">
+]]></description><link>文献及报道\文献\2008-ejhg-中国人口遗传结构的空间分析揭示了母系和父系之间的显着差异.html</link><guid isPermaLink="false">文献及报道/文献/2008 EJHG 中国人口遗传结构的空间分析揭示了母系和父系之间的显着差异.md</guid><pubDate>Thu, 27 Jun 2024 07:53:08 GMT</pubDate><enclosure url="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f44d.svg" length="0" type="image/svg+xml"/><content:encoded>&lt;figure&gt;&lt;img src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f44d.svg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[摘要]]></title><description><![CDATA[ 
  <br><br>mtDNA <a data-href="限制性片段长度多态性（RFLP）" href="疾病与基因\限制性片段长度多态性（rflp）.html" class="internal-link" target="_self" rel="noopener">限制性片段长度多态性（RFLP）</a> 分析了来自乌兰巴托的42名<a data-href="蒙古族" href="人文与科学术语\蒙古族.html" class="internal-link" target="_self" rel="noopener">蒙古族</a>个体。侦测到Torroni等人识别的所有四种创始谱系类型（A [4.76%]、B [2.38%]、C [11.9%]、D [19.04%]）。Bailliet及其同事和Merriwether及Ferrell提出的九种创始谱系类型中的七种也被侦测到（A2 [4.76%]、B [2.38%]、C1 [11.9%]、D1 [7.14%]、D2 [11.9%]、X6 [16.7%]、X7 [9.5%]）。这42位个体中有64%拥有“美洲原住民创始谱系”单倍型。24个限制性酶切位点的调查产生了16个多态性位点和21种不同的单倍型。所有四种Torroni小组识别的创始谱系（及Merriwether和Ferrell的九种中的七种）的存在，结合蒙古与白令海峡的地理位置，表明蒙古可能是<a data-href="新世界" href="人文与科学术语\新世界.html" class="internal-link" target="_self" rel="noopener">新世界</a>创始人的起源地。由于在西伯利亚未发现广泛分布于新世界的B谱系，蒙古可能是现代蒙古人和美洲原住民祖先的共同起源地。<br><br>这段讨论指出，蒙古族和美洲原住民可能源自同一祖先群体。研究表明，尽管样本数量不大，蒙古族拥有与美洲发现的主要mtDNA单倍群高度相似的七种主要单倍群，这支持了蒙古可能是新世界人口的起源地的假设。此外，蒙古和西藏（后者被描述为“流离失所的蒙古人”）的单倍群多样性超过了地理上更接近的西伯利亚群体，尤其是他们拥有在美洲原住民中常见但在西伯利亚缺失的B谱系。<br><br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240627110451.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
 表1|定义在美洲原住民群体中观察到的主要单倍群的 RFLP 位点<br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240627110520.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
 表2|乌兰巴托蒙古族人群限制性位点剪切和缺失频率<br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240627110553.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
