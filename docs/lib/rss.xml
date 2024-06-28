@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[科研思路]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>科研思路</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Fri, 28 Jun 2024 03:43:45 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Fri, 28 Jun 2024 03:43:43 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[1 .&nbsp;<a data-href="正态分布 (Normal Distribution)" href="正态分布 (Normal Distribution)" class="internal-link" target="_self" rel="noopener">正态分布 (Normal Distribution)</a>]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[科研思路]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>科研思路</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Fri, 28 Jun 2024 14:16:58 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Fri, 28 Jun 2024 14:16:56 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[1 .&nbsp;<a data-href="正态分布 (Normal Distribution)" href="正态分布 (Normal Distribution)" class="internal-link" target="_self" rel="noopener">正态分布 (Normal Distribution)</a>]]></title><description><![CDATA[ 
  <br><br>正态分布在我们的生活中随处可见，我们身高的分布、体重的分布，甚至是考试成绩的分布都可能符合正态分布。它的形状就像一个钟形曲线，最高点在中间，两边逐渐低下，具有对称性。<br>
 <img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517091725.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br>伯努利分布又名两点分布或者0-1分布，是描述只有两种可能结果的随机试验的概率分布，比如抛硬币或投掷骰子。它将这两种结果分别表示为1和0，通常用 p 来表示事件的成功概率，而1-p 表示事件的失败概率。比如，你在玩一个抛硬币的游戏。硬币只有两面：正面和反面。当你抛硬币时，只有两种可能的结果：硬币出现正面或反面。伯努利分布就像是描述硬币落地后是正面还是反面的概率分布。在伯努利分布中，我们关心的是事件的成功概率，即出现期望结果的概率。比如，在抛硬币时，成功的概率就是硬币出现正面的概率。<br>伯努利分布的变异程度通常由成功和失败的概率决定。如果硬币是公平的，那么成功和失败的概率都是相等的，变异程度就较小。假设你在玩一个猜硬币正反面的游戏，如果你猜对了，你就赢得奖品。这种情况下，游戏的结果可以用伯努利分布来描述。<br>
 <img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517091815.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br>泊松分布常常用于描述单位时间或空间内事件发生的次数，比如在一小时内接到的电话数量、一天内发生的交通事故数量等。<br>它的形状看起来有点像钟形曲线，但是更加扁平。在图的中心，事件发生的次数最多，然后随着次数的增加，概率逐渐减小。<br>平均值告诉我们在单位时间或空间内预期事件的平均发生次数。<br>
@@ -31,7 +31,157 @@
 <br>负二项分布 (Negative Binomial Distribution)：描述在一系列独立的伯努利试验中，达到指定数量的成功之前的失败次数。
 <br>威布尔分布 (Weibull Distribution)：常用于可靠性工程和寿命分析，描述随机事件的生存时间。<br>
 
-<br>这些分布覆盖了数据科学中许多常见的场景，从描述连续变量到描述离散变量，以及描述等待时间和间隔时间等各种情况。]]></description><link>人文与科学术语\数据科学家-95-时间都在使用的-10-大基本分布.html</link><guid isPermaLink="false">人文与科学术语/数据科学家 95% 时间都在使用的 10 大基本分布.md</guid><pubDate>Thu, 20 Jun 2024 12:25:33 GMT</pubDate><enclosure url="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517091725.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517091725.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[英文期刊投稿中的简写与状态解读]]></title><description><![CDATA[ 
+<br>这些分布覆盖了数据科学中许多常见的场景，从描述连续变量到描述离散变量，以及描述等待时间和间隔时间等各种情况。]]></description><link>人文与科学术语\数据科学家-95-时间都在使用的-10-大基本分布.html</link><guid isPermaLink="false">人文与科学术语/数据科学家 95% 时间都在使用的 10 大基本分布.md</guid><pubDate>Thu, 20 Jun 2024 12:25:33 GMT</pubDate><enclosure url="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517091725.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517091725.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[选择一个线粒体参考序列]]></title><description><![CDATA[ 
+ <br>将全基因的 BAM 文件提取线粒体 DNA 并转为FASTA文件可以按照如下的操作：<br><br>我们一般选择的是 RCRS17.2版本。你可以在 Haplogrep 软件中找到。路径如下：<br>/home/luolintao/Haplogrep/trees/phylotree-rcrs/17.2/rcrs.fasta
+复制<br>将 FASTA 文件中 mtDNA 更改为 BAM 文件中的名字。因为有些线粒体 DNA 的名字是 "chrM" "MT" "M" "MtDNA" "ChrM" "chrMT" "26" "chr26" "Chr26" 等等。<br>
+你可以通过以下代码查看 BAM 文件的染色体名称：<br>samtools idxstats HRR163260.bam|less -S
+复制<br>可以看到下图是 MT。<br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240628220634.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
+因此，你需要将线粒体的参考 fasta 名字更改为 MT.<br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240628220757.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br># 建立字典
+gatk CreateSequenceDictionary R=rcrs.fasta O=rcrs.dict
+# 建立索引
+samtools faidx rcrs.fasta
+复制<br><br># 建立索引(假如已经存在索引，可以不再建立。)
+samtools index 原始的文件.bam
+# 提取
+samtools view -b 原始的文件.bam MT &gt;线粒体.bam
+samtools index 线粒体.bam
+复制<br><br>gatk --java-options "-Xmx4G" HaplotypeCaller \
+-R rcrs.fasta \
+-I 线粒体.bam \
+-O output.vcf \
+-L MT \
+-ploidy 2
+复制<br><br>#!/bin/bash
+
+# 所有需要遍历的目录
+directories=(
+    # "/mnt/tangchinew1/ancient_DNA/SQX_Eurasia_scale"
+    # "/mnt/tangchinew1/ancient_DNA/others"
+    # "/mnt/tangchinew1/ancient_DNA/Oceania"
+    # "/mnt/tangchinew1/ancient_DNA/NC"
+    # "/mnt/tangchinew1/ancient_DNA/NC/0_data"
+    # "/mnt/tangchinew1/ancient_DNA/NC/0_data/others"
+    # "/mnt/tangchinew1/ancient_DNA/Mongolia"
+    # "/mnt/tangchinew1/ancient_DNA/Inputation"
+    # "/mnt/tangchinew1/ancient_DNA/European"
+    "/mnt/tangchinew1/ancient_DNA/Asian"
+    # "/mnt/tangchinew1/ancient_DNA/Ancient"
+    # "/mnt/tangchinew1/ancient_DNA/America"
+    # "/mnt/tangchinew1/ancient_DNA/Africa"
+    # "/mnt/tangchinew1/ancient_DNA/1000_2"
+)
+
+# 输出文件和目标目录
+output_info_file="/mnt/tangchinew1/ancient_DNA/Mt_DNA/Majinyue_file/成功的讯息.txt"
+output_base_dir="/mnt/tangchinew1/ancient_DNA/Mt_DNA/Majinyue_file"
+
+# 检查并创建索引，如果存在索引则不创建
+create_index_if_not_exists() {
+    local bam_path=$1
+    local index_path="${bam_path}.bai"
+    if [ ! -f "$index_path" ]; then
+        samtools index "$bam_path"
+    fi
+}
+
+# 获取线粒体DNA表示方法
+get_mt_identifier() {
+    local bam_path=$1
+    local mt_identifiers=("chrM" "MT" "M" "MtDNA" "ChrM" "chrMT" "26" "chr26" "Chr26")
+    for mt_id in "${mt_identifiers[@]}"; do
+        if samtools idxstats "$bam_path" | cut -f 1 | grep -w "$mt_id" &gt; /dev/null; then
+            echo "$mt_id"
+            return
+        fi
+    done
+    echo ""
+}
+
+# 提取线粒体DNA
+extract_mt_dna() {
+    local bam_path=$1
+    local mt_identifier=$2
+    local output_path=$3
+    samtools view -b "$bam_path" "$mt_identifier" &gt; "$output_path"
+}
+
+# 更新信息文件
+update_info_file() {
+    local bam_path=$1
+    local status=$2
+    sed -i "s|^${bam_path},.*|&amp;,$status|" "$output_info_file"
+}
+
+# 遍历目录并处理BAM文件
+for directory in "${directories[@]}"; do
+    find "$directory" -name "*.bam" | while read -r bam_path; do
+        create_index_if_not_exists "$bam_path"
+        mt_identifier=$(get_mt_identifier "$bam_path")
+        if [ -n "$mt_identifier" ]; then
+            echo "${bam_path},$(basename "$bam_path"),${mt_identifier}" &gt;&gt; "$output_info_file"
+            relative_path=${bam_path#*/ancient_DNA/}
+            output_subdir="${output_base_dir}/${relative_path%/*}"
+            mkdir -p "$output_subdir"
+            output_path="${output_subdir}/$(basename "$bam_path")"
+            extract_mt_dna "$bam_path" "$mt_identifier" "$output_path"
+            if [ -s "$output_path" ]; then
+                create_index_if_not_exists "$output_path"
+                update_info_file "$bam_path" "成功"
+            else
+                update_info_file "$bam_path" "失败"
+            fi
+        fi
+    done
+done
+
+echo "所有任务完成了！"
+
+复制<br><br>在进行这一步之前，请一定要进入 Haplogrep 的安装文件夹。cd 你的安装路径。<br>./haplogrep3 classify \
+--input /mnt/c/Users/victo/Desktop/获得的文件.vcf \
+--tree phylotree-rcrs@17.2 \
+--output /mnt/c/Users/victo/Desktop/分型结果.txt \
+--write-fasta # 这个选项不是必须，如果你选了，那么就会生成一个全长的fasta文件。如果你是全测，那么可以勾选，否则会产生虚假的fasta序列。
+复制<br>注意这个软件的--tree 选项只能在以下挑选！<br>phylotree-rcrs@17.2
+phylotree-rcrs@17.1
+phylotree-rcrs@17.0
+phylotree-rcrs@16.0
+phylotree-rcrs@15.0
+phylotree-rsrs@17.1
+phylotree-fu-rcrs@1.2
+phylotree-fu-rcrs@1.1
+phylotree-fu-rcrs@1.0
+复制<br><br>#!/bin/bash
+
+# 设置输入和输出目录
+input_dir="输入文件的路径"
+output_dir="输出文件的路径"
+
+# 检查输出目录是否存在，如果不存在则创建
+mkdir -p "$output_dir"
+cd 进入你的软件安装路径
+# 遍历目录中的所有 VCF 文件
+for vcf_file in "$input_dir"/*.vcf; do
+    # 获取不带路径的文件名
+    filename=$(basename "$vcf_file")
+    # 构建输出文件名
+    output_file="${output_dir}/${filename%.vcf}_分型结果.txt"
+
+    # 执行 classify 命令
+    ./haplogrep3 classify \
+        --input "$vcf_file" \
+        --tree phylotree-rcrs@17.0 \
+        --output "$output_file" \
+        --write-fasta
+
+    # 输出处理的文件名
+    echo "Processed: $vcf_file"
+done
+
+echo "All files processed."
+
+复制]]></description><link>软件\其它生信软件\全基因组\简易的mtdna分析流程.html</link><guid isPermaLink="false">软件/其它生信软件/全基因组/简易的mtDNA分析流程.md</guid><pubDate>Fri, 28 Jun 2024 14:15:56 GMT</pubDate><enclosure url="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240628220634.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240628220634.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[英文期刊投稿中的简写与状态解读]]></title><description><![CDATA[ 
  <br><br>投稿后，进入审稿阶段，可以看到一些奇怪的缩写，现将其小结如下：  <br>Authors：作者，不用多说了。  <br>EIC： Editors in Chief，主编，权力最大，有稿件最终决定权。  <br>AE：Associate Editors，副编辑，（就是文章发表后在首页第一栏下方的contributing editor），对你的稿件来说，此人非常重要&nbsp;，他会在审稿人意见的基础上对文章作个综合评价后，给主编一个recommendation。一般主编都会按照AE的意见写最终的decision letter。  <br>ADM：Administrator，相当于编辑部的执行编辑（Managing Editor），你会发现编辑部给你的信大都是他写给你的。 他是编辑部里和你最接近的人，给你分配稿件号（Edit the manuscript ID number），修改各种投稿状态和日期（Edit the submission date）。  <br>Reviewers： 审稿人。（Article要求两个审稿人＋AE，总共三个人审。communication只有一个人审，这个人或者是编辑部指定的审稿人，或者是AE）<br>典型的审稿流程如下：author&nbsp;<a data-tooltip-position="top" aria-label="https://so.csdn.net/so/search?q=submit&amp;spm=1001.2101.3001.7020" rel="noopener" class="external-link" href="https://so.csdn.net/so/search?q=submit&amp;spm=1001.2101.3001.7020" target="_blank">submit</a>&nbsp;--》&nbsp;Admin Checks and Passes to EIC --》&nbsp;EIC Assigns to Associate Editor --》AE Invites and /or Assigns Reviewers --》Reviewers Score --》AE Makes Final Decision<br><br>
 <br>awaiting admin. procession&nbsp; 一般3－4天后就会安排主编。
 <br>awaiting reviewer assignment&nbsp;&nbsp;等待指定审稿人。 主编在选择审稿人，等待审稿人回复是否同意审稿。一般在一周以内。看审稿人回复速度。
@@ -2210,8 +2360,7 @@ print(f"文件已成功转换并保存为: {output_file_path}")
 几个重要的时间节点在这里：<a data-href="BEAST：线粒体单倍群时间" href="软件\beast\beast：线粒体单倍群时间.html" class="internal-link" target="_self" rel="noopener">BEAST：线粒体单倍群时间</a><br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240612172539.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240612172633.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240612172649.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240612172710.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240612172751.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
 <img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240612172823.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240612172852.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
 <img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240612172905.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>注意，最终生成的 xml 文件内，不能出现@和'符号，这个坑很重要。注意把单倍群中的特殊字符删去!!<br><br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240612172943.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
-<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240612173008.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;">]]></description><link>软件\beast\beast：1代参数设置（简略版）.html</link><guid isPermaLink="false">软件/BEAST/BEAST：1代参数设置（简略版）.md</guid><pubDate>Mon, 24 Jun 2024 08:46:48 GMT</pubDate><enclosure url="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240612171601.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240612171601.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[M 单倍群]]></title><description><![CDATA[ 
- <br><br>60500年前<br><br>58200年前<br><br>54300年前]]></description><link>软件\beast\beast：线粒体单倍群时间.html</link><guid isPermaLink="false">软件/BEAST/BEAST：线粒体单倍群时间.md</guid><pubDate>Mon, 24 Jun 2024 08:02:28 GMT</pubDate></item><item><title><![CDATA[成纤维细胞生长因子21（Fibroblast Growth Factor 21，FGF21）]]></title><description><![CDATA[ 
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240612173008.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;">]]></description><link>软件\beast\beast：1代参数设置（简略版）.html</link><guid isPermaLink="false">软件/BEAST/BEAST：1代参数设置（简略版）.md</guid><pubDate>Mon, 24 Jun 2024 08:46:48 GMT</pubDate><enclosure url="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240612171601.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240612171601.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[成纤维细胞生长因子21（Fibroblast Growth Factor 21，FGF21）]]></title><description><![CDATA[ 
  <br>FGF21（成纤维细胞生长因子21）：<br>
 <br>FGF21是一种属于成纤维细胞生长因子家族的蛋白质，通常在肝脏中表达，但也在肌肉和脂肪组织中有表达。
 <br>它参与调节糖代谢、脂肪氧化和能量平衡。
@@ -8639,102 +8788,7 @@ perl &lt;guidance directory&gt;/www/Guidance/guidance.pl \
 <br>-sft：为选定比对打印累积成对总和得分
 <br>-sident：为输入比对中所有序列打印身份得分矩阵。（见用户指南）
 <br>-soverlap：为输入比对中所有序列打印重叠得分矩阵。（见用户指南）
-<br>这些参数涵盖了从基本的文件输入输出格式选择到更复杂的比对修剪和统计评分方法。]]></description><link>软件\其它生信软件\格式比对\trimal自动修剪序列不可靠区域.html</link><guid isPermaLink="false">软件/其它生信软件/格式比对/Trimal自动修剪序列不可靠区域.md</guid><pubDate>Fri, 21 Jun 2024 07:30:24 GMT</pubDate></item><item><title><![CDATA[分步操作]]></title><description><![CDATA[ 
- <br><br><br># 建立字典
-gatk CreateSequenceDictionary R=/home/luolintao/10K_HGDP/BAM2VCF/rcrs.fasta O= /home/luolintao/10K_HGDP/BAM2VCF/rcrs.dict
-# 建立索引
-samtools faidx rcrs.fasta
-复制<br><br># 建立索引
-samtools index 原始的文件.bam
-# 提取
-samtools view -b 原始的文件.bam chrM &gt; chrM.bam
-samtools index chrM.bam
-复制<br><br>gatk --java-options "-Xmx4G" HaplotypeCaller \
--R rcrs.fasta \
--I chrM.bam \
--O output.vcf \
--L chrM \
--ploidy 2
-复制<br><br>#!/bin/bash
-
-# 定义输入和输出目录
-input_dir="/home/luolintao/10K_HGDP"
-output_dir="/home/luolintao/10K_HGDP/BAM2VCF"
-
-# 创建输出目录
-mkdir -p $output_dir
-
-# 加载所需的模块或定义工具的路径
-# module load samtools
-# module load gatk
-
-# 遍历所有的BAM文件
-for bam_file in $input_dir/*.bam; do
-    echo "Processing $bam_file"
-    
-    # 1. 建立索引
-    samtools index $bam_file
-
-    # 2. 提取mtDNA并建立索引
-    base_name=$(basename $bam_file .bam)
-    samtools view -b $bam_file chrM &gt; $output_dir/${base_name}_chrM.bam
-    samtools index $output_dir/${base_name}_chrM.bam
-
-    # 3. 产生VCF文件
-    gatk --java-options "-Xmx4G" HaplotypeCaller \
-    -R rcrs.fasta \
-    -I $output_dir/${base_name}_chrM.bam \
-    -O $output_dir/${base_name}.vcf \
-    -L chrM \
-    -ploidy 2
-    echo "Preceessing OK"
-done
-
-echo "All processing complete!"
-复制<br><br>在进行这一步之前，请一定要进入 Haplogrep 的安装文件夹。cd 你的安装路径。<br>./haplogrep3 classify \
---input /mnt/c/Users/victo/Desktop/FINAL_VERSION_DEL33.fasta \
---tree phylotree-rcrs@17.2 \
---output /mnt/c/Users/victo/Desktop/分型结果.txt \
---write-fasta # 这个选项不是必须，如果你选了，那么就会生成一个全长的fasta文件。如果你是全测，那么可以勾选，否则会产生虚假的fasta序列。
-复制<br>注意这个软件的--tree 选项只能在以下挑选！<br>phylotree-rcrs@17.2
-phylotree-rcrs@17.1
-phylotree-rcrs@17.0
-phylotree-rcrs@16.0
-phylotree-rcrs@15.0
-phylotree-rsrs@17.1
-phylotree-fu-rcrs@1.2
-phylotree-fu-rcrs@1.1
-phylotree-fu-rcrs@1.0
-复制<br><br>#!/bin/bash
-
-# 设置输入和输出目录
-input_dir="输入文件的路径"
-output_dir="输出文件的路径"
-
-# 检查输出目录是否存在，如果不存在则创建
-mkdir -p "$output_dir"
-cd 进入你的软件安装路径
-# 遍历目录中的所有 VCF 文件
-for vcf_file in "$input_dir"/*.vcf; do
-    # 获取不带路径的文件名
-    filename=$(basename "$vcf_file")
-    # 构建输出文件名
-    output_file="${output_dir}/${filename%.vcf}_分型结果.txt"
-
-    # 执行 classify 命令
-    ./haplogrep3 classify \
-        --input "$vcf_file" \
-        --tree phylotree-rcrs@17.0 \
-        --output "$output_file" \
-        --write-fasta
-
-    # 输出处理的文件名
-    echo "Processed: $vcf_file"
-done
-
-echo "All files processed."
-
-复制]]></description><link>软件\其它生信软件\全基因组\简易的mtdna分析流程.html</link><guid isPermaLink="false">软件/其它生信软件/全基因组/简易的mtDNA分析流程.md</guid><pubDate>Fri, 21 Jun 2024 07:30:24 GMT</pubDate></item><item><title><![CDATA[<strong>一、线粒体基因组主要分析内容流程图</strong>]]></title><description><![CDATA[ 
+<br>这些参数涵盖了从基本的文件输入输出格式选择到更复杂的比对修剪和统计评分方法。]]></description><link>软件\其它生信软件\格式比对\trimal自动修剪序列不可靠区域.html</link><guid isPermaLink="false">软件/其它生信软件/格式比对/Trimal自动修剪序列不可靠区域.md</guid><pubDate>Fri, 21 Jun 2024 07:30:24 GMT</pubDate></item><item><title><![CDATA[<strong>一、线粒体基因组主要分析内容流程图</strong>]]></title><description><![CDATA[ 
  <br>原文链接: <a data-tooltip-position="top" aria-label="https://www.yuque.com/wusheng-s0bue/cvxne8/spy5ekikgb75z80e" rel="noopener" class="external-link" href="https://www.yuque.com/wusheng-s0bue/cvxne8/spy5ekikgb75z80e" target="_blank">线粒体基因组分析流程 (yuque.com)</a><br><br><img src="https://cdn.nlark.com/yuque/0/2024/png/40551061/1709024234747-a4d99195-63f7-48e6-b473-6de9a5d44ed7.png#averageHue=%23fdfdfc&amp;clientId=uf2cae3a5-51f1-4&amp;from=paste&amp;id=u416810a9&amp;originHeight=444&amp;originWidth=853&amp;originalType=url&amp;ratio=1.5&amp;rotation=0&amp;showTitle=false&amp;status=done&amp;style=none&amp;taskId=u1df18701-586a-4e09-81f0-45c3df948a4&amp;title=" referrerpolicy="no-referrer"><br><br>参考序列基因组: GenBank (KY085912)<br>原始reads RUN ID: SRR5602602 (Laurus nobilis L.)<br>更多更详细的测试：ERR1917165，ERR2206741，ERR268390，ERR964904<br><br><br><br>软件说明书：<a rel="noopener" class="external-link" href="https://github.com/Kinggerm/GetOrganelle" target="_blank">https://github.com/Kinggerm/GetOrganelle</a><br>其他使用者说明：<br><a rel="noopener" class="external-link" href="https://www.jianshu.com/p/bab69c3889b5" target="_blank">https://www.jianshu.com/p/bab69c3889b5</a><br><a rel="noopener" class="external-link" href="https://blog.csdn.net/m0_62678513/article/details/122813505" target="_blank">https://blog.csdn.net/m0_62678513/article/details/122813505</a><br><a rel="noopener" class="external-link" href="https://zhuanlan.zhihu.com/p/665269253" target="_blank">https://zhuanlan.zhihu.com/p/665269253</a><br>
 Wget https://github.com/Kinggerm/GetOrganelleGallery/raw/master/Test/reads/Arabidopsis_simulated.1.fq.gz
 
