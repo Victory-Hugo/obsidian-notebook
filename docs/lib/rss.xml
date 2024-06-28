@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[科研思路]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>科研思路</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Fri, 28 Jun 2024 03:28:13 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Fri, 28 Jun 2024 03:28:11 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[1 .&nbsp;<a data-href="正态分布 (Normal Distribution)" href="正态分布 (Normal Distribution)" class="internal-link" target="_self" rel="noopener">正态分布 (Normal Distribution)</a>]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[科研思路]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>科研思路</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Fri, 28 Jun 2024 03:43:45 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Fri, 28 Jun 2024 03:43:43 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[1 .&nbsp;<a data-href="正态分布 (Normal Distribution)" href="正态分布 (Normal Distribution)" class="internal-link" target="_self" rel="noopener">正态分布 (Normal Distribution)</a>]]></title><description><![CDATA[ 
  <br><br>正态分布在我们的生活中随处可见，我们身高的分布、体重的分布，甚至是考试成绩的分布都可能符合正态分布。它的形状就像一个钟形曲线，最高点在中间，两边逐渐低下，具有对称性。<br>
 <img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517091725.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br>伯努利分布又名两点分布或者0-1分布，是描述只有两种可能结果的随机试验的概率分布，比如抛硬币或投掷骰子。它将这两种结果分别表示为1和0，通常用 p 来表示事件的成功概率，而1-p 表示事件的失败概率。比如，你在玩一个抛硬币的游戏。硬币只有两面：正面和反面。当你抛硬币时，只有两种可能的结果：硬币出现正面或反面。伯努利分布就像是描述硬币落地后是正面还是反面的概率分布。在伯努利分布中，我们关心的是事件的成功概率，即出现期望结果的概率。比如，在抛硬币时，成功的概率就是硬币出现正面的概率。<br>伯努利分布的变异程度通常由成功和失败的概率决定。如果硬币是公平的，那么成功和失败的概率都是相等的，变异程度就较小。假设你在玩一个猜硬币正反面的游戏，如果你猜对了，你就赢得奖品。这种情况下，游戏的结果可以用伯努利分布来描述。<br>
 <img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517091815.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br>泊松分布常常用于描述单位时间或空间内事件发生的次数，比如在一小时内接到的电话数量、一天内发生的交通事故数量等。<br>它的形状看起来有点像钟形曲线，但是更加扁平。在图的中心，事件发生的次数最多，然后随着次数的增加，概率逐渐减小。<br>平均值告诉我们在单位时间或空间内预期事件的平均发生次数。<br>
@@ -31,13 +31,96 @@
 <br>负二项分布 (Negative Binomial Distribution)：描述在一系列独立的伯努利试验中，达到指定数量的成功之前的失败次数。
 <br>威布尔分布 (Weibull Distribution)：常用于可靠性工程和寿命分析，描述随机事件的生存时间。<br>
 
-<br>这些分布覆盖了数据科学中许多常见的场景，从描述连续变量到描述离散变量，以及描述等待时间和间隔时间等各种情况。]]></description><link>人文与科学术语\数据科学家-95-时间都在使用的-10-大基本分布.html</link><guid isPermaLink="false">人文与科学术语/数据科学家 95% 时间都在使用的 10 大基本分布.md</guid><pubDate>Thu, 20 Jun 2024 12:25:33 GMT</pubDate><enclosure url="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517091725.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517091725.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Homepage]]></title><description><![CDATA[ 
+<br>这些分布覆盖了数据科学中许多常见的场景，从描述连续变量到描述离散变量，以及描述等待时间和间隔时间等各种情况。]]></description><link>人文与科学术语\数据科学家-95-时间都在使用的-10-大基本分布.html</link><guid isPermaLink="false">人文与科学术语/数据科学家 95% 时间都在使用的 10 大基本分布.md</guid><pubDate>Thu, 20 Jun 2024 12:25:33 GMT</pubDate><enclosure url="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517091725.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517091725.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[英文期刊投稿中的简写与状态解读]]></title><description><![CDATA[ 
+ <br><br>投稿后，进入审稿阶段，可以看到一些奇怪的缩写，现将其小结如下：  <br>Authors：作者，不用多说了。  <br>EIC： Editors in Chief，主编，权力最大，有稿件最终决定权。  <br>AE：Associate Editors，副编辑，（就是文章发表后在首页第一栏下方的contributing editor），对你的稿件来说，此人非常重要&nbsp;，他会在审稿人意见的基础上对文章作个综合评价后，给主编一个recommendation。一般主编都会按照AE的意见写最终的decision letter。  <br>ADM：Administrator，相当于编辑部的执行编辑（Managing Editor），你会发现编辑部给你的信大都是他写给你的。 他是编辑部里和你最接近的人，给你分配稿件号（Edit the manuscript ID number），修改各种投稿状态和日期（Edit the submission date）。  <br>Reviewers： 审稿人。（Article要求两个审稿人＋AE，总共三个人审。communication只有一个人审，这个人或者是编辑部指定的审稿人，或者是AE）<br>典型的审稿流程如下：author&nbsp;<a data-tooltip-position="top" aria-label="https://so.csdn.net/so/search?q=submit&amp;spm=1001.2101.3001.7020" rel="noopener" class="external-link" href="https://so.csdn.net/so/search?q=submit&amp;spm=1001.2101.3001.7020" target="_blank">submit</a>&nbsp;--》&nbsp;Admin Checks and Passes to EIC --》&nbsp;EIC Assigns to Associate Editor --》AE Invites and /or Assigns Reviewers --》Reviewers Score --》AE Makes Final Decision<br><br>
+<br>awaiting admin. procession&nbsp; 一般3－4天后就会安排主编。
+<br>awaiting reviewer assignment&nbsp;&nbsp;等待指定审稿人。 主编在选择审稿人，等待审稿人回复是否同意审稿。一般在一周以内。看审稿人回复速度。
+<br>awaiting reviewer scores&nbsp;&nbsp;等待审稿人审稿意见。一般会有一个审稿限期。但是审稿人觉得时间时间不够，可以写信给主编要求延长审稿期限。这个时间长短要取决于审稿人是否有空看你的文章，还要看他是否守时。
+<br>awaiting AE assignment&nbsp;等待AE的指派。编辑部在选择/联系AE。一般1－3天左右。
+<br>awaiting AE recommendation&nbsp;等待AE的推荐。 一般AE比较守时。但基本都是期限的最后一两天才给结果。
+<br>awaiting EIC decision&nbsp;－激动人心的时刻。 等待主编的决定。一般3－4天。
+<br>如果communication的话，就没有第4和第5步。
+<br><br>
+<br>&nbsp;Submitted to Journal&nbsp;当上传结束后，显示的状态是Submitted to Journal，这个状态是自然形成的无需处理。
+<br>With editor&nbsp;如果在投稿的时候没有要求选择编辑，就先到主编那里，主编会分派给别的编辑。这当中就会有另两个状态：&nbsp;① Editor assigned　编辑分； ② Editor Declined Invitation　编辑拒绝邀请，这时主编不得不将投稿文章重新分派给其它编辑。
+<br>Reviewer(s) invited&nbsp;说明编辑已接手处理，正在邀请审稿人中。有时该过程会持续很长时间，如果其中原因是编辑一直没有找到合适的审稿人，这时投稿者可以向编辑推荐审稿人。
+<br>Under&nbsp;review&nbsp;审稿人的意见已上传，说明审稿人已接受审稿，正在审稿中，这应该是一个漫长的等待（期刊通常会限定审稿人审稿时间，一般为一个月左右）。当然前面各步骤也可能很慢的，要看编辑的处理情况。如果被邀请审稿人不想审，就会decline，编辑会重新邀请别的审稿人。
+<br>required&nbsp;review&nbsp;completed&nbsp;审稿结束，等编辑处理，该过程短则几天，长则无期，科学堂 有一篇文章出现required&nbsp;review&nbsp;completed状态已近一个月了，还是没有消息。
+<br>Decision in Process&nbsp;到了这一步就快要有结果了，编辑开始考虑是给修改还是直接拒，当然也有可能直接接受的，但可能性很小，呵呵。
+<br>Minor revision/Major revision&nbsp;小修/大修，这个时候可以稍微庆祝一下了，因为有修改就有可能。具体怎么改就不多说了，谦虚谨慎是不可少的（因为修改后一般会再发给审稿人看，所以一定要 细心的回答每一个审稿人的每一个问题，态度要谦逊，要让审稿人觉得他提的每个问题都很有水准的，然后针对他的问题，一个一个的做出答复，能修改的就修改， 不能修改的给出理由，而且都要列出来，文章的哪一段哪一行修改了最好都说出来，记住：给审稿人减少麻烦就是给你自己减少麻烦！另注：&nbsp;有时，审稿人会在修改意见里隐讳里说出要你仔细阅读某几篇文献，这时可要注意了，其中某些文章可能就是评审者自己发表的，这时你最好在你的修改稿中加以引用），修改后被拒绝的例子也多不胜数的。
+<br>Revision Submitted to Journal&nbsp;修改后重新提交，等待编辑审理。
+<br>Accepted&nbsp;如果不要再审，只是小修改，编辑看后会马上显示这个状态，但如果要再审也会有上面的部分状态。一步会比较快，但也有慢的。看杂志的。
+<br>Rejected&nbsp;相信大家见了Rejected，都会很郁闷。但也不要太灰心，耐心将评审意见看完，一般评审者会给出有益的建议，相信看后你会有所收获。
+<br><br><br>
+<br>－Accept
+<br>&nbsp;-&nbsp;accept after minor revision( 小修后接收，withour re-review不需要再送审)
+<br>－reconsideration after major revision.(大修之后再送审，即要再经过审稿流程3－6)
+<br>－reject and resubmit&nbsp;(论文现在状态不能接受，但可以修改后重新再投。要重新经过审稿流程1－6)
+<br>－reject&nbsp;（没希望了，改投把)
+]]></description><link>home\英文期刊投稿中的简写与状态解读.html</link><guid isPermaLink="false">Home/英文期刊投稿中的简写与状态解读.md</guid><pubDate>Thu, 20 Jun 2024 13:46:14 GMT</pubDate></item><item><title><![CDATA[伦理填报]]></title><description><![CDATA[ 
  <br><br>
-这是我的主页（也是我的思维领域）<br>
+<br><a data-tooltip-position="top" aria-label="http://ctmsec.cd120.com/" rel="noopener" class="external-link" href="http://ctmsec.cd120.com/" target="_blank">打开官网</a>
+<br>http://ctmsec.cd120.com/
+复制<br>
+<br>登陆账号：
+<br>账号：20229186
+密码：Hgl2wmg@1314
+复制<br>
+<br>点击右上角：<br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401231018522.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;">
+<br>选择研究者发起的临床研究备案及伦理申报。<br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401231018154.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;">
+<br>按照下图的模板进行填写，注意项目名称、研究例数、内容摘要填写自己的，人类遗传资源选择唾液。<br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401231015320.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;">
+<br>填报之后下载附件，附件应该具备如下：<br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401231021189.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;">
+<br>附件打印填写，然后扫描上传。
+<br><br>这是国家超算成都中心的链接，你们几个都去熟悉一下界面和操作。软件安装在固定位置/public/home/heguanglin/biosoftware，软连接到/public/home/heguanglin/biosoftware/bin。<br><br>@马金玥 @罗林焘 两位，我早期做的mtDNA的群体数据和博后课题组的mtDNA家系样本数据已储存于/home/guanglinhe/10_mtDNA，可以慢慢开始学习数据分析了]]></description><link>home\注意事项.html</link><guid isPermaLink="false">Home/注意事项.md</guid><pubDate>Mon, 17 Jun 2024 07:53:30 GMT</pubDate><enclosure url="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401231018522.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401231018522.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Homepage]]></title><description><![CDATA[ 
+ <br>这是我的主页（也是我的思维领域）<br>
 当然，你也可以访问我的其他主页：<br>
 <br><a data-tooltip-position="top" aria-label="https://www.yuque.com/wusheng-s0bue" rel="noopener" class="external-link" href="https://www.yuque.com/wusheng-s0bue" target="_blank">梧之声 · 语雀 (yuque.com)</a>
 <br><a data-tooltip-position="top" aria-label="https://blog.csdn.net/2301_79082700?type=blog" rel="noopener" class="external-link" href="https://blog.csdn.net/2301_79082700?type=blog" target="_blank">梧叶之声-CSDN博客</a>
-<br><br><br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240616211539.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240616211548.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240616211555.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240616211605.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>花园里有什么？  <br>你不能从这里学到任何东西  
+<br><br>筛选排序新建
+                
+                
+                    
+                
+            文件名<a href="软件\其它生信软件\群体遗传\python：计算下游单倍群数量.html" data-href="软件/其它生信软件/群体遗传/python：计算下游单倍群数量.md" target="_self" rel="noopener" class="internal-link table-title">python：计算下游单倍群数量</a><a href="软件\beast\beast：在服务器内运行.html" data-href="软件/BEAST/BEAST：在服务器内运行.md" target="_self" rel="noopener" class="internal-link table-title">BEAST：在服务器内运行</a><a href="软件\其它生信软件\群体遗传\python：计算群体单倍群单倍型多样性.html" data-href="软件/其它生信软件/群体遗传/python：计算群体单倍群单倍型多样性.md" target="_self" rel="noopener" class="internal-link table-title">python：计算群体单倍群单倍型多样性</a><a href="软件\其它生信软件\群体遗传\python：查找末端单倍群.html" data-href="软件/其它生信软件/群体遗传/python：查找末端单倍群.md" target="_self" rel="noopener" class="internal-link table-title">python：查找末端单倍群</a><a href="软件\beast\beast：1代参数设置（简略版）.html" data-href="软件/BEAST/BEAST：1代参数设置（简略版）.md" target="_self" rel="noopener" class="internal-link table-title">BEAST：1代参数设置（简略版）</a><a href="软件\beast\beast：线粒体单倍群时间.html" data-href="软件/BEAST/BEAST：线粒体单倍群时间.md" target="_self" rel="noopener" class="internal-link table-title">BEAST：线粒体单倍群时间</a><a href="软件\python\格式转换\利用python迅速查找上游单倍型（2024年6月19日更新）.html" data-href="软件/Python/格式转换/利用Python迅速查找上游单倍型（2024年6月19日更新）.md" target="_self" rel="noopener" class="internal-link table-title">利用Python迅速查找上游单倍型（2024年6月19日更新）</a><a href="软件\其它生信软件\群体遗传\python：快速整理线粒体单倍群至目标上游单倍群.html" data-href="软件/其它生信软件/群体遗传/python：快速整理线粒体单倍群至目标上游单倍群.md" target="_self" rel="noopener" class="internal-link table-title">python：快速整理线粒体单倍群至目标上游单倍群</a><a href="软件\如何利用obsidian构建自己的网址？.html" data-href="软件/如何利用Obsidian构建自己的网址？.md" target="_self" rel="noopener" class="internal-link table-title">如何利用Obsidian构建自己的网址？</a><a href="软件\spss\spss主成分分析.html" data-href="软件/SPSS/SPSS主成分分析.md" target="_self" rel="noopener" class="internal-link table-title">SPSS主成分分析</a>
+            
+                
+            
+        记录数 155加载更多
+            
+            
+                
+            
+            
+        
+            
+                
+            
+        
+                
+                
+                    
+                    to
+                    
+                    of
+                    
+                
+                
+                    
+                    
+                    
+                        Page
+                        
+                        of
+                        
+                    
+                    
+                    
+                
+            <br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240616211539.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240616211548.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240616211555.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240616211605.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>花园里有什么？  <br>你不能从这里学到任何东西  
 除非你多次尝试。熟能生巧。
 <br>我把自己的笔记分享到这里
 包括但不限于R语言、生物信息学以及一些你可能不感兴趣的内容。
@@ -46,7 +129,7 @@
 几乎都没有。  
 <br>
 Σ(⊙▽⊙"a你不会还在看吧？
-]]></description><link>主页\homepage.html</link><guid isPermaLink="false">主页/Homepage.md</guid><pubDate>Fri, 28 Jun 2024 03:22:18 GMT</pubDate><enclosure url="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240616211539.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240616211539.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[数据准备]]></title><description><![CDATA[ 
+]]></description><link>home\homepage.html</link><guid isPermaLink="false">Home/Homepage.md</guid><pubDate>Fri, 28 Jun 2024 03:43:33 GMT</pubDate><enclosure url="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240616211539.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240616211539.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[数据准备]]></title><description><![CDATA[ 
  <br>这个脚本的作用是，给定一个 txt 文档，里面只有线粒体单倍群，根据 phylotree 计算得到该单倍群下游的共有多少个单倍群（包括自身）。<br><br>一个 txt 文档，如图所示：<br>
 <img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240627164132.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br>需要的是 线粒体单倍群phylotree(version17).txt，可以通过<a data-tooltip-position="top" aria-label="https://scientific-attach.oss-cn-chengdu.aliyuncs.com/%E9%99%84%E4%BB%B6/%E7%BA%BF%E7%B2%92%E4%BD%93%E5%8D%95%E5%80%8D%E7%BE%A4phylotree(version17).txt?OSSAccessKeyId=LTAI5tELp2DoTHGGZeQkMQmK&amp;Expires=1720477816&amp;Signature=P3fhsQWh2K5Qn%2BFe2ET%2F4WlgSNc%3D" rel="noopener" class="external-link" href="https://scientific-attach.oss-cn-chengdu.aliyuncs.com/%E9%99%84%E4%BB%B6/%E7%BA%BF%E7%B2%92%E4%BD%93%E5%8D%95%E5%80%8D%E7%BE%A4phylotree(version17).txt?OSSAccessKeyId=LTAI5tELp2DoTHGGZeQkMQmK&amp;Expires=1720477816&amp;Signature=P3fhsQWh2K5Qn%2BFe2ET%2F4WlgSNc%3D" target="_blank">这里下载</a><br>
 如果过期请提醒我。<br><br># 文件路径
@@ -19268,51 +19351,7 @@ MitoSeek: extracting mitochondria information and performing high-throughput mit
 <br>体细胞突变
 <br>相对拷贝数变异
 <br>大的结构变化。
-<br>“MitoSeek can extract mitochondrial genome information directly from a BAM file and also perform mitochondrial genome assembly.” (Guo 等, 2013, p. 1) MitoSeek 可以直接从 BAM 文件中提取线粒体基因组信息，并执行线粒体基因组组装。<br>“Before conducting any analysis, MitoSeek will first produce a mitochondrial alignment quality control report, which contains important statistics such as average depth, percent of base pairs covered, base quality distribution, mapping quality distribution and insert size distribution.” (Guo 等, 2013, p. 1) 在进行任何分析之前，MitoSeek 将首先生成一份线粒体比对质量控制报告，其中包含重要的统计数据，例如平均深度、覆盖的碱基对百分比、碱基质量分布、图谱质量分布和插入片段大小分布。<br>“These quality control parameters serve as important confidence indicators for the downstream mitochondrial analysis. MitoSeek filters reads based on mapping quality score (MQ 20Þ and base quality score (BQ 20Þ.The threshold of the filters is adjustable by the user.” (Guo 等, 2013, p. 1) 这些质量控制参数作为下游线粒体分析的重要置信度指标。 MitoSeek 根据作图质量分数 (MQ 20Þ 和碱基质量分数 (BQ 20Þ) 过滤读数。过滤器的阈值可由用户调整。<br>“Based on the alignment quality control report, MitoSeek will automatically adjust the heteroplasmy detection threshold to the most appropriate level.” (Guo 等, 2013, p. 1) 根据比对质量控制报告，MitoSeek会自动将异质性检测阈值调整到最合适的水平。<br>“MitoSeek can interchange genomic positions and reference nucleotides between HG19 and rCRS.” (Guo 等, 2013, p. 2) MitoSeek 可以在 HG19 和 rCRS 之间互换基因组位置和参考核苷酸。<br>“Annotation of amino acid changes and identification of known pathogenic mutations are reported by MitoSeek in both HG19 and rCRS coordinates.” (Guo 等, 2013, p. 2) MitoSeek 在 HG19 和 rCRS 坐标中报告了氨基酸变化的注释和已知致病突变的鉴定。<br>“MitoSeek is written in Perl and Linux Shell Script. The typical run time on exome sequencing data with BAM file size of 11 GB is 50 min on a 2.4 GHz CPU with 1 GB of memory.” (Guo 等, 2013, p. 2) MitoSeek 是用 Perl 和 Linux Shell 脚本编写的。在具有 1 GB 内存的 2.4 GHz CPU 上，BAM 文件大小为 11 GB 的外显子组测序数据的典型运行时间为 50 分钟。<br>“Owing to the limitation of exome sequencing data, MitoSeek is not capable of calculating absolute copy number of mtDNA, only relative mtDNA copy number.” (Guo 等, 2013, p. 2) 由于外显子组测序数据的限制，MitoSeek无法计算mtDNA的绝对拷贝数，只能计算相对mtDNA拷贝数。<br>“Also, owing to noise in the sequencing data, MitoSeek is more suited to detecting large copy number variation rather than small copy number variation.” (Guo 等, 2013, p. 2) 此外，由于测序数据中存在噪声，MitoSeek 更适合检测大拷贝数变异而不是小拷贝数变异。<br>“MitoSeek is designed to work with paired-end sequencing data rather than single-end sequencing data given the large abundance of paired-end sequencing data.” (Guo 等, 2013, p. 2) 鉴于大量的双端测序数据，MitoSeek 旨在处理双端测序数据，而不是单端测序数据。<br>“MitoSeek is designed with accessibility in mind.” (Guo 等, 2013, p. 2) MitoSeek 的设计考虑到了可访问性。<br>“It is the only sequencing analysis tool that reports allele counts separately by forward and reverse strands, critical information for assessing strand bias” (Guo 等, 2013, p. 2) 它是唯一按正向链和反向链分别报告等位基因计数的测序分析工具，这是评估链偏倚的关键信息。]]></description><link>文献及报道\文献\mitoseek：提取线粒体信息并进行高通量线粒体测序分析.html</link><guid isPermaLink="false">文献及报道/文献/MitoSeek：提取线粒体信息并进行高通量线粒体测序分析.md</guid><pubDate>Fri, 21 Jun 2024 07:32:16 GMT</pubDate></item><item><title><![CDATA[英文期刊投稿中的简写与状态解读]]></title><description><![CDATA[ 
- <br><br>投稿后，进入审稿阶段，可以看到一些奇怪的缩写，现将其小结如下：  <br>Authors：作者，不用多说了。  <br>EIC： Editors in Chief，主编，权力最大，有稿件最终决定权。  <br>AE：Associate Editors，副编辑，（就是文章发表后在首页第一栏下方的contributing editor），对你的稿件来说，此人非常重要&nbsp;，他会在审稿人意见的基础上对文章作个综合评价后，给主编一个recommendation。一般主编都会按照AE的意见写最终的decision letter。  <br>ADM：Administrator，相当于编辑部的执行编辑（Managing Editor），你会发现编辑部给你的信大都是他写给你的。 他是编辑部里和你最接近的人，给你分配稿件号（Edit the manuscript ID number），修改各种投稿状态和日期（Edit the submission date）。  <br>Reviewers： 审稿人。（Article要求两个审稿人＋AE，总共三个人审。communication只有一个人审，这个人或者是编辑部指定的审稿人，或者是AE）<br>典型的审稿流程如下：author&nbsp;<a data-tooltip-position="top" aria-label="https://so.csdn.net/so/search?q=submit&amp;spm=1001.2101.3001.7020" rel="noopener" class="external-link" href="https://so.csdn.net/so/search?q=submit&amp;spm=1001.2101.3001.7020" target="_blank">submit</a>&nbsp;--》&nbsp;Admin Checks and Passes to EIC --》&nbsp;EIC Assigns to Associate Editor --》AE Invites and /or Assigns Reviewers --》Reviewers Score --》AE Makes Final Decision<br><br>
-<br>awaiting admin. procession&nbsp; 一般3－4天后就会安排主编。
-<br>awaiting reviewer assignment&nbsp;&nbsp;等待指定审稿人。 主编在选择审稿人，等待审稿人回复是否同意审稿。一般在一周以内。看审稿人回复速度。
-<br>awaiting reviewer scores&nbsp;&nbsp;等待审稿人审稿意见。一般会有一个审稿限期。但是审稿人觉得时间时间不够，可以写信给主编要求延长审稿期限。这个时间长短要取决于审稿人是否有空看你的文章，还要看他是否守时。
-<br>awaiting AE assignment&nbsp;等待AE的指派。编辑部在选择/联系AE。一般1－3天左右。
-<br>awaiting AE recommendation&nbsp;等待AE的推荐。 一般AE比较守时。但基本都是期限的最后一两天才给结果。
-<br>awaiting EIC decision&nbsp;－激动人心的时刻。 等待主编的决定。一般3－4天。
-<br>如果communication的话，就没有第4和第5步。
-<br><br>
-<br>&nbsp;Submitted to Journal&nbsp;当上传结束后，显示的状态是Submitted to Journal，这个状态是自然形成的无需处理。
-<br>With editor&nbsp;如果在投稿的时候没有要求选择编辑，就先到主编那里，主编会分派给别的编辑。这当中就会有另两个状态：&nbsp;① Editor assigned　编辑分； ② Editor Declined Invitation　编辑拒绝邀请，这时主编不得不将投稿文章重新分派给其它编辑。
-<br>Reviewer(s) invited&nbsp;说明编辑已接手处理，正在邀请审稿人中。有时该过程会持续很长时间，如果其中原因是编辑一直没有找到合适的审稿人，这时投稿者可以向编辑推荐审稿人。
-<br>Under&nbsp;review&nbsp;审稿人的意见已上传，说明审稿人已接受审稿，正在审稿中，这应该是一个漫长的等待（期刊通常会限定审稿人审稿时间，一般为一个月左右）。当然前面各步骤也可能很慢的，要看编辑的处理情况。如果被邀请审稿人不想审，就会decline，编辑会重新邀请别的审稿人。
-<br>required&nbsp;review&nbsp;completed&nbsp;审稿结束，等编辑处理，该过程短则几天，长则无期，科学堂 有一篇文章出现required&nbsp;review&nbsp;completed状态已近一个月了，还是没有消息。
-<br>Decision in Process&nbsp;到了这一步就快要有结果了，编辑开始考虑是给修改还是直接拒，当然也有可能直接接受的，但可能性很小，呵呵。
-<br>Minor revision/Major revision&nbsp;小修/大修，这个时候可以稍微庆祝一下了，因为有修改就有可能。具体怎么改就不多说了，谦虚谨慎是不可少的（因为修改后一般会再发给审稿人看，所以一定要 细心的回答每一个审稿人的每一个问题，态度要谦逊，要让审稿人觉得他提的每个问题都很有水准的，然后针对他的问题，一个一个的做出答复，能修改的就修改， 不能修改的给出理由，而且都要列出来，文章的哪一段哪一行修改了最好都说出来，记住：给审稿人减少麻烦就是给你自己减少麻烦！另注：&nbsp;有时，审稿人会在修改意见里隐讳里说出要你仔细阅读某几篇文献，这时可要注意了，其中某些文章可能就是评审者自己发表的，这时你最好在你的修改稿中加以引用），修改后被拒绝的例子也多不胜数的。
-<br>Revision Submitted to Journal&nbsp;修改后重新提交，等待编辑审理。
-<br>Accepted&nbsp;如果不要再审，只是小修改，编辑看后会马上显示这个状态，但如果要再审也会有上面的部分状态。一步会比较快，但也有慢的。看杂志的。
-<br>Rejected&nbsp;相信大家见了Rejected，都会很郁闷。但也不要太灰心，耐心将评审意见看完，一般评审者会给出有益的建议，相信看后你会有所收获。
-<br><br><br>
-<br>－Accept
-<br>&nbsp;-&nbsp;accept after minor revision( 小修后接收，withour re-review不需要再送审)
-<br>－reconsideration after major revision.(大修之后再送审，即要再经过审稿流程3－6)
-<br>－reject and resubmit&nbsp;(论文现在状态不能接受，但可以修改后重新再投。要重新经过审稿流程1－6)
-<br>－reject&nbsp;（没希望了，改投把)
-]]></description><link>主页\英文期刊投稿中的简写与状态解读.html</link><guid isPermaLink="false">主页/英文期刊投稿中的简写与状态解读.md</guid><pubDate>Thu, 20 Jun 2024 13:46:14 GMT</pubDate></item><item><title><![CDATA[伦理填报]]></title><description><![CDATA[ 
- <br><br>
-<br><a data-tooltip-position="top" aria-label="http://ctmsec.cd120.com/" rel="noopener" class="external-link" href="http://ctmsec.cd120.com/" target="_blank">打开官网</a>
-<br>http://ctmsec.cd120.com/
-复制<br>
-<br>登陆账号：
-<br>账号：20229186
-密码：Hgl2wmg@1314
-复制<br>
-<br>点击右上角：<br>
-<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401231018522.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;">
-<br>选择研究者发起的临床研究备案及伦理申报。<br>
-<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401231018154.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;">
-<br>按照下图的模板进行填写，注意项目名称、研究例数、内容摘要填写自己的，人类遗传资源选择唾液。<br>
-<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401231015320.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;">
-<br>填报之后下载附件，附件应该具备如下：<br>
-<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401231021189.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;">
-<br>附件打印填写，然后扫描上传。
-<br><br>这是国家超算成都中心的链接，你们几个都去熟悉一下界面和操作。软件安装在固定位置/public/home/heguanglin/biosoftware，软连接到/public/home/heguanglin/biosoftware/bin。<br><br>@马金玥 @罗林焘 两位，我早期做的mtDNA的群体数据和博后课题组的mtDNA家系样本数据已储存于/home/guanglinhe/10_mtDNA，可以慢慢开始学习数据分析了]]></description><link>主页\注意事项.html</link><guid isPermaLink="false">主页/注意事项.md</guid><pubDate>Mon, 17 Jun 2024 07:53:30 GMT</pubDate><enclosure url="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401231018522.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401231018522.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[常用命令]]></title><description><![CDATA[ 
+<br>“MitoSeek can extract mitochondrial genome information directly from a BAM file and also perform mitochondrial genome assembly.” (Guo 等, 2013, p. 1) MitoSeek 可以直接从 BAM 文件中提取线粒体基因组信息，并执行线粒体基因组组装。<br>“Before conducting any analysis, MitoSeek will first produce a mitochondrial alignment quality control report, which contains important statistics such as average depth, percent of base pairs covered, base quality distribution, mapping quality distribution and insert size distribution.” (Guo 等, 2013, p. 1) 在进行任何分析之前，MitoSeek 将首先生成一份线粒体比对质量控制报告，其中包含重要的统计数据，例如平均深度、覆盖的碱基对百分比、碱基质量分布、图谱质量分布和插入片段大小分布。<br>“These quality control parameters serve as important confidence indicators for the downstream mitochondrial analysis. MitoSeek filters reads based on mapping quality score (MQ 20Þ and base quality score (BQ 20Þ.The threshold of the filters is adjustable by the user.” (Guo 等, 2013, p. 1) 这些质量控制参数作为下游线粒体分析的重要置信度指标。 MitoSeek 根据作图质量分数 (MQ 20Þ 和碱基质量分数 (BQ 20Þ) 过滤读数。过滤器的阈值可由用户调整。<br>“Based on the alignment quality control report, MitoSeek will automatically adjust the heteroplasmy detection threshold to the most appropriate level.” (Guo 等, 2013, p. 1) 根据比对质量控制报告，MitoSeek会自动将异质性检测阈值调整到最合适的水平。<br>“MitoSeek can interchange genomic positions and reference nucleotides between HG19 and rCRS.” (Guo 等, 2013, p. 2) MitoSeek 可以在 HG19 和 rCRS 之间互换基因组位置和参考核苷酸。<br>“Annotation of amino acid changes and identification of known pathogenic mutations are reported by MitoSeek in both HG19 and rCRS coordinates.” (Guo 等, 2013, p. 2) MitoSeek 在 HG19 和 rCRS 坐标中报告了氨基酸变化的注释和已知致病突变的鉴定。<br>“MitoSeek is written in Perl and Linux Shell Script. The typical run time on exome sequencing data with BAM file size of 11 GB is 50 min on a 2.4 GHz CPU with 1 GB of memory.” (Guo 等, 2013, p. 2) MitoSeek 是用 Perl 和 Linux Shell 脚本编写的。在具有 1 GB 内存的 2.4 GHz CPU 上，BAM 文件大小为 11 GB 的外显子组测序数据的典型运行时间为 50 分钟。<br>“Owing to the limitation of exome sequencing data, MitoSeek is not capable of calculating absolute copy number of mtDNA, only relative mtDNA copy number.” (Guo 等, 2013, p. 2) 由于外显子组测序数据的限制，MitoSeek无法计算mtDNA的绝对拷贝数，只能计算相对mtDNA拷贝数。<br>“Also, owing to noise in the sequencing data, MitoSeek is more suited to detecting large copy number variation rather than small copy number variation.” (Guo 等, 2013, p. 2) 此外，由于测序数据中存在噪声，MitoSeek 更适合检测大拷贝数变异而不是小拷贝数变异。<br>“MitoSeek is designed to work with paired-end sequencing data rather than single-end sequencing data given the large abundance of paired-end sequencing data.” (Guo 等, 2013, p. 2) 鉴于大量的双端测序数据，MitoSeek 旨在处理双端测序数据，而不是单端测序数据。<br>“MitoSeek is designed with accessibility in mind.” (Guo 等, 2013, p. 2) MitoSeek 的设计考虑到了可访问性。<br>“It is the only sequencing analysis tool that reports allele counts separately by forward and reverse strands, critical information for assessing strand bias” (Guo 等, 2013, p. 2) 它是唯一按正向链和反向链分别报告等位基因计数的测序分析工具，这是评估链偏倚的关键信息。]]></description><link>文献及报道\文献\mitoseek：提取线粒体信息并进行高通量线粒体测序分析.html</link><guid isPermaLink="false">文献及报道/文献/MitoSeek：提取线粒体信息并进行高通量线粒体测序分析.md</guid><pubDate>Fri, 21 Jun 2024 07:32:16 GMT</pubDate></item><item><title><![CDATA[常用命令]]></title><description><![CDATA[ 
  <br>##############################################################################
 
 # BASH CHEATSHEET (中文速查表)  -  by skywind (created on 2018/02/14)
