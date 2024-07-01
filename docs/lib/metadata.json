@@ -1,6 +1,6 @@
 {
-  "vaultName": "科研思路",
-  "lastExport": 1719647198632,
+  "vaultName": "思维领域",
+  "lastExport": 1719817645090,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager theme-dark show-inline-title show-ribbon h2-underline",
   "useCustomHeadContent": false,
@@ -735,16 +735,8 @@
     "Home/英文期刊投稿中的简写与状态解读.md",
     "Home/注意事项.md",
     "Home/Homepage.md",
-    "Linux和bash脚本/常用命令.md",
-    "Linux和bash脚本/服务器（Xshell）中一次性配置环境变量.md",
-    "Linux和bash脚本/下载现代DNA数据流程.md",
-    "Linux和bash脚本/下载bash.md",
-    "Linux和bash脚本/awk介绍.md",
-    "Linux和bash脚本/BAM文件处理.md",
+    "Linux和bash脚本/awk从放弃到入门.md",
     "Linux和bash脚本/Linux最最最常用命令.md",
-    "Linux和bash脚本/Shell基础知识.md",
-    "Linux和bash脚本/shell运算.md",
-    "Linux和bash脚本/VCF文件初识.md",
     "obsidian语法进阶/脚注的使用.md",
     "obsidian语法进阶/callout语法.md",
     "obsidian语法进阶/Latex语法符号大全.md",
@@ -817,187 +809,187 @@
   ],
   "fileInfo": {
     "lib/scripts/graph-wasm.wasm": {
-      "modifiedTime": 1719647198632,
+      "modifiedTime": 1719817645090,
       "sourceSize": 23377,
       "exportedPath": "lib/scripts/graph-wasm.wasm",
       "dependencies": []
     },
     "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1719647198632,
+      "modifiedTime": 1719817645090,
       "sourceSize": 66800,
       "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
       "dependencies": []
     },
     "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1719647198632,
+      "modifiedTime": 1719817645090,
       "sourceSize": 104232,
       "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
       "dependencies": []
     },
     "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1719647198632,
+      "modifiedTime": 1719817645090,
       "sourceSize": 104332,
       "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
       "dependencies": []
     },
     "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1719647198632,
+      "modifiedTime": 1719817645090,
       "sourceSize": 98868,
       "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
       "dependencies": []
     },
     "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1719647198632,
+      "modifiedTime": 1719817645090,
       "sourceSize": 106876,
       "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
       "dependencies": []
     },
     "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1719647198632,
+      "modifiedTime": 1719817645090,
       "sourceSize": 105804,
       "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
       "dependencies": []
     },
     "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1719647198632,
+      "modifiedTime": 1719817645090,
       "sourceSize": 106108,
       "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
       "dependencies": []
     },
     "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1719647198632,
+      "modifiedTime": 1719817645090,
       "sourceSize": 111708,
       "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
       "dependencies": []
     },
     "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1719647198632,
+      "modifiedTime": 1719817645090,
       "sourceSize": 192740,
       "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
       "dependencies": []
     },
     "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1719647198632,
+      "modifiedTime": 1719817645090,
       "sourceSize": 161376,
       "exportedPath": "lib/fonts/454577c22304619db035.ttf",
       "dependencies": []
     },
     "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1719647198632,
+      "modifiedTime": 1719817645090,
       "sourceSize": 191568,
       "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
       "dependencies": []
     },
     "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1719647198632,
+      "modifiedTime": 1719817645090,
       "sourceSize": 155288,
       "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
       "dependencies": []
     },
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1719647198632,
+      "modifiedTime": 1719817645090,
       "sourceSize": 7876,
       "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
       "dependencies": []
     },
     "lib/media/874d8b8e340f75575caa.svg": {
-      "modifiedTime": 1719647198632,
+      "modifiedTime": 1719817645090,
       "sourceSize": 317,
       "exportedPath": "lib/media/874d8b8e340f75575caa.svg",
       "dependencies": []
     },
     "lib/media/3d6c1bdc4d87cde4de67.svg": {
-      "modifiedTime": 1719647198632,
+      "modifiedTime": 1719817645090,
       "sourceSize": 279,
       "exportedPath": "lib/media/3d6c1bdc4d87cde4de67.svg",
       "dependencies": []
     },
     "lib/html/file-tree.html": {
-      "modifiedTime": 1719647198632,
-      "sourceSize": 566613,
+      "modifiedTime": 1719817645090,
+      "sourceSize": 560611,
       "exportedPath": "lib/html/file-tree.html",
       "dependencies": []
     },
     "lib/scripts/webpage.js": {
-      "modifiedTime": 1719647198632,
+      "modifiedTime": 1719817645090,
       "sourceSize": 47290,
       "exportedPath": "lib/scripts/webpage.js",
       "dependencies": []
     },
     "lib/scripts/graph-view.js": {
-      "modifiedTime": 1719647198632,
+      "modifiedTime": 1719817645090,
       "sourceSize": 15519,
       "exportedPath": "lib/scripts/graph-view.js",
       "dependencies": []
     },
     "lib/scripts/graph-wasm.js": {
-      "modifiedTime": 1719647198632,
+      "modifiedTime": 1719817645090,
       "sourceSize": 14021,
       "exportedPath": "lib/scripts/graph-wasm.js",
       "dependencies": []
     },
     "lib/scripts/graph-render-worker.js": {
-      "modifiedTime": 1719647198632,
+      "modifiedTime": 1719817645090,
       "sourceSize": 5179,
       "exportedPath": "lib/scripts/graph-render-worker.js",
       "dependencies": []
     },
     "lib/scripts/tinycolor.js": {
-      "modifiedTime": 1719647198632,
+      "modifiedTime": 1719817645090,
       "sourceSize": 29832,
       "exportedPath": "lib/scripts/tinycolor.js",
       "dependencies": []
     },
     "lib/scripts/pixi.js": {
-      "modifiedTime": 1719647198632,
+      "modifiedTime": 1719817645090,
       "sourceSize": 449509,
       "exportedPath": "lib/scripts/pixi.js",
       "dependencies": []
     },
     "lib/scripts/minisearch.js": {
-      "modifiedTime": 1719647198632,
+      "modifiedTime": 1719817645090,
       "sourceSize": 29422,
       "exportedPath": "lib/scripts/minisearch.js",
       "dependencies": []
     },
     "lib/media/favicon.png": {
-      "modifiedTime": 1719647198632,
+      "modifiedTime": 1719817645090,
       "sourceSize": 1105,
       "exportedPath": "lib/media/favicon.png",
       "dependencies": []
     },
     "lib/scripts/graph-data.js": {
-      "modifiedTime": 1719647198632,
-      "sourceSize": 59385,
+      "modifiedTime": 1719817645090,
+      "sourceSize": 59041,
       "exportedPath": "lib/scripts/graph-data.js",
       "dependencies": []
     },
     "lib/styles/obsidian.css": {
-      "modifiedTime": 1719647198632,
+      "modifiedTime": 1719817645090,
       "sourceSize": 130471,
       "exportedPath": "lib/styles/obsidian.css",
       "dependencies": []
     },
     "lib/styles/theme.css": {
-      "modifiedTime": 1719647198632,
+      "modifiedTime": 1719817645090,
       "sourceSize": 41426,
       "exportedPath": "lib/styles/theme.css",
       "dependencies": []
     },
     "lib/styles/global-variable-styles.css": {
-      "modifiedTime": 1719647198632,
+      "modifiedTime": 1719817645090,
       "sourceSize": 367,
       "exportedPath": "lib/styles/global-variable-styles.css",
       "dependencies": []
     },
     "lib/styles/supported-plugins.css": {
-      "modifiedTime": 1719647198632,
+      "modifiedTime": 1719817645090,
       "sourceSize": 119,
       "exportedPath": "lib/styles/supported-plugins.css",
       "dependencies": []
     },
     "lib/styles/main-styles.css": {
-      "modifiedTime": 1719647198632,
+      "modifiedTime": 1719817645090,
       "sourceSize": 23130,
       "exportedPath": "lib/styles/main-styles.css",
       "dependencies": []
@@ -3019,8 +3011,8 @@
       "dependencies": []
     },
     "软件/在VS Code中搭建你的R语言运行环境.md": {
-      "modifiedTime": 1718955020656,
-      "sourceSize": 3995,
+      "modifiedTime": 1719817645090,
+      "sourceSize": 4040,
       "exportedPath": "软件/在vs-code中搭建你的r语言运行环境.html",
       "dependencies": []
     },
@@ -3972,64 +3964,10 @@
       "exportedPath": "文献及报道/文献汇报分享/2024年6月12日.html",
       "dependencies": []
     },
-    "Linux和bash脚本/常用命令.md": {
-      "modifiedTime": 1718955547296,
-      "sourceSize": 46664,
-      "exportedPath": "linux和bash脚本/常用命令.html",
-      "dependencies": []
-    },
-    "Linux和bash脚本/服务器（Xshell）中一次性配置环境变量.md": {
-      "modifiedTime": 1718955547296,
-      "sourceSize": 1227,
-      "exportedPath": "linux和bash脚本/服务器（xshell）中一次性配置环境变量.html",
-      "dependencies": []
-    },
-    "Linux和bash脚本/下载现代DNA数据流程.md": {
-      "modifiedTime": 1718955547296,
-      "sourceSize": 1208,
-      "exportedPath": "linux和bash脚本/下载现代dna数据流程.html",
-      "dependencies": []
-    },
-    "Linux和bash脚本/下载bash.md": {
-      "modifiedTime": 1718955547296,
-      "sourceSize": 1575,
-      "exportedPath": "linux和bash脚本/下载bash.html",
-      "dependencies": []
-    },
-    "Linux和bash脚本/awk介绍.md": {
-      "modifiedTime": 1718955547296,
-      "sourceSize": 2798,
-      "exportedPath": "linux和bash脚本/awk介绍.html",
-      "dependencies": []
-    },
-    "Linux和bash脚本/BAM文件处理.md": {
-      "modifiedTime": 1718955547296,
-      "sourceSize": 4966,
-      "exportedPath": "linux和bash脚本/bam文件处理.html",
-      "dependencies": []
-    },
     "Linux和bash脚本/Linux最最最常用命令.md": {
-      "modifiedTime": 1718955547296,
-      "sourceSize": 3981,
+      "modifiedTime": 1719817645090,
+      "sourceSize": 4000,
       "exportedPath": "linux和bash脚本/linux最最最常用命令.html",
-      "dependencies": []
-    },
-    "Linux和bash脚本/Shell基础知识.md": {
-      "modifiedTime": 1718955547296,
-      "sourceSize": 5648,
-      "exportedPath": "linux和bash脚本/shell基础知识.html",
-      "dependencies": []
-    },
-    "Linux和bash脚本/shell运算.md": {
-      "modifiedTime": 1718955547296,
-      "sourceSize": 720,
-      "exportedPath": "linux和bash脚本/shell运算.html",
-      "dependencies": []
-    },
-    "Linux和bash脚本/VCF文件初识.md": {
-      "modifiedTime": 1718955547296,
-      "sourceSize": 17542,
-      "exportedPath": "linux和bash脚本/vcf文件初识.html",
       "dependencies": []
     },
     "软件/如何利用Obsidian构建自己的网址？.md": {
@@ -4075,7 +4013,7 @@
       "dependencies": []
     },
     "lib/styles/other-plugins.css": {
-      "modifiedTime": 1719647198632,
+      "modifiedTime": 1719817645090,
       "sourceSize": 428708,
       "exportedPath": "lib/styles/other-plugins.css",
       "dependencies": []
@@ -4087,8 +4025,8 @@
       "dependencies": []
     },
     "软件/BEAST/BEAST：在服务器内运行.md": {
-      "modifiedTime": 1719413192930,
-      "sourceSize": 4360,
+      "modifiedTime": 1719817645090,
+      "sourceSize": 5956,
       "exportedPath": "软件/beast/beast：在服务器内运行.html",
       "dependencies": []
     },
@@ -4969,7 +4907,7 @@
       "dependencies": []
     },
     "人文与科学术语/数据科学家 95 时间都在使用的 10 大基本分布.md": {
-      "modifiedTime": 1719647198632,
+      "modifiedTime": 1719817645090,
       "sourceSize": 10258,
       "exportedPath": "人文与科学术语/数据科学家-95-时间都在使用的-10-大基本分布.html",
       "dependencies": []
@@ -5596,6 +5534,12 @@
       "modifiedTime": 1719647198632,
       "sourceSize": 12397,
       "exportedPath": "文献及报道/文献/2024-jgg-自然选择塑造了线粒体dna支系在汉族人群中对抵御肥胖的保护作用.html",
+      "dependencies": []
+    },
+    "Linux和bash脚本/awk从放弃到入门.md": {
+      "modifiedTime": 1719817645090,
+      "sourceSize": 10281,
+      "exportedPath": "linux和bash脚本/awk从放弃到入门.html",
       "dependencies": []
     }
   }

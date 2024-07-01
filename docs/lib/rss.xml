@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[科研思路]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>科研思路</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Sat, 29 Jun 2024 07:46:41 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Sat, 29 Jun 2024 07:46:38 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[1 .&nbsp;<a data-href="正态分布 (Normal Distribution)" href="正态分布 (Normal Distribution)" class="internal-link" target="_self" rel="noopener">正态分布 (Normal Distribution)</a>]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[思维领域]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>思维领域</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Mon, 01 Jul 2024 07:07:27 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Mon, 01 Jul 2024 07:07:25 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[1 .&nbsp;<a data-href="正态分布 (Normal Distribution)" href="正态分布 (Normal Distribution)" class="internal-link" target="_self" rel="noopener">正态分布 (Normal Distribution)</a>]]></title><description><![CDATA[ 
  <br><br>正态分布在我们的生活中随处可见，我们身高的分布、体重的分布，甚至是考试成绩的分布都可能符合正态分布。它的形状就像一个钟形曲线，最高点在中间，两边逐渐低下，具有对称性。<br>
 <img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517091725.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br>伯努利分布又名两点分布或者0-1分布，是描述只有两种可能结果的随机试验的概率分布，比如抛硬币或投掷骰子。它将这两种结果分别表示为1和0，通常用 p 来表示事件的成功概率，而1-p 表示事件的失败概率。比如，你在玩一个抛硬币的游戏。硬币只有两面：正面和反面。当你抛硬币时，只有两种可能的结果：硬币出现正面或反面。伯努利分布就像是描述硬币落地后是正面还是反面的概率分布。在伯努利分布中，我们关心的是事件的成功概率，即出现期望结果的概率。比如，在抛硬币时，成功的概率就是硬币出现正面的概率。<br>伯努利分布的变异程度通常由成功和失败的概率决定。如果硬币是公平的，那么成功和失败的概率都是相等的，变异程度就较小。假设你在玩一个猜硬币正反面的游戏，如果你猜对了，你就赢得奖品。这种情况下，游戏的结果可以用伯努利分布来描述。<br>
 <img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517091815.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br>泊松分布常常用于描述单位时间或空间内事件发生的次数，比如在一小时内接到的电话数量、一天内发生的交通事故数量等。<br>它的形状看起来有点像钟形曲线，但是更加扁平。在图的中心，事件发生的次数最多，然后随着次数的增加，概率逐渐减小。<br>平均值告诉我们在单位时间或空间内预期事件的平均发生次数。<br>
@@ -31,7 +31,314 @@
 <br>负二项分布 (Negative Binomial Distribution)：描述在一系列独立的伯努利试验中，达到指定数量的成功之前的失败次数。
 <br>威布尔分布 (Weibull Distribution)：常用于可靠性工程和寿命分析，描述随机事件的生存时间。<br>
 
-<br>这些分布覆盖了数据科学中许多常见的场景，从描述连续变量到描述离散变量，以及描述等待时间和间隔时间等各种情况。]]></description><link>人文与科学术语\数据科学家-95-时间都在使用的-10-大基本分布.html</link><guid isPermaLink="false">人文与科学术语/数据科学家 95% 时间都在使用的 10 大基本分布.md</guid><pubDate>Thu, 20 Jun 2024 12:25:33 GMT</pubDate><enclosure url="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517091725.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517091725.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[摘要]]></title><description><![CDATA[ 
+<br>这些分布覆盖了数据科学中许多常见的场景，从描述连续变量到描述离散变量，以及描述等待时间和间隔时间等各种情况。]]></description><link>人文与科学术语\数据科学家-95-时间都在使用的-10-大基本分布.html</link><guid isPermaLink="false">人文与科学术语/数据科学家 95% 时间都在使用的 10 大基本分布.md</guid><pubDate>Thu, 20 Jun 2024 12:25:33 GMT</pubDate><enclosure url="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517091725.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517091725.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[安装必要的软件 java]]></title><description><![CDATA[ 
+ <br><br>sudo apt-get update
+sudo apt-get install cmake build-essential autoconf automake libtool git pkg-config openjdk-11-jdk
+复制<br><br>git clone --depth=1 https://github.com/beagle-dev/beagle-lib.git
+cd beagle-lib
+mkdir build
+cd build
+复制<br><br><br>cmake -DCMAKE_INSTALL_PREFIX:PATH=$HOME ..
+make install
+复制<br><br>首先需要安装英伟达驱动：<a data-tooltip-position="top" aria-label="https://developer.nvidia.com/cuda-downloads" rel="noopener" class="external-link" href="https://developer.nvidia.com/cuda-downloads" target="_blank">链接</a><br>
+如果安装成功，可以通过 nvidia-smi 和 nvcc --version 命令查看。<br>cmake -DCMAKE_INSTALL_PREFIX:PATH=$HOME -DBUILD_CUDA=ON -DBUILD_OPENCL=OFF ..
+make install
+复制<br><br>export LD_LIBRARY_PATH=$HOME/lib:$LD_LIBRARY_PATH
+export PKG_CONFIG_PATH=$HOME/lib/pkgconfig:$PKG_CONFIG_PATH
+echo 'export LD_LIBRARY_PATH=$HOME/lib:$LD_LIBRARY_PATH' &gt;&gt; ~/.bashrc
+echo 'export PKG_CONFIG_PATH=$HOME/lib/pkgconfig:$PKG_CONFIG_PATH' &gt;&gt; ~/.bashrc
+source ~/.bashrc
+复制<br>如果你使用的是 WSL，那么需要修改一下beagle-lib/CMakeLists.txt：<br>修改前：<br>link_directories(
+    ${PROJECT_SOURCE_DIR}/libhmsbeagle
+    ${PROJECT_SOURCE_DIR}/libhmsbeagle/CPU
+    ${PROJECT_SOURCE_DIR}/libhmsbeagle/GPU
+    ${PROJECT_SOURCE_DIR}/libhmsbeagle/JNI
+)
+复制<br>修改后：<br>link_directories(
+    ${PROJECT_SOURCE_DIR}/libhmsbeagle
+    ${PROJECT_SOURCE_DIR}/libhmsbeagle/CPU
+    ${PROJECT_SOURCE_DIR}/libhmsbeagle/GPU
+    ${PROJECT_SOURCE_DIR}/libhmsbeagle/JNI
+    /usr/lib/wsl/lib
+    /usr/local/cuda/lib64
+)
+复制<br><br>export LD_LIBRARY_PATH=$HOME/lib:$LD_LIBRARY_PATH
+复制<br><br>#!/bin/bash
+export PATH=/home/luolintao/SRA_download/sratoolkit.3.1.0-ubuntu64/bin:/home/zhiyongwang/.aspera/cli/bin:/home/bin:/home/guanglinhe/biosoftware/AdmixTools/bin:/home/anaconda3/include:/usr/include:/usr/share/R/include:/home/biosoftware/OpenBLAS:/home/anaconda3/bin:/home/bin:/root/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+export LD_LIBRARY_PATH=$HOME/lib:$LD_LIBRARY_PATH
+export PERL5LIB="/home/luolintao/perl5/lib/perl5${PERL5LIB:+:${PERL5LIB}}"
+export PERL_LOCAL_LIB_ROOT="/home/luolintao/perl5${PERL_LOCAL_LIB_ROOT:+:${PERL_LOCAL_LIB_ROOT}}"
+export PERL_MB_OPT="--install_base \"/home/luolintao/perl5\""
+export PERL_MM_OPT="INSTALL_BASE=/home/luolintao/perl5"
+
+# 启动 beast
+/home/luolintao/BEASTv1.10.4/BEASTv1.10.4/bin/beast -beagle_cpu -beagle_order 1 /home/luolintao/BEASTv1.10.4/BEASTv1.10.4/INPUT/Han_N.xml
+
+复制<br><br>
+<br>-beagle_off: 不使用BEAGLE库进行计算。
+<br>-beagle: 如果可用，使用BEAGLE库（默认开启）。
+<br>-beagle_info: 显示可用的BEAGLE资源信息。
+<br>-beagle_order: 设置资源使用顺序。例如，-beagle_order 1意味着使用资源1。
+<br>-beagle_instances: 在多个实例之间划分站点模式。
+<br>-beagle_CPU: 使用CPU实例进行计算。
+<br>-beagle_GPU: 如果可用，使用GPU实例进行计算。
+<br>-beagle_SSE: 如果可用，使用SSE扩展进行计算。
+<br>-beagle_SSE_off: 禁用SSE扩展。
+<br>-beagle_cuda: 如果可用，使用CUDA并行化进行计算。
+<br>-beagle_opencl: 如果可用，使用OpenCL并行化进行计算。
+<br>-beagle_single: 如果可用，使用单精度计算。
+<br>-beagle_double: 如果可用，使用双精度计算。
+<br>-beagle_async: 如果可用，使用异步内核。
+<br>-beagle_scaling: 指定使用的缩放方案。
+<br>-beagle_rescale: 动态缩放时指定重新缩放的频率。
+<br><br>beast -beagle_cuda -beagle_order 1 data.xml
+复制<br>/to/your/path/beast/bin/beast -beagle_GPU -beagle_SSE /to/your/path/输入文件.xml
+复制<br><br>输入命令 /to/your/path/beast/bin/beast -h 可以查看完整的命令行参数，需要注意的几点有<a data-footref="1" href="about:blank#fn-1-57273561fce63b50" class="footnote-link" target="_self" rel="noopener">[1]</a>：  <br>
+<br>beast 会根据机器的计算资源，来自动的配置线程数，通常情况下，这个线程数会是你的机器能开启的最大线程，所以，除非你十分了解你的机器或希望约束beast 所调用的资源，那么就你不应该设置一个 --threads 参数来约束 beast 所开启的线程数目。  
+<br>beast_instances 的作用是给输入文件划分子分区，注意，这是子分区而不是分区，分区是输入文件中定义的，beast 计算程序不会给输入文件划分分区，根据，如果划分了子分区，一般都会导致计算性能的下降。  
+<br>beast_order 用来指定各个分区或子分区依次使用哪些计算资源，如果不指定该参数，那么程序将只会调用起一块计算资源。参数就是1,2,3,4这样的自然数，分别对应机器上的第一块CPU（GPU），第二块CPU（GPU）。  
+<br>如果输入文件没有分区，那么即使指定了 beagle_order 选项，也无法调用起多块计算资源，这时可以通过beagle_instances划分子分区来强行调用多块资源来进行计算，但是计算效率未必尽如人意。  
+<br>如果输入文件有 4 个分区，那么只有指定了 beagle_order 选项，才会调用起多块资源来并行计算。  
+线粒体 DNA 分区为2，可使用 beagle_order 2
+
+<br>执行 /to/your/path/beast/bin/beast -beagle_info 可以查看 beast 识别到的机器上的计算资源。  
+<br>每次beast开始计算时，都会在执行命令的目录下产生程序的日志输出文件，如果不删除该日志文件来重新计算同一个输入文件，那么会报错说日志文件已存在，这时可以手动删除该文件或添加 -overwrite 参数来强行覆盖原来的日志输出文件。  
+<br>查看英伟达显卡显存和利用效率的命令为：nvidia-smi
+<br><br><br>
+<br>
+<br><a data-tooltip-position="top" aria-label="https://blog.qiql.net/archives/beast" rel="noopener" class="external-link" href="https://blog.qiql.net/archives/beast" target="_blank"><span></span>Linux 平台 BEAST 安装及调试指南【附安装脚本】 (qiql.net)</a><img class="emoji" draggable="false" alt="🔥" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f525.svg" height="16px" style="max-width: 100%;"><a href="about:blank#fnref-1-57273561fce63b50" class="footnote-backref footnote-link" target="_self" rel="noopener"><span></span>︎</a><img class="emoji" draggable="false" alt="↩" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/21a9.svg" height="16px" style="max-width: 100%;">
+]]></description><link>软件\beast\beast：在服务器内运行.html</link><guid isPermaLink="false">软件/BEAST/BEAST：在服务器内运行.md</guid><pubDate>Sat, 29 Jun 2024 11:50:01 GMT</pubDate><enclosure url="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f525.svg" length="0" type="image/svg+xml"/><content:encoded>&lt;figure&gt;&lt;img src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f525.svg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[安装 VSC]]></title><description><![CDATA[ 
+ <br>教程来源：<a data-tooltip-position="top" aria-label="https://mdnice.com/writing/7c6fe4c344b645f7867d29580d7616c4" rel="noopener" class="external-link" href="https://mdnice.com/writing/7c6fe4c344b645f7867d29580d7616c4" target="_blank"><span></span> VS Code | 在VS Code中搭建你的R语言运行环境吧！~（图文介绍超详细） - mdnice 墨滴</a><img class="emoji" draggable="false" alt="🤯" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f92f.svg" height="16px" style="max-width: 100%;"><br><br>官网： <a rel="noopener" class="external-link" href="https://code.visualstudio.com/" target="_blank">https://code.visualstudio.com/</a><br><br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240520112315.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
+我只建议安装这一个插件。因为这个插件已经整合了 R LSP Client 的插件，现在已经整合到这个里面了，无需单独安装。<br><br>接着我们再 R 中输入下面这段代码，选择好离你比较近的镜像后，安装 languageserver。<br>install.packages("languageserver")
+复制<br><br>自从 R 语言的版本升级之后，radian 就会出现一些莫名其妙的报错，作者也无法解决。因此我们不建议安装 radian。<br><br>找到你安装 R 的路径，在这里我是如下：<br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240520112630.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br>接着我们装一下图形输出包，httpgd，在R中运行下面这段代码吧。<br>
+install.packages("httpgd") <br><br>接着我们在VS Code的设置中输入 r.plot.useHttpgd，启用 httpgd。<br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240520112752.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br>由于VS Code和我们在R studio中用的快捷键会不同，所以我们需要做一些修改，打开快捷键设置我们会进入下面这个界面，点击这个<img class="emoji" draggable="false" alt="👇" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f447.svg" height="16px" style="max-width: 100%;">。<br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240520112822.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240520112850.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
+使用Windows的小伙伴可以复制下面这段代码，粘贴即可。<img class="emoji" draggable="false" alt="😘" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f618.svg" height="16px" style="max-width: 100%;"><br>[  
+{  
+"key": "alt+-",  
+"command": "type",  
+"when": "editorLangId == r &amp;&amp; editorTextFocus || editorLangId == rmd &amp;&amp; editorTextFocus",  
+// if you want using quarto, try this  
+// "when": "editorLangId =~ /r|rmd|qmd/ &amp;&amp; editorTextFocus",  
+"args": {"text": " &lt;- "}  
+},  
+{  
+"key": "ctrl+shift+m",  
+"command": "type",  
+"when": "editorLangId == r &amp;&amp; editorTextFocus || editorLangId == rmd &amp;&amp; editorTextFocus",  
+"args": {"text": " %&gt;% "}  
+},  
+{  
+"key": "ctrl+shift+m",  
+"command": "-workbench.actions.view.problems"  
+},  
+  
+// input indicative of r markdown code chunk  
+{  
+"key": "ctrl+shift+i",  
+"command": "editor.action.insertSnippet",  
+"when": "editorTextFocus &amp;&amp; editorLangId == 'rmd'",  
+"args": {  
+"snippet": "```{r}\n${TM_SELECTED_TEXT}$0\n```"  
+},  
+"label": "input indicative of r markdown code chunk"  
+},  
+  
+// you can also input indicative of code chunk in `r` file by inserting "# %% ":  
+// specifics in `https://github.com/REditorSupport/vscode-R/pull/662`  
+{  
+"key": "ctrl+shift+i",  
+"command": "editor.action.insertSnippet",  
+"when": "editorTextFocus &amp;&amp; editorLangId == 'r'",  
+"args": {  
+"snippet": "$LINE_COMMENT %% "  
+},  
+"label": "input indicative of code chunk"  
+},  
+  
+// open help panel for selection  
+{  
+"key": "f1",  
+"command": "r.helpPanel.openForSelection",  
+"when": "editorTextFocus &amp;&amp; editorLangId == 'r' || editorTextFocus &amp;&amp; editorLangId == 'rmd'"  
+},  
+  
+// RStudio keybinding for R Package development  
+{  
+"key": "ctrl+shift+b",  
+"command": "r.install",  
+"when": "resourceLangId == 'r'"  
+},  
+{  
+"key": "ctrl+shift+e",  
+"command": "r.check",  
+"when": "resourceLangId == 'r'"  
+},  
+{  
+"key": "ctrl+shift+t",  
+"command": "r.test",  
+"when": "resourceLangId == 'r'"  
+},  
+{  
+"key": "ctrl+shift+d",  
+"command": "r.document",  
+"when": "resourceLangId == 'r'"  
+},  
+{  
+"key": "ctrl+shift+l",  
+"command": "r.loadAll",  
+"when": "resourceLangId == 'r'"  
+},  
+{  
+"key": "ctrl+alt+p",  
+"command": "r.runCommand",  
+"when": "editorTextFocus &amp;&amp; editorLangId == 'r'",  
+"args": ".vsc.browser(httpgd::hgd_url(), viewer = \"Beside\")"  
+}  
+]
+复制<br>]]></description><link>软件\在vs-code中搭建你的r语言运行环境.html</link><guid isPermaLink="false">软件/在VS Code中搭建你的R语言运行环境.md</guid><pubDate>Sat, 29 Jun 2024 13:34:30 GMT</pubDate><enclosure url="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f92f.svg" length="0" type="image/svg+xml"/><content:encoded>&lt;figure&gt;&lt;img src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f92f.svg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[awk从放弃到入门]]></title><description><![CDATA[ 
+ <br>原文链接：<a data-tooltip-position="top" aria-label="https://www.zsythink.net/page/2?s=awk" rel="noopener" class="external-link" href="https://www.zsythink.net/page/2?s=awk" target="_blank">搜索结果 awk-朱双印博客-第2页 (zsythink.net)</a><br>我们先来用专业的术语描述一下awk是什么，如果你看不懂，没关系，我们会再用”大白话”解释一遍。awk是一个报告生成器，它拥有强大的文本格式化的能力，这就是专业的说法。你可能不理解所谓的报告生成器中的”报告”是什么，你可以把”报告”理解为”报表”或者”表格”,也就是说，我们可以利用awk命令，将一些文本整理成我们想要的样子，比如把一些文本整理成”表”的样子，然后再展示出来，刚才概念中提到的”文本格式化的能力”，也就是这个意思，其实这样说可能还是不太容易理解，不用着急，当你看到后面的”示例”时，自然会明白awk所擅长的”文本格式化”能力是什么。awk是由Alfred Aho 、Peter Weinberger 和 Brian Kernighan这三个人创造的，awk由这个三个人的姓氏的首个字母组成。<br>grep 、sed、awk被称为linux中的”三剑客”。我们总结一下这三个”剑客”的特长。<br>
+<br>grep 更适合单纯的查找或匹配文本
+<br>sed 更适合编辑匹配到的文本
+<br>awk &nbsp;更适合格式化文本，对文本进行较复杂格式处理
+<br><br><br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202407011406077.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>awk是逐行处理的，逐行处理的意思就是说，当awk处理一个文本时，会一行一行进行处理，处理完当前行，再处理下一行，awk默认以”换行符”为标记，识别每一行，也就是说，awk跟我们人类一样，每次遇到”回车换行”，就认为是当前行的结束，新的一行的开始，awk会按照用户指定的分割符去分割当前行，如果没有指定分割符，默认使用空格作为分隔符。<br>
+$0 表示显示整行，$NF表示当前行分割后的最后一列（$0和$NF均为内置变量）<br>
+例如：<br>df|awk '{print $1,$NF,$(NF-1)}'
+复制<br>除了输出文本中的列，我们还能够添加自己的字段，将自己的字段与文件中的列结合起来，如下做法，都是可以的。<br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202407011408796.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>$1这种内置变量的外侧不能加入双引号，否则$1会被当做文本输出<br><br>AWK 包含两种特殊的模式：BEGIN&nbsp;和&nbsp;END。<br>
+BEGIN&nbsp;模式指定了处理文本之前需要执行的操作：<br>
+END&nbsp;模式指定了处理完所有行之后所需要执行的操作：<br>例如：<br>awk 'BEGIN{print "aaa","bbb"}{print $1,$NF}END{print "ccc","ddd"}' test.txt
+复制<br><br>输入分隔符，英文原文为field separator，此处简称为FS<br>
+输入分割符，默认是空白字符(即空格)，awk默认以空白字符为分隔符对每一行进行分割。<br>输出分割符，英文原文为output field separator，此处简称为OFS<br>
+awk将每行分割后，输出在屏幕上的时候，以什么字符作为分隔符，awk默认的输出分割符也是空格。<br>输入分隔符比较容易理解，当awk逐行处理文本的时候，以输入分隔符为准，将文本切成多个片段，默认使用空格，但是，如果一段文字中没有空格，我们可以指定以特定的文字或符号作为输入分割符，比如下图中的例子，我们指定使用”#”作为输入分隔符。<br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202407011411417.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
+输出分割符的意思就是：当我们要对处理完的文本进行输出的时候，以什么文本或符号作为分隔符。<br>
+我们可以使用awk的内置变量OFS来设定awk的输出分隔符，当然，使用变量的时候要配合使用-v选项。<br>-v 是一个变量选项，之后会进一步使用<br>现在可以同时使用输入和输出分隔符了！<br>awwk -v FS="#" -v OFS='----' '{print $1,$2}' test.txt
+复制<br>我们刚才解释了awk的输出分隔符，如果，在输出的时候，我们想要让两列合并在一起显示，不使用输出分隔符分开显示，该怎么做呢？如下图所示，蓝线之上使用默认的输出分隔符进行了分隔，而蓝线之下的两种方法均未使用输出分隔符进行分隔，而是将两列合在一起显示了。<br>awk '{print$1 $2}'
+复制<br><br>awk来说”变量”又分为”内置变量” 和 “自定义变量” , “输入分隔符FS”和”输出分隔符OFS”都属于内置变量。<br>
+awk常用的内置变量以及其作用如下：<br>
+<br>FS：输入字段分隔符，默认为空白字符
+<br>OFS：输出字段分隔符， 默认为空白字符
+<br>RS：输入记录分隔符(输入换行符)， 指定输入时的换行符
+<br>ORS：输出记录分隔符（输出换行符），输出时用指定符号代替换行符
+<br>NF：number of Field，当前行的字段的个数(即当前行被分割成了几列)，字段数量
+<br>NR：行号，当前处理的文本行的行号。
+<br>FNR：各文件分别计数的行号
+<br>FILENAME：当前文件名
+<br>ARGC：命令行参数的个数
+<br>ARGV：数组，保存的是命令行所给定的各参数
+<br><br>abc  123  iuy  ddd
+8ua  456  auv  ppp  7y7
+复制<br>内置变量NR表示每一行的行号，内置变量NF表示每一行中一共有几列，那么，也就是说，我们可以通过下例中的方法，得到test1文本中，每一行的行号以及每一行对应的列的数量。<br>awk '{print NR,NF}' test.txt
+复制<br>或者，利用NR内置变量，先打印出行号，再打印出整行的内容，相当于为test1中的每一行都添加了行号以后再进行输出，示例如下。<br>awk '{print NR,$0}' test.txt
+复制<br><br>当我们使用awk同时处理多个文件，并且使用NR显示行号的时候，效果如下图。<br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202407011440377.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
+可是，如果我们想要分别显示两个文件的行号，该怎么办呢，这个时候就会用到内置变量FNR，效果如下。<br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202407011441980.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>awk '{print FNR,$0}' test test1
+复制<br>它的作用就是当awk处理多个文件时，分别对每个文件的行数进行计数。<br><br>现在，我们来看看RS这个变量，我们说了，RS是输入行分隔符，如果不指定，默认的”行分隔符”就是我们所理解的”回车换行”。<br>假设，我们不想以默认的”回车换行”作为”行分隔符”，而是想使用空格作为所谓的行分隔符，也就是说，我们想让awk认为，每遇到一个空格，就换行，换句话说，我们想让awk以为每次遇到一个空格就是新的一行。那么我们该怎么做呢？示例如下。<br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202407011443423.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
+当我们指定使用空格作为”行分隔符”时，在awk解析文本时，每当遇到空格，awk就认为遇到的空格是换行符，于是awk就将文本换行了，而此时人类理解的”回车换行”，对于awk来说并不是所谓的换行符，所以才会出现上图中第4行的现象，即使从人类的角度去看是两行文本，但是在awk的世界观里，它就是一行。这就是输入行分隔符的使用方法。同理，我们来看看”输出行分隔符”，理解输出行分隔符之前，请做好心理准备，最好不要以正常的思维去理解换行，才能比较容易的学明白输出行分隔符。<br>awk -v RS=" " '{print NR,$0}' test1
+复制<br><br>在理解”输出行分隔符”ORS之前，请先理解刚才描述的”输入行分隔符”RS，否则理解起来可能比较困难。<br>
+默认情况下，awk将人类眼中的”回车换行”，当做”输出行分隔符”，此时，awk的”世界观”与人类的”世界观”是相同的。<br>
+现在，我们改变一下awk的想法，我们让awk认为，”+++”才是真正的输出行分隔符，示例如下图：<br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202407011445490.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>awk -v ORS="+++" '{print NR,$0}' test1
+复制<br>我们把刚才学到的”输入换行符”和”输出换行符”同时使用，看看是什么效果，示例如下。<br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202407011447810.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br>FILENAME这个内置变量，从字面上，就能看出是什么意思，没错，就是显示文件名，演示效果如下。<br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202407011447879.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br>ARGV内置变量表示的是一个数组，这个数组中保存的是命令行所给定的参数。这样解释还是很模糊，不容易理解，我们来看看示例。<br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202407011450922.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202407011450656.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202407011450496.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br>好了，内置变量解释完了，现在我们来看看自定义变量，自定义变量，顾名思义，就是用户定义的变量，有两种方法可以自定义变量。<br>方法一：-v varname=value &nbsp;变量名区分字符大小写。<br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202407011451964.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>awk -v myVar="testVar" 'BEGIN{print myVar}'
+复制<br>方法二：在program中直接定义。使用方法二自定义变量，直接在program中定义即可，但是注意，变量定义与动作之间需要用分号”;”隔开。<br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202407011452254.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
+第一种方法虽然看上去比较麻烦，但是这种方法也有自己的优势<br>
+当我们需要在awk中引用shell中的变量的时候，则可以通过方法一间接的引用。举例如下<br>abc = 66666666
+awk -v myvar = $abc 'BEGIN{print myvar}'
+&gt;66666666
+复制]]></description><link>linux和bash脚本\awk从放弃到入门.html</link><guid isPermaLink="false">Linux和bash脚本/awk从放弃到入门.md</guid><pubDate>Mon, 01 Jul 2024 07:01:13 GMT</pubDate><enclosure url="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f44d.svg" length="0" type="image/svg+xml"/><content:encoded>&lt;figure&gt;&lt;img src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f44d.svg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[基础]]></title><description><![CDATA[ 
+ <br><br>
+<br>与win一样，你首先需要知道你自己正处于哪个文件夹，可以使用ls来查看。<br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401221347362.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;">
+<br>为了进入任何一个文件夹，可以使用cd进入。<br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401221348388.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;">
+<br>想知道现在所处的位置在整个系统中的层级关系，使用pwd。<br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401221350400.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;">
+<br>为了打开一个文件（一般来说都是数据，毕竟应该没有谁想在Linux系统里改word文档），可以使用以下代码：
+
+<br>cat:
+
+
+<br>使用 cat 命令可以显示整个文件的内容。
+<br>示例：cat file.txt
+
+
+<br>less 和 more:
+
+
+<br>这些命令对于查看较大的文件非常有用，因为它们允许您逐页浏览文件内容。
+<br>使用 less（更先进）或 more 可以在需要时查看文件的一部分。
+<br>示例：less file.csv 或 more file.csv
+
+
+<br>head 和 tail:
+
+
+<br>head 默认显示文件的前 10 行，而 tail 显示最后 10 行。
+<br>这对于快速查看文件的开头或结尾部分非常有用。
+<br>示例：head file.vcf 或 tail file.vcf
+<br>您还可以指定要显示的行数，例如：head -n 20 file.vcf 显示前 20 行。
+
+
+<br>grep:
+
+
+<br>当您想要搜索文件中的特定文本时，grep 是一个非常有用的工具。
+<br>示例：grep "search_term" file.txt
+<br>它将显示包含搜索词的所有行。
+
+
+<br>awk 和 sed:
+
+
+<br>这些是更高级的文本处理工具，非常适合处理格式化数据，如 CSV 文件。
+<br>awk 特别适合处理和打印列格式数据。
+<br>示例：awk '{print $1}' file.csv 会打印 CSV 文件的第一列。
+
+
+<br>文本编辑器（nano、vi、emacs）:
+
+
+<br>如果您想要更交互式地查看或编辑文件，可以使用文本编辑器，如 nano、vi（或 vim）和 emacs。
+<br>示例：nano file.txt、vi file.txt
+
+
+<br>这里有一个压缩文件，如何把这个压缩文件进行解压？使用unzip来进行例如 unzip  PhyloSuite_v1.2.3_Win64_with_plugins.rar。
+<br>解压完成之后，你可以选择rm来删除压缩包，例如rm PhyloSuite_v1.2.3_Win64_with_plugins.rar。
+<br><br>
+<br>
+正斜杠 /：
+
+<br>路径分隔符：在 Linux 和类 Unix 系统中，/ 被用作路径分隔符，用于区分文件路径中的不同层级。例如，/home/username/Documents 表示一个从根目录开始的路径，依次通过 home、username 目录，最后到达 Documents 目录。
+<br>根目录：单独一个 / 符号代表系统的根目录，这是文件系统层级结构的最顶层。
+
+
+<br>
+反斜杠 \：
+
+<br>转义字符：在 Linux 中，\ 通常用作转义字符。这意味着它可以用来表示紧随其后的字符具有特殊含义或应被解释为字面值。例如，在命令行中，echo "Line1\nLine2" 不会产生预期的换行效果，但如果使用 echo -e "Line1\nLine2"，则 \n 会被解释为换行符。
+<br>特殊字符的处理：反斜杠用于处理诸如空格、换行符、制表符等特殊字符。例如，如果您有一个名为 File Name（中间有空格）的文件，您可以在命令行中使用 File\ Name 来引用它。
+
+
+<br><br>#把二倍体转换为单倍体
+# 1. `s/0[\/\|]0/0/g`: 这个表达式会替换所有的 `0/0` 或 `0|0` 为 `0`。
+# 2. `s/1[\/\|]1/1/g`: 这个表达式会替换所有的 `1/1` 或 `1|1` 为 `1`。
+# 3. `s/.[\/\|]././g`: 这个表达式会将任意字符（用 `.` 表示）和 `/` 或 `|` 以及其后的任意字符组合替换成 `.`。
+cat Illumina_mtDNA.vcf |sed 's/0[\/\|]0/0/g;s/1[\/\|]1/1/g;s/.[\/\|]././g' &gt; Illumina_mtDNA_haplo.vcf
+
+复制]]></description><link>linux和bash脚本\linux最最最常用命令.html</link><guid isPermaLink="false">Linux和bash脚本/Linux最最最常用命令.md</guid><pubDate>Mon, 01 Jul 2024 07:01:13 GMT</pubDate><enclosure url="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f643.svg" length="0" type="image/svg+xml"/><content:encoded>&lt;figure&gt;&lt;img src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f643.svg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[摘要]]></title><description><![CDATA[ 
  <br><br>
 <br>研究背景和目的：
 
@@ -2205,53 +2512,7 @@ output_file_path = 'terminal_haplogroups.txt'
 # 调用函数处理文件
 find_terminal_haplogroups(input_file_path, output_file_path)
 
-复制<br><br>]]></description><link>软件\其它生信软件\群体遗传\python：查找末端单倍群.html</link><guid isPermaLink="false">软件/其它生信软件/群体遗传/python：查找末端单倍群.md</guid><pubDate>Mon, 24 Jun 2024 11:00:29 GMT</pubDate></item><item><title><![CDATA[傻逼服务器 ：]]></title><description><![CDATA[ 
- <br><br>export LD_LIBRARY_PATH=$HOME/lib:$LD_LIBRARY_PATH
-复制<br><br>#!/bin/bash
-export PATH=/home/luolintao/SRA_download/sratoolkit.3.1.0-ubuntu64/bin:/home/zhiyongwang/.aspera/cli/bin:/home/bin:/home/guanglinhe/biosoftware/AdmixTools/bin:/home/anaconda3/include:/usr/include:/usr/share/R/include:/home/biosoftware/OpenBLAS:/home/anaconda3/bin:/home/bin:/root/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
-export LD_LIBRARY_PATH=$HOME/lib:$LD_LIBRARY_PATH
-export PERL5LIB="/home/luolintao/perl5/lib/perl5${PERL5LIB:+:${PERL5LIB}}"
-export PERL_LOCAL_LIB_ROOT="/home/luolintao/perl5${PERL_LOCAL_LIB_ROOT:+:${PERL_LOCAL_LIB_ROOT}}"
-export PERL_MB_OPT="--install_base \"/home/luolintao/perl5\""
-export PERL_MM_OPT="INSTALL_BASE=/home/luolintao/perl5"
-
-# 启动 beast
-/home/luolintao/BEASTv1.10.4/BEASTv1.10.4/bin/beast -beagle_cpu -beagle_order 1 /home/luolintao/BEASTv1.10.4/BEASTv1.10.4/INPUT/Han_N.xml
-
-复制<br><br>
-<br>-beagle_off: 不使用BEAGLE库进行计算。
-<br>-beagle: 如果可用，使用BEAGLE库（默认开启）。
-<br>-beagle_info: 显示可用的BEAGLE资源信息。
-<br>-beagle_order: 设置资源使用顺序。例如，-beagle_order 1意味着使用资源1。
-<br>-beagle_instances: 在多个实例之间划分站点模式。
-<br>-beagle_CPU: 使用CPU实例进行计算。
-<br>-beagle_GPU: 如果可用，使用GPU实例进行计算。
-<br>-beagle_SSE: 如果可用，使用SSE扩展进行计算。
-<br>-beagle_SSE_off: 禁用SSE扩展。
-<br>-beagle_cuda: 如果可用，使用CUDA并行化进行计算。
-<br>-beagle_opencl: 如果可用，使用OpenCL并行化进行计算。
-<br>-beagle_single: 如果可用，使用单精度计算。
-<br>-beagle_double: 如果可用，使用双精度计算。
-<br>-beagle_async: 如果可用，使用异步内核。
-<br>-beagle_scaling: 指定使用的缩放方案。
-<br>-beagle_rescale: 动态缩放时指定重新缩放的频率。
-<br><br>beast -beagle_cuda -beagle_order 1 data.xml
-复制<br>/to/your/path/beast/bin/beast -beagle_GPU -beagle_SSE /to/your/path/输入文件.xml
-复制<br><br>输入命令 /to/your/path/beast/bin/beast -h 可以查看完整的命令行参数，需要注意的几点有<a data-footref="1" href="about:blank#fn-1-19df11fcbd58dedf" class="footnote-link" target="_self" rel="noopener">[1]</a>：  <br>
-<br>beast 会根据机器的计算资源，来自动的配置线程数，通常情况下，这个线程数会是你的机器能开启的最大线程，所以，除非你十分了解你的机器或希望约束beast 所调用的资源，那么就你不应该设置一个 --threads 参数来约束 beast 所开启的线程数目。  
-<br>beast_instances 的作用是给输入文件划分子分区，注意，这是子分区而不是分区，分区是输入文件中定义的，beast 计算程序不会给输入文件划分分区，根据，如果划分了子分区，一般都会导致计算性能的下降。  
-<br>beast_order 用来指定各个分区或子分区依次使用哪些计算资源，如果不指定该参数，那么程序将只会调用起一块计算资源。参数就是1,2,3,4这样的自然数，分别对应机器上的第一块CPU（GPU），第二块CPU（GPU）。  
-<br>如果输入文件没有分区，那么即使指定了 beagle_order 选项，也无法调用起多块计算资源，这时可以通过beagle_instances划分子分区来强行调用多块资源来进行计算，但是计算效率未必尽如人意。  
-<br>如果输入文件有 4 个分区，那么只有指定了 beagle_order 选项，才会调用起多块资源来并行计算。  
-线粒体 DNA 分区为2，可使用 beagle_order 2
-
-<br>执行 /to/your/path/beast/bin/beast -beagle_info 可以查看 beast 识别到的机器上的计算资源。  
-<br>每次beast开始计算时，都会在执行命令的目录下产生程序的日志输出文件，如果不删除该日志文件来重新计算同一个输入文件，那么会报错说日志文件已存在，这时可以手动删除该文件或添加 -overwrite 参数来强行覆盖原来的日志输出文件。  
-<br>查看英伟达显卡显存和利用效率的命令为：nvidia-smi
-<br><br><br>
-<br>
-<br><a data-tooltip-position="top" aria-label="https://blog.qiql.net/archives/beast" rel="noopener" class="external-link" href="https://blog.qiql.net/archives/beast" target="_blank">🔥Linux 平台 BEAST 安装及调试指南【附安装脚本】 (qiql.net)</a><a href="about:blank#fnref-1-19df11fcbd58dedf" class="footnote-backref footnote-link" target="_self" rel="noopener">↩︎</a>
-]]></description><link>软件\beast\beast：在服务器内运行.html</link><guid isPermaLink="false">软件/BEAST/BEAST：在服务器内运行.md</guid><pubDate>Wed, 26 Jun 2024 06:44:33 GMT</pubDate></item><item><title><![CDATA[中国少数民族的形成]]></title><description><![CDATA[ 
+复制<br><br>]]></description><link>软件\其它生信软件\群体遗传\python：查找末端单倍群.html</link><guid isPermaLink="false">软件/其它生信软件/群体遗传/python：查找末端单倍群.md</guid><pubDate>Mon, 24 Jun 2024 11:00:29 GMT</pubDate></item><item><title><![CDATA[中国少数民族的形成]]></title><description><![CDATA[ 
  <br><br>从中国少数民族形成的起点，即从发生学角度方面考察，中国少数民族的形成大体有两种类型和途径：一种是<a data-href="原生型民族" href="人文术语\原生型民族.html" class="internal-link" target="_self" rel="noopener">原生型民族</a>，一种是<a data-href="融生型民族" href="人文术语\融生型民族.html" class="internal-link" target="_self" rel="noopener">融生型民族</a>。<br>所谓原生型民族，主要是指其民族形成起点是在氏族、部落、部落联盟的基础上，经历了原始社会末期的发展阶段，发展成为民族共同体。这里所说原始社会末期的发展阶段，并不是指整个人类的原始社会发展历程，也不是指作为中国历史上中原地区原始社会末期哪个时代，而是具体指我国某个地区和某个民族自身发展的区域性的原始社会发展末期。譬如11、12世纪，就中国中原和大部分地区来说，已经处于比较发达的封建社会的历史时期，然而蒙古地区的一些地方的人群，却仍然处于原始社会末期。再如我国黑龙江地区和云南某些地区，一直到我国近代，原始社会才出现瓦解的局面。<br>因此，原生型民族并不是指其形成时间的早迟，而是指其形成的起点，是在原始社会发展的末期阶段，是在氏族、部落、部落联盟的基础上形成为民族。这类少数民族在我国民族中是比较多的。例如：苗族、羌族、藏族、维吾尔族、蒙古族以及云南、东北等地的许多民族，都经历了氏族、部落、部落联盟最后进人了民族共同体的阶段。<br>所谓融生型民族，主要是指由已经成为民族的众多民族的成分，由于某种原因发生融合，而形成的民族。其民族形成的起点是比较高的社会发展阶段，其民族共同体的发展并未经历过原始社会的氏族、胞族、部落以及奴隶社会等社会发展阶段。就我国来说，封建社会发展阶段漫长，这类民族共同体基本上都产生于这个历史时期。其中如回族、东乡族、保安族、撒拉族、土族、哈萨克族、乌孜别克族等众多民族。<br>如何确认我国少数民族族源的方法问题，实际上在我国少数民族研究中，已经基本解决。族源的确定要避免主观臆测和想象，要有客观依据。<br>
 <br>首先，由于大多数少数民族与汉族和历代中央王朝有密切关系和交往，而我国历代“正史”和其他文献也都有记述少数民族社会活动的传统，因此在我国典籍中，对少数民族的记载是很多的，其中不乏关于民族族源的历史资料，因此汉文历史典籍，是我国绝大多数少数民族族源的重要根据；
 <br>其次，我国一些少数民族如蒙古族、藏族、壮族以及历史上的突厥、回等都有自己的文字和有关文献，这些也都是确定这些少数民族族源的基本资料，把少数民族的历史文献资料与汉族文献资料进行比较研究，那更是研究其族源的最好根据；
@@ -19438,2363 +19699,7 @@ MitoSeek: extracting mitochondria information and performing high-throughput mit
 <br>体细胞突变
 <br>相对拷贝数变异
 <br>大的结构变化。
-<br>“MitoSeek can extract mitochondrial genome information directly from a BAM file and also perform mitochondrial genome assembly.” (Guo 等, 2013, p. 1) MitoSeek 可以直接从 BAM 文件中提取线粒体基因组信息，并执行线粒体基因组组装。<br>“Before conducting any analysis, MitoSeek will first produce a mitochondrial alignment quality control report, which contains important statistics such as average depth, percent of base pairs covered, base quality distribution, mapping quality distribution and insert size distribution.” (Guo 等, 2013, p. 1) 在进行任何分析之前，MitoSeek 将首先生成一份线粒体比对质量控制报告，其中包含重要的统计数据，例如平均深度、覆盖的碱基对百分比、碱基质量分布、图谱质量分布和插入片段大小分布。<br>“These quality control parameters serve as important confidence indicators for the downstream mitochondrial analysis. MitoSeek filters reads based on mapping quality score (MQ 20Þ and base quality score (BQ 20Þ.The threshold of the filters is adjustable by the user.” (Guo 等, 2013, p. 1) 这些质量控制参数作为下游线粒体分析的重要置信度指标。 MitoSeek 根据作图质量分数 (MQ 20Þ 和碱基质量分数 (BQ 20Þ) 过滤读数。过滤器的阈值可由用户调整。<br>“Based on the alignment quality control report, MitoSeek will automatically adjust the heteroplasmy detection threshold to the most appropriate level.” (Guo 等, 2013, p. 1) 根据比对质量控制报告，MitoSeek会自动将异质性检测阈值调整到最合适的水平。<br>“MitoSeek can interchange genomic positions and reference nucleotides between HG19 and rCRS.” (Guo 等, 2013, p. 2) MitoSeek 可以在 HG19 和 rCRS 之间互换基因组位置和参考核苷酸。<br>“Annotation of amino acid changes and identification of known pathogenic mutations are reported by MitoSeek in both HG19 and rCRS coordinates.” (Guo 等, 2013, p. 2) MitoSeek 在 HG19 和 rCRS 坐标中报告了氨基酸变化的注释和已知致病突变的鉴定。<br>“MitoSeek is written in Perl and Linux Shell Script. The typical run time on exome sequencing data with BAM file size of 11 GB is 50 min on a 2.4 GHz CPU with 1 GB of memory.” (Guo 等, 2013, p. 2) MitoSeek 是用 Perl 和 Linux Shell 脚本编写的。在具有 1 GB 内存的 2.4 GHz CPU 上，BAM 文件大小为 11 GB 的外显子组测序数据的典型运行时间为 50 分钟。<br>“Owing to the limitation of exome sequencing data, MitoSeek is not capable of calculating absolute copy number of mtDNA, only relative mtDNA copy number.” (Guo 等, 2013, p. 2) 由于外显子组测序数据的限制，MitoSeek无法计算mtDNA的绝对拷贝数，只能计算相对mtDNA拷贝数。<br>“Also, owing to noise in the sequencing data, MitoSeek is more suited to detecting large copy number variation rather than small copy number variation.” (Guo 等, 2013, p. 2) 此外，由于测序数据中存在噪声，MitoSeek 更适合检测大拷贝数变异而不是小拷贝数变异。<br>“MitoSeek is designed to work with paired-end sequencing data rather than single-end sequencing data given the large abundance of paired-end sequencing data.” (Guo 等, 2013, p. 2) 鉴于大量的双端测序数据，MitoSeek 旨在处理双端测序数据，而不是单端测序数据。<br>“MitoSeek is designed with accessibility in mind.” (Guo 等, 2013, p. 2) MitoSeek 的设计考虑到了可访问性。<br>“It is the only sequencing analysis tool that reports allele counts separately by forward and reverse strands, critical information for assessing strand bias” (Guo 等, 2013, p. 2) 它是唯一按正向链和反向链分别报告等位基因计数的测序分析工具，这是评估链偏倚的关键信息。]]></description><link>文献及报道\文献\mitoseek：提取线粒体信息并进行高通量线粒体测序分析.html</link><guid isPermaLink="false">文献及报道/文献/MitoSeek：提取线粒体信息并进行高通量线粒体测序分析.md</guid><pubDate>Fri, 21 Jun 2024 07:32:16 GMT</pubDate></item><item><title><![CDATA[常用命令]]></title><description><![CDATA[ 
- <br>##############################################################################
-
-# BASH CHEATSHEET (中文速查表)  -  by skywind (created on 2018/02/14)
-
-# Version: 47, Last Modified: 2019/09/24 17:58
-
-# https://github.com/skywind3000/awesome-cheatsheets
-
-##############################################################################
-
-  
-  
-
-##############################################################################
-
-# 常用快捷键（默认使用 Emacs 键位）
-
-##############################################################################
-
-  
-
-CTRL+A              # 移动到行首，同 &lt;Home&gt;
-
-CTRL+B              # 向后移动，同 &lt;Left&gt;
-
-CTRL+C              # 结束当前命令
-
-CTRL+D              # 删除光标前的字符，同 &lt;Delete&gt; ，或者没有内容时，退出会话
-
-CTRL+E              # 移动到行末，同 &lt;End&gt;
-
-CTRL+F              # 向前移动，同 &lt;Right&gt;
-
-CTRL+G              # 退出当前编辑（比如正在 CTRL+R 搜索历史时）
-
-CTRL+H              # 删除光标左边的字符，同 &lt;Backspace&gt;
-
-CTRL+K              # 删除光标位置到行末的内容
-
-CTRL+L              # 清屏并重新显示
-
-CTRL+N              # 移动到命令历史的下一行，同 &lt;Down&gt;
-
-CTRL+O              # 类似回车，但是会显示下一行历史
-
-CTRL+P              # 移动到命令历史的上一行，同 &lt;Up&gt;
-
-CTRL+R              # 历史命令反向搜索，使用 CTRL+G 退出搜索
-
-CTRL+S              # 历史命令正向搜索，使用 CTRL+G 退出搜索
-
-CTRL+T              # 交换前后两个字符
-
-CTRL+U              # 删除字符到行首
-
-CTRL+V              # 输入字符字面量，先按 CTRL+V 再按任意键
-
-CTRL+W              # 删除光标左边的一个单词
-
-CTRL+X              # 列出可能的补全
-
-CTRL+Y              # 粘贴前面 CTRL+u/k/w 删除过的内容
-
-CTRL+Z              # 暂停前台进程返回 bash，需要时可用 fg 将其切换回前台
-
-CTRL+_              # 撤销（undo），有的终端将 CTRL+_ 映射为 CTRL+/ 或 CTRL+7
-
-  
-
-ALT+b               # 向后（左边）移动一个单词
-
-ALT+d               # 删除光标后（右边）一个单词
-
-ALT+f               # 向前（右边）移动一个单词
-
-ALT+t               # 交换字符
-
-ALT+BACKSPACE       # 删除光标前面一个单词，类似 CTRL+W，但不影响剪贴板
-
-  
-
-CTRL+X CTRL+X       # 连续按两次 CTRL+X，光标在当前位置和行首来回跳转
-
-CTRL+X CTRL+E       # 用你指定的编辑器，编辑当前命令
-
-  
-  
-
-##############################################################################
-
-# BASH 基本操作
-
-##############################################################################
-
-  
-
-exit                # 退出当前登陆
-
-env                 # 显示环境变量
-
-echo $SHELL         # 显示你在使用什么 SHELL
-
-  
-
-bash                # 使用 bash，用 exit 返回
-
-which bash          # 搜索 $PATH，查找哪个程序对应命令 bash
-
-whereis bash        # 搜索可执行，头文件和帮助信息的位置，使用系统内建数据库
-
-whatis bash         # 查看某个命令的解释，一句话告诉你这是干什么的
-
-  
-
-clear               # 清初屏幕内容
-
-reset               # 重置终端（当你不小心 cat 了一个二进制，终端状态乱掉时使用）
-
-  
-  
-
-##############################################################################
-
-# 目录操作
-
-##############################################################################
-
-  
-
-cd                  # 返回自己 $HOME 目录
-
-cd {dirname}        # 进入目录
-
-pwd                 # 显示当前所在目录
-
-mkdir {dirname}     # 创建目录
-
-mkdir -p {dirname}  # 递归创建目录
-
-pushd {dirname}     # 目录压栈并进入新目录
-
-popd                # 弹出并进入栈顶的目录
-
-dirs -v             # 列出当前目录栈
-
-cd -                # 回到之前的目录
-
-cd -{N}             # 切换到目录栈中的第 N个目录，比如 cd -2 将切换到第二个
-
-  
-  
-
-##############################################################################
-
-# 文件操作
-
-##############################################################################
-
-  
-
-ls                  # 显示当前目录内容，后面可接目录名：ls {dir} 显示指定目录
-
-ls -l               # 列表方式显示目录内容，包括文件日期，大小，权限等信息
-
-ls -1               # 列表方式显示目录内容，只显示文件名称，减号后面是数字 1
-
-ls -a               # 显示所有文件和目录，包括隐藏文件（.开头的文件/目录名）
-
-ln -s {fn} {link}   # 给指定文件创建一个软链接
-
-cp {src} {dest}     # 拷贝文件，cp -r dir1 dir2 可以递归拷贝（目录）
-
-rm {fn}             # 删除文件，rm -r 递归删除目录，rm -f 强制删除
-
-mv {src} {dest}     # 移动文件，如果 dest 是目录，则移动，是文件名则覆盖
-
-touch {fn}          # 创建或者更新一下制定文件
-
-cat {fn}            # 输出文件原始内容
-
-any_cmd &gt; {fn}      # 执行任意命令并将标准输出重定向到指定文件
-
-more {fn}           # 逐屏显示某文件内容，空格翻页，q 退出
-
-less {fn}           # 更高级点的 more，更多操作，q 退出
-
-head {fn}           # 显示文件头部数行，可用 head -3 abc.txt 显示头三行
-
-tail {fn}           # 显示文件尾部数行，可用 tail -3 abc.txt 显示尾部三行
-
-tail -f {fn}        # 持续显示文件尾部数据，可用于监控日志
-
-nano {fn}           # 使用 nano 编辑器编辑文件
-
-vim {fn}            # 使用 vim 编辑文件
-
-diff {f1} {f2}      # 比较两个文件的内容
-
-wc {fn}             # 统计文件有多少行，多少个单词
-
-chmod 644 {fn}      # 修改文件权限为 644，可以接 -R 对目录循环改权限
-
-chgrp group {fn}    # 修改文件所属的用户组
-
-chown user1 {fn}    # 修改文件所有人为 user1, chown user1:group1 fn 可以修改组
-
-file {fn}           # 检测文件的类型和编码
-
-basename {fn}       # 查看文件的名字（不包括路径）
-
-dirname {fn}        # 查看文件的路径（不包括名字）
-
-grep {pat} {fn}     # 在文件中查找出现过 pat 的内容
-
-grep -r {pat} .     # 在当前目录下递归查找所有出现过 pat 的文件内容
-
-stat {fn}           # 显示文件的详细信息
-
-  
-  
-
-##############################################################################
-
-# 用户管理
-
-##############################################################################
-
-  
-
-whoami              # 显示我的用户名
-
-who                 # 显示已登陆用户信息，w / who / users 内容略有不同
-
-w                   # 显示已登陆用户信息，w / who / users 内容略有不同
-
-users               # 显示已登陆用户信息，w / who / users 内容略有不同
-
-passwd              # 修改密码，passwd {user} 可以用于 root 修改别人密码
-
-finger {user}       # 显示某用户信息，包括 id, 名字, 登陆状态等
-
-adduser {user}      # 添加用户
-
-deluser {user}      # 删除用户
-
-w                   # 查看谁在线
-
-su                  # 切换到 root 用户
-
-su -                # 切换到 root 用户并登陆（执行登陆脚本）
-
-su {user}           # 切换到某用户
-
-su -{user}          # 切换到某用户并登陆（执行登陆脚本）
-
-id {user}           # 查看用户的 uid，gid 以及所属其他用户组
-
-id -u {user}        # 打印用户 uid
-
-id -g {user}        # 打印用户 gid
-
-write {user}        # 向某用户发送一句消息
-
-last                # 显示最近用户登陆列表
-
-last {user}         # 显示登陆记录
-
-lastb               # 显示失败登陆记录
-
-lastlog             # 显示所有用户的最近登陆记录
-
-sudo {command}      # 以 root 权限执行某命令
-
-  
-  
-
-##############################################################################
-
-# 进程管理
-
-##############################################################################
-
-  
-
-ps                        # 查看当前会话进程
-
-ps ax                     # 查看所有进程，类似 ps -e
-
-ps aux                    # 查看所有进程详细信息，类似 ps -ef
-
-ps auxww                  # 查看所有进程，并且显示进程的完整启动命令
-
-ps -u {user}              # 查看某用户进程
-
-ps axjf                   # 列出进程树
-
-ps xjf -u {user}          # 列出某用户的进程树
-
-ps -eo pid,user,command   # 按用户指定的格式查看进程
-
-ps aux | grep httpd       # 查看名为 httpd 的所有进程
-
-ps --ppid {pid}           # 查看父进程为 pid 的所有进程
-
-pstree                    # 树形列出所有进程，pstree 默认一般不带，需安装
-
-pstree {user}             # 进程树列出某用户的进程
-
-pstree -u                 # 树形列出所有进程以及所属用户
-
-pgrep {procname}          # 搜索名字匹配的进程的 pid，比如 pgrep apache2
-
-  
-
-kill {pid}                # 结束进程
-
-kill -9 {pid}             # 强制结束进程，9/SIGKILL 是强制不可捕获结束信号
-
-kill -KILL {pid}          # 强制执行进程，kill -9 的另外一种写法
-
-kill -l                   # 查看所有信号
-
-kill -l TERM              # 查看 TERM 信号的编号
-
-killall {procname}        # 按名称结束所有进程
-
-pkill {procname}          # 按名称结束进程，除名称外还可以有其他参数
-
-  
-
-top                       # 查看最活跃的进程
-
-top -u {user}             # 查看某用户最活跃的进程
-
-  
-
-any_command &amp;             # 在后台运行某命令，也可用 CTRL+Z 将当前进程挂到后台
-
-jobs                      # 查看所有后台进程（jobs）
-
-bg                        # 查看后台进程，并切换过去
-
-fg                        # 切换后台进程到前台
-
-fg {job}                  # 切换特定后台进程到前台
-
-  
-
-trap cmd sig1 sig2        # 在脚本中设置信号处理命令
-
-trap "" sig1 sig2         # 在脚本中屏蔽某信号
-
-trap - sig1 sig2          # 恢复默认信号处理行为
-
-  
-
-nohup {command}           # 长期运行某程序，在你退出登陆都保持它运行
-
-nohup {command} &amp;         # 在后台长期运行某程序
-
-disown {PID|JID}          # 将进程从后台任务列表（jobs）移除
-
-  
-
-wait                      # 等待所有后台进程任务结束
-
-  
-  
-
-##############################################################################
-
-# 常用命令：SSH / 系统信息 / 网络
-
-##############################################################################
-
-  
-
-ssh user@host             # 以用户 user 登陆到远程主机 host
-
-ssh -p {port} user@host   # 指定端口登陆主机
-
-ssh-copy-id user@host     # 拷贝你的 ssh key 到远程主机，避免重复输入密码
-
-scp {fn} user@host:path   # 拷贝文件到远程主机
-
-scp user@host:path dest   # 从远程主机拷贝文件回来
-
-scp -P {port} ...         # 指定端口远程拷贝文件
-
-  
-
-uname -a                  # 查看内核版本等信息
-
-man {help}                # 查看帮助
-
-man -k {keyword}          # 查看哪些帮助文档里包含了该关键字
-
-info {help}               # 查看 info pages，比 man 更强的帮助系统
-
-uptime                    # 查看系统启动时间
-
-date                      # 显示日期
-
-cal                       # 显示日历
-
-vmstat                    # 显示内存和 CPU 使用情况
-
-vmstat 10                 # 每 10 秒打印一行内存和 CPU情况，CTRL+C 退出
-
-free                      # 显示内存和交换区使用情况
-
-df                        # 显示磁盘使用情况
-
-du                        # 显示当前目录占用，du . --max-depth=2 可以指定深度
-
-du -h                     # 显示当前目录占用，-h 以方便阅读的格式输出 (K/M/G)
-
-uname                     # 显示系统版本号
-
-hostname                  # 显示主机名称
-
-showkey -a                # 查看终端发送的按键编码
-
-  
-
-ping {host}               # ping 远程主机并显示结果，CTRL+C 退出
-
-ping -c N {host}          # ping 远程主机 N 次
-
-traceroute {host}         # 侦测路由连通情况
-
-mtr {host}                # 高级版本 traceroute
-
-host {domain}             # DNS 查询，{domain} 前面可加 -a 查看详细信息
-
-whois {domain}            # 取得域名 whois 信息
-
-dig {domain}              # 取得域名 dns 信息
-
-route -n                  # 查看路由表
-
-netstat -a                # 列出所有端口
-
-netstat -an               # 查看所有连接信息，不解析域名
-
-netstat -anp              # 查看所有连接信息，包含进程信息（需要 sudo）
-
-netstat -l                # 查看所有监听的端口
-
-netstat -t                # 查看所有 TCP 链接
-
-netstat -lntu             # 显示所有正在监听的 TCP 和 UDP 信息
-
-netstat -lntup            # 显示所有正在监听的 socket 及进程信息
-
-netstat -i                # 显示网卡信息
-
-netstat -rn               # 显示当前系统路由表，同 route -n
-
-ss -an                    # 比 netstat -an 更快速更详细
-
-ss -s                     # 统计 TCP 的 established, wait 等
-
-  
-
-wget {url}                # 下载文件，可加 --no-check-certificate 忽略 ssl 验证
-
-wget -qO- {url}           # 下载文件并输出到标准输出（不保存）
-
-curl -sL {url}            # 同 wget -qO- {url} 没有 wget 的时候使用
-
-  
-
-sz {file}                 # 发送文件到终端，zmodem 协议
-
-rz                        # 接收终端发送过来的文件
-
-  
-  
-
-##############################################################################
-
-# 变量操作
-
-##############################################################################
-
-  
-
-varname=value             # 定义变量
-
-varname=value command     # 定义子进程变量并执行子进程
-
-echo $varname             # 查看变量内容
-
-echo $$                   # 查看当前 shell 的进程号
-
-echo $!                   # 查看最近调用的后台任务进程号
-
-echo $?                   # 查看最近一条命令的返回码
-
-export VARNAME=value      # 设置环境变量（将会影响到子进程）
-
-  
-
-array[0]=valA             # 定义数组
-
-array[1]=valB
-
-array[2]=valC
-
-array=([0]=valA [1]=valB [2]=valC)   # 另一种方式
-
-array=(valA valB valC)               # 另一种方式
-
-  
-
-${array[i]}               # 取得数组中的元素
-
-${#array[@]}              # 取得数组的长度
-
-${#array[i]}              # 取得数组中某个变量的长度
-
-  
-
-declare -a                # 查看所有数组
-
-declare -f                # 查看所有函数
-
-declare -F                # 查看所有函数，仅显示函数名
-
-declare -i                # 查看所有整数
-
-declare -r                # 查看所有只读变量
-
-declare -x                # 查看所有被导出成环境变量的东西
-
-declare -p varname        # 输出变量是怎么定义的（类型+值）
-
-  
-
-${varname:-word}          # 如果变量不为空则返回变量，否则返回 word
-
-${varname:=word}          # 如果变量不为空则返回变量，否则赋值成 word 并返回
-
-${varname:?message}       # 如果变量不为空则返回变量，否则打印错误信息并退出
-
-${varname:+word}          # 如果变量不为空则返回 word，否则返回 null
-
-${varname:offset:len}     # 取得字符串的子字符串
-
-  
-
-${variable#pattern}       # 如果变量头部匹配 pattern，则删除最小匹配部分返回剩下的
-
-${variable##pattern}      # 如果变量头部匹配 pattern，则删除最大匹配部分返回剩下的
-
-${variable%pattern}       # 如果变量尾部匹配 pattern，则删除最小匹配部分返回剩下的
-
-${variable%%pattern}      # 如果变量尾部匹配 pattern，则删除最大匹配部分返回剩下的
-
-${variable/pattern/str}   # 将变量中第一个匹配 pattern 的替换成 str，并返回
-
-${variable//pattern/str}  # 将变量中所有匹配 pattern 的地方替换成 str 并返回
-
-  
-
-${#varname}               # 返回字符串长度
-
-  
-
-*(patternlist)            # 零次或者多次匹配
-
-+(patternlist)            # 一次或者多次匹配
-
-?(patternlist)            # 零次或者一次匹配
-
-@(patternlist)            # 单词匹配
-
-!(patternlist)            # 不匹配
-
-  
-
-array=($text)             # 按空格分隔 text 成数组，并赋值给变量
-
-IFS="/" array=($text)     # 按斜杆分隔字符串 text 成数组，并赋值给变量
-
-text="${array[*]}"        # 用空格链接数组并赋值给变量
-
-text=$(IFS=/; echo "${array[*]}")  # 用斜杠链接数组并赋值给变量
-
-  
-
-A=( foo bar "a  b c" 42 ) # 数组定义
-
-B=("${A[@]:1:2}")         # 数组切片：B=( bar "a  b c" )
-
-C=("${A[@]:1}")           # 数组切片：C=( bar "a  b c" 42 )
-
-echo "${B[@]}"            # bar a  b c
-
-echo "${B[1]}"            # a  b c
-
-echo "${C[@]}"            # bar a  b c 42
-
-echo "${C[@]: -2:2}"      # a  b c 42  减号前的空格是必须的
-
-  
-
-$(UNIX command)           # 运行命令，并将标准输出内容捕获并返回
-
-varname=$(id -u user)     # 将用户名为 user 的 uid 赋值给 varname 变量
-
-  
-
-num=$(expr 1 + 2)         # 兼容 posix sh 的计算，使用 expr 命令计算结果
-
-num=$(expr $num + 1)      # 数字自增
-
-expr 2 \* \( 2 + 3 \)     # 兼容 posix sh 的复杂计算，输出 10
-
-  
-
-num=$((1 + 2))            # 计算 1+2 赋值给 num，使用 bash 独有的 $((..)) 计算
-
-num=$(($num + 1))         # 变量递增
-
-num=$((num + 1))          # 变量递增，双括号内的 $ 可以省略
-
-num=$((1 + (2 + 3) * 2))  # 复杂计算
-
-  
-  
-
-##############################################################################
-
-# 事件指示符
-
-##############################################################################
-
-  
-
-!!                  # 上一条命令
-
-!^                  # 上一条命令的第一个单词
-
-!:n                 # 上一条命令的第n个单词
-
-!:n-$               # 上一条命令的第n个单词到最后一个单词
-
-!$                  # 上一条命令的最后一个单词
-
-!-n:$               # 上n条命令的最后一个单词
-
-!string             # 最近一条包含string的命令
-
-!^string1^string2   # 最近一条包含string1的命令, 快速替换string1为string2
-
-!#                  # 本条命令之前所有的输入内容
-
-!#:n                # 本条命令之前的第n个单词, 快速备份cp /etc/passwd !#:1.bak
-
-  
-  
-
-##############################################################################
-
-# 函数
-
-##############################################################################
-
-  
-
-# 定义一个新函数
-
-function myfunc() {
-
-    # $1 代表第一个参数，$N 代表第 N 个参数
-
-    # $# 代表参数个数
-
-    # $0 代表被调用者自身的名字
-
-    # $@ 代表所有参数，类型是个数组，想传递所有参数给其他命令用 cmd "$@"
-
-    # $* 空格链接起来的所有参数，类型是字符串
-
-    {shell commands ...}
-
-}
-
-  
-
-myfunc                    # 调用函数 myfunc
-
-myfunc arg1 arg2 arg3     # 带参数的函数调用
-
-myfunc "$@"               # 将所有参数传递给函数
-
-myfunc "${array[@]}"      # 将一个数组当作多个参数传递给函数
-
-shift                     # 参数左移
-
-  
-
-unset -f myfunc           # 删除函数
-
-declare -f                # 列出函数定义
-
-  
-  
-
-##############################################################################
-
-# 条件判断（兼容 posix sh 的条件判断）：man test
-
-##############################################################################
-
-  
-
-statement1 &amp;&amp; statement2  # and 操作符
-
-statement1 || statement2  # or 操作符
-
-  
-
-exp1 -a exp2              # exp1 和 exp2 同时为真时返回真（POSIX XSI扩展）
-
-exp1 -o exp2              # exp1 和 exp2 有一个为真就返回真（POSIX XSI扩展）
-
-( expression )            # 如果 expression 为真时返回真，输入注意括号前反斜杆
-
-! expression              # 如果 expression 为假那返回真
-
-  
-
-str1 = str2               # 判断字符串相等，如 [ "$x" = "$y" ] &amp;&amp; echo yes
-
-str1 != str2              # 判断字符串不等，如 [ "$x" != "$y" ] &amp;&amp; echo yes
-
-str1 &lt; str2               # 字符串小于，如 [ "$x" \&lt; "$y" ] &amp;&amp; echo yes
-
-str2 &gt; str2               # 字符串大于，注意 &lt; 或 &gt; 是字面量，输入时要加反斜杆
-
--n str1                   # 判断字符串不为空（长度大于零）
-
--z str1                   # 判断字符串为空（长度等于零）
-
-  
-
--a file                   # 判断文件存在，如 [ -a /tmp/abc ] &amp;&amp; echo "exists"
-
--d file                   # 判断文件存在，且该文件是一个目录
-
--e file                   # 判断文件存在，和 -a 等价
-
--f file                   # 判断文件存在，且该文件是一个普通文件（非目录等）
-
--r file                   # 判断文件存在，且可读
-
--s file                   # 判断文件存在，且尺寸大于0
-
--w file                   # 判断文件存在，且可写
-
--x file                   # 判断文件存在，且执行
-
--N file                   # 文件上次修改过后还没有读取过
-
--O file                   # 文件存在且属于当前用户
-
--G file                   # 文件存在且匹配你的用户组
-
-file1 -nt file2           # 文件1 比 文件2 新
-
-file1 -ot file2           # 文件1 比 文件2 旧
-
-  
-
-num1 -eq num2             # 数字判断：num1 == num2
-
-num1 -ne num2             # 数字判断：num1 != num2
-
-num1 -lt num2             # 数字判断：num1 &lt; num2
-
-num1 -le num2             # 数字判断：num1 &lt;= num2
-
-num1 -gt num2             # 数字判断：num1 &gt; num2
-
-num1 -ge num2             # 数字判断：num1 &gt;= num2
-
-  
-  
-
-##############################################################################
-
-# 分支控制：if 和经典 test，兼容 posix sh 的条件判断语句
-
-##############################################################################
-
-  
-
-test {expression}         # 判断条件为真的话 test 程序返回0 否则非零
-
-[ expression ]            # 判断条件为真的话返回0 否则非零
-
-  
-
-test "abc" = "def"        # 查看返回值 echo $? 显示 1，因为条件为假
-
-test "abc" != "def"       # 查看返回值 echo $? 显示 0，因为条件为真
-
-  
-
-test -a /tmp; echo $?     # 调用 test 判断 /tmp 是否存在，并打印 test 的返回值
-
-[ -a /tmp ]; echo $?      # 和上面完全等价，/tmp 肯定是存在的，所以输出是 0
-
-  
-
-test cond &amp;&amp; cmd1         # 判断条件为真时执行 cmd1
-
-[ cond ] &amp;&amp; cmd1          # 和上面完全等价
-
-[ cond ] &amp;&amp; cmd1 || cmd2  # 条件为真执行 cmd1 否则执行 cmd2
-
-  
-
-# 判断 /etc/passwd 文件是否存在
-
-# 经典的 if 语句就是判断后面的命令返回值为0的话，认为条件为真，否则为假
-
-if test -e /etc/passwd; then
-
-    echo "alright it exists ... "
-
-else
-
-    echo "it doesn't exist ... "
-
-fi
-
-  
-
-# 和上面完全等价，[ 是个和 test 一样的可执行程序，但最后一个参数必须为 ]
-
-# 这个名字为 "[" 的可执行程序一般就在 /bin 或 /usr/bin 下面，比 test 优雅些
-
-if [ -e /etc/passwd ]; then  
-
-    echo "alright it exists ... "
-
-else
-
-    echo "it doesn't exist ... "
-
-fi
-
-  
-
-# 和上面两个完全等价，其实到 bash 时代 [ 已经是内部命令了，用 enable 可以看到
-
-[ -e /etc/passwd ] &amp;&amp; echo "alright it exists" || echo "it doesn't exist"
-
-  
-
-# 判断变量的值
-
-if [ "$varname" = "foo" ]; then
-
-    echo "this is foo"
-
-elif [ "$varname" = "bar" ]; then
-
-    echo "this is bar"
-
-else
-
-    echo "neither"
-
-fi
-
-  
-
-# 复杂条件判断，注意 || 和 &amp;&amp; 是完全兼容 POSIX 的推荐写法
-
-if [ $x -gt 10 ] &amp;&amp; [ $x -lt 20 ]; then
-
-    echo "yes, between 10 and 20"
-
-fi
-
-  
-
-# 可以用 &amp;&amp; 命令连接符来做和上面完全等价的事情
-
-[ $x -gt 10 ] &amp;&amp; [ $x -lt 20 ] &amp;&amp; echo "yes, between 10 and 20"
-
-  
-
-# 小括号和 -a -o 是 POSIX XSI 扩展写法，小括号是字面量，输入时前面要加反斜杆
-
-if [ \( $x -gt 10 \) -a \( $x -lt 20 \) ]; then
-
-    echo "yes, between 10 and 20"
-
-fi
-
-  
-
-# 同样可以用 &amp;&amp; 命令连接符来做和上面完全等价的事情
-
-[ \( $x -gt 10 \) -a \( $x -lt 20 \) ] &amp;&amp; echo "yes, between 10 and 20"
-
-  
-  
-
-# 判断程序存在的话就执行
-
-[ -x /bin/ls ] &amp;&amp; /bin/ls -l
-
-  
-
-# 如果不考虑兼容 posix sh 和 dash 这些的话，可用 bash 独有的 ((..)) 和 [[..]]:
-
-https://www.ibm.com/developerworks/library/l-bash-test/index.html
-
-  
-  
-
-##############################################################################
-
-# 流程控制：while / for / case / until
-
-##############################################################################
-
-  
-
-# while 循环
-
-while condition; do
-
-    statements
-
-done
-
-  
-
-i=1
-
-while [ $i -le 10 ]; do
-
-    echo $i;
-
-    i=$(expr $i + 1)
-
-done
-
-  
-
-# for 循环：上面的 while 语句等价
-
-for i in {1..10}; do
-
-    echo $i
-
-done
-
-  
-
-for name [in list]; do
-
-    statements
-
-done
-
-  
-
-# for 列举某目录下面的所有文件
-
-for f in /home/*; do
-
-    echo $f
-
-done
-
-  
-
-# bash 独有的 (( .. )) 语句，更接近 C 语言，但是不兼容 posix sh
-
-for (( initialisation ; ending condition ; update )); do
-
-    statements
-
-done
-
-  
-
-# 和上面的写法等价
-
-for ((i = 0; i &lt; 10; i++)); do echo $i; done
-
-  
-
-# case 判断
-
-case expression in
-
-    pattern1 )
-
-        statements ;;
-
-    pattern2 )
-
-        statements ;;
-
-    * )
-
-        otherwise ;;
-
-esac
-
-  
-
-# until 语句
-
-until condition; do
-
-    statements
-
-done
-
-  
-
-# select 语句
-
-select name [in list]; do
-
-  statements that can use $name
-
-done
-
-  
-  
-
-##############################################################################
-
-# 命令处理
-
-##############################################################################
-
-  
-
-command ls                         # 忽略 alias 直接执行程序或者内建命令 ls
-
-builtin cd                         # 忽略 alias 直接运行内建的 cd 命令
-
-enable                             # 列出所有 bash 内置命令，或禁止某命令
-
-help {builtin_command}             # 查看内置命令的帮助（仅限 bash 内置命令）
-
-  
-
-eval $script                       # 对 script 变量中的字符串求值（执行）
-
-  
-  
-
-##############################################################################
-
-# 输出/输入 重定向
-
-##############################################################################
-
-  
-
-cmd1 | cmd2                        # 管道，cmd1 的标准输出接到 cmd2 的标准输入
-
-&lt; file                             # 将文件内容重定向为命令的标准输入
-
-&gt; file                             # 将命令的标准输出重定向到文件，会覆盖文件
-
-&gt;&gt; file                            # 将命令的标准输出重定向到文件，追加不覆盖
-
-&gt;| file                            # 强制输出到文件，即便设置过：set -o noclobber
-
-n&gt;| file                           # 强制将文件描述符 n的输出重定向到文件
-
-&lt;&gt; file                            # 同时使用该文件作为标准输入和标准输出
-
-n&lt;&gt; file                           # 同时使用文件作为文件描述符 n 的输出和输入
-
-n&gt; file                            # 重定向文件描述符 n 的输出到文件
-
-n&lt; file                            # 重定向文件描述符 n 的输入为文件内容
-
-n&gt;&amp;                                # 将标准输出 dup/合并 到文件描述符 n
-
-n&lt;&amp;                                # 将标准输入 dump/合并 定向为描述符 n
-
-n&gt;&amp;m                               # 文件描述符 n 被作为描述符 m 的副本，输出用
-
-n&lt;&amp;m                               # 文件描述符 n 被作为描述符 m 的副本，输入用
-
-&amp;&gt;file                             # 将标准输出和标准错误重定向到文件
-
-&lt;&amp;-                                # 关闭标准输入
-
-&gt;&amp;-                                # 关闭标准输出
-
-n&gt;&amp;-                               # 关闭作为输出的文件描述符 n
-
-n&lt;&amp;-                               # 关闭作为输入的文件描述符 n
-
-diff &lt;(cmd1) &lt;(cmd2)               # 比较两个命令的输出
-
-  
-  
-
-##############################################################################
-
-# 文本处理 - cut
-
-##############################################################################
-
-  
-
-cut -c 1-16                        # 截取每行头16个字符
-
-cut -c 1-16 file                   # 截取指定文件中每行头 16个字符
-
-cut -c3-                           # 截取每行从第三个字符开始到行末的内容
-
-cut -d':' -f5                      # 截取用冒号分隔的第五列内容
-
-cut -d';' -f2,10                   # 截取用分号分隔的第二和第十列内容
-
-cut -d' ' -f3-7                    # 截取空格分隔的三到七列
-
-echo "hello" | cut -c1-3           # 显示 hel
-
-echo "hello sir" | cut -d' ' -f2   # 显示 sir
-
-ps | tr -s " " | cut -d " " -f 2,3,4  # cut 搭配 tr 压缩字符
-
-  
-  
-
-##############################################################################
-
-# 文本处理 - awk / sed
-
-##############################################################################
-
-  
-
-awk '{print $5}' file              # 打印文件中以空格分隔的第五列
-
-awk -F ',' '{print $5}' file       # 打印文件中以逗号分隔的第五列
-
-awk '/str/ {print $2}' file        # 打印文件中包含 str 的所有行的第二列
-
-awk -F ',' '{print $NF}' file      # 打印逗号分隔的文件中的每行最后一列
-
-awk '{s+=$1} END {print s}' file   # 计算所有第一列的合
-
-awk 'NR%3==1' file                 # 从第一行开始，每隔三行打印一行
-
-  
-
-sed 's/find/replace/' file         # 替换文件中首次出现的字符串并输出结果
-
-sed '10s/find/replace/' file       # 替换文件第 10 行内容
-
-sed '10,20s/find/replace/' file    # 替换文件中 10-20 行内容
-
-sed -r 's/regex/replace/g' file    # 替换文件中所有出现的字符串
-
-sed -i 's/find/replace/g' file     # 替换文件中所有出现的字符并且覆盖文件
-
-sed -i '/find/i\newline' file      # 在文件的匹配文本前插入行
-
-sed -i '/find/a\newline' file      # 在文件的匹配文本后插入行
-
-sed '/line/s/find/replace/' file   # 先搜索行特征再执行替换
-
-sed -e 's/f/r/' -e 's/f/r' file    # 执行多次替换
-
-sed 's#find#replace#' file         # 使用 # 替换 / 来避免 pattern 中有斜杆
-
-sed -i -r 's/^\s+//g' file         # 删除文件每行头部空格
-
-sed '/^$/d' file                   # 删除文件空行并打印
-
-sed -i 's/\s\+$//' file            # 删除文件每行末尾多余空格
-
-sed -n '2p' file                   # 打印文件第二行
-
-sed -n '2,5p' file                 # 打印文件第二到第五行
-
-  
-  
-
-##############################################################################
-
-# 排序 - sort
-
-##############################################################################
-
-  
-
-sort file                          # 排序文件
-
-sort -r file                       # 反向排序（降序）
-
-sort -n file                       # 使用数字而不是字符串进行比较
-
-sort -t: -k 3n /etc/passwd         # 按 passwd 文件的第三列进行排序
-
-sort -u file                       # 去重排序
-
-sort -h file                       # 支持 K/M/G 等量级符号，可与 du 结合使用
-
-  
-  
-
-##############################################################################
-
-# 快速跳转 - https://github.com/rupa/z
-
-##############################################################################
-
-  
-
-source /path/to/z.sh               # .bashrc 中初始化 z.sh
-
-z                                  # 列出所有历史路径以及他们的权重
-
-z foo                              # 跳到历史路径中匹配 foo 的权重最大的目录
-
-z foo bar                          # 跳到历史路径中匹配 foo 和 bar 权重最大的目录
-
-z -l foo                           # 列出所有历史路径中匹配 foo 的目录及权重
-
-z -r foo                           # 按照最高访问次数优先进行匹配跳转
-
-z -t foo                           # 按照最近访问优先进行匹配跳转
-
-  
-  
-
-##############################################################################
-
-# 键盘绑定
-
-##############################################################################
-
-  
-
-bind '"\eh":"\C-b"'                # 绑定 ALT+h 为光标左移，同 CTRL+b / &lt;Left&gt;
-
-bind '"\el":"\C-f"'                # 绑定 ALT+l 为光标右移，同 CTRL+f / &lt;Right&gt;
-
-bind '"\ej":"\C-n"'                # 绑定 ALT+j 为下条历史，同 CTRL+n / &lt;Down&gt;
-
-bind '"\ek":"\C-p"'                # 绑定 ALT+k 为上条历史，同 CTRL+p / &lt;Up&gt;
-
-bind '"\eH":"\eb"'                 # 绑定 ALT+H 为光标左移一个单词，同 ALT-b
-
-bind '"\eL":"\ef"'                 # 绑定 ALT+L 为光标右移一个单词，同 ALT-f
-
-bind '"\eJ":"\C-a"'                # 绑定 ALT+J 为移动到行首，同 CTRL+a / &lt;Home&gt;
-
-bind '"\eK":"\C-e"'                # 绑定 ALT+K 为移动到行末，同 CTRL+e / &lt;End&gt;
-
-bind '"\e;":"ls -l\n"'             # 绑定 ALT+; 为执行 ls -l 命令
-
-  
-  
-
-##############################################################################
-
-# 网络管理：ip / ifconfig / nmap ...
-
-##############################################################################
-
-  
-
-ip a                               # 显示所有网络地址，同 ip address
-
-ip a show eth1                     # 显示网卡 IP 地址
-
-ip a add 172.16.1.23/24 dev eth1   # 添加网卡 IP 地址
-
-ip a del 172.16.1.23/24 dev eth1   # 删除网卡 IP 地址
-
-ip link show dev eth0              # 显示网卡设备属性
-
-ip link set eth1 up                # 激活网卡
-
-ip link set eth1 down              # 关闭网卡
-
-ip link set eth1 address {mac}     # 修改 MAC 地址
-
-ip neighbour                       # 查看 ARP 缓存
-
-ip route                           # 查看路由表
-
-ip route add 10.1.0.0/24 via 10.0.0.253 dev eth0    # 添加静态路由
-
-ip route del 10.1.0.0/24           # 删除静态路由
-
-  
-
-ifconfig                           # 显示所有网卡和接口信息
-
-ifconfig -a                        # 显示所有网卡（包括开机没启动的）信息
-
-ifconfig eth0                      # 指定设备显示信息
-
-ifconfig eth0 up                   # 激活网卡
-
-ifconfig eth0 down                 # 关闭网卡
-
-ifconfig eth0 192.168.120.56       # 给网卡配置 IP 地址
-
-ifconfig eth0 10.0.0.8 netmask 255.255.255.0 up     # 配置 IP 并启动
-
-ifconfig eth0 hw ether 00:aa:bb:cc:dd:ee            # 修改 MAC 地址
-
-  
-
-nmap 10.0.0.12                     # 扫描主机 1-1000 端口
-
-nmap -p 1024-65535 10.0.0.12       # 扫描给定端口
-
-nmap 10.0.0.0/24                   # 给定网段扫描局域网内所有主机
-
-nmap -O -sV 10.0.0.12              # 探测主机服务和操作系统版本
-
-  
-  
-
-##############################################################################
-
-# 有趣的命令
-
-##############################################################################
-
-  
-
-man hier                           # 查看文件系统的结构和含义
-
-man test                           # 查看 posix sh 的条件判断帮助
-
-man ascii                          # 显示 ascii 表
-
-getconf LONG_BIT                   # 查看系统是 32 位还是 64 位
-
-bind -P                            # 列出所有 bash 的快捷键
-
-mount | column -t                  # 漂亮的列出当前加载的文件系统
-
-curl ip.cn                         # 取得外网 ip 地址和服务商信息
-
-disown -a &amp;&amp; exit                  # 关闭所有后台任务并退出
-
-cat /etc/issue                     # 查看 Linux 发行版信息
-
-lsof -i port:80                    # 哪个程序在使用 80 端口？
-
-showkey -a                         # 取得按键的 ASCII 码
-
-svn diff | view -                  # 使用 Vim 来显示带色彩的 diff 输出
-
-mv filename.{old,new}              # 快速文件改名
-
-time read                          # 使用 CTRL-D 停止，最简单的计时功能
-
-cp file.txt{,.bak}                 # 快速备份文件
-
-sudo touch /forcefsck              # 强制在下次重启时扫描磁盘
-
-find ~ -mmin 60 -type f            # 查找 $HOME 目录中，60 分钟内修改过的文件
-
-curl wttr.in/~beijing              # 查看北京的天气预报
-
-echo ${SSH_CLIENT%% *}             # 取得你是从什么 IP 链接到当前主机上的
-
-echo $[RANDOM%X+1]                 # 取得 1 到 X 之间的随机数
-
-bind -x '"\C-l":ls -l'             # 设置 CTRL+l 为执行 ls -l 命令
-
-find / -type f -size +5M           # 查找大于 5M 的文件
-
-chmod --reference f1 f2            # 将 f2 的权限设置成 f1 一模一样的
-
-curl -L cheat.sh                   # 速查表大全
-
-  
-  
-
-##############################################################################
-
-# 常用技巧
-
-##############################################################################
-
-  
-
-# 列出最常使用的命令
-
-history | awk '{a[$2]++}END{for(i in a){print a[i] " " i}}' | sort -rn | head
-
-  
-
-# 列出所有网络状态：ESTABLISHED / TIME_WAIT / FIN_WAIT1 / FIN_WAIT2
-
-netstat -n | awk '/^tcp/ {++tt[$NF]} END {for (a in tt) print a, tt[a]}'
-
-  
-
-# 通过 SSH 来 mount 文件系统
-
-sshfs name@server:/path/to/folder /path/to/mount/point
-
-  
-
-# 显示前十个运行的进程并按内存使用量排序
-
-ps aux | sort -nk +4 | tail
-
-  
-
-# 在右上角显示时钟
-
-while sleep 1;do tput sc;tput cup 0 $(($(tput cols)-29));date;tput rc;done&amp;
-
-  
-
-# 从网络上的压缩文件中解出一个文件来，并避免保存中间文件
-
-wget -qO - "http://www.tarball.com/tarball.gz" | tar zxvf -
-
-  
-
-# 性能测试：测试处理器性能
-
-python -c "import test.pystone;print(test.pystone.pystones())"
-
-  
-
-# 性能测试：测试内存带宽
-
-dd if=/dev/zero of=/dev/null bs=1M count=32768
-
-  
-
-# Linux 下挂载一个 iso 文件
-
-mount /path/to/file.iso /mnt/cdrom -oloop
-
-  
-
-# 通过主机 A 直接 ssh 到主机 B
-
-ssh -t hostA ssh hostB
-
-  
-
-# 下载一个网站的所有图片
-
-wget -r -l1 --no-parent -nH -nd -P/tmp -A".gif,.jpg" http://example.com/images
-
-  
-
-# 快速创建项目目录
-
-mkdir -p work/{project1,project2}/{src,bin,bak}
-
-  
-
-# 按日期范围查找文件
-
-find . -type f -newermt "2010-01-01" ! -newermt "2010-06-01"
-
-  
-
-# 显示当前正在使用网络的进程
-
-lsof -P -i -n | cut -f 1 -d " "| uniq | tail -n +2
-
-  
-
-# Vim 中保存一个没有权限的文件
-
-:w !sudo tee &gt; /dev/null %
-
-  
-
-# 在 .bashrc / .bash_profile 中加载另外一个文件（比如你保存在 github 上的配置）
-
-source ~/github/profiles/my_bash_init.sh
-
-  
-
-# 反向代理：将外网主机（202.115.8.1）端口（8443）转发到内网主机 192.168.1.2:443
-
-ssh -CqTnN -R 0.0.0.0:8443:192.168.1.2:443  user@202.115.8.1
-
-  
-
-# 正向代理：将本地主机的 8443 端口，通过 192.168.1.3 转发到 192.168.1.2:443
-
-ssh -CqTnN -L 0.0.0.0:8443:192.168.1.2:443  user@192.168.1.3
-
-  
-
-# socks5 代理：把本地 1080 端口的 socks5 的代理请求通过远程主机转发出去
-
-ssh -CqTnN -D localhost:1080  user@202.115.8.1
-
-  
-
-# 终端下正确设置 ALT 键和 BackSpace 键
-
-http://www.skywind.me/blog/archives/2021
-
-  
-  
-
-##############################################################################
-
-# 有用的函数
-
-##############################################################################
-
-  
-
-# 自动解压：判断文件后缀名并调用相应解压命令
-
-function q-extract() {
-
-    if [ -f $1 ] ; then
-
-        case $1 in
-
-        *.tar.bz2)   tar -xvjf $1    ;;
-
-        *.tar.gz)    tar -xvzf $1    ;;
-
-        *.tar.xz)    tar -xvJf $1    ;;
-
-        *.bz2)       bunzip2 $1     ;;
-
-        *.rar)       rar x $1       ;;
-
-        *.gz)        gunzip $1      ;;
-
-        *.tar)       tar -xvf $1     ;;
-
-        *.tbz2)      tar -xvjf $1    ;;
-
-        *.tgz)       tar -xvzf $1    ;;
-
-        *.zip)       unzip $1       ;;
-
-        *.Z)         uncompress $1  ;;
-
-        *.7z)        7z x $1        ;;
-
-        *)           echo "don't know how to extract '$1'..." ;;
-
-        esac
-
-    else
-
-        echo "'$1' is not a valid file!"
-
-    fi
-
-}
-
-  
-
-# 自动压缩：判断后缀名并调用相应压缩程序
-
-function q-compress() {
-
-    if [ -n "$1" ] ; then
-
-        FILE=$1
-
-        case $FILE in
-
-        *.tar) shift &amp;&amp; tar -cf $FILE $* ;;
-
-        *.tar.bz2) shift &amp;&amp; tar -cjf $FILE $* ;;
-
-        *.tar.xz) shift &amp;&amp; tar -cJf $FILE $* ;;
-
-        *.tar.gz) shift &amp;&amp; tar -czf $FILE $* ;;
-
-        *.tgz) shift &amp;&amp; tar -czf $FILE $* ;;
-
-        *.zip) shift &amp;&amp; zip $FILE $* ;;
-
-        *.rar) shift &amp;&amp; rar $FILE $* ;;
-
-        esac
-
-    else
-
-        echo "usage: q-compress &lt;foo.tar.gz&gt; ./foo ./bar"
-
-    fi
-
-}
-
-  
-
-# 漂亮的带语法高亮的 color cat ，需要先 pip install pygments
-
-function ccat() {
-
-    local style="monokai"
-
-    if [ $# -eq 0 ]; then
-
-        pygmentize -P style=$style -P tabsize=4 -f terminal256 -g
-
-    else
-
-        for NAME in $@; do
-
-            pygmentize -P style=$style -P tabsize=4 -f terminal256 -g "$NAME"
-
-        done
-
-    fi
-
-}
-
-  
-  
-
-##############################################################################
-
-# 好玩的配置
-
-##############################################################################
-
-  
-
-# 放到你的 ~/.bashrc 配置文件中，给 man 增加漂亮的色彩高亮
-
-export LESS_TERMCAP_mb=$'\E[1m\E[32m'
-
-export LESS_TERMCAP_mh=$'\E[2m'
-
-export LESS_TERMCAP_mr=$'\E[7m'
-
-export LESS_TERMCAP_md=$'\E[1m\E[36m'
-
-export LESS_TERMCAP_ZW=""
-
-export LESS_TERMCAP_us=$'\E[4m\E[1m\E[37m'
-
-export LESS_TERMCAP_me=$'\E(B\E[m'
-
-export LESS_TERMCAP_ue=$'\E[24m\E(B\E[m'
-
-export LESS_TERMCAP_ZO=""
-
-export LESS_TERMCAP_ZN=""
-
-export LESS_TERMCAP_se=$'\E[27m\E(B\E[m'
-
-export LESS_TERMCAP_ZV=""
-
-export LESS_TERMCAP_so=$'\E[1m\E[33m\E[44m'
-
-  
-
-# ALT+hjkl/HJKL 快速移动光标，将下面内容添加到 ~/.inputrc 中可作用所有工具，
-
-# 包括 bash/zsh/python/lua 等使用 readline 的工具，帮助见：info rluserman
-
-"\eh": backward-char
-
-"\el": forward-char
-
-"\ej": next-history
-
-"\ek": previous-history
-
-"\eH": backward-word
-
-"\eL": forward-word
-
-"\eJ": beginning-of-line
-
-"\eK": end-of-line
-
-  
-  
-
-##############################################################################
-
-# References
-
-##############################################################################
-
-  
-
-https://github.com/Idnan/bash-guide
-
-http://www.linuxstall.com/linux-command-line-tips-that-every-linux-user-should-know/
-
-https://ss64.com/bash/syntax-keyboard.html
-
-http://wiki.bash-hackers.org/commands/classictest
-
-https://www.ibm.com/developerworks/library/l-bash-test/index.html
-
-https://www.cyberciti.biz/faq/bash-loop-over-file/
-
-https://linuxconfig.org/bash-scripting-tutorial
-
-https://github.com/LeCoupa/awesome-cheatsheets/blob/master/languages/bash.sh
-
-https://devhints.io/bash
-
-https://github.com/jlevy/the-art-of-command-line
-
-https://yq.aliyun.com/articles/68541
-
-  
-
-# vim: set ts=4 sw=4 tw=0 et :
-复制]]></description><link>linux和bash脚本\常用命令.html</link><guid isPermaLink="false">Linux和bash脚本/常用命令.md</guid><pubDate>Thu, 20 Jun 2024 13:19:51 GMT</pubDate></item><item><title><![CDATA[服务器（Xshell）中一次性配置环境变量]]></title><description><![CDATA[ 
- <br>
-<br>打开Xshell
-<br>进入编辑器
-<br>输入以下代码并回车：
-<br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401230952497.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>vim ~/.bashrc
-复制<br>
-<br>将代码粘贴进去：
-<br>export PATH=/home/zhiyongwang/.aspera/cli/bin:/home/bin/:/home/guanglinhe/biosoftware/AdmixTools/bin/:/home/anaconda3/include/:/usr/include/:/usr/share/R/include/:/home/biosoftware/OpenBLAS/:/home/anaconda3/bin/:/home/bin/:/root/bin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
-复制<br>这段代码的目的是将多个目录路径添加到环境变量 PATH 中，以便在Shell中运行命令时，操作系统可以在这些目录中查找到相应的可执行文件。这对于配置环境以便运行特定的软件或工具非常有用。<br>
-<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401230954096.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
-<br>退出vim：
-
-<br>按下 Esc 键，确保你不处于编辑模式。
-<br>输入 : 进入命令模式。
-<br>输入 wq 并按下 Enter 键，这将强制退出vim编辑器并且保存对文件的修改。
-
-
-<br>回到刚才的编辑器，然后输入以下代码并回车：
-<br>source ~/.bashrc
-复制]]></description><link>linux和bash脚本\服务器（xshell）中一次性配置环境变量.html</link><guid isPermaLink="false">Linux和bash脚本/服务器（Xshell）中一次性配置环境变量.md</guid><pubDate>Thu, 20 Jun 2024 13:19:52 GMT</pubDate><enclosure url="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401230952497.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401230952497.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[下载现代DNA数据流程]]></title><description><![CDATA[ 
- <br>
-<br>
-找文献
-
-<br>
-在文献中寻找测序的DNA序列信息
-
-<br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401221624030.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;">
-
-
-<br>
-首先准备好Accession No，最简单的办法就是使用Excel键入，填充，然后粘贴到一个文本文档里面。
-
-<br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401221627242.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;">
-
-
-<br>
-保存这个文本文档，然后登陆对应数据库的官网，例如上图提到了NCBI数据库，那么就进入NCBI取数据网址：[Batch Entrez (nih.gov)](https://www.ncbi.nlm.nih.gov/sites/batchentrez)
-
-<br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401221628924.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;">
-
-
-<br>
-然后点击取回
-
-<br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401221629829.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;">
-
-
-<br>
-依次点击下列：
-
-<br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401221630824.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;">
-
-
-<br>
-就得到一个包含了刚才所有的序列的fasta文件。将这个文件上传到服务器自己的文件夹内。
-
-<br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401221645000.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;">
-
-
-]]></description><link>linux和bash脚本\下载现代dna数据流程.html</link><guid isPermaLink="false">Linux和bash脚本/下载现代DNA数据流程.md</guid><pubDate>Thu, 20 Jun 2024 13:19:49 GMT</pubDate><enclosure url="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401221624030.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401221624030.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[下载bash]]></title><description><![CDATA[ 
- <br>###欧洲 单独###
-
-/home/guanglinhe/.aspera/connect/bin/ascp -T -i /home/guanglinhe/.aspera/connect/etc/asperaweb_id_dsa.openssh -l 300m --mode=recv --host=fasp.sra.ebi.ac.uk -P 33001 --user=era-fasp aspera01@download.cncb.ac.cn:gsa-human/HRA002671 ./
-复制<br>###中国数据库 单独###
-/home/guanglinhe/.aspera/connect/bin/ascp -P33001 -i /home/biosoftware/aspera01.openssh -QT -l 100m -k 1 -d aspera01@download.cncb.ac.cn:gsa-human/HRA000123 ./
-复制<br>###循环 整体###
-for i in `cat 1`; do /home/guanglinhe/.aspera/connect/bin/ascp -T -i /home/zhiyongwang/.conda/pkgs/aspera-cli-3.9.6-h5e1937b_0/etc/asperaweb_id_dsa.openssh -l 300m --mode=recv --host=fasp.sra.ebi.ac.uk -P 33001 --user=era-fasp ${i} ./ ;done
-
-
-for i in `cat 1`; do
-/home/guanglinhe/.aspera/connect/bin/ascp  -T -l 300m -P 33001 -i /home/zhiyongwang/.aspera/cli/etc/asperaweb_id_dsa.openssh era-fasp@fasp.sra.ebi.ac.uk:${i} ./;done
-复制<br>###密匙
-/home/zhiyongwang/.aspera/cli/etc/asperaweb_id_dsa.openssh
-/home/zhiyongwang/.conda/envs/ascp/etc/asperaweb_id_dsa.openssh
-/home/zhiyongwang/.conda/pkgs/aspera-cli-3.9.6-h5e1937b_0/etc/asperaweb_id_dsa.openssh
-
-
-/home/guanglinhe/.aspera/connect/etc/asperaweb_id_dsa.openssh
-/home/zhiyongwang/.conda/envs/ascp/etc/asperaweb_id_dsa.openssh
-/home/zhiyongwang/.conda/pkgs/aspera-cli-3.9.6-h5e1937b_0/etc/asperaweb_id_dsa.openssh
-/home/zhiyongwang/.aspera/cli/etc/asperaweb_id_dsa.openssh
-/home/zhiyongwang/.conda/envs/ascp/etc/asperaweb_id_dsa.openssh
-/home/zhiyongwang/.conda/pkgs/aspera-cli-3.9.6-h5e1937b_0/etc/asperaweb_id_dsa.openssh
-
-复制]]></description><link>linux和bash脚本\下载bash.html</link><guid isPermaLink="false">Linux和bash脚本/下载bash.md</guid><pubDate>Thu, 20 Jun 2024 13:19:47 GMT</pubDate></item><item><title><![CDATA[cut命令]]></title><description><![CDATA[ 
- <br><br>假如我们有这样一个文件AA.txt<br>name age sex ID 
-张三 25 男 512351189874510014
-李四 23 女 512121149874510014
-复制<br>首先可以查看这个文件，使用命令：<br>cat AA.txt
-复制<br><br>-f 列号： 提取第几列<br>
--d 分隔符： 按照指定分隔符分割列<br>如果我们想要把sex给提取出来，那么我们可以使用<br>cut -f 3 AA.txt
-复制<br>如果我们想把以:分割的第1列和第3列提取出来，那么我们可以使用<br>cut -d ":" -f 1,3 AA.txt
-复制<br>cut命令的局限性：不能分割不定长度的空格。<br><br>把文件逐行的读入，以空格为默认分隔符将每行切片，切开的部分再进行各种分析处理。<br>语法：awk ‘条件1{动作1}条件2{动作2}...’文件名<br>eg:[root@qianfeng01 ~]# df -h | awk '{print $1 "\t" $3}' 显示第一列和第三列
-复制<br>的 | 符号。这个符号在 Unix 和 Linux shell 中称为管道（pipe）。将一个命令的输出传递给另一个命令作为输入。<br><br>这里有一份文件，假如文件名字是information.txt。<br>Name,Gender,Age
-Alice,Female,30
-Bob,Male,25
-Charlie,Male,35
-Diana,Female,28
-复制<br>
-<br>我想把Age提取出来，怎么办？
-<br>awk '{print $3}' information.txt
-复制<br>
-<br>想把Name,Age提取出来，并放到一个名为information2.txt的文件里，怎么办怎么办？
-<br>awk -F',' '{print $1 "," $3}' information.txt &gt; information2.txt
-复制<br>-F, 指定字段分隔符为逗号（,）;如果原文件是以空格或制表符分隔的，需要相应地调整 awk 命令中的字段分隔符设置。<br>
-对于空格分隔的文件：不需要，因为 awk 默认使用空格作为字段分隔符。<br>
-对于制表符分隔的文件：制表符可以用 \t 表示。<br>
-<br>假如我想把Age放在第一列，Name放在第二列，并放到一个名为information2.txt的文件里，怎么办？
-<br>awk -F',' '{print $3 "," $1}' information.txt &gt; information2.txt
-复制<br>
-<br>假如我想把源文件是以制表符分隔的，有些名字比如Alice_Hugo有下划线分割，我只需要Alice，不需要Hugo，那么我应该如何提取它们？
-<br>awk -F'\t' '{split($1, a, "_"); print a[1] "\t" $3}' information.txt &gt; information2.txt
-复制<br>
-<br>-F'\t' 设置字段分隔符为制表符。
-<br>split($1, a, "_") 仍然用于将第一个字段（$1，即 Name 字段）按下划线 (_) 分割，并将结果存储在数组 a 中。
-<br>print a[1] "\t" $3 表示打印出处理过的 Name 字段和原始的 Age 字段，两者之间用制表符分隔。
-<br>information.txt 是您的输入文件。
-<br>&gt; 用于将输出重定向到 information2.txt 文件。
-]]></description><link>linux和bash脚本\awk介绍.html</link><guid isPermaLink="false">Linux和bash脚本/awk介绍.md</guid><pubDate>Thu, 20 Jun 2024 13:19:38 GMT</pubDate></item><item><title><![CDATA[建立索引]]></title><description><![CDATA[ 
- <br><br>samtools index 您的文件.bam
-M15-1.bam
-M819.bam
-
-复制<br><br>samtools idxstats your_file.bam
-# 只查看特定染色体
-samtools idxstats your_file.bam | grep 'MT'
-复制<br><br>#!/bin/bash
-
-# 设置工作目录为含有BAM文件的目录
-WORK_DIR="/mnt/mount_1/ancient_DNA/Asian/China/Tarim_18"
-
-# 进入工作目录
-cd "$WORK_DIR"
-
-# 遍历当前目录下所有的.bam文件
-for bamfile in *.bam; do
-    # 检查文件名是否为空（避免没有.bam文件的情况）
-    if [ ! -z "$bamfile" ]; then
-        # 检查索引文件是否存在
-        index_file="${bamfile}.bai"
-        if [ ! -f "$index_file" ]; then
-            echo "为 $bamfile 创建索引..."
-            samtools index "$bamfile"
-        fi
-        
-        # 提取文件的基本名（不含扩展名）
-        base_name=$(basename "$bamfile" .bam)
-        
-        # 使用samtools提取MT染色体，并保存为新的BAM文件
-        echo "提取 $bamfile 中的MT染色体..."
-        samtools view -b "$bamfile" MT &gt; "${base_name}_MT.bam"
-        
-        
-        # 检查提取的MT BAM文件是否非空，只为非空文件创建索引
-        if [ -s "${base_name}_MT.bam" ]; then
-            samtools index "${base_name}_MT.bam"
-        else
-            echo "${base_name}_MT.bam 是空的，不创建索引。"
-            # 删除空的MT BAM文件，可选操作
-            rm "${base_name}_MT.bam"
-            echo "${base_name}_MT.bam已经移除！"
-        fi
-    fi
-done
-
-echo "所有MT染色体提取和索引创建完成。"
-
-复制<br><br>
-#!/bin/bash
-
-# 定义源路径和目标路径
-SOURCE_DIR="/mnt/mount_1/ancient_DNA/Asian/China/hexi_33/HRA004375"
-TARGET_DIR="/mnt/mount_1/ancient_DNA/Mt_DNA/East_Asian"
-
-# 创建目标目录，如果它还不存在的话
-mkdir -p "$TARGET_DIR"
-
-# 遍历源目录中的所有.bam文件
-find "$SOURCE_DIR" -type f -name "*.bam" | while read bam_file; do
-    # 为.bam文件建立索引
-    samtools index "$bam_file"
-    
-    # 从.bam文件中提取MT染色体，形成新的.bam文件
-    mt_bam_file="${bam_file%.bam}_MT.bam"
-    samtools view -b "$bam_file" MT &gt; "$mt_bam_file"
-    
-    # 检查MT.bam文件是否为空
-    if [ ! -s "$mt_bam_file" ]; then
-        echo "警告！文件为空：$mt_bam_file"
-        exit 1
-    else
-        # 如果文件不为空，将其移动到目标目录
-        mv "$mt_bam_file" "$TARGET_DIR/"
-    fi
-done
-
-echo "所有操作已完成。"
-
-复制<br><br>#!/bin/bash
-
-# 目标目录，包含所有的子文件夹
-TARGET_DIR="/mnt/mount_1/ancient_DNA/Asian/China/Tibetan_97"
-
-# 进入目标目录
-cd $TARGET_DIR
-
-# 遍历目标目录下的所有文件夹
-for dir in HRR*; do
-    if [ -d "$dir" ]; then
-        # 进入子文件夹
-        cd $dir
-        # 检查BAM文件是否存在
-        if [ -f "${dir}.bam" ]; then
-            echo "处理文件: $dir/${dir}.bam"
-            # 使用samtools提取MT染色体，并保存为新的BAM文件
-            samtools view -b ${dir}.bam MT &gt; ${dir}_MT.bam
-            # 为新的BAM文件创建索引
-            samtools index ${dir}_MT.bam
-        else
-            echo "未找到BAM文件: $dir/${dir}.bam"
-        fi
-        # 返回到父目录
-        cd ..
-    fi
-done
-
-echo "所有MT染色体提取完成。"
-
-复制<br><br>#!/bin/bash
-
-# 设置工作目录为含有BAM文件的目录
-WORK_DIR="/mnt/mount_1/ancient_DNA/Asian/China/Tarim_18"
-
-# 进入工作目录
-cd "$WORK_DIR"
-
-# 遍历当前目录下所有的.bam文件
-for bamfile in *.bam; do
-    # 检查文件名是否为空（避免没有.bam文件的情况）
-    if [ ! -z "$bamfile" ]; then
-        # 提取文件的基本名（不含扩展名）
-        base_name=$(basename "$bamfile" .bam)
-        # 使用samtools提取MT染色体，并保存为新的BAM文件
-        echo "提取 $bamfile 中的MT染色体..."
-        samtools view -b "$bamfile" MT &gt; "${base_name}_MT.bam"
-        # 为新的BAM文件创建索引
-        samtools index "${base_name}_MT.bam"
-    fi
-done
-
-echo "所有MT染色体提取完成。"
-
-复制<br><br>#!/bin/bash
-
-# 定义源目录，即包含所有MT BAM文件的父目录
-SOURCE_DIR="/mnt/mount_1/ancient_DNA/Asian/China/Tibetan_97"
-
-# 定义目标目录，即所有MT BAM文件将要被移动到的目录
-TARGET_DIR="/mnt/mount_1/ancient_DNA/Mt_DNA/East_Asian/Human genetic history on the Tibetan Plateau in the past 5100 years"
-
-# 创建目标目录，如果它不存在的话
-mkdir -p "$TARGET_DIR"
-
-# 查找并移动所有以_MT.bam结尾的文件到目标目录
-find "$SOURCE_DIR" -type f -name "*_MT.bam" -exec mv {} "$TARGET_DIR" \;
-
-echo "所有MT BAM文件已移动到$TARGET_DIR。"
-
-复制]]></description><link>linux和bash脚本\bam文件处理.html</link><guid isPermaLink="false">Linux和bash脚本/BAM文件处理.md</guid><pubDate>Thu, 20 Jun 2024 13:19:54 GMT</pubDate></item><item><title><![CDATA[基础]]></title><description><![CDATA[ 
- <br><br>
-<br>与win一样，你首先需要知道你自己正处于哪个文件夹，可以使用ls来查看。<br>
-<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401221347362.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;">
-<br>为了进入任何一个文件夹，可以使用cd进入。<br>
-<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401221348388.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;">
-<br>想知道现在所处的位置在整个系统中的层级关系，使用pwd。<br>
-<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401221350400.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;">
-<br>为了打开一个文件（一般来说都是数据，毕竟应该没有谁想在Linux系统里改word文档），可以使用以下代码：
-
-<br>cat:
-
-
-<br>使用 cat 命令可以显示整个文件的内容。
-<br>示例：cat file.txt
-
-
-<br>less 和 more:
-
-
-<br>这些命令对于查看较大的文件非常有用，因为它们允许您逐页浏览文件内容。
-<br>使用 less（更先进）或 more 可以在需要时查看文件的一部分。
-<br>示例：less file.csv 或 more file.csv
-
-
-<br>head 和 tail:
-
-
-<br>head 默认显示文件的前 10 行，而 tail 显示最后 10 行。
-<br>这对于快速查看文件的开头或结尾部分非常有用。
-<br>示例：head file.vcf 或 tail file.vcf
-<br>您还可以指定要显示的行数，例如：head -n 20 file.vcf 显示前 20 行。
-
-
-<br>grep:
-
-
-<br>当您想要搜索文件中的特定文本时，grep 是一个非常有用的工具。
-<br>示例：grep "search_term" file.txt
-<br>它将显示包含搜索词的所有行。
-
-
-<br>awk 和 sed:
-
-
-<br>这些是更高级的文本处理工具，非常适合处理格式化数据，如 CSV 文件。
-<br>awk 特别适合处理和打印列格式数据。
-<br>示例：awk '{print $1}' file.csv 会打印 CSV 文件的第一列。
-
-
-<br>文本编辑器（nano、vi、emacs）:
-
-
-<br>如果您想要更交互式地查看或编辑文件，可以使用文本编辑器，如 nano、vi（或 vim）和 emacs。
-<br>示例：nano file.txt、vi file.txt
-
-
-<br>这里有一个压缩文件，如何把这个压缩文件进行解压？使用unzip来进行例如 unzip  PhyloSuite_v1.2.3_Win64_with_plugins.rar。
-<br>解压完成之后，你可以选择rm来删除压缩包，例如rm PhyloSuite_v1.2.3_Win64_with_plugins.rar。
-<br><br>
-<br>
-正斜杠 /：
-
-<br>路径分隔符：在 Linux 和类 Unix 系统中，/ 被用作路径分隔符，用于区分文件路径中的不同层级。例如，/home/username/Documents 表示一个从根目录开始的路径，依次通过 home、username 目录，最后到达 Documents 目录。
-<br>根目录：单独一个 / 符号代表系统的根目录，这是文件系统层级结构的最顶层。
-
-
-<br>
-反斜杠 \：
-
-<br>转义字符：在 Linux 中，\ 通常用作转义字符。这意味着它可以用来表示紧随其后的字符具有特殊含义或应被解释为字面值。例如，在命令行中，echo "Line1\nLine2" 不会产生预期的换行效果，但如果使用 echo -e "Line1\nLine2"，则 \n 会被解释为换行符。
-<br>特殊字符的处理：反斜杠用于处理诸如空格、换行符、制表符等特殊字符。例如，如果您有一个名为 File Name（中间有空格）的文件，您可以在命令行中使用 File\ Name 来引用它。
-
-
-<br><br>#把二倍体转换为单倍体
-# 1. `s/0[\/\|]0/0/g`: 这个表达式会替换所有的 `0/0` 或 `0|0` 为 `0`。
-# 2. `s/1[\/\|]1/1/g`: 这个表达式会替换所有的 `1/1` 或 `1|1` 为 `1`。
-# 3. `s/.[\/\|]././g`: 这个表达式会将任意字符（用 `.` 表示）和 `/` 或 `|` 以及其后的任意字符组合替换成 `.`。
-cat Illumina_mtDNA.vcf |sed 's/0[\/\|]0/0/g;s/1[\/\|]1/1/g;s/.[\/\|]././g' &gt; Illumina_mtDNA_haplo.vcf
-
-复制]]></description><link>linux和bash脚本\linux最最最常用命令.html</link><guid isPermaLink="false">Linux和bash脚本/Linux最最最常用命令.md</guid><pubDate>Thu, 20 Jun 2024 13:19:40 GMT</pubDate><enclosure url="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401221347362.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401221347362.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[什么是shell？]]></title><description><![CDATA[ 
- <br><br>shell是一个编辑器。<br>
-Shell是命令解释器(command interpreter)，是Unix操作系统的用户接口，程序从用户接口得到输入信息，shell将用户程序及其输入翻译成操作系统内核（kernel）能够识别的指令，并且操作系统内核执行完将返回的输出通过shell再呈现给用户。<br><br><br>
-<br>文件的扩展名必须是.sh
-<br>文件的首行必须使用#! 如：#!/bin/bash指定script的运行shell环境(即脚本解释器)
-<br>脚本里的行注释符号为#
-<br>指令、选项、参数之间即使有多个空格仍会被视为一个空格。
-<br>tab键形成的空白也被视为一个空格键
-<br><br>vi helloworld.sh
-# 进入编辑器
-
-# ！/bin/bash 
-# 打印hello world
-echo "hello world"
-复制<br>返回命令行，然后输入sh helloworld.sh或者bash helloworld.sh就可以打印出hello world。<br>如果我们在使用的时候提示command not found，可能是权限不够，对于权限可以从ll命令中查看-r是读，-w是写。<br><br>将*.sh放入~/bin目录下，因为PATH里拼接了~/bin目录。<br>
-注意：~/bin目录必须自行创建<br>当前可以使用的环境变量可以有如下指令查看：<br>echo $PATH
-复制<br>例如：<br>[root@qianfengOl shellTest]# echo $PATH
-/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/root/bin
-复制<br><br><br>
-<br>命名只能使用英文字母，数字和下划线。首个字符不能以数字开头。
-<br>字母习惯使用大写。
-<br>中间不能有空格。
-<br>不能使用标点符号。
-<br>不能使用bash里的关键字（可用help命令查看保留关键字）
-<br><br>
-<br>直接定义变量名称，没有类型需要强调（类似于数学中:x=1,y=2,z=x+y）<br>
-举例：
-<br>a=5
-复制<br>
-<br>赋值时，"="前后不能有空格
-<br>命令的执行结果赋值给变量时，使用反单引号 如：TIME=date
-<br>调用变量时，必须使用$ 格式： $变量名 或 ${变量名}
-<br><br>
-<br>局部变量：也就是用户自定义的变量，在脚本中或命令中定义
-<br>环境变量：保存和系统操作环境相关的数据。$HOME、$PWD、$SHELL、$USER等等
-<br>特殊变量：
-
-<br>一种是位置参数变量：主要用来向脚本中传递参数或数据，变量名不能自定义，变量作用固定。
-<br>一种是预定义变量：是Bash中已经定义好的变量，变量名不能自定义，变量作用也是固定的。
-
-
-<br><br>用户自定义的变量由字母或下划线开头，由字母，数字或下划线序列组成，并且大小写字母意义不同，变量名长度没有限制。<br><br>习惯上用大写字母来命名变量。变量名以字母表示的字符开头，不能用数字。<br><br>在使用变量时，要在变量名前加上前缀$<br>[root@qianfeng01 ~]# echo $A
-复制<br><br>
-<br>定义时赋值
-<br>[root@qianfeng01 ~]# STR="hello world"
-[root@qianfeng01 ~]# A=9
-复制<br>注意，等号=两侧不能用空格。<br>
-<br>将一个命令的执行结果赋给变量
-<br>eg: [root@qianfeng01 ~]# A=`ls -la` ，运行里面的命令，并把结果返回给变量A
-# 这里的意思是A就是运行ls 再运行la
-eg: [root@qianfeng01 ~]# A=$(ls -la) 等价于反引号
-eg: [root@qianfeng01 ~]# AA=$((4+5))
-# 在使用$符号的时候，里面应该存放命令，由于4+5是运算而非命令，所以用两个小括号括起来。
-eg: [root@qianfeng01 ~]# BB=`expr 4 + 5 `
-复制<br>
-<br>将一个变量赋给另一个变量
-<br>A=$STR
-复制<br><br>重点提醒：这种办法可以将多个文本链接在一起。<br>eg: [root@qianfeng01 ~]# A=123
-eg: [root@qianfeng01 ~]# C="$A"456
-eg: [root@qianfeng01 ~]# D=${A}789
-
-echo $C
-echo $D
-复制<br>单引号和双引号的区别
-现象：单引号里的内容会全部输出，而双引号里的内容会有变化
-原因：单引号会将所有特殊字符脱意
-eg:
-[root@qianfeng01 ~]# NUM=10
-[root@qianfeng01 ~]# SUM="$NUM hehe"
-
-[root@qianfeng01 ~]# echo $SUM     输出10 hehe
-
-[root@qianfeng01 ~]# SUM2='$NUM hehe'
-
-[root@qianfeng01 ~]# echo $SUM2     输出$NUM hehe
-复制<br><br>[root@qianfeng01 ~]# set
-复制<br><br>unset A
-# 撤销变量A
-复制<br>注意：用户自定义的变量，作用域为当前的shell，尽在当前有效。<br><br>用户自定义变量只在当前的shell中生效，而环境变量会在当前shell和其所有子shell中生效。如果把环境变量写入相应的配置文件，那么这个环境变量就会在所有的shell中生效。<br><br><br>$* 和 $@的区别:<br>
-$* 和 $@ 都表示传递给函数或脚本的所有参数，不被双引号" "包含时，都以"$1" "$2" … "$n" 的形式输出所有参数<br>当它们被双引号" "包含时，"$*" 会将所有的参数作为一个整体，以"$1 $2 … $n"的形式输出所有参数；"$@" 会将各个参数分开，以"$1" "$2" … "$n" 的形式输出所有参数。]]></description><link>linux和bash脚本\shell基础知识.html</link><guid isPermaLink="false">Linux和bash脚本/Shell基础知识.md</guid><pubDate>Thu, 20 Jun 2024 13:19:43 GMT</pubDate></item><item><title><![CDATA[expr对整数型进行算术运算]]></title><description><![CDATA[ 
- <br><br># 运算符前后必须有空格
-expr 4 + 5
-expr 5 - 3
-expr $((3+4))
-
-# 乘号*需要注意必须转义
-expr 5 \* 4
-expr 10 / 3 
-复制<br><br>[root@qianfeng01 ~]# S=`expr 2 + 3`
-[root@qianfeng01 ~]# expr $S \* 4
-复制<br>[root@qianfeng01 ~]# expr `expr 2 + 3` \* 4
-[root@qianfeng01 ~]# S=`expr \` expr 2 + 3 \` \* 4`
-[root@qianfeng01 ~]# echo $S
-或
-[root@qianfeng01 ~]# echo $(((2 + 3) * 4))
-复制<br><br>$( )的用途和反引号``一样，用来表示优先执行的命令
-eg: [root@qianfeng01 ~]# echo $(ls /root)
-
-${ } 就是取变量
-eg：[root@qianfeng01 ~]# echo ${PATH}
-
-$((运算内容)) 适用于数值运算
-eg: [root@qianfeng01 ~]# echo $((3+1*4))
-复制]]></description><link>linux和bash脚本\shell运算.html</link><guid isPermaLink="false">Linux和bash脚本/shell运算.md</guid><pubDate>Thu, 20 Jun 2024 13:19:44 GMT</pubDate></item><item><title><![CDATA[背景]]></title><description><![CDATA[ 
- <br><br>VCF 是生物信息分析中非常重要的一种格式。主要用来描述基因组突变的信息，无论是检测出来的 SNP，indel，cnv，还是 SV，都可以存储格式都为 vcf 格式。从比对生成的 bam 文件中，将潜在变异信息筛选出来，就是 vcf 格式。vcf 是一种列表格式，里面包含很多的内容。需要掌握每一列的信息，并能使用相对应的软件对 vcf 进行处理。处理 VCF 格式软件主要包括 bcftools，vcftools，gatk，python pyvcf，plink 等。<br><br><br>VCF 是 Variant Call Format 的简称，是一种定义的专门用于存储基因序列突变信息的文本格式。在生物信息分析中会大量用到 VCF 格式。例如基因组中的单碱基突变,SNP，插入/缺失INDEL, 拷贝数变异 CNV，和结构变异 SV 等，都是利用 VCF 格式来存储的。vcf 是一种文本格式，可以直接查看。将其存储为二进制格式就是 BCF，二进制格式节省更多存储，vcf 与bcf 的关系类似 sam 与 bam 的关系。需要特别之处的是，不同软件产生的 vcf 会有很大的不同，有时候同样的操作命令在不同的 vcf 中会出错。当前 vcf 的版本为 4.3，可以参考下面的帮助文档，格式说明：<br>https://samtools.github.io/hts-specs/
-复制<br><br>vcf 是一种表格格式，主要分为三部分，第一部分为双井号注释的部分，为文件头信息，主要介绍文件内容以及 INFO 部分的详细解释；<br>第二部分单井号注释，为表头信息，基本内容分为 8 列，对于多样品可以继续添加列。前 8列信息分别为：<br>
-1.CHROM [chromosome]：染色体名称，
-2.POS [position]： 参考基因组突变碱基位置，如果是 INDEL，位置是 INDEL 的第一个碱基位置。
-3.ID [identifier]：突变的名称，
-4.REF [reference base(s)]：参考染色体的碱基
-5.ALT [alternate base(s)]：与参考序列比较，发生突变的碱基，
-6.QUAL [quality]：Phred 标准下的质量值
-7.FILTER [filter status]：使用其它的方法进行过滤后得到的过滤结果
-8.INFO
-复制<br>vcf 中可以保存多个样品的信息，当文件中包含多个样品时，就会出现“FORMAT” 一列，用于提示后续不同样品中展示的信息。由于样品多，不同样品不能展示全部 INFO 的信息，通常 FORMAT 只展示少部分信息，例如“Genotype”一个信息。接下来是样品名。每个样品在后面增加一列即可，展示FORMAT 中及介绍的内容，这样就能构成一个很大的矩阵，可以用于统计检验。<br><br>vcf 中的 INFO 关键字非常多，而且每个软件生成的 vcf 文件都可以单独自定义关键字。都是以 “TAG=Value”,并使用”;”分隔的形式。其中很多的 TAG 含义在 VCF 文件的头部注释信息##INFO 中已给出。这些关键字信息包含了非常多的内容，描述了每一个突变详细的信息。例如突变的类型，SNP 还是 SV，如果是 SNP 杂合还是纯合，如果是 SV，具体哪种类型，发生变化的长度是多少，有多少条 reads 支持等信息。这些信息根据不同的需求可以从中提取。在 vcf 文件格式的详细描述中会有介绍，无需掌握全部内容，只需要了解一些常见的关键信息即可。<br>下面介绍一些常见关键字内容，更多内容可以查看表头信息，或者查看 vcf 详细文档。<br>GT：GT 为基因型（genotype）的简写，是 vcf 中非常重要的关键字。在做变异检测之后通常还要做一步 genotype 就是为了得到这个信息。两个数字中间用’/"分开，这两个数字表示双倍体的 sample 的基因型，<br>0 表示样品的基因型与 ref 的 allele 相同；<br>1 表示样品中基因型与 alt variant 的相同；<br>2 表示有第二个 variant 的 allele（和 ALT 的第二种碱基相同）<br>所以，我们就可以根据 GT 关键字判断出样品的基因型。假设这个突变中 REF 为 A 碱基， ALT 为 T 碱基。如果 GT 为：<br>
-0/0 ：表示 sample 中该位点为纯合位点，和 REF 的碱基类型一致，那么就是 AA。
-0/1：表示 sample 中该位点为杂合突变，有 REF 和 ALT 两个基因型，那么就是 AT；如果是 GT 是
-1/0，则表示 TA。
-1/1：表示 sample 中该位点为纯合突变，总体突变类型和 ALT 碱基类型一致，为 TT。
-1/2：表示 sample 中该位点为杂合突变，有 ALT1 和 ALT2 两个基因型，可能是 TC 或者 TG。
-复制<br>AD：Allele Depth：为 sample 中每一种 allele（等位碱基）的 reads 覆盖度，在 diploid（二倍体，或可指代多倍型）中则是用逗号分隔的两个值，前者对应 REF 基因，后者对应 ALT基因型；<br>DP：Depth：为 sample 中该位点的覆盖度，是所支持的两个 AD 值（逗号前和逗号后）的加和，支持数越高，结果越可信，通常可以用于 DP 进行突变结果过滤，例如将小于 5 条 reads支持的过滤掉。<br>GQ：基因型的质量值(Genotype Quality)。Phred 格式(Phred_scaled)的质量值，表示在该位点该基因型存在的可能性；该值越高，则 Genotype 的可能性越 大；计算方法：Phred 值 = -10 * log (1-p) p 为基因型存在的概率。和 DP 类似，也可以用于突变结果过滤。<br>PL：指定的三种基因型的质量值(provieds the likelihoods of the given genotypes)。这三种指定的基因型为(0/0,0/1,1/1)，这三种基因型的概率总和为 1。和之前不一致，该值越大，表明为该种基因型的可能性越小。Phred 值 = -10 * log (p) p 为基因型存在的概率。<br>AC：（Allele Count）：Alt Allele 的数目（即当前位点等位基因数量）。<br>AN：（Allele Number）：表示 alt Allele 的总数目。<br>AF：（Allele Frequency）：表示 alt Allele 的频率，AF 值=AC 值/AN 值。<br>FS：FS 是一个通过 Fisher 检验的 p-value 转换而来的值，它要描述的是测序或者比对时对于只含有变异的 read 以及只含有参考序列碱基的 read 是否存在着明显的正负链特异性（Strand bias，或者说是差异性）。这个差异反映了测序过程不够随机，或者是比对算法在基因组的某些区域存在一定的选择偏向。如果测序过程是随机的，比对是没问题的，那么不管 read 是否含有变异，以及是否来自基因组的正链或者负链，只要是真实的它们就都应该是比较均匀的，也就是说，不会出现链特异的比对结果，FS 应该接近于零。<br>MLEAC：AC（Allele counts）的极大似然期望值。<br>MLEAF：AF（Allele Frequency）的极大似然期望值。<br>MQ：（Mapping quality）：比对质量值。<br><br>在 vcf 文件中，SV 通常可以通过 SVTYPE 关键字进行描述，然后用 SVLEN 关键字描述具体发生 SV 的长度。由于 SV 包含多种类型，SVTYPE 关键字也可以分成以下几种：<br>DEL ：缺失，Deletion relative to the reference
-INS： 插入，Insertion of novel sequence relative to the reference
-DUP ：倍增，Region of elevated copy number relative to the reference
-INV ：翻转，Inversion of reference sequence
-CNV ：拷贝数变异，Copy number variable region (may be both deletion and duplication)
-BND ：断开，Breakend
-复制<br>CNV 拷贝数变化属于插入和缺失范畴，有些软件没有被单独列为一个类目，被包含在倍增DUP，缺失 DEL 以及插入 INS 中。<br><br>
-<br>不同版本的 vcf 格式文件有所差别，在使用过程中需要注意 vcf 的版本；
-<br>不同软件生成的 vcf 有很大的差别，尤其是对于 SV 的描述方法，例如 gatk，freebayes，sniffles 等，有很大的不同。
-<br>不同软件生成的 vcf 文件，INFO 部分会有很大的不同，在使用过程中要根据具体的内容修改代码。
-<br><br><br>处理 VCF 格式软件：bcftools，vcftools，gatk，python pyvcf，plink 等。最常用的为 bcftools。这里我们分别介绍 bcftools 与 vcftools。bcfools 可以直接处理 vcf 文件，也可以处理二进制bcf 文件。<br>
-<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401230846638.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
-<a data-tooltip-position="top" aria-label="http://www.htslib.org/doc/bcftools.html" rel="noopener" class="external-link" href="http://www.htslib.org/doc/bcftools.html" target="_blank">软件说明文档点这里</a><br>
-bcftools 是专门用来处理 vcf 以及 bcf 文件格式的工具，使用起来类似于 samtools。软件的安装和使用非常简单。<br>  # 安装
-  conda install -y bcftools
-复制<br><br>主要分为三大功能类。<br>
-<br>Indexing 建立索引；
-<br>VCF/BCF manipulation ：vcf 和 bcf 文件操作；
-<br>VCF/BCF analysis ：vcf 和 bcf 文件分析；
-<br><br>  index，就是为文件建立索引；
-复制<br><br>annotate 注释，用于增加或者移除注释信息；
-concat 连接同一个样品或者同一个数据集的 vcf 或者 bcf 文件；
-convert 格式转换 VCF 与 BCF 之间转换，或者转换为其他格式；
-isec 取交集，多个 vcf 文件文件可以取共有的突变；
-merge 和 samtools 的 merge 类似，合并文件，
-norm normalize 标准化 indels
-plugin 用户自定义功能
-query 将 vcf 或 bcf 转换为用户自定义格式；
-reheader 修改 header 文件，修改样品名等；
-sort 对文件排序；
-view 查看文件
-复制<br><br>call Call SNP 和 Indel；
-consensus 将所有变异位点合并成一个一致性序列
-cnv Copy Number Variation caller，检测拷贝数变异
-csq 检测变异的一致性序列；
-filter 过滤 vcf
-gtcheck 检查样本一致性，检测样品交换和污染
-mpileup 和 samtools 的 mpileup 类似；
-roh 识别 autozygosity
-stats 进行统计
-复制<br><br>output options:
---no-version 
--o, --output &lt;XXX&gt; ：输出文件名，最好与文件类型保持一致，例如 vcf，vcf.gz，bcf，
-bcf.gz 
--O, --output-type &lt;b|u|z|v&gt;：输出文件类型，b,u,z,v 分别对应 bcf 与 vcf，以及是否压缩
- --threads &lt;int&gt; ：线程数
--e, --exclude &lt;expr&gt; ：排除
--i, --include &lt;expr&gt; ：包括
--r, --regions &lt;region&gt; ：区域，给定表达式，染色体：起始位置-终止位置
--R, --regions-XXX &lt;XXX&gt; ：区域，bed 文件
--s, --samples &lt;list&gt; ：样品名，多个样品之间用逗号分隔
--S, --samples-XXX &lt;XXX&gt; ：样品名文件
--t, --targets &lt;region&gt; ：目标，染色体名字，例如 chr1，多个染色体之间用逗号分隔
--T, --targets-XXX &lt;XXX&gt; ：目标，写到文件中
--l, --compression-level [0-9] ：压缩等级，数字越大，压缩率越高，压缩时间越长
-
-复制<br><br><a data-tooltip-position="top" aria-label="http://www.htslib.org/doc/bcftools.html#expressions" rel="noopener" class="external-link" href="http://www.htslib.org/doc/bcftools.html#expressions" target="_blank">参见这个网址</a><br><br>我将用一个真实的案例进行说明。<br>
-<br>格式转换<br>
-格式转换是将 vcf 与 bcf 之间进行格式转换，并同时进行压缩，bcf 为二进制格式，无法使用 less 等命令直接查看，但更加节约存储。如果是 bcf 格式文件，可以使用 view 功能进行查看。vcf 或者 bcf 必须使用 bgzip 压缩。假如你的vcf文件名称是xxx。
-<br>&nbsp;<br>#格式转换压缩
-bcftools view  XXX.vcf -O b -o XXX.bcf.gz
-
-# 我发现这个命令也挺好用，和上面那个差不多
-bgzip -c XXX.vcf &gt; XXX.vcf.gz
-复制<br>
-<br>建立索引<br>
-对于行数较多的数据，需要建立索引。这样便于快速检索。索引需要基于排序后的结果。后面很多应用都需要使用到索引。排序可以使用 sort 功能，索引使用 index 功能。index 命令用于对 VCF 文件建立索引，要求输入的 VCF 文件必须是使用 bgzip 压缩之后的文件，支持.csi和.tbi 两种索引，默认情况下建立的索引是.csi 格式。
-<br>
-#排序
-bcftools sort XXX.bcf.gz
-# （一般来说应该已经排序好了，如果是这样，就可以跳过这一步）
-# 如何查看有没有排好？使用 less -S命令。
-
-#建立索引
-bcftools index XXX.bcf.gz
-复制<br>容我BB两句，如果我们只想对某条染色体进行分析（例如X、Y或者mtDNA），那么我们需要先把单独的染色体提取出来，不然分析将会很慢。那样的话请先看第下文中如何6.提取某一条染色体。<br>
-3. 统计绘图<br>
-如果想知道 vcf 中包含多少种突变，以及每种突变对应的数据，就需要对文件进行统计，stats选项可以用于 vcf 文件的统计。可以直接统计突变个数、突变类型的个数、转换颠换个数、测序深度、Indel 长度。统计完成之后可以使用 plot-vcfstats 进行可视化绘图。<br># 数据统计与绘图
-bcftools stats XXX.bcf.gz &gt;view.stats
-plot-vcfstats view.stats -p output
-复制<br>
-<br>查看固定区域<br>
-建立索引之后，就可以快速检索目标区域，例如得到结果之后，想快速查看某一区域，或者某个基因的情况，可以直接填写目标区域，格式为“染色体：起始位点-终止位点”。如果一次要查看多个区域，则可以添加一个 bed 文件。
-<br>#查看固定区域
-bcftools view XXX.bcf.gz
-bcftools view all.bcf.gz 12:200000-300000
-#选出位于 bed 文件中的所有区域的突变位点
-bcftools view -R Target.bed XXX.bcf.gz &gt;filt.onTarget.vcf
-复制<br>
-<br>拆分不同类型
-<br>#提取 SNP
-bcftools view -v snps chr22.vcf &gt;chr22.snp.vcf
-#提取 InDel
-bcftools view -v indels chr22.vcf &gt;chr22.indel.vcf
-#提取 SV
-bcftools view -v other chr22.vcf &gt;chr22.sv.vcf
-复制<br>
-<br>提取某一条染色体
-<br>#提取 26号染色体
-bcftools view -r 26 XXX.vcf.gz &gt; Chromosome_26_variants.vcf
-复制<br>
-<br>concat 合并
-<br>#合并 21 和 22 号染色体的结果
-bcftools concat chr21.vcf chr22.vcf -o merge.bcf.gz -O b
-#合并 SNP 与 InDel
-bcftools concat chr22.snp.vcf chr22.indel.vcf -o chr22.merge.vcf
-复制<br>
-<br>提取固定样品
-<br>#筛选样品 HG00100
-bcftools view -s HG00100
-ALL.chr1.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.vcf.gz -O
-b &gt;HG00100.vcf
-#筛选样品 HG00141
-bcftools view -s HG00141
-ALL.chr1.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.vcf.gz -O
-b &gt;HG00141.vcf
-复制<br>
-<br>merge 合并<br>
-vcf 中不仅可以包含单个样品，也可以同时包含多个样品的信息，只需要将多个样品的 vcf合并即可。可以使用 merge 功能进行合并，与 concat“横向合并”不同，merge 合并为“纵向合并”，是合并不同样品到同一个 vcf 文件中。注意合并之前需要对每个样品创建索引。
-<br># 合并样品 HG00100 与 HG00141
-bcftools merge a.vcf.gz b.vcf.gz -o merge.vcf
-复制<br>注意：输入文件必须是经过 bgzip 压缩的文件， 而且还需要有.tbi 的索引。<br>
-<br>集合运算<br>
-isec 用于在多个 VCF 文件之间取交集，差集，并集等操作，经典的应用场景是对多种软件的SNP calling 结果进行 venn 分析。用法如下
-<br>&nbsp;isec 用于在多个 VCF 文件之间取交集，差集，并集等操作，经典的应用场景是对多种软件的SNP calling 结果进行 venn 分析。用法如下
-复制<br>默认参数就是取交集，更多高级用法请参考帮助文档
-
-<br>query 功能<br>
-vcf 里面包含的信息非常多，比较混乱，如果只想从中筛选出需要的内容，例如只需要Genotype 信息，可以使用 bcftools 的 query 功能实现。query 中最重要的就是表达式的写法。
-
-<br>bcftools query -f '%CHROM\t%POS\t%REF\t%ALT[\t%SAMPLE=%GT]\n' A1.bcf.gz
-复制<br>注意格式的熟悉，每个关键字前面使用%，“\t”或者“\n”代表制表符与换行符。<br>
-<br>过滤<br>
-变异检测的策略一般是先找全，然后再找准。也就是软件首先输出尽可能多的结果，保存到vcf 文件中，然后再采取不同的标准对 vcf 进行过滤。过滤可以采取很多的标准，一般包括测序深度，打分制，碱基质量值，先验概率等。可以使用 bcftools 进行过滤。bcftools 的 filter功能其实与 query，view 都类似，可以进行多种模式的过滤，关键是要掌握其表达式EXPRESSIONS 的写法。
-<br>#过滤掉等位频率&gt;0.3 同时覆盖深度小于 10 的突变位点
-bcftools filter -e "INFO/AF[0] &gt; 0.3 &amp; FORMAT/DP &lt; 30" A1.bcf.gz
-bcftools view -i '%TYPE!="snp" &amp; MAF[0]&lt;0.01'
-ALL.chr1.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.vcf.g
-复制<br>
-<br>注释<br>
-vcf 的注释主要是将突变位点定位到基因组上，确定突变发生在哪个基因，因为不同的突变发生位置，会对基因产生不同的影响，例如同义突变，错误突变或者无义突变等。另外一种注释就是与已知突变位点进行比较，定位到已知的 rs number 号上面。
-<br>#注释 VCF 文件，用法如下
-bcftools annotate -a /ifs1/Database/gatk/hg38/dbsnp_146.hg38.vcf.gz -c ID,QUAL
-,+TAG XXX.vcf -o annotate.vcf
-复制<br>-a 参数指定注释用的数据库文件，格式可以是 VCF, BED, 或者是\t 分隔的自定义文件。在\t 分隔的自定义文件中，必须包含 CHROM, POS 字段；<br>
--c 参数指定将数据库的哪些信息添加到输出文件中。<br>#编辑 VCF 文件，比如去除其中的某些注释信息，或者去除某些样本
-bcftools annotate -x ID,INFO/DP,FORMAT/DP view.vcf -o removed.id.vcf
-复制<br>-x 参数表示去除 VCF 文件中的注释信息，可以是其中的某一列，比如 ID, 也可以是某些字段，比如 INFO/DP，多个字段的信息用逗号分隔；去除之后，这些信息所在的列并不会去除，而是用.填充。]]></description><link>linux和bash脚本\vcf文件初识.html</link><guid isPermaLink="false">Linux和bash脚本/VCF文件初识.md</guid><pubDate>Thu, 20 Jun 2024 13:19:46 GMT</pubDate><enclosure url="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401230846638.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202401230846638.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[概念]]></title><description><![CDATA[ 
+<br>“MitoSeek can extract mitochondrial genome information directly from a BAM file and also perform mitochondrial genome assembly.” (Guo 等, 2013, p. 1) MitoSeek 可以直接从 BAM 文件中提取线粒体基因组信息，并执行线粒体基因组组装。<br>“Before conducting any analysis, MitoSeek will first produce a mitochondrial alignment quality control report, which contains important statistics such as average depth, percent of base pairs covered, base quality distribution, mapping quality distribution and insert size distribution.” (Guo 等, 2013, p. 1) 在进行任何分析之前，MitoSeek 将首先生成一份线粒体比对质量控制报告，其中包含重要的统计数据，例如平均深度、覆盖的碱基对百分比、碱基质量分布、图谱质量分布和插入片段大小分布。<br>“These quality control parameters serve as important confidence indicators for the downstream mitochondrial analysis. MitoSeek filters reads based on mapping quality score (MQ 20Þ and base quality score (BQ 20Þ.The threshold of the filters is adjustable by the user.” (Guo 等, 2013, p. 1) 这些质量控制参数作为下游线粒体分析的重要置信度指标。 MitoSeek 根据作图质量分数 (MQ 20Þ 和碱基质量分数 (BQ 20Þ) 过滤读数。过滤器的阈值可由用户调整。<br>“Based on the alignment quality control report, MitoSeek will automatically adjust the heteroplasmy detection threshold to the most appropriate level.” (Guo 等, 2013, p. 1) 根据比对质量控制报告，MitoSeek会自动将异质性检测阈值调整到最合适的水平。<br>“MitoSeek can interchange genomic positions and reference nucleotides between HG19 and rCRS.” (Guo 等, 2013, p. 2) MitoSeek 可以在 HG19 和 rCRS 之间互换基因组位置和参考核苷酸。<br>“Annotation of amino acid changes and identification of known pathogenic mutations are reported by MitoSeek in both HG19 and rCRS coordinates.” (Guo 等, 2013, p. 2) MitoSeek 在 HG19 和 rCRS 坐标中报告了氨基酸变化的注释和已知致病突变的鉴定。<br>“MitoSeek is written in Perl and Linux Shell Script. The typical run time on exome sequencing data with BAM file size of 11 GB is 50 min on a 2.4 GHz CPU with 1 GB of memory.” (Guo 等, 2013, p. 2) MitoSeek 是用 Perl 和 Linux Shell 脚本编写的。在具有 1 GB 内存的 2.4 GHz CPU 上，BAM 文件大小为 11 GB 的外显子组测序数据的典型运行时间为 50 分钟。<br>“Owing to the limitation of exome sequencing data, MitoSeek is not capable of calculating absolute copy number of mtDNA, only relative mtDNA copy number.” (Guo 等, 2013, p. 2) 由于外显子组测序数据的限制，MitoSeek无法计算mtDNA的绝对拷贝数，只能计算相对mtDNA拷贝数。<br>“Also, owing to noise in the sequencing data, MitoSeek is more suited to detecting large copy number variation rather than small copy number variation.” (Guo 等, 2013, p. 2) 此外，由于测序数据中存在噪声，MitoSeek 更适合检测大拷贝数变异而不是小拷贝数变异。<br>“MitoSeek is designed to work with paired-end sequencing data rather than single-end sequencing data given the large abundance of paired-end sequencing data.” (Guo 等, 2013, p. 2) 鉴于大量的双端测序数据，MitoSeek 旨在处理双端测序数据，而不是单端测序数据。<br>“MitoSeek is designed with accessibility in mind.” (Guo 等, 2013, p. 2) MitoSeek 的设计考虑到了可访问性。<br>“It is the only sequencing analysis tool that reports allele counts separately by forward and reverse strands, critical information for assessing strand bias” (Guo 等, 2013, p. 2) 它是唯一按正向链和反向链分别报告等位基因计数的测序分析工具，这是评估链偏倚的关键信息。]]></description><link>文献及报道\文献\mitoseek：提取线粒体信息并进行高通量线粒体测序分析.html</link><guid isPermaLink="false">文献及报道/文献/MitoSeek：提取线粒体信息并进行高通量线粒体测序分析.md</guid><pubDate>Fri, 21 Jun 2024 07:32:16 GMT</pubDate></item><item><title><![CDATA[概念]]></title><description><![CDATA[ 
  <br><br>位点频谱也叫等位基因频谱(allele frequency spectrum)是群体遗传学的术语，用来显示一个种群中特定基因座上各个等位基因所占的频率，或者说是等位基因在基因库中的丰富程度。是一个全基因组数据多样性的有效总结，FST，Tajima’s D，pi等都是在SFS的基础上衍生出来的统计量。<br>目前使用 <a data-href="ANGSD（Analysis of Next Generation Sequencing Data）" href="软件\其它生信软件\群体遗传\angsd（analysis-of-next-generation-sequencing-data）.html" class="internal-link" target="_self" rel="noopener">ANGSD（Analysis of Next Generation Sequencing Data）</a> 、<a data-href="vcftools" href="vcftools" class="internal-link" target="_self" rel="noopener">vcftools</a>、<a data-href="位点频谱SFS (site frequency spectrum)" href="软件\其它生信软件\群体遗传\位点频谱sfs-(site-frequency-spectrum).html" class="internal-link" target="_self" rel="noopener">位点频谱SFS (site frequency spectrum)</a> 来计算 SFS。<br><br><br>进行处理之前，先注意自己的数据是二倍体还是单倍体。对于 mtDNA，如果测序数据以二倍体形式表示，这可能是因为测序平台或数据处理流程默认将所有序列数据视为二倍体，即使它们来自于通常认为是单倍体的 mtDNA。<br>
 <br>数据预处理：在进行 SFS 提取之前，您可能需要预处理 VCF 文件，确保每个个体在每个位点只保留一个等位基因信息。这可能涉及到选择一个等位基因（如果数据中呈现了两个等位基因）或简单地忽略第二个等位基因的信息。
 <br>import sys
@@ -22582,98 +20487,7 @@ end;
 <br>取消连接：2个区域 不用同一套参数。
 <br>所以，我们在这里最好取消连接。得到如下：<br>
 <img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240605204747.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
-当然，这样的分类并不是绝对的，需要根据自己的情况决定是否要设定为相同的 site model 和 clock model。]]></description><link>软件\iqtree\iqtree：寻找最优模型及分区.html</link><guid isPermaLink="false">软件/IQtree/iqtree：寻找最优模型及分区.md</guid><pubDate>Thu, 20 Jun 2024 12:18:07 GMT</pubDate><enclosure url="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240605174230.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240605174230.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[安装 VSC]]></title><description><![CDATA[ 
- <br>教程来源：<a data-tooltip-position="top" aria-label="https://mdnice.com/writing/7c6fe4c344b645f7867d29580d7616c4" rel="noopener" class="external-link" href="https://mdnice.com/writing/7c6fe4c344b645f7867d29580d7616c4" target="_blank">🤯 VS Code | 在VS Code中搭建你的R语言运行环境吧！~（图文介绍超详细） - mdnice 墨滴</a><br><br>官网： <a rel="noopener" class="external-link" href="https://code.visualstudio.com/" target="_blank">https://code.visualstudio.com/</a><br><br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240520112315.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
-我只建议安装这一个插件。因为这个插件已经整合了 R LSP Client 的插件，现在已经整合到这个里面了，无需单独安装。<br><br>接着我们再 R 中输入下面这段代码，选择好离你比较近的镜像后，安装 languageserver。<br><br>自从 R 语言的版本升级之后，radian 就会出现一些莫名其妙的报错，作者也无法解决。因此我们不建议安装 radian。<br><br>找到你安装 R 的路径，在这里我是如下：<br>
-<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240520112630.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br>接着我们装一下图形输出包，httpgd，在R中运行下面这段代码吧。<br>
-install.packages("httpgd")   <br><br>接着我们在VS Code的设置中输入 r.plot.useHttpgd，启用 httpgd。<br>
-<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240520112752.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br>由于VS Code和我们在R studio中用的快捷键会不同，所以我们需要做一些修改，打开快捷键设置我们会进入下面这个界面，点击这个👇。<br>
-<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240520112822.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
-<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240520112850.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
-使用Windows的小伙伴可以复制下面这段代码，粘贴即可。😘<br>[  
-{  
-"key": "alt+-",  
-"command": "type",  
-"when": "editorLangId == r &amp;&amp; editorTextFocus || editorLangId == rmd &amp;&amp; editorTextFocus",  
-// if you want using quarto, try this  
-// "when": "editorLangId =~ /r|rmd|qmd/ &amp;&amp; editorTextFocus",  
-"args": {"text": " &lt;- "}  
-},  
-{  
-"key": "ctrl+shift+m",  
-"command": "type",  
-"when": "editorLangId == r &amp;&amp; editorTextFocus || editorLangId == rmd &amp;&amp; editorTextFocus",  
-"args": {"text": " %&gt;% "}  
-},  
-{  
-"key": "ctrl+shift+m",  
-"command": "-workbench.actions.view.problems"  
-},  
-  
-// input indicative of r markdown code chunk  
-{  
-"key": "ctrl+shift+i",  
-"command": "editor.action.insertSnippet",  
-"when": "editorTextFocus &amp;&amp; editorLangId == 'rmd'",  
-"args": {  
-"snippet": "```{r}\n${TM_SELECTED_TEXT}$0\n```"  
-},  
-"label": "input indicative of r markdown code chunk"  
-},  
-  
-// you can also input indicative of code chunk in `r` file by inserting "# %% ":  
-// specifics in `https://github.com/REditorSupport/vscode-R/pull/662`  
-{  
-"key": "ctrl+shift+i",  
-"command": "editor.action.insertSnippet",  
-"when": "editorTextFocus &amp;&amp; editorLangId == 'r'",  
-"args": {  
-"snippet": "$LINE_COMMENT %% "  
-},  
-"label": "input indicative of code chunk"  
-},  
-  
-// open help panel for selection  
-{  
-"key": "f1",  
-"command": "r.helpPanel.openForSelection",  
-"when": "editorTextFocus &amp;&amp; editorLangId == 'r' || editorTextFocus &amp;&amp; editorLangId == 'rmd'"  
-},  
-  
-// RStudio keybinding for R Package development  
-{  
-"key": "ctrl+shift+b",  
-"command": "r.install",  
-"when": "resourceLangId == 'r'"  
-},  
-{  
-"key": "ctrl+shift+e",  
-"command": "r.check",  
-"when": "resourceLangId == 'r'"  
-},  
-{  
-"key": "ctrl+shift+t",  
-"command": "r.test",  
-"when": "resourceLangId == 'r'"  
-},  
-{  
-"key": "ctrl+shift+d",  
-"command": "r.document",  
-"when": "resourceLangId == 'r'"  
-},  
-{  
-"key": "ctrl+shift+l",  
-"command": "r.loadAll",  
-"when": "resourceLangId == 'r'"  
-},  
-{  
-"key": "ctrl+alt+p",  
-"command": "r.runCommand",  
-"when": "editorTextFocus &amp;&amp; editorLangId == 'r'",  
-"args": ".vsc.browser(httpgd::hgd_url(), viewer = \"Beside\")"  
-}  
-]
-复制<br>]]></description><link>软件\在vs-code中搭建你的r语言运行环境.html</link><guid isPermaLink="false">软件/在VS Code中搭建你的R语言运行环境.md</guid><pubDate>Fri, 21 Jun 2024 01:04:59 GMT</pubDate><enclosure url="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240520112315.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240520112315.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[WSL是什么]]></title><description><![CDATA[ 
+当然，这样的分类并不是绝对的，需要根据自己的情况决定是否要设定为相同的 site model 和 clock model。]]></description><link>软件\iqtree\iqtree：寻找最优模型及分区.html</link><guid isPermaLink="false">软件/IQtree/iqtree：寻找最优模型及分区.md</guid><pubDate>Thu, 20 Jun 2024 12:18:07 GMT</pubDate><enclosure url="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240605174230.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240605174230.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[WSL是什么]]></title><description><![CDATA[ 
  <br>并不是每个人都能够拥有服务器。即使是服务器也有宕机的时候。<br>为了应急，可以选择在自己的win电脑上安装一个Linux，这个被称为WSL。<br><br>适用于 Linux 的 Windows 子系统 (WSL) 是 Windows 的一项功能，可用于在 Windows 计算机上运行 Linux 环境，而无需单独的虚拟机或双引导。 WSL 旨在为希望同时使用 Windows 和 Linux 的开发人员提供无缝高效的体验。<br><br><br>微软官方给出的安装方式很直接，但是由于太直接了，所以直接给升级到最高的版本。<br>具体可以参见<a data-tooltip-position="top" aria-label="https://learn.microsoft.com/zh-cn/windows/wsl/install" rel="noopener" class="external-link" href="https://learn.microsoft.com/zh-cn/windows/wsl/install" target="_blank">这里</a>。<br>刚开始我并没有发现什么问题，但是由于我需要使用代理发现WSL会导致Win系统频繁断网，这让我苦不堪言。不得已我只能够卸载WSL。<br><br>手动安装旧版本是我觉得靠谱一点的方式。<br>需要先启用“适用于 Linux 的 Windows 子系统”可选功能，然后才能在 Windows 上安装 Linux 分发。<br>以管理员身份打开 PowerShell（“开始”菜单 &gt;“PowerShell” &gt;单击右键 &gt;“以管理员身份运行”），然后输入以下命令：<br>dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
 复制<br>下一步千万不要装WSL2.0，照着这样做：<br>
 <br>打开微软商店，选择最早的Ubantu版本。
