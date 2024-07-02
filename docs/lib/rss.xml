@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[思维领域]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>思维领域</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Mon, 01 Jul 2024 07:07:27 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Mon, 01 Jul 2024 07:07:25 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[1 .&nbsp;<a data-href="正态分布 (Normal Distribution)" href="正态分布 (Normal Distribution)" class="internal-link" target="_self" rel="noopener">正态分布 (Normal Distribution)</a>]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[思维领域]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>思维领域</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Tue, 02 Jul 2024 12:41:41 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Tue, 02 Jul 2024 12:41:39 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[1 .&nbsp;<a data-href="正态分布 (Normal Distribution)" href="正态分布 (Normal Distribution)" class="internal-link" target="_self" rel="noopener">正态分布 (Normal Distribution)</a>]]></title><description><![CDATA[ 
  <br><br>正态分布在我们的生活中随处可见，我们身高的分布、体重的分布，甚至是考试成绩的分布都可能符合正态分布。它的形状就像一个钟形曲线，最高点在中间，两边逐渐低下，具有对称性。<br>
 <img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517091725.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br>伯努利分布又名两点分布或者0-1分布，是描述只有两种可能结果的随机试验的概率分布，比如抛硬币或投掷骰子。它将这两种结果分别表示为1和0，通常用 p 来表示事件的成功概率，而1-p 表示事件的失败概率。比如，你在玩一个抛硬币的游戏。硬币只有两面：正面和反面。当你抛硬币时，只有两种可能的结果：硬币出现正面或反面。伯努利分布就像是描述硬币落地后是正面还是反面的概率分布。在伯努利分布中，我们关心的是事件的成功概率，即出现期望结果的概率。比如，在抛硬币时，成功的概率就是硬币出现正面的概率。<br>伯努利分布的变异程度通常由成功和失败的概率决定。如果硬币是公平的，那么成功和失败的概率都是相等的，变异程度就较小。假设你在玩一个猜硬币正反面的游戏，如果你猜对了，你就赢得奖品。这种情况下，游戏的结果可以用伯努利分布来描述。<br>
 <img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517091815.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br>泊松分布常常用于描述单位时间或空间内事件发生的次数，比如在一小时内接到的电话数量、一天内发生的交通事故数量等。<br>它的形状看起来有点像钟形曲线，但是更加扁平。在图的中心，事件发生的次数最多，然后随着次数的增加，概率逐渐减小。<br>平均值告诉我们在单位时间或空间内预期事件的平均发生次数。<br>
@@ -31,7 +31,146 @@
 <br>负二项分布 (Negative Binomial Distribution)：描述在一系列独立的伯努利试验中，达到指定数量的成功之前的失败次数。
 <br>威布尔分布 (Weibull Distribution)：常用于可靠性工程和寿命分析，描述随机事件的生存时间。<br>
 
-<br>这些分布覆盖了数据科学中许多常见的场景，从描述连续变量到描述离散变量，以及描述等待时间和间隔时间等各种情况。]]></description><link>人文与科学术语\数据科学家-95-时间都在使用的-10-大基本分布.html</link><guid isPermaLink="false">人文与科学术语/数据科学家 95% 时间都在使用的 10 大基本分布.md</guid><pubDate>Thu, 20 Jun 2024 12:25:33 GMT</pubDate><enclosure url="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517091725.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517091725.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[安装必要的软件 java]]></title><description><![CDATA[ 
+<br>这些分布覆盖了数据科学中许多常见的场景，从描述连续变量到描述离散变量，以及描述等待时间和间隔时间等各种情况。]]></description><link>人文与科学术语\数据科学家-95-时间都在使用的-10-大基本分布.html</link><guid isPermaLink="false">人文与科学术语/数据科学家 95% 时间都在使用的 10 大基本分布.md</guid><pubDate>Thu, 20 Jun 2024 12:25:33 GMT</pubDate><enclosure url="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517091725.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517091725.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[数据准备]]></title><description><![CDATA[ 
+ <br><br>一个对齐的 fasta 文件，可以使用如下脚本把 coding 和 control 区分开。<br>import os
+import re
+from Bio import SeqIO
+
+# Define input and output file paths
+input_fasta_path = r"原始的.fasta"
+output_nexus_path = r"TK.nex" # 这里会生成分区的nex文件，大概率不会用到
+output_dloop_fasta_path = r"TKDLOOP.FASTA" # 控制区
+output_coding_fasta_path = r"TKCODING.FASTA" # 编码区
+input_txt_path = r"新建 Text Document.txt" # 输入的提取文件，第一列是ID，第二列是单倍群（也可以只要ID） 
+
+def clean_special_characters(file_path):
+    with open(file_path, 'r', encoding='utf-8') as file:
+        content = file.read()
+    
+    # Remove special characters @, ', and "
+    cleaned_content = re.sub(r"[\'\"@]", "", content)
+    
+    with open(file_path, 'w', encoding='utf-8') as file:
+        file.write(cleaned_content)
+
+def read_sample_info(txt_path):
+    sample_info = {}
+    with open(txt_path, 'r', encoding='utf-8') as txt_file:
+        # Skip the header
+        next(txt_file)
+        for line in txt_file:
+            parts = line.strip().split('\t')
+            if len(parts) == 2:
+                sample_id, haplogroup = parts
+                sample_info[sample_id] = haplogroup
+    return sample_info
+
+def write_nexus(sequences, file_path):
+    num_taxa = len(sequences)
+    num_characters = len(next(iter(sequences.values())))
+
+    with open(file_path, 'w') as file:
+        file.write("#NEXUS\n\n")
+        file.write("Begin data;\n")
+        file.write(f"Dimensions ntax={num_taxa} nchar={num_characters};\n")
+        file.write("Format datatype=dna missing=? gap=-;\n")
+        file.write("Matrix\n\n")
+        
+        for sequence_id, sequence_data in sequences.items():
+            file.write(f"{sequence_id}\t{sequence_data}\n")
+        
+        file.write(";\n")
+        file.write("End;\n\n")
+        
+        file.write("begin assumptions;\n")
+        file.write("charset DLOOP = 1-599 16001-16594;\n")
+        file.write("charset CODING = 600-16000;\n")
+        file.write("end;\n")
+
+def write_fasta(sequences, file_path):
+    with open(file_path, 'w') as file:
+        for sequence_id, sequence_data in sequences.items():
+            file.write(f"&gt;{sequence_id}\n")
+            file.write(f"{sequence_data}\n")
+
+def extract_sequences(fasta_path, sample_info, include_haplogroup):
+    extracted_sequences = {}
+    for record in SeqIO.parse(fasta_path, "fasta"):
+        original_id = record.id
+        if not sample_info or original_id in sample_info:
+            if include_haplogroup and original_id in sample_info:
+                new_id = f"{original_id}_{sample_info[original_id]}"
+                record.id = new_id
+                record.description = new_id
+            extracted_sequences[record.id] = str(record.seq)
+    return extracted_sequences
+
+def split_sequences(sequences):
+    dloop_sequences = {}
+    coding_sequences = {}
+    for seq_id, seq in sequences.items():
+        dloop_seq = seq[:599] + seq[16000:] # 在这里指定区域的位置！
+        coding_seq = seq[599:16000] # 在这里指定区域的位置！
+        dloop_sequences[seq_id] = dloop_seq
+        coding_sequences[seq_id] = coding_seq
+    return dloop_sequences, coding_sequences
+
+def calculate_chain_and_log_parameters(num_sequences):
+    length_of_chain = 3000 * (num_sequences ** 2)
+    log_parameters_every = length_of_chain // 30000
+    return length_of_chain, log_parameters_every
+
+def main():
+    read_sequence_list = input("是否要读取序列ID列表？请回答YES或者NO: ").strip().upper() == 'YES'
+    
+    if read_sequence_list:
+        clean_special_characters(input_txt_path)
+        sample_info = read_sample_info(input_txt_path)
+    else:
+        sample_info = {}
+
+    include_haplogroup = input("是否需要添加单倍群信息至ID？请输入YES或者NO: ").strip().upper() == 'YES'
+    
+    extracted_sequences = extract_sequences(input_fasta_path, sample_info, include_haplogroup)
+    
+    if not extracted_sequences:
+        print("没有找到任何序列。")
+        return
+    
+    num_sequences = len(extracted_sequences)
+    length_of_chain, log_parameters_every = calculate_chain_and_log_parameters(num_sequences)
+    
+    print(f"序列数目: {num_sequences}")
+    print(f"总代数 (Length of chain): {length_of_chain}")
+    print(f"样本容量 (Log parameters every): {log_parameters_every}")
+    
+    write_nexus(extracted_sequences, output_nexus_path)
+
+    dloop_sequences, coding_sequences = split_sequences(extracted_sequences)
+    
+    write_fasta(dloop_sequences, output_dloop_fasta_path)
+    write_fasta(coding_sequences, output_coding_fasta_path)
+
+    print(f"提取已经完成. 提取的序列已经转为NEX并保存至 {output_nexus_path}")
+    print(f"DLOOP序列已经保存至 {output_dloop_fasta_path}")
+    print(f"CODING序列已经保存至 {output_coding_fasta_path}")
+    print(f"M单倍群60500年前;#N单倍群58200年前;#R单倍群54300年前")
+
+if __name__ == "__main__":
+    main()
+
+复制<br><br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202407022033728.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202407022033418.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202407022033395.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202407022033852.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202407022034907.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202407022035950.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
+在最后这一步，请生成3个名字不同但参数相同的 xml 文件。并分别用 BEAST 软件运行，最后使用 LogCombiner 软件进行合并即可。<br>注意，没有截图的参数保持原样不要动！<br><br><a data-href="贝叶斯天际线图（Bayesian skyline plot，BSP)" href="人文与科学术语\贝叶斯天际线图（bayesian-skyline-plot，bsp).html" class="internal-link" target="_self" rel="noopener">贝叶斯天际线图（Bayesian skyline plot，BSP)</a> 的基础人口规模函数可以指定为人口规模变化的逐步函数或分段线性函数。主要数据是通过分段线性模型获得的。有效种群规模的估计是根据随时间推断的谱系合并率得出的。祖先基因树是根据一般时间可逆（GTR）替换模型推断的，该模型具有第一、第二和第三密码子位置的位点特异性比率。通过重要性采样计算的贝叶斯因子（Newton et al. 1994）表明该模型比常用的 GTR + Γ + I 模型（log Bayes 因子 = 19.1）更好地拟合数据。每个 MCMC 样本均基于 40,000,000 代的运行，每 4,000 代采样一次，前 4,000,000 代作为老化被丢弃。对 MCMC 图的自相关时间的检查表明运行已收敛到平衡分布，并且此时提供了足够的后验样本。所有运行的聚结先验有效样本量至少为 1,​​000<a data-footref="1" href="about:blank#fn-1-9f06e903766e35dd" class="footnote-link" target="_self" rel="noopener">[1]</a> <a data-footref="2" href="about:blank#fn-2-9f06e903766e35dd" class="footnote-link" target="_self" rel="noopener">[2]</a>。<br>使用 BEAST（Drummond 和 Rambaut 2007）基于13个蛋白质编码区重建了有效种群大小（Nef）随时间变化的 BSP，如其他地方所述（Atkinson 等人，2008;Atkinson 等人，2009 年）。在 BSP 分析中，采用第一、第二和第三密码子的通用时间可逆替换模型来推断祖先基因树。为了估计 Nef 变化的时间尺度，选择了一个严格的分子钟，其固定速率为每年每个位点1.691e 8次替换（Ho 和 Endicott 2008）。每个马尔可夫链蒙特卡洛模拟运行了 40,000,000 代，每 4,000 代采样一次，前 40,000 代作为老化丢弃。结果使用 Tracer v1.5（<a data-tooltip-position="top" aria-label="http://tree.bio.ed.ac.uk/software/tracer/%EF%BC%8C2009%E5%B9%B412%E6%9C%881%E6%97%A5%E8%AE%BF%E9%97%AE%EF%BC%89%E5%8F%AF%E8%A7%86%E5%8C%96%E3%80%82%E4%BA%BA%E5%8F%A3%E5%A2%9E%E9%95%BF%E7%8E%87%E5%92%8C%E4%BA%BA%E5%8F%A3%E5%A2%9E%E9%95%BF%E6%97%B6%E9%97%B4%E6%98%AF%E6%A0%B9%E6%8D%AE%E5%85%88%E5%89%8D%E7%A0%94%E7%A9%B6%E5%90%8E%E7%9A%84%E5%A4%A9%E9%99%85%E7%BA%BF%E5%9B%BE%E8%AE%A1%E7%AE%97%E7%9A%84%EF%BC%88Gignoux" rel="noopener" class="external-link" href="http://tree.bio.ed.ac.uk/software/tracer/%EF%BC%8C2009%E5%B9%B412%E6%9C%881%E6%97%A5%E8%AE%BF%E9%97%AE%EF%BC%89%E5%8F%AF%E8%A7%86%E5%8C%96%E3%80%82%E4%BA%BA%E5%8F%A3%E5%A2%9E%E9%95%BF%E7%8E%87%E5%92%8C%E4%BA%BA%E5%8F%A3%E5%A2%9E%E9%95%BF%E6%97%B6%E9%97%B4%E6%98%AF%E6%A0%B9%E6%8D%AE%E5%85%88%E5%89%8D%E7%A0%94%E7%A9%B6%E5%90%8E%E7%9A%84%E5%A4%A9%E9%99%85%E7%BA%BF%E5%9B%BE%E8%AE%A1%E7%AE%97%E7%9A%84%EF%BC%88Gignoux" target="_blank">http://tree.bio.ed.ac.uk/software/tracer/，2009年12月1日访问）可视化。人口增长率和人口增长时间是根据先前研究后的天际线图计算的（Gignoux</a> 等人，2011 年）<a data-footref="3" href="about:blank#fn-3-9f06e903766e35dd" class="footnote-link" target="_self" rel="noopener">[3]</a>。<br><br><br><br><br>
+<br>
+<br>mtDNA Variation Predicts Population Size in Humans and Reveals a Major Southern Asian Chapter in Human Prehistory<a href="about:blank#fnref-1-9f06e903766e35dd" class="footnote-backref footnote-link" target="_self" rel="noopener"><span></span>︎</a><img class="emoji" draggable="false" alt="↩" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/21a9.svg" height="16px" style="max-width: 100%;">
+<br>Bayesian coalescent inference of major human mitochondrial DNA haplogroup expansions in Africa<a href="about:blank#fnref-2-9f06e903766e35dd" class="footnote-backref footnote-link" target="_self" rel="noopener"><span></span>︎</a><img class="emoji" draggable="false" alt="↩" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/21a9.svg" height="16px" style="max-width: 100%;">
+<br>River Valleys Shaped the Maternal Genetic Landscape of Han Chinese<a href="about:blank#fnref-3-9f06e903766e35dd" class="footnote-backref footnote-link" target="_self" rel="noopener"><span></span>︎</a><img class="emoji" draggable="false" alt="↩" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/21a9.svg" height="16px" style="max-width: 100%;">
+]]></description><link>软件\beast\beast：线粒体dna的bsp设置.html</link><guid isPermaLink="false">软件/BEAST/BEAST：线粒体DNA的BSP设置.md</guid><pubDate>Tue, 02 Jul 2024 12:39:42 GMT</pubDate><enclosure url="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202407022033728.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202407022033728.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[安装必要的软件 java]]></title><description><![CDATA[ 
  <br><br>sudo apt-get update
 sudo apt-get install cmake build-essential autoconf automake libtool git pkg-config openjdk-11-jdk
 复制<br><br>git clone --depth=1 https://github.com/beagle-dev/beagle-lib.git
@@ -2588,73 +2727,7 @@ plt.show()
 # output_chart_path = 'group_haplotype_diversities_barplot.png'
 # plt.savefig(output_chart_path)
 
-复制<br><br><img alt="Figure_1.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/Figure_1.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;">]]></description><link>软件\其它生信软件\群体遗传\python：计算群体单倍群单倍型多样性.html</link><guid isPermaLink="false">软件/其它生信软件/群体遗传/python：计算群体单倍群单倍型多样性.md</guid><pubDate>Mon, 24 Jun 2024 12:56:12 GMT</pubDate><enclosure url="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240624155053.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240624155053.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[导入 NEX 文件]]></title><description><![CDATA[ 
- <br><br>为什么 mtDNA 需要导入 NEX 而 Y 染色体可以直接导入对齐的 FASTA？
-因为 nex 文件可以帮助更快速、方便的分区。
-<br><br>准备文件：已经对齐了的 FASTA 文件。<br><br>以下 python 根据预定的规则进行生成分区 nex 文件：<br>
-# 定义输入和输出文件路径
-input_file_path = "最终版本ALN无hap extraction.fasta"
-output_file_path = "ALN.nex"
-
-def read_fasta(file_path):
-    sequences = {}
-    with open(file_path, 'r') as file:
-        sequence_id = ''
-        sequence_data = ''
-        for line in file:
-            line = line.strip()
-            if line.startswith('&gt;'):
-                if sequence_id:
-                    sequences[sequence_id] = sequence_data
-                sequence_id = line[1:]
-                sequence_data = ''
-            else:
-                sequence_data += line
-        if sequence_id:
-            sequences[sequence_id] = sequence_data
-    return sequences
-
-def write_nexus(sequences, file_path):
-    num_taxa = len(sequences)
-    num_characters = len(next(iter(sequences.values())))
-    
-    with open(file_path, 'w') as file:
-        file.write("#NEXUS\n\n")
-        file.write("Begin data;\n")
-        file.write(f"Dimensions ntax={num_taxa} nchar={num_characters};\n")
-        file.write("Format datatype=dna missing=? gap=-;\n")
-        file.write("Matrix\n\n")
-        
-        for sequence_id, sequence_data in sequences.items():
-            file.write(f"{sequence_id}\t{sequence_data}\n")
-        
-        file.write(";\n")
-        file.write("End;\n\n")
-        
-        file.write("begin assumptions;\n")
-        file.write("charset DLOOP = 1-599 16001-16594;\n")
-        file.write("charset CODING = 600-16000;\n")
-        file.write("end;\n")
-
-# 读取FASTA文件并写入NEXUS格式文件
-sequences = read_fasta(input_file_path)
-write_nexus(sequences, output_file_path)
-
-print(f"文件已成功转换并保存为: {output_file_path}")
-
-复制<br><br>现在得到了一个 nex 文件：<br>
-开头：<br>
-<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240612171601.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
-结尾：<br>
-<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240612171623.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
-结尾的意思是说，针对该对齐序列（我的对其序列长度为16594）。指定了2个区域。D 环在1-599和16001-16594。其余是 CODING 区域。<br>
-名字可以随便取。<br><br>打开 BEAST 软件隔壁的 BEAUti 软件。导入 NEX 文件。<br>
-<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240612172132.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240612172252.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240612172508.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
-在这个网站可以找到单倍群大致的分化时间：<a data-tooltip-position="top" aria-label="http://scaledinnovation.com/gg/snpTracker.html" rel="noopener" class="external-link" href="http://scaledinnovation.com/gg/snpTracker.html" target="_blank">SNP Tracker (scaledinnovation.com)</a><br>
-几个重要的时间节点在这里：<a data-href="BEAST：线粒体单倍群时间" href="软件\beast\beast：线粒体单倍群时间.html" class="internal-link" target="_self" rel="noopener">BEAST：线粒体单倍群时间</a><br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240612172539.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240612172633.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240612172649.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240612172710.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240612172751.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
-<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240612172823.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240612172852.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
-<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240612172905.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>注意，最终生成的 xml 文件内，不能出现@和'符号，这个坑很重要。注意把单倍群中的特殊字符删去!!<br><br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240612172943.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
-<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240612173008.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;">]]></description><link>软件\beast\beast：1代参数设置（简略版）.html</link><guid isPermaLink="false">软件/BEAST/BEAST：1代参数设置（简略版）.md</guid><pubDate>Mon, 24 Jun 2024 08:46:48 GMT</pubDate><enclosure url="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240612171601.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240612171601.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[成纤维细胞生长因子21（Fibroblast Growth Factor 21，FGF21）]]></title><description><![CDATA[ 
+复制<br><br><img alt="Figure_1.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/Figure_1.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;">]]></description><link>软件\其它生信软件\群体遗传\python：计算群体单倍群单倍型多样性.html</link><guid isPermaLink="false">软件/其它生信软件/群体遗传/python：计算群体单倍群单倍型多样性.md</guid><pubDate>Mon, 24 Jun 2024 12:56:12 GMT</pubDate><enclosure url="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240624155053.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240624155053.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[成纤维细胞生长因子21（Fibroblast Growth Factor 21，FGF21）]]></title><description><![CDATA[ 
  <br>FGF21（成纤维细胞生长因子21）：<br>
 <br>FGF21是一种属于成纤维细胞生长因子家族的蛋白质，通常在肝脏中表达，但也在肌肉和脂肪组织中有表达。
 <br>它参与调节糖代谢、脂肪氧化和能量平衡。
@@ -14565,13 +14638,7 @@ END;
 复制<br>例如，我希望：<br>
 <br>编码区：GTR+F+I+G4
 <br>高变区：HKY+F+I 
-]]></description><link>软件\beast\beast：替换模型.html</link><guid isPermaLink="false">软件/BEAST/BEAST：替换模型.md</guid><pubDate>Fri, 21 Jun 2024 07:31:17 GMT</pubDate></item><item><title><![CDATA[参考文献]]></title><description><![CDATA[ 
- <br><a data-href="贝叶斯天际线图（Bayesian skyline plot，BSP)" href="科研方法及理论\贝叶斯天际线图（bayesian-skyline-plot，bsp).html" class="internal-link" target="_self" rel="noopener">贝叶斯天际线图（Bayesian skyline plot，BSP)</a> 的基础人口规模函数可以指定为人口规模变化的逐步函数或分段线性函数。主要数据是通过分段线性模型获得的。有效种群规模的估计是根据随时间推断的谱系合并率得出的。祖先基因树是根据一般时间可逆（GTR）替换模型推断的，该模型具有第一、第二和第三密码子位置的位点特异性比率。通过重要性采样计算的贝叶斯因子（Newton et al. 1994）表明该模型比常用的 GTR + Γ + I 模型（log Bayes 因子 = 19.1）更好地拟合数据。每个 MCMC 样本均基于 40,000,000 代的运行，每 4,000 代采样一次，前 4,000,000 代作为老化被丢弃。对 MCMC 图的自相关时间的检查表明运行已收敛到平衡分布，并且此时提供了足够的后验样本。所有运行的聚结先验有效样本量至少为 1,​​000<a data-footref="1" href="about:blank#fn-1-fedbc030ac56d01e" class="footnote-link" target="_self" rel="noopener">[1]</a> <a data-footref="2" href="about:blank#fn-2-fedbc030ac56d01e" class="footnote-link" target="_self" rel="noopener">[2]</a>。<br>使用 BEAST（Drummond 和 Rambaut 2007）基于13个蛋白质编码区重建了有效种群大小（Nef）随时间变化的 BSP，如其他地方所述（Atkinson 等人，2008;Atkinson 等人，2009 年）。在 BSP 分析中，采用第一、第二和第三密码子的通用时间可逆替换模型来推断祖先基因树。为了估计 Nef 变化的时间尺度，选择了一个严格的分子钟，其固定速率为每年每个位点1.691e 8次替换（Ho 和 Endicott 2008）。每个马尔可夫链蒙特卡洛模拟运行了 40,000,000 代，每 4,000 代采样一次，前 40,000 代作为老化丢弃。结果使用 Tracer v1.5（<a data-tooltip-position="top" aria-label="http://tree.bio.ed.ac.uk/software/tracer/%EF%BC%8C2009%E5%B9%B412%E6%9C%881%E6%97%A5%E8%AE%BF%E9%97%AE%EF%BC%89%E5%8F%AF%E8%A7%86%E5%8C%96%E3%80%82%E4%BA%BA%E5%8F%A3%E5%A2%9E%E9%95%BF%E7%8E%87%E5%92%8C%E4%BA%BA%E5%8F%A3%E5%A2%9E%E9%95%BF%E6%97%B6%E9%97%B4%E6%98%AF%E6%A0%B9%E6%8D%AE%E5%85%88%E5%89%8D%E7%A0%94%E7%A9%B6%E5%90%8E%E7%9A%84%E5%A4%A9%E9%99%85%E7%BA%BF%E5%9B%BE%E8%AE%A1%E7%AE%97%E7%9A%84%EF%BC%88Gignoux" rel="noopener" class="external-link" href="http://tree.bio.ed.ac.uk/software/tracer/%EF%BC%8C2009%E5%B9%B412%E6%9C%881%E6%97%A5%E8%AE%BF%E9%97%AE%EF%BC%89%E5%8F%AF%E8%A7%86%E5%8C%96%E3%80%82%E4%BA%BA%E5%8F%A3%E5%A2%9E%E9%95%BF%E7%8E%87%E5%92%8C%E4%BA%BA%E5%8F%A3%E5%A2%9E%E9%95%BF%E6%97%B6%E9%97%B4%E6%98%AF%E6%A0%B9%E6%8D%AE%E5%85%88%E5%89%8D%E7%A0%94%E7%A9%B6%E5%90%8E%E7%9A%84%E5%A4%A9%E9%99%85%E7%BA%BF%E5%9B%BE%E8%AE%A1%E7%AE%97%E7%9A%84%EF%BC%88Gignoux" target="_blank">http://tree.bio.ed.ac.uk/software/tracer/，2009年12月1日访问）可视化。人口增长率和人口增长时间是根据先前研究后的天际线图计算的（Gignoux</a> 等人，2011 年）<a data-footref="3" href="about:blank#fn-3-fedbc030ac56d01e" class="footnote-link" target="_self" rel="noopener">[3]</a>。<br><br><br><br><br>
-<br>
-<br>mtDNA Variation Predicts Population Size in Humans and Reveals a Major Southern Asian Chapter in Human Prehistory<a href="about:blank#fnref-1-fedbc030ac56d01e" class="footnote-backref footnote-link" target="_self" rel="noopener">↩︎</a>
-<br>Bayesian coalescent inference of major human mitochondrial DNA haplogroup expansions in Africa<a href="about:blank#fnref-2-fedbc030ac56d01e" class="footnote-backref footnote-link" target="_self" rel="noopener">↩︎</a>
-<br>River Valleys Shaped the Maternal Genetic Landscape of Han Chinese<a href="about:blank#fnref-3-fedbc030ac56d01e" class="footnote-backref footnote-link" target="_self" rel="noopener">↩︎</a>
-]]></description><link>软件\beast\beast：线粒体dna的bsp设置.html</link><guid isPermaLink="false">软件/BEAST/BEAST：线粒体DNA的BSP设置.md</guid><pubDate>Fri, 21 Jun 2024 07:31:17 GMT</pubDate></item><item><title><![CDATA[MrBayes：贝叶斯方法建树]]></title><description><![CDATA[ 
+]]></description><link>软件\beast\beast：替换模型.html</link><guid isPermaLink="false">软件/BEAST/BEAST：替换模型.md</guid><pubDate>Fri, 21 Jun 2024 07:31:17 GMT</pubDate></item><item><title><![CDATA[MrBayes：贝叶斯方法建树]]></title><description><![CDATA[ 
  <br>贝叶斯方法建树 MrBayes<br>网址： <a rel="noopener" class="external-link" href="http://mrbayes.sourceforge.net/" target="_blank">http://mrbayes.sourceforge.net/</a><br>MrBayes 是一款利用贝叶斯方法进行进化树构建的软件。贝叶斯方法建树与最大似然法建树有密切联系，最大似然法是寻找合适的参数（树型、枝长和进化模型，），使得到数据（多序列比对结果）的似然率最大，最大化 P (Data | Tree)；而贝叶斯方法则是利用给定数据，寻找概率最大的树型，最大化 P (Tree | Data)。不仅如此，贝叶斯方法还提供给定数据条件下，各种树型出现的概率，也称后验概率。但实际上各种树型的的后验概率很难直接计算，一般是采用 MCMC 方法来近似。图 3.1 是利用 MCMC(Markov Chain Monte Carlo)方法构建贝叶斯树的流程图。<br>
 <img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240606154503.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br>MrBayes 是 DOS 界面的，不需安装可直接使用。它默认读入 nexus 格式的多序列比对结果文件进行分析，我们首先用程序提供的演示序列学习使用方法。<br>3.1 运行 MrBayes，读入 nex 文件，确定参数。<br>解压程序文件夹，可以看到里面有两个可执行文件，mrbayes_x64 适用于 64 位操作系统的电脑，mrbayes_X86 适合 32 位电脑。双击应用程序，打开界面（图 3.2）。<br>
 <img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240606154509.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br>在”MrBayes &gt;”控制符后输入 execute examples/primates.nex&nbsp; 点击回车，程序读入演示用的多序列比对文件 primates.nex，并输出相关数据供核对。（图 3.3）  <br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240606154515.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
@@ -20260,29 +20327,7 @@ One Step McScanX（被包含在 TBtools 中），可以通过 fasta 文件和 gf
 
 
 <br>大功告成！
-第五节 形状工具]]></description><link>软件\adobe-illustrator绘图\思维总览.html</link><guid isPermaLink="false">软件/Adobe illustrator绘图/思维总览.canvas</guid><pubDate>Sat, 18 May 2024 10:56:29 GMT</pubDate><enclosure url="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202312151759474.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202312151759474.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[BEAST：使用指南]]></title><description><![CDATA[ 
- 一些建议准备工作参数调整<br><br><br> 有许多软件可以对齐 FASTA 序列，例如：<br>
-<br>MAFFT
-<br>PRANK
-<br>Clustal
-<br>MUSCLE
-<br>......<br>
-<a data-href="MAFFT多序列比对教程" href="软件\其它生信软件\格式比对\mafft多序列比对教程.html" class="internal-link" target="_self" rel="noopener">MAFFT多序列比对教程</a><br>
-<a data-href="序列比对的思考" href="软件\其它生信软件\格式比对\序列比对的思考.html" class="internal-link" target="_self" rel="noopener">序列比对的思考</a><br>
-<a data-href="The GUIDANCE2 Server 多序列比对置信软件" href="软件\其它生信软件\格式比对\the-guidance2-server-多序列比对置信软件.html" class="internal-link" target="_self" rel="noopener">The GUIDANCE2 Server 多序列比对置信软件</a>
-<br><br>对于 mtDNA 来说，不同的区域具备不同的进化模式，因此我们需要对不同的区域进行模型选择。<br>
-推荐在这一步使用 iqtree 软件，具体参见 ：<a data-href="iqtree：寻找最优模型及分区" href="软件\iqtree\iqtree：寻找最优模型及分区.html" class="internal-link" target="_self" rel="noopener">iqtree：寻找最优模型及分区</a><br>BEAST 软件下载：<br>
-<br>BEAST 第一代：<a data-tooltip-position="top" aria-label="https://beast.community/" rel="noopener" class="external-link" href="https://beast.community/" target="_blank">BEAST Software - Bayesian Evolutionary Analysis Sampling Trees | BEAST Documentation</a>
-<br>BEAST 第二代：<a data-tooltip-position="top" aria-label="https://beast.community/" rel="noopener" class="external-link" href="https://beast.community/" target="_blank">BEAST Software - Bayesian Evolutionary Analysis Sampling Trees | BEAST Documentation</a><br>
-第一代和第二代在实际的功能上没有太大的区别，建议初学者优先使用第一代。
-<br>贝叶斯进化树分析（Bayesian Evolutionary Analysis by Sampling Trees，BEAST）<br><br>BEAST是一种用于进行分子进化和生物地理学分析的软件工具。它是一种贝叶斯方法的程序，用于对DNA或蛋白质序列数据进行分析，从而推断物种的进化历史、群体动态和地理分布等信息。BEAST分析可以用于估计物种的分歧时间、迁移模式、群体大小等重要参数，从而帮助科学家了解生物种群的演化过程和历史。它在分子生物学、进化生物学、生物地理学等领域广泛应用，并且可以根据具体的研究问题进行定制化分析。<br><br><br>我发现默认的参数比精挑细选的参数更加符合之前的研究。<br>
-当然，这可能有多种解释方式。<br>
-我假装没看见。总之，一切默认，说不动就好了。<br><br>过去的文献提到了很多“优秀的参数”，我们可以借鉴。<br><br>如果使用模型选择软件得到了一些在后面的 BEAST 软件无法选择的模型，别急。<br>
-这里有一个文档能帮到你。<br>
-<a data-href="BEAST：替换模型" href="软件\beast\beast：替换模型.html" class="internal-link" target="_self" rel="noopener">BEAST：替换模型</a><br>The Time of the Most Recent Common Ancestor (TMRCA) was estimated by BEAST [30] with the HYK + G + I model because it resulted in the best fit for our data according to jModelTest 2 [31]; we also investigated a model with a Constant Population Size and Strict Clock [20]. For this model, the Markov-Chain Monte Carlo (MCMC) ran for 100,000,000 iterations sampling every 10,000 steps.<br>BSPs for effective population size (Nef) through time were reconstructed based on 13 protein coding regions using BEAST (Drummond and Rambaut 2007), as described elsewhere (Atkinson et al. 2008; Atkinson et al. 2009). In the BSP analysis, a general time-reversible substitution model with site-specific rates for the first, second, and third codons was adopted to infer the ancestral gene trees. To estimate the time scale to the Nef change, a strict molecular clock with the  fixed rate of 1.691E-8 substitutions per site per year (Ho and Endicott 2008) was chosen. Each Markov chain Monte Carlo simulation was run for 40,000,000 generations and sampled every 4,000 generations, with the first 40,000 generations discarded as burn-in. The results were visualized with Tracer v1.5 (<a rel="noopener" class="external-link" href="http://tree.bio.ed.ac.uk/software/tracer/" target="_blank">http://tree.bio.ed.ac.uk/software/tracer/</a>, accessed December 1, 2009). Population growth rate and time of population growth were calculated based on skyline plots following previous study (Gignoux et al. 2011).<br>《River Valleys Shaped the Maternal Genetic Landscape of Han Chinese》<br>《Maternal genetic structure in ancient Shandong between 9500 and 1800 years ago》<br>其他文献……<br>插播一句，如果想对该领域进行深刻了解，建议读一读这篇：<br>《主流分子钟定年方法的原理、误差来源和使用建议》<br><a data-href="BEAST：1代参数设置（简略版）" href="软件\beast\beast：1代参数设置（简略版）.html" class="internal-link" target="_self" rel="noopener">BEAST：1代参数设置（简略版）</a><br>访问这些网址得到更全面的帮助：<br>
-<br><a data-tooltip-position="top" aria-label="https://www.yuque.com/wusheng/gw7a9p/ke1mdu" rel="noopener" class="external-link" href="https://www.yuque.com/wusheng/gw7a9p/ke1mdu" target="_blank">Beast v1.8简易手册-修订版 (yuque.com)</a>
-<br><a rel="noopener" class="external-link" href="https://zhuanlan.zhihu.com/p/341212936" target="_blank">https://zhuanlan.zhihu.com/p/341212936</a>
-<br><br>使用 TreeAnnotator 查看烧掉前25%的树（不可信的树）<br>使用 Figtree 查看整理后的树<br>使用 Tracer 查看 ESS 值是否≥200（是否收敛）<br>BSP 分析什么是BEAST？下载]]></description><link>软件\beast\beast：使用指南.html</link><guid isPermaLink="false">软件/BEAST/BEAST：使用指南.canvas</guid><pubDate>Tue, 18 Jun 2024 06:22:30 GMT</pubDate></item><item><title><![CDATA[教程一]]></title><description><![CDATA[ 
+第五节 形状工具]]></description><link>软件\adobe-illustrator绘图\思维总览.html</link><guid isPermaLink="false">软件/Adobe illustrator绘图/思维总览.canvas</guid><pubDate>Sat, 18 May 2024 10:56:29 GMT</pubDate><enclosure url="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202312151759474.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202312151759474.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[教程一]]></title><description><![CDATA[ 
  <br><br>IQtree 是利用最大似然法构建系统发生树的，具有高效建树、模型选择、超快自展等特点，适用于大数据的系统发育分析。<br><br>
 <br>首先在NCBI下载用于建树的序列，把这些序列放到同一个fasta文件里，每条序列的标签名要以“&gt;”开始并且序列标签名中不要有空格和标点等，不然后续无法识别. IQtree支持多种序列数据格式，如:Phylip/ fasta/fas/nexus/clustlw等格式，程序也会自动转为Phylip格式，省去格式转换的步骤。
 <br>将上述的 fasta 格式序列文件进行序列比对，<a data-href="MAFFT多序列比对教程" href="软件\其它生信软件\格式比对\mafft多序列比对教程.html" class="internal-link" target="_self" rel="noopener">MAFFT多序列比对教程</a>。对高度变异区域进行裁剪。
