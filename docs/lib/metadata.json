@@ -1,6 +1,6 @@
 {
   "vaultName": "思维领域",
-  "lastExport": 1719924099785,
+  "lastExport": 1719995025241,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager theme-dark show-inline-title show-ribbon h2-underline",
   "useCustomHeadContent": false,
@@ -178,6 +178,7 @@
     "人文与科学术语/班图语.md",
     "人文与科学术语/北京猿人.md",
     "人文与科学术语/贝丘文化(Shell-Mound Culture).md",
+    "人文与科学术语/贝塞马（Besemah）.md",
     "人文与科学术语/贝叶斯进化树分析（Bayesian Evolutionary Analysis by Sampling Trees，BEAST）.md",
     "人文与科学术语/贝叶斯马尔科夫链蒙特卡罗分析（Bayesian MCMC analysis）.md",
     "人文与科学术语/贝叶斯天际线图（Bayesian Skyline Plot ，BSP）.md",
@@ -295,6 +296,7 @@
     "人文与科学术语/全基因组测序（Whole Genome Sequencing，WGS）.md",
     "人文与科学术语/融生型民族.md",
     "人文与科学术语/如何构思论文？.md",
+    "人文与科学术语/塞门德（Semende）.md",
     "人文与科学术语/三苗部落.md",
     "人文与科学术语/桑巴基（Sambaquis）.md",
     "人文与科学术语/山顶洞人.md",
@@ -614,6 +616,7 @@
     "文献及报道/文献/1996 AJHG 线粒体DNA变异表明蒙古可能是新世界创始人口的来源.md",
     "文献及报道/文献/2004 MBE 不同母系对中国丝绸之路地区族群遗传结构的贡献.md",
     "文献及报道/文献/2008 EJHG 中国人口遗传结构的空间分析揭示了母系和父系之间的显着差异.md",
+    "文献及报道/文献/2010 Nature Communications 苏门答腊岛母系和父系群体之间线粒体 DNA 的差异大于 Y 染色体差异.md",
     "文献及报道/文献/2024 JGG 自然选择塑造了线粒体DNA支系在汉族人群中对抵御肥胖的保护作用.md",
     "文献及报道/文献/9500-1800年前的山东的母系遗传结构.md",
     "文献及报道/文献/45000年前的西部西伯利亚现代人类的基因组测序.md",
@@ -807,187 +810,187 @@
   ],
   "fileInfo": {
     "lib/scripts/graph-wasm.wasm": {
-      "modifiedTime": 1719924099785,
+      "modifiedTime": 1719995025241,
       "sourceSize": 23377,
       "exportedPath": "lib/scripts/graph-wasm.wasm",
       "dependencies": []
     },
     "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1719924099785,
+      "modifiedTime": 1719995025241,
       "sourceSize": 66800,
       "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
       "dependencies": []
     },
     "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1719924099785,
+      "modifiedTime": 1719995025241,
       "sourceSize": 104232,
       "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
       "dependencies": []
     },
     "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1719924099785,
+      "modifiedTime": 1719995025241,
       "sourceSize": 104332,
       "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
       "dependencies": []
     },
     "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1719924099785,
+      "modifiedTime": 1719995025241,
       "sourceSize": 98868,
       "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
       "dependencies": []
     },
     "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1719924099785,
+      "modifiedTime": 1719995025241,
       "sourceSize": 106876,
       "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
       "dependencies": []
     },
     "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1719924099785,
+      "modifiedTime": 1719995025241,
       "sourceSize": 105804,
       "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
       "dependencies": []
     },
     "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1719924099785,
+      "modifiedTime": 1719995025241,
       "sourceSize": 106108,
       "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
       "dependencies": []
     },
     "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1719924099785,
+      "modifiedTime": 1719995025241,
       "sourceSize": 111708,
       "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
       "dependencies": []
     },
     "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1719924099785,
+      "modifiedTime": 1719995025241,
       "sourceSize": 192740,
       "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
       "dependencies": []
     },
     "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1719924099785,
+      "modifiedTime": 1719995025241,
       "sourceSize": 161376,
       "exportedPath": "lib/fonts/454577c22304619db035.ttf",
       "dependencies": []
     },
     "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1719924099785,
+      "modifiedTime": 1719995025241,
       "sourceSize": 191568,
       "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
       "dependencies": []
     },
     "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1719924099785,
+      "modifiedTime": 1719995025241,
       "sourceSize": 155288,
       "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
       "dependencies": []
     },
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1719924099785,
+      "modifiedTime": 1719995025241,
       "sourceSize": 7876,
       "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
       "dependencies": []
     },
     "lib/media/874d8b8e340f75575caa.svg": {
-      "modifiedTime": 1719924099785,
+      "modifiedTime": 1719995025241,
       "sourceSize": 317,
       "exportedPath": "lib/media/874d8b8e340f75575caa.svg",
       "dependencies": []
     },
     "lib/media/3d6c1bdc4d87cde4de67.svg": {
-      "modifiedTime": 1719924099785,
+      "modifiedTime": 1719995025241,
       "sourceSize": 279,
       "exportedPath": "lib/media/3d6c1bdc4d87cde4de67.svg",
       "dependencies": []
     },
     "lib/html/file-tree.html": {
-      "modifiedTime": 1719924099785,
-      "sourceSize": 559057,
+      "modifiedTime": 1719995025241,
+      "sourceSize": 561094,
       "exportedPath": "lib/html/file-tree.html",
       "dependencies": []
     },
     "lib/scripts/webpage.js": {
-      "modifiedTime": 1719924099785,
+      "modifiedTime": 1719995025241,
       "sourceSize": 47290,
       "exportedPath": "lib/scripts/webpage.js",
       "dependencies": []
     },
     "lib/scripts/graph-view.js": {
-      "modifiedTime": 1719924099785,
+      "modifiedTime": 1719995025241,
       "sourceSize": 15519,
       "exportedPath": "lib/scripts/graph-view.js",
       "dependencies": []
     },
     "lib/scripts/graph-wasm.js": {
-      "modifiedTime": 1719924099785,
+      "modifiedTime": 1719995025241,
       "sourceSize": 14021,
       "exportedPath": "lib/scripts/graph-wasm.js",
       "dependencies": []
     },
     "lib/scripts/graph-render-worker.js": {
-      "modifiedTime": 1719924099785,
+      "modifiedTime": 1719995025241,
       "sourceSize": 5179,
       "exportedPath": "lib/scripts/graph-render-worker.js",
       "dependencies": []
     },
     "lib/scripts/tinycolor.js": {
-      "modifiedTime": 1719924099785,
+      "modifiedTime": 1719995025241,
       "sourceSize": 29832,
       "exportedPath": "lib/scripts/tinycolor.js",
       "dependencies": []
     },
     "lib/scripts/pixi.js": {
-      "modifiedTime": 1719924099785,
+      "modifiedTime": 1719995025241,
       "sourceSize": 449509,
       "exportedPath": "lib/scripts/pixi.js",
       "dependencies": []
     },
     "lib/scripts/minisearch.js": {
-      "modifiedTime": 1719924099785,
+      "modifiedTime": 1719995025241,
       "sourceSize": 29422,
       "exportedPath": "lib/scripts/minisearch.js",
       "dependencies": []
     },
     "lib/media/favicon.png": {
-      "modifiedTime": 1719924099785,
+      "modifiedTime": 1719995025241,
       "sourceSize": 1105,
       "exportedPath": "lib/media/favicon.png",
       "dependencies": []
     },
     "lib/scripts/graph-data.js": {
-      "modifiedTime": 1719924099785,
-      "sourceSize": 58893,
+      "modifiedTime": 1719995025241,
+      "sourceSize": 59195,
       "exportedPath": "lib/scripts/graph-data.js",
       "dependencies": []
     },
     "lib/styles/obsidian.css": {
-      "modifiedTime": 1719924099785,
+      "modifiedTime": 1719995025241,
       "sourceSize": 130471,
       "exportedPath": "lib/styles/obsidian.css",
       "dependencies": []
     },
     "lib/styles/theme.css": {
-      "modifiedTime": 1719924099785,
+      "modifiedTime": 1719995025241,
       "sourceSize": 41426,
       "exportedPath": "lib/styles/theme.css",
       "dependencies": []
     },
     "lib/styles/global-variable-styles.css": {
-      "modifiedTime": 1719924099785,
+      "modifiedTime": 1719995025241,
       "sourceSize": 367,
       "exportedPath": "lib/styles/global-variable-styles.css",
       "dependencies": []
     },
     "lib/styles/supported-plugins.css": {
-      "modifiedTime": 1719924099785,
+      "modifiedTime": 1719995025241,
       "sourceSize": 119,
       "exportedPath": "lib/styles/supported-plugins.css",
       "dependencies": []
     },
     "lib/styles/main-styles.css": {
-      "modifiedTime": 1719924099785,
+      "modifiedTime": 1719995025241,
       "sourceSize": 23130,
       "exportedPath": "lib/styles/main-styles.css",
       "dependencies": []
@@ -2463,8 +2466,8 @@
       "dependencies": []
     },
     "软件/BEAST/BEAST：线粒体DNA的BSP设置.md": {
-      "modifiedTime": 1719924099785,
-      "sourceSize": 8023,
+      "modifiedTime": 1719995025241,
+      "sourceSize": 9692,
       "exportedPath": "软件/beast/beast：线粒体dna的bsp设置.html",
       "dependencies": []
     },
@@ -3999,7 +4002,7 @@
       "dependencies": []
     },
     "lib/styles/other-plugins.css": {
-      "modifiedTime": 1719924099785,
+      "modifiedTime": 1719995025241,
       "sourceSize": 428708,
       "exportedPath": "lib/styles/other-plugins.css",
       "dependencies": []
@@ -4893,7 +4896,7 @@
       "dependencies": []
     },
     "人文与科学术语/数据科学家 95 时间都在使用的 10 大基本分布.md": {
-      "modifiedTime": 1719924099785,
+      "modifiedTime": 1719995025241,
       "sourceSize": 10258,
       "exportedPath": "人文与科学术语/数据科学家-95-时间都在使用的-10-大基本分布.html",
       "dependencies": []
@@ -5526,6 +5529,24 @@
       "modifiedTime": 1719817645090,
       "sourceSize": 10281,
       "exportedPath": "linux和bash脚本/awk从放弃到入门.html",
+      "dependencies": []
+    },
+    "人文与科学术语/贝塞马（Besemah）.md": {
+      "modifiedTime": 1719995025241,
+      "sourceSize": 242,
+      "exportedPath": "人文与科学术语/贝塞马（besemah）.html",
+      "dependencies": []
+    },
+    "人文与科学术语/塞门德（Semende）.md": {
+      "modifiedTime": 1719995025241,
+      "sourceSize": 464,
+      "exportedPath": "人文与科学术语/塞门德（semende）.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/2010 Nature Communications 苏门答腊岛母系和父系群体之间线粒体 DNA 的差异大于 Y 染色体差异.md": {
+      "modifiedTime": 1719995025241,
+      "sourceSize": 8184,
+      "exportedPath": "文献及报道/文献/2010-nature-communications-苏门答腊岛母系和父系群体之间线粒体-dna-的差异大于-y-染色体差异.html",
       "dependencies": []
     }
   }
