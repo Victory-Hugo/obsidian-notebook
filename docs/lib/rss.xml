@@ -1,6 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[思维领域]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>思维领域</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Wed, 03 Jul 2024 08:23:47 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Wed, 03 Jul 2024 08:23:45 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[贝塞马（Besemah）]]></title><description><![CDATA[ 
- <br>Besemah是一个典型的父系居住群体（patrilocal group）。在父系居住制度中，婚后夫妻通常居住在丈夫的家庭或村落中，家庭和财产的传承主要通过父系进行，男性在家庭中占据主导地位。]]></description><link>人文与科学术语\贝塞马（besemah）.html</link><guid isPermaLink="false">人文与科学术语/贝塞马（Besemah）.md</guid><pubDate>Wed, 03 Jul 2024 07:42:35 GMT</pubDate></item><item><title><![CDATA[塞门德（Semende）]]></title><description><![CDATA[ 
- <br>Semende是一个典型的母系居住群体（matrilocal group）。在母系居住制度中，婚后夫妻通常居住在妻子的家庭或村落中。这种制度意味着家庭和财产的传承主要通过母系进行，女性在家庭中占据重要地位。母系居住模式通常会导致mtDNA的多样性较低，因为女性在本地居住并传承其线粒体DNA，而男性则可能来自不同的群体，从而增加了基因混合的可能性。]]></description><link>人文与科学术语\塞门德（semende）.html</link><guid isPermaLink="false">人文与科学术语/塞门德（Semende）.md</guid><pubDate>Wed, 03 Jul 2024 07:41:55 GMT</pubDate></item><item><title><![CDATA[1 .&nbsp;<a data-href="正态分布 (Normal Distribution)" href="正态分布 (Normal Distribution)" class="internal-link" target="_self" rel="noopener">正态分布 (Normal Distribution)</a>]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[思维领域]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>思维领域</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Thu, 04 Jul 2024 06:27:19 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Thu, 04 Jul 2024 06:27:18 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[1 .&nbsp;<a data-href="正态分布 (Normal Distribution)" href="正态分布 (Normal Distribution)" class="internal-link" target="_self" rel="noopener">正态分布 (Normal Distribution)</a>]]></title><description><![CDATA[ 
  <br><br>正态分布在我们的生活中随处可见，我们身高的分布、体重的分布，甚至是考试成绩的分布都可能符合正态分布。它的形状就像一个钟形曲线，最高点在中间，两边逐渐低下，具有对称性。<br>
 <img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517091725.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br>伯努利分布又名两点分布或者0-1分布，是描述只有两种可能结果的随机试验的概率分布，比如抛硬币或投掷骰子。它将这两种结果分别表示为1和0，通常用 p 来表示事件的成功概率，而1-p 表示事件的失败概率。比如，你在玩一个抛硬币的游戏。硬币只有两面：正面和反面。当你抛硬币时，只有两种可能的结果：硬币出现正面或反面。伯努利分布就像是描述硬币落地后是正面还是反面的概率分布。在伯努利分布中，我们关心的是事件的成功概率，即出现期望结果的概率。比如，在抛硬币时，成功的概率就是硬币出现正面的概率。<br>伯努利分布的变异程度通常由成功和失败的概率决定。如果硬币是公平的，那么成功和失败的概率都是相等的，变异程度就较小。假设你在玩一个猜硬币正反面的游戏，如果你猜对了，你就赢得奖品。这种情况下，游戏的结果可以用伯努利分布来描述。<br>
 <img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517091815.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br>泊松分布常常用于描述单位时间或空间内事件发生的次数，比如在一小时内接到的电话数量、一天内发生的交通事故数量等。<br>它的形状看起来有点像钟形曲线，但是更加扁平。在图的中心，事件发生的次数最多，然后随着次数的增加，概率逐渐减小。<br>平均值告诉我们在单位时间或空间内预期事件的平均发生次数。<br>
@@ -33,7 +31,37 @@
 <br>负二项分布 (Negative Binomial Distribution)：描述在一系列独立的伯努利试验中，达到指定数量的成功之前的失败次数。
 <br>威布尔分布 (Weibull Distribution)：常用于可靠性工程和寿命分析，描述随机事件的生存时间。<br>
 
-<br>这些分布覆盖了数据科学中许多常见的场景，从描述连续变量到描述离散变量，以及描述等待时间和间隔时间等各种情况。]]></description><link>人文与科学术语\数据科学家-95-时间都在使用的-10-大基本分布.html</link><guid isPermaLink="false">人文与科学术语/数据科学家 95% 时间都在使用的 10 大基本分布.md</guid><pubDate>Thu, 20 Jun 2024 12:25:33 GMT</pubDate><enclosure url="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517091725.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517091725.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[数据准备]]></title><description><![CDATA[ 
+<br>这些分布覆盖了数据科学中许多常见的场景，从描述连续变量到描述离散变量，以及描述等待时间和间隔时间等各种情况。]]></description><link>人文与科学术语\数据科学家-95-时间都在使用的-10-大基本分布.html</link><guid isPermaLink="false">人文与科学术语/数据科学家 95% 时间都在使用的 10 大基本分布.md</guid><pubDate>Thu, 20 Jun 2024 12:25:33 GMT</pubDate><enclosure url="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517091725.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517091725.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[限定符]]></title><description><![CDATA[ 
+ <br>推荐一个在线的测试工具： <a rel="noopener" class="external-link" href="http://regex101.com" target="_blank">http://regex101.com</a><br>
+原链接：<a data-tooltip-position="top" aria-label="https://www.bilibili.com/video/BV1da4y1p7iZ/?buvid=ZD4E3ADE399C4E8543AC92195BE9DE4D9476&amp;is_story_h5=false&amp;mid=7dG0QlAph1SMp1m99NAITw%3D%3D&amp;p=1&amp;plat_id=116&amp;share_from=ugc&amp;share_medium=ipad&amp;share_plat=ios&amp;share_source=WEIXIN&amp;share_tag=s_i&amp;timestamp=1720064191&amp;unique_k=aLqQvuk&amp;up_id=372313671" rel="noopener" class="external-link" href="https://www.bilibili.com/video/BV1da4y1p7iZ/?buvid=ZD4E3ADE399C4E8543AC92195BE9DE4D9476&amp;is_story_h5=false&amp;mid=7dG0QlAph1SMp1m99NAITw%3D%3D&amp;p=1&amp;plat_id=116&amp;share_from=ugc&amp;share_medium=ipad&amp;share_plat=ios&amp;share_source=WEIXIN&amp;share_tag=s_i&amp;timestamp=1720064191&amp;unique_k=aLqQvuk&amp;up_id=372313671" target="_blank">10分钟快速掌握正则表达式_哔哩哔哩_bilibili</a><br><br><br>？ 在正则表达式里，表示前面的一个字符需要出现0次或者1次。<br>
+例如 uesd? 代表 d 字符可有可无，可以匹配到 use 或者 used 。<br><br>* 匹配0个或者多个字符。<br>
+例如 ab*c 可以匹配到 ac 或者 abbbbbc 或者 abc 等等。<br><br>+ 匹配1个或者多个字符。<br>
+例如 ab+c 可以匹配到 abbbbbc 或者 abc 等等。<br><br>为了精确匹配出现的次数，需要使用 {}。<br>
+例如 ab{6}c 可以匹配到 abbbbbbc。<br>如果为了匹配出现的次数在一个范围，那么可以在其中加入数字：<br>
+例如 ab{2,6}c 可以匹配到 abbc 和 abbbbbbc 等。<br>如果为了出现2次及以上，可以：<br>
+ab{2,}c<br><br>如果想匹配多个重复的字符组，那么可以用 () 括号起来，例如：<br>
+(ab)+ 可以匹配到 abc, abbc, abababac 等。<br><br>如果我们想匹配制定的任意字符，那么可以使用 |：<br>
+例如 a(cat|dog) 匹配 a cat, a dog。注意 () 必不可少。<br><br>如果我们想匹配到由 abc 组成的单词，那么可以使用 []+。[]+ 要求匹配的内容只能取自于它们。<br>
+例如 [abc]+ 可以匹配到 abc 或者 aabbcc。<br>
+我们还可以在方括号内指定字符的范围，例如：<br>
+<br>[a-z]+ 代表小写的英文字符
+<br>[A-Z]+ 代表大写的英文字符
+<br>[a-zA-Z]+ 代表所有的英文字符
+<br>[a-zA-Z0-9]+ 代表所有的英文字符和数字<br>
+如果加一个 ^ 代表匹配除了后面提到的字符，例如：<br>
+[^0-9]+ 代表所有的非数字字符，匹配到 abc, tiger, CBREDFDO 等，但是不会有数字
+<br><br>内置的字符变量，以 \ 开头。例如：<br>
+<br>\d 代表数字字符，等同于之前写的 [0-9]+
+<br>\D 代表非数字字符，等同于之前写的 [a-zA-Z]+ 
+<br>\w 代表单词字符，代表所有的英文、数字下划线，会以空格隔开匹配到所有的形如单词的字符，例如 Regular expression in 1951 等
+<br>\W 代表非单词字符
+<br>\s 代表空白字符，包括了TAB 和换行符
+<br>\S 代表非空白字符
+<br>.* 也是特殊字符，代表除了换行符之外的所有字符
+<br>^ 匹配行首，$ 匹配行尾：^a 匹配到行首有 a 的字符，例如：absorb。$a 匹配到行尾是有 a 的字符，例如：tea
+]]></description><link>linux和bash脚本\十分钟快速入门正则表达式.html</link><guid isPermaLink="false">Linux和bash脚本/十分钟快速入门正则表达式.md</guid><pubDate>Thu, 04 Jul 2024 06:27:18 GMT</pubDate><enclosure url="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f975.svg" length="0" type="image/svg+xml"/><content:encoded>&lt;figure&gt;&lt;img src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f975.svg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[贝塞马（Besemah）]]></title><description><![CDATA[ 
+ <br>Besemah是一个典型的父系居住群体（patrilocal group）。在父系居住制度中，婚后夫妻通常居住在丈夫的家庭或村落中，家庭和财产的传承主要通过父系进行，男性在家庭中占据主导地位。]]></description><link>人文与科学术语\贝塞马（besemah）.html</link><guid isPermaLink="false">人文与科学术语/贝塞马（Besemah）.md</guid><pubDate>Wed, 03 Jul 2024 07:42:35 GMT</pubDate></item><item><title><![CDATA[塞门德（Semende）]]></title><description><![CDATA[ 
+ <br>Semende是一个典型的母系居住群体（matrilocal group）。在母系居住制度中，婚后夫妻通常居住在妻子的家庭或村落中。这种制度意味着家庭和财产的传承主要通过母系进行，女性在家庭中占据重要地位。母系居住模式通常会导致mtDNA的多样性较低，因为女性在本地居住并传承其线粒体DNA，而男性则可能来自不同的群体，从而增加了基因混合的可能性。]]></description><link>人文与科学术语\塞门德（semende）.html</link><guid isPermaLink="false">人文与科学术语/塞门德（Semende）.md</guid><pubDate>Wed, 03 Jul 2024 07:41:55 GMT</pubDate></item><item><title><![CDATA[数据准备]]></title><description><![CDATA[ 
  <br><br>一个对齐的 fasta 文件，可以使用如下脚本把 coding 和 control 区分开。<br>import os
 import re
 from Bio import SeqIO
