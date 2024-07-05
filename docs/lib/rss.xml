@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[思维领域]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>思维领域</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Fri, 05 Jul 2024 06:11:42 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Fri, 05 Jul 2024 06:11:40 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[1 .&nbsp;<a data-href="正态分布 (Normal Distribution)" href="正态分布 (Normal Distribution)" class="internal-link" target="_self" rel="noopener">正态分布 (Normal Distribution)</a>]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[思维领域]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>思维领域</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Fri, 05 Jul 2024 06:52:37 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Fri, 05 Jul 2024 06:52:35 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[1 .&nbsp;<a data-href="正态分布 (Normal Distribution)" href="正态分布 (Normal Distribution)" class="internal-link" target="_self" rel="noopener">正态分布 (Normal Distribution)</a>]]></title><description><![CDATA[ 
  <br><br>正态分布在我们的生活中随处可见，我们身高的分布、体重的分布，甚至是考试成绩的分布都可能符合正态分布。它的形状就像一个钟形曲线，最高点在中间，两边逐渐低下，具有对称性。<br>
 <img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517091725.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br>伯努利分布又名两点分布或者0-1分布，是描述只有两种可能结果的随机试验的概率分布，比如抛硬币或投掷骰子。它将这两种结果分别表示为1和0，通常用 p 来表示事件的成功概率，而1-p 表示事件的失败概率。比如，你在玩一个抛硬币的游戏。硬币只有两面：正面和反面。当你抛硬币时，只有两种可能的结果：硬币出现正面或反面。伯努利分布就像是描述硬币落地后是正面还是反面的概率分布。在伯努利分布中，我们关心的是事件的成功概率，即出现期望结果的概率。比如，在抛硬币时，成功的概率就是硬币出现正面的概率。<br>伯努利分布的变异程度通常由成功和失败的概率决定。如果硬币是公平的，那么成功和失败的概率都是相等的，变异程度就较小。假设你在玩一个猜硬币正反面的游戏，如果你猜对了，你就赢得奖品。这种情况下，游戏的结果可以用伯努利分布来描述。<br>
 <img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517091815.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br>泊松分布常常用于描述单位时间或空间内事件发生的次数，比如在一小时内接到的电话数量、一天内发生的交通事故数量等。<br>它的形状看起来有点像钟形曲线，但是更加扁平。在图的中心，事件发生的次数最多，然后随着次数的增加，概率逐渐减小。<br>平均值告诉我们在单位时间或空间内预期事件的平均发生次数。<br>
@@ -31,7 +31,63 @@
 <br>负二项分布 (Negative Binomial Distribution)：描述在一系列独立的伯努利试验中，达到指定数量的成功之前的失败次数。
 <br>威布尔分布 (Weibull Distribution)：常用于可靠性工程和寿命分析，描述随机事件的生存时间。<br>
 
-<br>这些分布覆盖了数据科学中许多常见的场景，从描述连续变量到描述离散变量，以及描述等待时间和间隔时间等各种情况。]]></description><link>人文与科学术语\数据科学家-95-时间都在使用的-10-大基本分布.html</link><guid isPermaLink="false">人文与科学术语/数据科学家 95% 时间都在使用的 10 大基本分布.md</guid><pubDate>Thu, 20 Jun 2024 12:25:33 GMT</pubDate><enclosure url="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517091725.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517091725.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[数据准备]]></title><description><![CDATA[ 
+<br>这些分布覆盖了数据科学中许多常见的场景，从描述连续变量到描述离散变量，以及描述等待时间和间隔时间等各种情况。]]></description><link>人文与科学术语\数据科学家-95-时间都在使用的-10-大基本分布.html</link><guid isPermaLink="false">人文与科学术语/数据科学家 95% 时间都在使用的 10 大基本分布.md</guid><pubDate>Thu, 20 Jun 2024 12:25:33 GMT</pubDate><enclosure url="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517091725.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517091725.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[全矩阵转为半矩阵]]></title><description><![CDATA[ 
+ <br><br><br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202407051449614.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br>import pandas as pd
+import numpy as np
+
+# 读取文件
+file_path = '全矩阵.txt'
+data = pd.read_csv(file_path, sep='\t', header=None)
+
+# 删除对角线及右上角的内容
+mask = np.tril(np.ones(data.shape)).astype(bool)
+lower_triangle_data = data.where(mask)
+
+# 将对角线上的0替换为空值
+np.fill_diagonal(lower_triangle_data.values, np.nan)
+
+# 保存结果到新的文件，删除第一行的索引
+output_file_path = 'C:/Users/victo/Desktop/lower_triangle_matrix.txt'
+lower_triangle_data.to_csv(output_file_path, sep="\t", index=False, header=False)
+
+output_file_path
+复制<br><br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202407051450539.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br><br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202407051450539.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br>import numpy as np
+import pandas as pd
+
+# 读取文件内容
+file_path = 'lower_triangle_matrix.txt'
+with open(file_path, 'r') as file:
+    lines = file.readlines()
+
+# 清理并处理文件中的每一行
+processed_lines = []
+for line in lines:
+    # 移除末尾的制表符并将多个制表符替换为单个制表符
+    cleaned_line = '\t'.join(line.strip().split())
+    # 将数字字符串转换为浮点数列表，忽略空的条目
+    float_numbers = [float(num) for num in cleaned_line.split('\t') if num]
+    processed_lines.append(float_numbers)
+
+# 确定矩阵的最大列数
+max_length = max(len(line) for line in processed_lines)
+
+# 填充行，使其具有相等的长度
+for line in processed_lines:
+    while len(line) &lt; max_length:
+        line.append(0.0)
+
+# 将处理后的数据转换为NumPy数组
+matrix = np.array(processed_lines)
+
+# 将左下部分镜像填充到右上部分
+for i in range(matrix.shape[0]):
+    for j in range(i+1, matrix.shape[1]):
+        matrix[i, j] = matrix[j, i]
+
+# 将矩阵转换为DataFrame以便于可视化
+df = pd.DataFrame(matrix)
+df.to_csv('全矩阵.txt', index=False, header=False)
+复制<br><br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202407051449614.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;">]]></description><link>软件\python\格式转换\全矩阵与半矩阵的相互转化.html</link><guid isPermaLink="false">软件/Python/格式转换/全矩阵与半矩阵的相互转化.md</guid><pubDate>Fri, 05 Jul 2024 06:52:35 GMT</pubDate><enclosure url="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f0cf.svg" length="0" type="image/svg+xml"/><content:encoded>&lt;figure&gt;&lt;img src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f0cf.svg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[数据准备]]></title><description><![CDATA[ 
  <br>饼图反应的是一个整体内部各成分的比例。<br><br>第一列是成分，第二列是类别。<br>
 <img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202407042146225.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br>import pandas as pd
 import numpy as np
