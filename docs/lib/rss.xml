@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[思维领域]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>思维领域</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Fri, 05 Jul 2024 06:52:37 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Fri, 05 Jul 2024 06:52:35 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[1 .&nbsp;<a data-href="正态分布 (Normal Distribution)" href="正态分布 (Normal Distribution)" class="internal-link" target="_self" rel="noopener">正态分布 (Normal Distribution)</a>]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[思维领域]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>思维领域</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Sat, 06 Jul 2024 12:11:38 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Sat, 06 Jul 2024 12:11:36 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[1 .&nbsp;<a data-href="正态分布 (Normal Distribution)" href="正态分布 (Normal Distribution)" class="internal-link" target="_self" rel="noopener">正态分布 (Normal Distribution)</a>]]></title><description><![CDATA[ 
  <br><br>正态分布在我们的生活中随处可见，我们身高的分布、体重的分布，甚至是考试成绩的分布都可能符合正态分布。它的形状就像一个钟形曲线，最高点在中间，两边逐渐低下，具有对称性。<br>
 <img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517091725.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br>伯努利分布又名两点分布或者0-1分布，是描述只有两种可能结果的随机试验的概率分布，比如抛硬币或投掷骰子。它将这两种结果分别表示为1和0，通常用 p 来表示事件的成功概率，而1-p 表示事件的失败概率。比如，你在玩一个抛硬币的游戏。硬币只有两面：正面和反面。当你抛硬币时，只有两种可能的结果：硬币出现正面或反面。伯努利分布就像是描述硬币落地后是正面还是反面的概率分布。在伯努利分布中，我们关心的是事件的成功概率，即出现期望结果的概率。比如，在抛硬币时，成功的概率就是硬币出现正面的概率。<br>伯努利分布的变异程度通常由成功和失败的概率决定。如果硬币是公平的，那么成功和失败的概率都是相等的，变异程度就较小。假设你在玩一个猜硬币正反面的游戏，如果你猜对了，你就赢得奖品。这种情况下，游戏的结果可以用伯努利分布来描述。<br>
 <img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517091815.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br>泊松分布常常用于描述单位时间或空间内事件发生的次数，比如在一小时内接到的电话数量、一天内发生的交通事故数量等。<br>它的形状看起来有点像钟形曲线，但是更加扁平。在图的中心，事件发生的次数最多，然后随着次数的增加，概率逐渐减小。<br>平均值告诉我们在单位时间或空间内预期事件的平均发生次数。<br>
@@ -31,7 +31,333 @@
 <br>负二项分布 (Negative Binomial Distribution)：描述在一系列独立的伯努利试验中，达到指定数量的成功之前的失败次数。
 <br>威布尔分布 (Weibull Distribution)：常用于可靠性工程和寿命分析，描述随机事件的生存时间。<br>
 
-<br>这些分布覆盖了数据科学中许多常见的场景，从描述连续变量到描述离散变量，以及描述等待时间和间隔时间等各种情况。]]></description><link>人文与科学术语\数据科学家-95-时间都在使用的-10-大基本分布.html</link><guid isPermaLink="false">人文与科学术语/数据科学家 95% 时间都在使用的 10 大基本分布.md</guid><pubDate>Thu, 20 Jun 2024 12:25:33 GMT</pubDate><enclosure url="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517091725.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517091725.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[全矩阵转为半矩阵]]></title><description><![CDATA[ 
+<br>这些分布覆盖了数据科学中许多常见的场景，从描述连续变量到描述离散变量，以及描述等待时间和间隔时间等各种情况。]]></description><link>人文与科学术语\数据科学家-95-时间都在使用的-10-大基本分布.html</link><guid isPermaLink="false">人文与科学术语/数据科学家 95% 时间都在使用的 10 大基本分布.md</guid><pubDate>Thu, 20 Jun 2024 12:25:33 GMT</pubDate><enclosure url="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517091725.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517091725.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[iTOL注释编辑表格]]></title><description><![CDATA[ 
+ <br><a data-tooltip-position="top" aria-label="https://itoleditor.letunic.com/help.html#strip" rel="noopener" class="external-link" href="https://itoleditor.letunic.com/help.html#strip" target="_blank">原文链接</a><br>After selecting a tree from your account, click the&nbsp;'Create or edit annotation'&nbsp;button to display the dialog shown on the right. It consists of 5 tabs:<br>
+从您的帐户中选择一棵树后，单击“创建或编辑注释”按钮以显示右侧所示的对话框。它由 5 个选项卡组成：<br>
+<br>
+New dataset: create a new dataset on the selected tree<br>
+新数据集：在选定的树上创建新数据集
+
+<br>
+Existing datasets: if the selected tree has some existing datasets, you can load and edit them through this tab<br>
+现有数据集：如果所选树有一些现有数据集，您可以通过此选项卡加载和编辑它们
+
+<br>
+Colored ranges: edit or create new&nbsp;<a data-tooltip-position="top" aria-label="https://itol.embl.de/help.cgi#ranges" rel="noopener" class="external-link" href="https://itol.embl.de/help.cgi#ranges" target="_blank">tree colored ranges</a><br>
+颜色范围：编辑或创建新的树颜色范围
+
+<br>
+Labels: load and edit the labels for tree leaves and internal nodes<br>
+标签：加载和编辑树叶和内部节点的标签
+
+<br>
+Metadata: load and edit the tree node metadata, including bootstrap values (if present)<br>
+元数据：加载和编辑树节点元数据，包括引导值（如果存在）<br>
+有两个可用的复选框：
+
+<br>
+Include all tree leaves:&nbsp;If checked, tree leaves will be pre-loaded into the sheet editing area, so you don't have to type them manually<br>
+包括所有树叶：如果选中，树叶将被预先加载到工作表编辑区域中，因此您不必手动输入它们
+
+<br>
+Sort nodes:&nbsp;When nodes are pre-loaded into the sheet (for example, when editing an existing dataset or tree labels), these will appear in the same order as they are shown in iTOL when the default sorting is applied<br>
+对节点进行排序：当节点预先加载到工作表中时（例如，编辑现有数据集或树标签时），这些节点将按照应用默认排序时在 iTOL 中显示的顺序显示。
+
+<br><br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202407051618169.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
+有时候我们生成的树的标签是数字，我们希望将其改变为其他文字，就会使用到该功能。<br><br>请注意，这些旧的颜色范围已被弃用。<a data-tooltip-position="top" aria-label="https://itoleditor.letunic.com/help.html#dsrange" rel="noopener" class="external-link" href="https://itoleditor.letunic.com/help.html#dsrange" target="_blank">新的彩色/标记范围</a>数据集提供相同的功能，并具有许多附加功能。<br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202407051639963.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br>使用此数据集类型通过使用彩色框或括号突出显示各种进化枝或叶范围。 范围通过开始和结束 ID（E 列和 G 列）以及 H 列及以后的相应样式来定义。<br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202407051622754.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
+Fill color: 填充颜​​色：这是唯一必填字段。它将用作范围的主要填充颜色或括号的颜色。<br>
+Gradient color: 渐变颜色：如果提供，范围填充（或括号颜色）将是从填充颜色到渐变颜色的渐变。<br>
+Line style: 线条样式：可以是“实线”、“虚线”或“点线”。<br>
+Line width: 线宽：边框或括号线宽，以像素为单位。<br>
+Line color: 线条颜色：范围边框的颜色。如果指定，它也将用作括号颜色。<br>
+Label text: 标签文本：显示在范围框中或括号旁边的可选文本。<br>注意，这里的线条指的是上图下方大框的描边。<br>Label color: 标签颜色：文本标签的颜色。<br>
+Label size factor: 标签大小系数：计算出的标签字体大小将乘以该数字。<br>
+Label style: 标签样式：标签字体样式：'正常'、'粗体'、'斜体' 或 '粗斜体'。<br><br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202407051626569.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
+此数据集类型允许自定义树枝和叶子标签的颜色和显示样式。必须将树 ID 输入到 E 列，并将其相应的数据输入到 G 列及以后的列中。要将样式分配给整个分支，如果您的树没有内部节点 ID，请使用 iTOL 的最后一个<a data-tooltip-position="top" aria-label="https://itol.embl.de/help.cgi#ids" rel="noopener" class="external-link" href="https://itol.embl.de/help.cgi#ids" target="_blank">公共祖先方法</a>。或者，您可以单击 iTOL Web 树显示中的任何节点，然后单击弹出窗口底部的节点 ID 将其复制到剪贴板。将其粘贴到树节点 ID 列中，并根据需要指定样式。<br>
+Type: 类型：可以是“分支”或“标签”。 'branch' 会将自定义应用于树枝，而 'label' 应用于叶子文本标签。<br>
+What: 可以是“节点”或“分支”，并且仅与内部树节点相关。 “Node”将仅将自定义应用于单个节点，而“clade”也将应用于所有子节点。<br>
+Color: 颜色：分支或标签的颜色。<br>
+Factor: 对于“分支”类型，指定与全局分支宽度设置相比的相对分支宽度。对于“标签”类型，指定与全局字体大小相比的相对字体大小。<br>
+Style: 样式：对于“分支”类型，可以是“正常”或“虚线” 。对于“标签”类型，可以是“正常”、“粗体”、“斜体”或“粗斜体”之一。<br>
+Background color: 背景颜色：可选，仅与“标签”类型相关。指定标签背景的颜色。<br><br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202407051631864.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
+1:filled shape&nbsp;填充形状<br>
+0:empty shape&nbsp;空的形状<br>
+-1:shape completely omitted&nbsp;形状完全省略<br><br>在简单的条形图中，每个节点都与一个数值相关联，该数值在树外部显示为条形。 条形将使用与数据集图例相同的颜色（在单元格 B16 中设置）。<br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202407051632876.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br>在多值条形图中，每个节点都与多个数值相关联，这些数值在树外部显示为堆叠或对齐的条形图。首先，您必须在标题中定义从 G 列开始的字段。对于每个字段，在第 1 行中提供标签，在第 2 行中提供其颜色。定义字段后，开始在第 4 行及以下行中填充数据。<br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202407051632946.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br>在饼图数据集中，每个节点都与多个数值相关联，这些数值直接在节点分支上或树外部显示为饼图。首先，您必须在标题中从 I 列开始定义饼图字段。对于每个字段，在第 1 行中提供标签并在第 2 行中提供其颜色。定义字段后，开始填充第 4 行及以下行中的字段数据。除了饼图值之外，您还必须为每个节点填充两列：<br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202407051633681.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
+Position: 7. 位置：如果该值为-1，饼图将是外部的（即显示在树的外部）。否则，它应该是 0 到 1 之间的数字，饼图将沿着节点分支定位在指定值处（位置 0 正好在节点分支的开始处，位置 0.5 位于中间，位置 1 位于节点分支的中间）。在最后）。<br>
+Radius: 半径：与所有其他饼图相比，饼图的相对半径。实际大小将取决于显示数据集时 iTOL 控件中的最大半径设置。对于外部饼图，半径将取决于叶之间的可用空间，并且可以通过在 iTOL 中的“高级”控制选项卡上设置垂直缩放系数来更改。<br><br>在热图中，每个节点都与多个数值相关联，这些数值显示为一组彩色框。当数据集在 iTOL 中可见时，值将映射到数据集选项中定义的颜色渐变。使用字母“X”指定缺失值或空值。首先，您必须在标题中定义从 G 列开始的字段。对于每个字段，在第 1 行中提供标签。定义字段后，开始填写第 3 行及以下行中的数据。<br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202407051634806.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br>在文本标签数据集中，每个节点都与单个文本标签相关联，该文本标签可以直接显示在节点分支上或树外部。 对于每个标签，可以指定确切位置、颜色、字体样式、大小系数和旋转程度。<br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202407051635179.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
+Position: 位置：如果该值为-1，标签将是外部的（即显示在树的外部）。否则，它应该是0到1之间的数字，并且标签将沿着节点分支定位在指定值处（位置0正好在节点分支的开始处，位置0.5在中间，位置1在结束）<br>
+Color: 颜色：标签的颜色<br>
+Style: 样式：标签的字体样式，可以是“正常”、“粗体”、“斜体”或“粗斜体”之一<br>
+Factor: 指定与全局字体大小相比的相对字体大小。<br>
+Text label: 文本标签：标签的实际文本。<br><br>在颜色渐变数据集中，每个节点都与一个数值相关联，该数值映射到树上的彩色框。显示数据集时，在 iTOL 控制框中定义与最小值和最大值（加上可选的中点值）相对应的颜色。在右侧的示例中，最小值显示为红色，最大值显示为蓝色。<br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202407051638866.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;">]]></description><link>软件\其它生信软件\itol注释编辑表格.html</link><guid isPermaLink="false">软件/其它生信软件/iTOL注释编辑表格.md</guid><pubDate>Fri, 05 Jul 2024 08:39:55 GMT</pubDate><enclosure url="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202407051618169.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202407051618169.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[摘要]]></title><description><![CDATA[ 
+ <br><br>该研究针对两个特殊的群体：从母居群体<a data-href="塞门德（Semende）" href="人文与科学术语\塞门德（semende）.html" class="internal-link" target="_self" rel="noopener">塞门德（Semende）</a>和从父居群体<a data-href="贝塞马（Besemah）" href="人文与科学术语\贝塞马（besemah）.html" class="internal-link" target="_self" rel="noopener">贝塞马（Besemah）</a>之间的遗传差异，特别关注Y染色体和线粒体DNA（mtDNA）的变异。研究背景指出，通常认为Y染色体在人群之间的遗传差异比mtDNA更大，这主要归因于人类文化中普遍存在的从父居现象。然而，这一观点存在争议，之前对从母居群体的分析结果并不一致。本文通过使用下一代测序技术，分析了两个群体的完整mtDNA基因组序列，并对Y染色体的单核苷酸多态性（Y-SNPs）和短串联重复序列（Y-STR）进行了分析。结果显示，Semende群体中的mtDNA多样性显著低于Besemah群体，这符合对从母居群体的预期。然而，两个群体之间的Y染色体多样性没有显著差异，这是一个意外发现。研究强调了使用完整mtDNA序列进行分析的重要性，因为仅使用部分序列可能会导致误导性的结果。该研究结果质疑了传统关于从父居现象对Y染色体多样性影响的观点，提出未来研究需要进一步探索不同文化背景下的群体遗传结构，以及完整基因组数据在这类研究中的应用价值。研究结果对理解人类迁徙模式及其对遗传多样性的影响提供了新的见解。<br><br>文化习俗对人类遗传多样性的影响在人类学遗传学中一直是一个长期存在的问题。人群之间的遗传差异通常在Y染色体的非重组区域（NRY）上比在线粒体DNA（mtDNA）上更大，这种模式被认为是由于从父居（patrilocality）导致的女性迁移率高于男性迁移率所致。<br>从父居（patrilocality）现象会导致群体内部的Y染色体多样性较低，但群体之间的Y染色体差异较大。同时，女性迁移率较高会导致群体内部的线粒体DNA多样性较高，但群体之间的mtDNA差异较小。因此，人群之间的遗传差异通常在Y染色体的非重组区域（NRY）上比在线粒体DNA（mtDNA）上更大，这种模式被认为是由于从父居（patrilocality）导致的。<br>约70%的人类社会中普遍存在从父居现象，这导致女性的有效群体大小大于男性。显而易见的检验这一假设的方法是，从母居群体之间的遗传差异应在mtDNA上大于NRY，而从母居群体的mtDNA多样性应低于从父居群体。确实，这一预测在首次比较泰国山地部落（hill tribes）中的母系和从父居群体的mtDNA和NRY变异模式时得到了验证<a data-footref="1" href="about:blank#fn-1-fdcff10621b52fca" class="footnote-link" target="_self" rel="noopener">[1]</a> <a data-footref="2" href="about:blank#fn-2-fdcff10621b52fca" class="footnote-link" target="_self" rel="noopener">[2]</a>。然而，后续对印度母系和从父居群体的研究未能发现预期的mtDNA与NRY多样性模式<a data-footref="3" href="about:blank#fn-3-fdcff10621b52fca" class="footnote-link" target="_self" rel="noopener">[3]</a>，而另一项研究则质疑了最初观察到的人类群体中NRY差异大于mtDNA差异的普遍性<a data-footref="4" href="about:blank#fn-4-fdcff10621b52fca" class="footnote-link" target="_self" rel="noopener">[4]</a>。显然，需要对更多的从母居群体进行研究，以确定居住模式对人类mtDNA和NRY多样性的普遍影响。本文报道了对印尼苏门答腊的从母居群体（Semende）和从父居群体（Besemah）的完整mtDNA基因组序列（通过下一代测序技术确定）以及NRY单倍群和Y-STR单倍型的分析。Semende群体中的线粒体单倍型多样性（HD）较低，并且Semende和Besemah之间的遗传距离显著较大，这符合从母居对mtDNA多样性影响的预期。然而，与几乎所有其他关于局部尺度上人类mtDNA与NRY多样性的研究相反，这两个群体之间在NRY上没有显著差异。结果强调了获得完整mtDNA基因组序列的重要性，因为仅分析部分序列（如之前的研究所做的那样）时，Besemah和Semende之间的HD没有显著差异。<br><br>
+<br>DNA样本收集：在苏门答腊九个地点收集唾液样本，共75份（Besemah群体38份，Semende群体37份）。    
+<br>线粒体DNA（mtDNA）基因组测序：对72份样本（每组36份）进行完整mtDNA基因组测序。    
+<br>Y染色体（NRY）分型：对12个Y-SNP和12个Y-STR位点进行分型。
+<br>数据分析：将mtDNA基因组序列分配到单倍群，计算多样性统计数据，并进行排列测试以比较群体间的多样性差异，使用BEAST软件生成BSP，并进行网络分析。
+<br><br>研究结果表明，从母居群体Semende的线粒体DNA（mtDNA）多样性显著低于从父居群体Besemah（P &lt; 0.001），这一差异在使用完整mtDNA基因组序列进行分析时尤为明显，而仅使用HV1区域序列则未能充分反映这一点。Semende群体中存在独特的单倍群M*和M1'51，这些在其他地方未发现的谱系表明从母居可能长期保留了这些遗传特征。与此相反，两个群体的Y染色体（NRY）多样性没有显著差异（P &gt; 0.05），主要包含O2单倍群，且其他Y-SNP和Y-STR的变异分布相似。这种相似性可能是由于Besemah群体最近从从母居转换为从父居，或是Y染色体分析的分辨率较低所致。<br>此外，本研究发现了一个罕见的 mtDNA 单倍群：M1'51 。之前的研究认为据信起源于亚洲西南部，并通过回迁带回非洲和南欧。除一名柬埔寨人外，迄今为止，亚洲尚未发现 M1'51的其他亚群。塞门德人拥有迄今为止在世界其他地方未发现的高频率 M* 和 M1'51 谱系，这表明这些谱系可能通过母系习俗在母系人群中保留了很长一段时间。<br>文化习俗对遗传变异的影响得到了确认，从母居群体Semende保留了独特的mtDNA谱系，显示出较低的遗传多样性，而Besemah群体的mtDNA谱系则显示出东南亚高频率的单倍群，表明有较大的mtDNA基因流动，这是从父居社会的预期结果。研究结果强调了使用完整mtDNA基因组序列进行分析的重要性，并解释了以往研究未能发现母系和从父居群体之间遗传多样性差异的原因。总体而言，这项研究验证了文化习俗能够影响遗传变异，同时也表明从母居对群体遗传多样性的影响可能比预期的更为复杂和重要。<br><br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202407031603093.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
+图1 | Semende 和 Besemah 的 mtDNA 和 NRY 单倍群频率。<br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202407031603589.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
+表 1 | mtDNA 的单倍群频率。<br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202407031603165.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
+表 2 | mtDNA 和 Y 染色体的汇总统计数据。<br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202407031604733.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
+表 3 | Y 染色体单倍群频率。<br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202407031604631.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
+图2|有效人口规模随时间变化的贝叶斯天际线图。基于 mtDNA 编码区域的 BSP，通过 3000 万次 MCMC 迭代进行估计，每 3,000 步采样一次。每个图的 y 轴是有效种群规模和生成时间的乘积，x 轴显示时间。使用的突变率为每年每个位点 1.69×10-8。 (a) Besemah 的 BSP，使用所有 36 个序列。 (b) Semende 的 BSP，使用所有 36 个序列。<br><br><br><br><br><br>
+<br>
+<br>Hamilton, G., Stoneking, M. &amp; Excoffier, L. Molecular analysisreveals tighter social regulation of immigration in patrilocalpopulations than in matrilocal populations. Proc. Natl Acad. Sci.USA 102, 7476-7480 (2005).<a href="about:blank#fnref-1-fdcff10621b52fca" class="footnote-backref footnote-link" target="_self" rel="noopener"><span></span>︎</a><img class="emoji" draggable="false" alt="↩" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/21a9.svg" height="16px" style="max-width: 100%;">
+<br>Oota, H., Settheetham-lshida, W., Tiwawech, D., Ishida, T. &amp;Stoneking, M. Human mtDNA and Y-chromosome variation iscorrelated with matrilocal versus patrilocal residence. Nat. Genet.29,20-21 (2001).<a href="about:blank#fnref-2-fdcff10621b52fca" class="footnote-backref footnote-link" target="_self" rel="noopener"><span></span>︎</a><img class="emoji" draggable="false" alt="↩" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/21a9.svg" height="16px" style="max-width: 100%;">
+<br>Kumar, V. et al. Global patterns in human mitochondrial DNA and Y-chromosome variation caused by spatial instability of the local cultural processes. PLoS Genet. 2, 420–424 (2006).<a href="about:blank#fnref-3-fdcff10621b52fca" class="footnote-backref footnote-link" target="_self" rel="noopener"><span></span>︎</a><img class="emoji" draggable="false" alt="↩" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/21a9.svg" height="16px" style="max-width: 100%;">
+<br>Wilder, J. A., Kingan, S. B., Mobasher, Z., Pilkington, M. M. &amp; Hammer, M. F. Global patterns of human mitochondrial DNA and Y-chromosome structure are not influenced by higher migration rates of females versus males. Nat. Genet. 36, 1238 (2004).<a href="about:blank#fnref-4-fdcff10621b52fca" class="footnote-backref footnote-link" target="_self" rel="noopener"><span></span>︎</a><img class="emoji" draggable="false" alt="↩" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/21a9.svg" height="16px" style="max-width: 100%;">
+]]></description><link>文献及报道\文献\2010-nature-communications-苏门答腊岛母系和父系群体之间线粒体-dna-的差异大于-y-染色体差异.html</link><guid isPermaLink="false">文献及报道/文献/2010 Nature Communications 苏门答腊岛母系和父系群体之间线粒体 DNA 的差异大于 Y 染色体差异.md</guid><pubDate>Fri, 05 Jul 2024 14:19:48 GMT</pubDate><enclosure url="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f44d.svg" length="0" type="image/svg+xml"/><content:encoded>&lt;figure&gt;&lt;img src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f44d.svg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[摘要]]></title><description><![CDATA[ 
+ <br>
+The origin and evolution history of East Asian populations from genetic perspectives
+<br><br>东亚是研究解剖学意义上现代人迁徙和演化的重要地带之一,该地区现代人群的起源及形成问题一直都是人类学领域广泛关注的焦点。遗传学研究为重建东亚人群历史提供了新的视角和见解。越来越多的遗传学证据表明,现代人约20万年前起源于非洲的晚期智人,并于10万年前走出非洲,大约在5~6万年前沿海岸线快速到达东亚南部,进而扩散到整个东亚地区。早期智人可能对走出非洲的现代人有一定程度的遗传贡献。早期定居、文化同化、人群迁徙以及基因交流等,对东亚人群的起源和演化起着至关重要的作用。前期的研究对东亚人群的源流历史进行了细致的分析,很大程度上解决了考古学、历史学等领域长期以来存在的分歧,然而这还需通过全基因组学和古DNA研究的进一步验证。本文从遗传学视角梳理和总结了东亚人群起源、迁徙和演化的历史,完善了对东亚人群演变的系统认识,并对未来东亚人群源流历史研究的发展方向做了展望。<br><br>东亚位于欧亚大陆东部,连接东南亚、中亚和北亚地区,是研究<a data-href="解剖学意义上现代人(anatomically modern human, AMH)" href="解剖学意义上现代人(anatomically modern human, AMH)" class="internal-link" target="_self" rel="noopener">解剖学意义上现代人(anatomically modern human, AMH)</a>迁徙扩散和演化的重要地带之一。该地区幅员辽阔、地形地貌复杂多样,有超过16亿的人口数量,大约占全世界人口总数的1/4。同时,环境资源丰富、民族文化众多等背景条件,使得东亚成为研究人类起源演化、民族族源历史和语言农业文化传播等的重要地区之一。<br>在过去的几十年中,对东亚人群的遗传学研究主要集中在线粒体DNA(mitochondrial DNA, mtDNA)和Y染色体(Y chromosome)方面。在mtDNA研究方面,从最初的限制性片段长度多态(restriction fragment length polymorphism, RFLP)[1],到高变区(hypervariable segments, HVS)和部分编码区测序[2,&nbsp;3],再到mtDNA全基因组测序[4,&nbsp;5],mtDNA研究已经成为揭示东亚人群起源演化的主要手段之一。尤其是中国科学院昆明动物研究所张亚平研究员团队基于高分辨率的mtDNA全基因组数据构建的东亚人群系统发育树[4,&nbsp;5],以及由此发展而出的用于甄别人为重组(artificial recombination)等质量问题的方法[6],在揭示东亚人群的源流历史及民族演化中发挥了重要作用。<br>Y染色体的研究目前则以非重组区(non- recombination regions of Y chromosome, NRY)的单核苷酸多态性(single nucleotide polymorphism, SNP)以及短串联重复序列(short tandem repeat, STR)为主。基于Y染色体遗传多态性等信息,复旦大学金力教授团队从父系遗传角度系统探讨东亚人群的起源、迁徙和遗传结构,对东亚人群是否起源于本土等重大问题提供了新的认识,奠定了东亚人群起源、迁徙历史和遗传结构的框架基础[7,8,9,10]。近年来,随着mtDNA和Y染色体系统发育树的不断完善[11,12,13],东亚人群的遗传历史也得到了更为精细的解析。<br>随着技术的发展,大量基因组数据得以获得和积累,使得研究人员可以更加详尽地研究东亚人群的遗传结构和进化历史。2003年人类基因组计划(human genome project, HGP)首次完成了人类基因组全图的绘制,随后“国际人类基因组单体型图谱计划(international hapMap project)”和“人类基因组多样性计划(human genome diversity project, HGDP)”对人类全基因组结构进一步深入研究。2008年由中国华大基因、英国Sanger研究所及美国国立人类基因组研究所联合启动的“千人基因组计划(1000 genomes project, 1KG)”,更深层次地绘制出人类基因组多态性分布水平以及稀有突变,是大规模基因组测序时代的一个里程碑。这些公共数据集对全面深入了解东亚人群遗传结构提供了重要的数据支撑和参照[14]。此外,基于东亚人群全基因组SNP[15,&nbsp;16]、全外显子组数据[17]以及重测序数据[18]等开展的研究,也取得了一些重要的进展。近年来,古DNA研究,包括现代人古DNA以及早期智人古DNA的测序,则为全面揭示东亚人群的遗传结构演变历史提供了新的线索。2017年中国科学院古脊椎动物与古人类研究所的付巧妹团队对北京房山出土的4万年前的田园洞人骨骼化石进行了全基因组测序[19]。这是东亚第一个古人类全基因组分析,也是整个东亚地区最古老的人类基因组,填补了东亚古DNA研究在空间和时间尺度上的空白。<br>基于不同的分子标记的研究,人们对东亚人群的遗传学研究主要集中在起源、迁徙、民族遗传格局形成等方面。本文将主要从以上这几个方面系统地探讨东亚人群的起源和演化历史。<br><br>关于现代人群的起源,主要有两种对立的假说：“本地起源说(multiregional hypothesis)”与“非洲起源说(recent African origin model)”。这两种假说均认为,早期智人(early homo sapiens或archaic humans)和晚期智人(即现代人,homo sapiens)的共同祖先直立人(homo erectus)起源于非洲,并在200万年前走出非洲扩散到世界其他地区。不同之处在于,前者认为现代人源于本土的早期智人;而后者认为,现居世界各地的现代人均来自20万年前起源于非洲的晚期智人,约在10万年前走出非洲,进而扩散到达欧亚大陆。<br>由于东亚出土了大量形态学上连续的古人类化石,因此考古学认为东亚人群是从本地的早期智人(如许昌人[20]、马鹿洞人[21]等, <a data-tooltip-position="top" aria-label="http://www.chinagene.cn/article/2018/0253-9772/0253-9772-40-10-814.shtml#F1" rel="noopener" class="external-link" href="http://www.chinagene.cn/article/2018/0253-9772/0253-9772-40-10-814.shtml#F1" target="_blank">图1</a>)演化而来,即“本地起源”[22]。近年来,在中国湖南省道县发现的极其古老的现代人化石,由于其年代(8~12万年前)比“非洲起源说”认为的现代人到达东亚的时间(5~6万年前)要早得多[23],因而被看作是支持“本地起源”的最有力的直接证据。然而,由于分子钟估算的走出非洲的时间本身还存在很大争议,例如利用较慢的分子钟推测的欧亚人与非洲人的分歧时间约为10万年左右[24],与该化石样本的时间极为相似。最近在以色列史前洞穴发现的智人化石(17.7~19.4万年),则将人类走出非洲的时间推前了至少约5.5万年[25]。而基于12万年前的尼安德特人(Neanderthal)化石样本mtDNA测序数据所推测的现代人走出非洲的时间更早,约为47万到22万年前[26]。因此,该化石所代表的古老群体也有可能在10万年前或更早的时间与现代欧亚人祖先一起走出非洲到达东亚。另外,如果该古老群体确实从东亚古人类演化而来,那么他们究竟是进一步演化成东亚的现代人群,还是被后来走出非洲的东亚人祖先完全替代,还需要分子遗传学的证据进一步核实[27]。<br>“非洲起源说”的证据则主要来自分子遗传学的研究。1987年,Cann等[1]过对全球范围内147例个体的mtDNA的RFLP进行分析,结果发现非洲以外的个体均属于非洲特有类群(L3)的衍生支系。东亚人群mtDNA及Y染色体的遗传变异研究,也进一步支持了东亚人群起源于非洲的观点。中国科学院昆明动物研究所孔庆鹏等[5,&nbsp;11]先后系统地分析了数千个东亚个体的mtDNA基因组序列数据,结果揭示东亚所有已鉴定的母系世系均源于非洲,未发现任何源自本地直立人的母系遗传贡献。在Y染色体研究方面,复旦大学金力教授团队也发现东亚现代人中普遍存在的3个变异位点(M89、M130和YAP)均源自非洲古老突变M168[7,8,9],与“非洲起源说”一致。利用全基因组重测序技术,随后对来自东亚的YH (汉族个体)、SJK(韩国人)等个体的研究,也进一步支持东亚人群起源于非洲[14]。<br><br>尽管东亚人群的主体遗传类型来自非洲,越来越多的全基因组证据表明,欧亚大陆上的早期智人可能对走出非洲的现代人有一定程度的遗传贡献[28,29,30]。2010年,Green等[28]对克罗地亚尼安德特人的骨遗骸样本进行了全基因组测序,结果发现,包括东亚人群在内的所有欧亚人群中,约有1%~4%的遗传组分与尼安德特人相似。进一步研究也提示东亚人群中确实存在与尼安德特人相似的遗传组分,并且这种组分在东亚人群(9.6%)中要高于欧洲人群(6.4%)[31]。另外,在亚洲东部的现代人群中还发现了与西伯利亚地区的古人类丹尼索瓦人(Denisova)相似的遗传组分[29,&nbsp;30]。该遗传组分主要分布在大洋洲(约3%~6%)[30],随后也被证明在东亚人群中有少量分布(0.2%)[32]。<br>对这种遗传共享现象,目前的解释主要有两种模型：<br>
+<br>一种认为现代人走出非洲后与当地的早期智人发生了遗传交流[29,&nbsp;30],即“后期基因交流模型(archaic introgression model)”;
+<br>另一种则认为,现代人与当地早期智人共享的遗传组分可能是他们的共同祖先就已存在遗传分化,由于同源关系导致部分现代人(如欧亚人群)保留了与早期智人相似的基因片段,即“早期非洲子群体模型(ancient population structure model)”[33]。<br>
+由于共享的古老基因片段发生重组的时间存在差异,因此在后期基因交流模型下,共享的基因片段长度比早期非洲子群体模型下的要长[34]。而根据尼安德特人和现代人共享基因片段的长度,研究者推测二者发生基因交流的时间是4.7~6.5万年前[35],比早期智人与现代人发生分化的时间(27.5~38.3万年前)晚的多[36],从而支持“后期基因交流模型”。同样,丹尼索瓦人与大洋洲及东亚人群的遗传共享,也被证明是后期基因交流的结果[29,&nbsp;30]。还有研究认为,藏族人群中的高原适应基因EPAS1也可能源于丹尼索瓦人[37],不过也有研究对该观点提出了质疑[38]。
+<br>由此可见,尽管东亚人群的mtDNA、Y染色体以及核基因的主体遗传组分来自非洲,但后期也有可能接受了来自早期智人的遗传贡献,因此其进化历史可能更为复杂。而这些可能源自早期智人的遗传组分,对东亚人群的起源扩散历史,更是有着非常重要的提示作用。<br><br><br>越来越多的遗传学研究表明,现代人在更新世晚期走出非洲并且快速扩散到欧亚大陆以及大洋洲等地区[1,&nbsp;39~41]。进一步的研究表明现代人祖先通过一条“南部”迁徙路线从非洲撒哈拉以南沿海岸线扩散(<a data-tooltip-position="top" aria-label="http://www.chinagene.cn/article/2018/0253-9772/0253-9772-40-10-814.shtml#F1" rel="noopener" class="external-link" href="http://www.chinagene.cn/article/2018/0253-9772/0253-9772-40-10-814.shtml#F1" target="_blank">图1</a>),大约在5~6万年前到达东亚南部[42],并且该扩散是一个相当快速的过程[43,&nbsp;44]。<br>东亚人群祖先到达东亚后,开始了向东亚内陆的大规模迁徙,进而扩散到整个东亚地区。这些迁徙主要发生在末次盛冰期(last glacial maximum, LGM)[45]之后,可能是由于气候变暖所导致[7,&nbsp;46]。<br>
+<br>冰期后的迁徙路线有多条,包括从中国南部向西延展到印度东北部和喜马拉雅以南地区的扩散[47],
+<br>以及经河流从东南亚进入东亚地区的迁徙[48]。
+<br>此外,Y染色体的研究还表明,在冰期之后,还有少部分现代东亚人群是来自中亚和西部欧亚的遗传输入(约7%)[49]。<br>
+由此看来,最初走出非洲的现代人主要是沿海岸线迁徙,而随后(主要是冰期后)主要是沿内陆迁徙路线以及北方路线扩散进入东亚。
+<br><br>关于人类走出非洲的次数,目前也存在很大争议,争议的焦点主要是东亚人群是否与澳洲人群来自同一次扩散。早期基于mtDNA的研究认为,澳洲及欧亚人群中的3个超类群(M、N和R)的溯祖时间很相似,由此推测这些地区的人群可能来自走出非洲的同一次迁徙[43,&nbsp;50]。而全基因组的研究则得出了不同的结论。通过对澳洲土著人的全基因组研究发现,澳洲土著人群和欧亚人群是分别是来自7.5~6.2万年前以及3.8~2.5万年前的不同迁徙事件[51]。这一观点得到了来自丹尼索瓦人基因组研究的支持。由于丹尼索瓦人的遗传组分主要分布于大洋洲等地区,因此Reich等[30]提出,现代人走出非洲可能有两次：第一次走出的人群即大洋洲人群的祖先,可能与丹尼索瓦人发生了基因交流;而第二次走出的人群主要演化成了现代的欧亚人群。<br>值得注意的是,与欧亚人群类似,该澳洲土著人也携带有尼安德特人的遗传组分,这其实是与单扩散模型更加吻合的[31]。因此,在多扩散模型下,对该现象的可能的解释有两种：<br>
+<br>一种是人类走出非洲确有两次,而两次不同时间的扩散均与尼安德特人发生了基因交流;
+<br>第二种是现代人与尼安德特人的基因交流可能早在10万年前就已发生,之后这部分现代人又返回非洲[52],继而分别在7万年前以及3万年前发生两次不同的扩散。<br>
+到目前为止,这两种解释还都存在一定的不确定性,因此东亚人群与澳洲人是否来自不同的迁徙事件,业界仍然没有定论。而该问题的解决,很大程度上依赖于更多全基因组数据的深入研究,以及更精确的时间估算。
+<br><br>东亚人群经历了复杂的历史过程和文化演变,形成了现今语言、文化多样的民族群体。<br>那么,在这些多样的民族形成过程中,哪些因素起着重要作用?民族的形成是否仅仅是文化扩散的产物?不同族源历史的民族之间是否存在遗传分化和遗传交流?遗传学的研究为这些问题的解答提供了重要的思路和线索。<br><br>尽管民族的形成是相对近期的事件,但在不同的民族人群中,仍然保留了早期定居东亚的人群遗传印记。<br>例如在藏族人群中,就发现了其特有的古老组分(mtDNA单倍型类群M62b),该组分可追溯至旧石器晚期[53]。这表明,藏族人群除了新石器时期来自中国北方的遗传组分以外[53,54,55],还保留着古老的、代表早期定居青藏高原东亚人祖先的遗传组分[53]。随后的全基因组研究也表明藏族的起源时间十分古老,大约可以追溯至6.2~3.8万年前[18]。此外,在中国南方少数民族人群中,也发现了大量的mtDNA基部类群,如M74、M75、M76、N10和N11等,这些类群从欧亚超类群M和N直接衍生出来,其年代也非常古老(5~6万年前),因此很有可能是早期定居东亚的人群遗传印记[11]。对汉族人群的mtDNA研究也表明,汉族人群的母系遗传结构更多地保留了冰期后的遗传组分[3]。<br>值得注意的是,这些古老的遗传组分在不同的民族人群中也存在特异分布。如M62b局限分布在藏族人群中[53],M74等类群则主要分布在中国西南的少数民族中[11]。这说明,这些史前时期的古老组分对民族遗传背景、乃至民族遗传结构的形成也起到了相当重要的作用。<br><br>同一个民族往往有着相同的文化,而民族的形成究竟是文化同化的产物,还是由人群的迁徙所主导?<br>基于东南亚壮侗语系(Tai-Kadai)人群的mtDNA数据,Kutannan等[56]比较了人口扩散(demic diffusion model)、文化扩散(culture diffusion model)以及混合模型(admixture model)。结果表明,该语系从中国扩散至东南亚地区遵循人口扩散模式。也就是说,来自中国南方的人群迁徙在东南亚壮侗语系民族的形成中起着十分重要的作用[56]。<br>扩散模式的区别！
+
+<br>人口扩散模型：如果这种迁移是通过人口扩散模型实现的，我们会在东南亚看到几乎完全相同的中国西南地区的遗传标记。东南亚原住民的遗传特征会被显著稀释甚至消失。
+<br>文化扩散模型：如果这种迁移是通过文化扩散模型实现的，东南亚的人群遗传标记不会发生显著变化，他们依然保持原有的遗传特征。但他们可能采用了中国西南地区的文化和技术，比如语言、农业方式等。
+<br>混合模型：如果这种迁移是通过混合模型实现的，我们会在东南亚看到混合的遗传标记。东南亚群体会显示出来自中国西南地区和本地原住民的基因特征。
+
+<br>相比之下,汉族的形成则比较复杂。来自mtDNA以及全基因组的证据均表明汉族存在着明显的南北分化[3,&nbsp;57,&nbsp;58],而这一分化提示了汉族的形成在很大程度上是对南方土著人群的文化征服和同化[3],即文化扩散模式。<br>而基于Y染色体的研究,文波等[59]进一步发现汉族Y染色体的南北分化并不显著,因此推测汉文化向南扩散其实是伴随着大规模人口迁徙的,只不过这一过程是由男性所主导。因此,汉文化的扩张模式存在明显的性别差异,这也提示了文化扩散和人口扩散的相互作用可能在汉族的形成中发挥了重要作用。<br>同样,这种相互作用在中国西北以及邻近的中亚地区尤为普遍。越来越多的研究表明,中亚人群是欧亚东西部人群在各自扩张过程中发生文化交流和基因融合的结果。例如,在mtDNA研究方面,姚永刚等[60]详细分析了新疆地区5个少数民族(维吾尔族、乌孜别克族、哈萨克族、蒙古族和回族)和中亚人群的mtDNA遗传结构,发现这些群体都可以划分到东亚或者欧洲特有的世系类型,从遗传学上支持欧亚人群之间的遗传融合假说。另外,不同民族群体中欧洲和东亚组分比例各不相同,这些遗传差异可能是不同群体的族源历史、迁徙历史、婚俗习惯等不同的群体历史事件造成的[60]。近期冯启迪等[16]对维吾尔族人群的全基因组SNP数据的研究,则更加细致地重建了维吾尔族人群的混合模型,并且揭示了东西方的遗传交流始自青铜时代,这与小河墓地所发现的木乃伊古DNA研究结果吻合[61]。<br><br>在中国少数民族古老的历史记载中,有着氐羌、九黎、三苗、百越等古老的部落。<br>
+<br>百越部落是古代北方中原诸国对南方楚越地区众多古老部落的泛称,其中“百”是多数的意思。早在2000~3000年前,百越部落广泛分布在中国东南沿海一带,现今主要分布在广西的壮族、贵州的水族以及云南的傣族等都可追溯到古老的百越部落[62]。
+<br>氐羌部落发源于甘肃、宁夏和青海等地,在4000~5000年前就陆续地向中国西南地区迁徙,并与当地的土著人群发生融合,如今分布在云南地区的彝族、傈僳族、白族、纳西族和拉祜族等民族都是这些古老氐羌部落的后代[62]。
+<br>族源历史和语言也呈现对应关系,例如百越、九黎、氐羌、百濮等族源的人群,分属于壮侗语系、苗瑶语系、藏缅语族和南亚语系等。
+<br><br>那么这些不同族源历史的少数民族在遗传结构上是否也有相应的差异?文化上的差异性和相似性是否留下了遗传上的印记?
+研究人员对氐羌、百越以及九黎部落等族源的民族开展了mtDNA和Y染色体的遗传结构分析,不同的研究均表明,族源不同的群体间存在遗传差异,族源印记或多或少在群体遗传结构上得到了保留[63,&nbsp;64]。
+<br>例如,氐羌部落民族有着更多的源自中国北方的遗传组分,与他们源自中国北方的历史记载吻合[63]。百越民族人群保留了较多的南方土著组分,他们的群体扩张时间也相对的更为古老[63]。苗瑶语系人群的母系遗传组分更可能来自南方;苗族与东亚北方的群体有着更多的遗传交流,这与历史记录相符[64]。同样,中国东北部少数民族(达斡尔族、鄂温克族、朝鲜族、蒙古族和鄂伦春族)的mtDNA主要单倍型类群都是北方群体常见类群D、G、C和Z等,与他们北方起源的历史记载一致[65]。<br>随后基于全基因组SNP分型数据的研究,也表明东亚人群的遗传结构与语言结构,而非地理位置,有很好的对应,表明不同族源的人群在遗传结构上确实存在一定的分化[15]。<br>另外,不同地区的同一民族群体间也存在一定的遗传差异,可能是这些群体对古老遗传印记不同程度的保留以及后期各自经历了不同的群体历史事件所致。例如,氐羌部落在向南迁徙的过程中,父系方面更多地保留了北方移民的组分,而母系方面则主要源自南方原住居民[66]。一些氐羌民族,例如拉祜族和怒族,在南迁的过程中可能经历了建群者效应[63]。<br><br>从遗传学角度研究东亚人群的遗传结构,有助于解决东亚人群的起源和迁徙等方面的争议,为东亚人群的迁徙和演化历史提供新的线索。这不仅在人类进化遗传学方面意义显著,也为医学遗传学、生物信息学、法医学等研究提供了大规模遗传信息数据平台,同时也为东亚人群适应性进化机制研究提供了一个极为良好的参照系。<br>采用不同分辨率的mtDNA、Y染色以及全基因组数据,前期的研究对东亚人群的源流历史做了细致的分析,很大程度上解决了考古学、历史学等领域长期以来存在的分歧。然而,由于技术的局限,前期研究或多或少地受到了来自样本量以及数据分辨率的限制。因此,以往研究得出的结论还有待大覆盖度、高分辨率的遗传学数据(尤其是Y染色体及全基因组测序数据)的进一步验证。随着DNA测序技术的发展进步和全基因组测序技术的推广,群体全基因组学的工作将是未来遗传学研究的主流。千人基因组数据的公布以及“中国十万人基因组计划”的启动,为人们从全基因组的角度来探讨东亚人群的起源迁徙历史提供了新的契机。现今测序手段的进步和大数据的出现有望展现出关于人群迁移扩散历史更多的细节,帮助我们更全面地了解现代人的历史。<br>作为考古学与遗传学学科交叉产生的古DNA研究已成为追溯人类历史的一个重要手段。在现代人群遗传结构的研究基础上,对古人遗骸进行DNA的研究分析,为不同地区、不同时间的古代人群的遗传多样度和演化进程提供了更为直接的证据支持。将考古文化与古DNA测序,与现代人的遗传结构相结合,将会描绘出东亚波澜壮阔的人类演化历史。欧美地区的古DNA遗传学研究日臻成熟,目前已经有众多突破性研究成果[67,68,69,70]。然而,在东亚地区,关于古代DNA的研究仍十分有限[19,&nbsp;71],我们还有很长一段路要走。随着东亚地区古DNA研究的逐步开展,相信东亚人群的起源演化研究将会取得更多令人瞩目的研究成果。<br><br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202407061934891.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
+图1&nbsp;&nbsp;&nbsp;走出非洲路线图及东亚人群mtDNA系统发育树现代人祖先走出非洲的时间和路线分别在地图上用红色数字和线条标出,时间单位千年(Kya, kilo years ago)。地图上标注出了一些东亚人群常见mtDNA单倍型类群,与系统发育树色块相一致。代表性的现代人遗址和早期智人遗址在地图上分别用不同颜色和序号做了标记。<br><br>[1]<br>
+Cann RL, Stoneking M, Wilson AC .<br>
+Mitochondrial DNA and human evolution<br>Nature, 1987,325(6099):31-36.<br>
+URL     [本文引用: 3]<br>[2]<br>
+Yao YG, Lü XM, Luo HR, Li WH, Zhang YP .<br>
+Gene admixture in the silk road region of China: evidence from mtDNA and melanocortin 1 receptor polymorphism<br>Genes Genet Syst, 2000,75(4):173-178.<br>
+URL     [本文引用: 1]<br>[3]<br>
+Yao YG, Kong QP, Bandelt HJ, Kivisild T, Zhang YP .<br>
+Phylogeographic differentiation of mitochondrial DNA in Han Chinese<br>Am J Hum Genet, 2002,70(3):635-651.<br>
+URL     [本文引用: 4]<br>[4]<br>
+Kong Q, Yao Y, Sun C, Bandelt H, Zhu C, Zhang Y .<br>
+Phylogeny of east asian mitochondrial DNA lineages inferred from complete sequences<br>Am J Hum Genet, 2003,73(3):671-676.<br>
+URL     [本文引用: 2]<br>[5]<br>
+Kong QP, Bandelt H-J, Sun C, Yao YG, Salas A, Achilli A, Wang C-Y, Zhong L, Zhu CL, Wu SF .<br>
+Updating the east asian mtDNA phylogeny: a prerequisite for the identification of pathogenic mutations<br>Hum Mol Genet, 2006,15(13):2076-2086.<br>
+URL     [本文引用: 3]<br>[6]<br>
+Kong QP, Salas A, Sun C, Fuku N, Tanaka M, Zhong L, Wang CY, Yao YG, Bandelt HJ .<br>
+Distilling artificial recombinants from large sets of complete mtDNA genomes<br>PLoS One, 2008,3(8):e3016.<br>
+URL     PMID:18714389      [本文引用: 1]  <br>[7]<br>
+Su B, Xiao J, Underhill P, Deka R, Zhang W, Akey J, Huang W, Shen D, Lu D, Luo J, Chu J, Tan J, Shen P, Davis R, Cavalli-Sforza L, Chakraborty R, Xiong M, Du R, Oefner P, Chen Z, Jin L .<br>
+Y-Chromosome evidence for a northward migration of modern humans into eastern asia during the Last Ice Age<br>Am J Hum Genet, 1999,65(6):1718-1724.<br>
+URL     [本文引用: 3]<br>[8]<br>
+Jin L, Su B .<br>
+Natives or immigrants: modern human origin in East Asia<br>Nat Rev Genet, 1(2):126-133.<br>
+URL     PMID:11253652      [本文引用: 2] <br>[9]<br>
+Ke Y, Su B, Song X, Lu D, Chen L, Li H, Qi C, Marzuki S, Deka R, Underhill P .<br>
+African origin of modern humans in east asia: a tale of 12,000 Y chromosomes<br>Science, 2000,292(5519):1151-1153.<br>
+URL     PMID:11349147      [本文引用: 2] <br>[10]<br>
+Yan S, Wang CC, Zheng HX, Wang W, Qin ZD, Wei LH, Wang Y, Pan XD, Fu WQ, He YG .<br>
+Y chromosomes of 40% chinese descend from three neolithic super-grandfathers<br>PLoS One, 2004,9(8):e105691.<br>
+[本文引用: 1]<br>[11]<br>
+Kong QP, Sun C, Wang HW, Zhao M, Wang WZ, Zhong L, Hao XD, Pan H, Wang S-Y, Cheng YT .<br>
+Large-scale mtDNA screening reveals a surprising matrilineal complexity in East Asia and its implications to the peopling of the region<br>Mol Biol Evol, 2001,28(1):513-522.<br>
+[本文引用: 4]<br>[12]<br>
+Peng MS, He JD, Fan L, Liu J, Adeola AC, Wu SF, Murphy RW, Yao YG, Zhang YP .<br>
+Retrieving Y chromosomal haplogroup trees using GWAS data<br>Eur J Hum Genet, 2004,22(8):1046-1050.<br>
+URL     PMID:4350590      [本文引用: 1] <br>[13]<br>
+Van OM, Van GA, Kayser M, Decorte R, Larmuseau MH .<br>
+Seeing the wood for the trees: a minimal reference phylogeny for the human Y chromosome<br>Hum Mutat, 2014,35(2):187-191.<br>
+URL     PMID:24166809      [本文引用: 1]  <br>[14]<br>
+Li H, Durbin R .<br>
+Inference of human population history from individual whole-genome sequences<br>Nature, 2011,475(7357):493-496.<br>
+URL     PMID:21753753      [本文引用: 2] <br>[15]<br>
+Abdulla MA, Ahmed I, Assawamakin A, Bhak J, Brahmachari SK, Calacal GC, Chaurasia A, Chen CH, Chen J, Chen YT, Chu J, Cutiongco-de la Paz EMC, De Ungria MCA, Delfin FC, Edo J, Fuchareon S, Ghang H, Gojobori T, Han J, Ho SF, Hoh BP, Huang W, Inoko H, Jha P, Jinam TA, Jin L, Jung J, Kangwanpong D, Kampuansai J, Kennedy GC, Khurana P, Kim HL, Kim K, Kim S, Kim WY, Kimm K, Kimura R, Koike T, Kulawonganunchai S, Kumar V, Lai PS, Lee JY, Lee S, Liu ET, Majumder PP, Mandapati KK, Marzuki S, Mitchell W, Mukerji M, Naritomi K, Ngamphiw C, Niikawa N, Nishida N, Oh B, Oh S, Ohashi J, Oka A, Ong R, Padilla CD, Palittapongarnpim P, Perdigon HB, Phipps ME, Png E, Sakaki Y, Salvador JM, Sandraling Y, Scaria V, Seielstad M, Sidek MR, Sinha A, Srikummool M, Sudoyo H, Sugano S, Suryadi H, Suzuki Y, Tabbada KA, Tan A, Tokunaga K, Tongsima S, Villamor LP, Wang E, Wang Y, Wang H, Wu JY, Xiao H, Xu S, Yang JO, Shugart YY, Yoo HS, Yuan W, Zhao G, Zilfalil BA .<br>
+Mapping human genetic diversity in Asia<br>Science, 2009,326(5959):1541-1545.<br>
+URL     [本文引用: 2] <br>[16]<br>
+Feng Q, Lu Y, Ni X, Yuan K, Yang Y, Yang X, Liu C, Lou H, Ning Z, Wang Y .<br>
+Genetic history of Xinjiang's Uyghurs suggests Bronze Age multiple-way contacts in Eurasia<br>Mol Biol Evol, 2017,34(10):2572-2582.<br>
+URL     PMID:28595347      [本文引用: 2] <br>[17]<br>
+Yi X, Liang Y, Huerta-Sanchez E, Jin X, Cuo ZX, Pool JE, Xu X, Jiang H, Vinckenbosch N, Korneliussen TS, Zheng H, Liu T, He W, Li K, Luo R, Nie X, Wu H, Zhao M, Cao H, Zou J, Shan Y, Li S, Yang Q, Asan, Ni P, Tian G, Xu J, Liu X,Jiang T, Wu R, Zhou G, Tang M, Qin J, Wang T, Feng S, Li G, Huasang, Luosang J, Wang W, Chen F, Wang Y, Zheng X, Li Z, Bianba Z, Yang G, Wang X, Tang S, Gao G, Chen Y, Luo Z, Gusang L, Cao Z, Zhang Q, Ouyang W, Ren X, Liang H, Zheng H, Huang Y, Li J, Bolund L, Kristiansen K, Li Y, Zhang Y, Zhang X, Li R, Li S, Yang H, Nielsen R, Wang J .<br>
+Sequencing of fifty human exomes reveals adaptation to high altitude<br>Science, 2010,329(5987):75-78.<br>
+URL     PMID:20595611      [本文引用: 1]  <br>[18]<br>
+Lu D, Lou H, Yuan K, Wang X, Wang Y, Zhang C, Lu Y, Yang X, Deng L, Zhou Y .<br>
+Ancestral origins and genetic history of Tibetan Highlanders<br>Am J Hum Genet, 2016,99(3):580-594.<br>
+URL     [本文引用: 2]<br>[19]<br>
+Yang MA, Gao X, Theunert C, Tong H, Aximu-Petri A, Nickel B, Slatkin M, Meyer M, Pääbo S, Kelso J, Kelso J, Fu Q .<br>
+40,000-Year-old individual from Asia provides insight into early population structure in Eurasia<br>Curr Biol, 2017,27(20):3202-3208.<br>
+URL     [本文引用: 2]<br>[20]<br>
+Li ZY, Wu XJ, Zhou LP, Liu W, Gao X, Nian XM, Trinkaus E .<br>
+Late Pleistocene archaic human crania from Xuchang, China<br>Science, 2017,355(6328):969-972.<br>
+URL     PMID:28254945      [本文引用: 1]  <br>[21]<br>
+Curnoe D, Ji X, Wu L, Bao Z, Taçon PS, Ren R .<br>
+A hominin femur with archaic affinities from the Late Pleistocene of southwest China<br>PLoS One, 2015,10(12):e0143332.<br>
+URL     PMID:4683062      [本文引用: 1]  <br>[22]<br>
+Wu XZ .<br>
+The evolution of humankind in China<br>Acta Anthropol Sin, 1990,9(4):312-321.<br>
+URL     [本文引用: 1]<br>吴新智 .<br>
+中国远古人类的进化<br>人类学学报, 1990,9(4):312-321.<br>
+URL     [本文引用: 1]<br>[23]<br>
+Liu W, Martinóntorres M, Cai YJ, Xing S, Tong HW, Pei SW, Sier MJ, Wu XH, Edwards RL, Cheng H, Li YY, Yang XX, de Castro JM, Wu XJ .<br>
+The earliest unequivocally modern humans in southern China<br>Nature, 2015,526(7575):696-699.<br>
+URL     PMID:26466566      [本文引用: 1] <br>[24]<br>
+Scally A, Durbin R .<br>
+Revising the human mutation rate: implications for understanding human evolution<br>Nat Rev Genet, 2012,13(10):745-753.<br>
+URL     PMID:22965354      [本文引用: 1] <br>[25]<br>
+Hershkovitz I, Weber GW, Quam R, Duval M, Grün R, Kinsley L, Ayalon A, Barmatthews M, Valladas H, Mercier N, Arsuaga JL, Martinón-Torres M, Bermúdez de Castro JM, Fornai C, Martín-Francés L, Sarig R, May H, Krenn VA, Slon V, Rodríguez L, García R, Lorenzo C, Carretero JM, Frumkin A, Shahack-Gross R, Bar-Yosef Mayer DE, Cui Y, Wu X, Peled N, Groman-Yaroslavski I, Weissbrod L, Yeshurun R, Tsatskin A, Zaidner Y, Weinstein-Evron M .<br>
+The earliest modern humans outside Africa<br>Science, 2018,359(6374):456-459.<br>
+URL     PMID:29371468      [本文引用: 1]  <br>[26]<br>
+Posth C, Wißing C, Kitagawa K, Pagani L, Van HL, Racimo F, Wehrberger K, Conard NJ, Kind CJ, Bocherens H, Krause J .<br>
+Deeply divergent archaic mitochondrial genome provides lower time boundary for African gene flow into Neanderthals<br>Nat Commun, 2017,8:16046.<br>
+URL     [本文引用: 1] <br>[27]<br>
+Li YC, Tian JY, Kong QP .<br>
+Discovery of the Fuyan teeth: challenging or complementing the out-of- Africa scenario?<br>Zool Res, 2015,36(6):311-313.<br>
+URL     PMID:4771949      [本文引用: 1] <br>[28]<br>
+Green RE, Krause J, Briggs AW, Maricic T, Stenzel U, Kircher M, Patterson N, Li H, Zhai W, Fritz MH, Hansen NF, Durand EY, Malaspinas AS, Jensen JD, Marques-Bonet T, Alkan C, Prüfer K, Meyer M, Burbano HA, Good JM, Schultz R, Aximu-Petri A, Butthof A, Höber B, Höffner B, Siegemund M, Weihmann A, Nusbaum C, Lander ES, Russ C, Novod N, Affourtit J, Egholm M, Verna C, Rudan P, Brajkovic D, Kucan Ž, Gušic I, Doronichev VB, Golovanova LV, Lalueza-Fox C, de la Rasilla M, Fortea J, Rosas A, Schmitz RW, Johnson PLF, Eichler EE, Falush D, Birney E, Mullikin JC, Slatkin M, Nielsen R, Kelso J, Lachmann M, Reich D, Pääbo S .<br>
+A draft sequence of the Neandertal genome<br>Science, 2010,328(5979):710-722.<br>
+URL     PMID:5100745      [本文引用: 2]  <br>[29]<br>
+Reich D, Green RE, Kircher M, Krause J, Patterson N, Durand EY, Viola B, Briggs AW, Stenzel U, Johnson PLF, Maricic T, Good JM, Marques-Bonet T, Alkan C, Fu Q, Mallick S, Li H, Meyer M, Eichler EE, Stoneking M, Richards M, Talamo S, Shunkov MV, Derevianko AP, Hublin JJ, Kelso J, Slatkin M, Pääbo S .<br>
+Genetic history of an archaic hominin group from Denisova Cave in Siberia<br>Nature, 2010,468(7327):1053-1060.<br>
+URL     PMID:4306417      [本文引用: 4] <br>[30]<br>
+Reich D, Patterson N, Kircher M, Delfin F, Nandineni Madhusudan R, Pugach I, Ko Albert M-S, Ko Y-C, Jinam Timothy A, Phipps Maude E, Saitou N, Wollstein A, Kayser M, Pääbo S, Stoneking M .<br>
+Denisova admixture and the first modern human dispersals into southeast asia and oceania<br>Am J Hum Genet, 2011,89(4):516-528.<br>
+URL     PMID:21944045      [本文引用: 6] <br>[31]<br>
+Wall JD, Yang MA, Jay F, Kim SK, Durand EY, Stevison LS, Gignoux C, Woerner A, Hammer MF, Slatkin M .<br>
+Higher levels of neanderthal ancestry in East Asians than in Europeans<br>Genetics, 2013,194(1):199-209.<br>
+URL     [本文引用: 2]  <br>[32]<br>
+Skoglund P, Jakobsson M .<br>
+Archaic human ancestry in East Asia<br>Proc Natl Acad Sci USA, 2011,108(45):18301-18306.<br>
+URL     [本文引用: 1] <br>[33]<br>
+Eriksson A, Manica A .<br>
+Effect of ancient population structure on the degree of polymorphism shared between modern human populations and ancient hominins<br>Proc Natl Acad Sci USA, 2012,109(35):13956-13960.<br>
+URL     [本文引用: 1] <br>[34]<br>
+Racimo F, Sankararaman S, Nielsen-Sánchez R, Huertasánchez E .<br>
+Evidence for archaic adaptive introgression in humans<br>Nat Rev Genet, 2015,16(6):359-371.<br>
+URL     PMID:25963373      [本文引用: 1] <br>[35]<br>
+Sankararaman S, Patterson N, Li H, Paabo S, Reich D .<br>
+The date of interbreeding between Neandertals and modern humans<br>PLoS Genet, 2012,8(10):e1002947.<br>
+URL     PMID:3464203      [本文引用: 1]  <br>[36]<br>
+Prufer K, Racimo F, Patterson N, Jay F, Sankararaman S, Sawyer S, Heinze A, Renaud G, Sudmant P, De Filippo C, Li H, Mallick S, Dannemann M, Fu Q, Kircher M, Kuhlwilm M, Lachmann M, Meyer M, Ongyerth M, Siebauer M, Theunert C, Tandon A, Moorjani P, Pickrell J, Mullikin JC, Vohr SH, Green RE, Hellmann I, Johnson PL, Blanche H, Cann H, Kitzman JO, Shendure J, Eichler EE, Lein ES, Bakken TE, Golovanova LV, Doronichev VB, Shunkov MV, Derevianko AP, Viola B, Slatkin M, Reich D, Kelso J, Pääbo S .<br>
+The complete genome sequence of a Neanderthal from the Altai Mountains<br>Nature, 2014,505(7481):43-49.<br>
+URL     PMID:24352235      [本文引用: 1] <br>[37]<br>
+Huerta-Sã nE, Jin X, Asan, Bianba Z, Peter BM, Vinckenbosch N, Liang Y, Yi X, He M, Somel M, Ni P, Wang B, Ou X, Huasang, Luosang J, Cuo ZX, Li K, Gao G, Yin Y, Wang W, Zhang X, Xu X, Yang H, Li Y, Wang J, Wang J, Nielsen R .<br>
+Altitude adaptation in Tibetans caused by introgression of Denisovan-like DNA<br>Nature, 2014,512(7513):194-197.<br>
+URL     [本文引用: 1]<br>[38]<br>
+Lou H, Lu Y, Lu D, Fu R, Wang X, Feng Q, Wu S, Yang Y, Li S, Kang L, Guan Y, Hoh BP, Chung YJ, Jin L, Su B, Xu S .<br>
+A 3.4-kb copy-number deletion near epas1 is significantly enriched in high-altitude tibetans but absent from the denisovan sequence<br>Am J Hum Genet, 2015,97(1):54-66.<br>
+URL     [本文引用: 1]<br>[39]<br>
+Watson E, Forster P, Richards M, Bandelt HJ .<br>
+Mitochondrial footprints of human expansions in Africa<br>Am J Hum Genet, 1997,61(3):691-704.<br>
+URL     PMID:9326335      [本文引用: 1] <br>[40]<br>
+Ingman M, Kaessmann H, PaÈaÈbo S, Gyllensten U .<br>
+Mitochondrial genome variation and the origin of modern humans<br>Nature, 2000,408(6813):708-713.<br>
+URL     PMID:11130070      <br>[41]<br>
+Mellars P .<br>
+Going east: new genetic and archaeological perspectives on the modern human colonization of Eurasia<br>Science, 2006,313(5788):796-800.<br>
+URL     [本文引用: 1] <br>[42]<br>
+Palanichamy MG, Sun C, Agrawal S, Bandelt HJ, Kong QP, Khan F, Wang CY, Chaudhuri TK, Palla V, Zhang YP .<br>
+Phylogeny of mitochondrial DNA macrohaplogroup N in India, based on complete sequencing: implications for the peopling of South Asia<br>Am J Hum Genet, 2004,75(6):966-978.<br>
+URL     [本文引用: 1]<br>[43]<br>
+Macaulay V, Hill C, Achilli A, Rengo C, Clarke D, Meehan W, Blackburn J, Semino O, Scozzari R, Cruciani F, Taha A, Shaari NK, Raja JM, Ismail P, Zainuddin Z, Goodwin W, Bulbeck D, Bandelt HJ, Oppenheimer S, Torroni A, Richards M .<br>
+Single, rapid coastal settlement of Asia revealed by analysis of complete mitochondrial genomes<br>Science, 2005,308(5724):1034-1036.<br>
+URL     PMID:15890885      [本文引用: 2]  <br>[44]<br>
+Sun C, Kong Q-P, gounder Palanichamy M, Agrawal S, Bandelt H-J, Yao Y-G, Khan F, Zhu C-L, Chaudhuri TK, Zhang Y-P .<br>
+The dazzling array of basal branches in the mtDNA macrohaplogroup M from India as inferred from complete genomes<br>Mol Biol Evol, 2006,23(3):683-690.<br>
+URL     [本文引用: 1]<br>[45]<br>
+Clark PU, Dyke AS, Shakun JD, Carlson AE, Clark J, Wohlfarth B, Mitrovica JX, Hostetler SW ,<br>
+McCabe AM. The last glacial maximum<br>Science, 2009,325(5941):710-714.<br>
+URL     [本文引用: 1] <br>[46]<br>
+Zheng HX, Yan S, Qin ZD, Wang Y, Tan JZ, Li H, Jin L .<br>
+Major population expansion of East Asians began before Neolithic Time: evidence of mtDNA genomes<br>PLoS One, 2011,6(10):e25835.<br>
+URL     [本文引用: 1] <br>[47]<br>
+Peng MS, Palanichamy M, Yao YG, Mitra B, Cheng YT, Zhao M, Liu J, Wang HW, Pan H, Wang WZ, Zhang AM, Zhang W, Wang D, Zou Y, Yang Y, Chaudhuri T, Kong Q-P, Zhang Y-P .<br>
+Inland post-glacial dispersal in East Asia revealed by mitochondrial haplogroup M9a'b<br>BMC Biol, 2011,9:2.<br>
+URL     PMID:3027199      [本文引用: 1]  <br>[48]<br>
+Li YC, Wang HW, Tian JY, Liu LN, Yang LQ, Zhu CL, Wu SF, Kong QP, Zhang YP .<br>
+Ancient inland human dispersals from Myanmar into interior East Asia since the Late Pleistocene<br>Sci Rep, 2015,5(1):9473-9473.<br>
+URL     PMID:25826227      [本文引用: 1] <br>[49]<br>
+Shi H, Zhong H, Peng Y, Dong YL, Qi XB, Zhang F, Liu LF, Tan SJ, Ma RZ, Xiao CJ, Wells RS, Jin L, Su B .<br>
+Y chromosome evidence of earliest modern human settlement in East Asia and multiple origins of Tibetan and Japanese populations<br>BMC Biol, 2008,6:45.<br>
+URL     [本文引用: 1] <br>[50]<br>
+Forster P .<br>
+Ice Ages and the mitochondrial DNA chronology of human dispersals: a review<br>Philosophical Philos Trans R Soc Lond B Biol Sci, 2004, 359(1442): 255-264; discussion 264.<br>
+URL     PMID:15101581      [本文引用: 1] <br>[51]<br>
+Rasmussen M, Guo X, Wang Y, Lohmueller KE, Rasmussen S, Albrechtsen A, Skotte L, Lindgreen S, Metspalu M, Jombart T, Kivisild T, Zhai W, Eriksson A, Manica A, Orlando L, De La Vega FM, Tridico S, Metspalu E, Nielsen K, Avila-Arcos MC, Moreno-Mayar JV, Muller C, Dortch J, Gilbert MTP, Lund O, Wesolowska A, Karmin M, Weinert LA, Wang B, Li J, Tai S, Xiao F, Hanihara T, van Driem G, Jha AR, Ricaut FX, de Knijff P, Migliano AB, Gallego Romero I, Kristiansen K, Lambert DM, Brunak S, Forster P, Brinkmann B, Nehlich O, Bunce M, Richards M, Gupta R, Bustamante CD, Krogh A, Foley RA, Lahr MM, Balloux F, Sicheritz-Ponten T, Villems R, Nielsen R, Wang J, Willerslev E .<br>
+An Aboriginal Australian genome reveals separate human dispersals into Asia<br>Science, 2011,334(6052):94-98.<br>
+URL     PMID:21940856      [本文引用: 1]  <br>[52]<br>
+Excoffier L .<br>
+Neandertal genetic diversity: a fresh look from old samples<br>Curr Biol, 2006,16(16):R650-R652.<br>
+URL     PMID:16920617      [本文引用: 1] <br>[53]<br>
+Zhao M, Kong QP, Wang HW, Peng MS, Xie XD, Wang WZ, Jia yang, Duan JG, Cai MC, Zhao SN, Cidanpingcuo, Tu YQ, Wu SF, Yao YG, Bandelt HJ, Zhang YP .<br>
+Mitochondrial genome evidence reveals successful Late Paleolithic settlement on the Tibetan Plateau<br>Proc Natl Acad Sci USA, 2009,106(50):21230-21235.<br>
+URL     [本文引用: 4] <br>[54]<br>
+Qin Z, Yang Y, Kang L, Yan S, Cho K, Cai X, Lu Y, Zheng H, Zhu D, Fei D, Li S, Jin L, Li H, Genographic Consortium-Collaborators(44), Ziegle JS, Swamikrishnan P, Javed A, Parida L, Platt DE, Royyuru AK, Quintana-Murci L, Mitchell RJ, Badro DA, Haber M, Zalloua PA, Adhikarla S, Prasad AK, Pitchappan R, Valampuri John K, Santhakumari AV, Erasmus CJ, Hobbs A, Soodyall H, Balanovska E, Balanovsky O, Tyler-Smith C, Lacerda DR, Santos FR, Vieira PP, Bertranpetit J, Comas D, Martínez-Cruz B, Melé M, Adler CJ, Cooper A, Der Sarkissian CS, Haak W, Kaplan ME, Merchant NC, Renfrew C, Clarke AC, Matisoo-Smith EA, Dulik MC, Gaieski JB, Owings AC, Schurr TG, Soria Hernandez DF, Wells RS<br>
+A mitochondrial revelation of early human migrations to the Tibetan Plateau before and after the last glacial maximum<br>Am J Phys Anthropol, 2010,143(4):555-569.<br>
+URL     [本文引用: 1] <br>[55]<br>
+Qi X, Cui C, Peng Y, Zhang X, Yang Z, Zhong H, Zhang H, Xiang K, Cao X, Wang Y, Ouzhuluobu, Basang, Ciwangsangbu, Bianba, Gonggalanzi, Wu T, Chen H, Shi H, Su B .<br>
+Genetic evidence of paleolithic colonization and neolithic expansion of modern humans on the tibetan plateau<br>Mol Biol Evol, 2013,30(8):1761-1778.<br>
+URL     [本文引用: 1] <br>[56]<br>
+Kutanan W, Kampuansai J, Srikummool M, Kangwanpong D, Ghirotto S, Brunelli A, Stoneking M .<br>
+Complete mitochondrial genomes of Thai and Lao populations indicate an ancient origin of Austroasiatic groups and demic diffusion in the spread of Tai-Kadai languages<br>Hum Genet, 2016,136(1):85-98.<br>
+[本文引用: 2]<br>[57]<br>
+Chen J, Zheng H, Bei JX, Sun L, Jia W, Li T, Zhang F, Seielstad M, Zeng YX, Zhang X, Liu J .<br>
+Genetic structure of the Han Chinese population revealed by genome-wide SNP variation<br>Am J Hum Genet, 2009,85(6):775-785.<br>
+URL     PMID:19944401      [本文引用: 1] <br>[58]<br>
+Xu S, Yin X, Li S, Jin W, Lou H, Yang L, Gong X, Wang H, Shen Y, Pan X, He Y, Yang Y, Wang Y, Fu W, An Y, Wang J, Tan J, Qian J, Chen X, Zhang X, Sun Y, Zhang X, Wu B, Jin L .<br>
+Genomic dissection of population substructure of Han Chinese and its implication in association studies<br>Am J Hum Genet, 2009,85(6):762-774.<br>
+URL     [本文引用: 1]<br>[59]<br>
+Wen B, Li H, Lu D, Song X, Zhang F, He Y, Li F, Gao Y, Mao X, Zhang L, Qian J, Tan J, Jin J, Huang W, Deka R, Su B, Chakraborty R, Jin L .<br>
+Genetic evidence supports demic diffusion of Han culture<br>Nature, 2004,431(7006):302-305.<br>
+URL     [本文引用: 1]<br>[60]<br>
+Yao YG, Kong QP, Wang CY, Zhu CL, Zhang YP .<br>
+Different matrilineal contributions to genetic structure of ethnic groups in the Silk Road region in China<br>Mol Biol Evol, 2004,21(12):2265-2280.<br>
+URL     [本文引用: 2] <br>[61]<br>
+Li C, Li H, Cui Y, Xie C, Cai D, Li W, Mair VH, Xu Z, Zhang Q, Abuduresule I, Jin L, Zhu H, Zhou H .<br>
+Evidence that a West-East admixed population lived in the Tarim Basin as early as the early Bronze Age<br>BMC Biol, 2010,8:15.<br>
+URL     [本文引用: 1] <br>[62]<br>
+杜若甫 . 中国的民族. 北京科学出版社, 1994.<br>
+[本文引用: 2]<br>[63]<br>
+Yao YG, Nie L, Harpending H, Fu YX, Yuan ZG, Zhang YP .<br>
+Genetic relationship of Chinese ethnic populations revealed by mtDNA sequence diversity<br>Am J Phys Anthropol, 2002,118(1):63-76.<br>
+URL     PMID:11953946      [本文引用: 4]  <br>[64]<br>
+Wen B, Li H, Gao S, Mao X, Gao Y, Li F, Zhang F, He Y, Dong Y, Zhang Y, Huang W, Jin J, Xiao C, Lu D, Chakraborty R, Su B, Deka R, Jin L .<br>
+Genetic structure of Hmong-Mien speaking populations in East Asia as revealed by mtDNA lineages<br>Mol Biol Evol, 2005,22(3):725-734.<br>
+URL     [本文引用: 2] <br>[65]<br>
+Kong QP, Yao YG, Liu M, Shen SP, Chen C, Zhu CL, Palanichamy MG, Zhang YP .<br>
+Mitochondrial DNA sequence polymorphisms of five ethnic populations from northern China<br>Hum Genet, 2003,113(5):391-405.<br>
+URL     [本文引用: 1] <br>[66]<br>
+Wen B, Xie X, Gao S, Li H, Shi H, Song X, Qian T, Xiao C, Jin J, Su B, Lu D, Chakraborty R, Jin L .<br>
+Analyses of genetic structure of Tibeto-Burman populations reveals sex-biased admixture in southern Tibeto-Burmans<br>Am J Hum Genet, 2004,74(5):856-865.<br>
+URL     [本文引用: 1]<br>[67]<br>
+Malaspinas AS, Lao O, Schroeder H, Rasmussen M, Raghavan M, Moltke I, Campos PF, Sagredo FS, Rasmussen S, Gonçalves VF, Albrechtsen A, Allentoft ME, Johnson PL, Li M, Reis S, Bernardo DV, DeGiorgio M, Duggan AT, Bastos M, Wang Y, Stenderup J, Moreno-Mayar JV, Brunak S, Sicheritz-Ponten T, Hodges E, Hannon GJ, Orlando L, Price TD, Jensen JD, Nielsen R, Heinemeier J, Olsen J, Rodrigues-Carvalho C, Lahr MM, Neves WA, Kayser M, Higham T, Stoneking M, Pena SD, Willerslev E .<br>
+Two ancient human genomes reveal Polynesian ancestry among the indigenous Botocudos of Brazil<br>Curr Biol, 2014,24(21):R1035-R1037.<br>
+URL     PMID:25455029      [本文引用: 1] <br>[68]<br>
+Allentoft ME, Sikora M, Sjögren K-G, Rasmussen S, Rasmussen M, Stenderup J, Damgaard PB, Schroeder H, Ahlström T, Vinner L, Malaspinas AS, Margaryan A, Higham T, Chivall D, Lynnerup N, Harvig L, Baron J, Della Casa P, Dąbrowski P, Duffy PR, Ebel AV, Epimakhov A, Frei K, Furmanek M, Gralak T, Gromov A, Gronkiewicz S, Grupe G, Hajdu T, Jarysz R, Khartanovich V, Khokhlov A, Kiss V, Kolář J, Kriiska A, Lasak I, Longhi C, McGlynn G, Merkevicius A, Merkyte I, Metspalu M, Mkrtchyan R, Moiseyev V, Paja L, Pálfi G, Pokutta D, Pospieszny Ł, Price TD, Saag L, Sablin M, Shishlina N, Smrčka V, Soenov VI, Szeverényi V, Tóth G, Trifanova SV, Varul L, Vicze M, Yepiskoposyan L, Zhitenev V, Orlando L, Sicheritz-Pontén T, Brunak S, Nielsen R, Kristiansen K, Willerslev E .<br>
+Population genomics of Bronze Age Eurasia<br>Nature, 2015,522(7555):167-172.<br>
+URL     [本文引用: 1]<br>[69]<br>
+Mathieson I, Lazaridis I, Rohland N, Mallick S, Patterson N, Roodenberg SA, Harney E, Stewardson K, Fernandes D, Novak M, Sirak K, Gamba C, Jones ER, Llamas B, Dryomov S, Pickrell J, Arsuaga JL, de Castro JM, Carbonell E, Gerritsen F, Khokhlov A, Kuznetsov P, Lozano M, Meller H, Mochalov O, Moiseyev V, Guerra MA, Roodenberg J, Vergès JM, Krause J, Cooper A, Alt KW, Brown D, Anthony D, Lalueza-Fox C, Haak W, Pinhasi R, Reich D .<br>
+Genome-wide patterns of selection in 230 ancient Eurasians<br>Nature, 2015,528(7583):499-503.<br>
+URL     [本文引用: 1]<br>[70]<br>
+Fu Q, Posth C, Hajdinjak M, Petr M, Mallick S, Fernandes D, Furtwängler A, Haak W, Meyer M, Mittnik A, Nickel B, Peltzer A, Rohland N, Slon V, Talamo S, Lazaridis I, Lipson M, Mathieson I, Schiffels S, Skoglund P, Derevianko AP, Drozdov N, Slavinsky V, Tsybankov A, Cremonesi RG, Mallegni F, Gély B, Vacca E, Morales MR, Straus LG, Neugebauer-Maresch C, Teschler-Nicola M, Constantin S, Moldovan OT, Benazzi S, Peresani M, Coppola D, Lari M, Ricci S, Ronchitelli A, Valentin F, Thevenet C, Wehrberger K, Grigorescu D, Rougier H, Crevecoeur I, Flas D, Semal P, Mannino MA, Cupillard C, Bocherens H, Conard NJ, Harvati K, Moiseyev V, Drucker DG, Svoboda J, Richards MP, Caramelli D, Pinhasi R, Kelso J, Patterson N, Krause J, Pääbo S, Reich D .<br>
+The genetic history of Ice Age Europe<br>Nature, 2016,534(7606):200-205.<br>
+URL     PMID:4943878      [本文引用: 1] <br>[71]<br>
+Fu Q, Li H, Moorjani P, Jay F, Slepchenko SM, Bondarev AA, Johnson PL, Aximu-Petri A, Prüfer K, de Filippo C, Meyer M, Zwyns N, Salazar-García DC, Kuzmin YV, Keates SG, Kosintsev PA, Razhev DI, Richards MP, Peristov NV, Lachmann M, Douka K, Higham TF, Slatkin M, Hublin JJ, Reich D, Kelso J, Viola TB, Pääbo S .<br>
+Genome sequence of a 45,000-year-old modern human from western Siberia<br>Nature, 2014,514(7523):445-449.<br>
+URL     PMID:4753769      [本文引用: 1] ]]></description><link>文献及报道\文献\2018-遗传学杂志-遗传学视角下东亚人群的起源和演化.html</link><guid isPermaLink="false">文献及报道/文献/2018 遗传学杂志 遗传学视角下东亚人群的起源和演化.md</guid><pubDate>Sat, 06 Jul 2024 12:11:36 GMT</pubDate><enclosure url="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f600.svg" length="0" type="image/svg+xml"/><content:encoded>&lt;figure&gt;&lt;img src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f600.svg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[全矩阵转为半矩阵]]></title><description><![CDATA[ 
  <br><br><br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202407051449614.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br>import pandas as pd
 import numpy as np
 
@@ -604,24 +930,7 @@ if __name__ == "__main__":
 <br>mtDNA Variation Predicts Population Size in Humans and Reveals a Major Southern Asian Chapter in Human Prehistory<a href="about:blank#fnref-1-a903b83afa913903" class="footnote-backref footnote-link" target="_self" rel="noopener"><span></span>︎</a><img class="emoji" draggable="false" alt="↩" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/21a9.svg" height="16px" style="max-width: 100%;">
 <br>Bayesian coalescent inference of major human mitochondrial DNA haplogroup expansions in Africa<a href="about:blank#fnref-2-a903b83afa913903" class="footnote-backref footnote-link" target="_self" rel="noopener"><span></span>︎</a><img class="emoji" draggable="false" alt="↩" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/21a9.svg" height="16px" style="max-width: 100%;">
 <br>River Valleys Shaped the Maternal Genetic Landscape of Han Chinese<a href="about:blank#fnref-3-a903b83afa913903" class="footnote-backref footnote-link" target="_self" rel="noopener"><span></span>︎</a><img class="emoji" draggable="false" alt="↩" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/21a9.svg" height="16px" style="max-width: 100%;">
-]]></description><link>软件\beast\beast：线粒体dna的bsp设置.html</link><guid isPermaLink="false">软件/BEAST/BEAST：线粒体DNA的BSP设置.md</guid><pubDate>Tue, 02 Jul 2024 12:44:40 GMT</pubDate><enclosure url="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202407022033728.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202407022033728.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[摘要]]></title><description><![CDATA[ 
- <br><br>该研究针对两个特殊的群体：母系居住群体<a data-href="塞门德（Semende）" href="人文与科学术语\塞门德（semende）.html" class="internal-link" target="_self" rel="noopener">塞门德（Semende）</a>和父系居住群体<a data-href="贝塞马（Besemah）" href="人文与科学术语\贝塞马（besemah）.html" class="internal-link" target="_self" rel="noopener">贝塞马（Besemah）</a>之间的遗传差异，特别关注Y染色体和线粒体DNA（mtDNA）的变异。研究背景指出，通常认为Y染色体在人群之间的遗传差异比mtDNA更大，这主要归因于人类文化中普遍存在的父系居住现象。然而，这一观点存在争议，之前对母系居住群体的分析结果并不一致。本文通过使用下一代测序技术，分析了两个群体的完整mtDNA基因组序列，并对Y染色体的单核苷酸多态性（Y-SNPs）和短串联重复序列（Y-STR）进行了分析。结果显示，Semende群体中的mtDNA多样性显著低于Besemah群体，这符合对母系居住群体的预期。然而，两个群体之间的Y染色体多样性没有显著差异，这是一个意外发现。研究强调了使用完整mtDNA序列进行分析的重要性，因为仅使用部分序列可能会导致误导性的结果。该研究结果质疑了传统关于父系居住现象对Y染色体多样性影响的观点，提出未来研究需要进一步探索不同文化背景下的群体遗传结构，以及完整基因组数据在这类研究中的应用价值。研究结果对理解人类迁徙模式及其对遗传多样性的影响提供了新的见解。<br><br>文化习俗对人类遗传多样性的影响在人类学遗传学中一直是一个长期存在的问题。人群之间的遗传差异通常在Y染色体的非重组区域（NRY）上比在线粒体DNA（mtDNA）上更大，这种模式被认为是由于父系居住（patrilocality）导致的女性迁移率高于男性迁移率所致。<br>父系居住（patrilocality）现象会导致群体内部的Y染色体多样性较低，但群体之间的Y染色体差异较大。同时，女性迁移率较高会导致群体内部的线粒体DNA多样性较高，但群体之间的mtDNA差异较小。因此，人群之间的遗传差异通常在Y染色体的非重组区域（NRY）上比在线粒体DNA（mtDNA）上更大，这种模式被认为是由于父系居住（patrilocality）导致的。<br>约70%的人类社会中普遍存在父系居住现象，这导致女性的有效群体大小大于男性。显而易见的检验这一假设的方法是，母系居住群体之间的遗传差异应在mtDNA上大于NRY，而母系居住群体的mtDNA多样性应低于父系居住群体。确实，这一预测在首次比较泰国山地部落（hill tribes）中的母系和父系居住群体的mtDNA和NRY变异模式时得到了验证<a data-footref="1" href="about:blank#fn-1-a903b83afa913903" class="footnote-link" target="_self" rel="noopener">[1]</a> <a data-footref="2" href="about:blank#fn-2-a903b83afa913903" class="footnote-link" target="_self" rel="noopener">[2]</a>。然而，后续对印度母系和父系居住群体的研究未能发现预期的mtDNA与NRY多样性模式<a data-footref="3" href="about:blank#fn-3-a903b83afa913903" class="footnote-link" target="_self" rel="noopener">[3]</a>，而另一项研究则质疑了最初观察到的人类群体中NRY差异大于mtDNA差异的普遍性<a data-footref="4" href="about:blank#fn-4-a903b83afa913903" class="footnote-link" target="_self" rel="noopener">[4]</a>。显然，需要对更多的母系居住群体进行研究，以确定居住模式对人类mtDNA和NRY多样性的普遍影响。本文报道了对印尼苏门答腊的母系居住群体（Semende）和父系居住群体（Besemah）的完整mtDNA基因组序列（通过下一代测序技术确定）以及NRY单倍群和Y-STR单倍型的分析。Semende群体中的线粒体单倍型多样性（HD）较低，并且Semende和Besemah之间的遗传距离显著较大，这符合母系居住对mtDNA多样性影响的预期。然而，与几乎所有其他关于局部尺度上人类mtDNA与NRY多样性的研究相反，这两个群体之间在NRY上没有显著差异。结果强调了获得完整mtDNA基因组序列的重要性，因为仅分析部分序列（如之前的研究所做的那样）时，Besemah和Semende之间的HD没有显著差异。<br><br>
-<br>DNA样本收集：在苏门答腊九个地点收集唾液样本，共75份（Besemah群体38份，Semende群体37份）。    
-<br>线粒体DNA（mtDNA）基因组测序：对72份样本（每组36份）进行完整mtDNA基因组测序。    
-<br>Y染色体（NRY）分型：对12个Y-SNP和12个Y-STR位点进行分型。
-<br>数据分析：将mtDNA基因组序列分配到单倍群，计算多样性统计数据，并进行排列测试以比较群体间的多样性差异，使用BEAST软件生成BSP，并进行网络分析。
-<br><br>研究结果表明，母系居住群体Semende的线粒体DNA（mtDNA）多样性显著低于父系居住群体Besemah（P &lt; 0.001），这一差异在使用完整mtDNA基因组序列进行分析时尤为明显，而仅使用HV1区域序列则未能充分反映这一点。Semende群体中存在独特的单倍群M*和M1'51，这些在其他地方未发现的谱系表明母系居住可能长期保留了这些遗传特征。与此相反，两个群体的Y染色体（NRY）多样性没有显著差异（P &gt; 0.05），主要包含O2单倍群，且其他Y-SNP和Y-STR的变异分布相似。这种相似性可能是由于Besemah群体最近从母系居住转换为父系居住，或是Y染色体分析的分辨率较低所致。<br>此外，本研究发现了一个罕见的 mtDNA 单倍群：M1'51 。之前的研究认为据信起源于亚洲西南部，并通过回迁带回非洲和南欧。除一名柬埔寨人外，迄今为止，亚洲尚未发现 M1'51的其他亚群。塞门德人拥有迄今为止在世界其他地方未发现的高频率 M* 和 M1'51 谱系，这表明这些谱系可能通过母系习俗在母系人群中保留了很长一段时间。<br>文化习俗对遗传变异的影响得到了确认，母系居住群体Semende保留了独特的mtDNA谱系，显示出较低的遗传多样性，而Besemah群体的mtDNA谱系则显示出东南亚高频率的单倍群，表明有较大的mtDNA基因流动，这是父系居住社会的预期结果。研究结果强调了使用完整mtDNA基因组序列进行分析的重要性，并解释了以往研究未能发现母系和父系居住群体之间遗传多样性差异的原因。总体而言，这项研究验证了文化习俗能够影响遗传变异，同时也表明母系居住对群体遗传多样性的影响可能比预期的更为复杂和重要。<br><br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202407031603093.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
-图1 | Semende 和 Besemah 的 mtDNA 和 NRY 单倍群频率。<br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202407031603589.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
-表 1 | mtDNA 的单倍群频率。<br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202407031603165.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
-表 2 | mtDNA 和 Y 染色体的汇总统计数据。<br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202407031604733.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
-表 3 | Y 染色体单倍群频率。<br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202407031604631.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
-图2|有效人口规模随时间变化的贝叶斯天际线图。基于 mtDNA 编码区域的 BSP，通过 3000 万次 MCMC 迭代进行估计，每 3,000 步采样一次。每个图的 y 轴是有效种群规模和生成时间的乘积，x 轴显示时间。使用的突变率为每年每个位点 1.69×10-8。 (a) Besemah 的 BSP，使用所有 36 个序列。 (b) Semende 的 BSP，使用所有 36 个序列。<br><br><br><br><br><br>
-<br>
-<br>Hamilton, G., Stoneking, M. &amp; Excoffier, L. Molecular analysisreveals tighter social regulation of immigration in patrilocalpopulations than in matrilocal populations. Proc. Natl Acad. Sci.USA 102, 7476-7480 (2005).<a href="about:blank#fnref-1-a903b83afa913903" class="footnote-backref footnote-link" target="_self" rel="noopener"><span></span>︎</a><img class="emoji" draggable="false" alt="↩" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/21a9.svg" height="16px" style="max-width: 100%;">
-<br>Oota, H., Settheetham-lshida, W., Tiwawech, D., Ishida, T. &amp;Stoneking, M. Human mtDNA and Y-chromosome variation iscorrelated with matrilocal versus patrilocal residence. Nat. Genet.29,20-21 (2001).<a href="about:blank#fnref-2-a903b83afa913903" class="footnote-backref footnote-link" target="_self" rel="noopener"><span></span>︎</a><img class="emoji" draggable="false" alt="↩" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/21a9.svg" height="16px" style="max-width: 100%;">
-<br>Kumar, V. et al. Global patterns in human mitochondrial DNA and Y-chromosome variation caused by spatial instability of the local cultural processes. PLoS Genet. 2, 420–424 (2006).<a href="about:blank#fnref-3-a903b83afa913903" class="footnote-backref footnote-link" target="_self" rel="noopener"><span></span>︎</a><img class="emoji" draggable="false" alt="↩" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/21a9.svg" height="16px" style="max-width: 100%;">
-<br>Wilder, J. A., Kingan, S. B., Mobasher, Z., Pilkington, M. M. &amp; Hammer, M. F. Global patterns of human mitochondrial DNA and Y-chromosome structure are not influenced by higher migration rates of females versus males. Nat. Genet. 36, 1238 (2004).<a href="about:blank#fnref-4-a903b83afa913903" class="footnote-backref footnote-link" target="_self" rel="noopener"><span></span>︎</a><img class="emoji" draggable="false" alt="↩" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/21a9.svg" height="16px" style="max-width: 100%;">
-]]></description><link>文献及报道\文献\2010-nature-communications-苏门答腊岛母系和父系群体之间线粒体-dna-的差异大于-y-染色体差异.html</link><guid isPermaLink="false">文献及报道/文献/2010 Nature Communications 苏门答腊岛母系和父系群体之间线粒体 DNA 的差异大于 Y 染色体差异.md</guid><pubDate>Wed, 03 Jul 2024 08:23:45 GMT</pubDate><enclosure url="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f44d.svg" length="0" type="image/svg+xml"/><content:encoded>&lt;figure&gt;&lt;img src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f44d.svg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[安装必要的软件 java]]></title><description><![CDATA[ 
+]]></description><link>软件\beast\beast：线粒体dna的bsp设置.html</link><guid isPermaLink="false">软件/BEAST/BEAST：线粒体DNA的BSP设置.md</guid><pubDate>Tue, 02 Jul 2024 12:44:40 GMT</pubDate><enclosure url="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202407022033728.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202407022033728.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[安装必要的软件 java]]></title><description><![CDATA[ 
  <br><br>sudo apt-get update
 sudo apt-get install cmake build-essential autoconf automake libtool git pkg-config openjdk-11-jdk
 复制<br><br>git clone --depth=1 https://github.com/beagle-dev/beagle-lib.git
