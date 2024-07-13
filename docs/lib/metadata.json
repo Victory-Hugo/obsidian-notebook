@@ -1,6 +1,6 @@
 {
   "vaultName": "思维领域",
-  "lastExport": 1720342605062,
+  "lastExport": 1720857654831,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager theme-dark show-inline-title show-ribbon h2-underline",
   "useCustomHeadContent": false,
@@ -331,6 +331,7 @@
     "人文与科学术语/伪异质性(pseudo-heteroplasmy).md",
     "人文与科学术语/卫藏藏族.md",
     "人文与科学术语/为什么要学习贝叶斯统计？.md",
+    "人文与科学术语/文化搭便车（cultural hitchhiking）.md",
     "人文与科学术语/乌孜别克族.md",
     "人文与科学术语/物种分歧时间、分子进化速率计算（TimeTree、PAML mcmctree、codeml 、MEGA ).md",
     "人文与科学术语/系统发育率（phylogenetic rate）.md",
@@ -560,8 +561,10 @@
     "软件/SPSS/五、卡方检验.md",
     "软件/SPSS/一、认识SPSS.md",
     "软件/SPSS/SPSS主成分分析.md",
+    "软件/利用代理使Onedrive下载速度起飞.md",
     "软件/如何利用Obsidian构建自己的网址？.md",
     "软件/在VS Code中搭建你的R语言运行环境.md",
+    "软件/Latex：修改VScode默认为xelatex.md",
     "软件/Win10安装WSL1.0.md",
     "软件/Word：批量调整交叉引用的字体.md",
     "软件/Word：批量将Endnote引用的参考文献字体调整为蓝色.md",
@@ -625,6 +628,7 @@
     "文献及报道/文献/2008 EJHG 中国人口遗传结构的空间分析揭示了母系和父系之间的显着差异.md",
     "文献及报道/文献/2010 Nature Communications 苏门答腊岛母系和父系群体之间线粒体 DNA 的差异大于 Y 染色体差异.md",
     "文献及报道/文献/2018 遗传学杂志 遗传学视角下东亚人群的起源和演化.md",
+    "文献及报道/文献/2023 PNAS 全新世人类扩散的基因组视角.md",
     "文献及报道/文献/2024 Cell 人类谱系中线粒体 DNA 突变的速率和性质.md",
     "文献及报道/文献/2024 JGG 自然选择塑造了线粒体DNA支系在汉族人群中对抵御肥胖的保护作用.md",
     "文献及报道/文献/9500-1800年前的山东的母系遗传结构.md",
@@ -820,187 +824,187 @@
   ],
   "fileInfo": {
     "lib/scripts/graph-wasm.wasm": {
-      "modifiedTime": 1720342605062,
+      "modifiedTime": 1720857654831,
       "sourceSize": 23377,
       "exportedPath": "lib/scripts/graph-wasm.wasm",
       "dependencies": []
     },
     "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1720342605062,
+      "modifiedTime": 1720857654831,
       "sourceSize": 66800,
       "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
       "dependencies": []
     },
     "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1720342605062,
+      "modifiedTime": 1720857654831,
       "sourceSize": 104232,
       "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
       "dependencies": []
     },
     "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1720342605062,
+      "modifiedTime": 1720857654831,
       "sourceSize": 104332,
       "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
       "dependencies": []
     },
     "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1720342605062,
+      "modifiedTime": 1720857654831,
       "sourceSize": 98868,
       "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
       "dependencies": []
     },
     "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1720342605062,
+      "modifiedTime": 1720857654831,
       "sourceSize": 106876,
       "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
       "dependencies": []
     },
     "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1720342605062,
+      "modifiedTime": 1720857654831,
       "sourceSize": 105804,
       "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
       "dependencies": []
     },
     "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1720342605062,
+      "modifiedTime": 1720857654831,
       "sourceSize": 106108,
       "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
       "dependencies": []
     },
     "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1720342605062,
+      "modifiedTime": 1720857654831,
       "sourceSize": 111708,
       "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
       "dependencies": []
     },
     "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1720342605062,
+      "modifiedTime": 1720857654831,
       "sourceSize": 192740,
       "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
       "dependencies": []
     },
     "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1720342605062,
+      "modifiedTime": 1720857654831,
       "sourceSize": 161376,
       "exportedPath": "lib/fonts/454577c22304619db035.ttf",
       "dependencies": []
     },
     "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1720342605062,
+      "modifiedTime": 1720857654831,
       "sourceSize": 191568,
       "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
       "dependencies": []
     },
     "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1720342605062,
+      "modifiedTime": 1720857654831,
       "sourceSize": 155288,
       "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
       "dependencies": []
     },
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1720342605062,
+      "modifiedTime": 1720857654831,
       "sourceSize": 7876,
       "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
       "dependencies": []
     },
     "lib/media/874d8b8e340f75575caa.svg": {
-      "modifiedTime": 1720342605062,
+      "modifiedTime": 1720857654831,
       "sourceSize": 317,
       "exportedPath": "lib/media/874d8b8e340f75575caa.svg",
       "dependencies": []
     },
     "lib/media/3d6c1bdc4d87cde4de67.svg": {
-      "modifiedTime": 1720342605062,
+      "modifiedTime": 1720857654831,
       "sourceSize": 279,
       "exportedPath": "lib/media/3d6c1bdc4d87cde4de67.svg",
       "dependencies": []
     },
     "lib/html/file-tree.html": {
-      "modifiedTime": 1720342605062,
-      "sourceSize": 567090,
+      "modifiedTime": 1720857654831,
+      "sourceSize": 569813,
       "exportedPath": "lib/html/file-tree.html",
       "dependencies": []
     },
     "lib/scripts/webpage.js": {
-      "modifiedTime": 1720342605062,
+      "modifiedTime": 1720857654831,
       "sourceSize": 47290,
       "exportedPath": "lib/scripts/webpage.js",
       "dependencies": []
     },
     "lib/scripts/graph-view.js": {
-      "modifiedTime": 1720342605062,
+      "modifiedTime": 1720857654831,
       "sourceSize": 15519,
       "exportedPath": "lib/scripts/graph-view.js",
       "dependencies": []
     },
     "lib/scripts/graph-wasm.js": {
-      "modifiedTime": 1720342605062,
+      "modifiedTime": 1720857654831,
       "sourceSize": 14021,
       "exportedPath": "lib/scripts/graph-wasm.js",
       "dependencies": []
     },
     "lib/scripts/graph-render-worker.js": {
-      "modifiedTime": 1720342605062,
+      "modifiedTime": 1720857654831,
       "sourceSize": 5179,
       "exportedPath": "lib/scripts/graph-render-worker.js",
       "dependencies": []
     },
     "lib/scripts/tinycolor.js": {
-      "modifiedTime": 1720342605062,
+      "modifiedTime": 1720857654831,
       "sourceSize": 29832,
       "exportedPath": "lib/scripts/tinycolor.js",
       "dependencies": []
     },
     "lib/scripts/pixi.js": {
-      "modifiedTime": 1720342605062,
+      "modifiedTime": 1720857654831,
       "sourceSize": 449509,
       "exportedPath": "lib/scripts/pixi.js",
       "dependencies": []
     },
     "lib/scripts/minisearch.js": {
-      "modifiedTime": 1720342605062,
+      "modifiedTime": 1720857654831,
       "sourceSize": 29422,
       "exportedPath": "lib/scripts/minisearch.js",
       "dependencies": []
     },
     "lib/media/favicon.png": {
-      "modifiedTime": 1720342605062,
+      "modifiedTime": 1720857654831,
       "sourceSize": 1105,
       "exportedPath": "lib/media/favicon.png",
       "dependencies": []
     },
     "lib/scripts/graph-data.js": {
-      "modifiedTime": 1720342605062,
-      "sourceSize": 59881,
+      "modifiedTime": 1720857654831,
+      "sourceSize": 60207,
       "exportedPath": "lib/scripts/graph-data.js",
       "dependencies": []
     },
     "lib/styles/obsidian.css": {
-      "modifiedTime": 1720342605062,
+      "modifiedTime": 1720857654831,
       "sourceSize": 130471,
       "exportedPath": "lib/styles/obsidian.css",
       "dependencies": []
     },
     "lib/styles/theme.css": {
-      "modifiedTime": 1720342605062,
+      "modifiedTime": 1720857654831,
       "sourceSize": 41426,
       "exportedPath": "lib/styles/theme.css",
       "dependencies": []
     },
     "lib/styles/global-variable-styles.css": {
-      "modifiedTime": 1720342605062,
+      "modifiedTime": 1720857654831,
       "sourceSize": 367,
       "exportedPath": "lib/styles/global-variable-styles.css",
       "dependencies": []
     },
     "lib/styles/supported-plugins.css": {
-      "modifiedTime": 1720342605062,
+      "modifiedTime": 1720857654831,
       "sourceSize": 119,
       "exportedPath": "lib/styles/supported-plugins.css",
       "dependencies": []
     },
     "lib/styles/main-styles.css": {
-      "modifiedTime": 1720342605062,
+      "modifiedTime": 1720857654831,
       "sourceSize": 23130,
       "exportedPath": "lib/styles/main-styles.css",
       "dependencies": []
@@ -2212,8 +2216,8 @@
       "dependencies": []
     },
     "软件/其它生信软件/全基因组/mitofinder软件安装和使用.md": {
-      "modifiedTime": 1718955547296,
-      "sourceSize": 3101,
+      "modifiedTime": 1720508749444,
+      "sourceSize": 3202,
       "exportedPath": "软件/其它生信软件/全基因组/mitofinder软件安装和使用.html",
       "dependencies": []
     },
@@ -2488,8 +2492,8 @@
       "dependencies": []
     },
     "软件/IQtree/iqtree：线粒体最大似然树.md": {
-      "modifiedTime": 1718955020656,
-      "sourceSize": 788,
+      "modifiedTime": 1720857654831,
+      "sourceSize": 812,
       "exportedPath": "软件/iqtree/iqtree：线粒体最大似然树.html",
       "dependencies": []
     },
@@ -4006,7 +4010,7 @@
       "dependencies": []
     },
     "lib/styles/other-plugins.css": {
-      "modifiedTime": 1720342605062,
+      "modifiedTime": 1720857654831,
       "sourceSize": 395818,
       "exportedPath": "lib/styles/other-plugins.css",
       "dependencies": []
@@ -4900,7 +4904,7 @@
       "dependencies": []
     },
     "人文与科学术语/数据科学家 95 时间都在使用的 10 大基本分布.md": {
-      "modifiedTime": 1720342605062,
+      "modifiedTime": 1720857654831,
       "sourceSize": 10258,
       "exportedPath": "人文与科学术语/数据科学家-95-时间都在使用的-10-大基本分布.html",
       "dependencies": []
@@ -5617,6 +5621,30 @@
       "modifiedTime": 1720325450949,
       "sourceSize": 14196,
       "exportedPath": "文献及报道/文献/2024-cell-人类谱系中线粒体-dna-突变的速率和性质.html",
+      "dependencies": []
+    },
+    "软件/Latex：修改VScode默认为xelatex.md": {
+      "modifiedTime": 1720508749444,
+      "sourceSize": 944,
+      "exportedPath": "软件/latex：修改vscode默认为xelatex.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/2023 PNAS 全新世人类扩散的基因组视角.md": {
+      "modifiedTime": 1720508749444,
+      "sourceSize": 24046,
+      "exportedPath": "文献及报道/文献/2023-pnas-全新世人类扩散的基因组视角.html",
+      "dependencies": []
+    },
+    "人文与科学术语/文化搭便车（cultural hitchhiking）.md": {
+      "modifiedTime": 1720857654831,
+      "sourceSize": 588,
+      "exportedPath": "人文与科学术语/文化搭便车（cultural-hitchhiking）.html",
+      "dependencies": []
+    },
+    "软件/利用代理使Onedrive下载速度起飞.md": {
+      "modifiedTime": 1720857654831,
+      "sourceSize": 519,
+      "exportedPath": "软件/利用代理使onedrive下载速度起飞.html",
       "dependencies": []
     }
   }

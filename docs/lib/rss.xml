@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[思维领域]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>思维领域</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Sun, 07 Jul 2024 08:56:46 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Sun, 07 Jul 2024 08:56:45 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[1 .&nbsp;<a data-href="正态分布 (Normal Distribution)" href="正态分布 (Normal Distribution)" class="internal-link" target="_self" rel="noopener">正态分布 (Normal Distribution)</a>]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[思维领域]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>思维领域</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Sat, 13 Jul 2024 08:00:56 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Sat, 13 Jul 2024 08:00:54 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[1 .&nbsp;<a data-href="正态分布 (Normal Distribution)" href="正态分布 (Normal Distribution)" class="internal-link" target="_self" rel="noopener">正态分布 (Normal Distribution)</a>]]></title><description><![CDATA[ 
  <br><br>正态分布在我们的生活中随处可见，我们身高的分布、体重的分布，甚至是考试成绩的分布都可能符合正态分布。它的形状就像一个钟形曲线，最高点在中间，两边逐渐低下，具有对称性。<br>
 <img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517091725.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br>伯努利分布又名两点分布或者0-1分布，是描述只有两种可能结果的随机试验的概率分布，比如抛硬币或投掷骰子。它将这两种结果分别表示为1和0，通常用 p 来表示事件的成功概率，而1-p 表示事件的失败概率。比如，你在玩一个抛硬币的游戏。硬币只有两面：正面和反面。当你抛硬币时，只有两种可能的结果：硬币出现正面或反面。伯努利分布就像是描述硬币落地后是正面还是反面的概率分布。在伯努利分布中，我们关心的是事件的成功概率，即出现期望结果的概率。比如，在抛硬币时，成功的概率就是硬币出现正面的概率。<br>伯努利分布的变异程度通常由成功和失败的概率决定。如果硬币是公平的，那么成功和失败的概率都是相等的，变异程度就较小。假设你在玩一个猜硬币正反面的游戏，如果你猜对了，你就赢得奖品。这种情况下，游戏的结果可以用伯努利分布来描述。<br>
 <img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517091815.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br>泊松分布常常用于描述单位时间或空间内事件发生的次数，比如在一小时内接到的电话数量、一天内发生的交通事故数量等。<br>它的形状看起来有点像钟形曲线，但是更加扁平。在图的中心，事件发生的次数最多，然后随着次数的增加，概率逐渐减小。<br>平均值告诉我们在单位时间或空间内预期事件的平均发生次数。<br>
@@ -31,7 +31,147 @@
 <br>负二项分布 (Negative Binomial Distribution)：描述在一系列独立的伯努利试验中，达到指定数量的成功之前的失败次数。
 <br>威布尔分布 (Weibull Distribution)：常用于可靠性工程和寿命分析，描述随机事件的生存时间。<br>
 
-<br>这些分布覆盖了数据科学中许多常见的场景，从描述连续变量到描述离散变量，以及描述等待时间和间隔时间等各种情况。]]></description><link>人文与科学术语\数据科学家-95-时间都在使用的-10-大基本分布.html</link><guid isPermaLink="false">人文与科学术语/数据科学家 95% 时间都在使用的 10 大基本分布.md</guid><pubDate>Thu, 20 Jun 2024 12:25:33 GMT</pubDate><enclosure url="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517091725.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517091725.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[人类线粒体 DNA 突变的速率、性质和传递]]></title><description><![CDATA[ 
+<br>这些分布覆盖了数据科学中许多常见的场景，从描述连续变量到描述离散变量，以及描述等待时间和间隔时间等各种情况。]]></description><link>人文与科学术语\数据科学家-95-时间都在使用的-10-大基本分布.html</link><guid isPermaLink="false">人文与科学术语/数据科学家 95% 时间都在使用的 10 大基本分布.md</guid><pubDate>Thu, 20 Jun 2024 12:25:33 GMT</pubDate><enclosure url="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517091725.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517091725.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[文化搭便车（cultural hitchhiking）]]></title><description><![CDATA[ 
+ <br>一个例子是：因为父系群体间的文化竞争导致 Y 染色体多样性的减少，因为 Y 染色体只能通过男性传递给后代。如果一个父系群体的男性成员大量死亡，那么该群体的特定 Y 染色体类型可能会从基因库中消失。它可能导致基因瓶颈，即在一定时间内，由于社会文化过程，种群的遗传多样性显著降低。<br>
+这种现象被称为“文化搭便车”（cultural hitchhiking），它可能导致基因瓶颈，即在一定时间内，由于社会文化过程，种群的遗传多样性显著降低。]]></description><link>人文与科学术语\文化搭便车（cultural-hitchhiking）.html</link><guid isPermaLink="false">人文与科学术语/文化搭便车（cultural hitchhiking）.md</guid><pubDate>Tue, 09 Jul 2024 10:13:26 GMT</pubDate></item><item><title><![CDATA[文件准备]]></title><description><![CDATA[ 
+ <br>可以看看: <a data-href="iqtree：基础操作" href="软件\iqtree\iqtree：基础操作.html" class="internal-link" target="_self" rel="noopener">iqtree：基础操作</a><br><br><br>partition_file.txt：<br>DNA, TIM2+F+I: HighVar = 1-600 16001-16594
+DNA, GTR+F+I+G4: Coding = 601-16000
+复制<br>注意，你需要根据自己的数据选择适合的模型，具体你可以参考这个：<br>
+<a data-href="BEAST：替换模型" href="软件\beast\beast：替换模型.html" class="internal-link" target="_self" rel="noopener">BEAST：替换模型</a><br>
+<a data-href="iqtree：寻找最优模型及分区" href="软件\iqtree\iqtree：寻找最优模型及分区.html" class="internal-link" target="_self" rel="noopener">iqtree：寻找最优模型及分区</a><br><br>一个普通的 nex 文件：<br>#NEXUS
+Begin data;
+Dimensions ntax=8368 nchar=16594;
+Format datatype=dna missing=? gap=-;
+Matrix
+ID1	GATCACAGGTCTATCACCCTATTAACCACTCACGGGAGCTCT-CCATGCATTTGGTA
+ID2	GATCACAGGTCTATCACCCTATTAACCACTCACGGGAGCTCT-CCATGCATTTGGTA
+......
+;
+End;
+复制<br><br>iqtree -s 你的nex文件.nex -spp 分区文件/partition_file.txt -b 1000 -nt AUTO  
+复制<br>结果解读可以看这里：<a data-href="iqtree：基础操作" href="软件\iqtree\iqtree：基础操作.html" class="internal-link" target="_self" rel="noopener">iqtree：基础操作</a>]]></description><link>软件\iqtree\iqtree：线粒体最大似然树.html</link><guid isPermaLink="false">软件/IQtree/iqtree：线粒体最大似然树.md</guid><pubDate>Sat, 13 Jul 2024 08:00:54 GMT</pubDate><enclosure url="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f5e3.svg" length="0" type="image/svg+xml"/><content:encoded>&lt;figure&gt;&lt;img src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f5e3.svg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[利用代理使Onedrive下载速度起飞]]></title><description><![CDATA[ 
+ <br>我发现下面两个网址似乎为 onedrive 的下载提供验证，直连能够提供很快的下载速度：<br>2024/07/13 15:57:52 127.0.0.1:50827 accepted //ecs.office.com:443 [http -&gt; direct]
+2024/07/13 15:57:56 127.0.0.1:50830 accepted //self.events.data.microsoft.com:443 [http -&gt; direct]
+复制<br>只需要在 v2rayn 软件的路由设置中添加 direct 规则：<br>ecs.office.com,
+self.events.data.microsoft.com,
+inputsuggestions.msdxcdn.microsoft.com
+复制<br>然后开始同步，速度就会起飞。]]></description><link>软件\利用代理使onedrive下载速度起飞.html</link><guid isPermaLink="false">软件/利用代理使Onedrive下载速度起飞.md</guid><pubDate>Sat, 13 Jul 2024 08:00:47 GMT</pubDate></item><item><title><![CDATA[mitofinder 软件的作用]]></title><description><![CDATA[ 
+ <br>本文提供了 Mitofinder 软件的安装和使用说明，该软件用于分析线粒体 DNA 数据，识别线粒体单倍群和估计进化距离。<br><br>mitofinder 是一款用于分析线粒体 DNA 序列的软件。它可以帮助研究人员识别线粒体 DNA 中的突变和变异，并了解这些变化与疾病之间的关系。<br><br>
+<br>
+安装依赖项：
+
+<br>sudo apt-get update 
+<br>sudo apt-get install -y git wget
+
+
+<br>
+克隆源码：
+
+<br>git clone https://github.com/RemiAllio/MitoFinder.git
+<br>cd MitoFinder
+
+
+<br>
+运行安装脚本：
+
+<br>./install.sh
+
+
+<br>
+设置环境变量：
+
+<br>在 .bashrc 中添加：
+
+<br>echo 'export PATH=$PATH:/home/luolintao/MitoFinder-master' &gt;&gt; ~/.bashrc source ~/.bashrc
+
+
+
+
+<br>验证安装<br>
+<br>mitofinder --version
+<br><br>MitoFinder 运行需要指定参考基因组文件。你需要提供一个参考的线粒体基因组文件，并使用 -r 选项来指定这个文件。<br>你需要一个参考的线粒体基因组文件，通常是 GenBank 格式（.gb）的文件。你可以从 NCBI 或其他数据库下载合适的参考基因组。<br>请运行上述命令，MitoFinder 应该会开始处理并进行线粒体基因组的注释。如果你在运行过程中遇到任何问题，请提供详细的错误信息以便进一步帮助。<br>mitofinder -j 基因注释 -a /home/luolintao/MitoFinder-master/input_file/没有去除33个位点.fasta -r /home/luolintao/MitoFinder-master/input_file/GRCH38线粒体DNA.gb -o 2 -m mitochondrion
+复制<br><br>
+<br>The Standard Code: 常规的标准遗传密码表。
+<br>The Vertebrate Mitochondrial Code: 脊椎动物线粒体密码表。
+<br>The Yeast Mitochondrial Code: 酵母线粒体密码表。
+<br>The Mold, Protozoan, and Coelenterate Mitochondrial Code and the Mycoplasma/Spiroplasma Code: 霉菌、原生动物、刺胞动物线粒体密码表以及支原体/螺旋体密码表。
+<br>The Invertebrate Mitochondrial Code: 无脊椎动物线粒体密码表。
+<br>The Ciliate, Dasycladacean and Hexamita Nuclear Code: 纤毛虫、Dascycladacean 和 Hexamita 核密码表。
+<br>The Echinoderm and Flatworm Mitochondrial Code: 棘皮动物和扁虫线粒体密码表。
+<br>The Euplotid Nuclear Code: Euplotid 核密码表。
+<br>The Bacterial, Archaeal and Plant Plastid Code: 细菌、古菌和植物质体密码表。
+<br>The Alternative Yeast Nuclear Code: 替代的酵母核密码表。
+<br>The Ascidian Mitochondrial Code: 被囊动物线粒体密码表。
+<br>The Alternative Flatworm Mitochondrial Code: 替代的扁虫线粒体密码表。
+<br>Chlorophycean Mitochondrial Code: 绿藻线粒体密码表。
+<br>Trematode Mitochondrial Code: 吸虫线粒体密码表。
+<br>Scenedesmus obliquus Mitochondrial Code: Scenedesmus obliquus 线粒体密码表。
+<br>Thraustochytrium Mitochondrial Code: Thraustochytrium 线粒体密码表。
+<br>Pterobranchia Mitochondrial Code: Pterobranchia 线粒体密码表。
+<br>Candidate Division SR1 and Gracilibacteria Code: SR1 候选门类和 Gracilibacteria 密码表。
+]]></description><link>软件\其它生信软件\全基因组\mitofinder软件安装和使用.html</link><guid isPermaLink="false">软件/其它生信软件/全基因组/mitofinder软件安装和使用.md</guid><pubDate>Mon, 08 Jul 2024 02:36:50 GMT</pubDate></item><item><title><![CDATA[设置]]></title><description><![CDATA[ 
+ <br><br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202407091502507.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>搜索 latex-workshop tools：<br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202407091503696.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br>将 "latex-workshop.latex.tools" 内容进行替换：<br>"latex-workshop.latex.tools": [
+        
+    
+        {
+            "name": "latexmk",
+            "command": "latexmk",
+            // "args": [
+            //     "-synctex=1",
+            //     "-interaction=nonstopmode",
+            //     "-file-line-error",
+            //     "-pdf",
+            //     "-outdir=%OUTDIR%",
+            //     "%DOC%"
+            // ],
+            "args": [
+               "-xelatex",
+               "-synctex=1",
+               "-interaction=nonstopmode",
+               "-file-line-error",
+               "%DOC%"
+            ],           
+            "env": {}
+        },
+......其余不变
+复制]]></description><link>软件\latex：修改vscode默认为xelatex.html</link><guid isPermaLink="false">软件/Latex：修改VScode默认为xelatex.md</guid><pubDate>Tue, 09 Jul 2024 07:04:40 GMT</pubDate><enclosure url="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202407091502507.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202407091502507.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[摘要]]></title><description><![CDATA[<a class="tag" href="?query=tag:想法" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#想法</a> 
+ <br><br>近20年前，Jared Diamond和Peter Bellwood回顾了农业发展和大型语言家族扩张的相关证据，这些证据来源于农民的人口扩张。自那以后，从现代和古代人群中获取和分析基因组数据的技术进步，彻底改变了我们对全新世期间人类迁移的认识。在这里，我们提供了一个关于全新世迁移的概述，这些迁移是基于基因组证据的，并得出结论认为它们具有复杂的历史。即使在人口扩张、农业扩散和特定语言家族扩散之间存在已证实的联系，不同扩张群体与当地居民群体接触的结果也高度不一致。未来的研究需要识别影响这种变异和复杂历史的因素和社会环境。<br><br>农业和畜牧业的驯化是人类进化中的一个关键发展，它不仅促进了人口的前所未有的增长，还极大增加了传染病的负担。大约在9至11千年前，也就是全新世开始时，世界各地独立驯化了各种植物和动物。从狩猎采集生活方式向农耕生活方式的转变被称为新石器时代，考古学研究已经记录了农业的起源和传播。同样，语言学家也记录了跨越大片地理区域传播的语言家族（例如班图语系、南岛语系和印欧语系）。这些考古和语言学调查导致了一种观点的提出：这些大型语言家族的传播是通过农业的传播而促进的。<br>关于农业和语言如何传播的关键问题是：这是通过迁移的农民带着他们的生活方式和语言（即人口扩散），还是通过当地的狩猎采集群体从邻近的农民那里接受农业和语言（即文化扩散）？如果答案是人口扩散，那么当地的狩猎采集群体的命运如何：他们是被完全替代，还是至少部分地被融入扩张的农民群体中？<br>尽管考古学、骨骼形态学和语言学的各种论证已经处理了这个问题，但归根结底，这是遗传学的问题。假设可以确定原始农业群体的发源地，且这些人在遗传上与他们扩张到的地区的群体不同，那么遗传学调查可以揭示现代群体中有多少是源自农民的遗传与本地（农业前）的遗传。从Cavalli-Sforza及其同事关于文化与人口扩张在农业和印欧语言在欧洲传播中的作用的开创性工作开始，遗传学调查已经被用来解决其他地区农业和/或语言家族传播的同一问题。然而，这样的遗传学调查并非没有复杂性。正如Diamond和Bellwood所详细讨论的那样，这些复杂性包括：<br>
+<br>扩张农民与狩猎采集者之间的混合，一些狩猎采集群体通过文化扩散采用农业；
+<br>也有可能导致农民重新转向狩猎采集（例如，他们进入不适合他们带来的家畜的地区）；
+<br>或者仅有居住群体语言转换，但几乎没有或没有吸收扩张人群的基因；
+<br>在扩张后，农民在其发源地的原始语言被替换（导致基因与语言之间的差异）；
+<br>以及狩猎采集者的扩张。
+<br>殖民主义及其对土著群体的遗传、人口和领土影响是另一个复杂因素。未能考虑这些复杂因素可能会导致关于人口扩散与文化扩散过程在农业和/或语言传播中作用的错误结论。<br>
+本研究调查了全新世期间世界各地区的人类遗传学证据，重点关注与农业相关的拓展。
+<br><br>在非洲的化石、遗传和考古证据均强烈支持我们人类起源于非洲；尽管可以在当今非洲的狩猎采集者中找到非常古老的人群关系，但也存在广泛区域内的高度遗传同质性，反映了群体的扩张。从西南亚（中东）驯化的动物首次在约8000年前传入北非，逐渐向南移动，并在约5000年前进入东非，在约2000年前进入南非。西非、东苏丹和埃塞俄比亚高原似乎是作物驯化的几个中心，始于约4000年前。<br>北非和东非的畜牧业/农业传播：古代DNA的可用性极大地阐明了北非和东非食物生产传播可能带来的人口变化。除了撒哈拉以南非洲的祖先外，早在15000年前，北非人还具有近东的祖先，这表明返回非洲的基因流早于畜牧业或农业的引入。前新石器时代的祖先延续到早期新石器时代群体（约7000年前），而晚期新石器时代的北非人（约5000年前）又从伊比利亚接收了额外的基因流。因此，看来新石器时代的转变涉及文化和人口的扩散，但这一广阔地区还需要更多古代基因组的研究。<br>班图扩张：班图语在撒哈拉以南非洲的大部分地区被约30%的非洲人口使用。尽管该语言的起源大致位于一些农业驯化发生的地方，班图扩张的初始（约4000-5000年前）可能是由于西中部非洲雨林的气候引起的，而非农业本身。班图扩张的早期阶段与陶器和混合生计经济相关；后期阶段融入了几种植物和动物的驯化以及铁。扩张相对迅速，约在1800年前到达南非。遗传学研究表明，来自大陆远处的班图语群体显示出相似的遗传轮廓和显著的遗传同质性，这符合人口扩张的预期，而他们的地理邻近者（使用其他语言的群体）显示出更高的差异化水平。班图语群体的祖先主要源自西非。<br>遗传证据还显示了班图语群体扩张的路线，显示出一个“后期分裂”模型最能解释当前可用数据，即班图在穿越雨林后分为两个向东非和南非迁移的路线。相比之下，在南非，班图语群体显示出大量的本地（科伊桑相关）祖先，科伊桑语群体则显示出大量的班图相关祖先，表明他们之间有相当的互动。这些互动在性别上有很强的偏见，主要是班图语群体中发现的科伊桑相关的母系血统和科伊桑语群体中发现的班图相关的父系血统 <a data-footref="1" href="about:blank#fn-1-c0e85f482bc0a82e" class="footnote-link" target="_self" rel="noopener">[1]</a>。此外，从北到南，南非的性别偏见强度增加，表明影响群体间接触的社会环境正在变化。在西非，考古和遗传证据表明，班图扩张不是单一的人口扩张，而是具有多个扩张阶段，推断在刚果雨林发生了1.4-1.6千年前。<br><br>欧洲自至少4.5万年前就有现代人类居住，对该地区的现代和古代DNA的广泛研究揭示了新石器时代转变和青铜时代草原牧民迁移的影响。<br>新石器时代转变：欧洲新石器时代遗址以陶器及各种驯化植物和动物为特征，这些驯化大约始于1.1万年前，地点从安纳托利亚延伸至近东地区。新石器时代首先在约9-10千年前的塞浦路斯、希腊和巴尔干半岛出现。农业可能通过两条主要路线传播：一条沿地中海南部阿尔卑斯山脉，一条通过多瑙河走廊北部。<br>青铜时代草原迁移：在古DNA研究出现之前，许多基于现代人群的研究试图估算农民与狩猎采集者祖先在欧洲人群中的相对贡献；基于不同的数据集、方法和农民与狩猎采集者祖先的代理变量，农民祖先的估计值从不到15%到超过70%不等。古DNA研究不仅解决了这一争议，还表明存在一个通常未被预料到的第三来源祖先，在现代欧洲人群中的频率为10-50%。这种祖先在<a data-href="颜那亚文化（Yamna culture）" href="人文与科学术语\颜那亚文化（yamna-culture）.html" class="internal-link" target="_self" rel="noopener">颜那亚文化（Yamna culture）</a>中最为集中，这些牧民来自波蒂克-里海草原，大约在5千年前首次出现在欧洲的波罗的海地区，并在约1千年内传播到西欧。<br>印欧语言：印欧语言的起源和传播是一个引起广泛关注的话题，主要有两种假说：一是安纳托利亚假说，即印欧语言起源于安纳托利亚，然后随着农业约在8-9.5千年前传播到欧洲；二是草原假说，即印欧语言起源于黑海和里海以北的草原，然后随着马匹的驯化和车辆的发展，在约5.5-6.5千年前传播到欧洲。古DNA分析支持草原假说，但仍有一些问题未解决。印欧语言的传播可能比简单的人口扩散模型所能解释的更为复杂；一些印欧语言可能是由农民传播的，而其他则可能是由草原牧民传播的，或者一些通过人口扩散，其他则通过文化扩散。<br><br>中亚和南亚的新石器时代以及农业的传播情况相比欧洲较少被探索。尽管伊朗丰富的植物考古遗迹表明它是农业发展的关键地区，但农业向东扩展至中亚和向南扩展至南亚的过程研究较少。<br>新石器时代伊朗与农业的传播：古DNA研究表明，新石器时代的伊朗在遗传上与新石器时代的安纳托利亚有所不同，但大约从6000年前开始，安纳托利亚农民相关的祖先在伊朗显著增加，并且有一个向中亚递减的遗传梯度，这表明安纳托利亚农民向伊朗高原和中亚的东迁。这一迁移与家养山羊的传播相一致，但无法解释公元前8000年左右在吉尔吉斯斯坦发现的家养绵羊，这暗示了多重和/或更早的扩张。<br>南亚农业的起源：在8500年前的南亚，农业首次出现在巴基斯坦境内印度河谷西部的新石器时代遗址。巴基斯坦的其他新石器时代聚落表明，到6000-7000年前，农民已开始向北和东移动，形成了特征为永久定居的印度河谷文明（IVC），该文明在3900-4600年前繁荣。成千上万的遗址发现记录了农业超出IVC考古边界在印度的扩散。由于南亚炎热潮湿的环境使得DNA保存困难，迄今为止仅从一个IVC个体中获得了古DNA，这名个体间接地被定年为4300-4800年前，其祖先与现代南亚人以及一些来自伊朗和中亚的前新石器时代个体共享，但缺乏安纳托利亚农民相关的祖先。<br>草原迁移进入中亚和南亚：与欧洲类似，草原人进入中亚和南亚的历史也显示出复杂性。最早的东迁是出现在阿尔泰-萨彦地区的<a data-href="阿凡纳谢沃文化（Afanasievo）" href="人文与科学术语\阿凡纳谢沃文化（afanasievo）.html" class="internal-link" target="_self" rel="noopener">阿凡纳谢沃文化（Afanasievo）</a>，时间约在4500-5300年前；<a data-href="阿凡纳谢沃文化（Afanasievo）" href="人文与科学术语\阿凡纳谢沃文化（afanasievo）.html" class="internal-link" target="_self" rel="noopener">阿凡纳谢沃文化（Afanasievo）</a>人群在遗传上与<a data-href="颜那亚文化（Yamna culture）" href="人文与科学术语\颜那亚文化（yamna-culture）.html" class="internal-link" target="_self" rel="noopener">颜那亚文化（Yamna culture）</a>非常接近。在中亚，第一次出现草原祖先的证据来自公元前4000年左右的 <a data-href="巴克特里亚·马尔吉亚纳文明区（Bactria–Margiana Archaeological Complex，BMAC）" href="人文与科学术语\巴克特里亚·马尔吉亚纳文明区（bactria–margiana-archaeological-complex，bmac）.html" class="internal-link" target="_self" rel="noopener">巴克特里亚·马尔吉亚纳文明区（Bactria–Margiana Archaeological Complex，BMAC）</a>，传播的草原祖先似乎与横跨乌拉尔山的 <a data-href="辛塔什塔游牧文化（Sintashta pastoral cultures）" href="人文与科学术语\辛塔什塔游牧文化（sintashta-pastoral-cultures）.html" class="internal-link" target="_self" rel="noopener">辛塔什塔游牧文化（Sintashta pastoral cultures）</a> 有关。此外，大约在3500-4000年前，一次来自中亚的迁移将草原祖先带到了南亚，与IVC人群混合，对现代南亚人的祖先构成贡献高达30%。<br><br>东亚拥有悠久的人类居住历史，最早可追溯至至少4.5万年前。在全新世期间，中国的黄河、淮河和长江流域是 <a data-href="稻（Oryza sativa L.）" href="人文与科学术语\稻（oryza-sativa-l.）.html" class="internal-link" target="_self" rel="noopener">稻（Oryza sativa L.）</a> 和<a data-href="粟（millet）" href="人文与科学术语\粟（millet）.html" class="internal-link" target="_self" rel="noopener">粟（millet）</a>的重要驯化中心，起始于约8000至9000年前。考古证据显示，农业向南扩展至东南亚大陆（MSEA）和中国台湾，并最终作为南岛语系的扩张继续向外延伸。在MSEA，语言情况更为复杂，有五大语系在该地区传播和多样化，理解影响其传播的力量和过程是一个挑战。<br>农业的传播：考古学家一直在辩论东亚农业是通过农民迁移并与当地狩猎采集者混合或同化（“两层假说”）传播，还是通过文化扩散和/或本地发展（“地区连续性假说”）传播，目前越来越多的共识支持前者。古DNA强烈支持“两层假说”。大约2000年前来自MSEA的古DNA显示，这些与青铜时代文化相关的个体进入了铁器时代和历史时期，显示了额外的东亚相关祖先，这在新石器时代个体中不存在。许多现代MSEA群体的结构是由于这些推断的迁移形成的，因为这一时期的古代个体开始在遗传上更接近同一地区的现代MSEA群体。今天的MSEA以广泛的语言多样性为特征，有五大语言家族（南亚语系、壮侗语系、汉藏语系、苗瑶语系和南岛语系）。正如上文所述，南亚语与新石器时代水稻和粟的传播有关，它们今天的分布可能反映了其他语言群体的后来入侵。<br>语言学研究表明，壮侗语和南岛语之间可能存在联系；基于古代样本和现代人群的遗传研究确认了原始壮侗语群体和原始南岛群体之间可能的祖先联系。汉藏语系起源于中国北部，可能从大约3000年前开始向MSEA传播，而苗瑶语可能起源于中国南部，与壮侗语大致同时传播。MSEA只有少数南岛语言（马来语、摩梭语和占语），它们可能起源于大约2000至2500年前。<br>总的来说，与其他地区相比，MSEA的情况非常独特，因为多个语言家族都在几千年内起源并传播，尽管食物生产是一个重要方面，但似乎还有其他因素使得这些不同的语言家族能够同时繁荣。全面的现代越南和泰国人群的全基因组数据研究记录了涉及扩张、群体间广泛接触、隔离以及可能的语言转换的复杂历史。对该地区古DNA的更详细研究将对理解MSEA的遗传和语言多样性至关重要。<br><br>东南亚群岛（ISEA）和大洋洲在全新世期间经历了动态的人类迁移，这些迁移与农业扩张、精湛的海上航行技术以及复杂的贸易网络密切相关。ISEA的定居与大约4000至5000年前开始的南岛语系从中国台湾的扩张密切相关。南岛人将农业和他们的语言向南通过菲律宾扩展到印度尼西亚，继续向西到东南亚大陆，以及向东到新几内亚和附近的岛屿。这种人口扩散没有完全取代原住民群体，现代和古代基因组的混合证据证实了这一点。这里呈现了一个典型的农业语言通过人口扩散传播的信号——但故事更加复杂；古DNA表明，华莱士线（东印度尼西亚的群岛）存在与东南亚大陆相关的祖先，这可能早于南岛语系的扩张，但没有考古或语言证据支持。<br>
+大洋洲的远距离海上航行： 南岛语族通过ISEA进入近大洋洲（新几内亚及其附近岛屿）很可能是通过岛屿跳跃和可视水域交叉完成的，这不需要复杂的船舶技术（尽管来自马里亚纳群岛的古DNA证据支持从菲律宾直接迁移，跨越2000多公里的公开海域，约3500年前）。南岛人可能继续从印度尼西亚东部沿新几内亚海岸，最终在约3400年前到达俾斯麦群岛。南岛语族在新几内亚的祖先仅限于海岸和离岸岛屿，没有证据表明南岛人进入了新几内亚高地。进一步将南岛语族扩散到远大洋洲（新几内亚北部和东部的岛屿，包括密克罗尼西亚和波利尼西亚，只能通过远距离航行到达）肯定需要复杂的船舶技术。南岛人快速通过远大洋洲的岛屿，大约2900年前到达汤加和萨摩亚，最远的岛屿（夏威夷和新西兰）在过去1000年内到达。<br>
+马达加斯加和海上游牧民： 南岛人不仅定居了太平洋的广阔地带，而且他们是最早到达马达加斯加的人，约在1100至1300年前。此外，马拉加斯语与来自东加里曼丹的大巴里托语群相关，全基因组研究也表明原始马拉加斯语人可能来自东加里曼丹，后来与后来从非洲大陆到达的班图语人混合。菲律宾、马来西亚和印度尼西亚某些群体所说的萨马-巴瑶语同样属于大巴里托语群，这些包括被描述为海上游牧民的人口，因其居住在船上的历史和强烈的海洋导向而得名。萨马-巴瑶和马拉加斯语的分布可能分别反映了来自巴里托地区人民的东向和西向运动，这是由斯里维加亚帝国的扩张触发的，斯里维加亚帝国是约1000年前的一个马来-印度海上帝国。<br>
+新几内亚高地的农业传播： 新几内亚高地是植物驯化的独立早期地点，确切的证据表明在约6700至7000年前种植了芋头和香蕉，并有迹象表明芋头的种植早在10000年前。新几内亚农业的传播可能伴随着跨新几内亚语言的传播，这些语言构成了岛上讲的约850种语言的近一半。全基因组数据的综合研究发现，巴布亚新几内亚人口结构的形成和扩张约在10000年前，这可能反映了农业的影响和跨新几内亚语言的传播。然而，与典型涉及农业相关扩散的地区（例如，讲南岛语族或班图语族的人群）不同，PNG高地居民显示出更高的人口分化水平，这表明所谓的农业相关扩张可能伴随极端的隔离、瓶颈和漂移，或者在高地没有显著扩张。古DNA数据以及对现代PNG人群的进一步比较（特别是跨新几内亚语组与非跨新几内亚语组）将有助于进一步阐明农业对新几内亚遗传结构的影响。<br><br>交流而非单一遗传扩散所致。美洲的这些复杂的人类迁移和扩散模式展示了人类文化和遗传多样性之间复杂的交互。<br>
+北美洲 考古证据支持存在两次主要的跨北极人类扩散，这两次扩散显然与农业无关。第一次涉及旧石器时代因纽特人，约发生在5000年前，与多个考古文化如前多塞特文化、萨卡克文化和独立一文化相关。一个旧石器时代因纽特人的基因组数据显示，这个个体源自一次从西伯利亚独立于先前迁移的人口扩散，并且与任何现代美洲原住民群体无关。旧石器时代因纽特人在大约1500年前从考古记录中消失，被来自图勒文化的人取代，这些人是现代因纽特人和伊努皮亚特人的遗传和文化祖先。<br>
+中美洲 玉米是欧洲人抵达美洲时许多社会的主食；考古证据表明，玉米最早在至少8700年前的墨西哥南部中部地区被驯化，之后广泛传播，大约4500年前抵达美国西南部，早在7000年前抵达南美洲海岸。然而，关于玉米农业是否主要是从中美洲向北通过文化扩散传播，还是通过中美洲农民的长距离迁移传播至美国西南部存在争议。<br>
+南美洲 南美洲拥有极大的文化和语言多样性，包含多个在广阔地理区域内扩散的语言家族，如安第斯的克丘亚语系和亚马逊低地的阿拉瓦克语系、图皮语系和加勒比语系。然而，这些广泛的扩散并未完全取代小的本地语言家族，形成了马赛克式的语言景观。安第斯和亚马逊被认为是植物驯化的重要中心，始于约8500至10000年前，但广泛的南美语言家族的扩展和多样化被认为只发生在约1000至4000年前。因此，早期农业并非主要的南美语言家族大规模扩散的原因。植物驯化成为人类饮食的重要部分可能需要几千年的时间，可能是因为人口扩张需要进一步的技术创新和作物生产率的提高。气候变化可能也影响了这些扩散；在从中全新世过渡到晚全新世（约4200年前）期间，南美洲经历了降雨量增加，热带雨林以稀树草原为代价扩张。<br>
+总的来说，尽管现代人口的遗传研究开始提供一些洞见，但美洲的语言家族扩散的复杂历史表明，文化交流和广泛的交流可能是推动语言和人群扩散的主要方式，而非简单的遗传扩散。<br><br>这次简短的调查强调了全新世人类迁移的复杂性。尽管可以识别出与农业扩张和一些语言家族（例如班图语族、南岛语族）扩散相关的强烈遗传信号，但即便在这些情况下，扩张农民与土著狩猎采集者之间的互动在遗传结果上也显示出显著的异质性（例如，马拉维和莫桑比克的前农业群体被扩张的班图群体完全或几乎完全替代，与南非的班图与科伊桑语族群体之间广泛的混合）。在世界其他地区，扩张与农业之间的联系更为脆弱（例如，美洲），可能是因为广泛的扩张后混合或其他复杂因素。古DNA研究在识别这些复杂因素以及一些在现代人群调查中未被发现的扩张方面大有帮助，尤其是青铜时代从草原地区的迁移对欧洲和/或中南亚的影响，这可能带来了印欧语言。<br><a href=".?query=tag:想法" class="tag" target="_blank" rel="noopener">#想法</a> 东南亚大陆是一个特别复杂的区域 ，在几千年的时间跨度内有不少于五种不同的语言家族传入该地区；是什么情况允许这些多样的语言家族得以存活和繁荣？
+东南亚大陆（MSEA）的语言和文化多样性的成因，涉及多个方面的历史、地理和社会因素。这些因素可能共同塑造了这一地区独特的人类迁移和文化演化历史。<br>
+地理多样性：MSEA地区包括广泛的山脉、河流和岛屿，这种地理多样性为不同人群提供了相对隔离的栖息地，使得各种语言和文化得以在小规模的地理范围内独立发展。<br>
+农业的传播与适应：虽然农业是该区域内多个文化传播的一个重要因素，但农业技术和作物的本地化适应也促进了不同农业实践的发展。例如，水稻农业的成功适应湿润气候，支持了固定居住点的形成，进而有利于特定语言和文化的发展和传承。<br>
+贸易和交流网络：MSEA是古代贸易路线的交汇点，例如通过马六甲海峡的海上丝绸之路。这种贸易不仅促进了物质文化的交流，也促进了语言和文化的传播。各种语言家族的扩散可能与经济和政治权力的变迁密切相关，交易中心常常是语言传播和文化交融的热点。<br>
+社会结构和政治组织：不同的政治和社会组织形式也影响了文化和语言的传播。例如，一些地区可能由于具有强大的政治结构而促进了一种语言的官方化和标准化，而其他地区则可能保持了语言的多样性。<br>
+人口迁移：历史上的大规模人口迁移，如南岛语族的迁移，对语言的扩散有直接影响。这些迁移通常伴随着文化和技术的传播，对当地社会结构产生了深远的影响。<br>
+环境和气候变化：气候变化对农业实践有重大影响，进而影响人群的定居模式和迁移路径。例如，气候的变化可能迫使人群向更适宜的农业区域迁移，从而带动特定语言的扩散。
+<br>尽管在世界许多地方的古DNA分析受到DNA保存问题的困扰，我们可以期待未来技术的进步将为全新世的人类迁移带来新的见解。与此同时，更全面的现代人群研究以及计算基因组数据分析技术的进一步发展将是有益的。此外，明显需要研究支撑全新世迁移复杂历史的社会文化背景，以理解农业和语言扩张结果为何如此多变。<br><br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202407090947382.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
+图 S1。人类在非洲内部和进入非洲的扩散。该地图仅显示了本评论中讨论的扩散，箭头粗略地指示了扩散方向。<br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202407090947616.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
+图 S2。文本中讨论的新石器时代和青铜时代扩散到欧洲以及中亚和南亚的摘要。<br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202407090948204.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
+图 S3。文中讨论的东亚和东南亚大陆的全新世人类主要扩散。<br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202407090948963.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
+图 S4。文中讨论了东南亚岛屿和大洋洲的人类扩散和生存发展。<br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202407090948483.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
+图 S5。文中讨论了全新世在美洲的主要扩散。<br><br><br>
+<br>
+<br>V. Bajic et al., Genetic structure and sex-biased gene flow in the history of southern African populations. Am. J. Phys. Anthropol. 167, 656–671 (2018).<a href="about:blank#fnref-1-c0e85f482bc0a82e" class="footnote-backref footnote-link" target="_self" rel="noopener"><span></span>︎</a><img class="emoji" draggable="false" alt="↩" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/21a9.svg" height="16px" style="max-width: 100%;">
+]]></description><link>文献及报道\文献\2023-pnas-全新世人类扩散的基因组视角.html</link><guid isPermaLink="false">文献及报道/文献/2023 PNAS 全新世人类扩散的基因组视角.md</guid><pubDate>Tue, 09 Jul 2024 02:31:04 GMT</pubDate><enclosure url="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202407090947382.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202407090947382.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[人类线粒体 DNA 突变的速率、性质和传递]]></title><description><![CDATA[ 
  <br><a data-href="2024 Cell 人类谱系中线粒体 DNA 突变的速率和性质" href="文献及报道\文献\2024-cell-人类谱系中线粒体-dna-突变的速率和性质.html" class="internal-link" target="_self" rel="noopener"><span class="iconize-icon-in-link" title="👍" aria-label="👍" data-icon="👍" aria-hidden="true"></span>2024 Cell 人类谱系中线粒体 DNA 突变的速率和性质</a><img class="emoji" draggable="false" alt="👍" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f44d.svg" height="16px" style="max-width: 100%;"><br><a data-tooltip-position="top" aria-label="https://www.decode.com/the-rate-nature-and-transmission-of-mitochondrial-dna-mutations-in-humans/" rel="noopener" class="external-link" href="https://www.decode.com/the-rate-nature-and-transmission-of-mitochondrial-dna-mutations-in-humans/" target="_blank">原文链接</a><br>人类基因组的一个重要小部分存在于线粒体中，线粒体仅通过卵母细胞从母亲传递给子代。通过所谓的“种系瓶颈”机制，每个个体起初会从母亲那里继承 mtDNA 并复制至数十万个 mtDNA 的拷贝。如果这些 mtDNA 拷贝中有相当比例携带有害突变，通常会导致一系列严重疾病。该研究使用来自 64,806 名冰岛人的序列数据，涵盖了 116,663 次母子 mtDNA 传递，发现了 8,199 个突变，提供了深入了解 mtDNA 突变的动态和性质以及其对人类健康的潜在影响的机会。这篇发表在《Cell》杂志的论文详细记录了人类种系 mtDNA 突变及其在 116,663 对母子间的传播，这是迄今为止最大规模的相关研究。研究强调了 mtDNA 某些位点的高突变率，尤其是引起 MELAS 综合征的著名的3243位A&gt;G突变。<a data-href="PNAS 线粒体DNA第3243位异质性的逐渐增加导致突然的转录重编程" href="文献及报道\文献\pnas-线粒体dna第3243位异质性的逐渐增加导致突然的转录重编程.html" class="internal-link" target="_self" rel="noopener">PNAS 线粒体DNA第3243位异质性的逐渐增加导致突然的转录重编程</a>。尽管这种突变在 2,548 个母系家系中出现了 15 次，但由于其对健康的严重影响，这种突变通常在几代人后就会消失。<br>此外，研究揭示了对这类短暂有害 mtDNA 突变进行选择的强有力证据。研究团队还观察到了影响线粒体的广泛早期负选择，这种被称为种系选择的现象表明，在卵母细胞发育过程中，功能不良的 mtDNA 分子会被淘汰。研究中还发现个体从母亲那里平均只遗传约 3 个单位的 mtDNA，远少于之前研究的结果。<br>早期的估计认为每个个体可能从母亲那里继承成百上千个 mtDNA 分子。<br>论文通讯作者之一、deCODE的首席执行官 Kári Stefánsson 强调，这项研究让我们更接近理解 mtDNA 基因组核苷酸突变率的异常变异，甚至是同一位置不同等位基因间的差异。他指出，一些致病性突变因其高度可变性而变得普遍，从而更易于发现。然而，许多导致人类疾病负担的罕见致病性 mtDNA 突变仍有待发现。<br><br>推荐观看视频：<a data-tooltip-position="top" aria-label="https://player.vimeo.com/video/953941695?h=4467620687&amp;dnt=1&amp;app_id=122963" rel="noopener" class="external-link" href="https://player.vimeo.com/video/953941695?h=4467620687&amp;dnt=1&amp;app_id=122963" target="_blank">The rate and nature of mitochondrial DNA mutations in human pedigrees on Vimeo</a>]]></description><link>文献及报道\报道\人类线粒体-dna-突变的速率、性质和传递.html</link><guid isPermaLink="false">文献及报道/报道/人类线粒体 DNA 突变的速率、性质和传递.md</guid><pubDate>Sun, 07 Jul 2024 04:04:18 GMT</pubDate><enclosure url="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f44d.svg" length="0" type="image/svg+xml"/><content:encoded>&lt;figure&gt;&lt;img src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f44d.svg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[亮点]]></title><description><![CDATA[ 
  <br>
 The rate and nature of mitochondrial DNA mutations in human pedigrees
@@ -10284,61 +10424,7 @@ cat header.txt data.txt &gt; merged.vcf
 firefox 1000g-results/report/report.html
  # 命令  ./haplocheck --out 输出文件.txt 输入文件.vcf/bam
  ./haplocheck --out /home/luolintao/haplocheck/outcomes/Illumina_mtDNA.txt /home/luolintao/Illumina_data/Illumina_mtDNA.vcf
-复制]]></description><link>软件\其它生信软件\全基因组\haplocheck检测污染.html</link><guid isPermaLink="false">软件/其它生信软件/全基因组/haplocheck检测污染.md</guid><pubDate>Fri, 21 Jun 2024 07:30:24 GMT</pubDate></item><item><title><![CDATA[mitofinder 软件的作用]]></title><description><![CDATA[ 
- <br>本文提供了 Mitofinder 软件的安装和使用说明，该软件用于分析线粒体 DNA 数据，识别线粒体单倍群和估计进化距离。<br><br>mitofinder 是一款用于分析线粒体 DNA 序列的软件。它可以帮助研究人员识别线粒体 DNA 中的突变和变异，并了解这些变化与疾病之间的关系。<br><br>
-<br>
-安装依赖项：
-
-<br>sudo apt-get update 
-<br>sudo apt-get install -y git wget
-
-
-<br>
-克隆源码：
-
-<br>git clone https://github.com/RemiAllio/MitoFinder.git
-<br>cd MitoFinder
-
-
-<br>
-运行安装脚本：
-
-<br>./install.sh
-
-
-<br>
-设置环境变量：
-
-<br>在 .bashrc 中添加：
-
-<br>echo 'export PATH=$PATH:/home/luolintao/MitoFinder-master' &gt;&gt; ~/.bashrc source ~/.bashrc
-
-
-
-
-<br>验证安装<br>
-<br>mitofinder --version
-<br><br>MitoFinder 运行需要指定参考基因组文件。你需要提供一个参考的线粒体基因组文件，并使用 -r 选项来指定这个文件。<br>你需要一个参考的线粒体基因组文件，通常是 GenBank 格式（.gb）的文件。你可以从 NCBI 或其他数据库下载合适的参考基因组。<br>请运行上述命令，MitoFinder 应该会开始处理并进行线粒体基因组的注释。如果你在运行过程中遇到任何问题，请提供详细的错误信息以便进一步帮助。<br>mitofinder -j 10K_huge -a /输入文件.fasta -r /参考序列sequence.gb -o 2 -m mitochondrion
-复制<br><br>
-<br>The Standard Code: 常规的标准遗传密码表。
-<br>The Vertebrate Mitochondrial Code: 脊椎动物线粒体密码表。
-<br>The Yeast Mitochondrial Code: 酵母线粒体密码表。
-<br>The Mold, Protozoan, and Coelenterate Mitochondrial Code and the Mycoplasma/Spiroplasma Code: 霉菌、原生动物、刺胞动物线粒体密码表以及支原体/螺旋体密码表。
-<br>The Invertebrate Mitochondrial Code: 无脊椎动物线粒体密码表。
-<br>The Ciliate, Dasycladacean and Hexamita Nuclear Code: 纤毛虫、Dascycladacean 和 Hexamita 核密码表。
-<br>The Echinoderm and Flatworm Mitochondrial Code: 棘皮动物和扁虫线粒体密码表。
-<br>The Euplotid Nuclear Code: Euplotid 核密码表。
-<br>The Bacterial, Archaeal and Plant Plastid Code: 细菌、古菌和植物质体密码表。
-<br>The Alternative Yeast Nuclear Code: 替代的酵母核密码表。
-<br>The Ascidian Mitochondrial Code: 被囊动物线粒体密码表。
-<br>The Alternative Flatworm Mitochondrial Code: 替代的扁虫线粒体密码表。
-<br>Chlorophycean Mitochondrial Code: 绿藻线粒体密码表。
-<br>Trematode Mitochondrial Code: 吸虫线粒体密码表。
-<br>Scenedesmus obliquus Mitochondrial Code: Scenedesmus obliquus 线粒体密码表。
-<br>Thraustochytrium Mitochondrial Code: Thraustochytrium 线粒体密码表。
-<br>Pterobranchia Mitochondrial Code: Pterobranchia 线粒体密码表。
-<br>Candidate Division SR1 and Gracilibacteria Code: SR1 候选门类和 Gracilibacteria 密码表。
-]]></description><link>软件\其它生信软件\全基因组\mitofinder软件安装和使用.html</link><guid isPermaLink="false">软件/其它生信软件/全基因组/mitofinder软件安装和使用.md</guid><pubDate>Fri, 21 Jun 2024 07:30:25 GMT</pubDate></item><item><title><![CDATA[1. 安装]]></title><description><![CDATA[ 
+复制]]></description><link>软件\其它生信软件\全基因组\haplocheck检测污染.html</link><guid isPermaLink="false">软件/其它生信软件/全基因组/haplocheck检测污染.md</guid><pubDate>Fri, 21 Jun 2024 07:30:24 GMT</pubDate></item><item><title><![CDATA[1. 安装]]></title><description><![CDATA[ 
  <br><br>使用以下命令将 MToolBox 的路径添加到系统的 PATH 中：<br>export PATH="/path/to/MToolBox/:$PATH"
 复制<br>在 MToolBox 文件夹中，运行 install.sh 脚本（适用于 Linux 发行版）：<br>./install.sh
 复制<br>以完成所有 MToolBox 依赖项的完整安装。这可能需要一些时间，请耐心等待，直到整个过程成功完成。我们强烈建议使用安装脚本提供的默认版本：<br>
@@ -21022,23 +21108,7 @@ Have a look at the tutorial and manual for more information:
 是否需要去除对齐序列中的gap取决于具体的分析需求和数据特征。<br>
 保留gap：在某些情况下提供重要的信息，尤其是当gap表示插入或缺失事件时,gap可能有助于反映真实的进化历史。<br>
 去除gap：对齐中的gap较多且分布不均匀，它们可能引入噪声，影响树的准确性。高度保守的区域或者当gap被认为是对分析有害时，去除它们可能会提高树的质量
-]]></description><link>软件\iqtree\iqtree：基础操作.html</link><guid isPermaLink="false">软件/IQtree/iqtree：基础操作.md</guid><pubDate>Thu, 20 Jun 2024 12:18:10 GMT</pubDate><enclosure url="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202405081630868.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202405081630868.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[文件准备]]></title><description><![CDATA[ 
- <br>可以看看: <a data-href="iqtree：基础操作" href="软件\iqtree\iqtree：基础操作.html" class="internal-link" target="_self" rel="noopener">iqtree：基础操作</a><br><br><br>partition_file.txt：<br>DNA, HKY+G+I: HighVar = 1-600 16001-16594
-DNA, GTR+G+I: Coding = 601-16000
-复制<br>注意，你需要根据自己的数据选择适合的模型，具体你可以参考这个：<br>
-<a data-href="BEAST：替换模型" href="软件\beast\beast：替换模型.html" class="internal-link" target="_self" rel="noopener">BEAST：替换模型</a><br>
-<a data-href="iqtree：寻找最优模型及分区" href="软件\iqtree\iqtree：寻找最优模型及分区.html" class="internal-link" target="_self" rel="noopener">iqtree：寻找最优模型及分区</a><br><br>一个普通的 nex 文件：<br>#NEXUS
-Begin data;
-Dimensions ntax=8368 nchar=16594;
-Format datatype=dna missing=? gap=-;
-Matrix
-ID1	GATCACAGGTCTATCACCCTATTAACCACTCACGGGAGCTCT-CCATGCATTTGGTA
-ID2	GATCACAGGTCTATCACCCTATTAACCACTCACGGGAGCTCT-CCATGCATTTGGTA
-......
-;
-End;
-复制<br><br>iqtree -s 你的nex文件.nex -spp 分区文件/partition_file.txt -b 1000 -nt AUTO 
-复制<br>结果解读可以看这里：<a data-href="iqtree：基础操作" href="软件\iqtree\iqtree：基础操作.html" class="internal-link" target="_self" rel="noopener">iqtree：基础操作</a>]]></description><link>软件\iqtree\iqtree：线粒体最大似然树.html</link><guid isPermaLink="false">软件/IQtree/iqtree：线粒体最大似然树.md</guid><pubDate>Thu, 20 Jun 2024 12:18:09 GMT</pubDate></item><item><title><![CDATA[准备工作]]></title><description><![CDATA[ 
+]]></description><link>软件\iqtree\iqtree：基础操作.html</link><guid isPermaLink="false">软件/IQtree/iqtree：基础操作.md</guid><pubDate>Thu, 20 Jun 2024 12:18:10 GMT</pubDate><enclosure url="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202405081630868.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202405081630868.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[准备工作]]></title><description><![CDATA[ 
  <br><br><br>我们需要对原始的 fasta 文件进行对齐，因为在建立系统发育树必须使用对齐的文件。我们推荐使用 MAFFT 软件进行操作。<br><br>sudo apt-get update
 sudo apt-get install mafft
 复制<br><br>mafft --auto input.fasta &gt; output_aligned.fasta
