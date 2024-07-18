@@ -1,4 +1,158 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[思维领域]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>思维领域</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Thu, 18 Jul 2024 08:51:11 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Thu, 18 Jul 2024 08:51:03 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[数据准备]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[思维领域]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>思维领域</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Thu, 18 Jul 2024 14:42:47 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Thu, 18 Jul 2024 14:42:45 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[使用方法]]></title><description><![CDATA[ 
+ <br>自从 <a data-href="Haplogrep3：软件使用手册" href="软件\其它生信软件\群体遗传\haplogrep3：软件使用手册.html" class="internal-link" target="_self" rel="noopener"><span class="iconize-icon-in-link" title="🙂" aria-label="🙂" data-icon="🙂" aria-hidden="true"></span>Haplogrep3：软件使用手册</a><img class="emoji" draggable="false" alt="🙂" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f642.svg" height="16px" style="max-width: 100%;"> 软件出来之后，这个软件已经被忽视了。但是最近我发现了一个很糟糕的事情，就是在第三代软件中不能够使用第二代可以使用的带位点信息的系统发育树。我发邮件问了作者，他让我用第二代。嗯，很简洁的回答。<br>
+第二代网站链接 ： <a rel="noopener" class="external-link" href="https://github.com/seppinho/haplogrep-cmd" target="_blank">https://github.com/seppinho/haplogrep-cmd</a><br>
+我不知道第二代会不会网站出问题，我存了一份，可以发邮件给我： <a data-tooltip-position="top" aria-label="mailto:gaintlinlinlin@gmail.com" rel="noopener" class="external-link" href="mailto:gaintlinlinlin@gmail.com" target="_blank">gaintlinlinlin@gmail.com</a><br><br><br>输入文件可以是 fasta 或者 vcf。<br>注意
+fasta 文件不能够出现任何特殊字符，只能够包含 A,G,C,T。也就是说不能够使用对齐的 fasta 文件。用原始的即可。<br>
+VCF 文件分为两种，一种是芯片的，另一种是 WGS 的。如果是芯片的，就要加上一个参数 --chip
+<br><br><br>haplogrep-cmd-master/haplogrep classify \
+--in input/你的数据.vcf \
+--format vcf \
+--phylotree 17 \
+--extend-report \
+--lineage 1 \
+--out outcome/1 \
+--chip
+# --lineage 0代表不生成。1代表生成位点和拓扑结构。2代表生成拓扑结构。选1最好。
+复制<br><br>haplogrep-cmd-master/haplogrep classify \
+--in input/你的数据.vcf \
+--format vcf \
+--phylotree 17 \
+--extend-report \
+--lineage 1 \
+--out outcome/1 \
+复制<br><br>haplogrep-cmd-master/haplogrep classify \
+--in input/你的数据.fasta \
+--format fasta \
+--phylotree 17 \
+--extend-report \
+--lineage 1 \
+--out outcome/1 \
+复制<br><br>会生成一个 dot 文件，使用 dot 软件即可。软件下载很简单，linux 系统直接 sudo get 即可。 这个文件被用于可视化：<br>dot 1.dot \
+-Tpdf &gt; 1.pdf 
+复制<br><br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202407182231091.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br>这个软件只能使用 phylotree 17.0 。我不知道怎么使用更新的树。所以我直接把想要的树的内容（从 haplogrep3获得）将原本的文件进行替换。我不知道有没有用。<br>举例来说：<br>Haplogrep3/trees/phylotree-rcrs/17.2
+Haplogrep3/trees/phylotree-rcrs/17.1
+Haplogrep3/trees/phylotree-rcrs/17.0
+复制<br>内部各自有 树.xml 和对应的权重 weghit.txt 文件：<br>Haplogrep3/trees/phylotree-rcrs/17.2/weights.txt
+Haplogrep3/trees/phylotree-rcrs/17.2/tree.xml
+复制<br>分别可以用来替换第二代软件的树文件：<br>haplogrep-cmd-master/data/phylotree/phylotree17_FU1a.xml
+haplogrep-cmd-master/src/main/resources/phylotree17_FU1a.xml
+haplogrep-cmd-master/src/main/resources/weights17_FU1a.txt
+复制<br>请一定不要改文件名字，仅替换内容！]]></description><link>软件\其它生信软件\群体遗传\haplogrep2：生成突变位点信息的系统发育树.html</link><guid isPermaLink="false">软件/其它生信软件/群体遗传/Haplogrep2：生成突变位点信息的系统发育树.md</guid><pubDate>Thu, 18 Jul 2024 14:42:45 GMT</pubDate><enclosure url="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f601.svg" length="0" type="image/svg+xml"/><content:encoded>&lt;figure&gt;&lt;img src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f601.svg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Haplogrep3：软件使用手册]]></title><description><![CDATA[ 
+ <br>如果希望生成带有突变位点的系统发育树，可以使用第二代：<a data-href="Haplogrep2：生成突变位点信息的系统发育树" href="软件\其它生信软件\群体遗传\haplogrep2：生成突变位点信息的系统发育树.html" class="internal-link" target="_self" rel="noopener"><span class="iconize-icon-in-link" title="😁" aria-label="😁" data-icon="😁" aria-hidden="true"></span>Haplogrep2：生成突变位点信息的系统发育树</a><img class="emoji" draggable="false" alt="😁" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f601.svg" height="16px" style="max-width: 100%;"><br>#### Haplogrep3 linux系统使用手册###
+#### 软件的功能可以#################
+#### 1.单倍群分型###################
+#### 2.根据参考序列生成FASTA#######
+#### 3.其他功能，我猜测你用不上#####
+###################################  
+## 先下载软件：
+wget https://github.com/genepi/haplogrep3/releases/download/v3.2.1/haplogrep3-3.2.1-linux.zip
+unzip haplogrep3-3.2.1-linux.zip
+./haplogrep3
+## 或者你可以使用最原始的办法，win访问，然后把安装包放进linux，解压
+https://haplogrep.readthedocs.io/en/latest/installation/
+https://github.com/genepi/haplogrep3/releases/tag/v3.2.1
+# 现在开始安装参考树，请分步执行下列，我也不知道为什么，一起执行会报错
+# 打开haplogrep目录
+cd Haplogrep/
+# 执行以下
+## 安装PhyloTree (rCRS Human mtDNA)
+./haplogrep3 install-tree phylotree-rcrs@17.2
+./haplogrep3 install-tree phylotree-rcrs@17.1
+./haplogrep3 install-tree phylotree-rcrs@17.0
+./haplogrep3 install-tree phylotree-rcrs@16.0
+./haplogrep3 install-tree phylotree-rcrs@15.0
+
+## 安装PhyloTree (RSRS Human mtDNA)
+./haplogrep3 install-tree phylotree-rsrs@17.1
+./haplogrep3 install-tree phylotree-rsrs@17.0
+
+## 安装phylotree-forensic-rcrs
+./haplogrep3 install-tree phylotree-fu-rcrs@1.2
+./haplogrep3 install-tree phylotree-fu-rcrs@1.1
+./haplogrep3 install-tree phylotree-fu-rcrs@1.0
+
+## 现在就可以运行了 
+
+./haplogrep3 classify \
+--input 你的文件.vcf \
+--tree phylotree-rcrs@17.2 \
+--output Haplogrep/outcome/1.txt
+# 现在可以进行分类了
+
+## 在haplogrep目录下执行以下，例如，注意不合理的空格
+
+./haplogrep3 classify \
+--input 你的文件.fasta \
+--tree phylotree-rcrs@17.0 \
+--output Haplogrep/outcome/Illumina_mtDNA.txt \
+--write-fasta
+
+./haplogrep3 classify \
+--input 你的文件.vcf \
+--tree phylotree-rcrs@17.0 \
+--output 10K_HGDP/example2/new.txt \
+--write-fasta
+
+# 把上面的Haplogrep/data/examples/example-wgs.vcf替换成输入文件# vcf文件的格式可以参考# https://github.com/genepi/haplogrep3/blob/master/data/examples/example-wgs.vcf
+
+# 把--tree phylotree-rcrs@17.2替换为安装的树
+# 备选的树有以下
+#—————————— phylotree-rcrs@17.2
+#—————————— phylotree-rcrs@17.1
+#—————————— phylotree-rcrs@17.0
+#—————————— phylotree-rcrs@16.0
+#—————————— phylotree-rcrs@15.0
+#—————————— phylotree-rsrs@17.1
+#—————————— phylotree-fu-rcrs@1.2
+#—————————— phylotree-fu-rcrs@1.1
+#—————————— phylotree-fu-rcrs@1.0
+#把--out Haplogrep/outcome/XXX.txt替换为输出文件
+# 非必须参数说明
+--metric, distance &amp;nbsp;To change the classification metric to Hamming Distance (hamming) or Jaccard (jaccard) add this parameter (Default: Kulczynski Measure).
+--extend-report For additional information on SNPs (e.g. found or remaining polymorphisms) please add the --extend-report flag (Default: off).
+--tree &amp;nbsp;Specify one of the installed trees.
+--chip &amp;nbsp;If you are using genotyping arrays, please add the --chip parameter to limit the range to array SNPs only (Default: off, VCF only). To get the same behaviour for hsd files, please add only the variants to the range, which are included on the array or in the range you have sequenced (e.g. control region). Range can be sepearted by a semicolon ;, both ranges and single positions are allowed (e.g. 16024-16569;1-576;8860).
+--skip-alignment-rules &amp;nbsp;Add this option to skip our rules that fixes the mtDNA nomenclature for fasta import. Click here for further information. Applying the rules is the default option since v2.4.0
+--hits &amp;nbsp;To export the best n hits for each sample add the --hits parameter. By default only the tophit is exported.
+--write-fasta &amp;nbsp; Write results in fasta format.
+--write-fasta-msa &amp;nbsp; Write multiple sequence alignment.
+--hetLevel=&lt;value&gt; &amp;nbsp;Add heteroplasmies with a level &gt; from the VCF file to the profile (default: 0.9).
+###
+#完成！
+复制]]></description><link>软件\其它生信软件\群体遗传\haplogrep3：软件使用手册.html</link><guid isPermaLink="false">软件/其它生信软件/群体遗传/Haplogrep3：软件使用手册.md</guid><pubDate>Thu, 18 Jul 2024 14:42:45 GMT</pubDate><enclosure url="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f642.svg" length="0" type="image/svg+xml"/><content:encoded>&lt;figure&gt;&lt;img src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f642.svg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[1 .&nbsp;<a data-href="正态分布 (Normal Distribution)" href="正态分布 (Normal Distribution)" class="internal-link" target="_self" rel="noopener">正态分布 (Normal Distribution)</a>]]></title><description><![CDATA[ 
+ <br><br>正态分布在我们的生活中随处可见，我们身高的分布、体重的分布，甚至是考试成绩的分布都可能符合正态分布。它的形状就像一个钟形曲线，最高点在中间，两边逐渐低下，具有对称性。<br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517091725.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br>伯努利分布又名两点分布或者0-1分布，是描述只有两种可能结果的随机试验的概率分布，比如抛硬币或投掷骰子。它将这两种结果分别表示为1和0，通常用 p 来表示事件的成功概率，而1-p 表示事件的失败概率。比如，你在玩一个抛硬币的游戏。硬币只有两面：正面和反面。当你抛硬币时，只有两种可能的结果：硬币出现正面或反面。伯努利分布就像是描述硬币落地后是正面还是反面的概率分布。在伯努利分布中，我们关心的是事件的成功概率，即出现期望结果的概率。比如，在抛硬币时，成功的概率就是硬币出现正面的概率。<br>伯努利分布的变异程度通常由成功和失败的概率决定。如果硬币是公平的，那么成功和失败的概率都是相等的，变异程度就较小。假设你在玩一个猜硬币正反面的游戏，如果你猜对了，你就赢得奖品。这种情况下，游戏的结果可以用伯努利分布来描述。<br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517091815.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br>泊松分布常常用于描述单位时间或空间内事件发生的次数，比如在一小时内接到的电话数量、一天内发生的交通事故数量等。<br>它的形状看起来有点像钟形曲线，但是更加扁平。在图的中心，事件发生的次数最多，然后随着次数的增加，概率逐渐减小。<br>平均值告诉我们在单位时间或空间内预期事件的平均发生次数。<br>
+泊松分布的特点之一是，它的方差等于其平均值。这意味着，如果事件在某段时间内平均发生了5次，那么方差也是5，表明事件发生次数的变化程度与平均值相近。如果我们想知道某一条街道一天内发生的车祸数量的概率分布，我们可以使用泊松分布来预测不同数量的车祸发生的可能性。<br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517092140.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br>指数分布通常用于描述等待时间或事件之间的间隔时间，比如等待下一辆公交车到达的时间、两次地震之间的时间间隔等。<br>它的形状看起来有点像波峰逐渐减小的山脉。在开始时，概率较高，随着时间的推移，概率逐渐减小。<br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517092030.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
+指数分布的一个重要特点是，它是无记忆的。这意味着，在任何给定的时间点上，等待下一个事件的时间不受过去等待时间的影响。<br>平均值告诉我们在一段时间内预期发生事件的平均次数。而指数分布的方差等于平均值的平方，这意味着方差与平均值之间存在很大的差异。<br>如果我们想知道一个人等待下一次公交车到达的时间，我们可以使用指数分布来预测不同等待时间的概率分布。<br><br>伽玛分布通常用于描述连续随机变量的正数值，比如处理时间、等待时间或事件发生的时间间隔等。<br>它的形状可以是多样的，取决于伽玛分布的参数。但通常情况下，它呈现出右偏的形态，即尾部向右延伸。伽玛分布的平均值和方差都受到其参数的影响。当其中一个参数增大时，分布会更向右延伸，并且平均值和方差也会随之增大。<br>这个分布可以用于建模很多现实生活中的情况，比如处理时间、等待时间以及一些事件的发生间隔时间等。<br>如果我们想要预测一个机器的寿命，我们可以使用伽玛分布来描述机器的故障时间分布。<br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517092124.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br>贝塔分布是一种连续概率分布，通常用于描述在一个有限区间内取值的随机变量，比如概率值或者比例。<br>它的形状可以是多样的，取决于贝塔分布的参数。但通常情况下，它呈现出 U 型或者反 U 型的形态。<br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517092207.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
+贝塔分布的一个重要特点是，它可以用来描述一个随机变量的概率分布，并且在一些统计推断和贝叶斯分析中有重要的应用。<br>如果我们想要建立一个模型来描述一个产品的质量，我们可以使用贝塔分布来描述产品合格的比例。<br><br>均匀分布是一种简单的概率分布，它将所有可能的结果都分布在一个范围内，并且每个结果的概率都是相等的。<br>
+想想想想一下，把一个区间分成若干个等长的小区间，每个小区间内的概率都是相同的，这就是均匀分布。<br>
+它的形状就像是一个长方形，所有的小区间的高度都是一样的，表明每个结果出现的概率都是相等的。<br>
+均匀分布的参数是区间的上下界，它们决定了分布的范围。<br>
+如果我们想要模拟一个骰子的投掷结果，我们可以使用均匀分布，因为在一个公正的骰子中，每个面出现的概率都是相等的。<br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517092250.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br>二项分布在我们的日常生活中也很常见，比如抛硬币的结果、投掷骰子的结果或者考试中答对题目的次数等。<br>二项分布描述了在一系列独立的伯努利试验中成功次数的分布。这些试验只有两种可能的结果，比如抛硬币可能是正面或反面。<br>这个分布的形状不像钟形曲线那样，它更像是一个条形图。在图的两端，成功次数较少，而在中间，成功次数最多。<br>
+平均值告诉我们在这些试验中预期成功的次数，而标准差则告诉我们成功次数的变化程度。<br>假设我们进行了10次抛硬币的试验，我们想知道有多少次是正面。二项分布可以告诉我们每种可能的正面次数的概率。<br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517092331.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br>对数正态分布描述了一个随机变量的对数服从正态分布的情况。换句话说，如果一个随机变量的对数是正态分布的，那么该随机变量就服从对数正态分布。<br>它的形状看起来有点像正态分布，但是更加右偏。这是因为正态分布的对数在较大的值处增长得更快。<br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517092352.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
+对数正态分布通常用于描述一些连续的正数值的分布，比如收入分布、财富分布等。<br>它的参数是正态分布的平均值和标准差，它们决定了对数正态分布的形状。<br>如果我们想要描述一个城市中居民的收入分布，我们可能会发现它符合对数正态分布。<br><br>负二项分布描述了在一系列独立的伯努利试验中，达到指定数量的成功之前的失败次数。<br>与几何分布不同，几何分布是在达到第一次成功时停止，而负二项分布则在达到指定数量的成功时停止。<br>它的形状类似于二项分布，但更为右偏。开始时概率较高，随着试验次数的增加，概率逐渐减小。<br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517092426.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
+负二项分布的参数是成功的概率和达到指定数量的成功所需的试验次数。成功的概率越高，试验次数越少，分布越向左偏。<br>如果我们重复进行投掷硬币的试验，直到出现5次正面为止，负二项分布可以告诉我们达到5次正面所需的失败次数的概率分布情况。<br>数据科学家在日常工作中使用的一些基本概率分布包括以下 11 个：<br>
+<br>正态分布 (Normal Distribution)：在数据科学中应用广泛，特别是在统计推断和假设检验中。
+<br>泊松分布 (Poisson Distribution)：用于描述单位时间或空间内事件发生的次数的分布，如某个时间段内电话呼叫的数量。
+<br>指数分布 (Exponential Distribution)：描述等待时间或事件之间的间隔时间的分布，例如等待下一次地铁到达的时间。
+<br>伽玛分布 (Gamma Distribution)：在描述连续随机变量的正数值时非常有用，例如在描述等待时间或处理时间时。
+<br>贝塔分布 (Beta Distribution)：通常用于描述概率分布的先验知识，例如在贝叶斯推断中。
+<br>均匀分布 (Uniform Distribution)：用于描述所有可能结果等概率出现的情况，例如抛硬币、掷骰子等。
+<br>二项分布 (Binomial Distribution)：用于描述离散随机变量中成功次数的分布，例如抛硬币、投掷骰子等。
+<br>对数正态分布 (Log-Normal Distribution)：描述一个随机变量的对数服从正态分布的情况，例如财富分布或收入分布。
+<br>负二项分布 (Negative Binomial Distribution)：描述在一系列独立的伯努利试验中，达到指定数量的成功之前的失败次数。
+<br>威布尔分布 (Weibull Distribution)：常用于可靠性工程和寿命分析，描述随机事件的生存时间。<br>
+
+<br>这些分布覆盖了数据科学中许多常见的场景，从描述连续变量到描述离散变量，以及描述等待时间和间隔时间等各种情况。]]></description><link>术语\数据科学家-95-时间都在使用的-10-大基本分布.html</link><guid isPermaLink="false">术语/数据科学家 95% 时间都在使用的 10 大基本分布.md</guid><pubDate>Thu, 20 Jun 2024 12:25:33 GMT</pubDate><enclosure url="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517091725.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517091725.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[数据准备]]></title><description><![CDATA[ 
  <br><br>一个对齐的 fasta 文件，可以使用如下脚本把 coding 和 control 区分开。<br>import os
 import re
 from Bio import SeqIO
@@ -366,40 +520,7 @@ Y染色体亚当距今6万年。在科伊桑人。<br>
 吠陀文化（约公元前1500年—前500年）是指<a data-tooltip-position="top" aria-label="https://zh.wikipedia.org/wiki/%E5%90%A0%E9%99%80" rel="noopener" class="external-link" title="吠陀" href="https://zh.wikipedia.org/wiki/%E5%90%A0%E9%99%80" target="_blank">吠陀</a>经典所记载和反映的印度历史时期文化。]]></description><link>术语\吠陀（vedic）.html</link><guid isPermaLink="false">术语/吠陀（Vedic）.md</guid><pubDate>Thu, 18 Jul 2024 07:24:04 GMT</pubDate></item><item><title><![CDATA[扩展贝叶斯天际线图（Extended Bayesian Skyline Plot，EBSP）]]></title><description><![CDATA[ 
  <br>EBSP是 <a data-href="贝叶斯天际线图（Bayesian Skyline Plot, BSP）" href="术语\贝叶斯天际线图（bayesian-skyline-plot,-bsp）.html" class="internal-link" target="_self" rel="noopener">贝叶斯天际线图（Bayesian Skyline Plot, BSP）</a> 的扩展版本，考虑了更多种群动态的复杂性。与BSP不同，EBSP允许种群大小在时间上有变化，具有更高的灵活性。它可以应用于更广泛的时间范围内的种群动态估计，包括较长的时间段。<br>总的来说，EBSP相比BSP更为灵活和复杂，可以更准确地估计更广泛时间范围内的种群历史动态。选择使用哪种方法取决于研究的时间尺度和对种群动态复杂性的需求。]]></description><link>术语\扩展贝叶斯天际线图（extended-bayesian-skyline-plot，ebsp）.html</link><guid isPermaLink="false">术语/扩展贝叶斯天际线图（Extended Bayesian Skyline Plot，EBSP）.md</guid><pubDate>Thu, 18 Jul 2024 08:22:44 GMT</pubDate></item><item><title><![CDATA[苗瑶语（Hmong–Mien languages）]]></title><description><![CDATA[ 
  <br>苗瑶语系是苗、瑶、畲等族群所使用的有共同来源的语系。学术界对于苗瑶语的语言系属分类有不同看法：大部分学者多认为苗瑶语是独立语系，即苗瑶语系，部分中国学者则认为苗瑶语是属于汉藏语系的语族，即苗瑶语族。<br>苗瑶语的使用者分布于中国的中南和西南地区，以及中南半岛北部邻近中国的地区，主要为苗族、瑶族和畲族。这三个民族大约有1300万人口，其中使用苗瑶语的约占四分之三。<br>苗瑶语具体包括各地苗族使用的苗语、巴那语，各地瑶族使用的勉语、布努语、巴哼语、优诺语、炯奈语，以及极少数粤东畲族使用的畲语，等等。一般可以分为苗语支（族）和瑶语支（族），也有学者增加一个独立的畲语支。<br>西方学者多称瑶语支为“勉语族”（英语：Mienic languages），同时称苗瑶语为“苗勉语”（英语：Hmong–Mien languages）。]]></description><link>术语\苗瑶语（hmong–mien-languages）.html</link><guid isPermaLink="false">术语/苗瑶语（Hmong–Mien languages）.md</guid><pubDate>Thu, 20 Jun 2024 12:27:41 GMT</pubDate></item><item><title><![CDATA[奇和]]></title><description><![CDATA[ 
- <br>奇和洞遗址，位于中华人民共和国福建省龙岩市漳平市象湖镇灶头村东侧，是一座旧石器时期至新石器时期的史前人类生活遗址。该遗址于2008年的第三次全国文物普查中被发现，共发掘出三个史前文化层。2013年，该遗址入选全国重点文物保护单位。<br>该遗址的导览解说词介绍说：“奇和洞遗址2号探坑于2011年1月3日，出土了一具较为完整的距今约8400年前的成人颅骨，考古工作取得重大成果”；“2018年，中科院古脊椎动物与古人类研究所付巧妹团队通过共同改进、创新古基因组技术，成功从样本中捕获古基因组，同期获取的还包括福建毗邻的亮岛<a data-href="亮岛" href="术语\亮岛.html" class="internal-link" target="_self" rel="noopener">亮岛</a>和锁港及北方山东等10具遗骸的古基因组。研究人员通过比对发现，8400年前的奇和洞人和<a data-href="南岛语系（Austroasiatic language family）" href="术语\南岛语系（austroasiatic-language-family）.html" class="internal-link" target="_self" rel="noopener">南岛语系（Austroasiatic language family）</a>人群相关，证实了南岛语系人群的中国南方起源；与台湾岛的阿美族和泰雅族人群具有最强的遗传联系，反映出现今族群之间的联系”。]]></description><link>术语\奇和.html</link><guid isPermaLink="false">术语/奇和.md</guid><pubDate>Thu, 18 Jul 2024 01:28:57 GMT</pubDate></item><item><title><![CDATA[1 .&nbsp;<a data-href="正态分布 (Normal Distribution)" href="正态分布 (Normal Distribution)" class="internal-link" target="_self" rel="noopener">正态分布 (Normal Distribution)</a>]]></title><description><![CDATA[ 
- <br><br>正态分布在我们的生活中随处可见，我们身高的分布、体重的分布，甚至是考试成绩的分布都可能符合正态分布。它的形状就像一个钟形曲线，最高点在中间，两边逐渐低下，具有对称性。<br>
-<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517091725.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br>伯努利分布又名两点分布或者0-1分布，是描述只有两种可能结果的随机试验的概率分布，比如抛硬币或投掷骰子。它将这两种结果分别表示为1和0，通常用 p 来表示事件的成功概率，而1-p 表示事件的失败概率。比如，你在玩一个抛硬币的游戏。硬币只有两面：正面和反面。当你抛硬币时，只有两种可能的结果：硬币出现正面或反面。伯努利分布就像是描述硬币落地后是正面还是反面的概率分布。在伯努利分布中，我们关心的是事件的成功概率，即出现期望结果的概率。比如，在抛硬币时，成功的概率就是硬币出现正面的概率。<br>伯努利分布的变异程度通常由成功和失败的概率决定。如果硬币是公平的，那么成功和失败的概率都是相等的，变异程度就较小。假设你在玩一个猜硬币正反面的游戏，如果你猜对了，你就赢得奖品。这种情况下，游戏的结果可以用伯努利分布来描述。<br>
-<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517091815.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br>泊松分布常常用于描述单位时间或空间内事件发生的次数，比如在一小时内接到的电话数量、一天内发生的交通事故数量等。<br>它的形状看起来有点像钟形曲线，但是更加扁平。在图的中心，事件发生的次数最多，然后随着次数的增加，概率逐渐减小。<br>平均值告诉我们在单位时间或空间内预期事件的平均发生次数。<br>
-泊松分布的特点之一是，它的方差等于其平均值。这意味着，如果事件在某段时间内平均发生了5次，那么方差也是5，表明事件发生次数的变化程度与平均值相近。如果我们想知道某一条街道一天内发生的车祸数量的概率分布，我们可以使用泊松分布来预测不同数量的车祸发生的可能性。<br>
-<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517092140.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br>指数分布通常用于描述等待时间或事件之间的间隔时间，比如等待下一辆公交车到达的时间、两次地震之间的时间间隔等。<br>它的形状看起来有点像波峰逐渐减小的山脉。在开始时，概率较高，随着时间的推移，概率逐渐减小。<br>
-<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517092030.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
-指数分布的一个重要特点是，它是无记忆的。这意味着，在任何给定的时间点上，等待下一个事件的时间不受过去等待时间的影响。<br>平均值告诉我们在一段时间内预期发生事件的平均次数。而指数分布的方差等于平均值的平方，这意味着方差与平均值之间存在很大的差异。<br>如果我们想知道一个人等待下一次公交车到达的时间，我们可以使用指数分布来预测不同等待时间的概率分布。<br><br>伽玛分布通常用于描述连续随机变量的正数值，比如处理时间、等待时间或事件发生的时间间隔等。<br>它的形状可以是多样的，取决于伽玛分布的参数。但通常情况下，它呈现出右偏的形态，即尾部向右延伸。伽玛分布的平均值和方差都受到其参数的影响。当其中一个参数增大时，分布会更向右延伸，并且平均值和方差也会随之增大。<br>这个分布可以用于建模很多现实生活中的情况，比如处理时间、等待时间以及一些事件的发生间隔时间等。<br>如果我们想要预测一个机器的寿命，我们可以使用伽玛分布来描述机器的故障时间分布。<br>
-<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517092124.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br>贝塔分布是一种连续概率分布，通常用于描述在一个有限区间内取值的随机变量，比如概率值或者比例。<br>它的形状可以是多样的，取决于贝塔分布的参数。但通常情况下，它呈现出 U 型或者反 U 型的形态。<br>
-<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517092207.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
-贝塔分布的一个重要特点是，它可以用来描述一个随机变量的概率分布，并且在一些统计推断和贝叶斯分析中有重要的应用。<br>如果我们想要建立一个模型来描述一个产品的质量，我们可以使用贝塔分布来描述产品合格的比例。<br><br>均匀分布是一种简单的概率分布，它将所有可能的结果都分布在一个范围内，并且每个结果的概率都是相等的。<br>
-想想想想一下，把一个区间分成若干个等长的小区间，每个小区间内的概率都是相同的，这就是均匀分布。<br>
-它的形状就像是一个长方形，所有的小区间的高度都是一样的，表明每个结果出现的概率都是相等的。<br>
-均匀分布的参数是区间的上下界，它们决定了分布的范围。<br>
-如果我们想要模拟一个骰子的投掷结果，我们可以使用均匀分布，因为在一个公正的骰子中，每个面出现的概率都是相等的。<br>
-<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517092250.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br>二项分布在我们的日常生活中也很常见，比如抛硬币的结果、投掷骰子的结果或者考试中答对题目的次数等。<br>二项分布描述了在一系列独立的伯努利试验中成功次数的分布。这些试验只有两种可能的结果，比如抛硬币可能是正面或反面。<br>这个分布的形状不像钟形曲线那样，它更像是一个条形图。在图的两端，成功次数较少，而在中间，成功次数最多。<br>
-平均值告诉我们在这些试验中预期成功的次数，而标准差则告诉我们成功次数的变化程度。<br>假设我们进行了10次抛硬币的试验，我们想知道有多少次是正面。二项分布可以告诉我们每种可能的正面次数的概率。<br>
-<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517092331.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br>对数正态分布描述了一个随机变量的对数服从正态分布的情况。换句话说，如果一个随机变量的对数是正态分布的，那么该随机变量就服从对数正态分布。<br>它的形状看起来有点像正态分布，但是更加右偏。这是因为正态分布的对数在较大的值处增长得更快。<br>
-<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517092352.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
-对数正态分布通常用于描述一些连续的正数值的分布，比如收入分布、财富分布等。<br>它的参数是正态分布的平均值和标准差，它们决定了对数正态分布的形状。<br>如果我们想要描述一个城市中居民的收入分布，我们可能会发现它符合对数正态分布。<br><br>负二项分布描述了在一系列独立的伯努利试验中，达到指定数量的成功之前的失败次数。<br>与几何分布不同，几何分布是在达到第一次成功时停止，而负二项分布则在达到指定数量的成功时停止。<br>它的形状类似于二项分布，但更为右偏。开始时概率较高，随着试验次数的增加，概率逐渐减小。<br>
-<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517092426.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
-负二项分布的参数是成功的概率和达到指定数量的成功所需的试验次数。成功的概率越高，试验次数越少，分布越向左偏。<br>如果我们重复进行投掷硬币的试验，直到出现5次正面为止，负二项分布可以告诉我们达到5次正面所需的失败次数的概率分布情况。<br>数据科学家在日常工作中使用的一些基本概率分布包括以下 11 个：<br>
-<br>正态分布 (Normal Distribution)：在数据科学中应用广泛，特别是在统计推断和假设检验中。
-<br>泊松分布 (Poisson Distribution)：用于描述单位时间或空间内事件发生的次数的分布，如某个时间段内电话呼叫的数量。
-<br>指数分布 (Exponential Distribution)：描述等待时间或事件之间的间隔时间的分布，例如等待下一次地铁到达的时间。
-<br>伽玛分布 (Gamma Distribution)：在描述连续随机变量的正数值时非常有用，例如在描述等待时间或处理时间时。
-<br>贝塔分布 (Beta Distribution)：通常用于描述概率分布的先验知识，例如在贝叶斯推断中。
-<br>均匀分布 (Uniform Distribution)：用于描述所有可能结果等概率出现的情况，例如抛硬币、掷骰子等。
-<br>二项分布 (Binomial Distribution)：用于描述离散随机变量中成功次数的分布，例如抛硬币、投掷骰子等。
-<br>对数正态分布 (Log-Normal Distribution)：描述一个随机变量的对数服从正态分布的情况，例如财富分布或收入分布。
-<br>负二项分布 (Negative Binomial Distribution)：描述在一系列独立的伯努利试验中，达到指定数量的成功之前的失败次数。
-<br>威布尔分布 (Weibull Distribution)：常用于可靠性工程和寿命分析，描述随机事件的生存时间。<br>
-
-<br>这些分布覆盖了数据科学中许多常见的场景，从描述连续变量到描述离散变量，以及描述等待时间和间隔时间等各种情况。]]></description><link>术语\数据科学家-95-时间都在使用的-10-大基本分布.html</link><guid isPermaLink="false">术语/数据科学家 95% 时间都在使用的 10 大基本分布.md</guid><pubDate>Thu, 20 Jun 2024 12:25:33 GMT</pubDate><enclosure url="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517091725.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517091725.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[印度-伊朗语（Indo-Iranian languages）]]></title><description><![CDATA[ 
+ <br>奇和洞遗址，位于中华人民共和国福建省龙岩市漳平市象湖镇灶头村东侧，是一座旧石器时期至新石器时期的史前人类生活遗址。该遗址于2008年的第三次全国文物普查中被发现，共发掘出三个史前文化层。2013年，该遗址入选全国重点文物保护单位。<br>该遗址的导览解说词介绍说：“奇和洞遗址2号探坑于2011年1月3日，出土了一具较为完整的距今约8400年前的成人颅骨，考古工作取得重大成果”；“2018年，中科院古脊椎动物与古人类研究所付巧妹团队通过共同改进、创新古基因组技术，成功从样本中捕获古基因组，同期获取的还包括福建毗邻的亮岛<a data-href="亮岛" href="术语\亮岛.html" class="internal-link" target="_self" rel="noopener">亮岛</a>和锁港及北方山东等10具遗骸的古基因组。研究人员通过比对发现，8400年前的奇和洞人和<a data-href="南岛语系（Austroasiatic language family）" href="术语\南岛语系（austroasiatic-language-family）.html" class="internal-link" target="_self" rel="noopener">南岛语系（Austroasiatic language family）</a>人群相关，证实了南岛语系人群的中国南方起源；与台湾岛的阿美族和泰雅族人群具有最强的遗传联系，反映出现今族群之间的联系”。]]></description><link>术语\奇和.html</link><guid isPermaLink="false">术语/奇和.md</guid><pubDate>Thu, 18 Jul 2024 01:28:57 GMT</pubDate></item><item><title><![CDATA[印度-伊朗语（Indo-Iranian languages）]]></title><description><![CDATA[ 
  <br>又称雅利安语族，印度-雅利安语族。是<a data-tooltip-position="top" aria-label="https://zh.wikipedia.org/wiki/%E5%8D%B0%E6%AC%A7%E8%AF%AD%E7%B3%BB" rel="noopener" class="external-link" title="印欧语系" href="https://zh.wikipedia.org/wiki/%E5%8D%B0%E6%AC%A7%E8%AF%AD%E7%B3%BB" target="_blank">印欧语系</a>今日仍在使用的<a data-tooltip-position="top" aria-label="https://zh.wikipedia.org/wiki/%E8%AA%9E%E8%A8%80" rel="noopener" class="external-link" title="语言" href="https://zh.wikipedia.org/wiki/%E8%AA%9E%E8%A8%80" target="_blank">语言</a>中最东方的一族。<br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202407181449430.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;">]]></description><link>术语\印度-伊朗语（indo-iranian-languages）.html</link><guid isPermaLink="false">术语/印度-伊朗语（Indo-Iranian languages）.md</guid><pubDate>Thu, 18 Jul 2024 06:50:02 GMT</pubDate><enclosure url="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202407181449430.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202407181449430.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[印欧语系(Indo-European languages)]]></title><description><![CDATA[ 
  ]]></description><link>术语\印欧语系(indo-european-languages).html</link><guid isPermaLink="false">术语/印欧语系(Indo-European languages).md</guid><pubDate>Thu, 20 Jun 2024 12:27:26 GMT</pubDate></item><item><title><![CDATA[语言的分类]]></title><description><![CDATA[ 
  <br><br>目前我们的语言由上向下可以分为：<br>
@@ -7599,202 +7720,7 @@ plot2dSFS(obsSFS=obssfs, expSFS=expsfs, xtag="Pop2", ytag="Pop1", minentry=1)
 #maxL.par file 是一个最大似然估计参数文件
 path_to_maxL_file &lt;- paste(settings$pathTo_InputFile, settings$TPL_EST_file_tag, "/",settings$TPL_EST_file_tag, "_maxL", sep="")
 parFileInterpreter(args=path_to_maxL_file, pop.names=c("Pop1","Pop2"), gentime=1, printPDF=FALSE)
-复制<br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202404021702170.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;">]]></description><link>软件\其它生信软件\群体遗传\fastsimcoal2.html</link><guid isPermaLink="false">软件/其它生信软件/群体遗传/fastsimcoal2.md</guid><pubDate>Fri, 21 Jun 2024 07:31:06 GMT</pubDate><enclosure url="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202404021648695.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202404021648695.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Haplogrep3分型]]></title><description><![CDATA[ 
- <br>#### Haplogrep3 linux系统使用手册###
-
-#### 软件的功能可以#################
-
-#### 1.单倍群分型###################
-
-#### 2.根据参考序列生成FASTA#######
-
-#### 3.其他功能，我猜测你用不上#####
-
-###################################
-
-  
-  
-  
-
-## 先下载软件：
-
-wget https://github.com/genepi/haplogrep3/releases/download/v3.2.1/haplogrep3-3.2.1-linux.zip
-
-unzip haplogrep3-3.2.1-linux.zip
-
-./haplogrep3
-
-  
-
-## 或者你可以使用最原始的办法，win访问，然后把安装包放进linux，解压
-
-https://haplogrep.readthedocs.io/en/latest/installation/
-
-https://github.com/genepi/haplogrep3/releases/tag/v3.2.1
-
-  
-
-# 现在开始安装参考树，请分步执行下列，我也不知道为什么，一起执行会报错
-
-  
-
-# 打开haplogrep目录
-
-cd /home/luolintao/Haplogrep/
-
-  
-
-# 执行以下
-
-## 安装PhyloTree (rCRS Human mtDNA)
-
-./haplogrep3 install-tree phylotree-rcrs@17.2
-
-  
-
-./haplogrep3 install-tree phylotree-rcrs@17.1
-
-  
-
-./haplogrep3 install-tree phylotree-rcrs@17.0
-
-  
-
-./haplogrep3 install-tree phylotree-rcrs@16.0
-
-  
-
-./haplogrep3 install-tree phylotree-rcrs@15.0
-
-  
-
-## 安装PhyloTree (RSRS Human mtDNA)
-
-./haplogrep3 install-tree phylotree-rsrs@17.1
-
-  
-
-./haplogrep3 install-tree phylotree-rsrs@17.0
-
-  
-
-## 安装phylotree-forensic-rcrs
-
-./haplogrep3 install-tree phylotree-fu-rcrs@1.2
-
-  
-
-./haplogrep3 install-tree phylotree-fu-rcrs@1.1
-
-  
-
-./haplogrep3 install-tree phylotree-fu-rcrs@1.0
-
-  
-
-## 现在就可以运行了
-
-  
-  
-
-# 在进行运行之前，需要对输入的VCF文件进行预处理
-
-# 应该符合官方给出的文档才能够进行分类，官方的文档在haplogrep3-3.2.1-linux.zip中的examples目录下
-
-  
-
-# 可能用到的脚本有将第五列的X替换为.
-
-awk -F '\t' '/^#/ {print;next;} {OFS="\t";if($5=="X") $5="."; print;}' &lt; Affy_mtDNA_Filter.vcf &gt; Affy_mtDNA_New.vcf
-
-# 将第一列的编号26替换为MT
-
-cat Affy_mtDNA_New.vcf|perl -npe "s/0\/0/0/g;s/0\/1/1/g;s/1\/1/1/g;s/\.\/\./\./g;s/^26/MT/" &gt;MT.vcf
-
-./haplogrep3 classify \
---input /mnt/e/OneDrive/文档（科研）/mtDNA数据/华西芯片数据/Affey芯片/Affy_mtDNA_Filter.vcf \
---tree phylotree-rcrs@17.2 \
---output /mnt/e/OneDrive/文档（科研）/分析软件/Haplogrep/outcome/1.txt
-# 现在可以进行分类了
-
-## 在haplogrep目录下执行以下，例如，注意不合理的空格
-
-./haplogrep3 classify \
-
---input /mnt/e/OneDrive/文档（科研）/mtDNA数据/华西芯片数据/Affey 芯片/Affy_mtDNA_Filter_recode.fasta \
-
- --tree phylotree-rcrs@17.0 \
-
- --output /home/luolintao/Haplogrep/outcome/Illumina_mtDNA.txt\
-
- --write-fasta
-
-./haplogrep3 classify \
---input /home/luolintao/10K_HGDP/example2/output.vcf \
---tree phylotree-rcrs@17.0 \
---output /home/luolintao/10K_HGDP/example2/new.txt \
---write-fasta
-
-# 把上面的/home/luolintao/Haplogrep/data/examples/example-wgs.vcf替换成输入文件
-
-# vcf文件的格式可以参考
-
-# https://github.com/genepi/haplogrep3/blob/master/data/examples/example-wgs.vcf
-
-  
-
-# 把--tree phylotree-rcrs@17.2替换为安装的树
-
-# 备选的树有以下
-
-#—————————— phylotree-rcrs@17.2
-
-#—————————— phylotree-rcrs@17.1
-
-#—————————— phylotree-rcrs@17.0
-
-#—————————— phylotree-rcrs@16.0
-
-#—————————— phylotree-rcrs@15.0
-
-#—————————— phylotree-rsrs@17.1
-
-#—————————— phylotree-fu-rcrs@1.2
-
-#—————————— phylotree-fu-rcrs@1.1
-
-#—————————— phylotree-fu-rcrs@1.0
-
-#把--out /home/luolintao/Haplogrep/outcome/XXX.txt替换为输出文件
-
-  
-
-# 非必须参数说明
-
---metric, distance  To change the classification metric to Hamming Distance (hamming) or Jaccard (jaccard) add this parameter (Default: Kulczynski Measure).
-
---extend-report For additional information on SNPs (e.g. found or remaining polymorphisms) please add the --extend-report flag (Default: off).
-
---tree  Specify one of the installed trees.
-
---chip  If you are using genotyping arrays, please add the --chip parameter to limit the range to array SNPs only (Default: off, VCF only). To get the same behaviour for hsd files, please add only the variants to the range, which are included on the array or in the range you have sequenced (e.g. control region). Range can be sepearted by a semicolon ;, both ranges and single positions are allowed (e.g. 16024-16569;1-576;8860).
-
---skip-alignment-rules  Add this option to skip our rules that fixes the mtDNA nomenclature for fasta import. Click here for further information. Applying the rules is the default option since v2.4.0
-
---hits  To export the best n hits for each sample add the --hits parameter. By default only the tophit is exported.
-
---write-fasta   Write results in fasta format.
-
---write-fasta-msa   Write multiple sequence alignment.
-
---hetLevel=&lt;value&gt;  Add heteroplasmies with a level &gt; from the VCF file to the profile (default: 0.9).
-
-###
-
-  
-
-#完成！
-复制]]></description><link>软件\其它生信软件\群体遗传\haplogrep3分型.html</link><guid isPermaLink="false">软件/其它生信软件/群体遗传/Haplogrep3分型.md</guid><pubDate>Fri, 21 Jun 2024 07:31:06 GMT</pubDate></item><item><title><![CDATA[iTol完全美化]]></title><description><![CDATA[ 
+复制<br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202404021702170.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;">]]></description><link>软件\其它生信软件\群体遗传\fastsimcoal2.html</link><guid isPermaLink="false">软件/其它生信软件/群体遗传/fastsimcoal2.md</guid><pubDate>Fri, 21 Jun 2024 07:31:06 GMT</pubDate><enclosure url="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202404021648695.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202404021648695.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[iTol完全美化]]></title><description><![CDATA[ 
  <br>如果得到了 meg 文件，那么就可以构建进化树了。meg 文件的格式大致如下所示，可以使用 MEGA 软件打开。<br>#mega
 !TITLE  Genetic distance data from 28 human populations;
 !Format DataType=distance;
