@@ -1,4 +1,208 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[思维领域]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>思维领域</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Tue, 23 Jul 2024 02:02:24 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Tue, 23 Jul 2024 02:02:22 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[将FASTA转换成Arp]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[思维领域]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>思维领域</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Tue, 23 Jul 2024 14:34:08 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Tue, 23 Jul 2024 14:34:05 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[π值（核苷酸多样性）]]></title><description><![CDATA[ 
+ <br><br>定义：指的是任意两条序列之间的平均核苷酸差异数。<br>
+公式：<br>其中， 是样本数， 是第 i 对序列之间的差异数。<br>
+意义：核苷酸多样性反映了一个种群的遗传多样性水平，数值越大说明种群内的基因变异越多。<br>除此之外，还可以计算 <a data-href="python：计算群体单倍群单倍型多样性" href="软件\其它生信软件\群体遗传\python：计算群体单倍群单倍型多样性.html" class="internal-link" target="_self" rel="noopener">python：计算群体单倍群单倍型多样性</a>。<br><br>定义：基于分子多态性的种群遗传多样性估计。<br>
+公式：<br>
+其中，S是多态性位点的数目， 是一个与样本大小有关的常数。<br>
+意义：OS 用于估计一个种群中的突变率，通常用于比较不同种群的遗传多样性<br><br>定义：反映了数据的离散程度。<br>
+公式：<br>
+其中， 是数据中的每个值， 是平均值，N 是数据点数目。<br>
+意义：标准差用于表示遗传多样性参数的变异程度，数值越大，表示变异越大。]]></description><link>软件\其它生信软件\群体遗传\arlequin：计算群体多样性指标.html</link><guid isPermaLink="false">软件/其它生信软件/群体遗传/Arlequin：计算群体多样性指标.md</guid><pubDate>Tue, 23 Jul 2024 06:46:32 GMT</pubDate></item><item><title><![CDATA[原理]]></title><description><![CDATA[ 
+ <br><br>我们使用以下公式来计算单倍型/单倍群的法医学参数。单倍型/单倍群多样性(Haplotype/haplogroup diversity, HD)是基于 Nei 和 Tajima 提出来的公式进行计算：<br>
+其中 n 表示观察到单倍型/单倍群的数量，pi 表示第 i个单倍型/单倍群的频率。分辨能力(Discrimination capacity,DC)使用观察的单倍型/单倍群数量和所有单倍型/单倍群数量的比值。<br><a data-href="Arlequin：计算群体多样性指标" href="软件\其它生信软件\群体遗传\arlequin：计算群体多样性指标.html" class="internal-link" target="_self" rel="noopener">Arlequin：计算群体多样性指标</a>中不包含这项。<br><br>准备一个 txt 文件：<br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240624155053.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br>import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+from scipy.stats import kruskal
+
+# 读取数据
+file_path = '新建 Text Document.txt'
+output_file_path = 'group_haplotype_diversities.csv'
+data = pd.read_csv(file_path, sep='\t')
+
+# 分组并计算每个群体的单倍型多样性
+diversities = []
+group_sizes = data['Population_Province'].value_counts()
+
+for group, group_data in data.groupby('Population_Province'):
+    n = len(group_data)
+    if n &gt;= 20:
+        haplotype_counts = group_data['Haplo'].value_counts()
+        haplotype_frequencies = haplotype_counts / n
+        HD = n * (1 - sum(haplotype_frequencies**2)) / (n - 1)
+        diversities.append((group, HD, n))
+
+# 转为DataFrame
+diversity_df = pd.DataFrame(diversities, columns=['Group', 'Haplotype Diversity', 'Sample Size'])
+
+# 统计学检验
+groups = diversity_df['Group'].unique()
+group_data = [diversity_df[diversity_df['Group'] == group]['Haplotype Diversity'].values for group in groups]
+stat, p = kruskal(*group_data)
+
+# 输出统计学检验结果
+print(f"Kruskal-Wallis H检验结果: H-statistic = {stat}, p-value = {p}")
+
+# 保存结果到CSV文件
+with open(output_file_path, 'w') as f:
+    f.write(f"Kruskal-Wallis H检验结果: H-statistic = {stat}, p-value = {p}\n")
+diversity_df.to_csv(output_file_path, mode='a', index=False)
+
+# 排序数据
+diversity_df = diversity_df.sort_values(by='Haplotype Diversity')
+
+# 添加群体数量到群体名称
+diversity_df['Group'] = diversity_df.apply(lambda row: f"{row['Group']} ({row['Sample Size']})", axis=1)
+
+# 可视化结果：柱状图
+plt.figure(figsize=(14, 7))
+sns.barplot(x='Group', y='Haplotype Diversity', data=diversity_df, palette='hsv')
+plt.xlabel('Group')
+plt.ylabel('Haplotype Diversity')
+plt.title('Haplotype Diversity of Different Groups')
+plt.xticks(rotation=90)  # 群体名称旋转90度便于阅读
+plt.tight_layout()
+
+# 展示图表
+plt.show()
+
+# 可选：保存图表
+# output_chart_path = 'group_haplotype_diversities_barplot.png'
+# plt.savefig(output_chart_path)
+
+复制<br><br><img alt="Figure_1.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/Figure_1.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;">]]></description><link>软件\其它生信软件\群体遗传\python：计算群体单倍群单倍型多样性.html</link><guid isPermaLink="false">软件/其它生信软件/群体遗传/python：计算群体单倍群单倍型多样性.md</guid><pubDate>Tue, 23 Jul 2024 06:46:52 GMT</pubDate><enclosure url="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240624155053.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240624155053.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[文件准备]]></title><description><![CDATA[ 
+ <br>有时候需要根据一定的条件把 Illustrator 中的文字进行颜色变更或者字体设置等。这个代码可以批量生成。<br><br>一个 txt 文件：<br>Han_Jiangsu
+Han_Zhejiang
+Han_Shandong
+Han_Guangdong
+Han_Sichuan
+Han_Hebei
+Han_Shanghai
+Han_Henan
+Han_Beijing
+Han_Hubei
+Han_Hunan
+Uyghur_Xinjiang
+复制<br>里面是需要更改颜色的文字。<br><br># 读取文件内容
+with open('新建 Text Document (2).txt', 'r', encoding='utf-8') as file:
+    lines = file.readlines()
+
+# 生成JavaScript代码
+template = """
+var doc = app.activeDocument;
+var textFrames = doc.textFrames;
+var targetText;
+var changed = 0;
+"""
+
+# 添加每个targetText的JavaScript代码
+for line in lines:
+    target_text = line.strip()
+    template += f"""
+targetText = "{target_text}";
+for (var i = 0; i &lt; textFrames.length; i++) {{
+    if (textFrames[i].contents == targetText) {{
+        textFrames[i].textRange.characterAttributes.fillColor = new RGBColor();
+        textFrames[i].textRange.characterAttributes.fillColor.red = 255;
+        textFrames[i].textRange.characterAttributes.fillColor.green = 0;
+        textFrames[i].textRange.characterAttributes.fillColor.blue = 0;
+        changed++;
+    }}
+}}
+"""
+
+# 添加alert语句
+template += """
+alert(changed + ' text items changed to red.');
+"""
+
+# 保存生成的JavaScript代码到文件
+with open('1.jsx', 'w', encoding='utf-8') as file:
+    file.write(template)
+
+print("JavaScript代码生成完毕并保存为generated_script.js")
+
+复制<br><br>生成 jsx 代码，然后用 Adobe Illustrator 进行：<br>
+文件→脚本→其它脚本 。或者快捷键 ctrl+F12。<br>
+选择 jsx 即可。]]></description><link>软件\python\格式转换\python：生成变换字体颜色代码给jsx.html</link><guid isPermaLink="false">软件/Python/格式转换/python：生成变换字体颜色代码给jsx.md</guid><pubDate>Tue, 23 Jul 2024 09:12:44 GMT</pubDate></item><item><title><![CDATA[1 .&nbsp;<a data-href="正态分布 (Normal Distribution)" href="正态分布 (Normal Distribution)" class="internal-link" target="_self" rel="noopener">正态分布 (Normal Distribution)</a>]]></title><description><![CDATA[ 
+ <br><br>正态分布在我们的生活中随处可见，我们身高的分布、体重的分布，甚至是考试成绩的分布都可能符合正态分布。它的形状就像一个钟形曲线，最高点在中间，两边逐渐低下，具有对称性。<br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517091725.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br>伯努利分布又名两点分布或者0-1分布，是描述只有两种可能结果的随机试验的概率分布，比如抛硬币或投掷骰子。它将这两种结果分别表示为1和0，通常用 p 来表示事件的成功概率，而1-p 表示事件的失败概率。比如，你在玩一个抛硬币的游戏。硬币只有两面：正面和反面。当你抛硬币时，只有两种可能的结果：硬币出现正面或反面。伯努利分布就像是描述硬币落地后是正面还是反面的概率分布。在伯努利分布中，我们关心的是事件的成功概率，即出现期望结果的概率。比如，在抛硬币时，成功的概率就是硬币出现正面的概率。<br>伯努利分布的变异程度通常由成功和失败的概率决定。如果硬币是公平的，那么成功和失败的概率都是相等的，变异程度就较小。假设你在玩一个猜硬币正反面的游戏，如果你猜对了，你就赢得奖品。这种情况下，游戏的结果可以用伯努利分布来描述。<br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517091815.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br>泊松分布常常用于描述单位时间或空间内事件发生的次数，比如在一小时内接到的电话数量、一天内发生的交通事故数量等。<br>它的形状看起来有点像钟形曲线，但是更加扁平。在图的中心，事件发生的次数最多，然后随着次数的增加，概率逐渐减小。<br>平均值告诉我们在单位时间或空间内预期事件的平均发生次数。<br>
+泊松分布的特点之一是，它的方差等于其平均值。这意味着，如果事件在某段时间内平均发生了5次，那么方差也是5，表明事件发生次数的变化程度与平均值相近。如果我们想知道某一条街道一天内发生的车祸数量的概率分布，我们可以使用泊松分布来预测不同数量的车祸发生的可能性。<br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517092140.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br>指数分布通常用于描述等待时间或事件之间的间隔时间，比如等待下一辆公交车到达的时间、两次地震之间的时间间隔等。<br>它的形状看起来有点像波峰逐渐减小的山脉。在开始时，概率较高，随着时间的推移，概率逐渐减小。<br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517092030.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
+指数分布的一个重要特点是，它是无记忆的。这意味着，在任何给定的时间点上，等待下一个事件的时间不受过去等待时间的影响。<br>平均值告诉我们在一段时间内预期发生事件的平均次数。而指数分布的方差等于平均值的平方，这意味着方差与平均值之间存在很大的差异。<br>如果我们想知道一个人等待下一次公交车到达的时间，我们可以使用指数分布来预测不同等待时间的概率分布。<br><br>伽玛分布通常用于描述连续随机变量的正数值，比如处理时间、等待时间或事件发生的时间间隔等。<br>它的形状可以是多样的，取决于伽玛分布的参数。但通常情况下，它呈现出右偏的形态，即尾部向右延伸。伽玛分布的平均值和方差都受到其参数的影响。当其中一个参数增大时，分布会更向右延伸，并且平均值和方差也会随之增大。<br>这个分布可以用于建模很多现实生活中的情况，比如处理时间、等待时间以及一些事件的发生间隔时间等。<br>如果我们想要预测一个机器的寿命，我们可以使用伽玛分布来描述机器的故障时间分布。<br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517092124.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br>贝塔分布是一种连续概率分布，通常用于描述在一个有限区间内取值的随机变量，比如概率值或者比例。<br>它的形状可以是多样的，取决于贝塔分布的参数。但通常情况下，它呈现出 U 型或者反 U 型的形态。<br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517092207.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
+贝塔分布的一个重要特点是，它可以用来描述一个随机变量的概率分布，并且在一些统计推断和贝叶斯分析中有重要的应用。<br>如果我们想要建立一个模型来描述一个产品的质量，我们可以使用贝塔分布来描述产品合格的比例。<br><br>均匀分布是一种简单的概率分布，它将所有可能的结果都分布在一个范围内，并且每个结果的概率都是相等的。<br>
+想想想想一下，把一个区间分成若干个等长的小区间，每个小区间内的概率都是相同的，这就是均匀分布。<br>
+它的形状就像是一个长方形，所有的小区间的高度都是一样的，表明每个结果出现的概率都是相等的。<br>
+均匀分布的参数是区间的上下界，它们决定了分布的范围。<br>
+如果我们想要模拟一个骰子的投掷结果，我们可以使用均匀分布，因为在一个公正的骰子中，每个面出现的概率都是相等的。<br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517092250.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br>二项分布在我们的日常生活中也很常见，比如抛硬币的结果、投掷骰子的结果或者考试中答对题目的次数等。<br>二项分布描述了在一系列独立的伯努利试验中成功次数的分布。这些试验只有两种可能的结果，比如抛硬币可能是正面或反面。<br>这个分布的形状不像钟形曲线那样，它更像是一个条形图。在图的两端，成功次数较少，而在中间，成功次数最多。<br>
+平均值告诉我们在这些试验中预期成功的次数，而标准差则告诉我们成功次数的变化程度。<br>假设我们进行了10次抛硬币的试验，我们想知道有多少次是正面。二项分布可以告诉我们每种可能的正面次数的概率。<br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517092331.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br>对数正态分布描述了一个随机变量的对数服从正态分布的情况。换句话说，如果一个随机变量的对数是正态分布的，那么该随机变量就服从对数正态分布。<br>它的形状看起来有点像正态分布，但是更加右偏。这是因为正态分布的对数在较大的值处增长得更快。<br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517092352.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
+对数正态分布通常用于描述一些连续的正数值的分布，比如收入分布、财富分布等。<br>它的参数是正态分布的平均值和标准差，它们决定了对数正态分布的形状。<br>如果我们想要描述一个城市中居民的收入分布，我们可能会发现它符合对数正态分布。<br><br>负二项分布描述了在一系列独立的伯努利试验中，达到指定数量的成功之前的失败次数。<br>与几何分布不同，几何分布是在达到第一次成功时停止，而负二项分布则在达到指定数量的成功时停止。<br>它的形状类似于二项分布，但更为右偏。开始时概率较高，随着试验次数的增加，概率逐渐减小。<br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517092426.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
+负二项分布的参数是成功的概率和达到指定数量的成功所需的试验次数。成功的概率越高，试验次数越少，分布越向左偏。<br>如果我们重复进行投掷硬币的试验，直到出现5次正面为止，负二项分布可以告诉我们达到5次正面所需的失败次数的概率分布情况。<br>数据科学家在日常工作中使用的一些基本概率分布包括以下 11 个：<br>
+<br>正态分布 (Normal Distribution)：在数据科学中应用广泛，特别是在统计推断和假设检验中。
+<br>泊松分布 (Poisson Distribution)：用于描述单位时间或空间内事件发生的次数的分布，如某个时间段内电话呼叫的数量。
+<br>指数分布 (Exponential Distribution)：描述等待时间或事件之间的间隔时间的分布，例如等待下一次地铁到达的时间。
+<br>伽玛分布 (Gamma Distribution)：在描述连续随机变量的正数值时非常有用，例如在描述等待时间或处理时间时。
+<br>贝塔分布 (Beta Distribution)：通常用于描述概率分布的先验知识，例如在贝叶斯推断中。
+<br>均匀分布 (Uniform Distribution)：用于描述所有可能结果等概率出现的情况，例如抛硬币、掷骰子等。
+<br>二项分布 (Binomial Distribution)：用于描述离散随机变量中成功次数的分布，例如抛硬币、投掷骰子等。
+<br>对数正态分布 (Log-Normal Distribution)：描述一个随机变量的对数服从正态分布的情况，例如财富分布或收入分布。
+<br>负二项分布 (Negative Binomial Distribution)：描述在一系列独立的伯努利试验中，达到指定数量的成功之前的失败次数。
+<br>威布尔分布 (Weibull Distribution)：常用于可靠性工程和寿命分析，描述随机事件的生存时间。<br>
+
+<br>这些分布覆盖了数据科学中许多常见的场景，从描述连续变量到描述离散变量，以及描述等待时间和间隔时间等各种情况。]]></description><link>术语\数据科学家-95-时间都在使用的-10-大基本分布.html</link><guid isPermaLink="false">术语/数据科学家 95% 时间都在使用的 10 大基本分布.md</guid><pubDate>Thu, 20 Jun 2024 12:25:33 GMT</pubDate><enclosure url="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517091725.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517091725.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[摘要]]></title><description><![CDATA[ 
+ <br><br>之前的研究已经观察到汉族人之间存在普遍的南北遗传差异。然而这些研究，特别是关于 <a data-href="线粒体DNA（mtDNA）" href="疾病与基因\线粒体dna（mtdna）.html" class="internal-link" target="_self" rel="noopener">线粒体DNA（mtDNA）</a> 的研究，要么基于部分 mtDNA 序列，要么基于有限的样本。鉴于汉族是世界上人口最多的群体，并且居住在整个中国，考虑到所有地区人口后是否可以观察到南北分化仍然是一个未知数。此外，影响汉族遗传景观的因素需要进一步研究。在这项研究中，通过研究来自中国几乎所有省份的 21,668 个汉族样本中的 4,004 个 mtDNA 单倍群，剖析了汉族的母系景观。结果证实了南方和北方汉族人群之间的遗传差异。然而，长江、黄河和珠江（珠江）三大水系的人群之间存在显着的遗传差异，这在很大程度上归因于单倍群 D4、B4和 M7。基于4,986 个线粒体基因组（包括 218 个新生成的序列）的进一步分析表明，这种分歧在<a data-href="全新世（Holocene epoch）" href="全新世（Holocene epoch）" class="internal-link" target="_self" rel="noopener">全新世（Holocene epoch）</a>早期就已经存在，可能是由于这些河流沿岸的古代农业促进了人口扩张。这些结果表明，当代汉族人群的母系基因库保留了来自不同流域的新石器时代早期农民的遗传印记，或者说河谷代表了迁移障碍。三种古代农业在塑造中国的汉族的母系遗传结构方面发挥了重要作用。<br><br>汉族人口占中国人口的91.6% <a data-footref="1" href="about:blank#fn-1-99ae0e5a81a497ad" class="footnote-link" target="_self" rel="noopener">[1]</a>。mtDNA 和 Y 染色体揭示了汉族群体内部存在巨大的遗传多样性<a data-footref="2" href="about:blank#fn-2-99ae0e5a81a497ad" class="footnote-link" target="_self" rel="noopener">[2]</a> <a data-footref="3" href="about:blank#fn-3-99ae0e5a81a497ad" class="footnote-link" target="_self" rel="noopener">[3]</a> <a data-footref="4" href="about:blank#fn-4-99ae0e5a81a497ad" class="footnote-link" target="_self" rel="noopener">[4]</a>。在汉族人中观察到普遍的南北遗传差异，被解释为由北向南的扩张<a data-footref="5" href="about:blank#fn-5-99ae0e5a81a497ad" class="footnote-link" target="_self" rel="noopener">[5]</a> <a data-footref="6" href="about:blank#fn-6-99ae0e5a81a497ad" class="footnote-link" target="_self" rel="noopener">[6]</a>。之前的研究存在采样地点局限、测序区域局限等问题。与此同时，汉族更精细的遗传结构使得揭示影响遗传景观的因素成为可能。定居、迁徙都会影响遗传结构改变。南亚群体的研究证明了河流流域影响遗传结构改变的重要性<a data-footref="7" href="about:blank#fn-7-99ae0e5a81a497ad" class="footnote-link" target="_self" rel="noopener">[7]</a> <a data-footref="8" href="about:blank#fn-8-99ae0e5a81a497ad" class="footnote-link" target="_self" rel="noopener">[8]</a>。<br><br>目前尚不清楚是否可以通过广泛地理覆盖的大规模采样观察到南北汉族人群之间的遗传差异。<br>
+尚不清楚其他因素，例如地理景观，是否在塑造中国汉族群体母系遗传结构过程中发挥重要作用。<br><br>对来自中国几乎所有省份（和省级行政区）的 21,668 名汉族个体进行了mtDNA 的 4,004 个变异进行基因分型。对当代汉族的母系遗传结构以及影响因素进行进一步的了解和剖析。<br>
+<br>MitoTool 被用于单倍群的分配<a data-footref="16" href="about:blank#fn-9-99ae0e5a81a497ad" class="footnote-link" target="_self" rel="noopener">[9]</a>。
+<br>利用 SPSS 计算 PCA
+<br>利用 Arlequin 计算 AMOVA 与 Fst
+<br>利用 MEGA 绘制 NJ 树
+<br>利用多种方法计算单倍群最近共同祖先的时间<a data-footref="17" href="about:blank#fn-10-99ae0e5a81a497ad" class="footnote-link" target="_self" rel="noopener">[10]</a> <a data-footref="18" href="about:blank#fn-11-99ae0e5a81a497ad" class="footnote-link" target="_self" rel="noopener">[11]</a>。
+<br><br>单倍群D4是中国汉族人群中最常见的单倍群（16.46%），其次是B4（11.19%）、F1（9.46%）、M7（8.13%）、A（7.12%）、D5（6.49%）、B5（ 4.95%）和N9（4.29%）。<br>
+<br>具体来看，D4在华北和东北地区出现频率最高，包括内蒙古（22.73%）、辽宁（21.83%）和黑龙江（21.51%）。
+<br>单倍群 B4主要分布在南方地区，特别是香港（22.22%）、云南（16.38%）和上海（14.38%）。
+<br>F1多见于中国南部和西南部地区，例如广西（33.33%）、贵州（15.09%）、湖南（15.32%）以及北部的青海（20.00%）等。
+<br>单倍群 M7主要见于南方汉族，M7b 主要分布在广西（13.96％）和广东（11.08％），而 M7c 在台湾出现频率较高（9.57％）。
+<br>单倍群 A 在中国北部和西北地区出现频率最高，包括天津（11.99%）、宁夏（10.26%）和陕西（9.96%），以及一些南方地区，例如安徽（9.35%）和江苏（8.01%）。
+<br>一些北部高频的单倍群的下游单倍群却在南方高频，反之亦然；可能反映了南方和北方之间的遗传混合。相对稀有的单倍群呈现地域分布，例如：<br>
+<br>M8、Z 和 Y 在宁夏出现频率较高，而 F4主要分布在江苏和云南省。
+<br>欧亚西部单倍群，包括 N2、R1、R0和 U，主要分布在中国西北部，特别是新疆和青海。
+<br>未能发现语言方言和 mtDNA 单倍群之间的任何相关性，大多数单倍群由不同方言群体共享。方言和 Y 染色体之间可能观察到更强的关联
+<br><a data-href="主成分分析（Principal Component Analysis，PCA）" href="术语\主成分分析（principal-component-analysis，pca）.html" class="internal-link" target="_self" rel="noopener">主成分分析（Principal Component Analysis，PCA）</a>在 PC2 方向上展示了南北汉族群体的差异，这与之前的研究结果一致 <a data-footref="9" href="about:blank#fn-12-99ae0e5a81a497ad" class="footnote-link" target="_self" rel="noopener">[12]</a>。这与常染色体的模式不同（PC1 的差异），可能归因于女性特定的迁徙历史<a data-footref="10" href="about:blank#fn-13-99ae0e5a81a497ad" class="footnote-link" target="_self" rel="noopener">[13]</a> <a data-footref="11" href="about:blank#fn-14-99ae0e5a81a497ad" class="footnote-link" target="_self" rel="noopener">[14]</a>。Fisher 精确检验显示单倍群 M7、D4、R9、A 和 B4（P &lt; 0.05）在中国南北地区的分布差异最为显着。汉族群体存在潜在的东西分化差异，但是当删除100人以下的群体时，关系减弱。中部地区的南方汉族与长江流域的北方汉族有更近的亲缘关系。相反，珠江沿岸的广东、广西、海南等地的南方汉族聚集在一起，分布距离其他汉族人口相对较远。统一流域的群体倾向于聚集在一起。<br><a data-href="分子方差分析（AMOVA ，Analysis of Molecular Variance)" href="术语\分子方差分析（amova-，analysis-of-molecular-variance).html" class="internal-link" target="_self" rel="noopener">分子方差分析（AMOVA ，Analysis of Molecular Variance)</a> 分析显示，群体内部的变异很高。按照河流进行分类能够获得更大的组间差异。<br>热点分析发现，D4 (D4*) 单倍型及根类型在中国北方也很普遍，暗示该单倍群可能起源于中国北方。相比之下，单倍群 B4、M7 和 F1 在中国南方出现的频率要高得多（图 2c-e），其根类型主要发现于南方，从而表明它们起源于南方地区。D4、B4和 M7分别与黄河、长江和珠江流域的地理位置非常吻合。基于不同方法和不同突变率的计算表明，这三个单倍群的年龄分别为20.16-41.76 千年前（D4）、29.79-61.49 千年前（B4）和37.56-54.11 千年前（M7）。<br>
+从之前发表的数据以及产生的新数据中获得了519个线粒体的13个蛋白编码序列进行 BSP 分析，自从一万八千年前以来，人口发生增长，可能归因于 <a data-href="末次盛冰期 (LGM)" href="术语\末次盛冰期-(lgm).html" class="internal-link" target="_self" rel="noopener">末次盛冰期 (LGM)</a> 结束的气温上升。更快的一次人口增长发生在9000年前，反映了<a data-href="全新世（Holocene epoch）" href="全新世（Holocene epoch）" class="internal-link" target="_self" rel="noopener">全新世（Holocene epoch）</a>以来的人口扩张。这次扩张在南方和北方的三大流域的汉族中都观察到了。黄河（粟）、长江（稻）、珠江（热带农业）流域被认为是中国古代三种农业的起源地。这三种农业早在一万年前就起源于（或出现）于河谷地区<a data-footref="12" href="about:blank#fn-15-99ae0e5a81a497ad" class="footnote-link" target="_self" rel="noopener">[15]</a> <a data-footref="13" href="about:blank#fn-16-99ae0e5a81a497ad" class="footnote-link" target="_self" rel="noopener">[16]</a> <a data-footref="14" href="about:blank#fn-17-99ae0e5a81a497ad" class="footnote-link" target="_self" rel="noopener">[17]</a> <a data-footref="15" href="about:blank#fn-18-99ae0e5a81a497ad" class="footnote-link" target="_self" rel="noopener">[18]</a>。有趣的是，根据我们的估计，这一时期与不同河谷的人口增长最快非常吻合。因此，河谷之间的遗传差异可归因于全新世早期沿每个流域的古代农业扩张。因此，在我们的分析中观察到的黄河流域和其他河流（例如海河和松辽河流域）种群之间的密切遗传亲缘关系可以用黄河农业向北扩张来解释。<br>总之，汉族群体间存在显著的遗传差异。在中国三大水系（即黄河、长江和珠江）的种群之间观察到最显着的遗传差异。在<a data-href="全新世（Holocene epoch）" href="全新世（Holocene epoch）" class="internal-link" target="_self" rel="noopener">全新世（Holocene epoch）</a>，这种遗传差异就已经存在，可能时由于古代农业的促进。<br><br>然而，本次研究只关注汉族的线粒体 DNA 数据，Y 染色体数据的洞察将有助于进一步探讨新石器时代跨越河谷的扩张是否是一个性别偏见的过程。<br><br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202407231413878.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
+图1. 本研究中汉族样本的地理位置。<br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202407231413032.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
+图2. 中国线粒体 DNA 单倍群的区域分布。<br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202407231414106.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
+图 3.基于单倍群频率的汉族人群 PC 图。<br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202407231414659.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
+表 1. 基于不同组的 AMOVA 结果。<br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202407231414429.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
+图4. 汉族 (a) 和不同人群的 BSP。<br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202407231415705.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
+表 2. 根据贝叶斯天际线图计算的人口增长率。<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br>
+<br>Geck C. 2017. The world factbook. Charleston Adv. 19(1):58–60.<a href="about:blank#fnref-1-99ae0e5a81a497ad" class="footnote-backref footnote-link" target="_self" rel="noopener"><span></span>︎</a><img class="emoji" draggable="false" alt="↩" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/21a9.svg" height="16px" style="max-width: 100%;">
+<br>Yao YG, Kong QP, Bandelt HJ, Kivisild T, Zhang YP. 2002. Phylogeographic differentiation of mitochondrial DNA in Han Chinese. Am J Hum Genet. 70(3):635–651.<a href="about:blank#fnref-2-99ae0e5a81a497ad" class="footnote-backref footnote-link" target="_self" rel="noopener"><span></span>︎</a><img class="emoji" draggable="false" alt="↩" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/21a9.svg" height="16px" style="max-width: 100%;">
+<br>Wen B, Li H, Lu D, Song X, Zhang F, He Y, Li F, Gao Y, Mao X, Zhang L, et al. 2004. Genetic evidence supports demic diffusion of Han culture. Nature 431(7006):302–305.<a href="about:blank#fnref-3-99ae0e5a81a497ad" class="footnote-backref footnote-link" target="_self" rel="noopener"><span></span>︎</a><img class="emoji" draggable="false" alt="↩" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/21a9.svg" height="16px" style="max-width: 100%;">
+<br>Wen B, Li H, Lu D, Song X, Zhang F, He Y, Li F, Gao Y, Mao X, Zhang L, et al. 2004. Genetic evidence supports demic diffusion of Han culture. Nature 431(7006):302–305.<a href="about:blank#fnref-4-99ae0e5a81a497ad" class="footnote-backref footnote-link" target="_self" rel="noopener"><span></span>︎</a><img class="emoji" draggable="false" alt="↩" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/21a9.svg" height="16px" style="max-width: 100%;">
+<br>Yao YG, Kong QP, Bandelt HJ, Kivisild T, Zhang YP. 2002. Phylogeographic differentiation of mitochondrial DNA in Han Chinese. Am J Hum Genet. 70(3):635–651.<a href="about:blank#fnref-5-99ae0e5a81a497ad" class="footnote-backref footnote-link" target="_self" rel="noopener"><span></span>︎</a><img class="emoji" draggable="false" alt="↩" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/21a9.svg" height="16px" style="max-width: 100%;">
+<br>Wen B, Li H, Lu D, Song X, Zhang F, He Y, Li F, Gao Y, Mao X, Zhang L, et al. 2004. Genetic evidence supports demic diffusion of Han culture. Nature 431(7006):302–305.<a href="about:blank#fnref-6-99ae0e5a81a497ad" class="footnote-backref footnote-link" target="_self" rel="noopener"><span></span>︎</a><img class="emoji" draggable="false" alt="↩" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/21a9.svg" height="16px" style="max-width: 100%;">
+<br>Field JS, Petraglia MD, Lahr MM. 2007. The southern dispersal hypothesis and the South Asian archaeological record: examination of dispersal routes through GIS analysis. J Anthropol Archaeol. 26(1):88–108.<a href="about:blank#fnref-7-99ae0e5a81a497ad" class="footnote-backref footnote-link" target="_self" rel="noopener"><span></span>︎</a><img class="emoji" draggable="false" alt="↩" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/21a9.svg" height="16px" style="max-width: 100%;">
+<br>Li YC, Wang HW, Tian JY, Liu LN, Yang LQ, Zhu CL, Wu SF, Kong QP, Zhang YP. 2015. Ancient inland human dispersals from Myanmar into interior East Asia since the Late Pleistocene. Sci Rep. 5:9473.<a href="about:blank#fnref-8-99ae0e5a81a497ad" class="footnote-backref footnote-link" target="_self" rel="noopener"><span></span>︎</a><img class="emoji" draggable="false" alt="↩" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/21a9.svg" height="16px" style="max-width: 100%;">
+<br>Fan L, Yao YG. 2013. An update to MitoTool: using a new scoring system for faster mtDNA haplogroup determination. Mitochondrion 13(4):360–363.<a href="about:blank#fnref-9-99ae0e5a81a497ad" class="footnote-backref footnote-link" target="_self" rel="noopener"><span></span>︎</a><img class="emoji" draggable="false" alt="↩" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/21a9.svg" height="16px" style="max-width: 100%;">
+<br>Soares P, Ermini L, Thomson N, Mormina M, Rito T, R¨ohl A, Salas A, Oppenheimer S, Macaulay V, Richards MB. 2009. Correcting for purifying selection: an improved human mitochondrial molecular clock. Am J Hum Genet. 84(6):740–759.<a href="about:blank#fnref-10-99ae0e5a81a497ad" class="footnote-backref footnote-link" target="_self" rel="noopener"><span></span>︎</a><img class="emoji" draggable="false" alt="↩" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/21a9.svg" height="16px" style="max-width: 100%;">
+<br>Eltsov N, Volodko N. 2009. mtPhyl-software tool for human mtDNA analysis and phylogeny reconstruction. Available from: <a data-tooltip-position="top" aria-label="http://eltsov.org/" rel="noopener" class="external-link" href="http://eltsov.org/" target="_blank">http:/eltsov. org</a>. last accessed December 3, 2014.<a href="about:blank#fnref-11-99ae0e5a81a497ad" class="footnote-backref footnote-link" target="_self" rel="noopener"><span></span>︎</a><img class="emoji" draggable="false" alt="↩" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/21a9.svg" height="16px" style="max-width: 100%;">
+<br>Wen B, Li H, Lu D, Song X, Zhang F, He Y, Li F, Gao Y, Mao X, Zhang L, et al. 2004. Genetic evidence supports demic diffusion of Han culture. Nature 431(7006):302–305.<a href="about:blank#fnref-12-99ae0e5a81a497ad" class="footnote-backref footnote-link" target="_self" rel="noopener"><span></span>︎</a><img class="emoji" draggable="false" alt="↩" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/21a9.svg" height="16px" style="max-width: 100%;">
+<br>Cordaux R, Deepa E, Vishwanathan H, Stoneking M. 2004. Genetic Evidence for the Demic Diffusion of Agriculture to India. Science. 304:1125–1125.<a href="about:blank#fnref-13-99ae0e5a81a497ad" class="footnote-backref footnote-link" target="_self" rel="noopener"><span></span>︎</a><img class="emoji" draggable="false" alt="↩" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/21a9.svg" height="16px" style="max-width: 100%;">
+<br>Wen B, Li H, Lu D, Song X, Zhang F, He Y, Li F, Gao Y, Mao X, Zhang L, et al. 2004. Genetic evidence supports demic diffusion of Han culture. Nature 431(7006):302–305.<a href="about:blank#fnref-14-99ae0e5a81a497ad" class="footnote-backref footnote-link" target="_self" rel="noopener"><span></span>︎</a><img class="emoji" draggable="false" alt="↩" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/21a9.svg" height="16px" style="max-width: 100%;">
+<br>Jiang L, Liu L. 2006. New evidence for the origins of sedentism and rice domestication in the Lower Yangzi River, China. Antiquity 80(308):355–361.<a href="about:blank#fnref-15-99ae0e5a81a497ad" class="footnote-backref footnote-link" target="_self" rel="noopener"><span></span>︎</a><img class="emoji" draggable="false" alt="↩" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/21a9.svg" height="16px" style="max-width: 100%;">
+<br>Lu H, Zhang J, Liu K-B, Wu N, Li Y, Zhou K, Ye M, Zhang T, Zhang H, Yang X, et al. 2009. Earliest domestication of common millet (Panicum miliaceum) in East Asia extended to 10,000 years ago. Proc Natl Acad Sci U S A. 106(18):7367–7372.<a href="about:blank#fnref-16-99ae0e5a81a497ad" class="footnote-backref footnote-link" target="_self" rel="noopener"><span></span>︎</a><img class="emoji" draggable="false" alt="↩" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/21a9.svg" height="16px" style="max-width: 100%;">
+<br>Zhao ZJ. 2011. New archaeobotanic data for the study of the origins of agriculture in China. Curr Anthropol. 52(S4):S295–S306.<a href="about:blank#fnref-17-99ae0e5a81a497ad" class="footnote-backref footnote-link" target="_self" rel="noopener"><span></span>︎</a><img class="emoji" draggable="false" alt="↩" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/21a9.svg" height="16px" style="max-width: 100%;">
+<br>Yang XY, Wan Z, Perry L, Lu H, Wang Q, Zhao C, Li J, Xie F, Yu J, Cui T, et al. 2012. Early millet use in northern China. Proc Natl Acad Sci U S A. 109(10):3726–3730.<a href="about:blank#fnref-18-99ae0e5a81a497ad" class="footnote-backref footnote-link" target="_self" rel="noopener"><span></span>︎</a><img class="emoji" draggable="false" alt="↩" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/21a9.svg" height="16px" style="max-width: 100%;">
+]]></description><link>文献及报道\文献\2019-mbe-河流流域塑造了汉族的母系遗传景观.html</link><guid isPermaLink="false">文献及报道/文献/2019 MBE 河流流域塑造了汉族的母系遗传景观.md</guid><pubDate>Tue, 23 Jul 2024 14:34:05 GMT</pubDate><enclosure url="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f600.svg" length="0" type="image/svg+xml"/><content:encoded>&lt;figure&gt;&lt;img src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f600.svg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[将FASTA转换成Arp]]></title><description><![CDATA[ 
  <br>这个脚本可以把FASTA文件转换成Arp，跳过了DnaSP的操作，但是这增加了Arlequin的运算量。需要准备2个文件：<br>
 <br>FASTA文件
 <br>分组文件<br>
@@ -241,40 +445,7 @@ print(f"文件 {fasta_file_path} 已被删除。")
 print("给我点个赞如何？")
 
 
-复制]]></description><link>软件\python\格式转换\将fasta转换成arp.html</link><guid isPermaLink="false">软件/Python/格式转换/将FASTA转换成Arp.md</guid><pubDate>Tue, 23 Jul 2024 02:02:16 GMT</pubDate><enclosure url="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202402201357957.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202402201357957.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[1 .&nbsp;<a data-href="正态分布 (Normal Distribution)" href="正态分布 (Normal Distribution)" class="internal-link" target="_self" rel="noopener">正态分布 (Normal Distribution)</a>]]></title><description><![CDATA[ 
- <br><br>正态分布在我们的生活中随处可见，我们身高的分布、体重的分布，甚至是考试成绩的分布都可能符合正态分布。它的形状就像一个钟形曲线，最高点在中间，两边逐渐低下，具有对称性。<br>
-<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517091725.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br>伯努利分布又名两点分布或者0-1分布，是描述只有两种可能结果的随机试验的概率分布，比如抛硬币或投掷骰子。它将这两种结果分别表示为1和0，通常用 p 来表示事件的成功概率，而1-p 表示事件的失败概率。比如，你在玩一个抛硬币的游戏。硬币只有两面：正面和反面。当你抛硬币时，只有两种可能的结果：硬币出现正面或反面。伯努利分布就像是描述硬币落地后是正面还是反面的概率分布。在伯努利分布中，我们关心的是事件的成功概率，即出现期望结果的概率。比如，在抛硬币时，成功的概率就是硬币出现正面的概率。<br>伯努利分布的变异程度通常由成功和失败的概率决定。如果硬币是公平的，那么成功和失败的概率都是相等的，变异程度就较小。假设你在玩一个猜硬币正反面的游戏，如果你猜对了，你就赢得奖品。这种情况下，游戏的结果可以用伯努利分布来描述。<br>
-<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517091815.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br>泊松分布常常用于描述单位时间或空间内事件发生的次数，比如在一小时内接到的电话数量、一天内发生的交通事故数量等。<br>它的形状看起来有点像钟形曲线，但是更加扁平。在图的中心，事件发生的次数最多，然后随着次数的增加，概率逐渐减小。<br>平均值告诉我们在单位时间或空间内预期事件的平均发生次数。<br>
-泊松分布的特点之一是，它的方差等于其平均值。这意味着，如果事件在某段时间内平均发生了5次，那么方差也是5，表明事件发生次数的变化程度与平均值相近。如果我们想知道某一条街道一天内发生的车祸数量的概率分布，我们可以使用泊松分布来预测不同数量的车祸发生的可能性。<br>
-<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517092140.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br>指数分布通常用于描述等待时间或事件之间的间隔时间，比如等待下一辆公交车到达的时间、两次地震之间的时间间隔等。<br>它的形状看起来有点像波峰逐渐减小的山脉。在开始时，概率较高，随着时间的推移，概率逐渐减小。<br>
-<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517092030.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
-指数分布的一个重要特点是，它是无记忆的。这意味着，在任何给定的时间点上，等待下一个事件的时间不受过去等待时间的影响。<br>平均值告诉我们在一段时间内预期发生事件的平均次数。而指数分布的方差等于平均值的平方，这意味着方差与平均值之间存在很大的差异。<br>如果我们想知道一个人等待下一次公交车到达的时间，我们可以使用指数分布来预测不同等待时间的概率分布。<br><br>伽玛分布通常用于描述连续随机变量的正数值，比如处理时间、等待时间或事件发生的时间间隔等。<br>它的形状可以是多样的，取决于伽玛分布的参数。但通常情况下，它呈现出右偏的形态，即尾部向右延伸。伽玛分布的平均值和方差都受到其参数的影响。当其中一个参数增大时，分布会更向右延伸，并且平均值和方差也会随之增大。<br>这个分布可以用于建模很多现实生活中的情况，比如处理时间、等待时间以及一些事件的发生间隔时间等。<br>如果我们想要预测一个机器的寿命，我们可以使用伽玛分布来描述机器的故障时间分布。<br>
-<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517092124.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br>贝塔分布是一种连续概率分布，通常用于描述在一个有限区间内取值的随机变量，比如概率值或者比例。<br>它的形状可以是多样的，取决于贝塔分布的参数。但通常情况下，它呈现出 U 型或者反 U 型的形态。<br>
-<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517092207.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
-贝塔分布的一个重要特点是，它可以用来描述一个随机变量的概率分布，并且在一些统计推断和贝叶斯分析中有重要的应用。<br>如果我们想要建立一个模型来描述一个产品的质量，我们可以使用贝塔分布来描述产品合格的比例。<br><br>均匀分布是一种简单的概率分布，它将所有可能的结果都分布在一个范围内，并且每个结果的概率都是相等的。<br>
-想想想想一下，把一个区间分成若干个等长的小区间，每个小区间内的概率都是相同的，这就是均匀分布。<br>
-它的形状就像是一个长方形，所有的小区间的高度都是一样的，表明每个结果出现的概率都是相等的。<br>
-均匀分布的参数是区间的上下界，它们决定了分布的范围。<br>
-如果我们想要模拟一个骰子的投掷结果，我们可以使用均匀分布，因为在一个公正的骰子中，每个面出现的概率都是相等的。<br>
-<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517092250.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br>二项分布在我们的日常生活中也很常见，比如抛硬币的结果、投掷骰子的结果或者考试中答对题目的次数等。<br>二项分布描述了在一系列独立的伯努利试验中成功次数的分布。这些试验只有两种可能的结果，比如抛硬币可能是正面或反面。<br>这个分布的形状不像钟形曲线那样，它更像是一个条形图。在图的两端，成功次数较少，而在中间，成功次数最多。<br>
-平均值告诉我们在这些试验中预期成功的次数，而标准差则告诉我们成功次数的变化程度。<br>假设我们进行了10次抛硬币的试验，我们想知道有多少次是正面。二项分布可以告诉我们每种可能的正面次数的概率。<br>
-<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517092331.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br>对数正态分布描述了一个随机变量的对数服从正态分布的情况。换句话说，如果一个随机变量的对数是正态分布的，那么该随机变量就服从对数正态分布。<br>它的形状看起来有点像正态分布，但是更加右偏。这是因为正态分布的对数在较大的值处增长得更快。<br>
-<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517092352.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
-对数正态分布通常用于描述一些连续的正数值的分布，比如收入分布、财富分布等。<br>它的参数是正态分布的平均值和标准差，它们决定了对数正态分布的形状。<br>如果我们想要描述一个城市中居民的收入分布，我们可能会发现它符合对数正态分布。<br><br>负二项分布描述了在一系列独立的伯努利试验中，达到指定数量的成功之前的失败次数。<br>与几何分布不同，几何分布是在达到第一次成功时停止，而负二项分布则在达到指定数量的成功时停止。<br>它的形状类似于二项分布，但更为右偏。开始时概率较高，随着试验次数的增加，概率逐渐减小。<br>
-<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517092426.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
-负二项分布的参数是成功的概率和达到指定数量的成功所需的试验次数。成功的概率越高，试验次数越少，分布越向左偏。<br>如果我们重复进行投掷硬币的试验，直到出现5次正面为止，负二项分布可以告诉我们达到5次正面所需的失败次数的概率分布情况。<br>数据科学家在日常工作中使用的一些基本概率分布包括以下 11 个：<br>
-<br>正态分布 (Normal Distribution)：在数据科学中应用广泛，特别是在统计推断和假设检验中。
-<br>泊松分布 (Poisson Distribution)：用于描述单位时间或空间内事件发生的次数的分布，如某个时间段内电话呼叫的数量。
-<br>指数分布 (Exponential Distribution)：描述等待时间或事件之间的间隔时间的分布，例如等待下一次地铁到达的时间。
-<br>伽玛分布 (Gamma Distribution)：在描述连续随机变量的正数值时非常有用，例如在描述等待时间或处理时间时。
-<br>贝塔分布 (Beta Distribution)：通常用于描述概率分布的先验知识，例如在贝叶斯推断中。
-<br>均匀分布 (Uniform Distribution)：用于描述所有可能结果等概率出现的情况，例如抛硬币、掷骰子等。
-<br>二项分布 (Binomial Distribution)：用于描述离散随机变量中成功次数的分布，例如抛硬币、投掷骰子等。
-<br>对数正态分布 (Log-Normal Distribution)：描述一个随机变量的对数服从正态分布的情况，例如财富分布或收入分布。
-<br>负二项分布 (Negative Binomial Distribution)：描述在一系列独立的伯努利试验中，达到指定数量的成功之前的失败次数。
-<br>威布尔分布 (Weibull Distribution)：常用于可靠性工程和寿命分析，描述随机事件的生存时间。<br>
-
-<br>这些分布覆盖了数据科学中许多常见的场景，从描述连续变量到描述离散变量，以及描述等待时间和间隔时间等各种情况。]]></description><link>术语\数据科学家-95-时间都在使用的-10-大基本分布.html</link><guid isPermaLink="false">术语/数据科学家 95% 时间都在使用的 10 大基本分布.md</guid><pubDate>Thu, 20 Jun 2024 12:25:33 GMT</pubDate><enclosure url="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517091725.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517091725.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[数据准备]]></title><description><![CDATA[ 
+复制]]></description><link>软件\python\格式转换\将fasta转换成arp.html</link><guid isPermaLink="false">软件/Python/格式转换/将FASTA转换成Arp.md</guid><pubDate>Tue, 23 Jul 2024 02:02:16 GMT</pubDate><enclosure url="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202402201357957.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202402201357957.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[数据准备]]></title><description><![CDATA[ 
  <br>为了探究一个群体中有多少种单倍群，以及每种单倍群的比例，可以绘制柱状图，类似常染色体的ADMIXTURE。<br><br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202407230859072.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
 第一列是群体，其余列是单倍群的比例。计算公式如下：<br><br><br>import pandas as pd
 import matplotlib.pyplot as plt
@@ -923,38 +1094,7 @@ BSP 分析显示，东南亚人口扩张始于大约4700年前（置信区间：
 <br>Campos PF, et al. (2010) Ancient DNA analyses exclude humans as the driving force behind late Pleistocene musk ox (Ovibos moschatus) population dynamics. Proc Natl Acad Sci USA 107:5675–5680.<a href="about:blank#fnref-10-5082b7f9cdc3a74f" class="footnote-backref footnote-link" target="_self" rel="noopener"><span></span>︎</a><img class="emoji" draggable="false" alt="↩" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/21a9.svg" height="16px" style="max-width: 100%;">
 <br>Drummond AJ, Rambaut A, Shapiro B, Pybus OG (2005) Bayesian coalescent inference of past population dynamics from molecular sequences. Mol Biol Evol 22:1185–1192.<a href="about:blank#fnref-11-5082b7f9cdc3a74f" class="footnote-backref footnote-link" target="_self" rel="noopener"><span></span>︎</a><img class="emoji" draggable="false" alt="↩" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/21a9.svg" height="16px" style="max-width: 100%;">
 <br>Glover IC, Higham CFW (1996) The Origins and Spread of Agriculture and Pastoralism in Eurasia, ed Harris DR (Routledge, Oxon, UK), pp 413–440.<a href="about:blank#fnref-12-5082b7f9cdc3a74f" class="footnote-backref footnote-link" target="_self" rel="noopener"><span></span>︎</a><img class="emoji" draggable="false" alt="↩" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/21a9.svg" height="16px" style="max-width: 100%;">
-]]></description><link>文献及报道\文献\2011-pnas-农业起源后全球人口迅速扩张.html</link><guid isPermaLink="false">文献及报道/文献/2011 PNAS 农业起源后全球人口迅速扩张.md</guid><pubDate>Thu, 18 Jul 2024 08:22:44 GMT</pubDate><enclosure url="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f44d.svg" length="0" type="image/svg+xml"/><content:encoded>&lt;figure&gt;&lt;img src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f44d.svg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[背景介绍]]></title><description><![CDATA[ 
- <br>
-River Valleys Shaped the Maternal Genetic Landscape of Han Chinese
-<br><br>汉族是全世界最大的民族，其人口占中国人口的91.6%；在过去的20年，人们用了大量的遗传工作来剖析汉族的人口遗传图谱；由于其人口规模庞大，特别是在历史时期人口大量扩张，以及周边民族的混和，汉族人与汉族人之间拥有很大的遗传多样性；<br>
-基于mtDNA和Y染色体以及和基因数据，之前的研究已经观察到了汉族人中存在普遍的南北遗传差异。这种差异曾经被解释为：汉族从中国北方向南方扩张时，对南方原住民遗传成分的同化；但是，上述的这些研究，是基于部分线粒体DNA信息（例如高变区段）或者是基于中国限制地区的（数量）相对受限的标本，所以目前尚不清楚是否可以通过大范围的地理采样观察到北方和南方汉族种群之间的遗传差异；<br>
-同时，汉族人群更加精细的遗传结构使揭示在塑造遗传景观中起到的因素变得可能；曾经的人口统计学事件，例如在晚更新世（距今126万年）的最初定居，自最后一次盛冰期（距今2万6千年至1万9千年）以来的迁徙，以及历史时期的人口移动，已经被证实了对于现代东亚的遗传景观的建立做出了贡献；事实上，地理环境因素，比如河谷，也在南亚和东亚的遗传景观塑造中发挥了作用；鉴于中国地理环境的复杂性，尤其是几条主要河谷（例如长江和黄河），已经被认为是不同史前农业与中华文明的摇篮，那么这些河谷很有可能促进了汉族的遗传景观；<br>
-尽管线粒体的遗传史与物种的遗传史并不完全等同，但是通过对汉族线粒体DNA变异的广泛研究，仍然可以对当代汉族的母系遗传结构以及影响遗传的因素有所了解。<br><br>目前并不清楚是否其他的因素，也就是地理景观（环境），是否也在这个过程中起到了重要作用。<br><br>通过对21668名几乎覆盖了中国所有的省份（及省级行政区）汉族个体样本的进行（数据来源于全球的mtDNA单倍群）4004个基因分型。<br>使用了<a data-href="种群配对Fst值（Population pairwise Fst values）" href="术语\种群配对fst值（population-pairwise-fst-values）.html" class="internal-link" target="_self" rel="noopener">种群配对Fst值（Population pairwise Fst values）</a>：一种用于衡量不同种群之间遗传结构差异的统计方法。<br>使用了<a data-href="分子方差分析（AMOVA ，Analysis of Molecular Variance)" href="术语\分子方差分析（amova-，analysis-of-molecular-variance).html" class="internal-link" target="_self" rel="noopener">分子方差分析（AMOVA ，Analysis of Molecular Variance)</a>：是一种用于分析遗传数据中种群间和种群内遗传差异的统计方法。<br>使用了 <a data-href="贝叶斯天际线图（Bayesian Skyline Plot, BSP）" href="术语\贝叶斯天际线图（bayesian-skyline-plot,-bsp）.html" class="internal-link" target="_self" rel="noopener">贝叶斯天际线图（Bayesian Skyline Plot, BSP）</a>：蓝线划定了95%最高后验密度(HPD)边界，解释了重建的系统发育和替代模型参数的不确定性。绿线:LGM后种群规模开始增加的时间点;橙色线:增长最快的时间点。 Nef 以对数刻度绘制，并假设女性一代时间为20年。<br>汉族人群线粒体DNA的单倍群中，<a data-href="线粒体/树/D4" href="线粒体\树\D4" class="internal-link" target="_self" rel="noopener">线粒体/树/D4</a>是最常见的（16.46%），然后是<a data-href="线粒体/树/B4" href="线粒体\树\B4" class="internal-link" target="_self" rel="noopener">线粒体/树/B4</a> (11.19%), <a data-href="线粒体/树/F1" href="线粒体\树\F1" class="internal-link" target="_self" rel="noopener">线粒体/树/F1</a> (9.46%), <a data-href="线粒体/树/M7" href="线粒体\树\M7" class="internal-link" target="_self" rel="noopener">线粒体/树/M7</a> (8.13%), <a data-href="线粒体/树/A" href="线粒体\树\A" class="internal-link" target="_self" rel="noopener">线粒体/树/A</a> (7.12%), <a data-href="线粒体/树/D5" href="线粒体\树\D5" class="internal-link" target="_self" rel="noopener">线粒体/树/D5</a> (6.49%), <a data-href="线粒体/树/B5" href="线粒体\树\B5" class="internal-link" target="_self" rel="noopener">线粒体/树/B5</a> (4.95%),<a data-href="线粒体/树/N9" href="线粒体\树\N9" class="internal-link" target="_self" rel="noopener">线粒体/树/N9</a> (4.29%)；<br>
-<img alt="Pasted image 20230731103444" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202312150935783.png" referrerpolicy="no-referrer" style="width: 550px; max-width: 100%;"><br>
-<img alt="Pasted image 20230731103441" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202312150935784.png" referrerpolicy="no-referrer" style="width: 550px; max-width: 100%;"><br>
-<img alt="Pasted image 20230731103438" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202312150935785.png" referrerpolicy="no-referrer" style="width: 550px; max-width: 100%;"><br>
-<img alt="Pasted image 20230731103432" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202312150935786.png" referrerpolicy="no-referrer" style="width: 550px; max-width: 100%;"><br><img alt="Pasted image 20230731103427" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202312150935787.png" referrerpolicy="no-referrer" style="width: 550px; max-width: 100%;"><br>
-<br>具体来说，<a data-href="线粒体/树/D4" href="线粒体\树\D4" class="internal-link" target="_self" rel="noopener">线粒体/树/D4</a>在<a data-href="中国北方" href="术语\中国北方.html" class="internal-link" target="_self" rel="noopener">中国北方</a>和<a data-href="中国东北" href="术语\中国东北.html" class="internal-link" target="_self" rel="noopener">中国东北</a>出现的频率最高（内蒙古，辽宁，黑龙江）。
-<br><a data-href="线粒体/树/B4" href="线粒体\树\B4" class="internal-link" target="_self" rel="noopener">线粒体/树/B4</a>主要在<a data-href="中国南方" href="术语\中国南方.html" class="internal-link" target="_self" rel="noopener">中国南方</a>区域出现（香港，云南，上海）
-<br><a data-href="线粒体/树/F1" href="线粒体\树\F1" class="internal-link" target="_self" rel="noopener">线粒体/树/F1</a>在<a data-href="中国南方" href="术语\中国南方.html" class="internal-link" target="_self" rel="noopener">中国南方</a>和<a data-href="中国西南" href="术语\中国西南.html" class="internal-link" target="_self" rel="noopener">中国西南</a>更常见（广西，贵州，湖南）以及稍微北方的区域（青海）
-<br><a data-href="线粒体/树/M7" href="线粒体\树\M7" class="internal-link" target="_self" rel="noopener">线粒体/树/M7</a>主要在<a data-href="中国南方" href="术语\中国南方.html" class="internal-link" target="_self" rel="noopener">中国南方</a>的汉族人出现；其中<a data-href="线粒体/树/M7b" href="线粒体\树\M7b" class="internal-link" target="_self" rel="noopener">线粒体/树/M7b</a>主要在广西，广东；<a data-href="线粒体/树/M7c" href="线粒体\树\M7c" class="internal-link" target="_self" rel="noopener">线粒体/树/M7c</a>主要在<a data-href="台湾" href="术语\台湾.html" class="internal-link" target="_self" rel="noopener">台湾</a>；
-<br>单倍群<a data-href="线粒体/树/A" href="线粒体\树\A" class="internal-link" target="_self" rel="noopener">线粒体/树/A</a>在<a data-href="中国北方" href="术语\中国北方.html" class="internal-link" target="_self" rel="noopener">中国北方</a>和<a data-href="中国西北" href="术语\中国西北.html" class="internal-link" target="_self" rel="noopener">中国西北</a>常见（天津，宁夏，山西，以及南边一点的区域例如安徽和江苏）；
-<br>有趣的是，北部流行的单倍群的一些分支（<a data-href="线粒体/树/D4a" href="线粒体\树\D4a" class="internal-link" target="_self" rel="noopener">线粒体/树/D4a</a>，<a data-href="线粒体/树/D4e" href="线粒体\树\D4e" class="internal-link" target="_self" rel="noopener">线粒体/树/D4e</a>和<a data-href="线粒体/树/A5" href="线粒体\树\A5" class="internal-link" target="_self" rel="noopener">线粒体/树/A5</a>）在南方地区出现频率较高，南部流行的单倍群的一些分支（<a data-href="线粒体/树/M7a" href="线粒体\树\M7a" class="internal-link" target="_self" rel="noopener">线粒体/树/M7a</a>和<a data-href="线粒体/树/B4b'd'e'j" href="线粒体\树\B4b'd'e'j" class="internal-link" target="_self" rel="noopener">线粒体/树/B4b'd'e'j</a>）在北部区域出现频率较高，可能反应了南北基因的融合 。
-<br>一些稀有的单倍群也存在地域分布特点；例如<a data-href="线粒体/树/M8" href="线粒体\树\M8" class="internal-link" target="_self" rel="noopener">线粒体/树/M8</a>, <a data-href="线粒体/树/Z" href="线粒体\树\Z" class="internal-link" target="_self" rel="noopener">线粒体/树/Z</a>, and <a data-href="线粒体/树/Y" href="线粒体\树\Y" class="internal-link" target="_self" rel="noopener">线粒体/树/Y</a>在<a data-href="宁夏" href="术语\宁夏.html" class="internal-link" target="_self" rel="noopener">宁夏</a>频率高；<a data-href="线粒体/树/F4" href="线粒体\树\F4" class="internal-link" target="_self" rel="noopener">线粒体/树/F4</a>主要在<a data-href="江苏" href="术语\江苏.html" class="internal-link" target="_self" rel="noopener">江苏</a>和<a data-href="云南" href="术语\云南.html" class="internal-link" target="_self" rel="noopener">云南</a>省；
-<br>西欧的一些单倍群<a data-href="线粒体/树/N2" href="线粒体\树\N2" class="internal-link" target="_self" rel="noopener">线粒体/树/N2</a>, <a data-href="线粒体/树/R1" href="线粒体\树\R1" class="internal-link" target="_self" rel="noopener">线粒体/树/R1</a>, <a data-href="线粒体/树/R0" href="线粒体\树\R0" class="internal-link" target="_self" rel="noopener">线粒体/树/R0</a> and <a data-href="线粒体/树/U" href="线粒体\树\U" class="internal-link" target="_self" rel="noopener">线粒体/树/U</a>,，主要分布<a data-href="中国西北" href="术语\中国西北.html" class="internal-link" target="_self" rel="noopener">中国西北</a>部；这和之前的地区基因融合的观察一致。
-<br>并且来自同一流域的人口在PC地图上倾向于聚集；黄河、长江、珠江三个集群：黄河流域种群和其他的中国北方的流域的种群聚集在一起，而来自福建和台湾的种群与珠江流域种群表现出密切的遗传关系。
-<br>单倍群<a data-href="线粒体/树/D4" href="线粒体\树\D4" class="internal-link" target="_self" rel="noopener">线粒体/树/D4</a>和<a data-href="线粒体/树/A" href="线粒体\树\A" class="internal-link" target="_self" rel="noopener">线粒体/树/A</a>对北簇贡献最大，而<a data-href="线粒体/树/M7" href="线粒体\树\M7" class="internal-link" target="_self" rel="noopener">线粒体/树/M7</a>、<a data-href="线粒体/树/F1" href="线粒体\树\F1" class="internal-link" target="_self" rel="noopener">线粒体/树/F1</a>和<a data-href="线粒体/树/B4" href="线粒体\树\B4" class="internal-link" target="_self" rel="noopener">线粒体/树/B4</a>对南簇贡献最大；
-<br>此外，与常染色体的研究结果一致，PC1与经度之间的相关性虽然比纬度的相关性较弱，但是仍然可以被检测到，这意味着汉族人之间存在潜在的东西遗传差异。
-<br>汉族人群的群体内变异占遗传变异的99.93%；这意味着汉族人群中的遗传分化水平比整个东亚人体内的遗传分化水平相对较低；同时提示了河流（尤其是三大流域）在驱使现代汉族人的基因分化中起到了重要的作用。
-<br><a data-href="线粒体/树/D4" href="线粒体\树\D4" class="internal-link" target="_self" rel="noopener">线粒体/树/D4</a>,<a data-href="线粒体/树/B4" href="线粒体\树\B4" class="internal-link" target="_self" rel="noopener">线粒体/树/B4</a>和<a data-href="线粒体/树/M7" href="线粒体\树\M7" class="internal-link" target="_self" rel="noopener">线粒体/树/M7</a>主要分布在中国北部中部和南部，与长江珠江和黄河河谷位置非常匹配；这几个单倍群的共同起源（祖先）时间距今20.16至41.76千年（<a data-href="线粒体/树/D4" href="线粒体\树\D4" class="internal-link" target="_self" rel="noopener">线粒体/树/D4</a>），29.79至61.49千年（<a data-href="线粒体/树/B4" href="线粒体\树\B4" class="internal-link" target="_self" rel="noopener">线粒体/树/B4</a>）和37.56至54.11千年（<a data-href="线粒体/树/M7" href="线粒体\树\M7" class="internal-link" target="_self" rel="noopener">线粒体/树/M7</a>）而他们的亚单倍群年龄范围是46.95至0.22千年；暗示了从旧石器时代（大概距今1万年左右）晚期以来的人口膨胀；同时也指出，汉族人群的母系遗传景观（特别是三河流域），是在全新世早期（从1万1千7百年前）建立的。
-<br>三河流域的农业种植(黄河的粟，长江和珠江的水稻) 对于人口发展有重要作用。因此，河谷之间的遗传差异可以归因于全新世早期古代农业沿各河流域的扩张。因此，在我们的分析中观察到的黄河流域和其他河流种群之间的密切遗传亲象关系可以用黄河谷子农业向北扩张来解释 。
-<br><br>
-<br>未能检测到方言和线粒体DNA之间的联系，即大多数单倍群由不同的方言群体所共享。例如，单倍群D4在普通话、晋语和吴语中普遍分布; M7 在中国南方的粤语、闽语或普通话群体中显示出较高的分布频率; B4分布于粤语、吴语、湘语、官话方言;A在中国北方的普通话中很流行，在南方的回族使用者中也有发现；这可能归因于汉族的父系居住习惯，并且方言和Y染色体之间可能观察到更强的关联；
-<br>
-也许是因为单倍群分型太粗糙导致的，如果分得更细会不会找到潜在的关系？
-<br>
-<br>汉族人之间存在潜在的东-西遗传（经度相关） 差异未得到广泛的抽样研究。
-]]></description><link>文献及报道\文献\2019-mbe-河流流域塑造了汉族的母系遗传景观.html</link><guid isPermaLink="false">文献及报道/文献/2019 MBE 河流流域塑造了汉族的母系遗传景观.md</guid><pubDate>Thu, 18 Jul 2024 08:22:44 GMT</pubDate><enclosure url="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202312150935783.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202312150935783.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[摘要]]></title><description><![CDATA[ 
+]]></description><link>文献及报道\文献\2011-pnas-农业起源后全球人口迅速扩张.html</link><guid isPermaLink="false">文献及报道/文献/2011 PNAS 农业起源后全球人口迅速扩张.md</guid><pubDate>Thu, 18 Jul 2024 08:22:44 GMT</pubDate><enclosure url="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f44d.svg" length="0" type="image/svg+xml"/><content:encoded>&lt;figure&gt;&lt;img src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f44d.svg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[摘要]]></title><description><![CDATA[ 
  <br>
 Complete mitogenomes document substantial genetic contribution from the Eurasian Steppe into northern Pakistani Indo-Iranian speakers
 <br><br>该研究旨在阐明青铜时代从欧亚草原向南亚的人口扩散是否对<a data-href="印度-伊朗语（Indo-Iranian languages）" href="术语\印度-伊朗语（indo-iranian-languages）.html" class="internal-link" target="_self" rel="noopener">印度-伊朗语（Indo-Iranian languages）</a>群体的基因库产生了影响。研究人员分析了来自巴基斯坦北部及其周边地区的19,568个线粒体DNA（mtDNA）序列，包括213个新生成的来自伊朗和<a data-href="达尔德语（Dardic languages）" href="术语\达尔德语（dardic-languages）.html" class="internal-link" target="_self" rel="noopener">达尔德语（Dardic languages）</a>族群体的线粒体基因组，这些群体均属于巴基斯坦北部的古代印伊语系分支。研究结果显示，约23%的具有西欧亚起源的mtDNA谱系在约5000年前开始出现在巴基斯坦北部，这一时间深度与青铜时代印欧人向南亚扩散的记录非常接近。结合自新石器时代以来的西欧亚古代线粒体基因组，研究人员确定了五个来自草原地区的单倍群（约占母系基因库的8.4%），这些单倍群在巴基斯坦北部出现了新的分支（年龄约为5–2千年），作为印伊语系群体的遗传遗产。其中一些单倍群，如W3a1b，在巴基斯坦北部的斯瓦特河谷青铜时代晚期到铁器时代的古代样本中发现，并且在南部次大陆有亚分支（年龄约为4千年），这与印伊语向南传播的记录一致。研究表明，巴基斯坦北部的印伊语系群体中有相当大的遗传成分可以追溯到青铜时代的草原地区，暗示了与印伊语系传播的种群联系，并进一步强调了巴基斯坦北部作为印伊语系群体向南扩散通道的重要作用。<br><br><a data-href="印欧语系(Indo-European languages)" href="术语\印欧语系(indo-european-languages).html" class="internal-link" target="_self" rel="noopener">印欧语系(Indo-European languages)</a>是使用最广泛的语言。广泛认为，<a data-href="印欧语系(Indo-European languages)" href="术语\印欧语系(indo-european-languages).html" class="internal-link" target="_self" rel="noopener">印欧语系(Indo-European languages)</a>起源于波罗的海草原，并在青铜时期（公元前3000-1000年）的<a data-href="颜那亚文化（Yamna culture）" href="术语\颜那亚文化（yamna-culture）.html" class="internal-link" target="_self" rel="noopener">颜那亚文化（Yamna culture）</a>有关 <a data-footref="1" href="about:blank#fn-1-5082b7f9cdc3a74f" class="footnote-link" target="_self" rel="noopener">[1]</a> <a data-footref="2" href="about:blank#fn-2-5082b7f9cdc3a74f" class="footnote-link" target="_self" rel="noopener">[2]</a>。另一种观点认为，<a data-href="印欧语系(Indo-European languages)" href="术语\印欧语系(indo-european-languages).html" class="internal-link" target="_self" rel="noopener">印欧语系(Indo-European languages)</a>的传播更早，与<a data-href="安纳托利亚农业人群（Anatolian farmer）" href="术语\安纳托利亚农业人群（anatolian-farmer）.html" class="internal-link" target="_self" rel="noopener">安纳托利亚农业人群（Anatolian farmer）</a>有关 <a data-footref="3" href="about:blank#fn-3-5082b7f9cdc3a74f" class="footnote-link" target="_self" rel="noopener">[3]</a>。<br>目前，对于<a data-href="印欧语系(Indo-European languages)" href="术语\印欧语系(indo-european-languages).html" class="internal-link" target="_self" rel="noopener">印欧语系(Indo-European languages)</a>最大的分支：<a data-href="印度-伊朗语（Indo-Iranian languages）" href="术语\印度-伊朗语（indo-iranian-languages）.html" class="internal-link" target="_self" rel="noopener">印度-伊朗语（Indo-Iranian languages）</a>如何扩张到南亚仍然存在争议。一些研究认为，<a data-href="印欧语系(Indo-European languages)" href="术语\印欧语系(indo-european-languages).html" class="internal-link" target="_self" rel="noopener">印欧语系(Indo-European languages)</a>传播到南亚伴随着大量的西部欧亚的遗传贡献 <a data-footref="4" href="about:blank#fn-4-5082b7f9cdc3a74f" class="footnote-link" target="_self" rel="noopener">[4]</a> <a data-footref="5" href="about:blank#fn-5-5082b7f9cdc3a74f" class="footnote-link" target="_self" rel="noopener">[5]</a> <a data-footref="6" href="about:blank#fn-6-5082b7f9cdc3a74f" class="footnote-link" target="_self" rel="noopener">[6]</a> <a data-footref="7" href="about:blank#fn-7-5082b7f9cdc3a74f" class="footnote-link" target="_self" rel="noopener">[7]</a>，但是其它的研究不这样认为 <a data-footref="8" href="about:blank#fn-8-5082b7f9cdc3a74f" class="footnote-link" target="_self" rel="noopener">[8]</a> <a data-footref="9" href="about:blank#fn-9-5082b7f9cdc3a74f" class="footnote-link" target="_self" rel="noopener">[9]</a> <a data-footref="10" href="about:blank#fn-10-5082b7f9cdc3a74f" class="footnote-link" target="_self" rel="noopener">[10]</a> <a data-footref="11" href="about:blank#fn-11-5082b7f9cdc3a74f" class="footnote-link" target="_self" rel="noopener">[11]</a>。<br>有研究认为，早期的<a data-href="印欧语系(Indo-European languages)" href="术语\印欧语系(indo-european-languages).html" class="internal-link" target="_self" rel="noopener">印欧语系(Indo-European languages)</a>人群在2000BC 出现在 <a data-href="巴克特里亚·马尔吉亚纳文明区（Bactria–Margiana Archaeological Complex，BMAC）" href="术语\巴克特里亚·马尔吉亚纳文明区（bactria–margiana-archaeological-complex，bmac）.html" class="internal-link" target="_self" rel="noopener">巴克特里亚·马尔吉亚纳文明区（Bactria–Margiana Archaeological Complex，BMAC）</a>,然后向南亚扩张 <a data-footref="12" href="about:blank#fn-12-5082b7f9cdc3a74f" class="footnote-link" target="_self" rel="noopener">[12]</a>。然而，来自中亚和南亚的基因组古代DNA数据显示，BMAC对南亚人群没有实质性的遗传贡献 <a data-footref="13" href="about:blank#fn-13-5082b7f9cdc3a74f" class="footnote-link" target="_self" rel="noopener">[13]</a>。关于草原地区的印欧语言使用者向南亚扩展是否伴随着实质性的遗传贡献仍存在争议。<br>巴基斯坦北部的兴都库什山脉，位于南亚的最北端，是内亚山地走廊的边缘，被长期认为是早期印伊语系使用者。本地使用的被称为<a data-href="达尔德语（Dardic languages）" href="术语\达尔德语（dardic-languages）.html" class="internal-link" target="_self" rel="noopener">达尔德语（Dardic languages）</a>的不同印欧语系方言复合体，被广泛认为属于印伊语系 <a data-footref="14" href="about:blank#fn-14-5082b7f9cdc3a74f" class="footnote-link" target="_self" rel="noopener">[14]</a>。人类学和遗传学研究表明，巴基斯坦北部的定居者，例如卡拉什（Kalash）人和科霍（Kho）人，在历史和文化上与其它城市人群隔离，被认为是 <a data-href="吠陀（Vedic）" href="术语\吠陀（vedic）.html" class="internal-link" target="_self" rel="noopener">吠陀（Vedic）</a> 雅利安人的早期分支。这一地区的其他主要语言，即东伊朗语，可以追溯到阿维斯陀语经文，暗示了这些印欧语言持有者在南亚西北地区的古老性和长期存在。此外，这一地区的其他主要语言，即东伊朗语，可以追溯到<a data-href="阿维斯陀语（Avestan）" href="术语\阿维斯陀语（avestan）.html" class="internal-link" target="_self" rel="noopener">阿维斯陀语（Avestan）</a>，暗示了这些印欧语言持有者在南亚西北地区的古老性和长期存在。因此，如果能够将北巴基斯坦 <a data-href="达尔德语（Dardic languages）" href="术语\达尔德语（dardic-languages）.html" class="internal-link" target="_self" rel="noopener">达尔德语（Dardic languages）</a> 和伊朗语使用者的遗传研究与青铜时代的人口扩散联系起来，可能有助于阐明印欧语言向南亚的初始扩展。<br><br>青铜时代欧亚草原的人口扩散是否对南亚<a data-href="印度-伊朗语（Indo-Iranian languages）" href="术语\印度-伊朗语（indo-iranian-languages）.html" class="internal-link" target="_self" rel="noopener">印度-伊朗语（Indo-Iranian languages）</a>群体的基因库产生了实质性影响？<br><br>
@@ -9091,70 +9231,7 @@ output_file_path = 'terminal_haplogroups.txt'
 # 调用函数处理文件
 find_terminal_haplogroups(input_file_path, output_file_path)
 
-复制<br><br>]]></description><link>软件\其它生信软件\群体遗传\python：查找末端单倍群.html</link><guid isPermaLink="false">软件/其它生信软件/群体遗传/python：查找末端单倍群.md</guid><pubDate>Mon, 24 Jun 2024 11:00:29 GMT</pubDate></item><item><title><![CDATA[原理]]></title><description><![CDATA[ 
- <br><br>我们使用以下公式来计算单倍型/单倍群的法医学参数。单倍型/单倍群多样性(Haplotype/haplogroup diversity, HD)是基于 Nei 和 Tajima 提出来的公式进行计算：<br>
-其中 n 表示观察到单倍型/单倍群的数量，pi 表示第 i个单倍型/单倍群的频率。分辨能力(Discrimination capacity,DC)使用观察的单倍型/单倍群数量和所有单倍型/单倍群数量的比值。<br><br>准备一个 txt 文件：<br>
-<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240624155053.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br>import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
-from scipy.stats import kruskal
-
-# 读取数据
-file_path = '新建 Text Document.txt'
-output_file_path = 'group_haplotype_diversities.csv'
-data = pd.read_csv(file_path, sep='\t')
-
-# 分组并计算每个群体的单倍型多样性
-diversities = []
-group_sizes = data['Population_Province'].value_counts()
-
-for group, group_data in data.groupby('Population_Province'):
-    n = len(group_data)
-    if n &gt;= 20:
-        haplotype_counts = group_data['Haplo'].value_counts()
-        haplotype_frequencies = haplotype_counts / n
-        HD = n * (1 - sum(haplotype_frequencies**2)) / (n - 1)
-        diversities.append((group, HD, n))
-
-# 转为DataFrame
-diversity_df = pd.DataFrame(diversities, columns=['Group', 'Haplotype Diversity', 'Sample Size'])
-
-# 统计学检验
-groups = diversity_df['Group'].unique()
-group_data = [diversity_df[diversity_df['Group'] == group]['Haplotype Diversity'].values for group in groups]
-stat, p = kruskal(*group_data)
-
-# 输出统计学检验结果
-print(f"Kruskal-Wallis H检验结果: H-statistic = {stat}, p-value = {p}")
-
-# 保存结果到CSV文件
-with open(output_file_path, 'w') as f:
-    f.write(f"Kruskal-Wallis H检验结果: H-statistic = {stat}, p-value = {p}\n")
-diversity_df.to_csv(output_file_path, mode='a', index=False)
-
-# 排序数据
-diversity_df = diversity_df.sort_values(by='Haplotype Diversity')
-
-# 添加群体数量到群体名称
-diversity_df['Group'] = diversity_df.apply(lambda row: f"{row['Group']} ({row['Sample Size']})", axis=1)
-
-# 可视化结果：柱状图
-plt.figure(figsize=(14, 7))
-sns.barplot(x='Group', y='Haplotype Diversity', data=diversity_df, palette='hsv')
-plt.xlabel('Group')
-plt.ylabel('Haplotype Diversity')
-plt.title('Haplotype Diversity of Different Groups')
-plt.xticks(rotation=90)  # 群体名称旋转90度便于阅读
-plt.tight_layout()
-
-# 展示图表
-plt.show()
-
-# 可选：保存图表
-# output_chart_path = 'group_haplotype_diversities_barplot.png'
-# plt.savefig(output_chart_path)
-
-复制<br><br><img alt="Figure_1.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/Figure_1.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;">]]></description><link>软件\其它生信软件\群体遗传\python：计算群体单倍群单倍型多样性.html</link><guid isPermaLink="false">软件/其它生信软件/群体遗传/python：计算群体单倍群单倍型多样性.md</guid><pubDate>Mon, 24 Jun 2024 12:56:12 GMT</pubDate><enclosure url="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240624155053.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240624155053.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[数据准备]]></title><description><![CDATA[ 
+复制<br><br>]]></description><link>软件\其它生信软件\群体遗传\python：查找末端单倍群.html</link><guid isPermaLink="false">软件/其它生信软件/群体遗传/python：查找末端单倍群.md</guid><pubDate>Mon, 24 Jun 2024 11:00:29 GMT</pubDate></item><item><title><![CDATA[数据准备]]></title><description><![CDATA[ 
  <br>这个脚本的作用是，给定一个 txt 文档，里面只有线粒体单倍群，根据 phylotree 计算得到该单倍群下游的共有多少个单倍群（包括自身）。<br><br>一个 txt 文档，如图所示：<br>
 <img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240627164132.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br>需要的是 线粒体单倍群phylotree(version17).txt，可以通过<a data-tooltip-position="top" aria-label="https://scientific-attach.oss-cn-chengdu.aliyuncs.com/%E9%99%84%E4%BB%B6/%E7%BA%BF%E7%B2%92%E4%BD%93%E5%8D%95%E5%80%8D%E7%BE%A4phylotree(version17).txt?OSSAccessKeyId=LTAI5tELp2DoTHGGZeQkMQmK&amp;Expires=1720477816&amp;Signature=P3fhsQWh2K5Qn%2BFe2ET%2F4WlgSNc%3D" rel="noopener" class="external-link" href="https://scientific-attach.oss-cn-chengdu.aliyuncs.com/%E9%99%84%E4%BB%B6/%E7%BA%BF%E7%B2%92%E4%BD%93%E5%8D%95%E5%80%8D%E7%BE%A4phylotree(version17).txt?OSSAccessKeyId=LTAI5tELp2DoTHGGZeQkMQmK&amp;Expires=1720477816&amp;Signature=P3fhsQWh2K5Qn%2BFe2ET%2F4WlgSNc%3D" target="_blank">这里下载</a><br>
 如果过期请提醒我。<br><br># 文件路径
