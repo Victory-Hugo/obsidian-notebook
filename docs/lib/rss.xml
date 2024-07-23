@@ -1,4 +1,280 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[思维领域]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>思维领域</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Tue, 23 Jul 2024 01:03:16 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Tue, 23 Jul 2024 01:03:14 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[数据准备]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[思维领域]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>思维领域</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Tue, 23 Jul 2024 02:02:24 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Tue, 23 Jul 2024 02:02:22 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[将FASTA转换成Arp]]></title><description><![CDATA[ 
+ <br>这个脚本可以把FASTA文件转换成Arp，跳过了DnaSP的操作，但是这增加了Arlequin的运算量。需要准备2个文件：<br>
+<br>FASTA文件
+<br>分组文件<br>
+如图所示：
+<br><br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202402201357957.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
+用制表符分隔<br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202402201358078.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br><br>我知道你很急，但你先别急。如果你直接把完整序列的fasta文件拿来处理，也不是不行，只是你可能会遇到Arlequin歇菜。<br>为了防止这样的情况发生，我们有必要对上面的fasta文件进行简化，从而减轻计算量。<br><br>
+<br>打开<a data-href="MEGA" href="MEGA" class="internal-link" target="_self" rel="noopener">MEGA</a>
+<br>导入原始的fasta文件
+<br>点击Analyze
+<br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202402211402609.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
+4. 根据实际情况选择<br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202402211403215.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
+5. 打开序列<br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202402211404745.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
+6. 点击Data→Export data。<br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202402211404470.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
+7. 删去gap等。<br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202402211405590.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
+8. 点击OK。导出新的fasta文件，再用这个新的文件进行后续分析。<br><br>这个版本将不会输出.hap文件，而是会强制将所有的序列信息和ID原封不动全部保留在.arp文件。这对于Arlequin运算时间会变长。<br>from collections import defaultdict
+
+# Function to read the file content efficiently
+def read_file(file_path, encoding='utf-8'):
+    try:
+        with open(file_path, 'r', encoding=encoding) as file:
+            return file.readlines()
+    except UnicodeDecodeError:
+        with open(file_path, 'r', encoding='latin1') as file:
+            return file.readlines()
+
+# Read the FASTA and Group files
+fasta_file_path = 'All_pubilc.fasta'
+group_file_path = '新建 Text Document.txt'
+arp_file_path = 'All.ALN.arp'
+
+fasta_content = read_file(fasta_file_path)
+group_content = read_file(group_file_path)
+
+# Preview the files
+fasta_preview = fasta_content[:5]
+group_preview = group_content[:5]
+
+fasta_preview, group_preview
+
+# Process the group information
+group_dict = defaultdict(list)
+for line in group_content:
+    sample_name, group_name = line.strip().split('\t')
+    group_dict[group_name].append(sample_name)
+
+# Number of unique groups (NbSamples)
+nb_samples = len(group_dict)
+
+# Prepare to match FASTA sequences to their respective groups
+sequence_dict = {}
+current_sample_name = None
+for line in fasta_content:
+    if line.startswith('&gt;'):
+        current_sample_name = line[1:].strip().split()[0]
+        sequence_dict[current_sample_name] = []
+    elif current_sample_name is not None:
+        sequence_dict[current_sample_name].append(line.strip())
+
+# Combine sequence lines
+for sample in sequence_dict:
+    sequence_dict[sample] = ''.join(sequence_dict[sample])
+
+# Create the .arp file content
+arp_content = [
+    "[Profile]",
+    "   Title = \"Genetic Diversity Analysis\"",
+    f"   NbSamples = {nb_samples}",
+    "   DataType = DNA",
+    "   GenotypicData = 0",
+    "   LocusSeparator = NONE",
+    "   MissingData = \"N\"",
+    "   CompDistMatrix = 1",
+    "",
+    "[Data]",
+    ""
+]
+
+# Adding each group's sample information to the .arp file content
+for group_name, samples in group_dict.items():
+    sample_size = len(samples)
+    arp_content.append("[[Samples]]")
+    arp_content.append(f"   SampleName = \"{group_name}\"")
+    arp_content.append(f"   SampleSize = {sample_size}")
+    arp_content.append("   SampleData= {")
+    for sample in samples:
+        sequence = sequence_dict.get(sample, "N" * 100)
+        arp_content.append(f"       {sample} 1 {sequence}")
+    arp_content.append("   }")
+    arp_content.append("")
+
+# Convert the list to a single string
+arp_content_str = '\n'.join(arp_content)
+
+# Previewing the beginning of the arp_content
+arp_content_preview = '\n'.join(arp_content[:20])
+
+# Save the .arp content to a new file
+with open(arp_file_path, 'w', encoding='utf-8') as file:
+    file.write(arp_content_str)
+复制<br><br>这个版本会创建一个映射关系的字典，并把序列信息分开保存至.hap文件中。<br>import os
+from collections import defaultdict
+
+# 功能函数定义
+def read_group_file(group_file_path):
+    """读取分组文件并创建一个映射关系的字典"""
+    group_map = {}
+    with open(group_file_path, 'r', encoding='utf-8') as file:
+        for line in file:
+            parts = line.strip().split('\t')
+            if len(parts) == 2:
+                sample_name, group_name = parts
+                group_map[sample_name] = group_name
+    return group_map
+
+def read_fasta_file(fasta_file_path):
+    """读取fasta文件并返回一个包含样本名称和序列的字典"""
+    fasta_data = {}
+    current_sample = None
+    with open(fasta_file_path, 'r') as file:
+        for line in file:
+            if line.startswith('&gt;'):
+                current_sample = line.strip()[1:]
+                fasta_data[current_sample] = ''
+            else:
+                fasta_data[current_sample] += line.strip()
+    return fasta_data
+
+def replace_and_sort_fasta_samples(fasta_file_path, group_file_path, output_file_path):
+    """替换fasta文件中的样本名称并排序，然后保存到新的文件中"""
+    group_map = read_group_file(group_file_path)
+    fasta_data = read_fasta_file(fasta_file_path)
+    replaced_fasta_data = {}
+    for name, seq in fasta_data.items():
+        group_name = group_map.get(name, 'Unknown')
+        replaced_fasta_data[f'{group_name} {name}'] = {'sequence': seq, 'province': group_name}
+    with open(output_file_path, 'w') as output_file:
+        for sample in sorted(replaced_fasta_data, key=lambda x: replaced_fasta_data[x]['province']):
+            output_file.write(f'&gt;{sample}\n{replaced_fasta_data[sample]["sequence"]}\n')
+
+# 主执行逻辑
+if __name__ == "__main__":
+    base_path = 'C:/Users/a/Desktop'
+    fasta_file_path = os.path.join(base_path, 'Illumina_mtDNA_Filter_recode.fas')#改成你自己文件的名字
+    group_file_path = os.path.join(base_path, '新建文本文档.txt')#改成你自己文件的名字
+    output_file_path = os.path.join(base_path, 'New.fasta')#别改！！！Don't change it!
+
+    replace_and_sort_fasta_samples(fasta_file_path, group_file_path, output_file_path)
+########################################################################################
+########################################################################################
+########################################################################################
+
+import os
+from collections import defaultdict
+
+# 设置基本路径
+base_path = 'C:/Users/a/Desktop'#改成你的文件路径
+
+# 文件路径
+file_path = os.path.join(base_path, 'New.fasta') #别改！Don't change it!
+new_file_path = os.path.join(base_path, 'New.arp')#别改！Don't change it!
+new_file_txt_path = os.path.join(base_path, 'New.hap')#别改！Don't change it!
+header_arp_path = os.path.join(base_path, '开头.arp')#别改！Don't change it!
+final_arp_path = os.path.join(base_path, '最终.arp')#别改！Don't change it!
+
+# 读取和解析 New.fasta 文件
+sequences = {}
+with open(file_path, 'r') as file:
+    for line in file:
+        line = line.strip()
+        if line.startswith('&gt;'):
+            parts = line[1:].split(' ')
+            group = parts[0]
+            seq_id = parts[1]
+            sequences[seq_id] = {'group': group, 'sequence': ''}
+        else:
+            sequences[seq_id]['sequence'] += line
+
+# 计算组别数量
+group_set = set(details['group'] for details in sequences.values())
+Group_Number = len(group_set)
+
+# 初始化用于存储唯一序列及其对应hap类型的字典和统计
+unique_sequences = {}
+group_hap_counts = defaultdict(lambda: defaultdict(int))
+hap_counter = 1
+
+# 分配hap类型并统计
+for seq_id, details in sequences.items():
+    seq = details['sequence']
+    group = details['group']
+    if seq not in unique_sequences:
+        hap_label = f'Hap_{hap_counter}'
+        unique_sequences[seq] = hap_label
+        hap_counter += 1
+    else:
+        hap_label = unique_sequences[seq]
+    group_hap_counts[group][hap_label] += 1
+
+# 写入New.arp文件
+with open(new_file_path, 'w', encoding='utf-8') as new_file:
+    for group, haps in group_hap_counts.items():
+        new_file.write(f'[[Samples]]\nSampleName = "{group}"\nSampleSize = {sum(haps.values())}\nSampleData= {{\n')
+        for hap, count in haps.items():
+            new_file.write(f'    {hap} {count}\n')
+        new_file.write('}}\n\n')
+
+# 写入New.hap文件
+with open(new_file_txt_path, 'w', encoding='utf-8') as txt_file:
+    for seq, hap_label in unique_sequences.items():
+        txt_file.write(f'{hap_label}\t{seq}\n')
+
+# 创建并写入开头.arp文件
+with open(header_arp_path, 'w', encoding='utf-8') as header_file:
+    header_file.write("[Profile]\n   Title = \"Haplotype Data from I fuck DnaSP file\"\n")
+    header_file.write(f"   NbSamples = {Group_Number}\n   DataType = DNA\n   GenotypicData = 0\n")#如果你的数据是二倍体，需要将GenotypicData = 1
+    header_file.write("   LocusSeparator = NONE\n   MissingData = \"?\"\n   CompDistMatrix = 1\n\n[Data]\n\n")
+    header_file.write("[[HaplotypeDefinition]]\n   HaplList = EXTERN \"New.hap\"\n\n")
+
+# 将New.arp的内容追加到开头.arp
+with open(header_arp_path, 'a', encoding='utf-8') as header_file, open(new_file_path, 'r', encoding='utf-8') as new_file:
+    header_file.write(new_file.read())
+
+# 重命名或移动文件以创建最终.arp
+os.rename(header_arp_path, final_arp_path)
+
+# 删除生成的New.arp文件
+os.remove(new_file_path)
+
+print(f"最终文件已保存至: {final_arp_path}")
+# 删除位于C:/Users/a/Desktop的New.fasta文件
+fasta_file_path = os.path.join(base_path, 'New.fasta')
+os.remove(fasta_file_path)
+
+print(f"文件 {fasta_file_path} 已被删除。")
+print("给我点个赞如何？")
+
+
+复制]]></description><link>软件\python\格式转换\将fasta转换成arp.html</link><guid isPermaLink="false">软件/Python/格式转换/将FASTA转换成Arp.md</guid><pubDate>Tue, 23 Jul 2024 02:02:16 GMT</pubDate><enclosure url="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202402201357957.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202402201357957.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[1 .&nbsp;<a data-href="正态分布 (Normal Distribution)" href="正态分布 (Normal Distribution)" class="internal-link" target="_self" rel="noopener">正态分布 (Normal Distribution)</a>]]></title><description><![CDATA[ 
+ <br><br>正态分布在我们的生活中随处可见，我们身高的分布、体重的分布，甚至是考试成绩的分布都可能符合正态分布。它的形状就像一个钟形曲线，最高点在中间，两边逐渐低下，具有对称性。<br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517091725.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br>伯努利分布又名两点分布或者0-1分布，是描述只有两种可能结果的随机试验的概率分布，比如抛硬币或投掷骰子。它将这两种结果分别表示为1和0，通常用 p 来表示事件的成功概率，而1-p 表示事件的失败概率。比如，你在玩一个抛硬币的游戏。硬币只有两面：正面和反面。当你抛硬币时，只有两种可能的结果：硬币出现正面或反面。伯努利分布就像是描述硬币落地后是正面还是反面的概率分布。在伯努利分布中，我们关心的是事件的成功概率，即出现期望结果的概率。比如，在抛硬币时，成功的概率就是硬币出现正面的概率。<br>伯努利分布的变异程度通常由成功和失败的概率决定。如果硬币是公平的，那么成功和失败的概率都是相等的，变异程度就较小。假设你在玩一个猜硬币正反面的游戏，如果你猜对了，你就赢得奖品。这种情况下，游戏的结果可以用伯努利分布来描述。<br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517091815.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br>泊松分布常常用于描述单位时间或空间内事件发生的次数，比如在一小时内接到的电话数量、一天内发生的交通事故数量等。<br>它的形状看起来有点像钟形曲线，但是更加扁平。在图的中心，事件发生的次数最多，然后随着次数的增加，概率逐渐减小。<br>平均值告诉我们在单位时间或空间内预期事件的平均发生次数。<br>
+泊松分布的特点之一是，它的方差等于其平均值。这意味着，如果事件在某段时间内平均发生了5次，那么方差也是5，表明事件发生次数的变化程度与平均值相近。如果我们想知道某一条街道一天内发生的车祸数量的概率分布，我们可以使用泊松分布来预测不同数量的车祸发生的可能性。<br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517092140.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br>指数分布通常用于描述等待时间或事件之间的间隔时间，比如等待下一辆公交车到达的时间、两次地震之间的时间间隔等。<br>它的形状看起来有点像波峰逐渐减小的山脉。在开始时，概率较高，随着时间的推移，概率逐渐减小。<br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517092030.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
+指数分布的一个重要特点是，它是无记忆的。这意味着，在任何给定的时间点上，等待下一个事件的时间不受过去等待时间的影响。<br>平均值告诉我们在一段时间内预期发生事件的平均次数。而指数分布的方差等于平均值的平方，这意味着方差与平均值之间存在很大的差异。<br>如果我们想知道一个人等待下一次公交车到达的时间，我们可以使用指数分布来预测不同等待时间的概率分布。<br><br>伽玛分布通常用于描述连续随机变量的正数值，比如处理时间、等待时间或事件发生的时间间隔等。<br>它的形状可以是多样的，取决于伽玛分布的参数。但通常情况下，它呈现出右偏的形态，即尾部向右延伸。伽玛分布的平均值和方差都受到其参数的影响。当其中一个参数增大时，分布会更向右延伸，并且平均值和方差也会随之增大。<br>这个分布可以用于建模很多现实生活中的情况，比如处理时间、等待时间以及一些事件的发生间隔时间等。<br>如果我们想要预测一个机器的寿命，我们可以使用伽玛分布来描述机器的故障时间分布。<br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517092124.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br>贝塔分布是一种连续概率分布，通常用于描述在一个有限区间内取值的随机变量，比如概率值或者比例。<br>它的形状可以是多样的，取决于贝塔分布的参数。但通常情况下，它呈现出 U 型或者反 U 型的形态。<br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517092207.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
+贝塔分布的一个重要特点是，它可以用来描述一个随机变量的概率分布，并且在一些统计推断和贝叶斯分析中有重要的应用。<br>如果我们想要建立一个模型来描述一个产品的质量，我们可以使用贝塔分布来描述产品合格的比例。<br><br>均匀分布是一种简单的概率分布，它将所有可能的结果都分布在一个范围内，并且每个结果的概率都是相等的。<br>
+想想想想一下，把一个区间分成若干个等长的小区间，每个小区间内的概率都是相同的，这就是均匀分布。<br>
+它的形状就像是一个长方形，所有的小区间的高度都是一样的，表明每个结果出现的概率都是相等的。<br>
+均匀分布的参数是区间的上下界，它们决定了分布的范围。<br>
+如果我们想要模拟一个骰子的投掷结果，我们可以使用均匀分布，因为在一个公正的骰子中，每个面出现的概率都是相等的。<br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517092250.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br>二项分布在我们的日常生活中也很常见，比如抛硬币的结果、投掷骰子的结果或者考试中答对题目的次数等。<br>二项分布描述了在一系列独立的伯努利试验中成功次数的分布。这些试验只有两种可能的结果，比如抛硬币可能是正面或反面。<br>这个分布的形状不像钟形曲线那样，它更像是一个条形图。在图的两端，成功次数较少，而在中间，成功次数最多。<br>
+平均值告诉我们在这些试验中预期成功的次数，而标准差则告诉我们成功次数的变化程度。<br>假设我们进行了10次抛硬币的试验，我们想知道有多少次是正面。二项分布可以告诉我们每种可能的正面次数的概率。<br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517092331.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br>对数正态分布描述了一个随机变量的对数服从正态分布的情况。换句话说，如果一个随机变量的对数是正态分布的，那么该随机变量就服从对数正态分布。<br>它的形状看起来有点像正态分布，但是更加右偏。这是因为正态分布的对数在较大的值处增长得更快。<br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517092352.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
+对数正态分布通常用于描述一些连续的正数值的分布，比如收入分布、财富分布等。<br>它的参数是正态分布的平均值和标准差，它们决定了对数正态分布的形状。<br>如果我们想要描述一个城市中居民的收入分布，我们可能会发现它符合对数正态分布。<br><br>负二项分布描述了在一系列独立的伯努利试验中，达到指定数量的成功之前的失败次数。<br>与几何分布不同，几何分布是在达到第一次成功时停止，而负二项分布则在达到指定数量的成功时停止。<br>它的形状类似于二项分布，但更为右偏。开始时概率较高，随着试验次数的增加，概率逐渐减小。<br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517092426.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
+负二项分布的参数是成功的概率和达到指定数量的成功所需的试验次数。成功的概率越高，试验次数越少，分布越向左偏。<br>如果我们重复进行投掷硬币的试验，直到出现5次正面为止，负二项分布可以告诉我们达到5次正面所需的失败次数的概率分布情况。<br>数据科学家在日常工作中使用的一些基本概率分布包括以下 11 个：<br>
+<br>正态分布 (Normal Distribution)：在数据科学中应用广泛，特别是在统计推断和假设检验中。
+<br>泊松分布 (Poisson Distribution)：用于描述单位时间或空间内事件发生的次数的分布，如某个时间段内电话呼叫的数量。
+<br>指数分布 (Exponential Distribution)：描述等待时间或事件之间的间隔时间的分布，例如等待下一次地铁到达的时间。
+<br>伽玛分布 (Gamma Distribution)：在描述连续随机变量的正数值时非常有用，例如在描述等待时间或处理时间时。
+<br>贝塔分布 (Beta Distribution)：通常用于描述概率分布的先验知识，例如在贝叶斯推断中。
+<br>均匀分布 (Uniform Distribution)：用于描述所有可能结果等概率出现的情况，例如抛硬币、掷骰子等。
+<br>二项分布 (Binomial Distribution)：用于描述离散随机变量中成功次数的分布，例如抛硬币、投掷骰子等。
+<br>对数正态分布 (Log-Normal Distribution)：描述一个随机变量的对数服从正态分布的情况，例如财富分布或收入分布。
+<br>负二项分布 (Negative Binomial Distribution)：描述在一系列独立的伯努利试验中，达到指定数量的成功之前的失败次数。
+<br>威布尔分布 (Weibull Distribution)：常用于可靠性工程和寿命分析，描述随机事件的生存时间。<br>
+
+<br>这些分布覆盖了数据科学中许多常见的场景，从描述连续变量到描述离散变量，以及描述等待时间和间隔时间等各种情况。]]></description><link>术语\数据科学家-95-时间都在使用的-10-大基本分布.html</link><guid isPermaLink="false">术语/数据科学家 95% 时间都在使用的 10 大基本分布.md</guid><pubDate>Thu, 20 Jun 2024 12:25:33 GMT</pubDate><enclosure url="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517091725.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517091725.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[数据准备]]></title><description><![CDATA[ 
  <br>为了探究一个群体中有多少种单倍群，以及每种单倍群的比例，可以绘制柱状图，类似常染色体的ADMIXTURE。<br><br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202407230859072.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
 第一列是群体，其余列是单倍群的比例。计算公式如下：<br><br><br>import pandas as pd
 import matplotlib.pyplot as plt
@@ -49,40 +325,7 @@ plt.legend(title='Attributes', bbox_to_anchor=(1.05, 1), loc='upper left')
 plt.show()
 
 复制<br><br>出来的图的颜色是随机的，但是可以在 Ai 中进行修改至喜欢的颜色：<br>
-<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202407230902257.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;">]]></description><link>软件\其它生信软件\群体遗传\python：绘制单倍群成分柱状图.html</link><guid isPermaLink="false">软件/其它生信软件/群体遗传/python：绘制单倍群成分柱状图.md</guid><pubDate>Tue, 23 Jul 2024 01:02:49 GMT</pubDate><enclosure url="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202407230859072.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202407230859072.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[1 .&nbsp;<a data-href="正态分布 (Normal Distribution)" href="正态分布 (Normal Distribution)" class="internal-link" target="_self" rel="noopener">正态分布 (Normal Distribution)</a>]]></title><description><![CDATA[ 
- <br><br>正态分布在我们的生活中随处可见，我们身高的分布、体重的分布，甚至是考试成绩的分布都可能符合正态分布。它的形状就像一个钟形曲线，最高点在中间，两边逐渐低下，具有对称性。<br>
-<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517091725.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br>伯努利分布又名两点分布或者0-1分布，是描述只有两种可能结果的随机试验的概率分布，比如抛硬币或投掷骰子。它将这两种结果分别表示为1和0，通常用 p 来表示事件的成功概率，而1-p 表示事件的失败概率。比如，你在玩一个抛硬币的游戏。硬币只有两面：正面和反面。当你抛硬币时，只有两种可能的结果：硬币出现正面或反面。伯努利分布就像是描述硬币落地后是正面还是反面的概率分布。在伯努利分布中，我们关心的是事件的成功概率，即出现期望结果的概率。比如，在抛硬币时，成功的概率就是硬币出现正面的概率。<br>伯努利分布的变异程度通常由成功和失败的概率决定。如果硬币是公平的，那么成功和失败的概率都是相等的，变异程度就较小。假设你在玩一个猜硬币正反面的游戏，如果你猜对了，你就赢得奖品。这种情况下，游戏的结果可以用伯努利分布来描述。<br>
-<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517091815.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br>泊松分布常常用于描述单位时间或空间内事件发生的次数，比如在一小时内接到的电话数量、一天内发生的交通事故数量等。<br>它的形状看起来有点像钟形曲线，但是更加扁平。在图的中心，事件发生的次数最多，然后随着次数的增加，概率逐渐减小。<br>平均值告诉我们在单位时间或空间内预期事件的平均发生次数。<br>
-泊松分布的特点之一是，它的方差等于其平均值。这意味着，如果事件在某段时间内平均发生了5次，那么方差也是5，表明事件发生次数的变化程度与平均值相近。如果我们想知道某一条街道一天内发生的车祸数量的概率分布，我们可以使用泊松分布来预测不同数量的车祸发生的可能性。<br>
-<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517092140.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br>指数分布通常用于描述等待时间或事件之间的间隔时间，比如等待下一辆公交车到达的时间、两次地震之间的时间间隔等。<br>它的形状看起来有点像波峰逐渐减小的山脉。在开始时，概率较高，随着时间的推移，概率逐渐减小。<br>
-<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517092030.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
-指数分布的一个重要特点是，它是无记忆的。这意味着，在任何给定的时间点上，等待下一个事件的时间不受过去等待时间的影响。<br>平均值告诉我们在一段时间内预期发生事件的平均次数。而指数分布的方差等于平均值的平方，这意味着方差与平均值之间存在很大的差异。<br>如果我们想知道一个人等待下一次公交车到达的时间，我们可以使用指数分布来预测不同等待时间的概率分布。<br><br>伽玛分布通常用于描述连续随机变量的正数值，比如处理时间、等待时间或事件发生的时间间隔等。<br>它的形状可以是多样的，取决于伽玛分布的参数。但通常情况下，它呈现出右偏的形态，即尾部向右延伸。伽玛分布的平均值和方差都受到其参数的影响。当其中一个参数增大时，分布会更向右延伸，并且平均值和方差也会随之增大。<br>这个分布可以用于建模很多现实生活中的情况，比如处理时间、等待时间以及一些事件的发生间隔时间等。<br>如果我们想要预测一个机器的寿命，我们可以使用伽玛分布来描述机器的故障时间分布。<br>
-<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517092124.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br>贝塔分布是一种连续概率分布，通常用于描述在一个有限区间内取值的随机变量，比如概率值或者比例。<br>它的形状可以是多样的，取决于贝塔分布的参数。但通常情况下，它呈现出 U 型或者反 U 型的形态。<br>
-<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517092207.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
-贝塔分布的一个重要特点是，它可以用来描述一个随机变量的概率分布，并且在一些统计推断和贝叶斯分析中有重要的应用。<br>如果我们想要建立一个模型来描述一个产品的质量，我们可以使用贝塔分布来描述产品合格的比例。<br><br>均匀分布是一种简单的概率分布，它将所有可能的结果都分布在一个范围内，并且每个结果的概率都是相等的。<br>
-想想想想一下，把一个区间分成若干个等长的小区间，每个小区间内的概率都是相同的，这就是均匀分布。<br>
-它的形状就像是一个长方形，所有的小区间的高度都是一样的，表明每个结果出现的概率都是相等的。<br>
-均匀分布的参数是区间的上下界，它们决定了分布的范围。<br>
-如果我们想要模拟一个骰子的投掷结果，我们可以使用均匀分布，因为在一个公正的骰子中，每个面出现的概率都是相等的。<br>
-<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517092250.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br>二项分布在我们的日常生活中也很常见，比如抛硬币的结果、投掷骰子的结果或者考试中答对题目的次数等。<br>二项分布描述了在一系列独立的伯努利试验中成功次数的分布。这些试验只有两种可能的结果，比如抛硬币可能是正面或反面。<br>这个分布的形状不像钟形曲线那样，它更像是一个条形图。在图的两端，成功次数较少，而在中间，成功次数最多。<br>
-平均值告诉我们在这些试验中预期成功的次数，而标准差则告诉我们成功次数的变化程度。<br>假设我们进行了10次抛硬币的试验，我们想知道有多少次是正面。二项分布可以告诉我们每种可能的正面次数的概率。<br>
-<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517092331.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br>对数正态分布描述了一个随机变量的对数服从正态分布的情况。换句话说，如果一个随机变量的对数是正态分布的，那么该随机变量就服从对数正态分布。<br>它的形状看起来有点像正态分布，但是更加右偏。这是因为正态分布的对数在较大的值处增长得更快。<br>
-<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517092352.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
-对数正态分布通常用于描述一些连续的正数值的分布，比如收入分布、财富分布等。<br>它的参数是正态分布的平均值和标准差，它们决定了对数正态分布的形状。<br>如果我们想要描述一个城市中居民的收入分布，我们可能会发现它符合对数正态分布。<br><br>负二项分布描述了在一系列独立的伯努利试验中，达到指定数量的成功之前的失败次数。<br>与几何分布不同，几何分布是在达到第一次成功时停止，而负二项分布则在达到指定数量的成功时停止。<br>它的形状类似于二项分布，但更为右偏。开始时概率较高，随着试验次数的增加，概率逐渐减小。<br>
-<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517092426.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
-负二项分布的参数是成功的概率和达到指定数量的成功所需的试验次数。成功的概率越高，试验次数越少，分布越向左偏。<br>如果我们重复进行投掷硬币的试验，直到出现5次正面为止，负二项分布可以告诉我们达到5次正面所需的失败次数的概率分布情况。<br>数据科学家在日常工作中使用的一些基本概率分布包括以下 11 个：<br>
-<br>正态分布 (Normal Distribution)：在数据科学中应用广泛，特别是在统计推断和假设检验中。
-<br>泊松分布 (Poisson Distribution)：用于描述单位时间或空间内事件发生的次数的分布，如某个时间段内电话呼叫的数量。
-<br>指数分布 (Exponential Distribution)：描述等待时间或事件之间的间隔时间的分布，例如等待下一次地铁到达的时间。
-<br>伽玛分布 (Gamma Distribution)：在描述连续随机变量的正数值时非常有用，例如在描述等待时间或处理时间时。
-<br>贝塔分布 (Beta Distribution)：通常用于描述概率分布的先验知识，例如在贝叶斯推断中。
-<br>均匀分布 (Uniform Distribution)：用于描述所有可能结果等概率出现的情况，例如抛硬币、掷骰子等。
-<br>二项分布 (Binomial Distribution)：用于描述离散随机变量中成功次数的分布，例如抛硬币、投掷骰子等。
-<br>对数正态分布 (Log-Normal Distribution)：描述一个随机变量的对数服从正态分布的情况，例如财富分布或收入分布。
-<br>负二项分布 (Negative Binomial Distribution)：描述在一系列独立的伯努利试验中，达到指定数量的成功之前的失败次数。
-<br>威布尔分布 (Weibull Distribution)：常用于可靠性工程和寿命分析，描述随机事件的生存时间。<br>
-
-<br>这些分布覆盖了数据科学中许多常见的场景，从描述连续变量到描述离散变量，以及描述等待时间和间隔时间等各种情况。]]></description><link>术语\数据科学家-95-时间都在使用的-10-大基本分布.html</link><guid isPermaLink="false">术语/数据科学家 95% 时间都在使用的 10 大基本分布.md</guid><pubDate>Thu, 20 Jun 2024 12:25:33 GMT</pubDate><enclosure url="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517091725.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517091725.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[使用方法]]></title><description><![CDATA[ 
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202407230902257.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;">]]></description><link>软件\其它生信软件\群体遗传\python：绘制单倍群成分柱状图.html</link><guid isPermaLink="false">软件/其它生信软件/群体遗传/python：绘制单倍群成分柱状图.md</guid><pubDate>Tue, 23 Jul 2024 01:02:49 GMT</pubDate><enclosure url="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202407230859072.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202407230859072.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[使用方法]]></title><description><![CDATA[ 
  <br>自从 <a data-href="Haplogrep3：软件使用手册" href="软件\其它生信软件\群体遗传\haplogrep3：软件使用手册.html" class="internal-link" target="_self" rel="noopener"><span class="iconize-icon-in-link" title="🙂" aria-label="🙂" data-icon="🙂" aria-hidden="true"></span>Haplogrep3：软件使用手册</a><img class="emoji" draggable="false" alt="🙂" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f642.svg" height="16px" style="max-width: 100%;"> 软件出来之后，这个软件已经被忽视了。但是最近我发现了一个很糟糕的事情，就是在第三代软件中不能够使用第二代可以使用的带位点信息的系统发育树。我发邮件问了作者，他让我用第二代。嗯，很简洁的回答。<br>
 第二代网站链接 ： <a rel="noopener" class="external-link" href="https://github.com/seppinho/haplogrep-cmd" target="_blank">https://github.com/seppinho/haplogrep-cmd</a><br>
 我不知道第二代会不会网站出问题，我存了一份，可以发邮件给我： <a data-tooltip-position="top" aria-label="mailto:gaintlinlinlin@gmail.com" rel="noopener" class="external-link" href="mailto:gaintlinlinlin@gmail.com" target="_blank">gaintlinlinlin@gmail.com</a><br><br><br>输入文件可以是 fasta 或者 vcf。<br>注意
@@ -10811,253 +11054,7 @@ output_file_path = 'C:/Users/a/Desktop/.fasta' # 输出文件路径
   
 
 replace_and_sort_fasta_samples(fasta_file_path, group_file_path, output_file_path)
-复制]]></description><link>软件\python\格式转换\将fasta文件中的序列分组到指定的组中.html</link><guid isPermaLink="false">软件/Python/格式转换/将FASTA文件中的序列分组到指定的组中.md</guid><pubDate>Fri, 21 Jun 2024 07:31:20 GMT</pubDate><enclosure url="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202402011320563.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202402011320563.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[将FASTA转换成Arp]]></title><description><![CDATA[ 
- <br>这个脚本可以把FASTA文件转换成Arp，跳过了DnaSP的操作，但是这增加了Arlequin的运算量。需要准备2个文件：<br>
-<br>FASTA文件
-<br>分组文件<br>
-如图所示：
-<br><br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202402201357957.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
-用制表符分隔<br>
-<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202402201358078.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br><br>我知道你很急，但你先别急。如果你直接把完整序列的fasta文件拿来处理，也不是不行，只是你可能会遇到Arlequin歇菜。<br>为了防止这样的情况发生，我们有必要对上面的fasta文件进行简化，从而减轻计算量。<br><br>
-<br>打开<a data-href="MEGA" href="MEGA" class="internal-link" target="_self" rel="noopener">MEGA</a>
-<br>导入原始的fasta文件
-<br>点击Analyze
-<br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202402211402609.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
-4. 根据实际情况选择<br>
-<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202402211403215.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
-5. 打开序列<br>
-<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202402211404745.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
-6. 点击Data→Export data。<br>
-<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202402211404470.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
-7. 删去gap等。<br>
-<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202402211405590.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
-8. 点击OK。导出新的fasta文件，再用这个新的文件进行后续分析。<br><br>这个版本将不会输出.hap文件，而是会强制将所有的序列信息和ID原封不动全部保留在.arp文件。这对于Arlequin运算时间会变长。<br>
-
-# Loading the FASTA file and the group txt file to understand their structure and content
-
-fasta_file_path = 'C:/Users/a/Desktop/Illumina_mtDNA_Filter_recode.fasta'
-group_file_path = 'C:/Users/a/Desktop/分组.txt'
-arp_file_path = 'C:/Users/a/Desktop/Illumina_mtDNA_Filter_recode.arp'
-# Read the FASTA file
-with open(fasta_file_path, 'r') as file:
-    fasta_content = file.readlines()
-
-# Read the Group file
-try:
-    with open(group_file_path, 'r', encoding='utf-8') as file:
-        group_content = file.readlines()
-except UnicodeDecodeError:
-    # Trying with a more forgiving encoding, assuming the file might have non-standard characters
-    with open(group_file_path, 'r', encoding='latin1') as file:
-        group_content = file.readlines()
-
-# Inspecting the first few lines of each file to understand their structure
-fasta_preview = fasta_content[:5]  # Preview of the FASTA file
-group_preview = group_content[:5]  # Preview of the group file
-
-fasta_preview, group_preview
-
-from collections import defaultdict
-
-# Processing the group information to count the number of samples per group
-group_dict = defaultdict(list)
-for line in group_content:
-    sample_name, group_name = line.strip().split('\t')
-    group_dict[group_name].append(sample_name)
-
-# Calculating the number of unique groups (NbSamples)
-nb_samples = len(group_dict)
-
-# Preparing to match FASTA sequences to their respective groups
-# First, create a dictionary to store sequences by sample name for easy lookup
-sequence_dict = {}
-current_sample_name = ""
-for line in fasta_content:
-    if line.startswith('&gt;'):
-        # Extract sample name, removing the '&gt;'
-        current_sample_name = line[1:].strip().split()[0]
-        sequence_dict[current_sample_name] = ""
-    else:
-        # Append sequence lines to the current sample's sequence
-        sequence_dict[current_sample_name] += line.strip()
-
-# Now, we can create the .arp file content
-arp_content = "[Profile]\n"
-arp_content += "   Title = \"Genetic Diversity Analysis\"\n"  # Example title
-arp_content += f"   NbSamples = {nb_samples}\n"  # Total number of groups
-arp_content += "   DataType = DNA\n"
-arp_content += "   GenotypicData = 0\n"
-arp_content += "   LocusSeparator = NONE\n"
-arp_content += "   MissingData = \"N\"\n"
-arp_content += "   CompDistMatrix = 1\n\n"
-arp_content += "[Data]\n\n"
-
-# Adding each group's sample information to the .arp file content
-for group_name, samples in group_dict.items():
-    sample_size = len(samples)  # Number of samples in the group
-    arp_content += "[[Samples]]\n"
-    arp_content += f"   SampleName = \"{group_name}\"\n"
-    arp_content += f"   SampleSize = {sample_size}\n"
-    arp_content += "   SampleData= {\n"
-    for sample in samples:
-        sequence = sequence_dict.get(sample, "N" * 100)  # Fallback to 'N' if not found
-        arp_content += f"       {sample} 1 {sequence}\n"
-    arp_content += "}\n\n"
-
-# Previewing the beginning of the arp_content
-arp_content_preview = "\n".join(arp_content.split('\n')[:20])  # Preview the first few lines
-arp_content_preview
-
-# Saving the .arp content to a new file
-
-
-with open(arp_file_path, 'w', encoding='utf-8') as file:
-    file.write(arp_content)
-
-
-
-
-
-
-复制<br><br>这个版本会创建一个映射关系的字典，并把序列信息分开保存至.hap文件中。<br>import os
-from collections import defaultdict
-
-# 功能函数定义
-def read_group_file(group_file_path):
-    """读取分组文件并创建一个映射关系的字典"""
-    group_map = {}
-    with open(group_file_path, 'r', encoding='utf-8') as file:
-        for line in file:
-            parts = line.strip().split('\t')
-            if len(parts) == 2:
-                sample_name, group_name = parts
-                group_map[sample_name] = group_name
-    return group_map
-
-def read_fasta_file(fasta_file_path):
-    """读取fasta文件并返回一个包含样本名称和序列的字典"""
-    fasta_data = {}
-    current_sample = None
-    with open(fasta_file_path, 'r') as file:
-        for line in file:
-            if line.startswith('&gt;'):
-                current_sample = line.strip()[1:]
-                fasta_data[current_sample] = ''
-            else:
-                fasta_data[current_sample] += line.strip()
-    return fasta_data
-
-def replace_and_sort_fasta_samples(fasta_file_path, group_file_path, output_file_path):
-    """替换fasta文件中的样本名称并排序，然后保存到新的文件中"""
-    group_map = read_group_file(group_file_path)
-    fasta_data = read_fasta_file(fasta_file_path)
-    replaced_fasta_data = {}
-    for name, seq in fasta_data.items():
-        group_name = group_map.get(name, 'Unknown')
-        replaced_fasta_data[f'{group_name} {name}'] = {'sequence': seq, 'province': group_name}
-    with open(output_file_path, 'w') as output_file:
-        for sample in sorted(replaced_fasta_data, key=lambda x: replaced_fasta_data[x]['province']):
-            output_file.write(f'&gt;{sample}\n{replaced_fasta_data[sample]["sequence"]}\n')
-
-# 主执行逻辑
-if __name__ == "__main__":
-    base_path = 'C:/Users/a/Desktop'
-    fasta_file_path = os.path.join(base_path, 'Illumina_mtDNA_Filter_recode.fas')#改成你自己文件的名字
-    group_file_path = os.path.join(base_path, '新建文本文档.txt')#改成你自己文件的名字
-    output_file_path = os.path.join(base_path, 'New.fasta')#别改！！！Don't change it!
-
-    replace_and_sort_fasta_samples(fasta_file_path, group_file_path, output_file_path)
-########################################################################################
-########################################################################################
-########################################################################################
-
-import os
-from collections import defaultdict
-
-# 设置基本路径
-base_path = 'C:/Users/a/Desktop'#改成你的文件路径
-
-# 文件路径
-file_path = os.path.join(base_path, 'New.fasta') #别改！Don't change it!
-new_file_path = os.path.join(base_path, 'New.arp')#别改！Don't change it!
-new_file_txt_path = os.path.join(base_path, 'New.hap')#别改！Don't change it!
-header_arp_path = os.path.join(base_path, '开头.arp')#别改！Don't change it!
-final_arp_path = os.path.join(base_path, '最终.arp')#别改！Don't change it!
-
-# 读取和解析 New.fasta 文件
-sequences = {}
-with open(file_path, 'r') as file:
-    for line in file:
-        line = line.strip()
-        if line.startswith('&gt;'):
-            parts = line[1:].split(' ')
-            group = parts[0]
-            seq_id = parts[1]
-            sequences[seq_id] = {'group': group, 'sequence': ''}
-        else:
-            sequences[seq_id]['sequence'] += line
-
-# 计算组别数量
-group_set = set(details['group'] for details in sequences.values())
-Group_Number = len(group_set)
-
-# 初始化用于存储唯一序列及其对应hap类型的字典和统计
-unique_sequences = {}
-group_hap_counts = defaultdict(lambda: defaultdict(int))
-hap_counter = 1
-
-# 分配hap类型并统计
-for seq_id, details in sequences.items():
-    seq = details['sequence']
-    group = details['group']
-    if seq not in unique_sequences:
-        hap_label = f'Hap_{hap_counter}'
-        unique_sequences[seq] = hap_label
-        hap_counter += 1
-    else:
-        hap_label = unique_sequences[seq]
-    group_hap_counts[group][hap_label] += 1
-
-# 写入New.arp文件
-with open(new_file_path, 'w', encoding='utf-8') as new_file:
-    for group, haps in group_hap_counts.items():
-        new_file.write(f'[[Samples]]\nSampleName = "{group}"\nSampleSize = {sum(haps.values())}\nSampleData= {{\n')
-        for hap, count in haps.items():
-            new_file.write(f'    {hap} {count}\n')
-        new_file.write('}}\n\n')
-
-# 写入New.hap文件
-with open(new_file_txt_path, 'w', encoding='utf-8') as txt_file:
-    for seq, hap_label in unique_sequences.items():
-        txt_file.write(f'{hap_label}\t{seq}\n')
-
-# 创建并写入开头.arp文件
-with open(header_arp_path, 'w', encoding='utf-8') as header_file:
-    header_file.write("[Profile]\n   Title = \"Haplotype Data from I fuck DnaSP file\"\n")
-    header_file.write(f"   NbSamples = {Group_Number}\n   DataType = DNA\n   GenotypicData = 0\n")#如果你的数据是二倍体，需要将GenotypicData = 1
-    header_file.write("   LocusSeparator = NONE\n   MissingData = \"?\"\n   CompDistMatrix = 1\n\n[Data]\n\n")
-    header_file.write("[[HaplotypeDefinition]]\n   HaplList = EXTERN \"New.hap\"\n\n")
-
-# 将New.arp的内容追加到开头.arp
-with open(header_arp_path, 'a', encoding='utf-8') as header_file, open(new_file_path, 'r', encoding='utf-8') as new_file:
-    header_file.write(new_file.read())
-
-# 重命名或移动文件以创建最终.arp
-os.rename(header_arp_path, final_arp_path)
-
-# 删除生成的New.arp文件
-os.remove(new_file_path)
-
-print(f"最终文件已保存至: {final_arp_path}")
-# 删除位于C:/Users/a/Desktop的New.fasta文件
-fasta_file_path = os.path.join(base_path, 'New.fasta')
-os.remove(fasta_file_path)
-
-print(f"文件 {fasta_file_path} 已被删除。")
-print("给我点个赞如何？")
-
-
-复制]]></description><link>软件\python\格式转换\将fasta转换成arp.html</link><guid isPermaLink="false">软件/Python/格式转换/将FASTA转换成Arp.md</guid><pubDate>Fri, 21 Jun 2024 07:31:21 GMT</pubDate><enclosure url="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202402201357957.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202402201357957.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[目的]]></title><description><![CDATA[ 
+复制]]></description><link>软件\python\格式转换\将fasta文件中的序列分组到指定的组中.html</link><guid isPermaLink="false">软件/Python/格式转换/将FASTA文件中的序列分组到指定的组中.md</guid><pubDate>Fri, 21 Jun 2024 07:31:20 GMT</pubDate><enclosure url="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202402011320563.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202402011320563.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[目的]]></title><description><![CDATA[ 
  <br><br>这个脚本只会把 VCF 文件转为 fasta，不依赖参考基因组。逻辑是只转化测序的位点。同时，这个脚本应该不会考虑 Indels 的情况。<br><br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202403301633073.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br><br>def vcf_to_fasta_mtDNA_improved(vcf_path, output_path):
     """
     Convert a VCF file to FASTA format for mtDNA, considering it as haploid and minimizing 'N'.
