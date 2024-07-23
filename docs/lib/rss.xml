@@ -1,4 +1,55 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[思维领域]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>思维领域</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Fri, 19 Jul 2024 07:43:58 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Fri, 19 Jul 2024 07:43:56 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[1 .&nbsp;<a data-href="正态分布 (Normal Distribution)" href="正态分布 (Normal Distribution)" class="internal-link" target="_self" rel="noopener">正态分布 (Normal Distribution)</a>]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[思维领域]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>思维领域</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Tue, 23 Jul 2024 01:03:16 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Tue, 23 Jul 2024 01:03:14 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[数据准备]]></title><description><![CDATA[ 
+ <br>为了探究一个群体中有多少种单倍群，以及每种单倍群的比例，可以绘制柱状图，类似常染色体的ADMIXTURE。<br><br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202407230859072.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
+第一列是群体，其余列是单倍群的比例。计算公式如下：<br><br><br>import pandas as pd
+import matplotlib.pyplot as plt
+import matplotlib.colors as mcolors
+import numpy as np
+
+# 设置 rcParams 以确保导出的图表是可编辑的
+plt.rcParams['pdf.fonttype'] = 42
+plt.rcParams['ps.fonttype'] = 42
+
+# 加载数据
+file_path = 'C:\\Users\\victo\\Desktop\\新建 Text Document.txt'
+data = pd.read_csv(file_path, sep='\t')
+
+# 定义一个函数以生成更多颜色（如果需要）
+def generate_colors(num_colors):
+    colors = list(mcolors.TABLEAU_COLORS.values())
+    if num_colors &gt; len(colors):
+        # 如果需要更多颜色，则使用颜色映射生成它们
+        colormap = plt.get_cmap('hsv', num_colors)
+        colors = [colormap(i) for i in range(num_colors)]
+    return colors
+
+# 删除非数值列以便进行绘图
+plot_data = data.select_dtypes(include=['float64', 'int64'])
+
+# 检查是否存在 Population 列，并将其设置为索引
+if 'Population' in data.columns:
+    plot_data.index = data['Population']
+else:
+    raise ValueError("The 'Population' column is missing from the data.")
+
+# 确定属性的数量
+num_attributes = len(plot_data.columns)
+
+# 生成所需数量的颜色
+colors = generate_colors(num_attributes)
+
+# 绘制堆积条形图并应用新的颜色
+plt.figure(figsize=(12, 8))
+plot_data.plot(kind='bar', stacked=True, color=colors)
+plt.title('Stacked Bar Chart with Generated Colors')
+plt.xlabel('Population')
+plt.ylabel('Values')
+plt.legend(title='Attributes', bbox_to_anchor=(1.05, 1), loc='upper left')
+
+# 显示图表
+plt.show()
+
+复制<br><br>出来的图的颜色是随机的，但是可以在 Ai 中进行修改至喜欢的颜色：<br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202407230902257.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;">]]></description><link>软件\其它生信软件\群体遗传\python：绘制单倍群成分柱状图.html</link><guid isPermaLink="false">软件/其它生信软件/群体遗传/python：绘制单倍群成分柱状图.md</guid><pubDate>Tue, 23 Jul 2024 01:02:49 GMT</pubDate><enclosure url="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202407230859072.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202407230859072.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[1 .&nbsp;<a data-href="正态分布 (Normal Distribution)" href="正态分布 (Normal Distribution)" class="internal-link" target="_self" rel="noopener">正态分布 (Normal Distribution)</a>]]></title><description><![CDATA[ 
  <br><br>正态分布在我们的生活中随处可见，我们身高的分布、体重的分布，甚至是考试成绩的分布都可能符合正态分布。它的形状就像一个钟形曲线，最高点在中间，两边逐渐低下，具有对称性。<br>
 <img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517091725.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br>伯努利分布又名两点分布或者0-1分布，是描述只有两种可能结果的随机试验的概率分布，比如抛硬币或投掷骰子。它将这两种结果分别表示为1和0，通常用 p 来表示事件的成功概率，而1-p 表示事件的失败概率。比如，你在玩一个抛硬币的游戏。硬币只有两面：正面和反面。当你抛硬币时，只有两种可能的结果：硬币出现正面或反面。伯努利分布就像是描述硬币落地后是正面还是反面的概率分布。在伯努利分布中，我们关心的是事件的成功概率，即出现期望结果的概率。比如，在抛硬币时，成功的概率就是硬币出现正面的概率。<br>伯努利分布的变异程度通常由成功和失败的概率决定。如果硬币是公平的，那么成功和失败的概率都是相等的，变异程度就较小。假设你在玩一个猜硬币正反面的游戏，如果你猜对了，你就赢得奖品。这种情况下，游戏的结果可以用伯努利分布来描述。<br>
 <img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517091815.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br>泊松分布常常用于描述单位时间或空间内事件发生的次数，比如在一小时内接到的电话数量、一天内发生的交通事故数量等。<br>它的形状看起来有点像钟形曲线，但是更加扁平。在图的中心，事件发生的次数最多，然后随着次数的增加，概率逐渐减小。<br>平均值告诉我们在单位时间或空间内预期事件的平均发生次数。<br>
