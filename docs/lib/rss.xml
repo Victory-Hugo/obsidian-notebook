@@ -1,24 +1,118 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[思维领域]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>思维领域</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Thu, 25 Jul 2024 02:06:56 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Thu, 25 Jul 2024 02:06:52 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[理论]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[思维领域]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>思维领域</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Fri, 26 Jul 2024 09:29:41 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Fri, 26 Jul 2024 09:29:39 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[数据准备]]></title><description><![CDATA[ 
+ <br><a data-href="ρ（rho）方法" href="术语\ρ（rho）方法.html" class="internal-link" target="_self" rel="noopener">ρ（rho）方法</a> 一种用于估算物种或群体的最近共同祖先（MRCA）时间的分子钟方法。该方法基于假设遗传标记（通常是线粒体 DNA）中的差异累积与时间成正比。通过测量遗传距离（即基因序列中的差异数量）并结合已知的分子钟速率，可以估计 MRCA 的时间。<br>
+理论部分在这里：<a data-href="ρ（rho）方法" href="术语\ρ（rho）方法.html" class="internal-link" target="_self" rel="noopener">ρ（rho）方法</a><br>σ方法是 <a data-href="ρ（rho）方法" href="术语\ρ（rho）方法.html" class="internal-link" target="_self" rel="noopener">ρ（rho）方法</a>的一种补充，为其增添了一个上下限的功能，作为方差的估计。<br>
+我们可以通过一个脚本进行计算：<br><br>DescendantID	AncestorID	Hap
+Manchu_Shanghai5933	Manchu_Mianyang6011	D4h
+Manchu_Shanghai5906	Manchu_Mianyang6011	D4h
+Manchu_Chengdu6009	Manchu_Mianyang6011	D4h
+Manchu_Chengdu5989	Manchu_Mianyang6011	D4h
+Manchu_Meishan5996	Manchu_Mianyang6011	D4h
+Manchu_Chengdu5985	Manchu_Mianyang6011	D4h
+Manchu_Chengdu6004	Manchu_Mianyang6011	D4h
+Manchu_Nanchong6019	Manchu_Mianyang6011	D4h
+Manchu_Chengdu6012	Manchu_Mianyang6011	D4h
+Manchu_Chengdu5999	Manchu_Mianyang6011	D4h
+Manchu_Bazhong5981	Manchu_Mianyang6011	D4h
+复制<br>准备好后代、祖先 ID 及祖先 ID 对应的单倍群信息，保存为 list.txt<br><br>import pandas as pd
+from Bio import SeqIO
+
+# 读取σ.txt文件
+data = pd.read_csv('σ.txt', sep='\t')
+outputpath = 'ρ+σ_result.txt'
+# 读取FASTA文件
+fasta_file = '10K_WMG_REFERENCE.ALN.fasta'
+sequences = SeqIO.to_dict(SeqIO.parse(fasta_file, "fasta"))
+
+def calculate_mutations(ancestor_seq, descendant_seq):
+    """计算突变数"""
+    mutations = sum(1 for a, d in zip(ancestor_seq, descendant_seq) if a != d)
+    return mutations
+
+results = []
+
+# 根据不同的Ancestor_Hap进行分组计算
+for ancestor_hap, group in data.groupby('Ancestor_Hap'):
+    mutation_counts = {}
+    group_counts = group['Descendant_Hap'].value_counts().to_dict()
+    
+    for index, row in group.iterrows():
+        ancestor_id = row['AncestorID']
+        descendant_id = row['DescendantID']
+        descendant_hap = row['Descendant_Hap']
+        
+        # 提取序列
+        ancestor_seq = sequences[ancestor_id].seq
+        descendant_seq = sequences[descendant_id].seq
+        
+        # 计算突变数
+        mutations = calculate_mutations(ancestor_seq, descendant_seq)
+        
+        if descendant_hap not in mutation_counts:
+            mutation_counts[descendant_hap] = []
+        mutation_counts[descendant_hap].append(mutations)
+    
+    # 计算每个亚群的平均突变数
+    avg_mutations = {hap: sum(mutations) / len(mutations) for hap, mutations in mutation_counts.items()}
+    
+    # 计算ρ
+    total_population = sum(group_counts.values())  # 总人数
+    rho_numerator = sum(group_counts[hap] * avg_mutations[hap] for hap in avg_mutations)  # 计算分子
+    rho = rho_numerator / total_population
+    
+    # 计算σ^2
+    sigma_squared_numerator = sum((group_counts[hap] ** 2) * avg_mutations[hap] for hap in avg_mutations)  # 计算分子
+    sigma_squared = sigma_squared_numerator / (total_population ** 2)
+    
+    # 计算σ
+    sigma = sigma_squared ** 0.5
+    
+    # 保存结果
+    results.append({
+        'Haplogroup': ancestor_hap,
+        'RHO_CS': rho,
+        '(RHO_CS_SE)^2': sigma_squared,
+        'RHO_CS_SE': sigma
+    })
+
+# 转换结果为DataFrame
+results_df = pd.DataFrame(results)
+
+# 保存结果到txt文件
+results_df.to_csv(outputpath, sep='\t', index=False)
+
+print(f"计算完成，结果已保存。")
+
+
+复制<br>得到ρ之后，可以使用 <a data-href="python：ρ（rho）方法计算mtDNA共同祖先时间" href="软件\python\python：ρ（rho）方法计算mtdna共同祖先时间.html" class="internal-link" target="_self" rel="noopener"><span class="iconize-icon-in-link" title="👍" aria-label="👍" data-icon="👍" aria-hidden="true"></span>python：ρ（rho）方法计算mtDNA共同祖先时间</a><img class="emoji" draggable="false" alt="👍" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f44d.svg" height="16px" style="max-width: 100%;">来计算 <a data-href="最近共同祖先时间(Time to most recent common ancesto，MRCA)" href="术语\最近共同祖先时间(time-to-most-recent-common-ancesto，mrca).html" class="internal-link" target="_self" rel="noopener">最近共同祖先时间(Time to most recent common ancesto，MRCA)</a>。]]></description><link>软件\python\python：计算ρ（rho）和σ（sigma）.html</link><guid isPermaLink="false">软件/Python/python：计算ρ（rho）和σ（sigma）.md</guid><pubDate>Fri, 26 Jul 2024 09:24:03 GMT</pubDate><enclosure url="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f44d.svg" length="0" type="image/svg+xml"/><content:encoded>&lt;figure&gt;&lt;img src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f44d.svg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[理论]]></title><description><![CDATA[ 
  <br>以下代码源自该文献：<br>
 Correcting for Purifying Selection: An Improved Human Mitochondrial Molecular Clock
 <br><br>理论部分在这里：<a data-href="ρ（rho）方法" href="术语\ρ（rho）方法.html" class="internal-link" target="_self" rel="noopener">ρ（rho）方法</a><br>
-除了使用 <a data-href="贝叶斯进化树分析（Bayesian Evolutionary Analysis by Sampling Trees，BEAST）" href="术语\贝叶斯进化树分析（bayesian-evolutionary-analysis-by-sampling-trees，beast）.html" class="internal-link" target="_self" rel="noopener">贝叶斯进化树分析（Bayesian Evolutionary Analysis by Sampling Trees，BEAST）</a>，还可以使用 ρ方法计算<a data-href="最近共同祖先时间(Time to most recent common ancesto，MRCA)" href="术语\最近共同祖先时间(time-to-most-recent-common-ancesto，mrca).html" class="internal-link" target="_self" rel="noopener">最近共同祖先时间(Time to most recent common ancesto，MRCA)</a> 时间。该方法提供了一种无偏的估计<a data-footref="1" href="about:blank#fn-1-9a7f4d582d277dfc" class="footnote-link" target="_self" rel="noopener">[1]</a>。尽管该方法受到了广泛的质疑，但是一些文献依然证明了其合理性<a data-footref="2" href="about:blank#fn-2-9a7f4d582d277dfc" class="footnote-link" target="_self" rel="noopener">[2]</a>。<br><br>该文献的附加材料中给到了一个 Excel 表格。<a data-tooltip-position="top" aria-label="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2694979/bin/mmc2.xls" rel="noopener" class="external-link" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2694979/bin/mmc2.xls" target="_blank">表格下载</a><br>
+除了使用 <a data-href="贝叶斯进化树分析（Bayesian Evolutionary Analysis by Sampling Trees，BEAST）" href="术语\贝叶斯进化树分析（bayesian-evolutionary-analysis-by-sampling-trees，beast）.html" class="internal-link" target="_self" rel="noopener">贝叶斯进化树分析（Bayesian Evolutionary Analysis by Sampling Trees，BEAST）</a>，还可以使用 ρ方法计算<a data-href="最近共同祖先时间(Time to most recent common ancesto，MRCA)" href="术语\最近共同祖先时间(time-to-most-recent-common-ancesto，mrca).html" class="internal-link" target="_self" rel="noopener">最近共同祖先时间(Time to most recent common ancesto，MRCA)</a> 时间。该方法提供了一种无偏的估计<a data-footref="1" href="about:blank#fn-1-7c5e6ac2ed8408fa" class="footnote-link" target="_self" rel="noopener">[1]</a>。尽管该方法受到了广泛的质疑，但是一些文献依然证明了其合理性<a data-footref="2" href="about:blank#fn-2-7c5e6ac2ed8408fa" class="footnote-link" target="_self" rel="noopener">[2]</a>。<br>注意，在进行下列之前，请确认已经计算了ρ值和σ值。
+如果没有，可以<a data-href="python：计算ρ（rho）和σ（sigma）" href="软件\python\python：计算ρ（rho）和σ（sigma）.html" class="internal-link" target="_self" rel="noopener">python：计算ρ（rho）和σ（sigma）</a>
+<br><br>该文献的附加材料中给到了一个 Excel 表格。<a data-tooltip-position="top" aria-label="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2694979/bin/mmc2.xls" rel="noopener" class="external-link" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2694979/bin/mmc2.xls" target="_blank">表格下载</a><br>
 表格本身是一个计算器，但是针对大规模数据，手动填入耗费时间。因此，可以使用如下代码计算。<br><br>需要填入这样一个表格：<br>SAMPLE	RHO_CS	RHO_CS_SE	RHO_SYN	RHO_SYN_SE	RHO_HVSI	RHO_HVSI_SE	RHO_HVSI_TRANSI	RHO_HVSI_TRANSI_SE	RHO_HVSII	RHO_HVSII_SE	RHO_CR	RHO_CR_SE
 复制<br><a data-tooltip-position="top" aria-label="https://scientific-attach.oss-cn-chengdu.aliyuncs.com/%E9%99%84%E4%BB%B6/Rho%E6%96%B9%E6%B3%95%E8%AE%A1%E7%AE%97%E6%A8%A1%E6%9D%BF.txt?OSSAccessKeyId=LTAI5tELp2DoTHGGZeQkMQmK&amp;Expires=1737873116&amp;Signature=2GlM7wMdIS8TEwZLbyd7sL1MFtM%3D" rel="noopener" class="external-link" href="https://scientific-attach.oss-cn-chengdu.aliyuncs.com/%E9%99%84%E4%BB%B6/Rho%E6%96%B9%E6%B3%95%E8%AE%A1%E7%AE%97%E6%A8%A1%E6%9D%BF.txt?OSSAccessKeyId=LTAI5tELp2DoTHGGZeQkMQmK&amp;Expires=1737873116&amp;Signature=2GlM7wMdIS8TEwZLbyd7sL1MFtM%3D" target="_blank">可以通过这里下载</a><br><br>import pandas as pd
 import numpy as np
 
 # 读取数据
-file_path = '输入.txt'
+file_path = 'ρ+σ_result.txt'
 output_path = 'Rho统计共祖时间.txt'
 df = pd.read_csv(file_path, sep='\t')
 
-## 缩写的具体含义
-# CS:Complete sequence(All the substitutions excluding the 16519 mutations and the 16182C, 16183C and 16194C)*The ML genetic distance to apply is the distance in number of nucleotides in the 16568 nucleotides of the human mtDNA genome
-# SYN:All synonymous mutations (transition and transversions)
-# HVS-I (16051-16400):All substitutions between 16051 and 16400, excluding the 16182C, 16183C and 16194C
-# HVS-I (16090-16365) transitions:All transitions between 16090 and 16365.
-# HVS-II (68-263) :All substitutions between 68 and 263
-# Control Region:All substitutions between 16024 to 576
+# 需要的列名
+required_columns = [
+    'Haplogroup', 'RHO_CS', 'RHO_CS_SE',
+    'RHO_SYN', 'RHO_SYN_SE',
+    'RHO_HVSI', 'RHO_HVSI_SE',
+    'RHO_HVSI_TRANSI', 'RHO_HVSI_TRANSI_SE',
+    'RHO_HVSII', 'RHO_HVSII_SE',
+    'RHO_CR', 'RHO_CR_SE'
+]
+
+# 检查并添加缺失的列，值全部设为0
+for col in required_columns:
+    if col not in df.columns:
+        df[col] = 0
 
 # 定义函数
 def calculate_ages(df, rho_col, se_col, multiplier):
@@ -49,7 +143,7 @@ for rho_col, multiplier in multipliers.items():
 
 # 生成输出文件
 result_columns = [
-    'CS_AGE', 'CS_AGE_95LB', 'CS_AGE_95HB',
+    'Haplogroup', 'CS_AGE', 'CS_AGE_95LB', 'CS_AGE_95HB',
     'RHO_SYN_AGE', 'RHO_SYN_AGE_95LB', 'RHO_SYN_AGE_95HB',
     'RHO_HVSI_AGE', 'RHO_HVSI_AGE_95LB', 'RHO_HVSI_AGE_95HB',
     'RHO_HVSI_TRANSI_AGE', 'RHO_HVSI_TRANSI_AGE_95LB', 'RHO_HVSI_TRANSI_AGE_95HB',
@@ -57,33 +151,17 @@ result_columns = [
     'RHO_CR_AGE', 'RHO_CR_AGE_95LB', 'RHO_CR_AGE_95HB'
 ]
 result = df[result_columns]
-result.to_csv(output_path, sep='\t', encoding='UTF-8')
+result.to_csv(output_path, sep='\t', index=False, encoding='UTF-8')
 
 # 打印
 print(result)
 
+
 复制<br><br><br><br>
 <br>
-<br>Origin and Evolution of Native American mtDNA Variation: A Reappraisal<a href="about:blank#fnref-1-9a7f4d582d277dfc" class="footnote-backref footnote-link" target="_self" rel="noopener"><span></span>︎</a><img class="emoji" draggable="false" alt="↩" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/21a9.svg" height="16px" style="max-width: 100%;">
-<br>Correcting for Purifying Selection: An Improved Human Mitochondrial Molecular Clock<a href="about:blank#fnref-2-9a7f4d582d277dfc" class="footnote-backref footnote-link" target="_self" rel="noopener"><span></span>︎</a><img class="emoji" draggable="false" alt="↩" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/21a9.svg" height="16px" style="max-width: 100%;">
-]]></description><link>软件\python\python：ρ（rho）方法计算共同祖先时间.html</link><guid isPermaLink="false">软件/Python/python：ρ（rho）方法计算共同祖先时间.md</guid><pubDate>Thu, 25 Jul 2024 02:06:52 GMT</pubDate><enclosure url="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f44d.svg" length="0" type="image/svg+xml"/><content:encoded>&lt;figure&gt;&lt;img src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f44d.svg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[估计突变率（Estimating mutation rates）]]></title><description><![CDATA[ 
- <br>DNA序列以多种方式进化，其中最直接的是在单个核苷酸中积累变化或突变，当基因组相互比对时导致单碱基差异。大多数对分歧和物种形成时间的估计都是基于这种比对，因此突变累积的速率是一个关键的缩放参数。<br>有两种方法用于估计突变率。<br>
-<br>直接的方法：随着<a data-href="高通量测序（第二代测序技术）（next-generation sequencing，NGS）" href="术语\高通量测序（第二代测序技术）（next-generation-sequencing，ngs）.html" class="internal-link" target="_self" rel="noopener">高通量测序（第二代测序技术）（next-generation sequencing，NGS）</a>的应用，采集全基因或者外显子组序列数据并直接识别亲子三人组中的新生突变。在这两种情况下，得到的估计 μg 是每代的突变率，因此需要进一步估计平均世代时间 tg 以转换为每年的突变率：μ = μg / tg。但是众所周知，从父母到子代的突变率并不是很多，也就是说，由于任何一次传播中涉及的突变数量很少，测序研究的另一个重要问题是假阳性和假阴性计数的校正。
-<br>
-Conrad, D.&nbsp;D.&nbsp;F. et&nbsp;al. Variation in genome-wide mutation rates within and between human families. Nature 43, 712–714 (2011).
-复制
-<br>
-<br>间接的方法：使用自两个当今基因组的<a data-href="最近共同祖先时间(Time to most recent common ancesto，MRCA)" href="术语\最近共同祖先时间(time-to-most-recent-common-ancesto，mrca).html" class="internal-link" target="_self" rel="noopener">最近共同祖先时间(Time to most recent common ancesto，MRCA)</a>以来的时间 t 的独立估计，这两个基因组是从例如其祖先分化的物种形成事件的化石测年（例如C14同位素测年法）中得出的。根据此估计，连接基因组（通过其共同祖先）的谱系的平均突变率计算为μ= 2d / t，其中 d 是它们之间的序列分歧（即每个碱基对的替换数），t代表某个基因组距离<a data-href="最近共同祖先时间(Time to most recent common ancesto，MRCA)" href="术语\最近共同祖先时间(time-to-most-recent-common-ancesto，mrca).html" class="internal-link" target="_self" rel="noopener">最近共同祖先时间(Time to most recent common ancesto，MRCA)</a>的时间 。后者是直接从基因组序列比对中获得的，但是与 t 的估计相关的许多不确定性，例如化石分类的系统发育位置和祖先多态性的影响。以这种方式估计的突变率有时被称为系统发育率（phylogenetic rate）。
-<br>
-该种方法具体的问题在这里：[[从遗传差异推断种群分离时间]]。
-复制
-<br>基因组区域之间的突变率有所不同，因为它们受到序列内容和其他因素的影响，这意味着基于基因组不同子集的估计值可能会有所不同。<br>对于某些分析来说，更成问题的是，速率也可能在进化谱系之间或沿进化谱系变化，从而打破了<a data-href="分子钟定年方法(molecular dating approach)" href="术语\分子钟定年方法(molecular-dating-approach).html" class="internal-link" target="_self" rel="noopener">分子钟定年方法(molecular dating approach)</a>的假设。这意味着对系统发育树的一部分或某些物种估计的比率可能在其他地方无效。<br>另外，自然选择也可能导致上述2种测量方法之间存在差异：<br>
-在家系谱系研究中，研究人员可以追踪家族成员的遗传信息，从而检测到一些可能是弱有害的突变，即对生存和繁殖有轻微不利影响的突变。然而，在进行物种间比较时，研究的时间尺度涵盖了较长的演化历史，而弱有害突变在这样的时间尺度上通常难以存活下来。这是因为在漫长的演化过程中，自然选择会淘汰对生存和繁殖有不利影响的突变，从而导致这些突变在较长时间尺度上的稀少或消失。因此，选择是导致两种遗传学研究方法之间差异的一个因素。
-<br>因此，人们区分了<a data-href="新生突变率（de novo mutation rate）" href="术语\新生突变率（de-novo-mutation-rate）.html" class="internal-link" target="_self" rel="noopener">新生突变率（de novo mutation rate）</a>和固定的物种间差异或<a data-href="替换积累速率（substitutions accumulate）" href="术语\替换积累速率（substitutions-accumulate）.html" class="internal-link" target="_self" rel="noopener">替换积累速率（substitutions accumulate）</a>。后者是通过系统发育速率估计得出的，也称为替换率。<br>在中性位点（忽略其他因素的情况下），这两者应该是相等的，但在受选择作用的基因座中，比如线粒体DNA（mtDNA），<a data-href="新生突变率（de novo mutation rate）" href="术语\新生突变率（de-novo-mutation-rate）.html" class="internal-link" target="_self" rel="noopener">新生突变率（de novo mutation rate）</a>预计会更高（并且通常确实如此）。<br>
-Ho, S.&nbsp;Y.&nbsp;W., Lanfear, R., Bromham, L. &amp; Phillips, M.&nbsp;J. Time-dependent rates of molecular evolution. Mol. Ecol. 20, 3087–3101 (2011).
-<br>作者提到，在中性位点（即对生物体的适应性或生存没有影响的位点）时，<a data-href="新生突变率（de novo mutation rate）" href="术语\新生突变率（de-novo-mutation-rate）.html" class="internal-link" target="_self" rel="noopener">新生突变率（de novo mutation rate）</a>和替换率应该是相等的，因为中性位点上的突变在进化中没有被选择的压力。<br>
-受选择的位点可能受到自然选择的压力，导致有利的突变在进化中被保存下来，而不利的突变会被淘汰。
-<br>总的来说，新生突变率和替换率是遗传学中两个不同但相关的概念，它们在不同的遗传座位和遗传环境下可能会有显著差异。这些概念对于研究基因组的进化和遗传变异具有重要的意义。]]></description><link>术语\估计突变率（estimating-mutation-rates）.html</link><guid isPermaLink="false">术语/估计突变率（Estimating mutation rates）.md</guid><pubDate>Thu, 25 Jul 2024 01:56:46 GMT</pubDate></item><item><title><![CDATA[1 .&nbsp;<a data-href="正态分布 (Normal Distribution)" href="正态分布 (Normal Distribution)" class="internal-link" target="_self" rel="noopener">正态分布 (Normal Distribution)</a>]]></title><description><![CDATA[ 
+<br>Origin and Evolution of Native American mtDNA Variation: A Reappraisal<a href="about:blank#fnref-1-7c5e6ac2ed8408fa" class="footnote-backref footnote-link" target="_self" rel="noopener"><span></span>︎</a><img class="emoji" draggable="false" alt="↩" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/21a9.svg" height="16px" style="max-width: 100%;">
+<br>Correcting for Purifying Selection: An Improved Human Mitochondrial Molecular Clock<a href="about:blank#fnref-2-7c5e6ac2ed8408fa" class="footnote-backref footnote-link" target="_self" rel="noopener"><span></span>︎</a><img class="emoji" draggable="false" alt="↩" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/21a9.svg" height="16px" style="max-width: 100%;">
+]]></description><link>软件\python\python：ρ（rho）方法计算mtdna共同祖先时间.html</link><guid isPermaLink="false">软件/Python/python：ρ（rho）方法计算mtDNA共同祖先时间.md</guid><pubDate>Fri, 26 Jul 2024 09:29:10 GMT</pubDate><enclosure url="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f44d.svg" length="0" type="image/svg+xml"/><content:encoded>&lt;figure&gt;&lt;img src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f44d.svg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[1 .&nbsp;<a data-href="正态分布 (Normal Distribution)" href="正态分布 (Normal Distribution)" class="internal-link" target="_self" rel="noopener">正态分布 (Normal Distribution)</a>]]></title><description><![CDATA[ 
  <br><br>正态分布在我们的生活中随处可见，我们身高的分布、体重的分布，甚至是考试成绩的分布都可能符合正态分布。它的形状就像一个钟形曲线，最高点在中间，两边逐渐低下，具有对称性。<br>
 <img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517091725.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br>伯努利分布又名两点分布或者0-1分布，是描述只有两种可能结果的随机试验的概率分布，比如抛硬币或投掷骰子。它将这两种结果分别表示为1和0，通常用 p 来表示事件的成功概率，而1-p 表示事件的失败概率。比如，你在玩一个抛硬币的游戏。硬币只有两面：正面和反面。当你抛硬币时，只有两种可能的结果：硬币出现正面或反面。伯努利分布就像是描述硬币落地后是正面还是反面的概率分布。在伯努利分布中，我们关心的是事件的成功概率，即出现期望结果的概率。比如，在抛硬币时，成功的概率就是硬币出现正面的概率。<br>伯努利分布的变异程度通常由成功和失败的概率决定。如果硬币是公平的，那么成功和失败的概率都是相等的，变异程度就较小。假设你在玩一个猜硬币正反面的游戏，如果你猜对了，你就赢得奖品。这种情况下，游戏的结果可以用伯努利分布来描述。<br>
 <img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517091815.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br>泊松分布常常用于描述单位时间或空间内事件发生的次数，比如在一小时内接到的电话数量、一天内发生的交通事故数量等。<br>它的形状看起来有点像钟形曲线，但是更加扁平。在图的中心，事件发生的次数最多，然后随着次数的增加，概率逐渐减小。<br>平均值告诉我们在单位时间或空间内预期事件的平均发生次数。<br>
@@ -116,14 +194,60 @@ Ho, S.&nbsp;Y.&nbsp;W., Lanfear, R., Bromham, L. &amp; Phillips, M.&nbsp;J. Time
 <br>负二项分布 (Negative Binomial Distribution)：描述在一系列独立的伯努利试验中，达到指定数量的成功之前的失败次数。
 <br>威布尔分布 (Weibull Distribution)：常用于可靠性工程和寿命分析，描述随机事件的生存时间。<br>
 
-<br>这些分布覆盖了数据科学中许多常见的场景，从描述连续变量到描述离散变量，以及描述等待时间和间隔时间等各种情况。]]></description><link>术语\数据科学家-95-时间都在使用的-10-大基本分布.html</link><guid isPermaLink="false">术语/数据科学家 95% 时间都在使用的 10 大基本分布.md</guid><pubDate>Thu, 20 Jun 2024 12:25:33 GMT</pubDate><enclosure url="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517091725.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517091725.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[最近共同祖先时间(Time to most recent common ancesto，MRCA)]]></title><description><![CDATA[ 
- <br>在生物学和遗传学中，指任何一组生物体最近的共同祖先（MRCA），也是最后的共同祖先（LCA）。这个词在分子人类学上也被用来指代基因组（单倍型）的祖先，即被检测的Y染色体从同一祖先进化了几代人。<br>
-<img alt="Pasted image 20230803111142" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/Pasted%20image%2020230803111142.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;">遗传距离对应的世代数:对某一基因来说，两个群体有类似的等位基因，且频率相似，彼此的遗传距离较小，说明他们的共同起源比较近。<br><img alt="Pasted image 20230803111151" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/Pasted%20image%2020230803111151.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>在这个例子中，B291和B322在DYS390，DYS19和DYS439上存在差异。计算它们彼此之间变量差值：（DYS390是23-22＝1，DYS19是14-13＝1，DYS439是11-10＝1）。然后把差值加在一起，那Y-DNA12单倍型的差异总数为“3”（1+1+1= 3），得出它们在12-STR标记处的遗传距离是“3”（差三步）。<br>37/37（即37-STR完全匹配），遗传距离“0”（即37-STR无差异）—意味着他们共享一个男性祖先。他们直接的关系是“关系非常紧密”（Very Tightly Related）。<br>36/37（即37-STR差一步），遗传距离“1”—意味着他们共享一个男性祖先。他们的直接关系是“紧密关系”（Tightly Related）。<br>35/37（即37-STR差二步），遗传距离“2”—意味着他们共享一个男性祖先。他们的直接关系是“有关系”（Related）。<br>34/37（即37-STR差三步），遗传距离“3”—意味着他们共享一个男性祖先。他们的直接关系是“有关系”（Related）。<br>33/37（即37-STR差四步），遗传距离“4”—意味着他们共享一个男性祖先，但这种关系应该通过附加的测试来确认。他们的直接关系是“很可能有关系”（Probably Related）。<br>32/37（即37-STR差五步），遗传距离“5”—意味着他们可能在家谱时间范围内有关系，但需要其它证据来证实这种关系。如果是数代人之前共祖，那么这两个人的关系是“可能有关系”。 他们的直接关系是“可能有关系”（Possibly Related）。<br>31/37（即37-STR差六步），遗传距离“6”—意味着他们不太可能在家谱时间范围内有关系，同姓只是巧合。他们的直接关系是“没关系”（Not Related）。<br>30/37（&gt; 6）（即37-STR差七步或&gt; 6以上），遗传距离“7或&gt; 6”—意味这两个人在他们父系谱系时间内是完全无关的。他们共同祖先应该去人类共同的祖居地非洲去找了。<br><img alt="Pasted image 20230803111238" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/Pasted%20image%2020230803111238.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;">]]></description><link>术语\最近共同祖先时间(time-to-most-recent-common-ancesto，mrca).html</link><guid isPermaLink="false">术语/最近共同祖先时间(Time to most recent common ancesto，MRCA).md</guid><pubDate>Thu, 20 Jun 2024 12:23:00 GMT</pubDate><enclosure url="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/Pasted%20image%2020230803111142.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/Pasted%20image%2020230803111142.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[ρ（rho）方法]]></title><description><![CDATA[ 
- <br>一种用于估算物种或群体的最近共同祖先（MRCA）时间的分子钟方法。该方法基于假设遗传标记（通常是线粒体DNA）中的差异累积与时间成正比。通过测量遗传距离（即基因序列中的差异数量）并结合已知的分子钟速率，可以估计MRCA的时间。<br>ρ方法的计算较为简单，不需要复杂的统计模型，只需线性回归就可以完成。其主要步骤包括：<br>
+<br>这些分布覆盖了数据科学中许多常见的场景，从描述连续变量到描述离散变量，以及描述等待时间和间隔时间等各种情况。]]></description><link>术语\数据科学家-95-时间都在使用的-10-大基本分布.html</link><guid isPermaLink="false">术语/数据科学家 95% 时间都在使用的 10 大基本分布.md</guid><pubDate>Thu, 20 Jun 2024 12:25:33 GMT</pubDate><enclosure url="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517091725.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517091725.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[ρ（rho）方法]]></title><description><![CDATA[ 
+ <br>
+Origin and Evolution of Native American mtDNA Variation: A Reappraisal
+<br>一种用于估算物种或群体的最近共同祖先（MRCA）时间的分子钟方法。该方法基于假设遗传标记（通常是线粒体DNA）中的差异累积与时间成正比。通过测量遗传距离（即基因序列中的差异数量）并结合已知的分子钟速率，可以估计MRCA的时间。<br>ρ方法的计算较为简单，不需要复杂的统计模型，只需线性回归就可以完成。其主要步骤包括：<br>
 <br>选择一个遗传标记，并对研究群体中的个体进行基因序列测定。
 <br>计算每个个体与参照序列（通常是已知年代的古代DNA或现代的代表性序列）之间的遗传距离。
 <br>通过已知的分子钟速率将遗传距离转换为时间估计。
-<br>尽管ρ方法在计算上较为直接和简便，它也受到一些批评，主要是因为其假设分子钟速率恒定且适用于所有分支，这在实际应用中可能不总是成立。此外，若样本量不足或分子钟速率估计不准确，也会影响MRCA时间的准确性。<br>然而，一些研究仍显示ρ方法能有效估计某些物种或群体的MRCA时间，特别是在结合多种方法进行交叉验证的情况下。这些研究强调了在解释和应用ρ方法结果时需要谨慎，并考虑到其潜在的局限性。]]></description><link>术语\ρ（rho）方法.html</link><guid isPermaLink="false">术语/ρ（rho）方法.md</guid><pubDate>Thu, 25 Jul 2024 01:58:47 GMT</pubDate></item><item><title><![CDATA[背景介绍]]></title><description><![CDATA[ 
+<br>尽管ρ方法在计算上较为直接和简便，它也受到一些批评，主要是因为其假设分子钟速率恒定且适用于所有分支，这在实际应用中可能不总是成立。此外，若样本量不足或分子钟速率估计不准确，也会影响MRCA时间的准确性。<br>然而，一些研究仍显示ρ方法能有效估计某些物种或群体的MRCA时间，特别是在结合多种方法进行交叉验证的情况下。这些研究强调了在解释和应用ρ方法结果时需要谨慎，并考虑到其潜在的局限性。<br>ρ（rho）方法的计算：<br>
+这里：<br>
+<br> 是每个亚种群相对于<a data-href="最近共同祖先时间(Time to most recent common ancesto，MRCA)" href="术语\最近共同祖先时间(time-to-most-recent-common-ancesto，mrca).html" class="internal-link" target="_self" rel="noopener">最近共同祖先时间(Time to most recent common ancesto，MRCA)</a>的位点差异的平均数。
+<br> 是第  个亚种群的样本大小。
+<br> 是总的样本大小，即所有亚种群样本大小的总和。
+<br><br>以汉族为例，假如四川汉族和云南汉族有一个 <a data-href="最近共同祖先时间(Time to most recent common ancesto，MRCA)" href="术语\最近共同祖先时间(time-to-most-recent-common-ancesto，mrca).html" class="internal-link" target="_self" rel="noopener">最近共同祖先时间(Time to most recent common ancesto，MRCA)</a>，命名为 A1。四川汉族（假如有100人）就属于一个亚群，云南汉族（假如有100人）也属于一个亚群。为了计算ρ，需要计算：<br>
+<br>四川汉族与 A1的位点差异的平均数；
+<br>云南汉族与 A1的位点差异的平均数；
+<br>四川汉族与云南汉族的个体总数。
+<br>注意到，假如我们认为每个个体与祖先的差异等效（每个亚群之内和亚群之间的突变权重相等，默认情况下的确如此） 。那么，将每个个体当作一个单独的亚群体来计算 ρ 值与计算亚群的ρ值是等效的。由于所有个体的权重相等，所以加权求和的结果相当于直接求平均。具体来说，如果有 200 个个体，每个个体都被视为一个亚群体，那么：<br> 这证明了无论是把所有个体看作一个亚群体还是把每个个体单独作为一个亚群体，得到的总体 ρ\rhoρ 值是相同的。<br>因此，基于上述理由，可以进行实际操作：<a data-href="python：计算ρ（rho）和σ（sigma）" href="软件\python\python：计算ρ（rho）和σ（sigma）.html" class="internal-link" target="_self" rel="noopener">python：计算ρ（rho）和σ（sigma）</a>]]></description><link>术语\ρ（rho）方法.html</link><guid isPermaLink="false">术语/ρ（rho）方法.md</guid><pubDate>Fri, 26 Jul 2024 09:22:24 GMT</pubDate></item><item><title><![CDATA[σ方法]]></title><description><![CDATA[ 
+ <br>
+mtDNA Variation among Greenland Eskimos: The Edge of theBeringian Expansion
+<br>σ方法是 <a data-href="ρ（rho）方法" href="术语\ρ（rho）方法.html" class="internal-link" target="_self" rel="noopener">ρ（rho）方法</a>的一种补充，为其增添了一个上下限的功能，作为方差的估计。但是理解σ方法稍微比 <a data-href="ρ（rho）方法" href="术语\ρ（rho）方法.html" class="internal-link" target="_self" rel="noopener">ρ（rho）方法</a>困难一点。<br>在原本的文献，也提到了 <a data-href="ρ（rho）方法" href="术语\ρ（rho）方法.html" class="internal-link" target="_self" rel="noopener">ρ（rho）方法</a>，公式：<br>
+这看起来似乎与之前提到的方法不一样：<br>
+但事实上，这只是同一个问题的不同阐述而已，是等价的。<br>而针对 ，公式如下：<br>
+那么，σ的计算则是其平方根：<br>
+<br>
+<br>其中  代表第一个亚种群的的个体数
+<br>其中  代表第一个亚种群的观测到的突变数<a data-footref="1" href="about:blank#fn-1-7c5e6ac2ed8408fa" class="footnote-link" target="_self" rel="noopener">[1]</a>
+<br>其中  代表该 <a data-href="最近共同祖先时间(Time to most recent common ancesto，MRCA)" href="术语\最近共同祖先时间(time-to-most-recent-common-ancesto，mrca).html" class="internal-link" target="_self" rel="noopener">最近共同祖先时间(Time to most recent common ancesto，MRCA)</a> 的所有后代的个体总数。
+<br>是不是与 <a data-href="ρ（rho）方法" href="术语\ρ（rho）方法.html" class="internal-link" target="_self" rel="noopener">ρ（rho）方法</a>很像？<br><br>我们设四川汉族和云南汉族各100人，他们的最近共同祖先为A1。默认每个突变之间的权重相等，且亚群之内和亚群之间的突变都没有差异。那么公式为：<br>
+变为：<br>
+假如在连接1（四川汉族的分支）上观测到了30个突变，在连接2（云南汉族的分支）上观测到了40个突变，则为：<br><br>通过比率   来估计样本的“有效星型大小”，其中  是方差的估计。<br>
+比率  被用来评估样本在共祖时间估计上的效率。理想情况下，这个比率接近1，表示样本接近“完美星型”（perfect star）。<br><br>在实际运行过程中，我们需要注意：通过  计算出来的是两种亚群之间的时间差异，为了将这种相对时间转化为绝对时间，需要添加校正点。有研究使用分化程度最高（距离现代最近的样本）作为 tip 进行校正，对这些样本定年龄为0<a data-footref="2" href="about:blank#fn-2-7c5e6ac2ed8408fa" class="footnote-link" target="_self" rel="noopener">[2]</a>。将古代 DNA 作为校准也有一定的道理。<br>实际操作：<a data-href="python：计算ρ（rho）和σ（sigma）" href="软件\python\python：计算ρ（rho）和σ（sigma）.html" class="internal-link" target="_self" rel="noopener">python：计算ρ（rho）和σ（sigma）</a>，<a data-href="python：ρ（rho）方法计算mtDNA共同祖先时间" href="软件\python\python：ρ（rho）方法计算mtdna共同祖先时间.html" class="internal-link" target="_self" rel="noopener"><span class="iconize-icon-in-link" title="👍" aria-label="👍" data-icon="👍" aria-hidden="true"></span>python：ρ（rho）方法计算mtDNA共同祖先时间</a><img class="emoji" draggable="false" alt="👍" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f44d.svg" height="16px" style="max-width: 100%;"><br><br><br><br>
+<br>
+<br>尽管在这篇文献中提到的是 突变数，但在 <a data-href="ρ（rho）方法" href="术语\ρ（rho）方法.html" class="internal-link" target="_self" rel="noopener">ρ（rho）方法</a>文献中其实是亚群中的突变的平均数。<a href="about:blank#fnref-1-7c5e6ac2ed8408fa" class="footnote-backref footnote-link" target="_self" rel="noopener"><span></span>︎</a><img class="emoji" draggable="false" alt="↩" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/21a9.svg" height="16px" style="max-width: 100%;">
+<br>Mutation Rate Switch inside Eurasian Mitochondrial Haplogroups: Impact of  Selection and Consequences for Dating Settlement in Europe<a href="about:blank#fnref-2-7c5e6ac2ed8408fa" class="footnote-backref footnote-link" target="_self" rel="noopener"><span></span>︎</a><img class="emoji" draggable="false" alt="↩" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/21a9.svg" height="16px" style="max-width: 100%;">
+]]></description><link>术语\σ方法.html</link><guid isPermaLink="false">术语/σ方法.md</guid><pubDate>Fri, 26 Jul 2024 09:28:04 GMT</pubDate><enclosure url="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f44d.svg" length="0" type="image/svg+xml"/><content:encoded>&lt;figure&gt;&lt;img src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f44d.svg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[估计突变率（Estimating mutation rates）]]></title><description><![CDATA[ 
+ <br>DNA序列以多种方式进化，其中最直接的是在单个核苷酸中积累变化或突变，当基因组相互比对时导致单碱基差异。大多数对分歧和物种形成时间的估计都是基于这种比对，因此突变累积的速率是一个关键的缩放参数。<br>有两种方法用于估计突变率。<br>
+<br>直接的方法：随着<a data-href="高通量测序（第二代测序技术）（next-generation sequencing，NGS）" href="术语\高通量测序（第二代测序技术）（next-generation-sequencing，ngs）.html" class="internal-link" target="_self" rel="noopener">高通量测序（第二代测序技术）（next-generation sequencing，NGS）</a>的应用，采集全基因或者外显子组序列数据并直接识别亲子三人组中的新生突变。在这两种情况下，得到的估计 μg 是每代的突变率，因此需要进一步估计平均世代时间 tg 以转换为每年的突变率：μ = μg / tg。但是众所周知，从父母到子代的突变率并不是很多，也就是说，由于任何一次传播中涉及的突变数量很少，测序研究的另一个重要问题是假阳性和假阴性计数的校正。
+<br>
+Conrad, D.&nbsp;D.&nbsp;F. et&nbsp;al. Variation in genome-wide mutation rates within and between human families. Nature 43, 712–714 (2011).
+复制
+<br>
+<br>间接的方法：使用自两个当今基因组的<a data-href="最近共同祖先时间(Time to most recent common ancesto，MRCA)" href="术语\最近共同祖先时间(time-to-most-recent-common-ancesto，mrca).html" class="internal-link" target="_self" rel="noopener">最近共同祖先时间(Time to most recent common ancesto，MRCA)</a>以来的时间 t 的独立估计，这两个基因组是从例如其祖先分化的物种形成事件的化石测年（例如C14同位素测年法）中得出的。根据此估计，连接基因组（通过其共同祖先）的谱系的平均突变率计算为μ= 2d / t，其中 d 是它们之间的序列分歧（即每个碱基对的替换数），t代表某个基因组距离<a data-href="最近共同祖先时间(Time to most recent common ancesto，MRCA)" href="术语\最近共同祖先时间(time-to-most-recent-common-ancesto，mrca).html" class="internal-link" target="_self" rel="noopener">最近共同祖先时间(Time to most recent common ancesto，MRCA)</a>的时间 。后者是直接从基因组序列比对中获得的，但是与 t 的估计相关的许多不确定性，例如化石分类的系统发育位置和祖先多态性的影响。以这种方式估计的突变率有时被称为系统发育率（phylogenetic rate）。
+<br>
+该种方法具体的问题在这里：[[从遗传差异推断种群分离时间]]。
+复制
+<br>基因组区域之间的突变率有所不同，因为它们受到序列内容和其他因素的影响，这意味着基于基因组不同子集的估计值可能会有所不同。<br>对于某些分析来说，更成问题的是，速率也可能在进化谱系之间或沿进化谱系变化，从而打破了<a data-href="分子钟定年方法(molecular dating approach)" href="术语\分子钟定年方法(molecular-dating-approach).html" class="internal-link" target="_self" rel="noopener">分子钟定年方法(molecular dating approach)</a>的假设。这意味着对系统发育树的一部分或某些物种估计的比率可能在其他地方无效。<br>另外，自然选择也可能导致上述2种测量方法之间存在差异：<br>
+在家系谱系研究中，研究人员可以追踪家族成员的遗传信息，从而检测到一些可能是弱有害的突变，即对生存和繁殖有轻微不利影响的突变。然而，在进行物种间比较时，研究的时间尺度涵盖了较长的演化历史，而弱有害突变在这样的时间尺度上通常难以存活下来。这是因为在漫长的演化过程中，自然选择会淘汰对生存和繁殖有不利影响的突变，从而导致这些突变在较长时间尺度上的稀少或消失。因此，选择是导致两种遗传学研究方法之间差异的一个因素。
+<br>因此，人们区分了<a data-href="新生突变率（de novo mutation rate）" href="术语\新生突变率（de-novo-mutation-rate）.html" class="internal-link" target="_self" rel="noopener">新生突变率（de novo mutation rate）</a>和固定的物种间差异或<a data-href="替换积累速率（substitutions accumulate）" href="术语\替换积累速率（substitutions-accumulate）.html" class="internal-link" target="_self" rel="noopener">替换积累速率（substitutions accumulate）</a>。后者是通过系统发育速率估计得出的，也称为替换率。<br>在中性位点（忽略其他因素的情况下），这两者应该是相等的，但在受选择作用的基因座中，比如线粒体DNA（mtDNA），<a data-href="新生突变率（de novo mutation rate）" href="术语\新生突变率（de-novo-mutation-rate）.html" class="internal-link" target="_self" rel="noopener">新生突变率（de novo mutation rate）</a>预计会更高（并且通常确实如此）。<br>
+Ho, S.&nbsp;Y.&nbsp;W., Lanfear, R., Bromham, L. &amp; Phillips, M.&nbsp;J. Time-dependent rates of molecular evolution. Mol. Ecol. 20, 3087–3101 (2011).
+<br>作者提到，在中性位点（即对生物体的适应性或生存没有影响的位点）时，<a data-href="新生突变率（de novo mutation rate）" href="术语\新生突变率（de-novo-mutation-rate）.html" class="internal-link" target="_self" rel="noopener">新生突变率（de novo mutation rate）</a>和替换率应该是相等的，因为中性位点上的突变在进化中没有被选择的压力。<br>
+受选择的位点可能受到自然选择的压力，导致有利的突变在进化中被保存下来，而不利的突变会被淘汰。
+<br>总的来说，新生突变率和替换率是遗传学中两个不同但相关的概念，它们在不同的遗传座位和遗传环境下可能会有显著差异。这些概念对于研究基因组的进化和遗传变异具有重要的意义。]]></description><link>术语\估计突变率（estimating-mutation-rates）.html</link><guid isPermaLink="false">术语/估计突变率（Estimating mutation rates）.md</guid><pubDate>Thu, 25 Jul 2024 01:56:46 GMT</pubDate></item><item><title><![CDATA[最近共同祖先时间(Time to most recent common ancesto，MRCA)]]></title><description><![CDATA[ 
+ <br>在生物学和遗传学中，指任何一组生物体最近的共同祖先（MRCA），也是最后的共同祖先（LCA）。这个词在分子人类学上也被用来指代基因组（单倍型）的祖先，即被检测的Y染色体从同一祖先进化了几代人。<br>
+<img alt="Pasted image 20230803111142" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/Pasted%20image%2020230803111142.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;">遗传距离对应的世代数:对某一基因来说，两个群体有类似的等位基因，且频率相似，彼此的遗传距离较小，说明他们的共同起源比较近。<br><img alt="Pasted image 20230803111151" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/Pasted%20image%2020230803111151.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>在这个例子中，B291和B322在DYS390，DYS19和DYS439上存在差异。计算它们彼此之间变量差值：（DYS390是23-22＝1，DYS19是14-13＝1，DYS439是11-10＝1）。然后把差值加在一起，那Y-DNA12单倍型的差异总数为“3”（1+1+1= 3），得出它们在12-STR标记处的遗传距离是“3”（差三步）。<br>37/37（即37-STR完全匹配），遗传距离“0”（即37-STR无差异）—意味着他们共享一个男性祖先。他们直接的关系是“关系非常紧密”（Very Tightly Related）。<br>36/37（即37-STR差一步），遗传距离“1”—意味着他们共享一个男性祖先。他们的直接关系是“紧密关系”（Tightly Related）。<br>35/37（即37-STR差二步），遗传距离“2”—意味着他们共享一个男性祖先。他们的直接关系是“有关系”（Related）。<br>34/37（即37-STR差三步），遗传距离“3”—意味着他们共享一个男性祖先。他们的直接关系是“有关系”（Related）。<br>33/37（即37-STR差四步），遗传距离“4”—意味着他们共享一个男性祖先，但这种关系应该通过附加的测试来确认。他们的直接关系是“很可能有关系”（Probably Related）。<br>32/37（即37-STR差五步），遗传距离“5”—意味着他们可能在家谱时间范围内有关系，但需要其它证据来证实这种关系。如果是数代人之前共祖，那么这两个人的关系是“可能有关系”。 他们的直接关系是“可能有关系”（Possibly Related）。<br>31/37（即37-STR差六步），遗传距离“6”—意味着他们不太可能在家谱时间范围内有关系，同姓只是巧合。他们的直接关系是“没关系”（Not Related）。<br>30/37（&gt; 6）（即37-STR差七步或&gt; 6以上），遗传距离“7或&gt; 6”—意味这两个人在他们父系谱系时间内是完全无关的。他们共同祖先应该去人类共同的祖居地非洲去找了。<br><img alt="Pasted image 20230803111238" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/Pasted%20image%2020230803111238.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;">]]></description><link>术语\最近共同祖先时间(time-to-most-recent-common-ancesto，mrca).html</link><guid isPermaLink="false">术语/最近共同祖先时间(Time to most recent common ancesto，MRCA).md</guid><pubDate>Thu, 20 Jun 2024 12:23:00 GMT</pubDate><enclosure url="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/Pasted%20image%2020230803111142.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/Pasted%20image%2020230803111142.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[背景介绍]]></title><description><![CDATA[ 
  <br>
 A revised timescale for human evolution based on ancient mitochondrial genomes
 <br><br>
