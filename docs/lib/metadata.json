@@ -1,6 +1,6 @@
 {
   "vaultName": "思维领域",
-  "lastExport": 1721986609012,
+  "lastExport": 1722178073980,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager theme-dark show-inline-title show-ribbon h2-underline",
   "useCustomHeadContent": false,
@@ -94,21 +94,19 @@
     "疾病与基因/S-腺苷甲硫氨酸 (SAM).md",
     "疾病与基因/Twinkle基因（TWNK）.md",
     "疾病与基因/VAF.md",
-    "软件/其它生信软件/格式比对/使用 PLINK 转换 VCF 到 BED, BIM, FAM.md",
+    "软件/其它生信软件/格式比对/序列比对（Align）软件评测.md",
     "软件/其它生信软件/格式比对/序列比对的思考.md",
-    "软件/其它生信软件/格式比对/Align软件使用.md",
-    "软件/其它生信软件/格式比对/FASTQ转SAM和BAM.md",
-    "软件/其它生信软件/格式比对/Fst绘制矩阵.md",
-    "软件/其它生信软件/格式比对/MAFFT多序列比对教程.md",
-    "软件/其它生信软件/格式比对/The GUIDANCE2 Server 多序列比对置信软件.md",
-    "软件/其它生信软件/格式比对/TrimAl自动剪切对齐序列.md",
-    "软件/其它生信软件/格式比对/Trimal自动修剪序列不可靠区域.md",
+    "软件/其它生信软件/格式比对/MAFFT：多序列比对教程.md",
+    "软件/其它生信软件/格式比对/Partitionfinder：一站式解决系统发育树参数问题.md",
+    "软件/其它生信软件/格式比对/PLINK：转换 VCF 到 BED, BIM, FAM.md",
+    "软件/其它生信软件/格式比对/The GUIDANCE2 Server ：多序列比对置信软件.md",
+    "软件/其它生信软件/格式比对/Trimal：自动修剪序列不可靠区域.md",
     "软件/其它生信软件/全基因组/简易的mtDNA分析流程.md",
     "软件/其它生信软件/全基因组/线粒体基因组分析流程.md",
     "软件/其它生信软件/全基因组/线粒体DNA工作流程.md",
     "软件/其它生信软件/全基因组/dinumt.md",
-    "软件/其它生信软件/全基因组/haplocheck检测污染.md",
-    "软件/其它生信软件/全基因组/mitofinder软件安装和使用.md",
+    "软件/其它生信软件/全基因组/haplocheck：检测污染.md",
+    "软件/其它生信软件/全基因组/mitofinder：软件安装和使用.md",
     "软件/其它生信软件/全基因组/MToolBox.md",
     "软件/其它生信软件/全基因组/NUMT-detector.md",
     "软件/其它生信软件/全基因组/NUMT-detector错误排查.canvas",
@@ -246,6 +244,7 @@
     "软件/R语言语法/ggplot2个性化绘制散点图.md",
     "软件/R语言语法/ggplot2简介.md",
     "软件/R语言语法/GWalkR——一行代码将数据集转化为交互式可视化分析工具.md",
+    "软件/R语言语法/R：Fst绘制矩阵.md",
     "软件/SPSS/八、单因素方差分析及多重比较.md",
     "软件/SPSS/二、认识变量.md",
     "软件/SPSS/九、非参数检验（秩和检验）.md",
@@ -811,28 +810,6 @@
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
     "lib/media/874d8b8e340f75575caa.svg",
     "lib/media/3d6c1bdc4d87cde4de67.svg",
-    "lib/fonts/mathjax_zero.woff",
-    "lib/fonts/mathjax_main-regular.woff",
-    "lib/fonts/mathjax_main-bold.woff",
-    "lib/fonts/mathjax_math-italic.woff",
-    "lib/fonts/mathjax_main-italic.woff",
-    "lib/fonts/mathjax_math-bolditalic.woff",
-    "lib/fonts/mathjax_size1-regular.woff",
-    "lib/fonts/mathjax_size2-regular.woff",
-    "lib/fonts/mathjax_size3-regular.woff",
-    "lib/fonts/mathjax_size4-regular.woff",
-    "lib/fonts/mathjax_ams-regular.woff",
-    "lib/fonts/mathjax_calligraphic-regular.woff",
-    "lib/fonts/mathjax_calligraphic-bold.woff",
-    "lib/fonts/mathjax_fraktur-regular.woff",
-    "lib/fonts/mathjax_fraktur-bold.woff",
-    "lib/fonts/mathjax_sansserif-regular.woff",
-    "lib/fonts/mathjax_sansserif-bold.woff",
-    "lib/fonts/mathjax_sansserif-italic.woff",
-    "lib/fonts/mathjax_script-regular.woff",
-    "lib/fonts/mathjax_typewriter-regular.woff",
-    "lib/fonts/mathjax_vector-regular.woff",
-    "lib/fonts/mathjax_vector-bold.woff",
     "lib/html/file-tree.html",
     "lib/scripts/webpage.js",
     "lib/scripts/graph-view.js",
@@ -867,28 +844,6 @@
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
     "lib/media/874d8b8e340f75575caa.svg",
     "lib/media/3d6c1bdc4d87cde4de67.svg",
-    "lib/fonts/mathjax_zero.woff",
-    "lib/fonts/mathjax_main-regular.woff",
-    "lib/fonts/mathjax_main-bold.woff",
-    "lib/fonts/mathjax_math-italic.woff",
-    "lib/fonts/mathjax_main-italic.woff",
-    "lib/fonts/mathjax_math-bolditalic.woff",
-    "lib/fonts/mathjax_size1-regular.woff",
-    "lib/fonts/mathjax_size2-regular.woff",
-    "lib/fonts/mathjax_size3-regular.woff",
-    "lib/fonts/mathjax_size4-regular.woff",
-    "lib/fonts/mathjax_ams-regular.woff",
-    "lib/fonts/mathjax_calligraphic-regular.woff",
-    "lib/fonts/mathjax_calligraphic-bold.woff",
-    "lib/fonts/mathjax_fraktur-regular.woff",
-    "lib/fonts/mathjax_fraktur-bold.woff",
-    "lib/fonts/mathjax_sansserif-regular.woff",
-    "lib/fonts/mathjax_sansserif-bold.woff",
-    "lib/fonts/mathjax_sansserif-italic.woff",
-    "lib/fonts/mathjax_script-regular.woff",
-    "lib/fonts/mathjax_typewriter-regular.woff",
-    "lib/fonts/mathjax_vector-regular.woff",
-    "lib/fonts/mathjax_vector-bold.woff",
     "lib/html/file-tree.html",
     "lib/scripts/webpage.js",
     "lib/scripts/graph-view.js",
@@ -1429,58 +1384,10 @@
       "exportedPath": "疾病与基因/vaf.html",
       "dependencies": []
     },
-    "软件/其它生信软件/格式比对/使用 PLINK 转换 VCF 到 BED, BIM, FAM.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 2392,
-      "exportedPath": "软件/其它生信软件/格式比对/使用-plink-转换-vcf-到-bed,-bim,-fam.html",
-      "dependencies": []
-    },
     "软件/其它生信软件/格式比对/序列比对的思考.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 15270,
+      "modifiedTime": 1722178073980,
+      "sourceSize": 15326,
       "exportedPath": "软件/其它生信软件/格式比对/序列比对的思考.html",
-      "dependencies": []
-    },
-    "软件/其它生信软件/格式比对/Align软件使用.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 10761,
-      "exportedPath": "软件/其它生信软件/格式比对/align软件使用.html",
-      "dependencies": []
-    },
-    "软件/其它生信软件/格式比对/FASTQ转SAM和BAM.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 781,
-      "exportedPath": "软件/其它生信软件/格式比对/fastq转sam和bam.html",
-      "dependencies": []
-    },
-    "软件/其它生信软件/格式比对/Fst绘制矩阵.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 5482,
-      "exportedPath": "软件/其它生信软件/格式比对/fst绘制矩阵.html",
-      "dependencies": []
-    },
-    "软件/其它生信软件/格式比对/MAFFT多序列比对教程.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 2120,
-      "exportedPath": "软件/其它生信软件/格式比对/mafft多序列比对教程.html",
-      "dependencies": []
-    },
-    "软件/其它生信软件/格式比对/The GUIDANCE2 Server 多序列比对置信软件.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 5024,
-      "exportedPath": "软件/其它生信软件/格式比对/the-guidance2-server-多序列比对置信软件.html",
-      "dependencies": []
-    },
-    "软件/其它生信软件/格式比对/TrimAl自动剪切对齐序列.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 726,
-      "exportedPath": "软件/其它生信软件/格式比对/trimal自动剪切对齐序列.html",
-      "dependencies": []
-    },
-    "软件/其它生信软件/格式比对/Trimal自动修剪序列不可靠区域.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 6541,
-      "exportedPath": "软件/其它生信软件/格式比对/trimal自动修剪序列不可靠区域.html",
       "dependencies": []
     },
     "软件/其它生信软件/全基因组/简易的mtDNA分析流程.md": {
@@ -1496,8 +1403,8 @@
       "dependencies": []
     },
     "软件/其它生信软件/全基因组/线粒体DNA工作流程.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 9912,
+      "modifiedTime": 1722178073980,
+      "sourceSize": 9911,
       "exportedPath": "软件/其它生信软件/全基因组/线粒体dna工作流程.html",
       "dependencies": []
     },
@@ -1507,27 +1414,15 @@
       "exportedPath": "软件/其它生信软件/全基因组/dinumt.html",
       "dependencies": []
     },
-    "软件/其它生信软件/全基因组/haplocheck检测污染.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 783,
-      "exportedPath": "软件/其它生信软件/全基因组/haplocheck检测污染.html",
-      "dependencies": []
-    },
-    "软件/其它生信软件/全基因组/mitofinder软件安装和使用.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 3202,
-      "exportedPath": "软件/其它生信软件/全基因组/mitofinder软件安装和使用.html",
-      "dependencies": []
-    },
     "软件/其它生信软件/全基因组/MToolBox.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 13104,
+      "modifiedTime": 1722178073980,
+      "sourceSize": 13103,
       "exportedPath": "软件/其它生信软件/全基因组/mtoolbox.html",
       "dependencies": []
     },
     "软件/其它生信软件/全基因组/NUMT-detector.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 47109,
+      "modifiedTime": 1722178073980,
+      "sourceSize": 47108,
       "exportedPath": "软件/其它生信软件/全基因组/numt-detector.html",
       "dependencies": []
     },
@@ -1544,20 +1439,20 @@
       "dependencies": []
     },
     "软件/其它生信软件/群体遗传/根据共享单倍群频率绘制人群热图.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 5357,
+      "modifiedTime": 1722178073980,
+      "sourceSize": 5361,
       "exportedPath": "软件/其它生信软件/群体遗传/根据共享单倍群频率绘制人群热图.html",
       "dependencies": []
     },
     "软件/其它生信软件/群体遗传/根据Fst算MDS.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 6567,
+      "modifiedTime": 1722178073980,
+      "sourceSize": 6571,
       "exportedPath": "软件/其它生信软件/群体遗传/根据fst算mds.html",
       "dependencies": []
     },
     "软件/其它生信软件/群体遗传/基于Fst绘制Neighbor-Joining (NJ)树.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 10474,
+      "modifiedTime": 1722178073980,
+      "sourceSize": 10478,
       "exportedPath": "软件/其它生信软件/群体遗传/基于fst绘制neighbor-joining-(nj)树.html",
       "dependencies": []
     },
@@ -1820,8 +1715,8 @@
       "dependencies": []
     },
     "软件/IQtree/iqtree：基础操作.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 3635,
+      "modifiedTime": 1722178073980,
+      "sourceSize": 3638,
       "exportedPath": "软件/iqtree/iqtree：基础操作.html",
       "dependencies": []
     },
@@ -1832,8 +1727,8 @@
       "dependencies": []
     },
     "软件/IQtree/iqtree：寻找最优模型及分区.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 8827,
+      "modifiedTime": 1722178073980,
+      "sourceSize": 8833,
       "exportedPath": "软件/iqtree/iqtree：寻找最优模型及分区.html",
       "dependencies": []
     },
@@ -3626,7 +3521,7 @@
       "dependencies": []
     },
     "术语/数据科学家 95 时间都在使用的 10 大基本分布.md": {
-      "modifiedTime": 1721986609012,
+      "modifiedTime": 1722178073980,
       "sourceSize": 10258,
       "exportedPath": "术语/数据科学家-95-时间都在使用的-10-大基本分布.html",
       "dependencies": []
@@ -3662,8 +3557,8 @@
       "dependencies": []
     },
     "术语/四种建树方法比较.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 5127,
+      "modifiedTime": 1722178073980,
+      "sourceSize": 5130,
       "exportedPath": "术语/四种建树方法比较.html",
       "dependencies": []
     },
@@ -5426,97 +5321,97 @@
       "dependencies": []
     },
     "lib/scripts/graph-wasm.wasm": {
-      "modifiedTime": 1721986609012,
+      "modifiedTime": 1722178073980,
       "sourceSize": 23377,
       "exportedPath": "lib/scripts/graph-wasm.wasm",
       "dependencies": []
     },
     "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1721986609012,
+      "modifiedTime": 1722178073980,
       "sourceSize": 66800,
       "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
       "dependencies": []
     },
     "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1721986609012,
+      "modifiedTime": 1722178073980,
       "sourceSize": 104232,
       "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
       "dependencies": []
     },
     "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1721986609012,
+      "modifiedTime": 1722178073980,
       "sourceSize": 104332,
       "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
       "dependencies": []
     },
     "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1721986609012,
+      "modifiedTime": 1722178073980,
       "sourceSize": 98868,
       "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
       "dependencies": []
     },
     "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1721986609012,
+      "modifiedTime": 1722178073980,
       "sourceSize": 106876,
       "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
       "dependencies": []
     },
     "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1721986609012,
+      "modifiedTime": 1722178073980,
       "sourceSize": 105804,
       "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
       "dependencies": []
     },
     "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1721986609012,
+      "modifiedTime": 1722178073980,
       "sourceSize": 106108,
       "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
       "dependencies": []
     },
     "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1721986609012,
+      "modifiedTime": 1722178073980,
       "sourceSize": 111708,
       "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
       "dependencies": []
     },
     "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1721986609012,
+      "modifiedTime": 1722178073980,
       "sourceSize": 192740,
       "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
       "dependencies": []
     },
     "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1721986609012,
+      "modifiedTime": 1722178073980,
       "sourceSize": 161376,
       "exportedPath": "lib/fonts/454577c22304619db035.ttf",
       "dependencies": []
     },
     "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1721986609012,
+      "modifiedTime": 1722178073980,
       "sourceSize": 191568,
       "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
       "dependencies": []
     },
     "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1721986609012,
+      "modifiedTime": 1722178073980,
       "sourceSize": 155288,
       "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
       "dependencies": []
     },
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1721986609012,
+      "modifiedTime": 1722178073980,
       "sourceSize": 7876,
       "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
       "dependencies": []
     },
     "lib/media/874d8b8e340f75575caa.svg": {
-      "modifiedTime": 1721986609012,
+      "modifiedTime": 1722178073980,
       "sourceSize": 317,
       "exportedPath": "lib/media/874d8b8e340f75575caa.svg",
       "dependencies": []
     },
     "lib/media/3d6c1bdc4d87cde4de67.svg": {
-      "modifiedTime": 1721986609012,
+      "modifiedTime": 1722178073980,
       "sourceSize": 279,
       "exportedPath": "lib/media/3d6c1bdc4d87cde4de67.svg",
       "dependencies": []
@@ -5654,97 +5549,97 @@
       "dependencies": []
     },
     "lib/html/file-tree.html": {
-      "modifiedTime": 1721986609012,
-      "sourceSize": 595150,
+      "modifiedTime": 1722178073980,
+      "sourceSize": 593933,
       "exportedPath": "lib/html/file-tree.html",
       "dependencies": []
     },
     "lib/scripts/webpage.js": {
-      "modifiedTime": 1721986609012,
+      "modifiedTime": 1722178073980,
       "sourceSize": 47290,
       "exportedPath": "lib/scripts/webpage.js",
       "dependencies": []
     },
     "lib/scripts/graph-view.js": {
-      "modifiedTime": 1721986609012,
+      "modifiedTime": 1722178073980,
       "sourceSize": 15519,
       "exportedPath": "lib/scripts/graph-view.js",
       "dependencies": []
     },
     "lib/scripts/graph-wasm.js": {
-      "modifiedTime": 1721986609012,
+      "modifiedTime": 1722178073980,
       "sourceSize": 14021,
       "exportedPath": "lib/scripts/graph-wasm.js",
       "dependencies": []
     },
     "lib/scripts/graph-render-worker.js": {
-      "modifiedTime": 1721986609012,
+      "modifiedTime": 1722178073980,
       "sourceSize": 5179,
       "exportedPath": "lib/scripts/graph-render-worker.js",
       "dependencies": []
     },
     "lib/scripts/tinycolor.js": {
-      "modifiedTime": 1721986609012,
+      "modifiedTime": 1722178073980,
       "sourceSize": 29832,
       "exportedPath": "lib/scripts/tinycolor.js",
       "dependencies": []
     },
     "lib/scripts/pixi.js": {
-      "modifiedTime": 1721986609012,
+      "modifiedTime": 1722178073980,
       "sourceSize": 449509,
       "exportedPath": "lib/scripts/pixi.js",
       "dependencies": []
     },
     "lib/scripts/minisearch.js": {
-      "modifiedTime": 1721986609012,
+      "modifiedTime": 1722178073980,
       "sourceSize": 29422,
       "exportedPath": "lib/scripts/minisearch.js",
       "dependencies": []
     },
     "lib/media/favicon.png": {
-      "modifiedTime": 1721986609012,
+      "modifiedTime": 1722178073980,
       "sourceSize": 1105,
       "exportedPath": "lib/media/favicon.png",
       "dependencies": []
     },
     "lib/scripts/graph-data.js": {
-      "modifiedTime": 1721986609012,
-      "sourceSize": 62395,
+      "modifiedTime": 1722178073980,
+      "sourceSize": 62472,
       "exportedPath": "lib/scripts/graph-data.js",
       "dependencies": []
     },
     "lib/styles/obsidian.css": {
-      "modifiedTime": 1721986609012,
+      "modifiedTime": 1722178073980,
       "sourceSize": 130471,
       "exportedPath": "lib/styles/obsidian.css",
       "dependencies": []
     },
     "lib/styles/other-plugins.css": {
-      "modifiedTime": 1721986609012,
+      "modifiedTime": 1722178073980,
       "sourceSize": 395818,
       "exportedPath": "lib/styles/other-plugins.css",
       "dependencies": []
     },
     "lib/styles/theme.css": {
-      "modifiedTime": 1721986609012,
+      "modifiedTime": 1722178073980,
       "sourceSize": 41426,
       "exportedPath": "lib/styles/theme.css",
       "dependencies": []
     },
     "lib/styles/global-variable-styles.css": {
-      "modifiedTime": 1721986609012,
+      "modifiedTime": 1722178073980,
       "sourceSize": 367,
       "exportedPath": "lib/styles/global-variable-styles.css",
       "dependencies": []
     },
     "lib/styles/supported-plugins.css": {
-      "modifiedTime": 1721986609012,
+      "modifiedTime": 1722178073980,
       "sourceSize": 119,
       "exportedPath": "lib/styles/supported-plugins.css",
       "dependencies": []
     },
     "lib/styles/main-styles.css": {
-      "modifiedTime": 1721986609012,
+      "modifiedTime": 1722178073980,
       "sourceSize": 23130,
       "exportedPath": "lib/styles/main-styles.css",
       "dependencies": []
@@ -5756,8 +5651,8 @@
       "dependencies": []
     },
     "软件/其它生信软件/群体遗传/R：利用DAPC进行mtDNA降维.md": {
-      "modifiedTime": 1721207428650,
-      "sourceSize": 4062,
+      "modifiedTime": 1722178073980,
+      "sourceSize": 4065,
       "exportedPath": "软件/其它生信软件/群体遗传/r：利用dapc进行mtdna降维.html",
       "dependencies": []
     },
@@ -5948,8 +5843,8 @@
       "dependencies": []
     },
     "软件/Python/python：计算ρ（rho）和σ（sigma）.md": {
-      "modifiedTime": 1721986609012,
-      "sourceSize": 3562,
+      "modifiedTime": 1722178073980,
+      "sourceSize": 3581,
       "exportedPath": "软件/python/python：计算ρ（rho）和σ（sigma）.html",
       "dependencies": []
     },
@@ -5963,6 +5858,60 @@
       "modifiedTime": 1721986179163,
       "sourceSize": 2694,
       "exportedPath": "术语/σ方法.html",
+      "dependencies": []
+    },
+    "软件/其它生信软件/格式比对/序列比对（Align）软件评测.md": {
+      "modifiedTime": 1722178073980,
+      "sourceSize": 10760,
+      "exportedPath": "软件/其它生信软件/格式比对/序列比对（align）软件评测.html",
+      "dependencies": []
+    },
+    "软件/其它生信软件/格式比对/MAFFT：多序列比对教程.md": {
+      "modifiedTime": 1722178073980,
+      "sourceSize": 2120,
+      "exportedPath": "软件/其它生信软件/格式比对/mafft：多序列比对教程.html",
+      "dependencies": []
+    },
+    "软件/其它生信软件/格式比对/Partitionfinder：一站式解决系统发育树参数问题.md": {
+      "modifiedTime": 1722178073980,
+      "sourceSize": 9762,
+      "exportedPath": "软件/其它生信软件/格式比对/partitionfinder：一站式解决系统发育树参数问题.html",
+      "dependencies": []
+    },
+    "软件/其它生信软件/格式比对/PLINK：转换 VCF 到 BED, BIM, FAM.md": {
+      "modifiedTime": 1722178073980,
+      "sourceSize": 2392,
+      "exportedPath": "软件/其它生信软件/格式比对/plink：转换-vcf-到-bed,-bim,-fam.html",
+      "dependencies": []
+    },
+    "软件/其它生信软件/格式比对/The GUIDANCE2 Server ：多序列比对置信软件.md": {
+      "modifiedTime": 1722178073980,
+      "sourceSize": 5024,
+      "exportedPath": "软件/其它生信软件/格式比对/the-guidance2-server-：多序列比对置信软件.html",
+      "dependencies": []
+    },
+    "软件/其它生信软件/格式比对/Trimal：自动修剪序列不可靠区域.md": {
+      "modifiedTime": 1722178073980,
+      "sourceSize": 6540,
+      "exportedPath": "软件/其它生信软件/格式比对/trimal：自动修剪序列不可靠区域.html",
+      "dependencies": []
+    },
+    "软件/其它生信软件/全基因组/haplocheck：检测污染.md": {
+      "modifiedTime": 1722178073980,
+      "sourceSize": 783,
+      "exportedPath": "软件/其它生信软件/全基因组/haplocheck：检测污染.html",
+      "dependencies": []
+    },
+    "软件/其它生信软件/全基因组/mitofinder：软件安装和使用.md": {
+      "modifiedTime": 1722178073980,
+      "sourceSize": 3202,
+      "exportedPath": "软件/其它生信软件/全基因组/mitofinder：软件安装和使用.html",
+      "dependencies": []
+    },
+    "软件/R语言语法/R：Fst绘制矩阵.md": {
+      "modifiedTime": 1722178073980,
+      "sourceSize": 5479,
+      "exportedPath": "软件/r语言语法/r：fst绘制矩阵.html",
       "dependencies": []
     }
   }
