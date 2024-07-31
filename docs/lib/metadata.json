@@ -1,6 +1,6 @@
 {
   "vaultName": "思维领域",
-  "lastExport": 1722178073980,
+  "lastExport": 1722389505981,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager theme-dark show-inline-title show-ribbon h2-underline",
   "useCustomHeadContent": false,
@@ -94,6 +94,14 @@
     "疾病与基因/S-腺苷甲硫氨酸 (SAM).md",
     "疾病与基因/Twinkle基因（TWNK）.md",
     "疾病与基因/VAF.md",
+    "软件/地理绘图/Arcgis Pro：使用克里金绘制单倍群等值线图.md",
+    "软件/地理绘图/Arcgis：地理空间数据.md",
+    "软件/地理绘图/Arcgis：绘制省份人口数.md",
+    "软件/地理绘图/Arcgis：绘制XY数据.md",
+    "软件/地理绘图/Arcgis：基础绘图.md",
+    "软件/地理绘图/Arcgis：没有ObjectID字段解决办法.md",
+    "软件/地理绘图/QGIS：绘制XY散点图.md",
+    "软件/地理绘图/Surfer：克里金插值制作贴合的等值线图.md",
     "软件/其它生信软件/格式比对/序列比对（Align）软件评测.md",
     "软件/其它生信软件/格式比对/序列比对的思考.md",
     "软件/其它生信软件/格式比对/MAFFT：多序列比对教程.md",
@@ -151,13 +159,6 @@
     "软件/Adobe illustrator绘图/第五节 形状工具.md",
     "软件/Adobe illustrator绘图/第一节 基础导入导出功能.md",
     "软件/Adobe illustrator绘图/思维总览.canvas",
-    "软件/arcgis绘图/地理空间数据.md",
-    "软件/arcgis绘图/绘制省份人口数.md",
-    "软件/arcgis绘图/绘制XY数据.md",
-    "软件/arcgis绘图/基础绘图.md",
-    "软件/arcgis绘图/没有ObjectID字段解决办法.md",
-    "软件/arcgis绘图/使用Arcgis绘制单倍群等值线图.md",
-    "软件/arcgis绘图/QGIS绘制XY散点图.md",
     "软件/BEAST/BEAST：替换模型.md",
     "软件/BEAST/BEAST：线粒体DNA的BSP设置.md",
     "软件/BEAST/BEAST：在服务器内运行.md",
@@ -394,6 +395,7 @@
     "术语/江苏.md",
     "术语/粳稻.md",
     "术语/精子发生过程.md",
+    "术语/净化选择（purifying selection）.md",
     "术语/旧石器时代.md",
     "术语/居延海.md",
     "术语/聚合酶链式反应（PCR）.md",
@@ -581,7 +583,7 @@
     "术语/综合单倍型评分（integrated haplotype score, iHS）.md",
     "术语/祖先反卷积（Ancestry deconvolution）.md",
     "术语/最大简约法（Maximum Parsimony）.md",
-    "术语/最近共同祖先时间(Time to most recent common ancesto，MRCA).md",
+    "术语/最近共同祖先时间(Time to most recent common ancestor，MRCA).md",
     "术语/BSX-BAK巨孔.md",
     "术语/CpG甲基化.md",
     "术语/cross-population extended haplotype homozygosity (XP-EHH).md",
@@ -660,6 +662,7 @@
     "文献及报道/文献/2003 AJGG 从完整序列推断东亚线粒体 DNA 谱系的系统发育.md",
     "文献及报道/文献/2004 MBE 不同母系对中国丝绸之路地区族群遗传结构的贡献.md",
     "文献及报道/文献/2008 EJHG 中国人口遗传结构的空间分析揭示了母系和父系之间的显着差异.md",
+    "文献及报道/文献/2009 AJHG 净化选择校正：改进的人类线粒体分子钟.md",
     "文献及报道/文献/2009 PNAS 线粒体基因组证据揭示了青藏高原旧石器时代晚期的成功定居.md",
     "文献及报道/文献/2010 MBE 追踪南岛人在东南亚大陆的足迹：线粒体 DNA 的视角.md",
     "文献及报道/文献/2010 Nature Communications 苏门答腊岛母系和父系群体之间线粒体 DNA 的差异大于 Y 染色体差异.md",
@@ -810,6 +813,28 @@
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
     "lib/media/874d8b8e340f75575caa.svg",
     "lib/media/3d6c1bdc4d87cde4de67.svg",
+    "lib/fonts/mathjax_zero.woff",
+    "lib/fonts/mathjax_main-regular.woff",
+    "lib/fonts/mathjax_main-bold.woff",
+    "lib/fonts/mathjax_math-italic.woff",
+    "lib/fonts/mathjax_main-italic.woff",
+    "lib/fonts/mathjax_math-bolditalic.woff",
+    "lib/fonts/mathjax_size1-regular.woff",
+    "lib/fonts/mathjax_size2-regular.woff",
+    "lib/fonts/mathjax_size3-regular.woff",
+    "lib/fonts/mathjax_size4-regular.woff",
+    "lib/fonts/mathjax_ams-regular.woff",
+    "lib/fonts/mathjax_calligraphic-regular.woff",
+    "lib/fonts/mathjax_calligraphic-bold.woff",
+    "lib/fonts/mathjax_fraktur-regular.woff",
+    "lib/fonts/mathjax_fraktur-bold.woff",
+    "lib/fonts/mathjax_sansserif-regular.woff",
+    "lib/fonts/mathjax_sansserif-bold.woff",
+    "lib/fonts/mathjax_sansserif-italic.woff",
+    "lib/fonts/mathjax_script-regular.woff",
+    "lib/fonts/mathjax_typewriter-regular.woff",
+    "lib/fonts/mathjax_vector-regular.woff",
+    "lib/fonts/mathjax_vector-bold.woff",
     "lib/html/file-tree.html",
     "lib/scripts/webpage.js",
     "lib/scripts/graph-view.js",
@@ -844,6 +869,28 @@
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
     "lib/media/874d8b8e340f75575caa.svg",
     "lib/media/3d6c1bdc4d87cde4de67.svg",
+    "lib/fonts/mathjax_zero.woff",
+    "lib/fonts/mathjax_main-regular.woff",
+    "lib/fonts/mathjax_main-bold.woff",
+    "lib/fonts/mathjax_math-italic.woff",
+    "lib/fonts/mathjax_main-italic.woff",
+    "lib/fonts/mathjax_math-bolditalic.woff",
+    "lib/fonts/mathjax_size1-regular.woff",
+    "lib/fonts/mathjax_size2-regular.woff",
+    "lib/fonts/mathjax_size3-regular.woff",
+    "lib/fonts/mathjax_size4-regular.woff",
+    "lib/fonts/mathjax_ams-regular.woff",
+    "lib/fonts/mathjax_calligraphic-regular.woff",
+    "lib/fonts/mathjax_calligraphic-bold.woff",
+    "lib/fonts/mathjax_fraktur-regular.woff",
+    "lib/fonts/mathjax_fraktur-bold.woff",
+    "lib/fonts/mathjax_sansserif-regular.woff",
+    "lib/fonts/mathjax_sansserif-bold.woff",
+    "lib/fonts/mathjax_sansserif-italic.woff",
+    "lib/fonts/mathjax_script-regular.woff",
+    "lib/fonts/mathjax_typewriter-regular.woff",
+    "lib/fonts/mathjax_vector-regular.woff",
+    "lib/fonts/mathjax_vector-bold.woff",
     "lib/html/file-tree.html",
     "lib/scripts/webpage.js",
     "lib/scripts/graph-view.js",
@@ -1469,8 +1516,8 @@
       "dependencies": []
     },
     "软件/其它生信软件/群体遗传/利用R进行iTol注释文件生成.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 11043,
+      "modifiedTime": 1722389505981,
+      "sourceSize": 12006,
       "exportedPath": "软件/其它生信软件/群体遗传/利用r进行itol注释文件生成.html",
       "dependencies": []
     },
@@ -1646,48 +1693,6 @@
       "modifiedTime": 1721117767063,
       "sourceSize": 1848,
       "exportedPath": "软件/adobe-illustrator绘图/思维总览.html",
-      "dependencies": []
-    },
-    "软件/arcgis绘图/地理空间数据.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 769,
-      "exportedPath": "软件/arcgis绘图/地理空间数据.html",
-      "dependencies": []
-    },
-    "软件/arcgis绘图/绘制省份人口数.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 794,
-      "exportedPath": "软件/arcgis绘图/绘制省份人口数.html",
-      "dependencies": []
-    },
-    "软件/arcgis绘图/绘制XY数据.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 771,
-      "exportedPath": "软件/arcgis绘图/绘制xy数据.html",
-      "dependencies": []
-    },
-    "软件/arcgis绘图/基础绘图.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 1705,
-      "exportedPath": "软件/arcgis绘图/基础绘图.html",
-      "dependencies": []
-    },
-    "软件/arcgis绘图/没有ObjectID字段解决办法.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 577,
-      "exportedPath": "软件/arcgis绘图/没有objectid字段解决办法.html",
-      "dependencies": []
-    },
-    "软件/arcgis绘图/使用Arcgis绘制单倍群等值线图.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 2359,
-      "exportedPath": "软件/arcgis绘图/使用arcgis绘制单倍群等值线图.html",
-      "dependencies": []
-    },
-    "软件/arcgis绘图/QGIS绘制XY散点图.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 1662,
-      "exportedPath": "软件/arcgis绘图/qgis绘制xy散点图.html",
       "dependencies": []
     },
     "软件/BEAST/BEAST：替换模型.md": {
@@ -2795,8 +2800,8 @@
       "dependencies": []
     },
     "术语/估计突变率（Estimating mutation rates）.md": {
-      "modifiedTime": 1721873212565,
-      "sourceSize": 4516,
+      "modifiedTime": 1722389505981,
+      "sourceSize": 4518,
       "exportedPath": "术语/估计突变率（estimating-mutation-rates）.html",
       "dependencies": []
     },
@@ -3521,7 +3526,7 @@
       "dependencies": []
     },
     "术语/数据科学家 95 时间都在使用的 10 大基本分布.md": {
-      "modifiedTime": 1722178073980,
+      "modifiedTime": 1722389505981,
       "sourceSize": 10258,
       "exportedPath": "术语/数据科学家-95-时间都在使用的-10-大基本分布.html",
       "dependencies": []
@@ -4751,8 +4756,8 @@
       "dependencies": []
     },
     "文献及报道/文献/基于古代线粒体基因组的人类进化修订时间表.md": {
-      "modifiedTime": 1721873212565,
-      "sourceSize": 5074,
+      "modifiedTime": 1722389505981,
+      "sourceSize": 5075,
       "exportedPath": "文献及报道/文献/基于古代线粒体基因组的人类进化修订时间表.html",
       "dependencies": []
     },
@@ -4793,8 +4798,8 @@
       "dependencies": []
     },
     "文献及报道/文献/青藏高原过去4000年来的母系遗传景观.md": {
-      "modifiedTime": 1721873212565,
-      "sourceSize": 5627,
+      "modifiedTime": 1722389505981,
+      "sourceSize": 5628,
       "exportedPath": "文献及报道/文献/青藏高原过去4000年来的母系遗传景观.html",
       "dependencies": []
     },
@@ -4997,8 +5002,8 @@
       "dependencies": []
     },
     "文献及报道/文献/修改人类突变率：对理解人类进化的影响.md": {
-      "modifiedTime": 1721873212565,
-      "sourceSize": 3946,
+      "modifiedTime": 1722389505981,
+      "sourceSize": 3947,
       "exportedPath": "文献及报道/文献/修改人类突变率：对理解人类进化的影响.html",
       "dependencies": []
     },
@@ -5045,8 +5050,8 @@
       "dependencies": []
     },
     "文献及报道/文献/主流分子钟定年方法的原理、误差来源和使用建议.md": {
-      "modifiedTime": 1721873212565,
-      "sourceSize": 16456,
+      "modifiedTime": 1722389505981,
+      "sourceSize": 16458,
       "exportedPath": "文献及报道/文献/主流分子钟定年方法的原理、误差来源和使用建议.html",
       "dependencies": []
     },
@@ -5321,325 +5326,325 @@
       "dependencies": []
     },
     "lib/scripts/graph-wasm.wasm": {
-      "modifiedTime": 1722178073980,
+      "modifiedTime": 1722389505981,
       "sourceSize": 23377,
       "exportedPath": "lib/scripts/graph-wasm.wasm",
       "dependencies": []
     },
     "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1722178073980,
+      "modifiedTime": 1722389505981,
       "sourceSize": 66800,
       "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
       "dependencies": []
     },
     "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1722178073980,
+      "modifiedTime": 1722389505981,
       "sourceSize": 104232,
       "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
       "dependencies": []
     },
     "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1722178073980,
+      "modifiedTime": 1722389505981,
       "sourceSize": 104332,
       "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
       "dependencies": []
     },
     "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1722178073980,
+      "modifiedTime": 1722389505981,
       "sourceSize": 98868,
       "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
       "dependencies": []
     },
     "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1722178073980,
+      "modifiedTime": 1722389505981,
       "sourceSize": 106876,
       "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
       "dependencies": []
     },
     "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1722178073980,
+      "modifiedTime": 1722389505981,
       "sourceSize": 105804,
       "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
       "dependencies": []
     },
     "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1722178073980,
+      "modifiedTime": 1722389505981,
       "sourceSize": 106108,
       "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
       "dependencies": []
     },
     "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1722178073980,
+      "modifiedTime": 1722389505981,
       "sourceSize": 111708,
       "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
       "dependencies": []
     },
     "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1722178073980,
+      "modifiedTime": 1722389505981,
       "sourceSize": 192740,
       "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
       "dependencies": []
     },
     "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1722178073980,
+      "modifiedTime": 1722389505981,
       "sourceSize": 161376,
       "exportedPath": "lib/fonts/454577c22304619db035.ttf",
       "dependencies": []
     },
     "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1722178073980,
+      "modifiedTime": 1722389505981,
       "sourceSize": 191568,
       "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
       "dependencies": []
     },
     "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1722178073980,
+      "modifiedTime": 1722389505981,
       "sourceSize": 155288,
       "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
       "dependencies": []
     },
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1722178073980,
+      "modifiedTime": 1722389505981,
       "sourceSize": 7876,
       "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
       "dependencies": []
     },
     "lib/media/874d8b8e340f75575caa.svg": {
-      "modifiedTime": 1722178073980,
+      "modifiedTime": 1722389505981,
       "sourceSize": 317,
       "exportedPath": "lib/media/874d8b8e340f75575caa.svg",
       "dependencies": []
     },
     "lib/media/3d6c1bdc4d87cde4de67.svg": {
-      "modifiedTime": 1722178073980,
+      "modifiedTime": 1722389505981,
       "sourceSize": 279,
       "exportedPath": "lib/media/3d6c1bdc4d87cde4de67.svg",
       "dependencies": []
     },
     "lib/fonts/mathjax_zero.woff": {
-      "modifiedTime": 1721986609012,
+      "modifiedTime": 1722389505981,
       "sourceSize": 1368,
       "exportedPath": "lib/fonts/mathjax_zero.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_main-regular.woff": {
-      "modifiedTime": 1721986609012,
+      "modifiedTime": 1722389505981,
       "sourceSize": 34160,
       "exportedPath": "lib/fonts/mathjax_main-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_main-bold.woff": {
-      "modifiedTime": 1721986609012,
+      "modifiedTime": 1722389505981,
       "sourceSize": 34464,
       "exportedPath": "lib/fonts/mathjax_main-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_math-italic.woff": {
-      "modifiedTime": 1721986609012,
+      "modifiedTime": 1722389505981,
       "sourceSize": 19360,
       "exportedPath": "lib/fonts/mathjax_math-italic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_main-italic.woff": {
-      "modifiedTime": 1721986609012,
+      "modifiedTime": 1722389505981,
       "sourceSize": 20832,
       "exportedPath": "lib/fonts/mathjax_main-italic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_math-bolditalic.woff": {
-      "modifiedTime": 1721986609012,
+      "modifiedTime": 1722389505981,
       "sourceSize": 19776,
       "exportedPath": "lib/fonts/mathjax_math-bolditalic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size1-regular.woff": {
-      "modifiedTime": 1721986609012,
+      "modifiedTime": 1722389505981,
       "sourceSize": 5792,
       "exportedPath": "lib/fonts/mathjax_size1-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size2-regular.woff": {
-      "modifiedTime": 1721986609012,
+      "modifiedTime": 1722389505981,
       "sourceSize": 5464,
       "exportedPath": "lib/fonts/mathjax_size2-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size3-regular.woff": {
-      "modifiedTime": 1721986609012,
+      "modifiedTime": 1722389505981,
       "sourceSize": 3244,
       "exportedPath": "lib/fonts/mathjax_size3-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size4-regular.woff": {
-      "modifiedTime": 1721986609012,
+      "modifiedTime": 1722389505981,
       "sourceSize": 5148,
       "exportedPath": "lib/fonts/mathjax_size4-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_ams-regular.woff": {
-      "modifiedTime": 1721986609012,
+      "modifiedTime": 1722389505981,
       "sourceSize": 40808,
       "exportedPath": "lib/fonts/mathjax_ams-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_calligraphic-regular.woff": {
-      "modifiedTime": 1721986609012,
+      "modifiedTime": 1722389505981,
       "sourceSize": 9600,
       "exportedPath": "lib/fonts/mathjax_calligraphic-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_calligraphic-bold.woff": {
-      "modifiedTime": 1721986609012,
+      "modifiedTime": 1722389505981,
       "sourceSize": 9908,
       "exportedPath": "lib/fonts/mathjax_calligraphic-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_fraktur-regular.woff": {
-      "modifiedTime": 1721986609012,
+      "modifiedTime": 1722389505981,
       "sourceSize": 21480,
       "exportedPath": "lib/fonts/mathjax_fraktur-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_fraktur-bold.woff": {
-      "modifiedTime": 1721986609012,
+      "modifiedTime": 1722389505981,
       "sourceSize": 22340,
       "exportedPath": "lib/fonts/mathjax_fraktur-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_sansserif-regular.woff": {
-      "modifiedTime": 1721986609012,
+      "modifiedTime": 1722389505981,
       "sourceSize": 12660,
       "exportedPath": "lib/fonts/mathjax_sansserif-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_sansserif-bold.woff": {
-      "modifiedTime": 1721986609012,
+      "modifiedTime": 1722389505981,
       "sourceSize": 15944,
       "exportedPath": "lib/fonts/mathjax_sansserif-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_sansserif-italic.woff": {
-      "modifiedTime": 1721986609012,
+      "modifiedTime": 1722389505981,
       "sourceSize": 14628,
       "exportedPath": "lib/fonts/mathjax_sansserif-italic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_script-regular.woff": {
-      "modifiedTime": 1721986609012,
+      "modifiedTime": 1722389505981,
       "sourceSize": 11852,
       "exportedPath": "lib/fonts/mathjax_script-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_typewriter-regular.woff": {
-      "modifiedTime": 1721986609012,
+      "modifiedTime": 1722389505981,
       "sourceSize": 17604,
       "exportedPath": "lib/fonts/mathjax_typewriter-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_vector-regular.woff": {
-      "modifiedTime": 1721986609012,
+      "modifiedTime": 1722389505981,
       "sourceSize": 1136,
       "exportedPath": "lib/fonts/mathjax_vector-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_vector-bold.woff": {
-      "modifiedTime": 1721986609012,
+      "modifiedTime": 1722389505981,
       "sourceSize": 1116,
       "exportedPath": "lib/fonts/mathjax_vector-bold.woff",
       "dependencies": []
     },
     "lib/html/file-tree.html": {
-      "modifiedTime": 1722178073980,
-      "sourceSize": 593933,
+      "modifiedTime": 1722389505981,
+      "sourceSize": 595265,
       "exportedPath": "lib/html/file-tree.html",
       "dependencies": []
     },
     "lib/scripts/webpage.js": {
-      "modifiedTime": 1722178073980,
+      "modifiedTime": 1722389505981,
       "sourceSize": 47290,
       "exportedPath": "lib/scripts/webpage.js",
       "dependencies": []
     },
     "lib/scripts/graph-view.js": {
-      "modifiedTime": 1722178073980,
+      "modifiedTime": 1722389505981,
       "sourceSize": 15519,
       "exportedPath": "lib/scripts/graph-view.js",
       "dependencies": []
     },
     "lib/scripts/graph-wasm.js": {
-      "modifiedTime": 1722178073980,
+      "modifiedTime": 1722389505981,
       "sourceSize": 14021,
       "exportedPath": "lib/scripts/graph-wasm.js",
       "dependencies": []
     },
     "lib/scripts/graph-render-worker.js": {
-      "modifiedTime": 1722178073980,
+      "modifiedTime": 1722389505981,
       "sourceSize": 5179,
       "exportedPath": "lib/scripts/graph-render-worker.js",
       "dependencies": []
     },
     "lib/scripts/tinycolor.js": {
-      "modifiedTime": 1722178073980,
+      "modifiedTime": 1722389505981,
       "sourceSize": 29832,
       "exportedPath": "lib/scripts/tinycolor.js",
       "dependencies": []
     },
     "lib/scripts/pixi.js": {
-      "modifiedTime": 1722178073980,
+      "modifiedTime": 1722389505981,
       "sourceSize": 449509,
       "exportedPath": "lib/scripts/pixi.js",
       "dependencies": []
     },
     "lib/scripts/minisearch.js": {
-      "modifiedTime": 1722178073980,
+      "modifiedTime": 1722389505981,
       "sourceSize": 29422,
       "exportedPath": "lib/scripts/minisearch.js",
       "dependencies": []
     },
     "lib/media/favicon.png": {
-      "modifiedTime": 1722178073980,
+      "modifiedTime": 1722389505981,
       "sourceSize": 1105,
       "exportedPath": "lib/media/favicon.png",
       "dependencies": []
     },
     "lib/scripts/graph-data.js": {
-      "modifiedTime": 1722178073980,
-      "sourceSize": 62472,
+      "modifiedTime": 1722389505981,
+      "sourceSize": 62871,
       "exportedPath": "lib/scripts/graph-data.js",
       "dependencies": []
     },
     "lib/styles/obsidian.css": {
-      "modifiedTime": 1722178073980,
+      "modifiedTime": 1722389505981,
       "sourceSize": 130471,
       "exportedPath": "lib/styles/obsidian.css",
       "dependencies": []
     },
     "lib/styles/other-plugins.css": {
-      "modifiedTime": 1722178073980,
+      "modifiedTime": 1722389505981,
       "sourceSize": 395818,
       "exportedPath": "lib/styles/other-plugins.css",
       "dependencies": []
     },
     "lib/styles/theme.css": {
-      "modifiedTime": 1722178073980,
+      "modifiedTime": 1722389505981,
       "sourceSize": 41426,
       "exportedPath": "lib/styles/theme.css",
       "dependencies": []
     },
     "lib/styles/global-variable-styles.css": {
-      "modifiedTime": 1722178073980,
+      "modifiedTime": 1722389505981,
       "sourceSize": 367,
       "exportedPath": "lib/styles/global-variable-styles.css",
       "dependencies": []
     },
     "lib/styles/supported-plugins.css": {
-      "modifiedTime": 1722178073980,
+      "modifiedTime": 1722389505981,
       "sourceSize": 119,
       "exportedPath": "lib/styles/supported-plugins.css",
       "dependencies": []
     },
     "lib/styles/main-styles.css": {
-      "modifiedTime": 1722178073980,
+      "modifiedTime": 1722389505981,
       "sourceSize": 23130,
       "exportedPath": "lib/styles/main-styles.css",
       "dependencies": []
@@ -5830,33 +5835,27 @@
       "exportedPath": "软件/python/格式转换/python：生成变换字体颜色代码给jsx.html",
       "dependencies": []
     },
-    "术语/最近共同祖先时间(Time to most recent common ancesto，MRCA).md": {
-      "modifiedTime": 1721873212565,
-      "sourceSize": 2830,
-      "exportedPath": "术语/最近共同祖先时间(time-to-most-recent-common-ancesto，mrca).html",
-      "dependencies": []
-    },
     "术语/ρ（rho）方法.md": {
-      "modifiedTime": 1721986179163,
-      "sourceSize": 3025,
+      "modifiedTime": 1722389505981,
+      "sourceSize": 3027,
       "exportedPath": "术语/ρ（rho）方法.html",
       "dependencies": []
     },
     "软件/Python/python：计算ρ（rho）和σ（sigma）.md": {
-      "modifiedTime": 1722178073980,
-      "sourceSize": 3581,
+      "modifiedTime": 1722389505981,
+      "sourceSize": 3587,
       "exportedPath": "软件/python/python：计算ρ（rho）和σ（sigma）.html",
       "dependencies": []
     },
     "软件/Python/python：ρ（rho）方法计算mtDNA共同祖先时间.md": {
-      "modifiedTime": 1721986179163,
-      "sourceSize": 3873,
+      "modifiedTime": 1722389505981,
+      "sourceSize": 3859,
       "exportedPath": "软件/python/python：ρ（rho）方法计算mtdna共同祖先时间.html",
       "dependencies": []
     },
     "术语/σ方法.md": {
-      "modifiedTime": 1721986179163,
-      "sourceSize": 2694,
+      "modifiedTime": 1722389505981,
+      "sourceSize": 2695,
       "exportedPath": "术语/σ方法.html",
       "dependencies": []
     },
@@ -5912,6 +5911,72 @@
       "modifiedTime": 1722178073980,
       "sourceSize": 5479,
       "exportedPath": "软件/r语言语法/r：fst绘制矩阵.html",
+      "dependencies": []
+    },
+    "软件/地理绘图/Arcgis Pro：使用克里金绘制单倍群等值线图.md": {
+      "modifiedTime": 1722389505981,
+      "sourceSize": 2461,
+      "exportedPath": "软件/地理绘图/arcgis-pro：使用克里金绘制单倍群等值线图.html",
+      "dependencies": []
+    },
+    "软件/地理绘图/Arcgis：地理空间数据.md": {
+      "modifiedTime": 1722389505981,
+      "sourceSize": 769,
+      "exportedPath": "软件/地理绘图/arcgis：地理空间数据.html",
+      "dependencies": []
+    },
+    "软件/地理绘图/Arcgis：绘制省份人口数.md": {
+      "modifiedTime": 1722389505981,
+      "sourceSize": 813,
+      "exportedPath": "软件/地理绘图/arcgis：绘制省份人口数.html",
+      "dependencies": []
+    },
+    "软件/地理绘图/Arcgis：绘制XY数据.md": {
+      "modifiedTime": 1722389505981,
+      "sourceSize": 771,
+      "exportedPath": "软件/地理绘图/arcgis：绘制xy数据.html",
+      "dependencies": []
+    },
+    "软件/地理绘图/Arcgis：基础绘图.md": {
+      "modifiedTime": 1722389505981,
+      "sourceSize": 1705,
+      "exportedPath": "软件/地理绘图/arcgis：基础绘图.html",
+      "dependencies": []
+    },
+    "软件/地理绘图/Arcgis：没有ObjectID字段解决办法.md": {
+      "modifiedTime": 1722389505981,
+      "sourceSize": 577,
+      "exportedPath": "软件/地理绘图/arcgis：没有objectid字段解决办法.html",
+      "dependencies": []
+    },
+    "软件/地理绘图/QGIS：绘制XY散点图.md": {
+      "modifiedTime": 1722389505981,
+      "sourceSize": 1681,
+      "exportedPath": "软件/地理绘图/qgis：绘制xy散点图.html",
+      "dependencies": []
+    },
+    "软件/地理绘图/Surfer：克里金插值制作贴合的等值线图.md": {
+      "modifiedTime": 1722389505981,
+      "sourceSize": 3051,
+      "exportedPath": "软件/地理绘图/surfer：克里金插值制作贴合的等值线图.html",
+      "dependencies": []
+    },
+    "术语/净化选择（purifying selection）.md": {
+      "modifiedTime": 1722389505981,
+      "sourceSize": 42,
+      "exportedPath": "术语/净化选择（purifying-selection）.html",
+      "dependencies": []
+    },
+    "术语/最近共同祖先时间(Time to most recent common ancestor，MRCA).md": {
+      "modifiedTime": 1722389505981,
+      "sourceSize": 2830,
+      "exportedPath": "术语/最近共同祖先时间(time-to-most-recent-common-ancestor，mrca).html",
+      "dependencies": []
+    },
+    "文献及报道/文献/2009 AJHG 净化选择校正：改进的人类线粒体分子钟.md": {
+      "modifiedTime": 1722389505981,
+      "sourceSize": 7767,
+      "exportedPath": "文献及报道/文献/2009-ajhg-净化选择校正：改进的人类线粒体分子钟.html",
       "dependencies": []
     }
   }
