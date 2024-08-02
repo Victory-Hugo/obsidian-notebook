@@ -1,4 +1,82 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[思维领域]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>思维领域</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Wed, 31 Jul 2024 02:19:06 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Wed, 31 Jul 2024 02:19:02 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[QGIS 导入图层]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[思维领域]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>思维领域</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Fri, 02 Aug 2024 10:00:18 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Fri, 02 Aug 2024 10:00:15 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[详细使用指南]]></title><description><![CDATA[ 
+ <br><br><br>首先，下载自制的脚本的软件包。<br>
+链接： <a rel="noopener" class="external-link" href="https://picturerealm.oss-cn-chengdu.aliyuncs.com/%E9%99%84%E4%BB%B6/fastHaN%E8%87%AA%E5%88%B6%E8%84%9A%E6%9C%AC.zip" target="_blank">https://picturerealm.oss-cn-chengdu.aliyuncs.com/%E9%99%84%E4%BB%B6/fastHaN%E8%87%AA%E5%88%B6%E8%84%9A%E6%9C%AC.zip</a><br><br>脚本需要 Linux 系统运行。<br><br>你需要准备三个文件：<br><br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240522163203.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240522163248.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
+用 制表符 分割，没有标题。<br><br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240522163330.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
+用 制表符 分割，没有标题。<br><br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240522163416.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
+<br>FASTA_PATH 修改为 fasta 文件路径
+<br>OUTPUT_PATH 修改为输出文件路径
+<br>SOFTWARE_PATH 修改为软件所在路径，具体可以看看下图：<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240522163527.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;">
+<br>META_FILE 修改为分组文件（按照其他条件分）
+<br>META_HAP_FILE 修改为分组文件（按照单倍群分）
+<br><br>省略<br><br>运行成功之后，会得到如下文件。<br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240522163718.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
+其中我们需要的是 csv, gml 文件。带 updated 的文件是我配的彩虹色，可以用也可以不用。为了修改颜色，可以到软件的 color_replace.py 文件中修改。<br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240522163851.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br>找到如下文件：<br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240522163942.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>用浏览器打开。<br><br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240522164122.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240522164206.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240522164306.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;">]]></description><link>软件\其它生信软件\群体遗传\自制fasthan脚本——2024年5月22日更新.html</link><guid isPermaLink="false">软件/其它生信软件/群体遗传/自制FastHaN脚本——2024年5月22日更新.md</guid><pubDate>Fri, 02 Aug 2024 10:00:06 GMT</pubDate><enclosure url="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f44d.svg" length="0" type="image/svg+xml"/><content:encoded>&lt;figure&gt;&lt;img src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f44d.svg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[1 .&nbsp;<a data-href="正态分布 (Normal Distribution)" href="正态分布 (Normal Distribution)" class="internal-link" target="_self" rel="noopener">正态分布 (Normal Distribution)</a>]]></title><description><![CDATA[ 
+ <br><br>正态分布在我们的生活中随处可见，我们身高的分布、体重的分布，甚至是考试成绩的分布都可能符合正态分布。它的形状就像一个钟形曲线，最高点在中间，两边逐渐低下，具有对称性。<br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517091725.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br>伯努利分布又名两点分布或者0-1分布，是描述只有两种可能结果的随机试验的概率分布，比如抛硬币或投掷骰子。它将这两种结果分别表示为1和0，通常用 p 来表示事件的成功概率，而1-p 表示事件的失败概率。比如，你在玩一个抛硬币的游戏。硬币只有两面：正面和反面。当你抛硬币时，只有两种可能的结果：硬币出现正面或反面。伯努利分布就像是描述硬币落地后是正面还是反面的概率分布。在伯努利分布中，我们关心的是事件的成功概率，即出现期望结果的概率。比如，在抛硬币时，成功的概率就是硬币出现正面的概率。<br>伯努利分布的变异程度通常由成功和失败的概率决定。如果硬币是公平的，那么成功和失败的概率都是相等的，变异程度就较小。假设你在玩一个猜硬币正反面的游戏，如果你猜对了，你就赢得奖品。这种情况下，游戏的结果可以用伯努利分布来描述。<br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517091815.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br>泊松分布常常用于描述单位时间或空间内事件发生的次数，比如在一小时内接到的电话数量、一天内发生的交通事故数量等。<br>它的形状看起来有点像钟形曲线，但是更加扁平。在图的中心，事件发生的次数最多，然后随着次数的增加，概率逐渐减小。<br>平均值告诉我们在单位时间或空间内预期事件的平均发生次数。<br>
+泊松分布的特点之一是，它的方差等于其平均值。这意味着，如果事件在某段时间内平均发生了5次，那么方差也是5，表明事件发生次数的变化程度与平均值相近。如果我们想知道某一条街道一天内发生的车祸数量的概率分布，我们可以使用泊松分布来预测不同数量的车祸发生的可能性。<br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517092140.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br>指数分布通常用于描述等待时间或事件之间的间隔时间，比如等待下一辆公交车到达的时间、两次地震之间的时间间隔等。<br>它的形状看起来有点像波峰逐渐减小的山脉。在开始时，概率较高，随着时间的推移，概率逐渐减小。<br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517092030.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
+指数分布的一个重要特点是，它是无记忆的。这意味着，在任何给定的时间点上，等待下一个事件的时间不受过去等待时间的影响。<br>平均值告诉我们在一段时间内预期发生事件的平均次数。而指数分布的方差等于平均值的平方，这意味着方差与平均值之间存在很大的差异。<br>如果我们想知道一个人等待下一次公交车到达的时间，我们可以使用指数分布来预测不同等待时间的概率分布。<br><br>伽玛分布通常用于描述连续随机变量的正数值，比如处理时间、等待时间或事件发生的时间间隔等。<br>它的形状可以是多样的，取决于伽玛分布的参数。但通常情况下，它呈现出右偏的形态，即尾部向右延伸。伽玛分布的平均值和方差都受到其参数的影响。当其中一个参数增大时，分布会更向右延伸，并且平均值和方差也会随之增大。<br>这个分布可以用于建模很多现实生活中的情况，比如处理时间、等待时间以及一些事件的发生间隔时间等。<br>如果我们想要预测一个机器的寿命，我们可以使用伽玛分布来描述机器的故障时间分布。<br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517092124.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br>贝塔分布是一种连续概率分布，通常用于描述在一个有限区间内取值的随机变量，比如概率值或者比例。<br>它的形状可以是多样的，取决于贝塔分布的参数。但通常情况下，它呈现出 U 型或者反 U 型的形态。<br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517092207.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
+贝塔分布的一个重要特点是，它可以用来描述一个随机变量的概率分布，并且在一些统计推断和贝叶斯分析中有重要的应用。<br>如果我们想要建立一个模型来描述一个产品的质量，我们可以使用贝塔分布来描述产品合格的比例。<br><br>均匀分布是一种简单的概率分布，它将所有可能的结果都分布在一个范围内，并且每个结果的概率都是相等的。<br>
+想想想想一下，把一个区间分成若干个等长的小区间，每个小区间内的概率都是相同的，这就是均匀分布。<br>
+它的形状就像是一个长方形，所有的小区间的高度都是一样的，表明每个结果出现的概率都是相等的。<br>
+均匀分布的参数是区间的上下界，它们决定了分布的范围。<br>
+如果我们想要模拟一个骰子的投掷结果，我们可以使用均匀分布，因为在一个公正的骰子中，每个面出现的概率都是相等的。<br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517092250.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br>二项分布在我们的日常生活中也很常见，比如抛硬币的结果、投掷骰子的结果或者考试中答对题目的次数等。<br>二项分布描述了在一系列独立的伯努利试验中成功次数的分布。这些试验只有两种可能的结果，比如抛硬币可能是正面或反面。<br>这个分布的形状不像钟形曲线那样，它更像是一个条形图。在图的两端，成功次数较少，而在中间，成功次数最多。<br>
+平均值告诉我们在这些试验中预期成功的次数，而标准差则告诉我们成功次数的变化程度。<br>假设我们进行了10次抛硬币的试验，我们想知道有多少次是正面。二项分布可以告诉我们每种可能的正面次数的概率。<br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517092331.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br>对数正态分布描述了一个随机变量的对数服从正态分布的情况。换句话说，如果一个随机变量的对数是正态分布的，那么该随机变量就服从对数正态分布。<br>它的形状看起来有点像正态分布，但是更加右偏。这是因为正态分布的对数在较大的值处增长得更快。<br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517092352.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
+对数正态分布通常用于描述一些连续的正数值的分布，比如收入分布、财富分布等。<br>它的参数是正态分布的平均值和标准差，它们决定了对数正态分布的形状。<br>如果我们想要描述一个城市中居民的收入分布，我们可能会发现它符合对数正态分布。<br><br>负二项分布描述了在一系列独立的伯努利试验中，达到指定数量的成功之前的失败次数。<br>与几何分布不同，几何分布是在达到第一次成功时停止，而负二项分布则在达到指定数量的成功时停止。<br>它的形状类似于二项分布，但更为右偏。开始时概率较高，随着试验次数的增加，概率逐渐减小。<br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517092426.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
+负二项分布的参数是成功的概率和达到指定数量的成功所需的试验次数。成功的概率越高，试验次数越少，分布越向左偏。<br>如果我们重复进行投掷硬币的试验，直到出现5次正面为止，负二项分布可以告诉我们达到5次正面所需的失败次数的概率分布情况。<br>数据科学家在日常工作中使用的一些基本概率分布包括以下 11 个：<br>
+<br>正态分布 (Normal Distribution)：在数据科学中应用广泛，特别是在统计推断和假设检验中。
+<br>泊松分布 (Poisson Distribution)：用于描述单位时间或空间内事件发生的次数的分布，如某个时间段内电话呼叫的数量。
+<br>指数分布 (Exponential Distribution)：描述等待时间或事件之间的间隔时间的分布，例如等待下一次地铁到达的时间。
+<br>伽玛分布 (Gamma Distribution)：在描述连续随机变量的正数值时非常有用，例如在描述等待时间或处理时间时。
+<br>贝塔分布 (Beta Distribution)：通常用于描述概率分布的先验知识，例如在贝叶斯推断中。
+<br>均匀分布 (Uniform Distribution)：用于描述所有可能结果等概率出现的情况，例如抛硬币、掷骰子等。
+<br>二项分布 (Binomial Distribution)：用于描述离散随机变量中成功次数的分布，例如抛硬币、投掷骰子等。
+<br>对数正态分布 (Log-Normal Distribution)：描述一个随机变量的对数服从正态分布的情况，例如财富分布或收入分布。
+<br>负二项分布 (Negative Binomial Distribution)：描述在一系列独立的伯努利试验中，达到指定数量的成功之前的失败次数。
+<br>威布尔分布 (Weibull Distribution)：常用于可靠性工程和寿命分析，描述随机事件的生存时间。<br>
+
+<br>这些分布覆盖了数据科学中许多常见的场景，从描述连续变量到描述离散变量，以及描述等待时间和间隔时间等各种情况。]]></description><link>术语\数据科学家-95-时间都在使用的-10-大基本分布.html</link><guid isPermaLink="false">术语/数据科学家 95% 时间都在使用的 10 大基本分布.md</guid><pubDate>Thu, 20 Jun 2024 12:25:33 GMT</pubDate><enclosure url="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517091725.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517091725.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[摘要]]></title><description><![CDATA[ 
+ <br>这项研究主要探讨了母系遗传线粒体疾病中致病突变的净化选择，特别是在哺乳动物线粒体DNA（mtDNA）复杂I基因中的突变。<br><br>线粒体疾病主要由致病性线粒体DNA（mtDNA）突变引起，由于缺乏有效的治疗方法，这些疾病带来了重大挑战。研究线粒体疾病的母系传递模式可能为预防方法铺平道路。在本研究中，使用 <a data-href="DddA衍生的胞嘧啶碱基编辑工具（DddA derived cytosine base editors，DdCBEs）" href="ddda衍生的胞嘧啶碱基编辑工具（ddda-derived-cytosine-base-editors，ddcbes）.html" class="internal-link" target="_self" rel="noopener">DddA衍生的胞嘧啶碱基编辑工具（DddA derived cytosine base editors，DdCBEs）</a>生成了两个小鼠模型，每个模型在复合体I基因（ND1和ND5）中携带一个单一的致病突变，模拟了人类患者中的突变。研究结果表明，这两个突变在母系传递过程中受到强烈的 <a data-href="净化选择（purifying selection）" href="术语\净化选择（purifying-selection）.html" class="internal-link" target="_self" rel="noopener">净化选择（purifying selection）</a>，并且主要发生在出生后卵母细胞成熟期间，其中蛋白质合成的增加起着重要作用。母亲年龄会加强净化选择，表明较高的母亲年龄可能对传递有害的mtDNA突变具有保护作用，这与传统观点相反，传统观点认为母亲年龄与传递的mtDNA突变增加有关 <a data-footref="9" href="about:blank#fn-1-3bbad31d747ae6f3" class="footnote-link" target="_self" rel="noopener">[1]</a> <a data-footref="10" href="about:blank#fn-2-3bbad31d747ae6f3" class="footnote-link" target="_self" rel="noopener">[2]</a> <a data-footref="11" href="about:blank#fn-3-3bbad31d747ae6f3" class="footnote-link" target="_self" rel="noopener">[3]</a>。由于需要收集全面的临床数据以理解在人类中母亲年龄与传递模式之间的关系，研究结果可能对线粒体疾病的生殖咨询产生深远影响，特别是涉及复合体I基因突变的疾病。<br><br><a data-href="线粒体DNA（mtDNA）" href="疾病与基因\线粒体dna（mtdna）.html" class="internal-link" target="_self" rel="noopener">线粒体DNA（mtDNA）</a>致病性突变可以导致线粒体疾病。大多数的突变是由于复制错误产生的<a data-footref="1" href="about:blank#fn-4-3bbad31d747ae6f3" class="footnote-link" target="_self" rel="noopener">[4]</a> <a data-footref="2" href="about:blank#fn-5-3bbad31d747ae6f3" class="footnote-link" target="_self" rel="noopener">[5]</a>。大约100种 mtDNA 突变类型被证实了与线粒体疾病的关系。mtDNA是通过母系，即通过雌性生殖系在哺乳动物中传递的。由于瓶颈效应，只有卵母细胞中mtDNA分子的一部分会传递给后代<a data-footref="3" href="about:blank#fn-6-3bbad31d747ae6f3" class="footnote-link" target="_self" rel="noopener">[6]</a> <a data-footref="4" href="about:blank#fn-7-3bbad31d747ae6f3" class="footnote-link" target="_self" rel="noopener">[7]</a> <a data-footref="5" href="about:blank#fn-8-3bbad31d747ae6f3" class="footnote-link" target="_self" rel="noopener">[8]</a>。某些mtDNA变异体可能会受到选择压力，影响线粒体疾病的遗传<a data-footref="6" href="about:blank#fn-9-3bbad31d747ae6f3" class="footnote-link" target="_self" rel="noopener">[9]</a> <a data-footref="7" href="about:blank#fn-10-3bbad31d747ae6f3" class="footnote-link" target="_self" rel="noopener">[10]</a>。<br><br>目前仍不清楚选择如何影响人类病原性突变的传递，以及选择过程中的潜在规则。这一知识空白主要归因于缺乏有效的编辑工具来生成携带与人类突变相同的mtDNA突变的哺乳动物模型。<br><br>最近的技术进展使得使用 <a data-href="DddA衍生的胞嘧啶碱基编辑工具（DddA derived cytosine base editors，DdCBEs）" href="ddda衍生的胞嘧啶碱基编辑工具（ddda-derived-cytosine-base-editors，ddcbes）.html" class="internal-link" target="_self" rel="noopener">DddA衍生的胞嘧啶碱基编辑工具（DddA derived cytosine base editors，DdCBEs）</a> 能够特异性编辑特定mtDNA位点，为创建此类哺乳动物模型提供了机会<a data-footref="8" href="about:blank#fn-11-3bbad31d747ae6f3" class="footnote-link" target="_self" rel="noopener">[11]</a>。这些模型对于研究人类线粒体疾病的传递模式至关重要。在研究中，使用DdCBE技术生成了两个小鼠模型，每个模型在复合体I基因（ND1和ND5）中携带一个单点突变，与引发人类线粒体疾病的突变类似。<br>在小鼠胚胎成纤维细胞中编辑mtDNA的2820位点，与人类3376位点同源，该点突变导致ND1蛋白的第24个氨基酸由谷氨酸（E）变为赖氨酸（K）。<br>
+同理，改变小鼠的 12918 位点，与人类的 13513 位点同源，这个位点突变导致 <a data-href="MELAS综合症（Mitochondrial Encephalomyopathy, Lactic Acidosis, and Stroke-like Episodes）" href="疾病与基因\melas综合症（mitochondrial-encephalomyopathy,-lactic-acidosis,-and-stroke-like-episodes）.html" class="internal-link" target="_self" rel="noopener">MELAS综合症（Mitochondrial Encephalomyopathy, Lactic Acidosis, and Stroke-like Episodes）</a><br><br>研究结果显示，<a data-href="净化选择（purifying selection）" href="术语\净化选择（purifying-selection）.html" class="internal-link" target="_self" rel="noopener">净化选择（purifying selection）</a>在两个模型中发生，以防止病原性突变体传递给后代。这种选择主要在出生后卵母细胞成熟期间发生，并且在母亲年龄增加时选择作用增强，表明母亲年龄可能是防止这些突变传递的保护因素。<br>本研究展示了两种mtDNA突变复合体I基因小鼠模型（ND1和ND5）在传递过程中的强烈净化选择，母体年龄进一步增强了这一选择过程。<br>
+这种选择在出生后卵母细胞成熟期间发生，蛋白质合成的增加在这一过程中起到了显著作用。强烈的净化选择有助于解释为何这些同源突变（ND1 3376 G &gt; A和ND5 13513 G &gt; A）在人类患者中罕见且患病率低<a data-footref="12" href="about:blank#fn-12-3bbad31d747ae6f3" class="footnote-link" target="_self" rel="noopener">[12]</a> <a data-footref="13" href="about:blank#fn-13-3bbad31d747ae6f3" class="footnote-link" target="_self" rel="noopener">[13]</a> <a data-footref="14" href="about:blank#fn-14-3bbad31d747ae6f3" class="footnote-link" target="_self" rel="noopener">[14]</a> <a data-footref="15" href="about:blank#fn-15-3bbad31d747ae6f3" class="footnote-link" target="_self" rel="noopener">[15]</a>。<br>这种选择在果蝇中的Cox1突变和小鼠中的ND6突变中也有所体现，表明对于某些类型的mtDNA突变（如线粒体mRNAs）具有普遍性。年龄增强的选择速度在ND1模型中比ND5模型更快，与人类ND1突变导致的线粒体疾病较ND5突变较少的发病率一致。母体年龄可能作为一种保护因素，抑制某些病原性mtDNA突变的传递，挑战了传统认为母体年龄总是对突变传递不利的观点。<br>研究表明，净化选择主要发生在细胞器水平，而不是通过<a data-href="细胞竞争（cell competition）" href="细胞竞争（cell-competition）.html" class="internal-link" target="_self" rel="noopener">细胞竞争（cell competition）</a>（<a data-href="卵母细胞闭锁（follicular atresia）" href="卵母细胞闭锁（follicular-atresia）.html" class="internal-link" target="_self" rel="noopener">卵母细胞闭锁（follicular atresia）</a>）进行。ND1突变卵母细胞通过上调蛋白质翻译来促进净化选择。雷帕霉素的使用削弱了选择强度，提示线粒体自噬可能不参与这一过程，研究未发现小鼠发育卵母细胞中的线粒体自噬现象。<br>本研究首次提供了母亲年龄增加有利于防止病原性mtDNA突变传递的实证。<br><br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202408020950745.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
+图1|小鼠 mtDNA 2820 G &gt; A 突变导致线粒体功能障碍。<br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202408020950500.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
+图2|年龄增强了 m.2820 G &gt; A mtDNA 在传播过程中的净化选择。<br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202408020951850.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
+图 3 | M2 卵母细胞表现出针对 m.2820 G &gt; A 突变的年龄增强的纯化选择。<br>
+<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202408020951856.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
+图4| m.2820 G &gt; A 的年龄增强纯化选择发生在卵母细胞成熟过程中。<br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202408020951070.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
+图5 |年轻小鼠成熟卵母细胞中的高 ND1 突变可以遗传给下一代。<br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202408020952643.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
+图 6 |年龄增强了小鼠 ND5 12918 G &gt; A 突变在传播过程中的纯化选择。<br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202408020952415.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
+图 7 |通过空间转录组学阐明 ND1 突变女性卵母细胞蛋白质合成增强。<br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202408020953788.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
+图 8 |蛋白质翻译的增强驱动 ND1 突变卵母细胞的纯化选择。<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br>
+<br>Zaidi, A. A. et al. Bottleneck and selection in the germline and maternal age influence transmission of mitochondrial DNA in human pedigrees. Proc. Natl Acad. Sci. USA 116, 201906331 (2019).<a href="about:blank#fnref-1-3bbad31d747ae6f3" class="footnote-backref footnote-link" target="_self" rel="noopener"><span></span>︎</a><img class="emoji" draggable="false" alt="↩" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/21a9.svg" height="16px" style="max-width: 100%;">
+<br>Arbeithuber, B. et al. Advanced age increases frequencies of de novo mitochondrial mutations in macaque oocytes and somatic tissues. Proc. Natl Acad. Sci. USA 119, e2118740119 (2022). <a href="about:blank#fnref-2-3bbad31d747ae6f3" class="footnote-backref footnote-link" target="_self" rel="noopener"><span></span>︎</a><img class="emoji" draggable="false" alt="↩" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/21a9.svg" height="16px" style="max-width: 100%;">
+<br>Rebolledo-Jaramillo, B. et al. Maternal age effect and severe germ-line bottleneck in the inheritance of human mitochondrial DNA. Proc. Natl Acad. Sci. USA 111, 15474–15479 (2014)<a href="about:blank#fnref-3-3bbad31d747ae6f3" class="footnote-backref footnote-link" target="_self" rel="noopener"><span></span>︎</a><img class="emoji" draggable="false" alt="↩" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/21a9.svg" height="16px" style="max-width: 100%;">
+<br>Stewart, J. B. et al. Strong purifying selection in transmission of mammalian mitochondrial DNA. PLoS Biol. 6, e10 (2008).<a href="about:blank#fnref-4-3bbad31d747ae6f3" class="footnote-backref footnote-link" target="_self" rel="noopener"><span></span>︎</a><img class="emoji" draggable="false" alt="↩" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/21a9.svg" height="16px" style="max-width: 100%;">
+<br>Kauppila, J. H. K. et al. Base-excision repair deficiency alone or combined with increased oxidative stress does not increase mtDNA point mutations in mice. Nucleic Acids Res. 46, 6642–6669 (2018).<a href="about:blank#fnref-5-3bbad31d747ae6f3" class="footnote-backref footnote-link" target="_self" rel="noopener"><span></span>︎</a><img class="emoji" draggable="false" alt="↩" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/21a9.svg" height="16px" style="max-width: 100%;">
+<br>Jenuth, J. P., Peterson, A. C., Fu, K. &amp; Shoubridge, E. A. Random genetic drift in the female germline explains the rapid segregation of mammalian mitochondrial DNA. Nat. Genet. 14, 146–151 (1996).<a href="about:blank#fnref-6-3bbad31d747ae6f3" class="footnote-backref footnote-link" target="_self" rel="noopener"><span></span>︎</a><img class="emoji" draggable="false" alt="↩" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/21a9.svg" height="16px" style="max-width: 100%;">
+<br>Brown, D. T., Samuels, D. C., Michael, E. M., Turnbull, D. M. &amp; Chinnery, P. F. Random genetic drift determines the level of mutant mtDNA in human primary oocytes. Am. J. Hum. Genet. 68, 533–536 (2001).<a href="about:blank#fnref-7-3bbad31d747ae6f3" class="footnote-backref footnote-link" target="_self" rel="noopener"><span></span>︎</a><img class="emoji" draggable="false" alt="↩" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/21a9.svg" height="16px" style="max-width: 100%;">
+<br>推荐阅读： <a data-href="2024 Cell 人类谱系中线粒体 DNA 突变的速率和性质" href="文献及报道\文献\2024-cell-人类谱系中线粒体-dna-突变的速率和性质.html" class="internal-link" target="_self" rel="noopener"><span class="iconize-icon-in-link" title="👍" aria-label="👍" data-icon="👍" aria-hidden="true"></span>2024 Cell 人类谱系中线粒体 DNA 突变的速率和性质</a><img class="emoji" draggable="false" alt="👍" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f44d.svg" height="16px" style="max-width: 100%;">：The rate and nature of mitochondrial DNA mutations in human pedigrees<a href="about:blank#fnref-8-3bbad31d747ae6f3" class="footnote-backref footnote-link" target="_self" rel="noopener"><span></span>︎</a><img class="emoji" draggable="false" alt="↩" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/21a9.svg" height="16px" style="max-width: 100%;">
+<br>Burr, S. P., Pezet, M. &amp; Chinnery, P. F. Mitochondrial DNA heteroplasmy and purifying selection in the mammalian female germ line. Dev. Growth Differ. 60, 21–32 (2018).<a href="about:blank#fnref-9-3bbad31d747ae6f3" class="footnote-backref footnote-link" target="_self" rel="noopener"><span></span>︎</a><img class="emoji" draggable="false" alt="↩" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/21a9.svg" height="16px" style="max-width: 100%;">
+<br>Zaidi, A. A. et al. Bottleneck and selection in the germline and maternal age influence transmission of mitochondrial DNA in human pedigrees. Proc. Natl Acad. Sci. USA 116, 201906331 (2019).<a href="about:blank#fnref-10-3bbad31d747ae6f3" class="footnote-backref footnote-link" target="_self" rel="noopener"><span></span>︎</a><img class="emoji" draggable="false" alt="↩" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/21a9.svg" height="16px" style="max-width: 100%;">
+<br>Lee, H. et al. Mitochondrial DNA editing in mice with DddA-TALE fusion deaminases. Nat. Commun. 12, 1190 (2021).<a href="about:blank#fnref-11-3bbad31d747ae6f3" class="footnote-backref footnote-link" target="_self" rel="noopener"><span></span>︎</a><img class="emoji" draggable="false" alt="↩" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/21a9.svg" height="16px" style="max-width: 100%;">
+<br>Pulkes, T. et al. The mitochondrial DNA G13513A transition in ND5 is associated with a LHON/MELAS overlap syndrome and may be a frequent cause of MELAS. Ann. Neurol. 46, 916–919 (1999).<a href="about:blank#fnref-12-3bbad31d747ae6f3" class="footnote-backref footnote-link" target="_self" rel="noopener"><span></span>︎</a><img class="emoji" draggable="false" alt="↩" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/21a9.svg" height="16px" style="max-width: 100%;">
+<br>Chol, M. et al. The mitochondrial DNA G13513A MELAS mutation in the NADH dehydrogenase 5 gene is a frequent cause of Leigh-like syndrome with isolated complex I deficiency. J. Med. Genet. 40, 188–191 (2003).<a href="about:blank#fnref-13-3bbad31d747ae6f3" class="footnote-backref footnote-link" target="_self" rel="noopener"><span></span>︎</a><img class="emoji" draggable="false" alt="↩" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/21a9.svg" height="16px" style="max-width: 100%;">
+<br>Wang, S.-B. et al. Mutation of mitochondrial DNA G13513A presenting with Leigh syndrome, Wolff–Parkinson–White syndrome and cardiomyopathy. Pediatr. Neonatol. 49, 145–149 (2008).<a href="about:blank#fnref-14-3bbad31d747ae6f3" class="footnote-backref footnote-link" target="_self" rel="noopener"><span></span>︎</a><img class="emoji" draggable="false" alt="↩" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/21a9.svg" height="16px" style="max-width: 100%;">
+<br>Wang, Z. et al. Phenotypic patterns of MELAS/LS overlap syndrome associated with m.13513G&gt;A mutation, and neuropathological findings in one autopsy case. Neuropathology 30, 606–614 (2010).<a href="about:blank#fnref-15-3bbad31d747ae6f3" class="footnote-backref footnote-link" target="_self" rel="noopener"><span></span>︎</a><img class="emoji" draggable="false" alt="↩" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/21a9.svg" height="16px" style="max-width: 100%;">
+]]></description><link>文献及报道\文献汇报分享\2024-na-母亲年龄增强了哺乳动物-mtdna-复合物-i-致病性突变的净化选择.html</link><guid isPermaLink="false">文献及报道/文献汇报分享/2024 NA 母亲年龄增强了哺乳动物 mtDNA 复合物 I 致病性突变的净化选择.md</guid><pubDate>Fri, 02 Aug 2024 10:00:06 GMT</pubDate><enclosure url="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f44d.svg" length="0" type="image/svg+xml"/><content:encoded>&lt;figure&gt;&lt;img src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f44d.svg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[QGIS 导入图层]]></title><description><![CDATA[ 
  <br>QGIS是一个绘制地图的软件，使用方式和 Arcgis 差不多。<br>但是从可扩展性和可操作性来看，QGIS 比 Arcgis 更容易受到青睐。<br><br>安装并打开 QGIS 之后，可以自定义工作目录：<br>
 <img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202403081923093.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
 可以将比较常用的目录添加到收藏夹，以供访问。<br>将 shp 文件拖到 图层 就可以进行预览：<br>
@@ -46,40 +124,7 @@
 <img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202407310919157.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
 填充等值线，选择美丽的颜色，然后按照自己的需求调整即可！<br>
 <img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202407310921367.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
-最后 导出 为 PDF 即可！]]></description><link>软件\地理绘图\surfer：克里金插值制作贴合的等值线图.html</link><guid isPermaLink="false">软件/地理绘图/Surfer：克里金插值制作贴合的等值线图.md</guid><pubDate>Wed, 31 Jul 2024 01:31:46 GMT</pubDate><enclosure url="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f44d.svg" length="0" type="image/svg+xml"/><content:encoded>&lt;figure&gt;&lt;img src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f44d.svg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[1 .&nbsp;<a data-href="正态分布 (Normal Distribution)" href="正态分布 (Normal Distribution)" class="internal-link" target="_self" rel="noopener">正态分布 (Normal Distribution)</a>]]></title><description><![CDATA[ 
- <br><br>正态分布在我们的生活中随处可见，我们身高的分布、体重的分布，甚至是考试成绩的分布都可能符合正态分布。它的形状就像一个钟形曲线，最高点在中间，两边逐渐低下，具有对称性。<br>
-<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517091725.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br>伯努利分布又名两点分布或者0-1分布，是描述只有两种可能结果的随机试验的概率分布，比如抛硬币或投掷骰子。它将这两种结果分别表示为1和0，通常用 p 来表示事件的成功概率，而1-p 表示事件的失败概率。比如，你在玩一个抛硬币的游戏。硬币只有两面：正面和反面。当你抛硬币时，只有两种可能的结果：硬币出现正面或反面。伯努利分布就像是描述硬币落地后是正面还是反面的概率分布。在伯努利分布中，我们关心的是事件的成功概率，即出现期望结果的概率。比如，在抛硬币时，成功的概率就是硬币出现正面的概率。<br>伯努利分布的变异程度通常由成功和失败的概率决定。如果硬币是公平的，那么成功和失败的概率都是相等的，变异程度就较小。假设你在玩一个猜硬币正反面的游戏，如果你猜对了，你就赢得奖品。这种情况下，游戏的结果可以用伯努利分布来描述。<br>
-<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517091815.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br>泊松分布常常用于描述单位时间或空间内事件发生的次数，比如在一小时内接到的电话数量、一天内发生的交通事故数量等。<br>它的形状看起来有点像钟形曲线，但是更加扁平。在图的中心，事件发生的次数最多，然后随着次数的增加，概率逐渐减小。<br>平均值告诉我们在单位时间或空间内预期事件的平均发生次数。<br>
-泊松分布的特点之一是，它的方差等于其平均值。这意味着，如果事件在某段时间内平均发生了5次，那么方差也是5，表明事件发生次数的变化程度与平均值相近。如果我们想知道某一条街道一天内发生的车祸数量的概率分布，我们可以使用泊松分布来预测不同数量的车祸发生的可能性。<br>
-<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517092140.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br>指数分布通常用于描述等待时间或事件之间的间隔时间，比如等待下一辆公交车到达的时间、两次地震之间的时间间隔等。<br>它的形状看起来有点像波峰逐渐减小的山脉。在开始时，概率较高，随着时间的推移，概率逐渐减小。<br>
-<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517092030.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
-指数分布的一个重要特点是，它是无记忆的。这意味着，在任何给定的时间点上，等待下一个事件的时间不受过去等待时间的影响。<br>平均值告诉我们在一段时间内预期发生事件的平均次数。而指数分布的方差等于平均值的平方，这意味着方差与平均值之间存在很大的差异。<br>如果我们想知道一个人等待下一次公交车到达的时间，我们可以使用指数分布来预测不同等待时间的概率分布。<br><br>伽玛分布通常用于描述连续随机变量的正数值，比如处理时间、等待时间或事件发生的时间间隔等。<br>它的形状可以是多样的，取决于伽玛分布的参数。但通常情况下，它呈现出右偏的形态，即尾部向右延伸。伽玛分布的平均值和方差都受到其参数的影响。当其中一个参数增大时，分布会更向右延伸，并且平均值和方差也会随之增大。<br>这个分布可以用于建模很多现实生活中的情况，比如处理时间、等待时间以及一些事件的发生间隔时间等。<br>如果我们想要预测一个机器的寿命，我们可以使用伽玛分布来描述机器的故障时间分布。<br>
-<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517092124.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br>贝塔分布是一种连续概率分布，通常用于描述在一个有限区间内取值的随机变量，比如概率值或者比例。<br>它的形状可以是多样的，取决于贝塔分布的参数。但通常情况下，它呈现出 U 型或者反 U 型的形态。<br>
-<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517092207.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
-贝塔分布的一个重要特点是，它可以用来描述一个随机变量的概率分布，并且在一些统计推断和贝叶斯分析中有重要的应用。<br>如果我们想要建立一个模型来描述一个产品的质量，我们可以使用贝塔分布来描述产品合格的比例。<br><br>均匀分布是一种简单的概率分布，它将所有可能的结果都分布在一个范围内，并且每个结果的概率都是相等的。<br>
-想想想想一下，把一个区间分成若干个等长的小区间，每个小区间内的概率都是相同的，这就是均匀分布。<br>
-它的形状就像是一个长方形，所有的小区间的高度都是一样的，表明每个结果出现的概率都是相等的。<br>
-均匀分布的参数是区间的上下界，它们决定了分布的范围。<br>
-如果我们想要模拟一个骰子的投掷结果，我们可以使用均匀分布，因为在一个公正的骰子中，每个面出现的概率都是相等的。<br>
-<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517092250.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br>二项分布在我们的日常生活中也很常见，比如抛硬币的结果、投掷骰子的结果或者考试中答对题目的次数等。<br>二项分布描述了在一系列独立的伯努利试验中成功次数的分布。这些试验只有两种可能的结果，比如抛硬币可能是正面或反面。<br>这个分布的形状不像钟形曲线那样，它更像是一个条形图。在图的两端，成功次数较少，而在中间，成功次数最多。<br>
-平均值告诉我们在这些试验中预期成功的次数，而标准差则告诉我们成功次数的变化程度。<br>假设我们进行了10次抛硬币的试验，我们想知道有多少次是正面。二项分布可以告诉我们每种可能的正面次数的概率。<br>
-<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517092331.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br>对数正态分布描述了一个随机变量的对数服从正态分布的情况。换句话说，如果一个随机变量的对数是正态分布的，那么该随机变量就服从对数正态分布。<br>它的形状看起来有点像正态分布，但是更加右偏。这是因为正态分布的对数在较大的值处增长得更快。<br>
-<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517092352.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
-对数正态分布通常用于描述一些连续的正数值的分布，比如收入分布、财富分布等。<br>它的参数是正态分布的平均值和标准差，它们决定了对数正态分布的形状。<br>如果我们想要描述一个城市中居民的收入分布，我们可能会发现它符合对数正态分布。<br><br>负二项分布描述了在一系列独立的伯努利试验中，达到指定数量的成功之前的失败次数。<br>与几何分布不同，几何分布是在达到第一次成功时停止，而负二项分布则在达到指定数量的成功时停止。<br>它的形状类似于二项分布，但更为右偏。开始时概率较高，随着试验次数的增加，概率逐渐减小。<br>
-<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517092426.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
-负二项分布的参数是成功的概率和达到指定数量的成功所需的试验次数。成功的概率越高，试验次数越少，分布越向左偏。<br>如果我们重复进行投掷硬币的试验，直到出现5次正面为止，负二项分布可以告诉我们达到5次正面所需的失败次数的概率分布情况。<br>数据科学家在日常工作中使用的一些基本概率分布包括以下 11 个：<br>
-<br>正态分布 (Normal Distribution)：在数据科学中应用广泛，特别是在统计推断和假设检验中。
-<br>泊松分布 (Poisson Distribution)：用于描述单位时间或空间内事件发生的次数的分布，如某个时间段内电话呼叫的数量。
-<br>指数分布 (Exponential Distribution)：描述等待时间或事件之间的间隔时间的分布，例如等待下一次地铁到达的时间。
-<br>伽玛分布 (Gamma Distribution)：在描述连续随机变量的正数值时非常有用，例如在描述等待时间或处理时间时。
-<br>贝塔分布 (Beta Distribution)：通常用于描述概率分布的先验知识，例如在贝叶斯推断中。
-<br>均匀分布 (Uniform Distribution)：用于描述所有可能结果等概率出现的情况，例如抛硬币、掷骰子等。
-<br>二项分布 (Binomial Distribution)：用于描述离散随机变量中成功次数的分布，例如抛硬币、投掷骰子等。
-<br>对数正态分布 (Log-Normal Distribution)：描述一个随机变量的对数服从正态分布的情况，例如财富分布或收入分布。
-<br>负二项分布 (Negative Binomial Distribution)：描述在一系列独立的伯努利试验中，达到指定数量的成功之前的失败次数。
-<br>威布尔分布 (Weibull Distribution)：常用于可靠性工程和寿命分析，描述随机事件的生存时间。<br>
-
-<br>这些分布覆盖了数据科学中许多常见的场景，从描述连续变量到描述离散变量，以及描述等待时间和间隔时间等各种情况。]]></description><link>术语\数据科学家-95-时间都在使用的-10-大基本分布.html</link><guid isPermaLink="false">术语/数据科学家 95% 时间都在使用的 10 大基本分布.md</guid><pubDate>Thu, 20 Jun 2024 12:25:33 GMT</pubDate><enclosure url="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517091725.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240517091725.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[摘要]]></title><description><![CDATA[ 
+最后 导出 为 PDF 即可！]]></description><link>软件\地理绘图\surfer：克里金插值制作贴合的等值线图.html</link><guid isPermaLink="false">软件/地理绘图/Surfer：克里金插值制作贴合的等值线图.md</guid><pubDate>Wed, 31 Jul 2024 01:31:46 GMT</pubDate><enclosure url="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f44d.svg" length="0" type="image/svg+xml"/><content:encoded>&lt;figure&gt;&lt;img src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f44d.svg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[摘要]]></title><description><![CDATA[ 
  <br>
 Correcting for Purifying Selection: An Improved Human Mitochondrial Molecular Clock
 <br><br>目前缺乏一个整合编码区和控制区的全人类mtDNA基因组的校准方法。此外，许多研究者指出，包含可选择性状的线性分子钟存在问题。文章通过分析超过2000个完整的mtDNA基因组，建立了一个全球性的系统发育关系，并使用了人类与黑猩猩分化时间的最新证据进行校准。在mtDNA编码区域观察到温和的<a data-href="净化选择（purifying selection）" href="术语\净化选择（purifying-selection）.html" class="internal-link" target="_self" rel="noopener">净化选择（purifying selection）</a>作用。提出了一种基于全mtDNA基因组的时效依赖突变率，该率仅支持同义突变的中性钟模型。修正后的突变率得到了考古定年的进一步证实。修正的分子钟显示现代人类扩散到美洲的时间约为15000年前，与考古证据相匹配，出非洲外扩散大约在55000至70000年前。文章还提供了mtDNA控制区的改进速率，以及人类mtDNA的首个全面的位置突变率估计。<br><br><br>随着完整mtDNA基因组的测序，全球mtDNA树的分辨率显著提高，极大增强了系统地理分析的潜力。这些非重组遗传标记在结合模型定义框架内的多条线索时，对于系统地理分析特别关键<a data-footref="1" href="about:blank#fn-1-eda6bf95ae7ae0e8" class="footnote-link" target="_self" rel="noopener">[1]</a> <a data-footref="2" href="about:blank#fn-2-eda6bf95ae7ae0e8" class="footnote-link" target="_self" rel="noopener">[2]</a>。当前常用的mtDNA基因组突变率基于线性时间-替代关系，大多研究仅基于编码区，忽视了控制区。另外很重要的一点是，忽略了选择作用的影响<a data-footref="3" href="about:blank#fn-3-eda6bf95ae7ae0e8" class="footnote-link" target="_self" rel="noopener">[3]</a> <a data-footref="4" href="about:blank#fn-4-eda6bf95ae7ae0e8" class="footnote-link" target="_self" rel="noopener">[4]</a> <a data-footref="5" href="about:blank#fn-5-eda6bf95ae7ae0e8" class="footnote-link" target="_self" rel="noopener">[5]</a> <a data-footref="6" href="about:blank#fn-6-eda6bf95ae7ae0e8" class="footnote-link" target="_self" rel="noopener">[6]</a>。古老分支比年轻分支含有更多同义突变，这可能是选择的后果<a data-footref="7" href="about:blank#fn-7-eda6bf95ae7ae0e8" class="footnote-link" target="_self" rel="noopener">[7]</a> <a data-footref="8" href="about:blank#fn-8-eda6bf95ae7ae0e8" class="footnote-link" target="_self" rel="noopener">[8]</a> <a data-footref="9" href="about:blank#fn-9-eda6bf95ae7ae0e8" class="footnote-link" target="_self" rel="noopener">[9]</a>。有害突变可能在群体中暂时存在，但随着时间延长，将会被清除。如果忽略自然选择的作用，那么最终可能得到错误的结果：年轻的支系的年龄会被高估。因此，基于<a data-href="同义突变（Synonymous Mutation）" href="疾病与基因\同义突变（synonymous-mutation）.html" class="internal-link" target="_self" rel="noopener">同义突变（Synonymous Mutation）</a>的计算有助于规避这个问题<a data-footref="10" href="about:blank#fn-10-eda6bf95ae7ae0e8" class="footnote-link" target="_self" rel="noopener">[10]</a>，但是这损失了很大一部分基因序列。<br><br>如何克服选择作用对分子钟估算准确性的影响？突变率是否随时间而变化，以及如何准确描述这一变化？<br><br>使用了2196个完整的公共 <a data-href="线粒体DNA（mtDNA）" href="疾病与基因\线粒体dna（mtdna）.html" class="internal-link" target="_self" rel="noopener">线粒体DNA（mtDNA）</a>，以及用于比较和校准的几个非人类灵长类的序列。使用Network 4软件的减少中位数算法构建系统发育树，构建了三棵独立的系统发育树，分别对应宏单倍群M、N和剩余的非洲L序列，并通过统计每棵树的突变计数来加权分析。将树上的所有突变分类为控制区、tRNA、rRNA、同义突变等类别。使用Gompertz函数模拟平均同义r比例与总r的关系。关注不同类别的突变在时间上的分化程度如何因饱和度不同而变化。使用PAML软件建立ML树。基于近期灵长类进化分支的化石证据，选择了人-黑猩猩分化的时间作为校准点。<br><br>研究证实了人类mtDNA的突变积累是非线性的，这主要是由于<a data-href="净化选择（purifying selection）" href="术语\净化选择（purifying-selection）.html" class="internal-link" target="_self" rel="noopener">净化选择（purifying selection）</a>的作用。以往采用线性编码区时钟的方法确实在一定程度上高估了年轻支系的 <a data-href="最近共同祖先时间(Time to most recent common ancestor，MRCA)" href="术语\最近共同祖先时间(time-to-most-recent-common-ancestor，mrca).html" class="internal-link" target="_self" rel="noopener">最近共同祖先时间(Time to most recent common ancestor，MRCA)</a>。然而，这种高估的程度比通常认为的要小。由于马尔可夫链蒙特卡罗模拟的不透明性，贝叶斯方法难以评估。结合使用整个mtDNA基因组的数据，并以黑猩猩-人类分裂作为主要校准点，是可能的，可以为整个解剖现代人类演化的时间窗口提供可靠的时间深度估计，无需对应被测试而非既定的谱系年龄做任何先验假设，同时避免了循环论证的问题。总体而言，研究结果表明，使用mtDNA的分散时间估计可以建立在一个新的、更可靠的基础上。然而，它们也显示出，与近年来的危言耸听的主张相反，这些结果并不需要对人类mtDNA演化的年代学进行全面的重新评估。<br><br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/202407291455846.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
@@ -8393,158 +8438,7 @@ replace_color_config() {
 replace_color_config "$OUTPUT_PATH/Groupinformation_groupconf.csv" "$OUTPUT_PATH/Groupinformation_groupconf_updated.csv"
 replace_color_config "$OUTPUT_PATH/HAPINFORMATION_groupconf.csv" "$OUTPUT_PATH/HAPINFORMATION_groupconf_updated_HAP.csv"
 
-复制]]></description><link>软件\其它生信软件\群体遗传\自制fasthan脚本——2024年5月16日更新.html</link><guid isPermaLink="false">软件/其它生信软件/群体遗传/自制FastHaN脚本——2024年5月16日更新.md</guid><pubDate>Fri, 21 Jun 2024 07:31:04 GMT</pubDate><enclosure url="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240516175448.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240516175448.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[新功能]]></title><description><![CDATA[ 
- <br><br>将下列2个 python 脚本放在软件目录下：<br>
-<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240516175448.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
-注意，名字必须一样：<br>
-color_replace.py<br>
-extract_fasta_sequences.py<br><br>import pandas as pd
-import sys
-
-# 获取传入的文件路径
-input_file = sys.argv[1]
-output_file = sys.argv[2]
-
-# 定义新的颜色列表
-new_colors = [+
-    '#EA1F1F', '#E88421', '#E5C923',
-    '#FFF924', '#9DEF1B', '#42D726',
-    '#449657', '#4CCCB3', '#369BA8',
-    '#2B7EBC', '#3626D1', '#A128CE','#2D2D2D'
-]
-
-# 读取CSV文件
-df = pd.read_csv(input_file, delimiter=';', header=None, names=['Group', 'Color', 'Value'])
-
-# 创建一个字典来跟踪颜色的分配以避免重复
-assigned_colors = {}
-
-# 替换颜色的函数并处理重复情况
-def replace_colors_v3(row, color_index):
-    color = new_colors[color_index % len(new_colors)]
-    if color in assigned_colors:
-        occurrence = assigned_colors[color]
-        row['Value'] = f'lines-{occurrence * 2 - 1}'
-        assigned_colors[color] += 1
-    else:
-        assigned_colors[color] = 1
-    row['Color'] = color
-    return row
-
-# 替换数据框中的颜色
-color_index = 0
-for i in range(len(df)):
-    df.iloc[i] = replace_colors_v3(df.iloc[i], color_index)
-    color_index += 1
-
-# 保存修改后的数据框到新的CSV文件
-df.to_csv(output_file, sep=';', index=False, header=False)
-
-复制<br><br>import sys
-import pandas as pd
-
-def read_ids(filename):
-    ids = pd.read_csv(filename, sep='\t', header=None, usecols=[0])
-    return ids[0].tolist()
-
-def filter_fasta(input_fasta, ids, output_fasta):
-    with open(input_fasta, 'r') as fasta_file, open(output_fasta, 'w') as outfile:
-        write_sequence = False
-        for line in fasta_file:
-            if line.startswith('&gt;'):
-                sequence_id = line.split('&gt;')[1].strip().split(' ')[0]
-                if sequence_id in ids:
-                    write_sequence = True
-                    outfile.write(line)
-                else:
-                    write_sequence = False
-            elif write_sequence:
-                outfile.write(line)
-
-def main(input_ids_file, input_fasta_file, output_fasta_file):
-    ids = read_ids(input_ids_file)
-    filter_fasta(input_fasta_file, ids, output_fasta_file)
-    print("Filtered fasta file has been created.")
-
-if __name__ == '__main__':
-    if len(sys.argv) != 4:
-        print("Usage: python extract_fasta_sequences.py &lt;meta_file&gt; &lt;fasta_file&gt; &lt;output_file&gt;")
-        sys.exit(1)
-    main(sys.argv[1], sys.argv[2], sys.argv[3])
-
-复制<br><br>#!/bin/bash
-
-# 基础路径设置
-FASTA_PATH="/mnt/c/Users/victo/Desktop/Illumina_mtDNA_hap.fasta"
-OUTPUT_PATH="/mnt/c/Users/victo/Desktop/output"
-SOFTWARE_PATH="/mnt/e/Scientifc_software/fastHaN-main/fastHaN-main/"
-META_FILE="/mnt/c/Users/victo/Desktop/文本.txt"
-META_HAP_FILE="/mnt/c/Users/victo/Desktop/文本_HAP.txt"
-
-# 输出的 FASTA 文件路径
-OUTPUT_FASTA="${OUTPUT_PATH}/filtered_sequences.fasta"
-
-# 提取序列并保存
-python3 "${SOFTWARE_PATH}extract_fasta_sequences.py" "$META_FILE" "$FASTA_PATH" "$OUTPUT_FASTA"
-
-# 文件转换并压缩
-GZ_FILE="$OUTPUT_PATH/fasta2phylip.phy.gz"
-python "${SOFTWARE_PATH}Pipline/Fasta2Phylip.py" "$OUTPUT_FASTA" | gzip &gt; "$GZ_FILE"
-
-# 定义一个函数来执行网络计算
-run_network_algorithm() {
-    algorithm=$1
-    input_file=$2
-    output_dir=$3
-    extra_args=$4
-    "${SOFTWARE_PATH}fastHaN_linux" $algorithm -i "$input_file" $extra_args -o "$output_dir"
-}
-
-# 执行各种网络计算算法
-run_network_algorithm "original_tcs" "$GZ_FILE" "$OUTPUT_PATH/ORIGIN_TCS" "-t 8 -a 1 -m 1"
-run_network_algorithm "mjn" "$GZ_FILE" "$OUTPUT_PATH/MJN" "-t 8 -e 0"
-run_network_algorithm "modified_tcs" "$GZ_FILE" "$OUTPUT_PATH/TCS" "-t 8"
-run_network_algorithm "msn" "$GZ_FILE" "$OUTPUT_PATH/MSN" "-e 0"
-
-# 生成网络配置文件
-generate_network_config() {
-    json_file=$1
-    meta_file=$2
-    output_dir=$3
-    python "${SOFTWARE_PATH}Script/GenNetworkConfig.py" "$json_file" "$meta_file" "$output_dir"
-}
-
-for algorithm in "ORIGIN_TCS" "MJN" "TCS" "MSN"; do
-    generate_network_config "$OUTPUT_PATH/${algorithm}.json" "$META_FILE" "$OUTPUT_PATH/Groupinformation"
-    generate_network_config "$OUTPUT_PATH/${algorithm}.json" "$META_HAP_FILE" "$OUTPUT_PATH/HAPINFORMATION"
-done
-
-# 替换颜色配置文件
-replace_color_config() {
-    input_file=$1
-    output_file=$2
-    python3 "${SOFTWARE_PATH}color_replace.py" "$input_file" "$output_file"
-}
-
-replace_color_config "$OUTPUT_PATH/Groupinformation_groupconf.csv" "$OUTPUT_PATH/Groupinformation_groupconf_updated.csv"
-replace_color_config "$OUTPUT_PATH/HAPINFORMATION_groupconf.csv" "$OUTPUT_PATH/HAPINFORMATION_groupconf_updated_HAP.csv"
-
-复制]]></description><link>软件\其它生信软件\群体遗传\自制fasthan脚本——2024年5月16日更新-1.html</link><guid isPermaLink="false">软件/其它生信软件/群体遗传/自制FastHaN脚本——2024年5月16日更新 1.md</guid><pubDate>Thu, 20 Jun 2024 15:01:56 GMT</pubDate><enclosure url="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240516175448.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240516175448.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[详细使用指南]]></title><description><![CDATA[ 
- <br><br><br>首先，下载自制的脚本的软件包。<br>
-链接： <a rel="noopener" class="external-link" href="https://picturerealm.oss-cn-chengdu.aliyuncs.com/%E9%99%84%E4%BB%B6/fastHaN%E8%87%AA%E5%88%B6%E8%84%9A%E6%9C%AC.zip" target="_blank">https://picturerealm.oss-cn-chengdu.aliyuncs.com/%E9%99%84%E4%BB%B6/fastHaN%E8%87%AA%E5%88%B6%E8%84%9A%E6%9C%AC.zip</a><br><br>脚本需要 Linux 系统运行。<br><br>你需要准备三个文件：<br><br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240522163203.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240522163248.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
-用 制表符 分割，没有标题。<br><br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240522163330.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
-用 制表符 分割，没有标题。<br><br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240522163416.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
-<br>FASTA_PATH 修改为 fasta 文件路径
-<br>OUTPUT_PATH 修改为输出文件路径
-<br>SOFTWARE_PATH 修改为软件所在路径，具体可以看看下图：<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240522163527.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;">
-<br>META_FILE 修改为分组文件（按照其他条件分）
-<br>META_HAP_FILE 修改为分组文件（按照单倍群分）
-<br><br>省略<br><br>运行成功之后，会得到如下文件。<br>
-<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240522163718.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
-其中我们需要的是 csv, gml 文件。带 updated 的文件是我配的彩虹色，可以用也可以不用。为了修改颜色，可以到软件的 color_replace.py 文件中修改。<br>
-<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240522163851.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br>找到如下文件：<br>
-<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240522163942.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>用浏览器打开。<br><br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240522164122.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br>
-<img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240522164206.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;"><br><br><img alt="image.png" src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240522164306.png" referrerpolicy="no-referrer" style="width: 500px; max-width: 100%;">]]></description><link>软件\其它生信软件\群体遗传\自制fasthan脚本——2024年5月22日更新.html</link><guid isPermaLink="false">软件/其它生信软件/群体遗传/自制FastHaN脚本——2024年5月22日更新.md</guid><pubDate>Fri, 21 Jun 2024 07:31:05 GMT</pubDate><enclosure url="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240522163203.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240522163203.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[ANGSD（Analysis of Next Generation Sequencing Data）]]></title><description><![CDATA[ 
+复制]]></description><link>软件\其它生信软件\群体遗传\自制fasthan脚本——2024年5月16日更新.html</link><guid isPermaLink="false">软件/其它生信软件/群体遗传/自制FastHaN脚本——2024年5月16日更新.md</guid><pubDate>Fri, 21 Jun 2024 07:31:04 GMT</pubDate><enclosure url="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240516175448.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://picturerealm.oss-cn-chengdu.aliyuncs.com/obsidian/20240516175448.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[ANGSD（Analysis of Next Generation Sequencing Data）]]></title><description><![CDATA[ 
  <br>是一个用于复杂遗传数据分析的工具，尤其擅长处理来自高通量测序技术的数据。它可以用来估计 SFS，包括单群体和多群体的情况。<br>
 <br>安装 ANGSD（如果还未安装）：可通过ANGSD的<a data-tooltip-position="top" aria-label="https://github.com/ANGSD/angsd" rel="noopener" class="external-link" href="https://github.com/ANGSD/angsd" target="_blank">GitHub页面</a>获取安装指南。
 <br>准备数据：确保VCF文件已经准备好并且索引（可以使用tabix工具进行索引）。
