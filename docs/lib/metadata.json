@@ -1,6 +1,6 @@
 {
   "vaultName": "思维领域",
-  "lastExport": 1723701431934,
+  "lastExport": 1723775090141,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager theme-dark show-inline-title show-ribbon h2-underline",
   "useCustomHeadContent": false,
@@ -129,13 +129,9 @@
     "软件/其它生信软件/群体遗传/特定某个单倍群与经纬度相关性回归.md",
     "软件/其它生信软件/群体遗传/位点频谱SFS (site frequency spectrum).md",
     "软件/其它生信软件/群体遗传/相关性热图绘制.md",
-    "软件/其它生信软件/群体遗传/自制FastHaN脚本——2024年5月13日更新.md",
-    "软件/其它生信软件/群体遗传/自制FastHaN脚本——2024年5月16日更新.md",
-    "软件/其它生信软件/群体遗传/自制FastHaN脚本——2024年5月22日更新.md",
     "软件/其它生信软件/群体遗传/ANGSD（Analysis of Next Generation Sequencing Data）.md",
     "软件/其它生信软件/群体遗传/Arlequin：计算群体多样性指标.md",
     "软件/其它生信软件/群体遗传/easySFS.md",
-    "软件/其它生信软件/群体遗传/FastHaN软件——陈华.md",
     "软件/其它生信软件/群体遗传/fastsimcoal2.md",
     "软件/其它生信软件/群体遗传/Haplogrep2：生成突变位点信息的支系系统发育树.md",
     "软件/其它生信软件/群体遗传/Haplogrep3：软件使用手册.md",
@@ -164,6 +160,11 @@
     "软件/BEAST/BEAST：线粒体DNA的BSP设置.md",
     "软件/BEAST/BEAST：在服务器内运行.md",
     "软件/BEAST/MrBayes：贝叶斯方法建树.md",
+    "软件/FastHaN/自制FastHaN脚本——2024年5月13日更新.md",
+    "软件/FastHaN/自制FastHaN脚本——2024年5月16日更新.md",
+    "软件/FastHaN/自制FastHaN脚本——2024年5月22日更新.md",
+    "软件/FastHaN/自制FastHaN脚本——2024年8月16日更新.md",
+    "软件/FastHaN/FastHaN软件——陈华.md",
     "软件/IQtree/iqtree：基础操作.md",
     "软件/IQtree/iqtree：线粒体最大似然树.md",
     "软件/IQtree/iqtree：寻找最优模型及分区.md",
@@ -479,6 +480,7 @@
     "术语/山顶洞人.md",
     "术语/山戎.md",
     "术语/上山文化.md",
+    "术语/肾透明细胞癌(clear cell renal cell carcinomas , ccRCCs).md",
     "术语/生灭模型(birth-death model).md",
     "术语/生态学十大法则.md",
     "术语/绳文人.md",
@@ -689,6 +691,7 @@
     "文献及报道/文献/2024 Cell 人类谱系中线粒体 DNA 突变的速率和性质.md",
     "文献及报道/文献/2024 JGG 自然选择塑造了线粒体DNA支系在汉族人群中对抵御肥胖的保护作用.md",
     "文献及报道/文献/2024 NA 母亲年龄增强了哺乳动物 mtDNA 复合物 I 致病性突变的净化选择.md",
+    "文献及报道/文献/2024 Nature 线粒体复合物I促进肾癌转移.md",
     "文献及报道/文献/2024 NC 线粒体DNA突变引起肠道老化的基础是依赖NAD+的线粒体蛋白质应激反应的激活.md",
     "文献及报道/文献/9500-1800年前的山东的母系遗传结构.md",
     "文献及报道/文献/45000年前的西部西伯利亚现代人类的基因组测序.md",
@@ -1508,24 +1511,6 @@
       "exportedPath": "软件/其它生信软件/群体遗传/相关性热图绘制.html",
       "dependencies": []
     },
-    "软件/其它生信软件/群体遗传/自制FastHaN脚本——2024年5月13日更新.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 5558,
-      "exportedPath": "软件/其它生信软件/群体遗传/自制fasthan脚本——2024年5月13日更新.html",
-      "dependencies": []
-    },
-    "软件/其它生信软件/群体遗传/自制FastHaN脚本——2024年5月16日更新.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 4812,
-      "exportedPath": "软件/其它生信软件/群体遗传/自制fasthan脚本——2024年5月16日更新.html",
-      "dependencies": []
-    },
-    "软件/其它生信软件/群体遗传/自制FastHaN脚本——2024年5月22日更新.md": {
-      "modifiedTime": 1722592815886,
-      "sourceSize": 2234,
-      "exportedPath": "软件/其它生信软件/群体遗传/自制fasthan脚本——2024年5月22日更新.html",
-      "dependencies": []
-    },
     "软件/其它生信软件/群体遗传/ANGSD（Analysis of Next Generation Sequencing Data）.md": {
       "modifiedTime": 1721117767063,
       "sourceSize": 645,
@@ -1536,12 +1521,6 @@
       "modifiedTime": 1721117767063,
       "sourceSize": 11545,
       "exportedPath": "软件/其它生信软件/群体遗传/easysfs.html",
-      "dependencies": []
-    },
-    "软件/其它生信软件/群体遗传/FastHaN软件——陈华.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 12491,
-      "exportedPath": "软件/其它生信软件/群体遗传/fasthan软件——陈华.html",
       "dependencies": []
     },
     "软件/其它生信软件/群体遗传/fastsimcoal2.md": {
@@ -3483,7 +3462,7 @@
       "dependencies": []
     },
     "术语/数据科学家 95 时间都在使用的 10 大基本分布.md": {
-      "modifiedTime": 1723701431934,
+      "modifiedTime": 1723775090141,
       "sourceSize": 10258,
       "exportedPath": "术语/数据科学家-95-时间都在使用的-10-大基本分布.html",
       "dependencies": []
@@ -5241,8 +5220,8 @@
       "dependencies": []
     },
     "Home/Homepage.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 3343,
+      "modifiedTime": 1723775090141,
+      "sourceSize": 3390,
       "exportedPath": "home/homepage.html",
       "dependencies": []
     },
@@ -5283,97 +5262,97 @@
       "dependencies": []
     },
     "lib/scripts/graph-wasm.wasm": {
-      "modifiedTime": 1723701431934,
+      "modifiedTime": 1723775090141,
       "sourceSize": 23377,
       "exportedPath": "lib/scripts/graph-wasm.wasm",
       "dependencies": []
     },
     "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1723701431934,
+      "modifiedTime": 1723775090141,
       "sourceSize": 66800,
       "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
       "dependencies": []
     },
     "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1723701431934,
+      "modifiedTime": 1723775090141,
       "sourceSize": 104232,
       "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
       "dependencies": []
     },
     "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1723701431934,
+      "modifiedTime": 1723775090141,
       "sourceSize": 104332,
       "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
       "dependencies": []
     },
     "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1723701431934,
+      "modifiedTime": 1723775090141,
       "sourceSize": 98868,
       "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
       "dependencies": []
     },
     "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1723701431934,
+      "modifiedTime": 1723775090141,
       "sourceSize": 106876,
       "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
       "dependencies": []
     },
     "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1723701431934,
+      "modifiedTime": 1723775090141,
       "sourceSize": 105804,
       "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
       "dependencies": []
     },
     "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1723701431934,
+      "modifiedTime": 1723775090141,
       "sourceSize": 106108,
       "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
       "dependencies": []
     },
     "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1723701431934,
+      "modifiedTime": 1723775090141,
       "sourceSize": 111708,
       "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
       "dependencies": []
     },
     "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1723701431934,
+      "modifiedTime": 1723775090141,
       "sourceSize": 192740,
       "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
       "dependencies": []
     },
     "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1723701431934,
+      "modifiedTime": 1723775090141,
       "sourceSize": 161376,
       "exportedPath": "lib/fonts/454577c22304619db035.ttf",
       "dependencies": []
     },
     "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1723701431934,
+      "modifiedTime": 1723775090141,
       "sourceSize": 191568,
       "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
       "dependencies": []
     },
     "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1723701431934,
+      "modifiedTime": 1723775090141,
       "sourceSize": 155288,
       "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
       "dependencies": []
     },
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1723701431934,
+      "modifiedTime": 1723775090141,
       "sourceSize": 7876,
       "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
       "dependencies": []
     },
     "lib/media/874d8b8e340f75575caa.svg": {
-      "modifiedTime": 1723701431934,
+      "modifiedTime": 1723775090141,
       "sourceSize": 317,
       "exportedPath": "lib/media/874d8b8e340f75575caa.svg",
       "dependencies": []
     },
     "lib/media/3d6c1bdc4d87cde4de67.svg": {
-      "modifiedTime": 1723701431934,
+      "modifiedTime": 1723775090141,
       "sourceSize": 279,
       "exportedPath": "lib/media/3d6c1bdc4d87cde4de67.svg",
       "dependencies": []
@@ -5511,97 +5490,97 @@
       "dependencies": []
     },
     "lib/html/file-tree.html": {
-      "modifiedTime": 1723701431934,
-      "sourceSize": 603774,
+      "modifiedTime": 1723775090141,
+      "sourceSize": 606720,
       "exportedPath": "lib/html/file-tree.html",
       "dependencies": []
     },
     "lib/scripts/webpage.js": {
-      "modifiedTime": 1723701431934,
+      "modifiedTime": 1723775090141,
       "sourceSize": 47290,
       "exportedPath": "lib/scripts/webpage.js",
       "dependencies": []
     },
     "lib/scripts/graph-view.js": {
-      "modifiedTime": 1723701431934,
+      "modifiedTime": 1723775090141,
       "sourceSize": 15519,
       "exportedPath": "lib/scripts/graph-view.js",
       "dependencies": []
     },
     "lib/scripts/graph-wasm.js": {
-      "modifiedTime": 1723701431934,
+      "modifiedTime": 1723775090141,
       "sourceSize": 14021,
       "exportedPath": "lib/scripts/graph-wasm.js",
       "dependencies": []
     },
     "lib/scripts/graph-render-worker.js": {
-      "modifiedTime": 1723701431934,
+      "modifiedTime": 1723775090141,
       "sourceSize": 5179,
       "exportedPath": "lib/scripts/graph-render-worker.js",
       "dependencies": []
     },
     "lib/scripts/tinycolor.js": {
-      "modifiedTime": 1723701431934,
+      "modifiedTime": 1723775090141,
       "sourceSize": 29832,
       "exportedPath": "lib/scripts/tinycolor.js",
       "dependencies": []
     },
     "lib/scripts/pixi.js": {
-      "modifiedTime": 1723701431934,
+      "modifiedTime": 1723775090141,
       "sourceSize": 449509,
       "exportedPath": "lib/scripts/pixi.js",
       "dependencies": []
     },
     "lib/scripts/minisearch.js": {
-      "modifiedTime": 1723701431934,
+      "modifiedTime": 1723775090141,
       "sourceSize": 29422,
       "exportedPath": "lib/scripts/minisearch.js",
       "dependencies": []
     },
     "lib/media/favicon.png": {
-      "modifiedTime": 1723701431934,
+      "modifiedTime": 1723775090141,
       "sourceSize": 1105,
       "exportedPath": "lib/media/favicon.png",
       "dependencies": []
     },
     "lib/scripts/graph-data.js": {
-      "modifiedTime": 1723701431934,
-      "sourceSize": 64459,
+      "modifiedTime": 1723775090141,
+      "sourceSize": 64913,
       "exportedPath": "lib/scripts/graph-data.js",
       "dependencies": []
     },
     "lib/styles/obsidian.css": {
-      "modifiedTime": 1723701431934,
+      "modifiedTime": 1723775090141,
       "sourceSize": 130471,
       "exportedPath": "lib/styles/obsidian.css",
       "dependencies": []
     },
     "lib/styles/other-plugins.css": {
-      "modifiedTime": 1723701431934,
+      "modifiedTime": 1723775090141,
       "sourceSize": 52851,
       "exportedPath": "lib/styles/other-plugins.css",
       "dependencies": []
     },
     "lib/styles/theme.css": {
-      "modifiedTime": 1723701431934,
+      "modifiedTime": 1723775090141,
       "sourceSize": 41426,
       "exportedPath": "lib/styles/theme.css",
       "dependencies": []
     },
     "lib/styles/global-variable-styles.css": {
-      "modifiedTime": 1723701431934,
+      "modifiedTime": 1723775090141,
       "sourceSize": 367,
       "exportedPath": "lib/styles/global-variable-styles.css",
       "dependencies": []
     },
     "lib/styles/supported-plugins.css": {
-      "modifiedTime": 1723701431934,
+      "modifiedTime": 1723775090141,
       "sourceSize": 119,
       "exportedPath": "lib/styles/supported-plugins.css",
       "dependencies": []
     },
     "lib/styles/main-styles.css": {
-      "modifiedTime": 1723701431934,
+      "modifiedTime": 1723775090141,
       "sourceSize": 23130,
       "exportedPath": "lib/styles/main-styles.css",
       "dependencies": []
@@ -6024,6 +6003,48 @@
       "modifiedTime": 1723701431934,
       "sourceSize": 8989,
       "exportedPath": "文献及报道/文献/2024-nc-线粒体dna突变引起肠道老化的基础是依赖nad+的线粒体蛋白质应激反应的激活.html",
+      "dependencies": []
+    },
+    "软件/FastHaN/自制FastHaN脚本——2024年5月13日更新.md": {
+      "modifiedTime": 1723775090141,
+      "sourceSize": 5558,
+      "exportedPath": "软件/fasthan/自制fasthan脚本——2024年5月13日更新.html",
+      "dependencies": []
+    },
+    "软件/FastHaN/自制FastHaN脚本——2024年5月16日更新.md": {
+      "modifiedTime": 1723775090141,
+      "sourceSize": 4812,
+      "exportedPath": "软件/fasthan/自制fasthan脚本——2024年5月16日更新.html",
+      "dependencies": []
+    },
+    "软件/FastHaN/自制FastHaN脚本——2024年5月22日更新.md": {
+      "modifiedTime": 1723775090141,
+      "sourceSize": 2168,
+      "exportedPath": "软件/fasthan/自制fasthan脚本——2024年5月22日更新.html",
+      "dependencies": []
+    },
+    "软件/FastHaN/自制FastHaN脚本——2024年8月16日更新.md": {
+      "modifiedTime": 1723775090141,
+      "sourceSize": 3940,
+      "exportedPath": "软件/fasthan/自制fasthan脚本——2024年8月16日更新.html",
+      "dependencies": []
+    },
+    "软件/FastHaN/FastHaN软件——陈华.md": {
+      "modifiedTime": 1723775090141,
+      "sourceSize": 12491,
+      "exportedPath": "软件/fasthan/fasthan软件——陈华.html",
+      "dependencies": []
+    },
+    "术语/肾透明细胞癌(clear cell renal cell carcinomas , ccRCCs).md": {
+      "modifiedTime": 1723775090141,
+      "sourceSize": 0,
+      "exportedPath": "术语/肾透明细胞癌(clear-cell-renal-cell-carcinomas-,-ccrccs).html",
+      "dependencies": []
+    },
+    "文献及报道/文献/2024 Nature 线粒体复合物I促进肾癌转移.md": {
+      "modifiedTime": 1723775090141,
+      "sourceSize": 8098,
+      "exportedPath": "文献及报道/文献/2024-nature-线粒体复合物i促进肾癌转移.html",
       "dependencies": []
     }
   }
