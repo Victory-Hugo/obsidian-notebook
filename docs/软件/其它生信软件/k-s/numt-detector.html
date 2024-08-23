@@ -1,0 +1,1029 @@
+<!DOCTYPE html> <html><head>
+		<title>NUMT-detector</title>
+		<base href="..\..\../">
+		<meta id="root-path" root-path="..\..\../">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, minimum-scale=1.0, maximum-scale=5.0">
+		<meta charset="UTF-8">
+		<meta name="description" content="思维领域 - NUMT-detector">
+		<meta property="og:title" content="NUMT-detector">
+		<meta property="og:description" content="思维领域 - NUMT-detector">
+		<meta property="og:type" content="website">
+		<meta property="og:url" content="软件/其它生信软件/k-s/numt-detector.html">
+		<meta property="og:image" content="undefined">
+		<meta property="og:site_name" content="思维领域">
+		<link rel="alternate" type="application/rss+xml" title="RSS Feed" href="lib/rss.xml"><script async="" id="webpage-script" src="lib/scripts/webpage.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script type="module" async="" id="graph-view-script" src="lib/scripts/graph-view.js"></script><script async="" id="graph-wasm-script" src="lib/scripts/graph-wasm.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="graph-render-worker-script" src="lib/scripts/graph-render-worker.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="tinycolor-script" src="lib/scripts/tinycolor.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="pixi-script" src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/7.4.0/pixi.min.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="minisearch-script" src="https://cdn.jsdelivr.net/npm/minisearch@6.3.0/dist/umd/index.min.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><link rel="icon" href="lib/media/favicon.png"><script async="" id="graph-data-script" src="lib/scripts/graph-data.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><style>body{--line-width:40em;--line-width-adaptive:40em;--file-line-width:40em;--sidebar-width:min(20em, 80vw);--collapse-arrow-size:11px;--tree-horizontal-spacing:0.6em;--tree-vertical-spacing:0.6em;--sidebar-margin:12px}.sidebar{height:100%;min-width:calc(var(--sidebar-width) + var(--divider-width-hover));max-width:calc(var(--sidebar-width) + var(--divider-width-hover));font-size:14px;z-index:10;position:relative;overflow:hidden;transition:min-width ease-in-out,max-width ease-in-out;transition-duration:.2s;contain:size}.sidebar-left{left:0}.sidebar-right{right:0}.sidebar.is-collapsed{min-width:0;max-width:0}body.floating-sidebars .sidebar{position:absolute}.sidebar-content{height:100%;min-width:calc(var(--sidebar-width) - var(--divider-width-hover));top:0;padding:var(--sidebar-margin);padding-top:4em;line-height:var(--line-height-tight);background-color:var(--background-secondary);transition:background-color,border-right,border-left,box-shadow;transition-duration:var(--color-fade-speed);transition-timing-function:ease-in-out;position:absolute;display:flex;flex-direction:column}.sidebar:not(.is-collapsed) .sidebar-content{min-width:calc(max(100%,var(--sidebar-width)) - 3px);max-width:calc(max(100%,var(--sidebar-width)) - 3px)}.sidebar-left .sidebar-content{left:0;border-top-right-radius:var(--radius-l);border-bottom-right-radius:var(--radius-l)}.sidebar-right .sidebar-content{right:0;border-top-left-radius:var(--radius-l);border-bottom-left-radius:var(--radius-l)}.sidebar:has(.sidebar-content:empty):has(.topbar-content:empty){display:none}.sidebar-topbar{height:2em;width:var(--sidebar-width);top:var(--sidebar-margin);padding-inline:var(--sidebar-margin);z-index:1;position:fixed;display:flex;align-items:center;transition:width ease-in-out;transition-duration:inherit}.sidebar.is-collapsed .sidebar-topbar{width:calc(2.3em + var(--sidebar-margin) * 2)}.sidebar .sidebar-topbar.is-collapsed{width:0}.sidebar-left .sidebar-topbar{left:0}.sidebar-right .sidebar-topbar{right:0}.topbar-content{overflow:hidden;overflow:clip;width:100%;height:100%;display:flex;align-items:center;transition:inherit}.sidebar.is-collapsed .topbar-content{width:0;transition:inherit}.clickable-icon.sidebar-collapse-icon{background-color:transparent;color:var(--icon-color-focused);padding:0!important;margin:0!important;height:100%!important;width:2.3em!important;margin-inline:0.14em!important;position:absolute}.sidebar-left .clickable-icon.sidebar-collapse-icon{transform:rotateY(180deg);right:var(--sidebar-margin)}.sidebar-right .clickable-icon.sidebar-collapse-icon{transform:rotateY(180deg);left:var(--sidebar-margin)}.clickable-icon.sidebar-collapse-icon svg.svg-icon{width:100%;height:100%}.sidebar-section-header{margin:0 0 1em 0;text-transform:uppercase;letter-spacing:.06em;font-weight:600}body{transition:background-color var(--color-fade-speed) ease-in-out}.webpage-container{display:flex;flex-direction:row;height:100%;width:100%;align-items:stretch;justify-content:center}.document-container{opacity:1;flex-basis:100%;max-width:100%;width:100%;height:100%;display:flex;flex-direction:column;align-items:center;transition:opacity .2s ease-in-out;contain:inline-size}.hide{opacity:0;transition:opacity .2s ease-in-out}.document-container>.markdown-preview-view{margin:var(--sidebar-margin);margin-bottom:0;width:100%;width:-webkit-fill-available;width:-moz-available;width:fill-available;background-color:var(--background-primary);transition:background-color var(--color-fade-speed) ease-in-out;border-top-right-radius:var(--window-radius,var(--radius-m));border-top-left-radius:var(--window-radius,var(--radius-m));overflow-x:hidden!important;overflow-y:auto!important;display:flex!important;flex-direction:column!important;align-items:center!important;contain:inline-size}.document-container>.markdown-preview-view>.markdown-preview-sizer{padding-bottom:80vh!important;width:100%!important;max-width:var(--line-width)!important;flex-basis:var(--line-width)!important;transition:background-color var(--color-fade-speed) ease-in-out;contain:inline-size}.markdown-rendered img:not([width]),.view-content img:not([width]){max-width:100%;outline:0}.document-container>.view-content.embed{display:flex;padding:1em;height:100%;width:100%;align-items:center;justify-content:center}.document-container>.view-content.embed>*{max-width:100%;max-height:100%;object-fit:contain}:has(> :is(.math,table)){overflow-x:auto!important}.document-container>.view-content{overflow-x:auto;contain:content;padding:0;margin:0;height:100%}.scroll-highlight{position:absolute;width:100%;height:100%;pointer-events:none;z-index:1000;background-color:hsla(var(--color-accent-hsl),.25);opacity:0;padding:1em;inset:50%;translate:-50% -50%;border-radius:var(--radius-s)}</style><script defer="">async function loadIncludes(){if("file:"!=location.protocol){let e=document.querySelectorAll("include");for(let t=0;t<e.length;t++){let o=e[t],l=o.getAttribute("src");try{const e=await fetch(l);if(!e.ok){console.log("Could not include file: "+l),o?.remove();continue}let t=await e.text(),n=document.createRange().createContextualFragment(t),i=Array.from(n.children);for(let e of i)e.classList.add("hide"),e.style.transition="opacity 0.5s ease-in-out",setTimeout((()=>{e.classList.remove("hide")}),10);o.before(n),o.remove(),console.log("Included file: "+l)}catch(e){o?.remove(),console.log("Could not include file: "+l,e);continue}}}else{if(document.querySelectorAll("include").length>0){var e=document.createElement("div");e.id="error",e.textContent="Web server exports must be hosted on an http / web server to be viewed correctly.",e.style.position="fixed",e.style.top="50%",e.style.left="50%",e.style.transform="translate(-50%, -50%)",e.style.fontSize="1.5em",e.style.fontWeight="bold",e.style.textAlign="center",document.body.appendChild(e),document.querySelector(".document-container")?.classList.remove("hide")}}}document.addEventListener("DOMContentLoaded",(()=>{loadIncludes()}));let isFileProtocol="file:"==location.protocol;function waitLoadScripts(e,t){let o=e.map((e=>document.getElementById(e+"-script"))),l=0;!function e(){let n=o[l];l++,n&&"true"!=n.getAttribute("loaded")||l<o.length&&e(),l<o.length?n.addEventListener("load",e):t()}()}</script><link rel="stylesheet" href="lib/styles/obsidian.css"><link rel="preload" href="lib/styles/other-plugins.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="lib/styles/other-plugins.css"></noscript><link rel="stylesheet" href="lib/styles/theme.css"><link rel="preload" href="lib/styles/global-variable-styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="lib/styles/global-variable-styles.css"></noscript><link rel="preload" href="lib/styles/supported-plugins.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="lib/styles/supported-plugins.css"></noscript><link rel="preload" href="lib/styles/main-styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="lib/styles/main-styles.css"></noscript></head><body class="publish css-settings-manager theme-dark show-inline-title show-ribbon h2-underline"><script defer="">let theme=localStorage.getItem("theme")||(window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");"dark"==theme?(document.body.classList.add("theme-dark"),document.body.classList.remove("theme-light")):(document.body.classList.add("theme-light"),document.body.classList.remove("theme-dark")),window.innerWidth<480?document.body.classList.add("is-phone"):window.innerWidth<768?document.body.classList.add("is-tablet"):window.innerWidth<1024?document.body.classList.add("is-small-screen"):document.body.classList.add("is-large-screen")</script><div class="webpage-container workspace"><div class="sidebar-left sidebar"><div class="sidebar-handle"></div><div class="sidebar-topbar"><div class="topbar-content"><label class="theme-toggle-container" for="theme_toggle"><input class="theme-toggle-input" type="checkbox" id="theme_toggle"><div class="toggle-background"></div></label></div><div class="clickable-icon sidebar-collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><path d="M21 3H3C1.89543 3 1 3.89543 1 5V19C1 20.1046 1.89543 21 3 21H21C22.1046 21 23 20.1046 23 19V5C23 3.89543 22.1046 3 21 3Z"></path><path d="M10 4V20"></path><path d="M4 7H7"></path><path d="M4 10H7"></path><path d="M4 13H7"></path></svg></div></div><div class="sidebar-content"><div class="search-input-container"><input enterkeyhint="search" type="search" spellcheck="false" placeholder="Search..."><div class="search-input-clear-button" aria-label="Clear search"></div></div><include src="lib/html/file-tree.html"></include></div><script defer="">let ls = document.querySelector(".sidebar-left"); ls.classList.add("is-collapsed"); if (window.innerWidth > 768) ls.classList.remove("is-collapsed"); ls.style.setProperty("--sidebar-width", localStorage.getItem("sidebar-left-width"));</script></div><div class="document-container markdown-reading-view hide"><div class="markdown-preview-view markdown-rendered allow-fold-headings allow-fold-lists is-readable-line-width"><style id="MJX-CHTML-styles">mjx-c.mjx-c2192::before{padding:.511em 1em .011em 0;content:"→"}mjx-c.mjx-c1D443.TEX-I::before{padding:.683em .751em 0 0;content:"P"}mjx-munderover{display:inline-block;text-align:left}mjx-munderover:not([limits=false]){padding-top:.1em}mjx-munderover:not([limits=false])>*{display:block}mjx-msubsup{display:inline-block;text-align:left}mjx-script{display:inline-block;padding-right:.05em;padding-left:.033em}mjx-script>mjx-spacer{display:block}mjx-texatom{display:inline-block;text-align:left}mjx-msub{display:inline-block;text-align:left}mjx-msqrt{display:inline-block;text-align:left}mjx-root{display:inline-block;white-space:nowrap}mjx-surd{display:inline-block;vertical-align:top}mjx-sqrt{display:inline-block;padding-top:.07em}mjx-sqrt>mjx-box{border-top:.07em solid}mjx-sqrt.mjx-tall>mjx-box{padding-left:.3em;margin-left:-.3em}mjx-mover{display:inline-block;text-align:left}mjx-mover:not([limits=false]){padding-top:.1em}mjx-mover:not([limits=false])>*{display:block;text-align:left}mjx-c.mjx-c1D70B.TEX-I::before{padding:.431em .57em .011em 0;content:"π"}mjx-c.mjx-c1D458.TEX-I::before{padding:.694em .521em .011em 0;content:"k"}mjx-c.mjx-c2F::before{padding:.75em .5em .25em 0;content:"/"}mjx-c.mjx-c1D703.TEX-I::before{padding:.705em .469em .01em 0;content:"θ"}mjx-c.mjx-c1D446.TEX-I::before{padding:.705em .645em .022em 0;content:"S"}mjx-c.mjx-c1D460.TEX-I::before{padding:.442em .469em .01em 0;content:"s"}mjx-c.mjx-c2E::before{padding:.12em .278em 0 0;content:"."}mjx-c.mjx-c1D451.TEX-I::before{padding:.694em .52em .01em 0;content:"d"}mjx-c.mjx-c221A.TEX-S4::before{padding:1.75em 1.02em 1.25em 0;content:"√"}mjx-c.mjx-c1D465.TEX-I::before{padding:.442em .572em .011em 0;content:"x"}mjx-c.mjx-cAF::before{padding:.59em .5em 0 0;content:"¯"}mjx-c.mjx-c1D441.TEX-I::before{padding:.683em .888em 0 0;content:"N"}mjx-c.mjx-c1D442.TEX-I::before{padding:.704em .763em .022em 0;content:"O"}mjx-c.mjx-c1D435.TEX-I::before{padding:.683em .759em 0 0;content:"B"}mjx-c.mjx-c1D44E.TEX-I::before{padding:.441em .529em .01em 0;content:"a"}mjx-c.mjx-c5F::before{padding:0 .5em .062em 0;content:"_"}mjx-c.mjx-c1D43A.TEX-I::before{padding:.705em .786em .022em 0;content:"G"}mjx-c.mjx-c1D467.TEX-I::before{padding:.442em .465em .011em 0;content:"z"}mjx-c.mjx-c210E.TEX-I::before{padding:.694em .576em .011em 0;content:"h"}mjx-c.mjx-c1D45C.TEX-I::before{padding:.441em .485em .011em 0;content:"o"}mjx-msup{display:inline-block;text-align:left}mjx-c.mjx-c1D43B.TEX-I::before{padding:.683em .888em 0 0;content:"H"}mjx-c.mjx-c1D437.TEX-I::before{padding:.683em .828em 0 0;content:"D"}mjx-c.mjx-c2212::before{padding:.583em .778em .082em 0;content:"−"}mjx-c.mjx-c2211.TEX-S1::before{padding:.75em 1.056em .25em 0;content:"∑"}mjx-c.mjx-c1D45D.TEX-I::before{padding:.442em .503em .194em 0;content:"p"}mjx-c.mjx-c1D456.TEX-I::before{padding:.661em .345em .011em 0;content:"i"}mjx-c.mjx-c32::before{padding:.666em .5em 0 0;content:"2"}mjx-c.mjx-c1D434.TEX-I::before{padding:.716em .75em 0 0;content:"A"}mjx-c.mjx-c1D440.TEX-I::before{padding:.683em 1.051em 0 0;content:"M"}mjx-c.mjx-c39::before{padding:.666em .5em .022em 0;content:"9"}mjx-c.mjx-c2B::before{padding:.583em .778em .082em 0;content:"+"}mjx-container[jax=CHTML]{line-height:0}mjx-container [space="1"]{margin-left:.111em}mjx-container [space="2"]{margin-left:.167em}mjx-container [space="3"]{margin-left:.222em}mjx-container [space="4"]{margin-left:.278em}mjx-container [space="5"]{margin-left:.333em}mjx-container [rspace="1"]{margin-right:.111em}mjx-container [rspace="2"]{margin-right:.167em}mjx-container [rspace="3"]{margin-right:.222em}mjx-container [rspace="4"]{margin-right:.278em}mjx-container [rspace="5"]{margin-right:.333em}mjx-container [size="s"]{font-size:70.7%}mjx-container [size=ss]{font-size:50%}mjx-container [size=Tn]{font-size:60%}mjx-container [size=sm]{font-size:85%}mjx-container [size=lg]{font-size:120%}mjx-container [size=Lg]{font-size:144%}mjx-container [size=LG]{font-size:173%}mjx-container [size=hg]{font-size:207%}mjx-container [size=HG]{font-size:249%}mjx-container [width=full]{width:100%}mjx-box{display:inline-block}mjx-block{display:block}mjx-itable{display:inline-table}mjx-row{display:table-row}mjx-row>*{display:table-cell}mjx-mtext{display:inline-block}mjx-mstyle{display:inline-block}mjx-merror{display:inline-block;color:red;background-color:#ff0}mjx-mphantom{visibility:hidden}mjx-assistive-mml{top:0;left:0;clip:rect(1px,1px,1px,1px);user-select:none;position:absolute!important;padding:1px 0 0!important;border:0!important;display:block!important;width:auto!important;overflow:hidden!important}mjx-assistive-mml[display=block]{width:100%!important}mjx-math{display:inline-block;text-align:left;line-height:0;text-indent:0;font-style:normal;font-weight:400;font-size:100%;letter-spacing:normal;border-collapse:collapse;overflow-wrap:normal;word-spacing:normal;white-space:nowrap;direction:ltr;padding:1px 0}mjx-container[jax=CHTML][display=true]{display:block;text-align:center;margin:1em 0}mjx-container[jax=CHTML][display=true][width=full]{display:flex}mjx-container[jax=CHTML][display=true] mjx-math{padding:0}mjx-container[jax=CHTML][justify=left]{text-align:left}mjx-container[jax=CHTML][justify=right]{text-align:right}mjx-mi{display:inline-block;text-align:left}mjx-c{display:inline-block}mjx-utext{display:inline-block;padding:.75em 0 .2em}mjx-mo{display:inline-block;text-align:left}mjx-stretchy-h{display:inline-table;width:100%}mjx-stretchy-h>*{display:table-cell;width:0}mjx-stretchy-h>*>mjx-c{display:inline-block;transform:scaleX(1)}mjx-stretchy-h>*>mjx-c::before{display:inline-block;width:initial}mjx-stretchy-h>mjx-ext{overflow:clip visible;width:100%}mjx-stretchy-h>mjx-ext>mjx-c::before{transform:scaleX(500)}mjx-stretchy-h>mjx-ext>mjx-c{width:0}mjx-stretchy-h>mjx-beg>mjx-c{margin-right:-.1em}mjx-stretchy-h>mjx-end>mjx-c{margin-left:-.1em}mjx-stretchy-v{display:inline-block}mjx-stretchy-v>*{display:block}mjx-stretchy-v>mjx-beg{height:0}mjx-stretchy-v>mjx-end>mjx-c{display:block}mjx-stretchy-v>*>mjx-c{transform:scaleY(1);transform-origin:left center;overflow:hidden}mjx-stretchy-v>mjx-ext{display:block;height:100%;box-sizing:border-box;border:0 solid transparent;overflow:visible clip}mjx-stretchy-v>mjx-ext>mjx-c::before{width:initial;box-sizing:border-box}mjx-stretchy-v>mjx-ext>mjx-c{transform:scaleY(500) translateY(.075em);overflow:visible}mjx-mark{display:inline-block;height:0}mjx-mn{display:inline-block;text-align:left}mjx-mfrac{display:inline-block;text-align:left}mjx-frac{display:inline-block;vertical-align:.17em;padding:0 .22em}mjx-frac[type="d"]{vertical-align:.04em}mjx-frac[delims]{padding:0 .1em}mjx-frac[atop]{padding:0 .12em}mjx-frac[atop][delims]{padding:0}mjx-dtable{display:inline-table;width:100%}mjx-dtable>*{font-size:2000%}mjx-dbox{display:block;font-size:5%}mjx-num{display:block;text-align:center}mjx-den{display:block;text-align:center}mjx-mfrac[bevelled]>mjx-num{display:inline-block}mjx-mfrac[bevelled]>mjx-den{display:inline-block}mjx-den[align=right],mjx-num[align=right]{text-align:right}mjx-den[align=left],mjx-num[align=left]{text-align:left}mjx-nstrut{display:inline-block;height:.054em;width:0;vertical-align:-.054em}mjx-nstrut[type="d"]{height:.217em;vertical-align:-.217em}mjx-dstrut{display:inline-block;height:.505em;width:0}mjx-dstrut[type="d"]{height:.726em}mjx-line{display:block;box-sizing:border-box;min-height:1px;height:.06em;border-top:.06em solid;margin:.06em -.1em;overflow:hidden}mjx-line[type="d"]{margin:.18em -.1em}mjx-mrow{display:inline-block;text-align:left}mjx-c::before{display:block;width:0}.MJX-TEX{font-family:MJXZERO,MJXTEX}.TEX-B{font-family:MJXZERO,MJXTEX-B}.TEX-I{font-family:MJXZERO,MJXTEX-I}.TEX-MI{font-family:MJXZERO,MJXTEX-MI}.TEX-BI{font-family:MJXZERO,MJXTEX-BI}.TEX-S1{font-family:MJXZERO,MJXTEX-S1}.TEX-S2{font-family:MJXZERO,MJXTEX-S2}.TEX-S3{font-family:MJXZERO,MJXTEX-S3}.TEX-S4{font-family:MJXZERO,MJXTEX-S4}.TEX-A{font-family:MJXZERO,MJXTEX-A}.TEX-C{font-family:MJXZERO,MJXTEX-C}.TEX-CB{font-family:MJXZERO,MJXTEX-CB}.TEX-FR{font-family:MJXZERO,MJXTEX-FR}.TEX-FRB{font-family:MJXZERO,MJXTEX-FRB}.TEX-SS{font-family:MJXZERO,MJXTEX-SS}.TEX-SSB{font-family:MJXZERO,MJXTEX-SSB}.TEX-SSI{font-family:MJXZERO,MJXTEX-SSI}.TEX-SC{font-family:MJXZERO,MJXTEX-SC}.TEX-T{font-family:MJXZERO,MJXTEX-T}.TEX-V{font-family:MJXZERO,MJXTEX-V}.TEX-VB{font-family:MJXZERO,MJXTEX-VB}mjx-stretchy-h mjx-c,mjx-stretchy-v mjx-c{font-family:MJXZERO,MJXTEX-S1,MJXTEX-S4,MJXTEX,MJXTEX-A!important}@font-face{font-family:MJXZERO;src:url("lib/fonts/mathjax_zero.woff") format("woff")}@font-face{font-family:MJXTEX;src:url("lib/fonts/mathjax_main-regular.woff") format("woff")}@font-face{font-family:MJXTEX-B;src:url("lib/fonts/mathjax_main-bold.woff") format("woff")}@font-face{font-family:MJXTEX-I;src:url("lib/fonts/mathjax_math-italic.woff") format("woff")}@font-face{font-family:MJXTEX-MI;src:url("lib/fonts/mathjax_main-italic.woff") format("woff")}@font-face{font-family:MJXTEX-BI;src:url("lib/fonts/mathjax_math-bolditalic.woff") format("woff")}@font-face{font-family:MJXTEX-S1;src:url("lib/fonts/mathjax_size1-regular.woff") format("woff")}@font-face{font-family:MJXTEX-S2;src:url("lib/fonts/mathjax_size2-regular.woff") format("woff")}@font-face{font-family:MJXTEX-S3;src:url("lib/fonts/mathjax_size3-regular.woff") format("woff")}@font-face{font-family:MJXTEX-S4;src:url("lib/fonts/mathjax_size4-regular.woff") format("woff")}@font-face{font-family:MJXTEX-A;src:url("lib/fonts/mathjax_ams-regular.woff") format("woff")}@font-face{font-family:MJXTEX-C;src:url("lib/fonts/mathjax_calligraphic-regular.woff") format("woff")}@font-face{font-family:MJXTEX-CB;src:url("lib/fonts/mathjax_calligraphic-bold.woff") format("woff")}@font-face{font-family:MJXTEX-FR;src:url("lib/fonts/mathjax_fraktur-regular.woff") format("woff")}@font-face{font-family:MJXTEX-FRB;src:url("lib/fonts/mathjax_fraktur-bold.woff") format("woff")}@font-face{font-family:MJXTEX-SS;src:url("lib/fonts/mathjax_sansserif-regular.woff") format("woff")}@font-face{font-family:MJXTEX-SSB;src:url("lib/fonts/mathjax_sansserif-bold.woff") format("woff")}@font-face{font-family:MJXTEX-SSI;src:url("lib/fonts/mathjax_sansserif-italic.woff") format("woff")}@font-face{font-family:MJXTEX-SC;src:url("lib/fonts/mathjax_script-regular.woff") format("woff")}@font-face{font-family:MJXTEX-T;src:url("lib/fonts/mathjax_typewriter-regular.woff") format("woff")}@font-face{font-family:MJXTEX-V;src:url("lib/fonts/mathjax_vector-regular.woff") format("woff")}@font-face{font-family:MJXTEX-VB;src:url("lib/fonts/mathjax_vector-bold.woff") format("woff")}mjx-c.mjx-c1D439.TEX-I::before{padding:.68em .749em 0 0;content:"F"}mjx-c.mjx-c1D45F.TEX-I::before{padding:.442em .451em .011em 0;content:"r"}mjx-c.mjx-c1D452.TEX-I::before{padding:.442em .466em .011em 0;content:"e"}mjx-c.mjx-c1D45E.TEX-I::before{padding:.442em .46em .194em 0;content:"q"}mjx-c.mjx-c1D462.TEX-I::before{padding:.442em .572em .011em 0;content:"u"}mjx-c.mjx-c1D45B.TEX-I::before{padding:.442em .6em .011em 0;content:"n"}mjx-c.mjx-c1D450.TEX-I::before{padding:.442em .433em .011em 0;content:"c"}mjx-c.mjx-c1D466.TEX-I::before{padding:.442em .49em .205em 0;content:"y"}mjx-c.mjx-c28::before{padding:.75em .389em .25em 0;content:"("}mjx-c.mjx-c1D436.TEX-I::before{padding:.705em .76em .022em 0;content:"C"}mjx-c.mjx-c31::before{padding:.666em .5em 0 0;content:"1"}mjx-c.mjx-c29::before{padding:.75em .389em .25em 0;content:")"}mjx-c.mjx-c3D::before{padding:.583em .778em .082em 0;content:"="}</style><div class="markdown-preview-sizer markdown-preview-section"><h1 class="page-title heading inline-title" id="准备工作"><p dir="auto">准备工作</p></h1><div class="heading-wrapper"><div class="heading-children"><div><ol>
+<li data-line="0" dir="auto"><div class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>参考基因组：可以选用 <code>GRCH37</code> 或者 <code>GRCH38</code> 。
+<ol>
+<li data-line="1" dir="auto">参考基因组可以在 NCBI 下载。我在这里已经建立好了两个版本的索引，足以应对大多数情况。</li>
+<li data-line="2" dir="auto">建立索引：利用 <code>BWA</code> 的 <code>index</code>。</li>
+<li data-line="3" dir="auto">获得索引文件。</li>
+</ol>
+</li>
+<li data-line="4" dir="auto"><div class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>下载 <code>NUMTs-detection-1.0</code>
+<ol>
+<li data-line="5" dir="auto">这个包可以在 <code>Github</code> 下载。但是正如作者所说，这些脚本已经不再维护。里面有很多语法已经被淘汰。地址： <a data-tooltip-position="top" aria-label="https://github.com/WeiWei060512/NUMTs-detection" rel="noopener" class="external-link" href="https://github.com/WeiWei060512/NUMTs-detection" target="_blank">WeiWei060512/NUMTs-detection: Detecting NUMTs from WGS (github.com)</a></li>
+<li data-line="6" dir="auto">解压至 Linux 系统。</li>
+<li data-line="7" dir="auto">对里面的一些文件进行修改。</li>
+</ol>
+</li>
+</ol></div></div></div><div class="heading-wrapper"><h1 data-heading="修改一" dir="auto" class="heading" id="修改一">修改一</h1><div class="heading-children"><div class="heading-wrapper"><h2 data-heading="NUMTs_detection.sh" dir="auto" class="heading" id="NUMTs_detection.sh"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>NUMTs_detection.sh</h2><div class="heading-children"><div><p dir="auto">修改目的：</p></div><div><ol>
+<li data-line="0" dir="auto">无法使用模组，因为缺乏高性能计算环境，因此在这里注释掉。</li>
+<li data-line="1" dir="auto">修改了输出的 <code>split.bam</code>。源代码最后一句删掉了相关文件，并且在该 shell 脚本的 Python 中也没有出现过这个文件。但是在另外一个 sh 中有用的，所以我建议最后还是不要删除。这个文件被指向了一个 <code>wgs</code> 的目录，这应该是一个错误。</li>
+</ol></div><div><pre class="language-shell" tabindex="0"><code class="language-shell is-loaded"><span class="token shebang important">#! /bin/bash</span>
+
+<span class="token comment">################################################################################</span>
+<span class="token comment">## This script detects NUMTs from whole genome sequencing BAM files</span>
+<span class="token comment">## samtools, samblaster and blat need to be installed to run the pipeline</span>
+<span class="token comment">## samtools can be downloaded at http://www.htslib.org/download/</span>
+<span class="token comment">## samblaster can be downloaded at https://github.com/GregoryFaust/samblaster</span>
+<span class="token comment">## blat can be downloaded at http://hgdownload.soe.ucsc.edu/admin/exe/</span>
+<span class="token comment">################################################################################</span>
+
+<span class="token comment">## load modules on HPC</span>
+<span class="token comment"># module load samblaster/0.1.24</span>
+<span class="token comment"># module load samtools </span>
+<span class="token comment"># module load Sambamba/0.6.6</span>
+
+
+<span class="token assign-left variable">INPUT_BAM</span><span class="token operator">=</span>/home/luolintao/Reference_GRCH/INPUT_TEST/HG006_5X.bam <span class="token comment"># input WGS bam file</span>
+<span class="token assign-left variable">OUTPUT_DIR</span><span class="token operator">=</span>/home/luolintao/NUMTs-detection-1.0/NUMTs-detection-1.0/RESULT <span class="token comment"># output folder path</span>
+<span class="token assign-left variable">REF_GRCh38</span><span class="token operator">=</span>/home/luolintao/Reference_GRCH/GRCh38_latest_genomic.fna <span class="token comment"># human reference genome</span>
+
+<span class="token assign-left variable">CLUSTER_SCRIPT</span><span class="token operator">=</span><span class="token string">'/home/luolintao/NUMTs-detection-1.0/NUMTs-detection-1.0/scripts/searchNumtCluster_fromDiscordantReads.py'</span>
+<span class="token assign-left variable">BREAKPOINT_SCRIPT</span><span class="token operator">=</span><span class="token string">'/home/luolintao/NUMTs-detection-1.0/NUMTs-detection-1.0/scripts/searchBreakpoint_fromblatoutputs.py'</span>
+
+<span class="token assign-left variable">SAMPLE_ID1</span><span class="token operator">=</span><span class="token string">"<span class="token variable">${INPUT_BAM<span class="token operator">##</span>*<span class="token operator">/</span>}</span>"</span>
+<span class="token assign-left variable">SAMPLE_ID2</span><span class="token operator">=</span><span class="token variable">${SAMPLE_ID1<span class="token operator">%</span>.bam}</span>
+<span class="token assign-left variable">OUTPUT</span><span class="token operator">=</span><span class="token string">"<span class="token variable">${OUTPUT_DIR}</span>/<span class="token variable">${SAMPLE_ID2}</span>"</span>
+
+<span class="token assign-left variable">INPUT_DISC</span><span class="token operator">=</span><span class="token string">"<span class="token variable">${OUTPUT}</span>.mt.disc.sam"</span>
+<span class="token comment"># INPUT_SPLIT="${OUTPUT_wgs}.mt.split.sam" 我至今不能明白为什么这个前缀包含了一个wgs。可能只有上帝能明白。</span>
+<span class="token assign-left variable">INPUT_SPLIT</span><span class="token operator">=</span><span class="token string">"<span class="token variable">${OUTPUT}</span>.mt.split.sam"</span>
+
+<span class="token comment"># 文件预处理</span>
+<span class="token builtin class-name">echo</span> <span class="token string">"正在使用samtools预处理文件!"</span>
+samtools view -@ <span class="token number">16</span> -m 10G -h -F <span class="token number">2</span> <span class="token variable">$INPUT_BAM</span> <span class="token operator">|</span> <span class="token function">grep</span> -e @ -e MT -e chrM <span class="token operator">|</span> samtools <span class="token function">sort</span> -@ <span class="token number">16</span> -m 10G -n  <span class="token operator">|</span> samtools view -h <span class="token operator">|</span> samblaster --ignoreUnmated -e -d <span class="token variable">$INPUT_DISC</span> -s <span class="token variable">$INPUT_SPLIT</span> -o /dev/null
+<span class="token comment"># 聚类查找</span>
+python3 <span class="token variable">$CLUSTER_SCRIPT</span> <span class="token variable">${SAMPLE_ID2}</span> <span class="token variable">${INPUT_BAM}</span> <span class="token variable">${INPUT_DISC}</span>
+<span class="token builtin class-name">echo</span> <span class="token string">"查找聚类已经完成，现在开始寻找断点!"</span>
+
+
+<span class="token comment"># 定义文件名</span>
+<span class="token assign-left variable">filelines</span><span class="token operator">=</span><span class="token variable"><span class="token variable">$(</span><span class="token function">cat</span> $<span class="token punctuation">{</span>INPUT_DISC<span class="token punctuation">}</span>.breakpointINPUT.tsv<span class="token variable">)</span></span>
+
+
+<span class="token comment"># 使用制表符作为分隔符读取文件的每一行，并将其字段分配给相应的变量</span>
+<span class="token keyword">while</span> <span class="token assign-left variable"><span class="token environment constant">IFS</span></span><span class="token operator">=</span><span class="token string">$'<span class="token entity" title="\t">\t</span>'</span> <span class="token builtin class-name">read</span> -r sampleID cluster_no disFile splitFile wgsBAM chr start end<span class="token punctuation">;</span> <span class="token keyword">do</span>
+    <span class="token comment"># 去除 chr 字段中的多余字符（如括号和引号）</span>
+    <span class="token assign-left variable">chr</span><span class="token operator">=</span><span class="token punctuation">$(</span>echo <span class="token variable">$chr</span> <span class="token operator">|</span> <span class="token function">tr</span> -d <span class="token string">"(),'"</span><span class="token punctuation">)</span>    
+    <span class="token comment"># 输出当前行的各个字段，方便调试</span>
+    <span class="token builtin class-name">echo</span> <span class="token string">"<span class="token variable">$sampleID</span> <span class="token variable">$cluster_no</span> <span class="token variable">$disFile</span> <span class="token variable">$splitFile</span> <span class="token variable">$wgsBAM</span> <span class="token variable">$chr</span> <span class="token variable">$start</span> <span class="token variable">$end</span>"</span>    
+    <span class="token comment"># 构建区域字符串，用于 samtools 提取指定区域</span>
+    <span class="token assign-left variable">REGION</span><span class="token operator">=</span><span class="token string">"<span class="token variable">${chr}</span>:<span class="token variable">${start}</span>-<span class="token variable">${end}</span>"</span>    
+    <span class="token comment"># 构建输出文件的前缀路径</span>
+    <span class="token assign-left variable">OUTPUT</span><span class="token operator">=</span><span class="token string">"<span class="token variable">${OUTPUT_DIR}</span>/<span class="token variable">${sampleID}</span>_<span class="token variable">${chr}</span>.<span class="token variable">${start}</span>.<span class="token variable">${end}</span>"</span>    
+    <span class="token comment">#使用 samtools 从 BAM 文件中提取指定区域的数据，并保存为 SAM 格式</span>
+    samtools view <span class="token string">"<span class="token variable">${wgsBAM}</span>"</span> <span class="token string">"<span class="token variable">${REGION}</span>"</span> <span class="token operator">&gt;</span> <span class="token string">"<span class="token variable">${OUTPUT}</span>.sam"</span>    
+    <span class="token comment"># 使用 awk 过滤掉特定 CIGAR 值的行，并提取第1和第10列，将结果保存为 FASTA 格式</span>
+    <span class="token function">awk</span> <span class="token string">'$6 !~ /150M|149M|148M|149S|148S/'</span> <span class="token string">"<span class="token variable">${OUTPUT}</span>.sam"</span> <span class="token operator">|</span> <span class="token function">cut</span> -f1,10 <span class="token operator">&gt;</span> <span class="token string">"<span class="token variable">${OUTPUT}</span>.fasta"</span>
+    <span class="token comment"># 使用 perl 脚本在每行前添加 '&gt;' 符号，符合 FASTA 格式要求</span>
+    perl -pi -e <span class="token string">'s/^/&gt;/g'</span> <span class="token string">"<span class="token variable">${OUTPUT}</span>.fasta"</span>    
+    <span class="token comment"># 使用 perl 脚本将制表符替换为换行符，符合 FASTA 格式要求</span>
+    perl -pi -e <span class="token string">'s/\t/\n/g'</span> <span class="token string">"<span class="token variable">${OUTPUT}</span>.fasta"</span>    
+    <span class="token comment"># 使用 BLAT 工具将 FASTA 文件比对到参考基因组，结果保存为 PSL 格式</span>
+    /home/luolintao/blat <span class="token string">"<span class="token variable">${REF_GRCh38}</span>"</span> <span class="token string">"<span class="token variable">${OUTPUT}</span>.fasta"</span> <span class="token string">"<span class="token variable">${OUTPUT}</span>.psl"</span>    
+    <span class="token comment"># 运行 Python 脚本处理 BLAT 生成的 PSL 文件，提取断点信息</span>
+    python3 <span class="token string">"<span class="token variable">${BREAKPOINT_SCRIPT}</span>"</span> <span class="token string">"<span class="token variable">${OUTPUT}</span>.psl"</span> <span class="token string">"<span class="token variable">${sampleID}</span>"</span> <span class="token string">"<span class="token variable">${chr}</span>"</span> <span class="token string">"<span class="token variable">${start}</span>"</span> <span class="token string">"<span class="token variable">${end}</span>"</span> <span class="token string">"<span class="token variable">${OUTPUT}</span>"</span>
+    <span class="token comment"># 删除临时生成的 FASTA 文件</span>
+    <span class="token function">rm</span> <span class="token string">"<span class="token variable">${OUTPUT}</span>.fasta"</span>    
+    <span class="token comment"># 删除临时生成的 SAM 文件</span>
+    <span class="token function">rm</span> <span class="token string">"<span class="token variable">${OUTPUT}</span>.sam"</span>
+<span class="token keyword">done</span> <span class="token operator">&lt;&lt;&lt;</span> <span class="token string">"<span class="token variable">$filelines</span>"</span>
+</code><button class="copy-code-button">复制</button></pre></div></div></div><div class="heading-wrapper"><h2 data-heading="searchNumtCluster_fromDiscordantReads.py" dir="auto" class="heading" id="searchNumtCluster_fromDiscordantReads.py"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>searchNumtCluster_fromDiscordantReads.py</h2><div class="heading-children"><div><p dir="auto">这个文件是上述 shell 需要调用的。但是里面存在一些问题：</p></div><div><ol>
+<li data-line="0" dir="auto">不规范的缩进。</li>
+<li data-line="1" dir="auto">不再被维护的 <code>pandas</code> 语法。<br>
+为了不改变原有功能，我对部分语句进行了维护。使用的版本是 <code>Python 3.9.15</code>。<br>
+修改之后的代码如下：</li>
+</ol></div><div><pre class="language-python" tabindex="0"><code class="language-python is-loaded"><span class="token comment">#!/usr/bin/env python</span>
+
+<span class="token comment">################################################################################</span>
+<span class="token comment">## This script takes outputs from NUMT_detection.sh to generates NUMT clusters</span>
+<span class="token comment">################################################################################</span>
+
+<span class="token keyword">import</span> fileinput
+<span class="token keyword">import</span> sys<span class="token punctuation">,</span> os
+<span class="token keyword">import</span> pandas <span class="token keyword">as</span> pd
+<span class="token keyword">import</span> glob
+<span class="token keyword">import</span> scipy<span class="token punctuation">.</span>stats <span class="token keyword">as</span> stats
+<span class="token keyword">import</span> numpy <span class="token keyword">as</span> np
+
+<span class="token comment">#################### Extract cluster from mtDNA discordant sam files  #############################</span>
+
+<span class="token keyword">def</span> <span class="token function">cluster</span><span class="token punctuation">(</span>data<span class="token punctuation">,</span> maxgap<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    data<span class="token punctuation">.</span>sort<span class="token punctuation">(</span><span class="token punctuation">)</span>
+    groups <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">[</span>data<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">]</span><span class="token punctuation">]</span>
+    <span class="token keyword">for</span> x <span class="token keyword">in</span> data<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">:</span><span class="token punctuation">]</span><span class="token punctuation">:</span>
+        <span class="token keyword">if</span> <span class="token builtin">abs</span><span class="token punctuation">(</span>x <span class="token operator">-</span> groups<span class="token punctuation">[</span><span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">[</span><span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token operator">&lt;=</span> maxgap<span class="token punctuation">:</span>
+            groups<span class="token punctuation">[</span><span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">.</span>append<span class="token punctuation">(</span>x<span class="token punctuation">)</span>
+        <span class="token keyword">else</span><span class="token punctuation">:</span>
+            groups<span class="token punctuation">.</span>append<span class="token punctuation">(</span><span class="token punctuation">[</span>x<span class="token punctuation">]</span><span class="token punctuation">)</span>
+    <span class="token keyword">return</span> groups
+
+sampleID<span class="token punctuation">,</span> wgsBAM<span class="token punctuation">,</span> input1 <span class="token operator">=</span> sys<span class="token punctuation">.</span>argv<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">:</span><span class="token punctuation">]</span>
+
+sampleID <span class="token operator">=</span> sampleID<span class="token punctuation">.</span>replace<span class="token punctuation">(</span><span class="token string">".mt.disc"</span><span class="token punctuation">,</span> <span class="token string">""</span><span class="token punctuation">)</span>
+
+df0 <span class="token operator">=</span> pd<span class="token punctuation">.</span>read_csv<span class="token punctuation">(</span>input1<span class="token punctuation">,</span> names<span class="token operator">=</span><span class="token punctuation">[</span><span class="token string">'QNAME'</span><span class="token punctuation">,</span> <span class="token string">'FLAG'</span><span class="token punctuation">,</span> <span class="token string">'RNAME'</span><span class="token punctuation">,</span> <span class="token string">'POS'</span><span class="token punctuation">,</span> <span class="token string">'MAPQ'</span><span class="token punctuation">,</span> <span class="token string">'CIGAR'</span><span class="token punctuation">,</span> <span class="token string">'RNEXT'</span><span class="token punctuation">,</span> <span class="token string">'PNEXT'</span><span class="token punctuation">,</span> <span class="token string">'TLEN'</span><span class="token punctuation">,</span> <span class="token string">'SEQ'</span><span class="token punctuation">,</span> <span class="token string">'QUAL'</span><span class="token punctuation">,</span> <span class="token string">'SM'</span><span class="token punctuation">,</span> <span class="token string">'RG'</span><span class="token punctuation">,</span> <span class="token string">'NM'</span><span class="token punctuation">,</span> <span class="token string">'BC'</span><span class="token punctuation">,</span> <span class="token string">'OC'</span><span class="token punctuation">,</span> <span class="token string">'ZX'</span><span class="token punctuation">,</span> <span class="token string">'ZY'</span><span class="token punctuation">,</span> <span class="token string">'SA'</span><span class="token punctuation">]</span><span class="token punctuation">,</span> sep<span class="token operator">=</span><span class="token string">"\t"</span><span class="token punctuation">,</span> engine<span class="token operator">=</span><span class="token string">'python'</span><span class="token punctuation">,</span> comment<span class="token operator">=</span><span class="token string">"@"</span><span class="token punctuation">)</span>
+
+df <span class="token operator">=</span> df0<span class="token punctuation">[</span><span class="token operator">~</span>df0<span class="token punctuation">.</span>RNAME<span class="token punctuation">.</span><span class="token builtin">str</span><span class="token punctuation">.</span>contains<span class="token punctuation">(</span><span class="token string">"Un_|random|\."</span><span class="token punctuation">)</span><span class="token punctuation">]</span>
+df1 <span class="token operator">=</span> df<span class="token punctuation">[</span><span class="token punctuation">(</span>df<span class="token punctuation">[</span><span class="token string">"MAPQ"</span><span class="token punctuation">]</span><span class="token punctuation">.</span>astype<span class="token punctuation">(</span><span class="token builtin">int</span><span class="token punctuation">)</span> <span class="token operator">&gt;</span> <span class="token number">0</span><span class="token punctuation">)</span> <span class="token operator">&amp;</span> <span class="token punctuation">(</span><span class="token punctuation">(</span>df<span class="token punctuation">[</span><span class="token string">'RNAME'</span><span class="token punctuation">]</span> <span class="token operator">==</span> <span class="token string">"MT"</span><span class="token punctuation">)</span> <span class="token operator">|</span> <span class="token punctuation">(</span>df<span class="token punctuation">[</span><span class="token string">'RNAME'</span><span class="token punctuation">]</span> <span class="token operator">==</span> <span class="token string">"chrM"</span><span class="token punctuation">)</span> <span class="token operator">|</span> <span class="token punctuation">(</span>df<span class="token punctuation">[</span><span class="token string">'RNEXT'</span><span class="token punctuation">]</span> <span class="token operator">==</span> <span class="token string">"MT"</span><span class="token punctuation">)</span> <span class="token operator">|</span> <span class="token punctuation">(</span>df<span class="token punctuation">[</span><span class="token string">'RNEXT'</span><span class="token punctuation">]</span> <span class="token operator">==</span> <span class="token string">"chrM"</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">]</span>
+
+<span class="token comment">##### remove reads map to mtDNA #####</span>
+df3 <span class="token operator">=</span> df1<span class="token punctuation">[</span><span class="token operator">~</span>df1<span class="token punctuation">.</span>RNAME<span class="token punctuation">.</span>isin<span class="token punctuation">(</span><span class="token punctuation">[</span><span class="token string">'chrM'</span><span class="token punctuation">,</span> <span class="token string">'MT'</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">]</span>
+
+<span class="token comment">##### order by chromosome and pos #####</span>
+df3 <span class="token operator">=</span> df3<span class="token punctuation">.</span>sort_values<span class="token punctuation">(</span><span class="token punctuation">[</span><span class="token string">'RNAME'</span><span class="token punctuation">,</span> <span class="token string">'POS'</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
+
+<span class="token comment">##### look for the clutser by mapgap on pos #####</span>
+<span class="token comment">##### extract the clusters with number of elements no less than 5 #####</span>
+
+output1 <span class="token operator">=</span> pd<span class="token punctuation">.</span>DataFrame<span class="token punctuation">(</span><span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
+
+df_chr <span class="token operator">=</span> df3<span class="token punctuation">.</span>groupby<span class="token punctuation">(</span><span class="token punctuation">[</span><span class="token string">'RNAME'</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
+<span class="token keyword">for</span> clusterID<span class="token punctuation">,</span> myclusters <span class="token keyword">in</span> df_chr<span class="token punctuation">:</span>
+    myclusters<span class="token punctuation">[</span><span class="token string">'POS'</span><span class="token punctuation">]</span> <span class="token operator">=</span> myclusters<span class="token punctuation">[</span><span class="token string">'POS'</span><span class="token punctuation">]</span><span class="token punctuation">.</span>astype<span class="token punctuation">(</span><span class="token builtin">int</span><span class="token punctuation">)</span>
+    sub_cluster <span class="token operator">=</span> cluster<span class="token punctuation">(</span>myclusters<span class="token punctuation">[</span><span class="token string">'POS'</span><span class="token punctuation">]</span><span class="token punctuation">.</span>tolist<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span> maxgap<span class="token operator">=</span><span class="token number">500</span><span class="token punctuation">)</span>
+    <span class="token keyword">for</span> x <span class="token keyword">in</span> sub_cluster<span class="token punctuation">:</span>
+        <span class="token keyword">if</span> <span class="token builtin">len</span><span class="token punctuation">(</span>x<span class="token punctuation">)</span> <span class="token operator">&gt;=</span> <span class="token number">2</span><span class="token punctuation">:</span>
+            mycluster <span class="token operator">=</span> x
+            df_cluster <span class="token operator">=</span> df3<span class="token punctuation">[</span>df3<span class="token punctuation">.</span>POS<span class="token punctuation">.</span>isin<span class="token punctuation">(</span>mycluster<span class="token punctuation">)</span><span class="token punctuation">]</span>
+            df_cluster_pairMT <span class="token operator">=</span> df<span class="token punctuation">[</span>df<span class="token punctuation">.</span>QNAME<span class="token punctuation">.</span>isin<span class="token punctuation">(</span>df_cluster<span class="token punctuation">[</span><span class="token string">'QNAME'</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">]</span>
+            mt_cluster <span class="token operator">=</span> cluster<span class="token punctuation">(</span>df_cluster<span class="token punctuation">[</span><span class="token string">'PNEXT'</span><span class="token punctuation">]</span><span class="token punctuation">.</span>tolist<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span> maxgap<span class="token operator">=</span><span class="token number">500</span><span class="token punctuation">)</span>
+            <span class="token keyword">for</span> y <span class="token keyword">in</span> mt_cluster<span class="token punctuation">:</span>
+                df_cluster_pairMT_out <span class="token operator">=</span> df_cluster_pairMT<span class="token punctuation">[</span>df_cluster_pairMT<span class="token punctuation">.</span>PNEXT<span class="token punctuation">.</span>isin<span class="token punctuation">(</span>y<span class="token punctuation">)</span><span class="token punctuation">]</span>
+                df_cluster_pairMT_out <span class="token operator">=</span> df_cluster_pairMT_out<span class="token punctuation">.</span>assign<span class="token punctuation">(</span>
+                    subCluster_No<span class="token operator">=</span><span class="token builtin">len</span><span class="token punctuation">(</span>y<span class="token punctuation">)</span><span class="token punctuation">,</span>
+                    Cluster_No<span class="token operator">=</span><span class="token builtin">len</span><span class="token punctuation">(</span>x<span class="token punctuation">)</span><span class="token punctuation">,</span>
+                    Cluster_ID<span class="token operator">=</span><span class="token string-interpolation"><span class="token string">f"</span><span class="token interpolation"><span class="token punctuation">{</span>clusterID<span class="token punctuation">}</span></span><span class="token string">_</span><span class="token interpolation"><span class="token punctuation">{</span><span class="token builtin">min</span><span class="token punctuation">(</span>df_cluster<span class="token punctuation">[</span><span class="token string">'POS'</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">}</span></span><span class="token string">_</span><span class="token interpolation"><span class="token punctuation">{</span><span class="token builtin">max</span><span class="token punctuation">(</span>df_cluster<span class="token punctuation">[</span><span class="token string">'POS'</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">}</span></span><span class="token string">_MTboth_</span><span class="token interpolation"><span class="token punctuation">{</span><span class="token builtin">min</span><span class="token punctuation">(</span>df_cluster_pairMT_out<span class="token punctuation">[</span><span class="token string">'PNEXT'</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">}</span></span><span class="token string">_</span><span class="token interpolation"><span class="token punctuation">{</span><span class="token builtin">max</span><span class="token punctuation">(</span>df_cluster_pairMT_out<span class="token punctuation">[</span><span class="token string">'PNEXT'</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">}</span></span><span class="token string">"</span></span>
+                <span class="token punctuation">)</span>
+                output <span class="token operator">=</span> pd<span class="token punctuation">.</span>concat<span class="token punctuation">(</span><span class="token punctuation">[</span>pd<span class="token punctuation">.</span>DataFrame<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span> df_cluster_pairMT_out<span class="token punctuation">]</span><span class="token punctuation">,</span> ignore_index<span class="token operator">=</span><span class="token boolean">True</span><span class="token punctuation">)</span>
+
+            output1 <span class="token operator">=</span> pd<span class="token punctuation">.</span>concat<span class="token punctuation">(</span><span class="token punctuation">[</span>output1<span class="token punctuation">,</span> output<span class="token punctuation">]</span><span class="token punctuation">)</span>
+            output1<span class="token punctuation">[</span><span class="token string">"IndividualID"</span><span class="token punctuation">]</span> <span class="token operator">=</span> sampleID
+            <span class="token keyword">if</span> <span class="token builtin">len</span><span class="token punctuation">(</span>output1<span class="token punctuation">)</span> <span class="token operator">!=</span> <span class="token number">0</span><span class="token punctuation">:</span>
+                output1<span class="token punctuation">[</span><span class="token string">'clusterID'</span><span class="token punctuation">]</span> <span class="token operator">=</span> output1<span class="token punctuation">[</span><span class="token string">'RNAME'</span><span class="token punctuation">]</span><span class="token punctuation">.</span>astype<span class="token punctuation">(</span><span class="token builtin">str</span><span class="token punctuation">)</span> <span class="token operator">+</span> <span class="token string">"_"</span> <span class="token operator">+</span> output1<span class="token punctuation">[</span><span class="token string">'Cluster_No'</span><span class="token punctuation">]</span><span class="token punctuation">.</span>astype<span class="token punctuation">(</span><span class="token builtin">str</span><span class="token punctuation">)</span>
+                output2 <span class="token operator">=</span> output1<span class="token punctuation">.</span>groupby<span class="token punctuation">(</span><span class="token punctuation">[</span><span class="token string">'IndividualID'</span><span class="token punctuation">,</span> <span class="token string">'Cluster_ID'</span><span class="token punctuation">,</span> <span class="token string">'Cluster_No'</span><span class="token punctuation">,</span> <span class="token string">'subCluster_No'</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">.</span>size<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span>to_frame<span class="token punctuation">(</span><span class="token string">'size'</span><span class="token punctuation">)</span><span class="token punctuation">.</span>reset_index<span class="token punctuation">(</span><span class="token punctuation">)</span>
+            <span class="token keyword">else</span><span class="token punctuation">:</span>
+                <span class="token keyword">continue</span>
+
+output1<span class="token punctuation">.</span>to_csv<span class="token punctuation">(</span>input1 <span class="token operator">+</span> <span class="token string">'.cluster.tsv'</span><span class="token punctuation">,</span> sep<span class="token operator">=</span><span class="token string">'\t'</span><span class="token punctuation">,</span> header<span class="token operator">=</span><span class="token boolean">True</span><span class="token punctuation">,</span> index<span class="token operator">=</span><span class="token boolean">False</span><span class="token punctuation">)</span>
+output2<span class="token punctuation">.</span>to_csv<span class="token punctuation">(</span>input1 <span class="token operator">+</span> <span class="token string">'.cluster.summary.tsv'</span><span class="token punctuation">,</span> sep<span class="token operator">=</span><span class="token string">'\t'</span><span class="token punctuation">,</span> header<span class="token operator">=</span><span class="token boolean">False</span><span class="token punctuation">,</span> index<span class="token operator">=</span><span class="token boolean">True</span><span class="token punctuation">)</span>
+
+<span class="token comment">##### generate cluster range for defining the breakpoints ######</span>
+
+output2<span class="token punctuation">[</span><span class="token string">'disFile'</span><span class="token punctuation">]</span> <span class="token operator">=</span> input1
+output2<span class="token punctuation">[</span><span class="token string">'splitFile'</span><span class="token punctuation">]</span> <span class="token operator">=</span> input1<span class="token punctuation">.</span>replace<span class="token punctuation">(</span><span class="token string">'disc'</span><span class="token punctuation">,</span> <span class="token string">'split'</span><span class="token punctuation">)</span>
+output2<span class="token punctuation">[</span><span class="token string">'wgsBAM'</span><span class="token punctuation">]</span> <span class="token operator">=</span> wgsBAM
+df_pos <span class="token operator">=</span> pd<span class="token punctuation">.</span>DataFrame<span class="token punctuation">(</span>output2<span class="token punctuation">[</span><span class="token string">'Cluster_ID'</span><span class="token punctuation">]</span><span class="token punctuation">.</span><span class="token builtin">str</span><span class="token punctuation">.</span>split<span class="token punctuation">(</span><span class="token string">'_'</span><span class="token punctuation">)</span><span class="token punctuation">.</span>tolist<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span> columns<span class="token operator">=</span><span class="token punctuation">[</span><span class="token string">'chr'</span><span class="token punctuation">,</span> <span class="token string">'start'</span><span class="token punctuation">,</span> <span class="token string">'end'</span><span class="token punctuation">,</span> <span class="token string">'chrM'</span><span class="token punctuation">,</span> <span class="token string">'mtstart'</span><span class="token punctuation">,</span> <span class="token string">'mtend'</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
+<span class="token keyword">del</span> output2<span class="token punctuation">[</span><span class="token string">'Cluster_ID'</span><span class="token punctuation">]</span>
+<span class="token keyword">del</span> output2<span class="token punctuation">[</span><span class="token string">'subCluster_No'</span><span class="token punctuation">]</span>
+<span class="token keyword">del</span> output2<span class="token punctuation">[</span><span class="token string">'size'</span><span class="token punctuation">]</span>
+output3 <span class="token operator">=</span> pd<span class="token punctuation">.</span>concat<span class="token punctuation">(</span><span class="token punctuation">[</span>output2<span class="token punctuation">,</span> df_pos<span class="token punctuation">[</span><span class="token punctuation">[</span><span class="token string">'chr'</span><span class="token punctuation">,</span> <span class="token string">'start'</span><span class="token punctuation">,</span> <span class="token string">'end'</span><span class="token punctuation">]</span><span class="token punctuation">]</span><span class="token punctuation">]</span><span class="token punctuation">,</span> axis<span class="token operator">=</span><span class="token number">1</span><span class="token punctuation">)</span>
+output3 <span class="token operator">=</span> output3<span class="token punctuation">.</span>drop_duplicates<span class="token punctuation">(</span><span class="token punctuation">[</span><span class="token string">'chr'</span><span class="token punctuation">,</span> <span class="token string">'start'</span><span class="token punctuation">,</span> <span class="token string">'end'</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
+output3<span class="token punctuation">[</span><span class="token string">'start'</span><span class="token punctuation">]</span> <span class="token operator">=</span> output3<span class="token punctuation">[</span><span class="token string">'start'</span><span class="token punctuation">]</span><span class="token punctuation">.</span>astype<span class="token punctuation">(</span><span class="token builtin">int</span><span class="token punctuation">)</span> <span class="token operator">-</span> <span class="token number">500</span>
+output3<span class="token punctuation">[</span><span class="token string">'end'</span><span class="token punctuation">]</span> <span class="token operator">=</span> output3<span class="token punctuation">[</span><span class="token string">'end'</span><span class="token punctuation">]</span><span class="token punctuation">.</span>astype<span class="token punctuation">(</span><span class="token builtin">int</span><span class="token punctuation">)</span> <span class="token operator">+</span> <span class="token number">500</span> <span class="token operator">+</span> <span class="token number">150</span>
+output3<span class="token punctuation">[</span><span class="token string">'Cluster_No'</span><span class="token punctuation">]</span> <span class="token operator">=</span> output3<span class="token punctuation">[</span><span class="token string">'Cluster_No'</span><span class="token punctuation">]</span><span class="token punctuation">.</span>astype<span class="token punctuation">(</span><span class="token builtin">int</span><span class="token punctuation">)</span>
+
+<span class="token comment">##### output to file #####</span>
+output3<span class="token punctuation">.</span>to_csv<span class="token punctuation">(</span>input1 <span class="token operator">+</span> <span class="token string">'.breakpointINPUT.tsv'</span><span class="token punctuation">,</span> sep<span class="token operator">=</span><span class="token string">'\t'</span><span class="token punctuation">,</span> header<span class="token operator">=</span><span class="token boolean">False</span><span class="token punctuation">,</span> index<span class="token operator">=</span><span class="token boolean">False</span><span class="token punctuation">)</span>
+
+</code><button class="copy-code-button">复制</button></pre></div></div></div><div class="heading-wrapper"><h2 data-heading="searchBreakpoint_fromblatoutputs.py" dir="auto" class="heading" id="searchBreakpoint_fromblatoutputs.py"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>searchBreakpoint_fromblatoutputs.py</h2><div class="heading-children"><div><p dir="auto">也是上述 shell 需要调用的。但是里面存在很大的问题：</p></div><div><ol>
+<li data-line="0" dir="auto">使用了旧版本的 <code>pandas</code> 语法。令人遗憾的，新版本的语法似乎不能很好读取 blat 生成的 <code>psl</code> 文件，标题行存在很大的问题。为了不让原本的功能丧失，我只能够用最愚蠢的办法将数值转为字符串。尽管这会报错，<strong>但是</strong>并不影响最终的<strong>结果</strong>。</li>
+<li data-line="1" dir="auto">在 <code>GRCH38</code> 版本中，染色体的名字是以 <code>NCXXXXXX</code> 命名的，不再使用了 <code>chr</code>。因此，需要重新对其进行映射。</li>
+<li data-line="2" dir="auto">可以根据自己的需求就筛选过滤措施，这对于低深度的测序也许有一定的作用。<br>
+修改之后的脚本：</li>
+</ol></div><div><pre class="language-python" tabindex="0"><code class="language-python is-loaded"><span class="token comment">#!/usr/bin/env python</span>
+<span class="token comment">################################################################################</span>
+<span class="token comment">## This script takes outputs from searchNumtCluster_fromDiscordantReads.py and NUMT_detection.sh </span>
+<span class="token comment">## to look for NUMT breakpoints</span>
+<span class="token comment">################################################################################</span>
+
+<span class="token keyword">import</span> sys<span class="token punctuation">,</span> os
+<span class="token keyword">import</span> pandas <span class="token keyword">as</span> pd
+
+<span class="token keyword">def</span> <span class="token function">classify_breakpoint</span><span class="token punctuation">(</span>row<span class="token punctuation">,</span> <span class="token builtin">type</span><span class="token operator">=</span><span class="token string">'nu'</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+    mismatchLEN <span class="token operator">=</span> <span class="token number">3</span> <span class="token comment"># 默认是3 请在这里选择过滤措施，选择更大的数量会得到更多的结果，但是可能会并不会特别精确。</span>
+    readLEN <span class="token operator">=</span> <span class="token number">150</span> <span class="token comment"># 默认是150 请在这里选择过滤措施，选择更长的长度会得到更多的结果，但是可能会并不会特别精确。</span>
+    <span class="token keyword">if</span> <span class="token builtin">type</span> <span class="token operator">==</span> <span class="token string">'nu'</span><span class="token punctuation">:</span>
+        <span class="token keyword">if</span> row<span class="token punctuation">[</span><span class="token string">'strand'</span><span class="token punctuation">]</span> <span class="token operator">==</span> <span class="token string">"+"</span> <span class="token keyword">and</span> row<span class="token punctuation">[</span><span class="token string">'Qend'</span><span class="token punctuation">]</span> <span class="token operator">&gt;=</span> readLEN <span class="token operator">-</span> mismatchLEN<span class="token punctuation">:</span>
+            <span class="token keyword">return</span> <span class="token string">"nu_Tstart_Bright"</span>
+        <span class="token keyword">elif</span> row<span class="token punctuation">[</span><span class="token string">'strand'</span><span class="token punctuation">]</span> <span class="token operator">==</span> <span class="token string">"+"</span> <span class="token keyword">and</span> row<span class="token punctuation">[</span><span class="token string">'Qstart'</span><span class="token punctuation">]</span> <span class="token operator">&lt;=</span> mismatchLEN<span class="token punctuation">:</span>
+            <span class="token keyword">return</span> <span class="token string">"nu_Tend_Bleft"</span>
+        <span class="token keyword">elif</span> row<span class="token punctuation">[</span><span class="token string">'strand'</span><span class="token punctuation">]</span> <span class="token operator">==</span> <span class="token string">"-"</span><span class="token punctuation">:</span>
+            <span class="token keyword">return</span> <span class="token string">"nu_NegStrand"</span>
+        <span class="token keyword">else</span><span class="token punctuation">:</span>
+            <span class="token keyword">return</span> <span class="token string">"nu_useLess"</span>
+    <span class="token keyword">else</span><span class="token punctuation">:</span>
+        <span class="token keyword">if</span> row<span class="token punctuation">[</span><span class="token string">'strand'</span><span class="token punctuation">]</span> <span class="token operator">==</span> <span class="token string">"+"</span> <span class="token keyword">and</span> row<span class="token punctuation">[</span><span class="token string">'Qend'</span><span class="token punctuation">]</span> <span class="token operator">&gt;=</span> readLEN <span class="token operator">-</span> mismatchLEN<span class="token punctuation">:</span>
+            <span class="token keyword">return</span> <span class="token string">"mt_Tstart"</span>
+        <span class="token keyword">elif</span> row<span class="token punctuation">[</span><span class="token string">'strand'</span><span class="token punctuation">]</span> <span class="token operator">==</span> <span class="token string">"+"</span> <span class="token keyword">and</span> row<span class="token punctuation">[</span><span class="token string">'Qstart'</span><span class="token punctuation">]</span> <span class="token operator">&lt;=</span> mismatchLEN<span class="token punctuation">:</span>
+            <span class="token keyword">return</span> <span class="token string">"mt_Tend"</span>
+        <span class="token keyword">elif</span> row<span class="token punctuation">[</span><span class="token string">'strand'</span><span class="token punctuation">]</span> <span class="token operator">==</span> <span class="token string">"-"</span> <span class="token keyword">and</span> row<span class="token punctuation">[</span><span class="token string">'Qend'</span><span class="token punctuation">]</span> <span class="token operator">&gt;=</span> readLEN <span class="token operator">-</span> mismatchLEN<span class="token punctuation">:</span>
+            <span class="token keyword">return</span> <span class="token string">"mt_Tend"</span>
+        <span class="token keyword">elif</span> row<span class="token punctuation">[</span><span class="token string">'strand'</span><span class="token punctuation">]</span> <span class="token operator">==</span> <span class="token string">"-"</span> <span class="token keyword">and</span> row<span class="token punctuation">[</span><span class="token string">'Qstart'</span><span class="token punctuation">]</span> <span class="token operator">&lt;=</span> mismatchLEN<span class="token punctuation">:</span>
+            <span class="token keyword">return</span> <span class="token string">"mt_Tstart"</span>
+        <span class="token keyword">else</span><span class="token punctuation">:</span>
+            <span class="token keyword">return</span> <span class="token string">"mt_useLess"</span>
+
+<span class="token comment"># 从命令行读取输入参数</span>
+INPUT_PSL<span class="token punctuation">,</span> SAMPLEID<span class="token punctuation">,</span> CHR<span class="token punctuation">,</span> START<span class="token punctuation">,</span> END<span class="token punctuation">,</span> OUTPUT <span class="token operator">=</span> sys<span class="token punctuation">.</span>argv<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">:</span><span class="token punctuation">]</span>
+START<span class="token punctuation">,</span> END <span class="token operator">=</span> <span class="token builtin">int</span><span class="token punctuation">(</span>START<span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token builtin">int</span><span class="token punctuation">(</span>END<span class="token punctuation">)</span>
+
+<span class="token comment"># 读取数据并预处理</span>
+psl_columns <span class="token operator">=</span> <span class="token punctuation">[</span>
+    <span class="token string">"match"</span><span class="token punctuation">,</span> <span class="token string">"misMatch"</span><span class="token punctuation">,</span> <span class="token string">"repMatch"</span><span class="token punctuation">,</span> <span class="token string">"Ns"</span><span class="token punctuation">,</span> <span class="token string">"QgapCount"</span><span class="token punctuation">,</span> <span class="token string">"QgapBases"</span><span class="token punctuation">,</span> <span class="token string">"TgapCount"</span><span class="token punctuation">,</span> <span class="token string">"TgapBases"</span><span class="token punctuation">,</span> <span class="token string">"strand"</span><span class="token punctuation">,</span>
+    <span class="token string">"Qname"</span><span class="token punctuation">,</span> <span class="token string">"Qsize"</span><span class="token punctuation">,</span> <span class="token string">"Qstart"</span><span class="token punctuation">,</span> <span class="token string">"Qend"</span><span class="token punctuation">,</span> <span class="token string">"Tname"</span><span class="token punctuation">,</span> <span class="token string">"Tsize"</span><span class="token punctuation">,</span> <span class="token string">"Tstart"</span><span class="token punctuation">,</span> <span class="token string">"Tend"</span><span class="token punctuation">,</span> <span class="token string">"blockCount"</span><span class="token punctuation">,</span> <span class="token string">"blockSizes"</span><span class="token punctuation">,</span>
+    <span class="token string">"qStarts"</span><span class="token punctuation">,</span> <span class="token string">"tStarts"</span>
+<span class="token punctuation">]</span>
+df <span class="token operator">=</span> pd<span class="token punctuation">.</span>read_csv<span class="token punctuation">(</span>INPUT_PSL<span class="token punctuation">,</span> skiprows<span class="token operator">=</span><span class="token number">5</span><span class="token punctuation">,</span> sep<span class="token operator">=</span><span class="token string">"\t"</span><span class="token punctuation">,</span> names<span class="token operator">=</span>psl_columns<span class="token punctuation">)</span>
+df<span class="token punctuation">[</span><span class="token string">'matchLEN'</span><span class="token punctuation">]</span> <span class="token operator">=</span> df<span class="token punctuation">[</span><span class="token string">'Tend'</span><span class="token punctuation">]</span> <span class="token operator">-</span> df<span class="token punctuation">[</span><span class="token string">'Tstart'</span><span class="token punctuation">]</span>
+
+<span class="token comment"># 过滤数据，过滤措施</span>
+filtered_df <span class="token operator">=</span> df<span class="token punctuation">[</span><span class="token punctuation">(</span>df<span class="token punctuation">[</span><span class="token string">'matchLEN'</span><span class="token punctuation">]</span> <span class="token operator">&lt;</span> <span class="token number">170</span><span class="token punctuation">)</span> <span class="token operator">&amp;</span> <span class="token punctuation">(</span>df<span class="token punctuation">[</span><span class="token string">'misMatch'</span><span class="token punctuation">]</span> <span class="token operator">&lt;=</span> <span class="token number">7</span><span class="token punctuation">)</span><span class="token punctuation">]</span> <span class="token comment"># 默认是df[(df['matchLEN'] &lt; 140) &amp; (df['misMatch'] &lt;= 3)]请在这里选择过滤措施，选择更大的数量会得到更多的结果，但是可能会并不会特别精确。</span>
+filtered_df <span class="token operator">=</span> filtered_df<span class="token punctuation">[</span><span class="token punctuation">(</span>filtered_df<span class="token punctuation">[</span><span class="token string">'Tend'</span><span class="token punctuation">]</span> <span class="token operator">&gt;=</span> <span class="token number">140</span><span class="token punctuation">)</span> <span class="token operator">|</span> <span class="token punctuation">(</span>filtered_df<span class="token punctuation">[</span><span class="token string">'Tend'</span><span class="token punctuation">]</span> <span class="token operator">&lt;=</span> <span class="token number">10</span><span class="token punctuation">)</span><span class="token punctuation">]</span> <span class="token comment"># 默认是[(filtered_df['Tend'] &gt;= 147) | (filtered_df['Tend'] &lt;= 3)]请在这里选择过滤措施，选择更长的长度会得到更多的结果，但是可能会并不会特别精确。</span>
+
+<span class="token comment"># Tname映射</span>
+tname_mapping <span class="token operator">=</span> <span class="token punctuation">{</span>
+    <span class="token string">'NC_012920.1'</span><span class="token punctuation">:</span> <span class="token string">'MT'</span><span class="token punctuation">,</span>
+    <span class="token string">'NC_000001.11'</span><span class="token punctuation">:</span> <span class="token string">'chr1'</span><span class="token punctuation">,</span>
+    <span class="token string">'NC_000002.12'</span><span class="token punctuation">:</span> <span class="token string">'chr2'</span><span class="token punctuation">,</span>
+    <span class="token string">'NC_000003.12'</span><span class="token punctuation">:</span> <span class="token string">'chr3'</span><span class="token punctuation">,</span>
+    <span class="token string">'NC_000004.12'</span><span class="token punctuation">:</span> <span class="token string">'chr4'</span><span class="token punctuation">,</span>
+    <span class="token string">'NC_000005.10'</span><span class="token punctuation">:</span> <span class="token string">'chr5'</span><span class="token punctuation">,</span>
+    <span class="token string">'NC_000006.12'</span><span class="token punctuation">:</span> <span class="token string">'chr6'</span><span class="token punctuation">,</span>
+    <span class="token string">'NC_000007.14'</span><span class="token punctuation">:</span> <span class="token string">'chr7'</span><span class="token punctuation">,</span>
+    <span class="token string">'NC_000008.11'</span><span class="token punctuation">:</span> <span class="token string">'chr8'</span><span class="token punctuation">,</span>
+    <span class="token string">'NC_000009.12'</span><span class="token punctuation">:</span> <span class="token string">'chr9'</span><span class="token punctuation">,</span>
+    <span class="token string">'NC_000010.11'</span><span class="token punctuation">:</span> <span class="token string">'chr10'</span><span class="token punctuation">,</span>
+    <span class="token string">'NC_000011.10'</span><span class="token punctuation">:</span> <span class="token string">'chr11'</span><span class="token punctuation">,</span>
+    <span class="token string">'NC_000012.12'</span><span class="token punctuation">:</span> <span class="token string">'chr12'</span><span class="token punctuation">,</span>
+    <span class="token string">'NC_000013.11'</span><span class="token punctuation">:</span> <span class="token string">'chr13'</span><span class="token punctuation">,</span>
+    <span class="token string">'NC_000014.9'</span><span class="token punctuation">:</span> <span class="token string">'chr14'</span><span class="token punctuation">,</span>
+    <span class="token string">'NC_000015.10'</span><span class="token punctuation">:</span> <span class="token string">'chr15'</span><span class="token punctuation">,</span>
+    <span class="token string">'NC_000016.10'</span><span class="token punctuation">:</span> <span class="token string">'chr16'</span><span class="token punctuation">,</span>
+    <span class="token string">'NC_000017.11'</span><span class="token punctuation">:</span> <span class="token string">'chr17'</span><span class="token punctuation">,</span>
+    <span class="token string">'NC_000018.10'</span><span class="token punctuation">:</span> <span class="token string">'chr18'</span><span class="token punctuation">,</span>
+    <span class="token string">'NC_000019.10'</span><span class="token punctuation">:</span> <span class="token string">'chr19'</span><span class="token punctuation">,</span>
+    <span class="token string">'NC_000020.11'</span><span class="token punctuation">:</span> <span class="token string">'chr20'</span><span class="token punctuation">,</span>
+    <span class="token string">'NC_000021.9'</span><span class="token punctuation">:</span> <span class="token string">'chr21'</span><span class="token punctuation">,</span>
+    <span class="token string">'NC_000022.11'</span><span class="token punctuation">:</span> <span class="token string">'chr22'</span><span class="token punctuation">,</span>
+    <span class="token string">'NC_000023.11'</span><span class="token punctuation">:</span> <span class="token string">'chrX'</span><span class="token punctuation">,</span>
+    <span class="token string">'NC_000024.10'</span><span class="token punctuation">:</span> <span class="token string">'chrY'</span>
+<span class="token punctuation">}</span>
+
+filtered_df<span class="token punctuation">[</span><span class="token string">'Tname_mapped'</span><span class="token punctuation">]</span> <span class="token operator">=</span> filtered_df<span class="token punctuation">[</span><span class="token string">'Tname'</span><span class="token punctuation">]</span><span class="token punctuation">.</span><span class="token builtin">map</span><span class="token punctuation">(</span>tname_mapping<span class="token punctuation">)</span><span class="token punctuation">.</span>fillna<span class="token punctuation">(</span>filtered_df<span class="token punctuation">[</span><span class="token string">'Tname'</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
+
+<span class="token comment"># 分离线粒体和核序列</span>
+mt_df <span class="token operator">=</span> filtered_df<span class="token punctuation">.</span>loc<span class="token punctuation">[</span>filtered_df<span class="token punctuation">[</span><span class="token string">'Tname_mapped'</span><span class="token punctuation">]</span> <span class="token operator">==</span> <span class="token string">'MT'</span><span class="token punctuation">]</span><span class="token punctuation">.</span>copy<span class="token punctuation">(</span><span class="token punctuation">)</span>
+nu_df <span class="token operator">=</span> filtered_df<span class="token punctuation">.</span>loc<span class="token punctuation">[</span><span class="token punctuation">(</span>filtered_df<span class="token punctuation">[</span><span class="token string">'Tname_mapped'</span><span class="token punctuation">]</span> <span class="token operator">==</span> CHR<span class="token punctuation">)</span> <span class="token operator">&amp;</span> <span class="token punctuation">(</span>filtered_df<span class="token punctuation">[</span><span class="token string">'Tstart'</span><span class="token punctuation">]</span> <span class="token operator">&gt;</span> START<span class="token punctuation">)</span> <span class="token operator">&amp;</span> <span class="token punctuation">(</span>filtered_df<span class="token punctuation">[</span><span class="token string">'Tend'</span><span class="token punctuation">]</span> <span class="token operator">&lt;</span> END<span class="token punctuation">)</span><span class="token punctuation">]</span><span class="token punctuation">.</span>copy<span class="token punctuation">(</span><span class="token punctuation">)</span>
+
+<span class="token keyword">if</span> <span class="token keyword">not</span> nu_df<span class="token punctuation">.</span>empty<span class="token punctuation">:</span>
+    <span class="token comment"># 应用分类函数</span>
+    nu_df<span class="token punctuation">.</span>loc<span class="token punctuation">[</span><span class="token punctuation">:</span><span class="token punctuation">,</span> <span class="token string">'pointGroup'</span><span class="token punctuation">]</span> <span class="token operator">=</span> nu_df<span class="token punctuation">.</span><span class="token builtin">apply</span><span class="token punctuation">(</span>classify_breakpoint<span class="token punctuation">,</span> axis<span class="token operator">=</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token builtin">type</span><span class="token operator">=</span><span class="token string">'nu'</span><span class="token punctuation">)</span>
+    <span class="token keyword">if</span> <span class="token keyword">not</span> mt_df<span class="token punctuation">.</span>empty<span class="token punctuation">:</span>
+        mt_df<span class="token punctuation">.</span>loc<span class="token punctuation">[</span><span class="token punctuation">:</span><span class="token punctuation">,</span> <span class="token string">'pointGroup'</span><span class="token punctuation">]</span> <span class="token operator">=</span> mt_df<span class="token punctuation">.</span><span class="token builtin">apply</span><span class="token punctuation">(</span>classify_breakpoint<span class="token punctuation">,</span> axis<span class="token operator">=</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token builtin">type</span><span class="token operator">=</span><span class="token string">'mt'</span><span class="token punctuation">)</span>
+
+    nu_df<span class="token punctuation">.</span>loc<span class="token punctuation">[</span><span class="token punctuation">:</span><span class="token punctuation">,</span> <span class="token string">'Group'</span><span class="token punctuation">]</span> <span class="token operator">=</span> nu_df<span class="token punctuation">[</span><span class="token string">'pointGroup'</span><span class="token punctuation">]</span><span class="token punctuation">.</span><span class="token builtin">str</span><span class="token punctuation">.</span>replace<span class="token punctuation">(</span><span class="token string">r'_T.*B'</span><span class="token punctuation">,</span> <span class="token string">''</span><span class="token punctuation">,</span> regex<span class="token operator">=</span><span class="token boolean">True</span><span class="token punctuation">)</span>
+    nu_df<span class="token punctuation">.</span>loc<span class="token punctuation">[</span><span class="token punctuation">:</span><span class="token punctuation">,</span> <span class="token string">'chr'</span><span class="token punctuation">]</span> <span class="token operator">=</span> CHR
+    <span class="token keyword">if</span> <span class="token keyword">not</span> mt_df<span class="token punctuation">.</span>empty<span class="token punctuation">:</span>
+        mt_df<span class="token punctuation">.</span>loc<span class="token punctuation">[</span><span class="token punctuation">:</span><span class="token punctuation">,</span> <span class="token string">'chr'</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token string">'chrM'</span>
+
+    <span class="token keyword">def</span> <span class="token function">group_and_count</span><span class="token punctuation">(</span>df<span class="token punctuation">,</span> by_cols<span class="token punctuation">)</span><span class="token punctuation">:</span>
+        <span class="token keyword">return</span> df<span class="token punctuation">.</span>groupby<span class="token punctuation">(</span>by_cols<span class="token punctuation">)</span><span class="token punctuation">.</span>size<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span>reset_index<span class="token punctuation">(</span>name<span class="token operator">=</span><span class="token string">"readsCount"</span><span class="token punctuation">)</span>
+
+    <span class="token comment"># 核DNA断点</span>
+    nu_left <span class="token operator">=</span> group_and_count<span class="token punctuation">(</span>nu_df<span class="token punctuation">.</span>loc<span class="token punctuation">[</span>nu_df<span class="token punctuation">[</span><span class="token string">'pointGroup'</span><span class="token punctuation">]</span> <span class="token operator">==</span> <span class="token string">'nu_Tend_Bleft'</span><span class="token punctuation">]</span><span class="token punctuation">,</span> <span class="token punctuation">[</span><span class="token string">'pointGroup'</span><span class="token punctuation">,</span> <span class="token string">'Group'</span><span class="token punctuation">,</span> <span class="token string">'chr'</span><span class="token punctuation">,</span> <span class="token string">'Tend'</span><span class="token punctuation">,</span> <span class="token string">'strand'</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
+    nu_right <span class="token operator">=</span> group_and_count<span class="token punctuation">(</span>nu_df<span class="token punctuation">.</span>loc<span class="token punctuation">[</span>nu_df<span class="token punctuation">[</span><span class="token string">'pointGroup'</span><span class="token punctuation">]</span> <span class="token operator">==</span> <span class="token string">'nu_Tstart_Bright'</span><span class="token punctuation">]</span><span class="token punctuation">,</span> <span class="token punctuation">[</span><span class="token string">'pointGroup'</span><span class="token punctuation">,</span> <span class="token string">'Group'</span><span class="token punctuation">,</span> <span class="token string">'chr'</span><span class="token punctuation">,</span> <span class="token string">'Tstart'</span><span class="token punctuation">,</span> <span class="token string">'strand'</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
+    nu_both <span class="token operator">=</span> pd<span class="token punctuation">.</span>concat<span class="token punctuation">(</span><span class="token punctuation">[</span>nu_left<span class="token punctuation">,</span> nu_right<span class="token punctuation">]</span><span class="token punctuation">)</span>
+
+    <span class="token comment"># 同时映射到线粒体的核DNA断点</span>
+    nu_mt <span class="token operator">=</span> nu_df<span class="token punctuation">.</span>loc<span class="token punctuation">[</span>nu_df<span class="token punctuation">[</span><span class="token string">'Qname'</span><span class="token punctuation">]</span><span class="token punctuation">.</span>isin<span class="token punctuation">(</span>mt_df<span class="token punctuation">[</span><span class="token string">'Qname'</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">]</span>
+    nu_mt_left <span class="token operator">=</span> group_and_count<span class="token punctuation">(</span>nu_mt<span class="token punctuation">.</span>loc<span class="token punctuation">[</span>nu_mt<span class="token punctuation">[</span><span class="token string">'pointGroup'</span><span class="token punctuation">]</span> <span class="token operator">==</span> <span class="token string">'nu_Tend_Bleft'</span><span class="token punctuation">]</span><span class="token punctuation">,</span> <span class="token punctuation">[</span><span class="token string">'pointGroup'</span><span class="token punctuation">,</span> <span class="token string">'Group'</span><span class="token punctuation">,</span> <span class="token string">'chr'</span><span class="token punctuation">,</span> <span class="token string">'Tend'</span><span class="token punctuation">,</span> <span class="token string">'strand'</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
+    nu_mt_right <span class="token operator">=</span> group_and_count<span class="token punctuation">(</span>nu_mt<span class="token punctuation">.</span>loc<span class="token punctuation">[</span>nu_mt<span class="token punctuation">[</span><span class="token string">'pointGroup'</span><span class="token punctuation">]</span> <span class="token operator">==</span> <span class="token string">'nu_Tstart_Bright'</span><span class="token punctuation">]</span><span class="token punctuation">,</span> <span class="token punctuation">[</span><span class="token string">'pointGroup'</span><span class="token punctuation">,</span> <span class="token string">'Group'</span><span class="token punctuation">,</span> <span class="token string">'chr'</span><span class="token punctuation">,</span> <span class="token string">'Tstart'</span><span class="token punctuation">,</span> <span class="token string">'strand'</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
+    nu_mt_both <span class="token operator">=</span> pd<span class="token punctuation">.</span>concat<span class="token punctuation">(</span><span class="token punctuation">[</span>nu_mt_left<span class="token punctuation">,</span> nu_mt_right<span class="token punctuation">]</span><span class="token punctuation">)</span>
+
+    <span class="token comment"># 线粒体断点</span>
+    <span class="token keyword">if</span> <span class="token keyword">not</span> mt_df<span class="token punctuation">.</span>empty<span class="token punctuation">:</span>
+        mt_tend <span class="token operator">=</span> group_and_count<span class="token punctuation">(</span>mt_df<span class="token punctuation">.</span>loc<span class="token punctuation">[</span>mt_df<span class="token punctuation">[</span><span class="token string">'pointGroup'</span><span class="token punctuation">]</span> <span class="token operator">==</span> <span class="token string">'mt_Tend'</span><span class="token punctuation">]</span><span class="token punctuation">,</span> <span class="token punctuation">[</span><span class="token string">'pointGroup'</span><span class="token punctuation">,</span> <span class="token string">'chr'</span><span class="token punctuation">,</span> <span class="token string">'Tend'</span><span class="token punctuation">,</span> <span class="token string">'strand'</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
+        mt_tstart <span class="token operator">=</span> group_and_count<span class="token punctuation">(</span>mt_df<span class="token punctuation">.</span>loc<span class="token punctuation">[</span>mt_df<span class="token punctuation">[</span><span class="token string">'pointGroup'</span><span class="token punctuation">]</span> <span class="token operator">==</span> <span class="token string">'mt_Tstart'</span><span class="token punctuation">]</span><span class="token punctuation">,</span> <span class="token punctuation">[</span><span class="token string">'pointGroup'</span><span class="token punctuation">,</span> <span class="token string">'chr'</span><span class="token punctuation">,</span> <span class="token string">'Tstart'</span><span class="token punctuation">,</span> <span class="token string">'strand'</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
+        mt_both <span class="token operator">=</span> pd<span class="token punctuation">.</span>concat<span class="token punctuation">(</span><span class="token punctuation">[</span>mt_tend<span class="token punctuation">,</span> mt_tstart<span class="token punctuation">]</span><span class="token punctuation">)</span>
+        mt_both<span class="token punctuation">[</span><span class="token string">'Group'</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token string">'UKn'</span>
+
+        <span class="token comment"># 同时映射到核DNA的线粒体断点</span>
+        mt_conf <span class="token operator">=</span> pd<span class="token punctuation">.</span>concat<span class="token punctuation">(</span><span class="token punctuation">[</span>
+            group_and_count<span class="token punctuation">(</span>mt_df<span class="token punctuation">.</span>loc<span class="token punctuation">[</span><span class="token punctuation">(</span>mt_df<span class="token punctuation">[</span><span class="token string">'Qname'</span><span class="token punctuation">]</span><span class="token punctuation">.</span>isin<span class="token punctuation">(</span>nu_df<span class="token punctuation">.</span>loc<span class="token punctuation">[</span>nu_df<span class="token punctuation">[</span><span class="token string">'pointGroup'</span><span class="token punctuation">]</span> <span class="token operator">==</span> <span class="token string">'nu_Tend_Bleft'</span><span class="token punctuation">,</span> <span class="token string">'Qname'</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token operator">&amp;</span> <span class="token punctuation">(</span>mt_df<span class="token punctuation">[</span><span class="token string">'pointGroup'</span><span class="token punctuation">]</span> <span class="token operator">==</span> <span class="token string">'mt_Tstart'</span><span class="token punctuation">)</span><span class="token punctuation">]</span><span class="token punctuation">,</span> <span class="token punctuation">[</span><span class="token string">'pointGroup'</span><span class="token punctuation">,</span> <span class="token string">'chr'</span><span class="token punctuation">,</span> <span class="token string">'Tstart'</span><span class="token punctuation">,</span> <span class="token string">'strand'</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+            group_and_count<span class="token punctuation">(</span>mt_df<span class="token punctuation">.</span>loc<span class="token punctuation">[</span><span class="token punctuation">(</span>mt_df<span class="token punctuation">[</span><span class="token string">'Qname'</span><span class="token punctuation">]</span><span class="token punctuation">.</span>isin<span class="token punctuation">(</span>nu_df<span class="token punctuation">.</span>loc<span class="token punctuation">[</span>nu_df<span class="token punctuation">[</span><span class="token string">'pointGroup'</span><span class="token punctuation">]</span> <span class="token operator">==</span> <span class="token string">'nu_Tend_Bleft'</span><span class="token punctuation">,</span> <span class="token string">'Qname'</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token operator">&amp;</span> <span class="token punctuation">(</span>mt_df<span class="token punctuation">[</span><span class="token string">'pointGroup'</span><span class="token punctuation">]</span> <span class="token operator">==</span> <span class="token string">'mt_Tend'</span><span class="token punctuation">)</span><span class="token punctuation">]</span><span class="token punctuation">,</span> <span class="token punctuation">[</span><span class="token string">'pointGroup'</span><span class="token punctuation">,</span> <span class="token string">'chr'</span><span class="token punctuation">,</span> <span class="token string">'Tend'</span><span class="token punctuation">,</span> <span class="token string">'strand'</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+            group_and_count<span class="token punctuation">(</span>mt_df<span class="token punctuation">.</span>loc<span class="token punctuation">[</span><span class="token punctuation">(</span>mt_df<span class="token punctuation">[</span><span class="token string">'Qname'</span><span class="token punctuation">]</span><span class="token punctuation">.</span>isin<span class="token punctuation">(</span>nu_df<span class="token punctuation">.</span>loc<span class="token punctuation">[</span>nu_df<span class="token punctuation">[</span><span class="token string">'pointGroup'</span><span class="token punctuation">]</span> <span class="token operator">==</span> <span class="token string">'nu_Tstart_Bright'</span><span class="token punctuation">,</span> <span class="token string">'Qname'</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token operator">&amp;</span> <span class="token punctuation">(</span>mt_df<span class="token punctuation">[</span><span class="token string">'pointGroup'</span><span class="token punctuation">]</span> <span class="token operator">==</span> <span class="token string">'mt_Tstart'</span><span class="token punctuation">)</span><span class="token punctuation">]</span><span class="token punctuation">,</span> <span class="token punctuation">[</span><span class="token string">'pointGroup'</span><span class="token punctuation">,</span> <span class="token string">'chr'</span><span class="token punctuation">,</span> <span class="token string">'Tstart'</span><span class="token punctuation">,</span> <span class="token string">'strand'</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+            group_and_count<span class="token punctuation">(</span>mt_df<span class="token punctuation">.</span>loc<span class="token punctuation">[</span><span class="token punctuation">(</span>mt_df<span class="token punctuation">[</span><span class="token string">'Qname'</span><span class="token punctuation">]</span><span class="token punctuation">.</span>isin<span class="token punctuation">(</span>nu_df<span class="token punctuation">.</span>loc<span class="token punctuation">[</span>nu_df<span class="token punctuation">[</span><span class="token string">'pointGroup'</span><span class="token punctuation">]</span> <span class="token operator">==</span> <span class="token string">'nu_Tstart_Bright'</span><span class="token punctuation">,</span> <span class="token string">'Qname'</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token operator">&amp;</span> <span class="token punctuation">(</span>mt_df<span class="token punctuation">[</span><span class="token string">'pointGroup'</span><span class="token punctuation">]</span> <span class="token operator">==</span> <span class="token string">'mt_Tend'</span><span class="token punctuation">)</span><span class="token punctuation">]</span><span class="token punctuation">,</span> <span class="token punctuation">[</span><span class="token string">'pointGroup'</span><span class="token punctuation">,</span> <span class="token string">'chr'</span><span class="token punctuation">,</span> <span class="token string">'Tend'</span><span class="token punctuation">,</span> <span class="token string">'strand'</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
+        <span class="token punctuation">]</span><span class="token punctuation">)</span>
+
+        <span class="token comment"># 捕获并忽略异常</span>
+        <span class="token keyword">try</span><span class="token punctuation">:</span>
+            mt_conf<span class="token punctuation">[</span><span class="token string">'Group'</span><span class="token punctuation">]</span> <span class="token operator">=</span> mt_conf<span class="token punctuation">.</span><span class="token builtin">apply</span><span class="token punctuation">(</span><span class="token keyword">lambda</span> row<span class="token punctuation">:</span> <span class="token string">'mtLeft'</span> <span class="token keyword">if</span> <span class="token string">'left'</span> <span class="token keyword">in</span> row<span class="token punctuation">[</span><span class="token string">'pointGroup'</span><span class="token punctuation">]</span> <span class="token keyword">else</span> <span class="token string">'mtRight'</span><span class="token punctuation">,</span> axis<span class="token operator">=</span><span class="token number">1</span><span class="token punctuation">)</span>
+        <span class="token keyword">except</span> ValueError <span class="token keyword">as</span> e<span class="token punctuation">:</span>
+            <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string-interpolation"><span class="token string">f"尽管这里出现了一个问题: </span><span class="token interpolation"><span class="token punctuation">{</span>e<span class="token punctuation">}</span></span><span class="token string">, 但是我们并不打算解决它，因为它并不影响最终的结果。"</span></span><span class="token punctuation">)</span>
+
+        all_breakpoints <span class="token operator">=</span> pd<span class="token punctuation">.</span>concat<span class="token punctuation">(</span><span class="token punctuation">[</span>nu_both<span class="token punctuation">,</span> mt_both<span class="token punctuation">]</span><span class="token punctuation">)</span>
+        mt_conf<span class="token punctuation">[</span><span class="token string">'sampleID'</span><span class="token punctuation">]</span> <span class="token operator">=</span> SAMPLEID
+        mt_conf<span class="token punctuation">[</span><span class="token string">'Tstart'</span><span class="token punctuation">]</span> <span class="token operator">=</span> mt_conf<span class="token punctuation">[</span><span class="token string">'Tstart'</span><span class="token punctuation">]</span><span class="token punctuation">.</span>fillna<span class="token punctuation">(</span><span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">.</span>astype<span class="token punctuation">(</span><span class="token builtin">int</span><span class="token punctuation">)</span>
+        mt_conf<span class="token punctuation">[</span><span class="token string">'Tend'</span><span class="token punctuation">]</span> <span class="token operator">=</span> mt_conf<span class="token punctuation">[</span><span class="token string">'Tend'</span><span class="token punctuation">]</span><span class="token punctuation">.</span>fillna<span class="token punctuation">(</span><span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">.</span>astype<span class="token punctuation">(</span><span class="token builtin">int</span><span class="token punctuation">)</span>
+    <span class="token keyword">else</span><span class="token punctuation">:</span>
+        all_breakpoints <span class="token operator">=</span> nu_both
+        mt_conf <span class="token operator">=</span> pd<span class="token punctuation">.</span>DataFrame<span class="token punctuation">(</span><span class="token punctuation">)</span>
+
+    <span class="token comment"># 输出结果</span>
+    all_breakpoints<span class="token punctuation">[</span><span class="token string">'sampleID'</span><span class="token punctuation">]</span> <span class="token operator">=</span> SAMPLEID
+    all_breakpoints<span class="token punctuation">[</span><span class="token string">'Tstart'</span><span class="token punctuation">]</span> <span class="token operator">=</span> all_breakpoints<span class="token punctuation">[</span><span class="token string">'Tstart'</span><span class="token punctuation">]</span><span class="token punctuation">.</span>fillna<span class="token punctuation">(</span><span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">.</span>astype<span class="token punctuation">(</span><span class="token builtin">int</span><span class="token punctuation">)</span>
+    all_breakpoints<span class="token punctuation">[</span><span class="token string">'Tend'</span><span class="token punctuation">]</span> <span class="token operator">=</span> all_breakpoints<span class="token punctuation">[</span><span class="token string">'Tend'</span><span class="token punctuation">]</span><span class="token punctuation">.</span>fillna<span class="token punctuation">(</span><span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">.</span>astype<span class="token punctuation">(</span><span class="token builtin">int</span><span class="token punctuation">)</span>
+
+    confident_breakpoints <span class="token operator">=</span> pd<span class="token punctuation">.</span>concat<span class="token punctuation">(</span><span class="token punctuation">[</span>nu_mt_both<span class="token punctuation">,</span> mt_conf<span class="token punctuation">]</span><span class="token punctuation">)</span>
+    confident_breakpoints<span class="token punctuation">[</span><span class="token string">'sampleID'</span><span class="token punctuation">]</span> <span class="token operator">=</span> SAMPLEID
+    confident_breakpoints<span class="token punctuation">[</span><span class="token string">'Tstart'</span><span class="token punctuation">]</span> <span class="token operator">=</span> confident_breakpoints<span class="token punctuation">[</span><span class="token string">'Tstart'</span><span class="token punctuation">]</span><span class="token punctuation">.</span>fillna<span class="token punctuation">(</span><span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">.</span>astype<span class="token punctuation">(</span><span class="token builtin">int</span><span class="token punctuation">)</span>
+    confident_breakpoints<span class="token punctuation">[</span><span class="token string">'Tend'</span><span class="token punctuation">]</span> <span class="token operator">=</span> confident_breakpoints<span class="token punctuation">[</span><span class="token string">'Tend'</span><span class="token punctuation">]</span><span class="token punctuation">.</span>fillna<span class="token punctuation">(</span><span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">.</span>astype<span class="token punctuation">(</span><span class="token builtin">int</span><span class="token punctuation">)</span>
+
+    <span class="token comment"># 写入文件</span>
+    confident_breakpoints<span class="token punctuation">.</span>to_csv<span class="token punctuation">(</span>OUTPUT <span class="token operator">+</span> <span class="token string">'.Breakpoints.tsv'</span><span class="token punctuation">,</span> sep<span class="token operator">=</span><span class="token string">'\t'</span><span class="token punctuation">,</span> header<span class="token operator">=</span><span class="token boolean">False</span><span class="token punctuation">,</span> index<span class="token operator">=</span><span class="token boolean">False</span><span class="token punctuation">)</span>
+<span class="token keyword">else</span><span class="token punctuation">:</span>
+    <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"过滤后没有发现核序列。"</span><span class="token punctuation">)</span>
+
+</code><button class="copy-code-button">复制</button></pre></div></div></div><div class="heading-wrapper"><h2 data-heading="结果解读" dir="auto" class="heading" id="结果解读"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>结果解读</h2><div class="heading-children"><div class="heading-wrapper"><h3 data-heading="`Breakpoints.tsv`" dir="auto" class="heading" id="`Breakpoints.tsv`"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><code>Breakpoints.tsv</code></h3><div class="heading-children"><div><p dir="auto">该文件包含断点信息。每行表示一个断点，通常包括以下列：</p></div><div><ul>
+<li data-line="0" dir="auto"><code>pointGroup</code>: 断点组</li>
+<li data-line="1" dir="auto"><code>Group</code>: 断点类别</li>
+<li data-line="2" dir="auto"><code>chr</code>: 染色体</li>
+<li data-line="3" dir="auto"><code>Tend</code>: 结束位置</li>
+<li data-line="4" dir="auto"><code>strand</code>: 链方向</li>
+<li data-line="5" dir="auto"><code>readsCount</code>: 读取计数</li>
+<li data-line="6" dir="auto"><code>Tstart</code>: 起始位置</li>
+<li data-line="7" dir="auto"><code>sampleID</code>: 样本ID</li>
+</ul></div><div><p dir="auto">示例数据：</p></div><div><pre class="language-txt" tabindex="0"><code class="language-txt is-loaded">nu_Tend_Bleft	nuleft	chr1	634078	+	1	-1	HG001
+nu_Tstart_Bright	nuright	chr1	-1	+	1	633739	HG001
+nu_Tstart_Bright	nuright	chr1	-1	+	1	633939	HG001
+</code><button class="copy-code-button">复制</button></pre></div></div></div></div></div><div class="heading-wrapper"><h2 data-heading="`breakpointINPUT.tsv`" dir="auto" class="heading" id="`breakpointINPUT.tsv`"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><code>breakpointINPUT.tsv</code></h2><div class="heading-children"><div><p dir="auto">该文件包含每个找到的断点的信息。每行表示一个断点区域，通常包括以下列：</p></div><div><ul>
+<li data-line="0" dir="auto"><code>sampleID</code>: 样本ID</li>
+<li data-line="1" dir="auto"><code>cluster_no</code>: 聚类编号</li>
+<li data-line="2" dir="auto"><code>disFile</code>: 不一致的文件路径</li>
+<li data-line="3" dir="auto"><code>splitFile</code>: 分裂的文件路径</li>
+<li data-line="4" dir="auto"><code>wgsBAM</code>: WGS BAM文件路径</li>
+<li data-line="5" dir="auto"><code>chr</code>: 染色体编号</li>
+<li data-line="6" dir="auto"><code>start</code>: 起始位置</li>
+<li data-line="7" dir="auto"><code>end</code>: 结束位置</li>
+</ul></div><div><pre class="language-txt" tabindex="0"><code class="language-txt is-loaded">HG001	3	/home/luolintao/NUMTs-detection-1.0/NUMTs-detection-1.0/RESULT/HG001.mt.disc.sam	/home/luolintao/NUMTs-detection-1.0/NUMTs-detection-1.0/RESULT/HG001.mt.split.sam	/home/luolintao/Reference_GRCH/INPUT_TEST/HG001.bam	('chr1',)	633396	634563
+HG001	2	/home/luolintao/NUMTs-detection-1.0/NUMTs-detection-1.0/RESULT/HG001.mt.disc.sam	/home/luolintao/NUMTs-detection-1.0/NUMTs-detection-1.0/RESULT/HG001.mt.split.sam	/home/luolintao/Reference_GRCH/INPUT_TEST/HG001.bam	('chr11',)	49861375	49863007
+HG001	3	/home/luolintao/NUMTs-detection-1.0/NUMTs-detection-1.0/RESULT/HG001.mt.disc.sam	/home/luolintao/NUMTs-detection-1.0/NUMTs-detection-1.0/RESULT/HG001.mt.split.sam	/home/luolintao/Reference_GRCH/INPUT_TEST/HG001.bam	('chr5',)	32337638	32339245
+
+</code><button class="copy-code-button">复制</button></pre></div></div></div><div class="heading-wrapper"><h2 data-heading="`cluster.summary.tsv`" dir="auto" class="heading" id="`cluster.summary.tsv`"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><code>cluster.summary.tsv</code></h2><div class="heading-children"><div><p dir="auto">该文件包含聚类的摘要信息。每行表示一个聚类，通常包括以下列：</p></div><div><ul>
+<li data-line="0" dir="auto"><code>IndividualID</code>: 样本ID</li>
+<li data-line="1" dir="auto"><code>Cluster_ID</code>: 聚类ID</li>
+<li data-line="2" dir="auto"><code>Cluster_No</code>: 聚类编号</li>
+<li data-line="3" dir="auto"><code>subCluster_No</code>: 子聚类编号</li>
+<li data-line="4" dir="auto"><code>size</code>: 聚类大小</li>
+</ul></div><div><pre class="language-txt" tabindex="0"><code class="language-txt is-loaded">0	HG001	('chr1',)_633896_633913_MTboth_9735_9872	3	3	3
+1	HG001	('chr11',)_49861875_49862357_MTboth_16089_16340	2	2	2
+2	HG001	('chr5',)_32338138_32338595_MTboth_14835_14835	3	1	1
+</code><button class="copy-code-button">复制</button></pre></div><div><p dir="auto">在这里，需要具体解释一下：<br>
+前三列很好理解。但是针对后面：</p></div><div><ol>
+<li data-line="0" dir="auto">
+<p><strong>第四列*</strong>(<code>Cluster_No</code>)：这是主聚类中读段的总数。这些读段是基于它们在染色体上的位置（<code>POS</code>）进行聚类的，聚类的条件是相邻读段之间的距离不超过 500 个碱基对。检测出的满足第三列条件的 NUMT 的数量。</p>
+</li>
+<li data-line="1" dir="auto">
+<p><strong>第五列和第六列</strong>表示在这个聚类中的子聚类数目，它们是对这些读段进一步聚类后满足特定条件的读段数目。根据代码的逻辑，第五列（<code>subCluster_No</code>）和第六列（<code>subCluster_No</code>）的值在通常情况下会相同。<strong>(<code>subCluster_No</code>)</strong>：这是子聚类中读数的总数。这些读数是基于它们在配对读数的位置（<code>PNEXT</code>）进行进一步聚类的，聚类的条件同样是相邻读数之间的距离不超过 500 个碱基对。<br>
+NUMTs 是线粒体 DNA 插入到核基因组中的片段，通常我们预期插入到核基因组中的 NUMT 片段会比它们的原始线粒体序列短或相等。然而，你的示例中出现了相反的情况，这确实需要解释。在你的例子中，核基因组中的序列长度（444 bp）大于线粒体中的序列长度（190 bp）。有几种可能的解释：</p>
+</li>
+<li data-line="3" dir="auto"><div class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>
+<p><strong>插入事件和重排</strong>：</p>
+<ul>
+<li data-line="5" dir="auto">NUMTs 插入到核基因组中时，可能会发生重排或扩展，从而导致插入片段在核基因组中的长度增加。</li>
+<li data-line="6" dir="auto">核基因组中的插入片段可能包含了其他序列，这些序列可能是插入事件导致的。</li>
+</ul>
+</li>
+<li data-line="7" dir="auto"><div class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>
+<p><strong>重复序列</strong>：</p>
+<ul>
+<li data-line="9" dir="auto">核基因组中可能包含重复序列，这些重复序列与线粒体 DNA 部分相同，但总体长度较长。</li>
+<li data-line="10" dir="auto">这些重复序列可能是由于插入事件或其他基因组重排造成的。</li>
+</ul>
+</li>
+<li data-line="11" dir="auto"><div class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>
+<p><strong>比对错误或读数拼接</strong>：</p>
+<ul>
+<li data-line="13" dir="auto">在比对过程中，可能会出现错误，导致比对到核基因组的读数长度增加。</li>
+<li data-line="14" dir="auto">读数拼接也可能会引入额外的序列，从而增加比对长度。</li>
+</ul>
+</li>
+</ol></div></div></div><div class="heading-wrapper"><h2 data-heading="`cluster.tsv`" dir="auto" class="heading" id="`cluster.tsv`"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><code>cluster.tsv</code></h2><div class="heading-children"><div><p dir="auto">该文件包含聚类的详细信息。每行表示一个聚类的具体信息，通常包括以下列：</p></div><div><ul>
+<li data-line="0" dir="auto"><code>QNAME</code>: 序列名称</li>
+<li data-line="1" dir="auto"><code>FLAG</code>: 标志</li>
+<li data-line="2" dir="auto"><code>RNAME</code>: 参考序列名称</li>
+<li data-line="3" dir="auto"><code>POS</code>: 位置</li>
+<li data-line="4" dir="auto"><code>MAPQ</code>: 比对质量</li>
+<li data-line="5" dir="auto"><code>CIGAR</code>: 比对描述</li>
+<li data-line="6" dir="auto"><code>RNEXT</code>: 下一个参考名称</li>
+<li data-line="7" dir="auto"><code>PNEXT</code>: 下一个位置</li>
+<li data-line="8" dir="auto"><code>TLEN</code>: 模板长度</li>
+<li data-line="9" dir="auto"><code>SEQ</code>: 序列</li>
+<li data-line="10" dir="auto"><code>QUAL</code>: 质量</li>
+<li data-line="11" dir="auto"><code>SM</code>: 样本</li>
+<li data-line="12" dir="auto"><code>RG</code>: 读取组</li>
+<li data-line="13" dir="auto"><code>NM</code>: 不匹配数</li>
+<li data-line="14" dir="auto"><code>BC</code>: 条形码</li>
+<li data-line="15" dir="auto"><code>OC</code>: 原始 CIGAR</li>
+<li data-line="16" dir="auto"><code>ZX</code>: 自定义标记1</li>
+<li data-line="17" dir="auto"><code>ZY</code>: 自定义标记2</li>
+<li data-line="18" dir="auto"><code>SA</code>: 辅助比对</li>
+<li data-line="19" dir="auto"><code>subCluster_No</code>: 子聚类编号</li>
+<li data-line="20" dir="auto"><code>Cluster_No</code>: 聚类编号</li>
+<li data-line="21" dir="auto"><code>Cluster_ID</code>: 聚类ID</li>
+<li data-line="22" dir="auto"><code>IndividualID</code>: 样本ID</li>
+<li data-line="23" dir="auto"><code>clusterID</code>: 聚类ID</li>
+</ul></div><div><pre class="language-txt" tabindex="0"><code class="language-txt is-loaded">QNAME	FLAG	RNAME	POS	MAPQ	CIGAR	RNEXT	PNEXT	TLEN	SEQ	QUAL	SM	RG	NM	BC	OC	ZX	ZY	SA	subCluster_No	Cluster_No	Cluster_ID	IndividualID	clusterID
+HISEQ1:11:H8GV6ADXX:1:2212:16190:45635	97	chr1	633900	32	148M	chrM	9735	0	TCTCTTATACTAGTATCCTTAATCATTTTTATTGCCACAACTAACCTCCTCGGACTCCTGCCTCACTCATTTACACCAACCACCCAACTATCTATAAACCTAGCCATGGCCATCCCCTTATGAGCGGGCGCAGTGATTATAGGCTTTC	C									3	3	('chr1',)_633896_633913_MTboth_9735_9872	HG001	chr1_3
+HISEQ1:17:H947YADXX:2:2206:7902:6711	97	chr1	633913	32	148M	chrM	9872	0	TATCCTTAATCATTTTTATTGCCACAACTAACCTCCTCGGACTCCTGCCTCACTCATTTACACCAACCACCCAACTATCTATAAACCTAGCCATGGCCATCCCCTTATGAGCGGGCGCAGTGATTATAGGCTTTCGCTCTAAGATTAA										3	3	('chr1',)_633896_633913_MTboth_9735_9872	HG001	chr1_3
+HWI-D00360:5:H814YADXX:2:2107:18825:98678	161	chr1	633896	20	148M	chrM	9818	0	CTGATCTCTTATACTAGTATCCTTAATCATTTTTATTGCCACAACTAACCTCCTCGGACTCCTGCCTCACTCATTTACACCAACCACCCAACTATCTATAAACCTAGCCATGGCCATCCCCTTATGAGCGCGCGCAGTGATTATAGGC	&lt;									3	3	('chr1',)_633896_633913_MTboth_9735_9872	HG001	chr1_3
+HWI-D00360:5:H814YADXX:2:1106:18751:35433	113	chr11	49862357	70	148M	chrM	16089	0	GTATTTAATGTAATTTATAGAGAACCGTTTGAATGAAACTAAGTTTTTACTGGAAATACAGCAATTTTTTTTTTTTCAGAATATGCTTATAGGTGTGGAATTGCAGAGGCTGTTGGTCTTCCAAGTATTCCTGTTCATCCAATTGGAT	CEEDDDEECDDDDDDEDEDDCDB									2	2	('chr11',)_49861875_49862357_MTboth_16089_16340	HG001	chr11_2
+HWI-D00360:6:H81VLADXX:1:2211:17678:67136	65	chr11	49861875	70	143M5S	chrM	16340	0	GGAAAGGAAAAGAAAAGAAAAGTAATGATTAGATTTATTTTTAAAGTCTTGCTTATTACAATGATGGAAAATTTGAGATTTTCCATCATATTGTATGTATTAGTTTTTTTCTTTTGTTGATTGAGCAGCATTCCATTGTGGGAAAATA	CCCFFFFFHHHHHJIIJJJJJJHHJIJJJJJJJJJJIIJJJJJJJJHIJJJJJJJJJJJJJJJJJJJJJJJJJJJJJHHHHHHHFFFFFFFEEEEEEEFFFDEDDEDDDDDDDDDDDDDDDDDDDDDDDDDDDEEEEDEDDDDDDDDD	PG:Z:novoalign	AS:i:90	UQ:i:90	NM:i:1	MD:Z:22A120				2	2	('chr11',)_49861875_49862357_MTboth_16089_16340	HG001	chr11_2
+HISEQ1:17:H947YADXX:2:1209:10750:98109	145	chr5	32338595	70	148M	chrM	14835	0	TTTTGTATTTTTAGTAGAGATGGGGTTTCTCCACATTGGTCAGGCTGGTCTCGAACTCCCAGCCTCAGGTGATCTGCCTGTCTTGGCCTCCCAAAGTGCTGGGATTACAGGCATGAGCCATTGCACCCAGCTGAGTAAATCAGGTTTT	BDDCC									1	3	('chr5',)_32338138_32338595_MTboth_14835_14835	HG001	chr5_3
+
+</code><button class="copy-code-button">复制</button></pre></div></div></div></div></div><div class="heading-wrapper"><h1 data-heading="修改二" dir="auto" class="heading" id="修改二">修改二</h1><div class="heading-children"><div class="heading-wrapper"><h2 data-heading="可视化绘图软件" dir="auto" class="heading" id="可视化绘图软件"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>可视化绘图软件</h2><div class="heading-children"><div><p dir="auto">我真的是服了 <code>circos</code> 这个软件了。他很强大，的确，也很弱智。一点也不智能。真不敢相信在2024年我还能见到如同 WindowsXP 一般的软件。转念一想，科研嘛，大概都是这样的。不然人人都是科学家。</p></div><div class="heading-wrapper"><h3 data-heading="软件下载" dir="auto" class="heading" id="软件下载"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>软件下载</h3><div class="heading-children"><div><p dir="auto"><a data-tooltip-position="top" aria-label="https://circos.ca/software/download/" rel="noopener" class="external-link" href="https://circos.ca/software/download/" target="_blank">Download // CIRCOS Circular Genome Data Visualization</a><br>
+将压缩包解压到 <code>Linux</code> 环境。其实这个软件 win 也能运行，但是不太方便。</p></div><div><p dir="auto">运行 circos 需要一些环境配置，但是这些都不太难。官网查一查就行了，问问呢 ChatGPT 也不会出错。</p></div></div></div><div class="heading-wrapper"><h3 data-heading="circos_allNUMTs.conf" dir="auto" class="heading" id="circos_allNUMTs.conf"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>circos_allNUMTs.conf</h3><div class="heading-children"><div><p dir="auto">修改代码如下：</p></div><div><pre class="language-conf" tabindex="0"><code class="language-conf is-loaded">################################################################################
+## 本脚本生成circos图
+## 需要安装Circos
+## Circos可以从 http://circos.ca/software/download/circos/ 下载
+################################################################################
+
+# 引入Circos的housekeeping配置文件
+&lt;&lt;include /mnt/e/Scientifc_software/circos-current/circos-0.69-9/etc/housekeeping.conf&gt;&gt;
+
+# Circos的一般设置
+anti_aliasing* = no  # 禁用抗锯齿
+max_points_per_track* = 30000  # 每个轨道的最大点数
+
+# 引入颜色、字体和模式的配置文件
+&lt;&lt;include /mnt/e/Scientifc_software/circos-current/circos-0.69-9/etc/colors_fonts_patterns.conf&gt;&gt;
+&lt;&lt;include /mnt/e/Scientifc_software/circos-current/circos-0.69-9/etc/colors.brewer.conf&gt;&gt;
+&lt;&lt;include /mnt/e/Scientifc_software/circos-current/circos-0.69-9/etc/colors.ucsc.conf&gt;&gt;
+
+# 引入NUMTs的ideogram配置文件
+&lt;&lt;include /mnt/e/Scientifc_software/NUMTs-detection-1.0/scripts/confs/ideogram_NUMTs.conf&gt;&gt; 
+# 引入NUMTs的刻度配置文件
+&lt;&lt;include /mnt/e/Scientifc_software/NUMTs-detection-1.0/scripts/confs/ticks_NUMTs.conf&gt;&gt;
+
+# karyotype设置，使用人类karyotype文件
+&lt;&lt;include /mnt/e/Scientifc_software/NUMTs-detection-1.0/scripts/confs/karyotype_NUMTs.conf&gt;&gt;
+karyotype* = /mnt/e/Scientifc_software/circos-current/circos-0.69-9/data/karyotype/karyotype.human.hg38.txt
+
+
+# 染色体显示和缩放设置
+# chromosomes_display_default = no
+# chromosomes_units   = 0.1  # 染色体单位
+# chromosomes     = /hs[1-9XYM]/  # 要显示的染色体
+# chromosomes_reverse = hsM  # 反转M染色体
+# chromosomes_radius = hsM:1.0r  # M染色体的半径
+# chromosomes_scale   = hsM=0.5r  # M染色体的缩放
+
+# 图片设置
+&lt;image&gt;
+angle_offset* = -90  # 角度偏移
+file*  = CircosPlot_allBreakpoint.germline.png # 输出文件名
+svg*   = no  # 使用SVG格式
+png* = yes # 使用PNG格式
+radius* = 1500p  # 减少图像半径以提高速度
+
+# 引入图片配置文件
+&lt;&lt;include /mnt/e/Scientifc_software/circos-current/circos-0.69-9/etc/image.conf&gt;&gt;
+&lt;/image&gt;
+
+# NUMTs链接设置
+&lt;links&gt;
+&lt;link&gt;
+ribbon           = no  # 不使用带状显示
+bezier_radius    = 0r  # 贝塞尔曲线半径
+crest                = 0.50  # 贝塞尔曲线的峰值
+bezier_radius_purity = 1  # 贝塞尔曲线半径纯度
+file		= /mnt/c/Users/victo/Desktop/circos_format_data_no_header.txt # mtDNA和核基因组NUMTs之间的链接文件
+radius		= 0.999r  # 链接的半径
+thickness	= 10  # 链接的厚度
+
+# 引入链接规则配置文件
+&lt;rules&gt;
+&lt;&lt;include /mnt/e/Scientifc_software/NUMTs-detection-1.0/scripts/confs/links_allBreakpoints.soma.conf&gt;&gt;
+&lt;/rules&gt;
+&lt;/link&gt;
+&lt;/links&gt;
+
+# # 绘图设置
+# &lt;plots&gt;
+# # 引入中心的MitoGenes配置文件
+# &lt;&lt;include /mnt/e/Scientifc_software/NUMTs-detection-1.0/scripts/confs/MitoGenes.centre.germline.conf&gt;&gt; weiwei的文件夹怎么可能找到？
+
+# &lt;plot&gt;
+# type            = tile  # 绘图类型为瓷砖
+# file            = mtFragments_germline.txt  # mtFragments文件
+# r1                      = 1.15r  # 外半径
+# r0                      = 0.5r  # 内半径
+# orientation             = out  # 方向为向外
+# layers                  = 1  # 图层数
+# margin                  = 0.1u  # 边距
+# thickness               = 5  # 厚度
+# padding                 = 0.1  # 内边距
+
+# color                   = vdred  # 颜色为深红色
+# layers_overflow         = grow  # 图层溢出时扩展
+
+# stroke_thickness        = 1  # 描边厚度
+# stroke_color            = white  # 描边颜色为白色
+
+# &lt;/plot&gt;
+
+# &lt;/plots&gt;
+
+</code><button class="copy-code-button">复制</button></pre></div><div><div data-callout-metadata="" data-callout-fold="" data-callout="bug" class="callout"><div class="callout-title" dir="auto"><div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-bug"><path d="m8 2 1.88 1.88"></path><path d="M14.12 3.88 16 2"></path><path d="M9 7.13v-1a3.003 3.003 0 1 1 6 0v1"></path><path d="M12 20c-3.3 0-6-2.7-6-6v-3a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v3c0 3.3-2.7 6-6 6"></path><path d="M12 20v-9"></path><path d="M6.53 9C4.6 8.8 3 7.1 3 5"></path><path d="M6 13H2"></path><path d="M3 21c0-2.1 1.7-3.9 3.8-4"></path><path d="M20.97 5c0 2.1-1.6 3.8-3.5 4"></path><path d="M22 13h-4"></path><path d="M17.2 17c2.1.1 3.8 1.9 3.8 4"></path></svg></div><div class="callout-title-inner">注意</div></div><div class="callout-content">
+<p dir="auto">这里面的所有的路径一定要修改成自己的路径。推荐使用绝对路径。</p>
+</div></div></div></div></div><div class="heading-wrapper"><h3 data-heading="ideogram_NUMTs.conf" dir="auto" class="heading" id="ideogram_NUMTs.conf"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>ideogram_NUMTs.conf</h3><div class="heading-children"><div><pre class="language-conf" tabindex="0"><code class="language-conf is-loaded">&lt;ideogram&gt;
+
+&lt;spacing&gt;
+# 默认间距设置为染色体半径的0.002倍
+default = 0.002r
+
+# 在边缘处是否显示轴断裂
+axis_break_at_edge = yes
+
+# 是否显示轴断裂
+axis_break = yes
+
+# 设置轴断裂的样式为2
+axis_break_style = 2
+
+# 断裂样式1的定义
+&lt;break_style 1&gt;
+stroke_color = black      # 描边颜色为黑色
+fill_color = blue         # 填充颜色为蓝色
+thickness = 0.25r         # 厚度为0.25倍染色体半径
+stroke_thickness = 2p     # 描边厚度为2像素
+&lt;/break_style&gt;
+
+# 断裂样式2的定义
+&lt;break_style 2&gt;
+stroke_color = black      # 描边颜色为黑色
+stroke_thickness = 5p     # 描边厚度为5像素
+thickness = 2r            # 厚度为2倍染色体半径
+&lt;/break_style&gt;
+
+# 设置染色体hs1和hsM之间的间距为4倍染色体半径
+&lt;pairwise hs1 hsM&gt;
+spacing = 4r
+&lt;/pairwise&gt;
+
+# 设置染色体hsY和hsM之间的间距为4倍染色体半径
+&lt;pairwise hsY hsM&gt;
+spacing = 4r
+&lt;/pairwise&gt;
+
+&lt;/spacing&gt;
+
+# Ideogram位置，填充和轮廓
+radius = 0.85r               # 半径设置为0.85倍染色体半径
+thickness = 80p              # 厚度为20像素
+fill = yes                   # 是否填充
+stroke_color = dgrey         # 描边颜色为深灰色
+stroke_thickness = 0p        # 描边厚度为2像素
+
+#label.conf
+show_label = yes             # 是否显示标签
+label_font = default         # 标签字体为默认字体
+label_radius = 1.075r        # 标签半径为1.075倍染色体半径
+label_size = 30              # 标签大小为30
+label_parallel = yes         # 标签是否平行于染色体
+
+##bands.conf
+show_bands = yes             # 是否显示染色体带
+fill_bands = yes             # 是否填充染色体带
+band_transparency = 4        # 染色体带透明度
+
+radius* = 0.85r              # 半径设置为0.85倍染色体半径
+
+&lt;/ideogram&gt;
+
+</code><button class="copy-code-button">复制</button></pre></div></div></div><div class="heading-wrapper"><h3 data-heading="karyotype_NUMTs.conf" dir="auto" class="heading" id="karyotype_NUMTs.conf"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>karyotype_NUMTs.conf</h3><div class="heading-children"><div><pre class="language-conf" tabindex="0"><code class="language-conf is-loaded">karyotype = /mnt/e/Scientifc_software/circos-current/circos-0.69-9/data/karyotype/karyotype.human.hg38.txt # 指定karyotype文件的路径，该文件定义了染色体的基本信息（如名称、长度、带）。
+chromosomes_display_default = no # 禁用默认显示所有染色体，只显示在chromosomes参数中明确指定的染色体。
+chromosomes_units   = 0.1 # 设置染色体的单位长度，以百万碱基对（Mb）为单位（这里是0.1 Mb）。
+chromosomes     = /hs[1-9XYM]/ # 通过正则表达式指定要显示的染色体，这里是人类的染色体1-9，X，Y和线粒体M。
+chromosomes_reverse = hsM # 反转显示指定的染色体，这里是线粒体M。
+# 在这里修改染色体的颜色
+chromosomes_color   = hs1=black,hs2=orange,hs3=yellow,hs4=green,hs5=blue,hs6=dpurple,hs7=red,hs8=orange,hs9=yellow,hs10=green,hs11=blue,hs12=dpurple,hs13=red,hs14=orange,hs15=yellow,hs16=green,hs17=blue,hs18=dpurple,hs19=red,hs20=orange,hs21=yellow,hs22=green,hsX=blue,hsY=vdblue,hsM=vlblue
+#chromosomes_color  = hsM=vlblue
+chromosomes_radius = hsM:1r # 为线粒体染色体指定显示半径，这里是1.05倍的默认半径。
+chromosomes_scale   = hsM=0.5r # 为线粒体染色体指定显示比例尺，这里是0.5倍的默认比例尺。
+
+</code><button class="copy-code-button">复制</button></pre></div></div></div><div class="heading-wrapper"><h3 data-heading="links_allBreakpoints.soma.conf" dir="auto" class="heading" id="links_allBreakpoints.soma.conf"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>links_allBreakpoints.soma.conf</h3><div class="heading-children"><div><pre class="language-conf" tabindex="0"><code class="language-conf is-loaded">&lt;rule&gt;
+# 条件：在染色体hs1和线粒体染色体hsM之间
+condition = between(hs1,hsM)
+# 颜色：chr1（应在颜色定义文件中定义）
+color = black
+# z轴坐标：0
+z = 0
+# 半径：0.998倍的默认半径
+radius1 = 0.998r
+&lt;/rule&gt;
+
+&lt;rule&gt;
+# 条件：在染色体hs2和线粒体染色体hsM之间
+condition = between(hs2,hsM)
+# 颜色：chr2（应在颜色定义文件中定义）
+color = orange
+# 厚度：1像素
+# thickness = 1
+# z轴坐标：0
+z = 0
+# 半径：0.998倍的默认半径
+radius1 = 0.998r
+&lt;/rule&gt;
+
+&lt;rule&gt;
+# 条件：在染色体hs3和线粒体染色体hsM之间
+condition = between(hs3,hsM)
+# 颜色：chr3（应在颜色定义文件中定义）
+color = yellow
+# z轴坐标：0
+z = 0
+# 半径：0.998倍的默认半径
+radius1 = 0.998r
+&lt;/rule&gt;
+
+&lt;rule&gt;
+# 条件：在染色体hs4和线粒体染色体hsM之间
+condition = between(hs4,hsM)
+# 颜色：chr4（应在颜色定义文件中定义）
+color = green
+# 厚度：1像素
+# thickness = 1
+# z轴坐标：0
+z = 0
+# 半径：0.998倍的默认半径
+radius1 = 0.998r
+&lt;/rule&gt;
+
+&lt;rule&gt;
+# 条件：在染色体hs5和线粒体染色体hsM之间
+condition = between(hs5,hsM)
+# 颜色：chr5（应在颜色定义文件中定义）
+color = blue
+# z轴坐标：0
+z = 0
+# 半径：0.998倍的默认半径
+radius1 = 0.998r
+&lt;/rule&gt;
+
+&lt;rule&gt;
+# 条件：在染色体hs6和线粒体染色体hsM之间
+condition = between(hs6,hsM)
+# 颜色：chr6（应在颜色定义文件中定义）
+color = cdpurple
+# 厚度：1像素
+# thickness = 1
+# z轴坐标：0
+z = 0
+# 半径：0.998倍的默认半径
+radius1 = 0.998r
+&lt;/rule&gt;
+
+&lt;rule&gt;
+# 条件：在染色体hs7和线粒体染色体hsM之间
+condition = between(hs7,hsM)
+# 颜色：chr7（应在颜色定义文件中定义）
+color = red
+# z轴坐标：0
+z = 0
+# 半径：0.998倍的默认半径
+radius1 = 0.998r
+&lt;/rule&gt;
+
+&lt;rule&gt;
+# 条件：在染色体hs8和线粒体染色体hsM之间
+condition = between(hs8,hsM)
+# 颜色：chr8（应在颜色定义文件中定义）
+color = orange
+# 厚度：1像素
+# thickness = 1
+# z轴坐标：0
+z = 0
+# 半径：0.998倍的默认半径
+radius1 = 0.998r
+&lt;/rule&gt;
+
+&lt;rule&gt;
+# 条件：在染色体hs9和线粒体染色体hsM之间
+condition = between(hs9,hsM)
+# 颜色：chr9（应在颜色定义文件中定义）
+color = yellow
+# z轴坐标：0
+z = 0
+# 半径：0.998倍的默认半径
+radius1 = 0.998r
+&lt;/rule&gt;
+
+&lt;rule&gt;
+# 条件：在染色体hs10和线粒体染色体hsM之间
+condition = between(hs10,hsM)
+# 颜色：chr10（应在颜色定义文件中定义）
+color = green
+# 厚度：1像素
+# thickness = 1
+# z轴坐标：0
+z = 0
+# 半径：0.998倍的默认半径
+radius1 = 0.998r
+&lt;/rule&gt;
+
+&lt;rule&gt;
+# 条件：在染色体hs11和线粒体染色体hsM之间
+condition = between(hs11,hsM)
+# 颜色：chr11（应在颜色定义文件中定义）
+color = blue
+# z轴坐标：0
+z = 0
+# 半径：0.998倍的默认半径
+radius1 = 0.998r
+&lt;/rule&gt;
+
+&lt;rule&gt;
+# 条件：在染色体hs12和线粒体染色体hsM之间
+condition = between(hs12,hsM)
+# 颜色：chr12（应在颜色定义文件中定义）
+color = dpurple
+# 厚度：1像素
+# thickness = 1
+# z轴坐标：0
+z = 0
+# 半径：0.998倍的默认半径
+radius1 = 0.998r
+&lt;/rule&gt;
+
+&lt;rule&gt;
+# 条件：在染色体hs13和线粒体染色体hsM之间
+condition = between(hs13,hsM)
+# 颜色：chr13（应在颜色定义文件中定义）
+color = red
+# z轴坐标：0
+z = 0
+# 半径：0.998倍的默认半径
+radius1 = 0.998r
+&lt;/rule&gt;
+
+&lt;rule&gt;
+# 条件：在染色体hs14和线粒体染色体hsM之间
+condition = between(hs14,hsM)
+# 颜色：chr14（应在颜色定义文件中定义）
+color = orange
+# 厚度：1像素
+# thickness = 1
+# z轴坐标：0
+z = 0
+# 半径：0.998倍的默认半径
+radius1 = 0.998r
+&lt;/rule&gt;
+
+&lt;rule&gt;
+# 条件：在染色体hs15和线粒体染色体hsM之间
+condition = between(hs15,hsM)
+# 颜色：chr15（应在颜色定义文件中定义）
+color = yellow
+# z轴坐标：0
+z = 0
+# 半径：0.998倍的默认半径
+radius1 = 0.998r
+&lt;/rule&gt;
+
+&lt;rule&gt;
+# 条件：在染色体hs16和线粒体染色体hsM之间
+condition = between(hs16,hsM)
+# 颜色：chr16（应在颜色定义文件中定义）
+color = green
+# 厚度：1像素
+# thickness = 1
+# z轴坐标：0
+z = 0
+# 半径：0.998倍的默认半径
+radius1 = 0.998r
+&lt;/rule&gt;
+
+&lt;rule&gt;
+# 条件：在染色体hs17和线粒体染色体hsM之间
+condition = between(hs17,hsM)
+# 颜色：chr17（应在颜色定义文件中定义）
+color = blue
+# z轴坐标：0
+z = 0
+# 半径：0.998倍的默认半径
+radius1 = 0.998r
+&lt;/rule&gt;
+
+&lt;rule&gt;
+# 条件：在染色体hs18和线粒体染色体hsM之间
+condition = between(hs18,hsM)
+# 颜色：chr18（应在颜色定义文件中定义）
+color = dpurple
+# 厚度：1像素
+# thickness = 1
+# z轴坐标：0
+z = 0
+# 半径：0.998倍的默认半径
+radius1 = 0.998r
+&lt;/rule&gt;
+
+&lt;rule&gt;
+# 条件：在染色体hs19和线粒体染色体hsM之间
+condition = between(hs19,hsM)
+# 颜色：chr19（应在颜色定义文件中定义）
+color = red
+# z轴坐标：0
+z = 0
+# 半径：0.998倍的默认半径
+radius1 = 0.998r
+&lt;/rule&gt;
+
+&lt;rule&gt;
+# 条件：在染色体hs20和线粒体染色体hsM之间
+condition = between(hs20,hsM)
+# 颜色：chr20（应在颜色定义文件中定义）
+color = orange
+# 厚度：1像素
+# thickness = 1
+# z轴坐标：0
+z = 0
+# 半径：0.998倍的默认半径
+radius1 = 0.998r
+&lt;/rule&gt;
+
+&lt;rule&gt;
+# 条件：在染色体hs21和线粒体染色体hsM之间
+condition = between(hs21,hsM)
+# 颜色：chr21（应在颜色定义文件中定义）
+color = yellow
+# z轴坐标：0
+z = 0
+# 半径：0.998倍的默认半径
+radius1 = 0.998r
+&lt;/rule&gt;
+
+&lt;rule&gt;
+# 条件：在染色体hs22和线粒体染色体hsM之间
+condition = between(hs22,hsM)
+# 颜色：chr22（应在颜色定义文件中定义）
+color = green
+# 厚度：1像素
+# thickness = 1
+# z轴坐标：0
+z = 0
+# 半径：0.998倍的默认半径
+radius1 = 0.998r
+&lt;/rule&gt;
+
+&lt;rule&gt;
+# 条件：在染色体hsX和线粒体染色体hsM之间
+condition = between(hsX,hsM)
+# 颜色：chrx（应在颜色定义文件中定义）
+color = blue
+# z轴坐标：0
+z = 0
+# 半径：0.998倍的默认半径
+radius1 = 0.998r
+&lt;/rule&gt;
+
+&lt;rule&gt;
+# 条件：在染色体hsY和线粒体染色体hsM之间
+condition = between(hsY,hsM)
+# 颜色：chry（应在颜色定义文件中定义）
+color = vdblue
+# 厚度：1像素
+# thickness = 1
+# z轴坐标：0
+z = 0
+# 半径：0.998倍的默认半径
+radius1 = 0.998r
+&lt;/rule&gt;
+
+</code><button class="copy-code-button">复制</button></pre></div></div></div><div class="heading-wrapper"><h3 data-heading="ticks_NUMTs.conf" dir="auto" class="heading" id="ticks_NUMTs.conf"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>ticks_NUMTs.conf</h3><div class="heading-children"><div><pre class="language-conf" tabindex="0"><code class="language-conf is-loaded"># 是否显示刻度
+show_ticks = yes
+# 是否显示刻度标签
+show_tick_labels = yes
+&lt;ticks&gt;
+# 刻度的半径，设置在染色体外侧半径+10像素的位置
+radius = dims(ideogram,radius_outer) + 10p
+# 刻度线的厚度
+thickness = 3p
+# 刻度线的方向，设置为向外
+orientation = out
+# 刻度线的颜色
+color = black
+# 刻度标签的大小
+size = 12p
+# 标签的偏移量
+label_offset = 5p
+# 标签的格式，这里设置为显示整数
+format = %d
+&lt;tick&gt;
+# 默认情况下不显示刻度
+chromosomes_display_default = no
+# 仅对线粒体染色体显示刻度
+chromosomes = hsM
+# 刻度的间隔，设置为2000
+spacing = 2000
+# 是否显示刻度标签
+show_label = yes
+# 标签的半径，设置在染色体外侧半径+50像素的位置
+label_radius = dims(ideogram,radius_outer) + 50p
+# 标签是否平行于刻度线，这里设置为否
+label_parallel = no
+# 标签的大小
+label_size = 30p
+&lt;/tick&gt;
+&lt;/ticks&gt;
+
+</code><button class="copy-code-button">复制</button></pre></div><div><p dir="auto">修改的地方有几点：</p></div><div><ol>
+<li data-line="0" dir="auto">排除了一些指代不明的路径：最显然的就是 <code>MitoGenes.centre.germline.conf</code> 这个配置文件中的路径。里面指向了一个非常有趣的路径：<code>/home/wwei1/Scripts/Circos/MitoGenes_codingGenes.txt</code>。嗯，我很确定这一定是作者的私人电脑。</li>
+<li data-line="1" dir="auto">添加了大量的注释，因为我不是很了解 <code>Pl</code> 语法，所以我只能这样才能看得懂。我觉得 <code>pl</code> 有点像 <code>Latex</code>，都是分片段式的写作。</li>
+</ol></div><div><p dir="auto">使用方法：</p></div><div><pre class="language-shell" tabindex="0"><code class="language-shell is-loaded">/mnt/e/Scientifc_software/circos-current/circos-0.69-9/bin/circos -conf /mnt/e/Scientifc_software/NUMTs-detection-1.0/scripts/circos_allNUMTs.conf
+</code><button class="copy-code-button">复制</button></pre></div><div><p dir="auto">记得改路径！</p></div></div></div></div></div></div></div><div class="heading-wrapper"><h1 data-heading="新增脚本" dir="auto" class="heading" id="新增脚本">新增脚本</h1><div class="heading-children"><div class="heading-wrapper"><h2 data-heading="Turn_cluster_to_circos.py" dir="auto" class="heading" id="Turn_cluster_to_circos.py"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Turn_cluster_to_circos.py</h2><div class="heading-children"><div><p dir="auto">这个脚本可以把生成出来的 <code>mt.disc.sam.cluster.tsv</code> 文件转成 <code>circos</code> 能够识别的格式。</p></div><div class="heading-wrapper"><h3 data-heading="输入" dir="auto" class="heading" id="输入"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>输入</h3><div class="heading-children"><div><pre class="language-txt" tabindex="0"><code class="language-txt is-loaded">QNAME	FLAG	RNAME	POS	MAPQ	CIGAR	RNEXT	PNEXT	TLEN	SEQ	QUAL	SM	RG	NM	BC	OC	ZX	ZY	SA	subCluster_No	Cluster_No	Cluster_ID	IndividualID	clusterID
+HISEQ1:20:H9V1RADXX:2:2103:12132:43712	81	chr1	633911	28	148M	chrM	10226	0	AGTATCCTTAATCATTTTTATTGCCACAACTAACCTCCTCGGACTCCTGCCTCACTCATTTACACCAACCACCCAACTATCTATAAACCTAGCCATGGCCATCCCCTTATGAGCGGGCGCAGTGATTATAGGCTTTCGCTCTAAGATT	CDDDDDDDEEDDDDDDDDDDDDDDDCDC									1	3	('chr1',)_633902_633918_MTboth_10226_10226	HG002_5X	chr1_3
+HISEQ1:18:H8VC6ADXX:1:1215:7921:64214	177	chr11	49862122	70	148M	chrM	16373	0	CTTGTGGGCATGTGCTCATCTTTCTAGAGTAAATACCCAGTAATGGAATTGCTGTGCCATAGTGCACATTTCTGCTTGACATTGCTTTTTAAAAGAGTTACCTTAAGTGATTGTATAATTTTAGCCTAAATTATCACAAGCATTGTAT	DD									4	4	('chr11',)_49862020_49862289_MTboth_16095_16391	HG002_5X	chr11_4
+HISEQ1:18:H8VC6ADXX:1:2103:3036:6488	177	chr11	49862289	70	148M	chrM	16095	0	CATTCTCGCTACATTTGAATTGTTAATCTGTTTTTCTTTAGCAATTCTAGCAAATGTGAAATTAGAATGTATTTAATGTAATTTATAGAGAACCGTTTGAATGAAACTAAGTTTTTACTGGAAATACAGCAATTTTTTTTTTTTCAGA	C&gt;500&lt;5(C									4	4	('chr11',)_49862020_49862289_MTboth_16095_16391	HG002_5X	chr11_4
+HISEQ1:19:H8VDAADXX:2:2201:6106:14884	177	chr11	49862020	70	3S145M	chrM	16338	0	GAAATACTATGGATTGTTTATTCACTCTTCTGTTAGAAACCTGGACTTTGTCTAATATTTGGCTAATATAAACATGGCTGTTTTGAACAATATTGTACACGTCTTCTTGTGGGCATGTGCTCATCTTTCTAGAGTAAATACCCAGTAA	EEEDC									4	4	('chr11',)_49862020_49862289_MTboth_16095_16391	HG002_5X	chr11_4
+HISEQ1:20:H9V1RADXX:1:1101:17382:26035	113	chr11	49862183	70	148M	chrM	16391	0	GTGCACATTTCTGCTTGACATTGCTTTTTAAAAGAGTTACCTTAAGTGATTGTATAATTTTAGCCTAAATTATCACAAGCATTGTATGAGGATTTCAGTTGCTCCACATTCTCGCTACATTTGAATTGTTAATCTGTTTTACTTTAGC										4	4	('chr11',)_49862020_49862289_MTboth_16095_16391	HG002_5X	chr11_4
+HISEQ1:18:H8VC6ADXX:1:1109:1327:84770	81	chr21	9676786	32	148M	chrM	12811	0	TATGTGACTATTTGCATGTTACAGCAGTGTGTCAGTGTGCTGTGTGAAGTGTTTTCATGTGTGTGACTATTTCCGTGTTATAGCAGTGTGTCCGTATGCTGTGTGAAGTGTTTTCGTGTATATGACTATTTGCGTGTTACAGCAGTGT	CDDDDCACDDDDDDDDDDEDDDDDDDDDDDDDDDDDDDDDBCCCCDCDDDDDDDDDDDDDDDDEDDDDDDDDDDEEEEEEFFFFFFHHHGHIJIIHJIIIJJJJJJJJJJJJJJJJJJJJJJJIIJJJJJJJJJJHHHHHFFFFFCCC	PG:Z:novoalign	AS:i:0	UQ:i:0	NM:i:0	MD:Z:148				5	5	('chr21',)_9676197_9676786_MTboth_12389_12811	HG002_5X	chr21_5
+HISEQ1:18:H8VC6ADXX:2:1104:13981:10006	97	chr21	9676333	28	148M	chrM	12706	0	GTGTTATAGCAGTGTGTCAGTGTGCTGCGTGACGTGTTTTCATGTGTATATGAGTATTTGTGTGTTATAGCCATGTGTCAGTGTGCTGTGTGTTTTGTTTATGTGACTATTTGCGTGTTATAGCAGTGTGTCAGTGTGCTGTGTGAAG	B									5	5	('chr21',)_9676197_9676786_MTboth_12389_12811	HG002_5X	chr21_5
+HISEQ1:19:H8VDAADXX:2:2203:3229:99021	97	chr21	9676197	30	148M	chrM	12389	0	TCATGTGTATATGACTATTTGCATGTTATAGCAGTGTGTCAGTGTGCTGTGTGACTTTGGTGTATGTGACTATTTGCATGTTACAGCAGTGTGTCAGTGTGCTGTGGGAAGGGTTTTCATGTATATGACTATTTGCGTGTTATGGCAG	CCCFFFFDHHHHHJJJJJJJJJJJJJJJJJJJJJIIIIJJJJHIIIJJJHIHIJJJJJJJGGGJIIHIIJJJJJJJJJJJIJJJJJJHHHHEHFFFFDEDCCCECEDDBDDDD&lt;ADDDDDCCDEEEEEDDDDEEEDDDDDDCDDCDDB	PG:Z:novoalign	AS:i:60	UQ:i:60	NM:i:2	MD:Z:106T36A4				5	5	('chr21',)_9676197_9676786_MTboth_12389_12811	HG002_5X	chr21_5
+HISEQ1:20:H9V1RADXX:2:2104:5110:91237	97	chr21	9676218	32	148M	chrM	12746	0	CATGTTATAGCAGTGTGTCAGTGTGCTGTGTGACTTTGGTGTATGTGACTATTTGCATGTTACAGCAGTGTGTCAGTGTGCTGTGGGAAGGGTTTTCATGTATATGACTATTTGCGTGTTATAGCAGTGTGTCAGTGTGCTGCGTGAC										5	5	('chr21',)_9676197_9676786_MTboth_12389_12811	HG002_5X	chr21_5
+HISEQ1:20:H9V1RADXX:2:2106:12761:29990	161	chr21	9676198	17	148M	chrM	12452	0	CATGTGTATATGACTATTTGCATGTTATAGCAGTGTGTCAGTGTGCTGTGTGACTTTGGTGTATGTGACTATTTGCATGTTACAGCAGTGTGTCAGTGTGCTGTGGGAAGGGTTTTCATTTATATGACTATTTGCGTGTTATAGCAGT	CCCFFFFDHHGBHGIGIJJIIIGHEJJGCEHJJJJIIGIJIAHHIJFI&gt;GCFHHBGGGCE=8BFHGICGHICHIIB									5	5	('chr21',)_9676197_9676786_MTboth_12389_12811	HG002_5X	chr21_5
+HISEQ1:20:H9V1RADXX:1:2110:10981:37943	81	chr5	32338499	70	148M	chrM	14831	0	CTCACTACAACCTCCGCCTCCCAGGTTCAAGAGATTCTTCTGCCTCAGCCTCCCGAGTAGCTGGGATTACAGGCATGTGCCACTGTGCCCAGCTAATTTTGTATTTTTAGTAGAGATGGGGTTTCTCCACATTGGTCAGGCTGGTCTC	AECCDDDDB?DDDDDDDDDDDDDDDDDDDEDDDDDDDDDDDDDDBBBDDDBDDDDDDDDDDDDDEEEEEEEEFFFFFFHHHEJJJJJJIJJJJJJJJJJJJJIIJJJJJJIJJJJJJJJJJJJJJJJJIJJJIJJHHHHHFFFFFCCC	PG:Z:novoalign	AS:i:0	UQ:i:0	NM:i:0	MD:Z:148				1	3	('chr5',)_32338282_32338638_MTboth_14831_14831	HG002_5X	chr5_3
+HISEQ1:18:H8VC6ADXX:1:2114:15204:54396	113	chr9	129996	70	148M	chrM	6262	0	GCATATATGTTACTGTACTGAACAGTGTATGGAAATAATAACGCAATGGTAAGTATTTGCGTGACAGTAATTTTTCAGCTCCATCGTAATCTTATGCAGTCTGACTAAAACGCTGTTACGCGGTGCATGACTATACTTATTTTTAAAT	DEEEEDDDDDDDEDDEDDEDDCDDDDDDEEEEEEEEDDDDDDDDDDCDDEDDDDDDDDDDDDDEDDDDDDDDDDEEEEDFFFFHHHHJJJJIJJJJJJJJJIHGJJJJJHJJJJJIHGJJJJJJJJJJJIJJIHFHHHHHFFFFFCCC	PG:Z:novoalign	AS:i:30	UQ:i:30	NM:i:1	MD:Z:118T29				2	2	('chr9',)_129555_129996_MTboth_6262_6296	HG002_5X	chr9_2
+HISEQ1:18:H8VC6ADXX:2:2203:12359:8789	65	chr9	129555	70	148M	chrM	6296	0	AGCCAGTCACAGAAGGACAAATATTGCATGAATCCACTAATATCAGGTGTCTAAAACAGTGAAACTCATCAAATCAGAAAGTAAAACGGTGGTTACCAGGGGTGAGAGGGAGACGAAAATTGGGGGGGGCTGTTCAATGGGGATAATT	CCCFFFDFHHFGHJJJBHIJJJIJJJIJJJIJJJJGIIGIIJIJJJJBFGIIIIJJGJG?FHIJJJJJIJJIJGIJGJHGHAEHHFFFDACD									2	2	('chr9',)_129555_129996_MTboth_6262_6296	HG002_5X	chr9_2
+
+</code><button class="copy-code-button">复制</button></pre></div></div></div><div class="heading-wrapper"><h3 data-heading="脚本" dir="auto" class="heading" id="脚本"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>脚本</h3><div class="heading-children"><div><pre class="language-python" tabindex="0"><code class="language-python is-loaded"><span class="token keyword">import</span> pandas <span class="token keyword">as</span> pd
+
+<span class="token comment"># Load the uploaded file</span>
+file_path <span class="token operator">=</span> <span class="token string">'/mnt/c/Users/victo/Desktop/HG002_5X.mt.disc.sam.cluster.tsv'</span>
+data <span class="token operator">=</span> pd<span class="token punctuation">.</span>read_csv<span class="token punctuation">(</span>file_path<span class="token punctuation">,</span> sep<span class="token operator">=</span><span class="token string">'\t'</span><span class="token punctuation">)</span>
+
+<span class="token comment"># Extract the relevant column</span>
+cluster_id_col <span class="token operator">=</span> data<span class="token punctuation">[</span><span class="token string">'Cluster_ID'</span><span class="token punctuation">]</span>
+
+<span class="token comment"># Define a function to convert the Cluster_ID column into the desired format</span>
+<span class="token keyword">def</span> <span class="token function">convert_to_circos_format</span><span class="token punctuation">(</span>cluster_id<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    parts <span class="token operator">=</span> cluster_id<span class="token punctuation">.</span>split<span class="token punctuation">(</span><span class="token string">'_'</span><span class="token punctuation">)</span>
+    hs1 <span class="token operator">=</span> parts<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">.</span>replace<span class="token punctuation">(</span><span class="token string">"('"</span><span class="token punctuation">,</span> <span class="token string">""</span><span class="token punctuation">)</span><span class="token punctuation">.</span>replace<span class="token punctuation">(</span><span class="token string">"',)"</span><span class="token punctuation">,</span> <span class="token string">""</span><span class="token punctuation">)</span>
+    start1 <span class="token operator">=</span> parts<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span>
+    end1 <span class="token operator">=</span> parts<span class="token punctuation">[</span><span class="token number">2</span><span class="token punctuation">]</span>
+    hsM <span class="token operator">=</span> <span class="token string">'hsM'</span>
+    startM <span class="token operator">=</span> parts<span class="token punctuation">[</span><span class="token number">4</span><span class="token punctuation">]</span>
+    endM <span class="token operator">=</span> parts<span class="token punctuation">[</span><span class="token number">5</span><span class="token punctuation">]</span>
+    <span class="token keyword">return</span> <span class="token string-interpolation"><span class="token string">f"</span><span class="token interpolation"><span class="token punctuation">{</span>hs1<span class="token punctuation">}</span></span><span class="token string"> </span><span class="token interpolation"><span class="token punctuation">{</span>start1<span class="token punctuation">}</span></span><span class="token string"> </span><span class="token interpolation"><span class="token punctuation">{</span>end1<span class="token punctuation">}</span></span><span class="token string"> </span><span class="token interpolation"><span class="token punctuation">{</span>hsM<span class="token punctuation">}</span></span><span class="token string"> </span><span class="token interpolation"><span class="token punctuation">{</span>startM<span class="token punctuation">}</span></span><span class="token string"> </span><span class="token interpolation"><span class="token punctuation">{</span>endM<span class="token punctuation">}</span></span><span class="token string">"</span></span>
+
+<span class="token comment"># Apply the function to the Cluster_ID column</span>
+circos_format_data <span class="token operator">=</span> cluster_id_col<span class="token punctuation">.</span><span class="token builtin">apply</span><span class="token punctuation">(</span>convert_to_circos_format<span class="token punctuation">)</span>
+
+<span class="token comment"># Create a DataFrame from the results</span>
+circos_format_df <span class="token operator">=</span> circos_format_data<span class="token punctuation">.</span><span class="token builtin">str</span><span class="token punctuation">.</span>split<span class="token punctuation">(</span>expand<span class="token operator">=</span><span class="token boolean">True</span><span class="token punctuation">)</span>
+circos_format_df<span class="token punctuation">.</span>columns <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token string">'hs1'</span><span class="token punctuation">,</span> <span class="token string">'start1'</span><span class="token punctuation">,</span> <span class="token string">'end1'</span><span class="token punctuation">,</span> <span class="token string">'hsM'</span><span class="token punctuation">,</span> <span class="token string">'startM'</span><span class="token punctuation">,</span> <span class="token string">'endM'</span><span class="token punctuation">]</span>
+
+<span class="token comment"># Remove the header and replace 'chr' with 'hs'</span>
+circos_format_df_no_header <span class="token operator">=</span> circos_format_df<span class="token punctuation">.</span>replace<span class="token punctuation">(</span><span class="token punctuation">{</span><span class="token string">'chr'</span><span class="token punctuation">:</span> <span class="token string">'hs'</span><span class="token punctuation">}</span><span class="token punctuation">,</span> regex<span class="token operator">=</span><span class="token boolean">True</span><span class="token punctuation">)</span>
+
+<span class="token comment"># Save the result to a file without the header</span>
+output_file_path <span class="token operator">=</span> <span class="token string">'/mnt/c/Users/victo/Desktop/circos_format_data_no_header.txt'</span>
+circos_format_df_no_header<span class="token punctuation">.</span>to_csv<span class="token punctuation">(</span>output_file_path<span class="token punctuation">,</span> sep<span class="token operator">=</span><span class="token string">' '</span><span class="token punctuation">,</span> index<span class="token operator">=</span><span class="token boolean">False</span><span class="token punctuation">,</span> header<span class="token operator">=</span><span class="token boolean">False</span><span class="token punctuation">)</span>
+
+<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string-interpolation"><span class="token string">f"File saved to </span><span class="token interpolation"><span class="token punctuation">{</span>output_file_path<span class="token punctuation">}</span></span><span class="token string">"</span></span><span class="token punctuation">)</span>
+
+</code><button class="copy-code-button">复制</button></pre></div></div></div><div class="heading-wrapper"><h3 data-heading="输出" dir="auto" class="heading" id="输出"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>输出</h3><div class="heading-children"><div><pre class="language-txt" tabindex="0"><code class="language-txt is-loaded">hs1 633902 633918 hsM 10226 10226
+hs11 49862020 49862289 hsM 16095 16391
+hs14 49862020 49862289 hsM 16095 16391
+hs13 49862020 49862289 hsM 16095 16391
+hs11 49862020 49862289 hsM 16095 16391
+hs12 49862020 49862289 hsM 16095 16391
+hs4 9676197 9676786 hsM 12389 12811
+hs4 9676197 9676786 hsM 12389 12811
+hs4 9676197 9676786 hsM 12389 12811
+hs4 9676197 9676786 hsM 12389 12811
+hs3 9676197 9676786 hsM 12389 12811
+hs21 9676197 9676786 hsM 12389 12811
+hs20 9676197 9676786 hsM 12389 12811
+hs21 9676197 9676786 hsM 12389 12811
+hs5 32338282 32338638 hsM 14831 14831
+hs9 129555 129996 hsM 6262 6296
+hsy 129555 129996 hsM 6262 6296
+</code><button class="copy-code-button">复制</button></pre></div><div class="mod-footer"></div></div></div></div></div></div></div></div></div></div><div class="sidebar-right sidebar"><div class="sidebar-handle"></div><div class="sidebar-topbar"><div class="topbar-content"></div><div class="clickable-icon sidebar-collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><path d="M21 3H3C1.89543 3 1 3.89543 1 5V19C1 20.1046 1.89543 21 3 21H21C22.1046 21 23 20.1046 23 19V5C23 3.89543 22.1046 3 21 3Z"></path><path d="M10 4V20"></path><path d="M4 7H7"></path><path d="M4 10H7"></path><path d="M4 13H7"></path></svg></div></div><div class="sidebar-content"><div class="graph-view-wrapper"><div class="sidebar-section-header">Interactive Graph</div><div class="graph-view-placeholder">
+		<div class="graph-view-container">
+			<div class="graph-icon graph-expand" role="button" aria-label="Expand" data-tooltip-position="top"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></div>
+			<canvas id="graph-canvas" class="hide" width="512px" height="512px"></canvas>
+		</div>
+		</div></div><div class="tree-container mod-root nav-folder tree-item outline-tree" data-depth="0"><div class="tree-header"><span class="sidebar-section-header">Table Of Contents</span><button class="clickable-icon collapse-tree-button" aria-label="Collapse All"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></svg></button></div><div class="tree-scroll-area tree-item-children nav-folder-children"><div class="tree-item mod-tree-folder nav-folder mod-collapsible is-collapsed" style="display: none;"></div><div class="tree-item" data-depth="1"><a class="tree-link" href="软件\其它生信软件\k-s\numt-detector.html#准备工作"><div class="tree-item-contents heading-link" heading-name="准备工作"><span class="tree-item-title">准备工作</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="1"><a class="tree-link" href="软件\其它生信软件\k-s\numt-detector.html#修改一"><div class="tree-item-contents heading-link" heading-name="修改一"><span class="tree-item-title">修改一</span></div></a><div class="tree-item-children nav-folder-children"><div class="tree-item" data-depth="2"><a class="tree-link" href="软件\其它生信软件\k-s\numt-detector.html#NUMTs_detection.sh"><div class="tree-item-contents heading-link" heading-name="NUMTs_detection.sh"><span class="tree-item-title">NUMTs_detection.sh</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="2"><a class="tree-link" href="软件\其它生信软件\k-s\numt-detector.html#searchNumtCluster_fromDiscordantReads.py"><div class="tree-item-contents heading-link" heading-name="searchNumtCluster_fromDiscordantReads.py"><span class="tree-item-title">searchNumtCluster_fromDiscordantReads.py</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="2"><a class="tree-link" href="软件\其它生信软件\k-s\numt-detector.html#searchBreakpoint_fromblatoutputs.py"><div class="tree-item-contents heading-link" heading-name="searchBreakpoint_fromblatoutputs.py"><span class="tree-item-title">searchBreakpoint_fromblatoutputs.py</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item mod-collapsible" data-depth="2"><a class="tree-link" href="软件\其它生信软件\k-s\numt-detector.html#结果解读"><div class="tree-item-contents heading-link" heading-name="结果解读"><div class="collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><span class="tree-item-title">结果解读</span></div></a><div class="tree-item-children nav-folder-children"><div class="tree-item" data-depth="3"><a class="tree-link" href="软件\其它生信软件\k-s\numt-detector.html#`Breakpoints.tsv`"><div class="tree-item-contents heading-link" heading-name="`Breakpoints.tsv`"><span class="tree-item-title"><code>Breakpoints.tsv</code></span></div></a><div class="tree-item-children nav-folder-children"></div></div></div></div><div class="tree-item" data-depth="2"><a class="tree-link" href="软件\其它生信软件\k-s\numt-detector.html#`breakpointINPUT.tsv`"><div class="tree-item-contents heading-link" heading-name="`breakpointINPUT.tsv`"><span class="tree-item-title"><code>breakpointINPUT.tsv</code></span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="2"><a class="tree-link" href="软件\其它生信软件\k-s\numt-detector.html#`cluster.summary.tsv`"><div class="tree-item-contents heading-link" heading-name="`cluster.summary.tsv`"><span class="tree-item-title"><code>cluster.summary.tsv</code></span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="2"><a class="tree-link" href="软件\其它生信软件\k-s\numt-detector.html#`cluster.tsv`"><div class="tree-item-contents heading-link" heading-name="`cluster.tsv`"><span class="tree-item-title"><code>cluster.tsv</code></span></div></a><div class="tree-item-children nav-folder-children"></div></div></div></div><div class="tree-item" data-depth="1"><a class="tree-link" href="软件\其它生信软件\k-s\numt-detector.html#修改二"><div class="tree-item-contents heading-link" heading-name="修改二"><span class="tree-item-title">修改二</span></div></a><div class="tree-item-children nav-folder-children"><div class="tree-item mod-collapsible" data-depth="2"><a class="tree-link" href="软件\其它生信软件\k-s\numt-detector.html#可视化绘图软件"><div class="tree-item-contents heading-link" heading-name="可视化绘图软件"><div class="collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><span class="tree-item-title">可视化绘图软件</span></div></a><div class="tree-item-children nav-folder-children"><div class="tree-item" data-depth="3"><a class="tree-link" href="软件\其它生信软件\k-s\numt-detector.html#软件下载"><div class="tree-item-contents heading-link" heading-name="软件下载"><span class="tree-item-title">软件下载</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-link" href="软件\其它生信软件\k-s\numt-detector.html#circos_allNUMTs.conf"><div class="tree-item-contents heading-link" heading-name="circos_allNUMTs.conf"><span class="tree-item-title">circos_allNUMTs.conf</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-link" href="软件\其它生信软件\k-s\numt-detector.html#ideogram_NUMTs.conf"><div class="tree-item-contents heading-link" heading-name="ideogram_NUMTs.conf"><span class="tree-item-title">ideogram_NUMTs.conf</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-link" href="软件\其它生信软件\k-s\numt-detector.html#karyotype_NUMTs.conf"><div class="tree-item-contents heading-link" heading-name="karyotype_NUMTs.conf"><span class="tree-item-title">karyotype_NUMTs.conf</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-link" href="软件\其它生信软件\k-s\numt-detector.html#links_allBreakpoints.soma.conf"><div class="tree-item-contents heading-link" heading-name="links_allBreakpoints.soma.conf"><span class="tree-item-title">links_allBreakpoints.soma.conf</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-link" href="软件\其它生信软件\k-s\numt-detector.html#ticks_NUMTs.conf"><div class="tree-item-contents heading-link" heading-name="ticks_NUMTs.conf"><span class="tree-item-title">ticks_NUMTs.conf</span></div></a><div class="tree-item-children nav-folder-children"></div></div></div></div></div></div><div class="tree-item" data-depth="1"><a class="tree-link" href="软件\其它生信软件\k-s\numt-detector.html#新增脚本"><div class="tree-item-contents heading-link" heading-name="新增脚本"><span class="tree-item-title">新增脚本</span></div></a><div class="tree-item-children nav-folder-children"><div class="tree-item mod-collapsible" data-depth="2"><a class="tree-link" href="软件\其它生信软件\k-s\numt-detector.html#Turn_cluster_to_circos.py"><div class="tree-item-contents heading-link" heading-name="Turn_cluster_to_circos.py"><div class="collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><span class="tree-item-title">Turn_cluster_to_circos.py</span></div></a><div class="tree-item-children nav-folder-children"><div class="tree-item" data-depth="3"><a class="tree-link" href="软件\其它生信软件\k-s\numt-detector.html#输入"><div class="tree-item-contents heading-link" heading-name="输入"><span class="tree-item-title">输入</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-link" href="软件\其它生信软件\k-s\numt-detector.html#脚本"><div class="tree-item-contents heading-link" heading-name="脚本"><span class="tree-item-title">脚本</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-link" href="软件\其它生信软件\k-s\numt-detector.html#输出"><div class="tree-item-contents heading-link" heading-name="输出"><span class="tree-item-title">输出</span></div></a><div class="tree-item-children nav-folder-children"></div></div></div></div></div></div></div></div></div><script defer="">let rs = document.querySelector(".sidebar-right"); rs.classList.add("is-collapsed"); if (window.innerWidth > 768) rs.classList.remove("is-collapsed"); rs.style.setProperty("--sidebar-width", localStorage.getItem("sidebar-right-width"));</script></div></div></body></html>

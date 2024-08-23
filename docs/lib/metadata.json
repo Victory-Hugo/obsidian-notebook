@@ -1,6 +1,6 @@
 {
   "vaultName": "思维领域",
-  "lastExport": 1724227322006,
+  "lastExport": 1724402324103,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager theme-dark show-inline-title show-ribbon h2-underline",
   "useCustomHeadContent": false,
@@ -104,52 +104,35 @@
     "软件/地理绘图/Surfer：反距离加权插值制作贴合的等值线图.md",
     "软件/地理绘图/Surfer：克里金插值制作贴合的等值线图.md",
     "软件/地理绘图/Surfer：使用z-score克里金插值等值线图.md",
-    "软件/其它生信软件/格式比对/序列比对（Align）软件评测.md",
-    "软件/其它生信软件/格式比对/序列比对的思考.md",
-    "软件/其它生信软件/格式比对/MAFFT：多序列比对教程.md",
-    "软件/其它生信软件/格式比对/Partitionfinder：一站式解决系统发育树参数问题.md",
-    "软件/其它生信软件/格式比对/PLINK：转换 VCF 到 BED, BIM, FAM.md",
-    "软件/其它生信软件/格式比对/The GUIDANCE2 Server ：多序列比对置信软件.md",
-    "软件/其它生信软件/格式比对/Trimal：自动修剪序列不可靠区域.md",
-    "软件/其它生信软件/全基因组/简易的mtDNA分析流程.md",
-    "软件/其它生信软件/全基因组/线粒体基因组分析流程.md",
-    "软件/其它生信软件/全基因组/线粒体DNA工作流程.md",
-    "软件/其它生信软件/全基因组/dinumt.md",
-    "软件/其它生信软件/全基因组/haplocheck：检测污染.md",
-    "软件/其它生信软件/全基因组/mitofinder：软件安装和使用.md",
-    "软件/其它生信软件/全基因组/MToolBox.md",
-    "软件/其它生信软件/全基因组/NUMT-detector.md",
-    "软件/其它生信软件/全基因组/NUMT-detector错误排查.canvas",
-    "软件/其它生信软件/群体遗传/根据单倍群频率使用sklearn进行降维.md",
-    "软件/其它生信软件/群体遗传/根据共享单倍群频率绘制人群热图.md",
-    "软件/其它生信软件/群体遗传/根据Fst算MDS.md",
-    "软件/其它生信软件/群体遗传/基于Fst绘制Neighbor-Joining (NJ)树.md",
-    "软件/其它生信软件/群体遗传/基于Fst绘制Network图.md",
-    "软件/其它生信软件/群体遗传/进化树美化网站.md",
-    "软件/其它生信软件/群体遗传/利用R进行iTol注释文件生成.md",
-    "软件/其它生信软件/群体遗传/特定某个单倍群与经纬度相关性回归.md",
-    "软件/其它生信软件/群体遗传/位点频谱SFS (site frequency spectrum).md",
-    "软件/其它生信软件/群体遗传/相关性热图绘制.md",
-    "软件/其它生信软件/群体遗传/ANGSD（Analysis of Next Generation Sequencing Data）.md",
-    "软件/其它生信软件/群体遗传/Arlequin：计算群体多样性指标.md",
-    "软件/其它生信软件/群体遗传/easySFS.md",
-    "软件/其它生信软件/群体遗传/fastsimcoal2.md",
-    "软件/其它生信软件/群体遗传/Haplogrep2：生成突变位点信息的支系系统发育树.md",
-    "软件/其它生信软件/群体遗传/Haplogrep3：软件使用手册.md",
-    "软件/其它生信软件/群体遗传/iTol完全美化.md",
-    "软件/其它生信软件/群体遗传/linkET相关性分析.md",
-    "软件/其它生信软件/群体遗传/PhyloSuite开发——不简单的工作让系统发育分析变得简单.md",
-    "软件/其它生信软件/群体遗传/python：查找末端单倍群.md",
-    "软件/其它生信软件/群体遗传/python：绘制差异性单倍群的曼哈顿图.md",
-    "软件/其它生信软件/群体遗传/python：绘制单倍群成分柱状图.md",
-    "软件/其它生信软件/群体遗传/python：计算群体单倍群单倍型多样性.md",
-    "软件/其它生信软件/群体遗传/python：计算下游单倍群数量.md",
-    "软件/其它生信软件/群体遗传/python：快速整理线粒体单倍群至目标上游单倍群.md",
-    "软件/其它生信软件/群体遗传/python：phylotree多余信息删除.md",
-    "软件/其它生信软件/群体遗传/R：利用DAPC进行mtDNA降维.md",
-    "软件/其它生信软件/利用R进行iTol注释文件生成.md",
-    "软件/其它生信软件/Advanced Circos：绘制NUMT弦图教程.md",
-    "软件/其它生信软件/iTOL注释编辑表格.md",
+    "软件/其它生信软件/使用心得/简易的mtDNA分析流程.md",
+    "软件/其它生信软件/使用心得/线粒体基因组分析流程.md",
+    "软件/其它生信软件/使用心得/线粒体DNA工作流程.md",
+    "软件/其它生信软件/使用心得/序列比对（Align）软件评测.md",
+    "软件/其它生信软件/使用心得/序列比对的思考.md",
+    "软件/其它生信软件/A-J/Arlequin：计算群体多样性指标.md",
+    "软件/其它生信软件/A-J/dinumt.md",
+    "软件/其它生信软件/A-J/DnaSP：AMOVA及Fst分析软件操作.md",
+    "软件/其它生信软件/A-J/fastsimcoal2.md",
+    "软件/其它生信软件/A-J/GUIDANCE2 Server ：多序列比对置信软件.md",
+    "软件/其它生信软件/A-J/Haplocheck：检测污染.md",
+    "软件/其它生信软件/A-J/Haplogrep2：生成突变位点信息的支系系统发育树.md",
+    "软件/其它生信软件/A-J/Haplogrep3：软件使用手册.md",
+    "软件/其它生信软件/A-J/iTol：进化树美化网站.md",
+    "软件/其它生信软件/A-J/iTol：完全美化.md",
+    "软件/其它生信软件/A-J/iTol：注释编辑表格.md",
+    "软件/其它生信软件/K-S/MAFFT：多序列比对教程.md",
+    "软件/其它生信软件/K-S/MEGA：基于Fst绘制Neighbor-Joining (NJ)树.md",
+    "软件/其它生信软件/K-S/mitofinder：软件安装和使用.md",
+    "软件/其它生信软件/K-S/MToolBox.md",
+    "软件/其它生信软件/K-S/NUMT-detector.md",
+    "软件/其它生信软件/K-S/NUMT-detector错误排查.canvas",
+    "软件/其它生信软件/K-S/Partitionfinder：一站式解决系统发育树参数问题.md",
+    "软件/其它生信软件/K-S/pathPhynder：将古代DNA上到最大似然树.md",
+    "软件/其它生信软件/K-S/PhyloSuite：不简单的工作让系统发育分析变得简单.md",
+    "软件/其它生信软件/K-S/PLINK：转换 VCF 到 BED, BIM, FAM.md",
+    "软件/其它生信软件/K-S/PopArt：基于Fst绘制Network图.md",
+    "软件/其它生信软件/T-Z/TBtools：Advanced Circos：绘制NUMT弦图教程.md",
+    "软件/其它生信软件/T-Z/Trimal：自动修剪序列不可靠区域.md",
     "软件/Adobe illustrator绘图/第二节 倾斜工具.md",
     "软件/Adobe illustrator绘图/第六节 直线工具.md",
     "软件/Adobe illustrator绘图/第七节 混合工具.md",
@@ -172,36 +155,49 @@
     "软件/IQtree/iqtree：寻找最优模型及分区.md",
     "软件/Latex/Latex基本语法.md",
     "软件/origin绘图/Origin：教学—弦图绘制.md",
-    "软件/Python/地理经纬/根据国家、地区求经纬度.md",
-    "软件/Python/地理经纬/根据经纬度获取海拔.md",
-    "软件/Python/地理经纬/根据经纬度求国家.md",
-    "软件/Python/地理经纬/根据中文求拼音.md",
-    "软件/Python/地理经纬/Python经纬度和地址互转.md",
-    "软件/Python/格式转换/多个fasta、txt合并为一个.md",
-    "软件/Python/格式转换/根据共享单倍群频率绘制人群柱状图.md",
-    "软件/Python/格式转换/将FASTA文件与Aln文件合并.md",
-    "软件/Python/格式转换/将FASTA文件中的序列分组到指定的组中.md",
-    "软件/Python/格式转换/将FASTA转换成Arp.md",
-    "软件/Python/格式转换/将VCF文件伪二倍体转化为单倍体fatsa文件.md",
-    "软件/Python/格式转换/将VCF文件转为rdf并重新命名ID.md",
-    "软件/Python/格式转换/利用Python将主成分表转换成R脚本.md",
-    "软件/Python/格式转换/利用Python快速填写频率表.md",
-    "软件/Python/格式转换/利用python一键绘制线粒体单倍群频率热图.md",
-    "软件/Python/格式转换/批量修改VCF文件至Arp格式.md",
-    "软件/Python/格式转换/全矩阵与半矩阵的相互转化.md",
-    "软件/Python/格式转换/删除fasta中的指定位点.md",
-    "软件/Python/格式转换/提取fasta序列至新的fasta.md",
-    "软件/Python/格式转换/一键生成Y染色体各级单倍群累加表格.md",
-    "软件/Python/格式转换/AMOVA便捷分组.md",
-    "软件/Python/格式转换/AMOVA及Fst分析软件操作.md",
-    "软件/Python/格式转换/fasta文件加个单倍群label.md",
-    "软件/Python/格式转换/FASTA文件转NEX（2024年6月12日更新）.md",
-    "软件/Python/格式转换/Python：查找mtDNA上游单倍型（2024年6月19日更新）.md",
-    "软件/Python/格式转换/python：生成变换字体颜色代码给jsx.md",
-    "软件/Python/格式转换/Python绘制省份频率地图.md",
-    "软件/Python/格式转换/VCF文件转换成NEX.md",
-    "软件/Python/数据获取/利用Python下载NCBI数据.md",
-    "软件/Python/数据获取/下载SRA.md",
+    "软件/Python/地理经纬/python：根据国家、地区求经纬度.md",
+    "软件/Python/地理经纬/python：根据经纬度获取海拔.md",
+    "软件/Python/地理经纬/python：根据经纬度求国家.md",
+    "软件/Python/地理经纬/python：根据中文求拼音.md",
+    "软件/Python/地理经纬/python：经纬度和地址互转.md",
+    "软件/Python/数据获取/python：下载NCBI数据.md",
+    "软件/Python/数据获取/python：下载SRA.md",
+    "软件/Python/数据科学与格式转换/python：查找末端单倍群.md",
+    "软件/Python/数据科学与格式转换/Python：查找mtDNA上游单倍型（2024年6月19日更新）.md",
+    "软件/Python/数据科学与格式转换/python：多个fasta、txt合并为一个.md",
+    "软件/Python/数据科学与格式转换/python：根据单倍群频率使用sklearn进行降维.md",
+    "软件/Python/数据科学与格式转换/python：根据共享单倍群频率绘制人群热图.md",
+    "软件/Python/数据科学与格式转换/python：根据共享单倍群频率绘制人群柱状图.md",
+    "软件/Python/数据科学与格式转换/python：根据频数求z-score.md",
+    "软件/Python/数据科学与格式转换/python：绘制饼图和柱状图.md",
+    "软件/Python/数据科学与格式转换/python：绘制差异性单倍群的曼哈顿图.md",
+    "软件/Python/数据科学与格式转换/python：绘制单倍群成分柱状图.md",
+    "软件/Python/数据科学与格式转换/python：绘制省份频率地图.md",
+    "软件/Python/数据科学与格式转换/python：计算群体单倍群单倍型多样性.md",
+    "软件/Python/数据科学与格式转换/python：计算下游单倍群数量.md",
+    "软件/Python/数据科学与格式转换/python：计算ρ（rho）和σ（sigma）.md",
+    "软件/Python/数据科学与格式转换/python：将FASTA文件与Aln文件合并.md",
+    "软件/Python/数据科学与格式转换/python：将FASTA文件中的序列分组到指定的组中.md",
+    "软件/Python/数据科学与格式转换/python：将FASTA转换成Arp.md",
+    "软件/Python/数据科学与格式转换/python：将VCF文件伪二倍体转化为单倍体fatsa文件.md",
+    "软件/Python/数据科学与格式转换/python：将VCF文件转为rdf并重新命名ID.md",
+    "软件/Python/数据科学与格式转换/python：快速整理线粒体单倍群至目标上游单倍群.md",
+    "软件/Python/数据科学与格式转换/python：利用Python将主成分表转换成R脚本.md",
+    "软件/Python/数据科学与格式转换/python：利用Python快速填写频率表.md",
+    "软件/Python/数据科学与格式转换/python：批量修改VCF文件至Arp格式.md",
+    "软件/Python/数据科学与格式转换/python：全矩阵与半矩阵的相互转化.md",
+    "软件/Python/数据科学与格式转换/python：删除fasta中的指定位点.md",
+    "软件/Python/数据科学与格式转换/python：生成变换字体颜色代码给jsx.md",
+    "软件/Python/数据科学与格式转换/python：四分位分组箱型图绘制.md",
+    "软件/Python/数据科学与格式转换/python：提取fasta序列至新的fasta.md",
+    "软件/Python/数据科学与格式转换/python：一键绘制线粒体单倍群频率热图.md",
+    "软件/Python/数据科学与格式转换/python：一键生成Y染色体各级单倍群累加表格.md",
+    "软件/Python/数据科学与格式转换/python：AMOVA便捷分组.md",
+    "软件/Python/数据科学与格式转换/python：fasta文件加个单倍群label.md",
+    "软件/Python/数据科学与格式转换/python：FASTA文件转NEX（2024年6月12日更新）.md",
+    "软件/Python/数据科学与格式转换/python：phylotree多余信息删除.md",
+    "软件/Python/数据科学与格式转换/python：VCF文件转换成NEX.md",
+    "软件/Python/数据科学与格式转换/python：ρ（rho）方法计算mtDNA共同祖先时间.md",
     "软件/Python/学习笔记/八、Python函数.md",
     "软件/Python/学习笔记/二、Python注释.md",
     "软件/Python/学习笔记/二十、 Numpy探索.md",
@@ -236,21 +232,24 @@
     "软件/Python/学习笔记/一、Python数据类型.md",
     "软件/Python/学习笔记/Python交互式库.md",
     "软件/Python/学习笔记/Scikit-Learn 的建模万能模板！.md",
-    "软件/Python/python：根据频数求z-score.md",
-    "软件/Python/python：绘制饼图和柱状图.md",
-    "软件/Python/python：计算ρ（rho）和σ（sigma）.md",
-    "软件/Python/python：ρ（rho）方法计算mtDNA共同祖先时间.md",
-    "软件/R语言语法/基本数据集.md",
-    "软件/R语言语法/基本运算符.md",
-    "软件/R语言语法/配色图.md",
-    "软件/R语言语法/谱系树修饰.md",
-    "软件/R语言语法/相关性热图.md",
-    "软件/R语言语法/相关性图.md",
-    "软件/R语言语法/小提琴图.md",
-    "软件/R语言语法/ggplot2个性化绘制散点图.md",
-    "软件/R语言语法/ggplot2简介.md",
-    "软件/R语言语法/GWalkR——一行代码将数据集转化为交互式可视化分析工具.md",
+    "软件/R语言语法/R：根据Fst算MDS.md",
+    "软件/R语言语法/R：基本数据集.md",
+    "软件/R语言语法/R：基本运算符.md",
+    "软件/R语言语法/R：利用DAPC进行mtDNA降维.md",
+    "软件/R语言语法/R：利用R进行iTol注释文件生成.md",
+    "软件/R语言语法/R：利用R进行iTol注释文件生成 1.md",
+    "软件/R语言语法/R：配色图.md",
+    "软件/R语言语法/R：谱系树修饰.md",
+    "软件/R语言语法/R：特定某个单倍群与经纬度相关性回归.md",
+    "软件/R语言语法/R：相关性热图.md",
+    "软件/R语言语法/R：相关性热图绘制.md",
+    "软件/R语言语法/R：相关性图.md",
+    "软件/R语言语法/R：小提琴图.md",
     "软件/R语言语法/R：Fst绘制矩阵.md",
+    "软件/R语言语法/R：ggplot2个性化绘制散点图.md",
+    "软件/R语言语法/R：ggplot2简介.md",
+    "软件/R语言语法/R：GWalkR——一行代码将数据集转化为交互式可视化分析工具.md",
+    "软件/R语言语法/R：linkET相关性分析.md",
     "软件/SPSS/八、单因素方差分析及多重比较.md",
     "软件/SPSS/二、认识变量.md",
     "软件/SPSS/九、非参数检验（秩和检验）.md",
@@ -699,6 +698,7 @@
     "文献及报道/文献/2024 AAS 古代基因组为了解中国西南历史时期的遗传史提供了见解.md",
     "文献及报道/文献/2024 Cell 人类谱系中线粒体 DNA 突变的速率和性质.md",
     "文献及报道/文献/2024 JGG 自然选择塑造了线粒体DNA支系在汉族人群中对抵御肥胖的保护作用.md",
+    "文献及报道/文献/2024 MBE MtDNA基因组揭示了末次盛冰期后人口扩张过程中宽松的净化选择.md",
     "文献及报道/文献/2024 NA 母亲年龄增强了哺乳动物 mtDNA 复合物 I 致病性突变的净化选择.md",
     "文献及报道/文献/2024 Nature 线粒体复合物I促进肾癌转移.md",
     "文献及报道/文献/2024 NC 线粒体DNA突变引起肠道老化的基础是依赖NAD+的线粒体蛋白质应激反应的激活.md",
@@ -838,6 +838,28 @@
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
     "lib/media/874d8b8e340f75575caa.svg",
     "lib/media/3d6c1bdc4d87cde4de67.svg",
+    "lib/fonts/mathjax_zero.woff",
+    "lib/fonts/mathjax_main-regular.woff",
+    "lib/fonts/mathjax_main-bold.woff",
+    "lib/fonts/mathjax_math-italic.woff",
+    "lib/fonts/mathjax_main-italic.woff",
+    "lib/fonts/mathjax_math-bolditalic.woff",
+    "lib/fonts/mathjax_size1-regular.woff",
+    "lib/fonts/mathjax_size2-regular.woff",
+    "lib/fonts/mathjax_size3-regular.woff",
+    "lib/fonts/mathjax_size4-regular.woff",
+    "lib/fonts/mathjax_ams-regular.woff",
+    "lib/fonts/mathjax_calligraphic-regular.woff",
+    "lib/fonts/mathjax_calligraphic-bold.woff",
+    "lib/fonts/mathjax_fraktur-regular.woff",
+    "lib/fonts/mathjax_fraktur-bold.woff",
+    "lib/fonts/mathjax_sansserif-regular.woff",
+    "lib/fonts/mathjax_sansserif-bold.woff",
+    "lib/fonts/mathjax_sansserif-italic.woff",
+    "lib/fonts/mathjax_script-regular.woff",
+    "lib/fonts/mathjax_typewriter-regular.woff",
+    "lib/fonts/mathjax_vector-regular.woff",
+    "lib/fonts/mathjax_vector-bold.woff",
     "lib/html/file-tree.html",
     "lib/scripts/webpage.js",
     "lib/scripts/graph-view.js",
@@ -872,6 +894,28 @@
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
     "lib/media/874d8b8e340f75575caa.svg",
     "lib/media/3d6c1bdc4d87cde4de67.svg",
+    "lib/fonts/mathjax_zero.woff",
+    "lib/fonts/mathjax_main-regular.woff",
+    "lib/fonts/mathjax_main-bold.woff",
+    "lib/fonts/mathjax_math-italic.woff",
+    "lib/fonts/mathjax_main-italic.woff",
+    "lib/fonts/mathjax_math-bolditalic.woff",
+    "lib/fonts/mathjax_size1-regular.woff",
+    "lib/fonts/mathjax_size2-regular.woff",
+    "lib/fonts/mathjax_size3-regular.woff",
+    "lib/fonts/mathjax_size4-regular.woff",
+    "lib/fonts/mathjax_ams-regular.woff",
+    "lib/fonts/mathjax_calligraphic-regular.woff",
+    "lib/fonts/mathjax_calligraphic-bold.woff",
+    "lib/fonts/mathjax_fraktur-regular.woff",
+    "lib/fonts/mathjax_fraktur-bold.woff",
+    "lib/fonts/mathjax_sansserif-regular.woff",
+    "lib/fonts/mathjax_sansserif-bold.woff",
+    "lib/fonts/mathjax_sansserif-italic.woff",
+    "lib/fonts/mathjax_script-regular.woff",
+    "lib/fonts/mathjax_typewriter-regular.woff",
+    "lib/fonts/mathjax_vector-regular.woff",
+    "lib/fonts/mathjax_vector-bold.woff",
     "lib/html/file-tree.html",
     "lib/scripts/webpage.js",
     "lib/scripts/graph-view.js",
@@ -1412,192 +1456,6 @@
       "exportedPath": "疾病与基因/vaf.html",
       "dependencies": []
     },
-    "软件/其它生信软件/格式比对/序列比对的思考.md": {
-      "modifiedTime": 1722178073980,
-      "sourceSize": 15326,
-      "exportedPath": "软件/其它生信软件/格式比对/序列比对的思考.html",
-      "dependencies": []
-    },
-    "软件/其它生信软件/全基因组/简易的mtDNA分析流程.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 5899,
-      "exportedPath": "软件/其它生信软件/全基因组/简易的mtdna分析流程.html",
-      "dependencies": []
-    },
-    "软件/其它生信软件/全基因组/线粒体基因组分析流程.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 11618,
-      "exportedPath": "软件/其它生信软件/全基因组/线粒体基因组分析流程.html",
-      "dependencies": []
-    },
-    "软件/其它生信软件/全基因组/线粒体DNA工作流程.md": {
-      "modifiedTime": 1722178073980,
-      "sourceSize": 9911,
-      "exportedPath": "软件/其它生信软件/全基因组/线粒体dna工作流程.html",
-      "dependencies": []
-    },
-    "软件/其它生信软件/全基因组/dinumt.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 4664,
-      "exportedPath": "软件/其它生信软件/全基因组/dinumt.html",
-      "dependencies": []
-    },
-    "软件/其它生信软件/全基因组/MToolBox.md": {
-      "modifiedTime": 1722178073980,
-      "sourceSize": 13103,
-      "exportedPath": "软件/其它生信软件/全基因组/mtoolbox.html",
-      "dependencies": []
-    },
-    "软件/其它生信软件/全基因组/NUMT-detector.md": {
-      "modifiedTime": 1722178073980,
-      "sourceSize": 47108,
-      "exportedPath": "软件/其它生信软件/全基因组/numt-detector.html",
-      "dependencies": []
-    },
-    "软件/其它生信软件/全基因组/NUMT-detector错误排查.canvas": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 10654,
-      "exportedPath": "软件/其它生信软件/全基因组/numt-detector错误排查.html",
-      "dependencies": []
-    },
-    "软件/其它生信软件/群体遗传/根据单倍群频率使用sklearn进行降维.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 3256,
-      "exportedPath": "软件/其它生信软件/群体遗传/根据单倍群频率使用sklearn进行降维.html",
-      "dependencies": []
-    },
-    "软件/其它生信软件/群体遗传/根据共享单倍群频率绘制人群热图.md": {
-      "modifiedTime": 1722178073980,
-      "sourceSize": 5361,
-      "exportedPath": "软件/其它生信软件/群体遗传/根据共享单倍群频率绘制人群热图.html",
-      "dependencies": []
-    },
-    "软件/其它生信软件/群体遗传/根据Fst算MDS.md": {
-      "modifiedTime": 1722178073980,
-      "sourceSize": 6571,
-      "exportedPath": "软件/其它生信软件/群体遗传/根据fst算mds.html",
-      "dependencies": []
-    },
-    "软件/其它生信软件/群体遗传/基于Fst绘制Neighbor-Joining (NJ)树.md": {
-      "modifiedTime": 1722178073980,
-      "sourceSize": 10478,
-      "exportedPath": "软件/其它生信软件/群体遗传/基于fst绘制neighbor-joining-(nj)树.html",
-      "dependencies": []
-    },
-    "软件/其它生信软件/群体遗传/基于Fst绘制Network图.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 47410,
-      "exportedPath": "软件/其它生信软件/群体遗传/基于fst绘制network图.html",
-      "dependencies": []
-    },
-    "软件/其它生信软件/群体遗传/进化树美化网站.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 727,
-      "exportedPath": "软件/其它生信软件/群体遗传/进化树美化网站.html",
-      "dependencies": []
-    },
-    "软件/其它生信软件/群体遗传/利用R进行iTol注释文件生成.md": {
-      "modifiedTime": 1722389505981,
-      "sourceSize": 12006,
-      "exportedPath": "软件/其它生信软件/群体遗传/利用r进行itol注释文件生成.html",
-      "dependencies": []
-    },
-    "软件/其它生信软件/群体遗传/特定某个单倍群与经纬度相关性回归.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 3035,
-      "exportedPath": "软件/其它生信软件/群体遗传/特定某个单倍群与经纬度相关性回归.html",
-      "dependencies": []
-    },
-    "软件/其它生信软件/群体遗传/位点频谱SFS (site frequency spectrum).md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 2524,
-      "exportedPath": "软件/其它生信软件/群体遗传/位点频谱sfs-(site-frequency-spectrum).html",
-      "dependencies": []
-    },
-    "软件/其它生信软件/群体遗传/相关性热图绘制.md": {
-      "modifiedTime": 1722694584945,
-      "sourceSize": 8567,
-      "exportedPath": "软件/其它生信软件/群体遗传/相关性热图绘制.html",
-      "dependencies": []
-    },
-    "软件/其它生信软件/群体遗传/ANGSD（Analysis of Next Generation Sequencing Data）.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 645,
-      "exportedPath": "软件/其它生信软件/群体遗传/angsd（analysis-of-next-generation-sequencing-data）.html",
-      "dependencies": []
-    },
-    "软件/其它生信软件/群体遗传/easySFS.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 11545,
-      "exportedPath": "软件/其它生信软件/群体遗传/easysfs.html",
-      "dependencies": []
-    },
-    "软件/其它生信软件/群体遗传/fastsimcoal2.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 9957,
-      "exportedPath": "软件/其它生信软件/群体遗传/fastsimcoal2.html",
-      "dependencies": []
-    },
-    "软件/其它生信软件/群体遗传/iTol完全美化.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 30860,
-      "exportedPath": "软件/其它生信软件/群体遗传/itol完全美化.html",
-      "dependencies": []
-    },
-    "软件/其它生信软件/群体遗传/linkET相关性分析.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 10203,
-      "exportedPath": "软件/其它生信软件/群体遗传/linket相关性分析.html",
-      "dependencies": []
-    },
-    "软件/其它生信软件/群体遗传/PhyloSuite开发——不简单的工作让系统发育分析变得简单.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 4557,
-      "exportedPath": "软件/其它生信软件/群体遗传/phylosuite开发——不简单的工作让系统发育分析变得简单.html",
-      "dependencies": []
-    },
-    "软件/其它生信软件/群体遗传/python：查找末端单倍群.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 1179,
-      "exportedPath": "软件/其它生信软件/群体遗传/python：查找末端单倍群.html",
-      "dependencies": []
-    },
-    "软件/其它生信软件/群体遗传/python：计算群体单倍群单倍型多样性.md": {
-      "modifiedTime": 1721745245430,
-      "sourceSize": 2848,
-      "exportedPath": "软件/其它生信软件/群体遗传/python：计算群体单倍群单倍型多样性.html",
-      "dependencies": []
-    },
-    "软件/其它生信软件/群体遗传/python：计算下游单倍群数量.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 3392,
-      "exportedPath": "软件/其它生信软件/群体遗传/python：计算下游单倍群数量.html",
-      "dependencies": []
-    },
-    "软件/其它生信软件/群体遗传/python：快速整理线粒体单倍群至目标上游单倍群.md": {
-      "modifiedTime": 1722694584945,
-      "sourceSize": 6483,
-      "exportedPath": "软件/其它生信软件/群体遗传/python：快速整理线粒体单倍群至目标上游单倍群.html",
-      "dependencies": []
-    },
-    "软件/其它生信软件/利用R进行iTol注释文件生成.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 11043,
-      "exportedPath": "软件/其它生信软件/利用r进行itol注释文件生成.html",
-      "dependencies": []
-    },
-    "软件/其它生信软件/Advanced Circos：绘制NUMT弦图教程.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 3607,
-      "exportedPath": "软件/其它生信软件/advanced-circos：绘制numt弦图教程.html",
-      "dependencies": []
-    },
-    "软件/其它生信软件/iTOL注释编辑表格.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 9384,
-      "exportedPath": "软件/其它生信软件/itol注释编辑表格.html",
-      "dependencies": []
-    },
     "软件/Adobe illustrator绘图/第二节 倾斜工具.md": {
       "modifiedTime": 1721117767063,
       "sourceSize": 764,
@@ -1683,8 +1541,8 @@
       "dependencies": []
     },
     "软件/IQtree/iqtree：寻找最优模型及分区.md": {
-      "modifiedTime": 1722178073980,
-      "sourceSize": 8833,
+      "modifiedTime": 1724402324103,
+      "sourceSize": 8829,
       "exportedPath": "软件/iqtree/iqtree：寻找最优模型及分区.html",
       "dependencies": []
     },
@@ -1692,174 +1550,6 @@
       "modifiedTime": 1721117767063,
       "sourceSize": 1691,
       "exportedPath": "软件/origin绘图/origin：教学—弦图绘制.html",
-      "dependencies": []
-    },
-    "软件/Python/地理经纬/根据国家、地区求经纬度.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 2581,
-      "exportedPath": "软件/python/地理经纬/根据国家、地区求经纬度.html",
-      "dependencies": []
-    },
-    "软件/Python/地理经纬/根据经纬度获取海拔.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 3661,
-      "exportedPath": "软件/python/地理经纬/根据经纬度获取海拔.html",
-      "dependencies": []
-    },
-    "软件/Python/地理经纬/根据经纬度求国家.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 2295,
-      "exportedPath": "软件/python/地理经纬/根据经纬度求国家.html",
-      "dependencies": []
-    },
-    "软件/Python/地理经纬/根据中文求拼音.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 693,
-      "exportedPath": "软件/python/地理经纬/根据中文求拼音.html",
-      "dependencies": []
-    },
-    "软件/Python/地理经纬/Python经纬度和地址互转.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 710,
-      "exportedPath": "软件/python/地理经纬/python经纬度和地址互转.html",
-      "dependencies": []
-    },
-    "软件/Python/格式转换/多个fasta、txt合并为一个.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 2355,
-      "exportedPath": "软件/python/格式转换/多个fasta、txt合并为一个.html",
-      "dependencies": []
-    },
-    "软件/Python/格式转换/根据共享单倍群频率绘制人群柱状图.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 3017,
-      "exportedPath": "软件/python/格式转换/根据共享单倍群频率绘制人群柱状图.html",
-      "dependencies": []
-    },
-    "软件/Python/格式转换/将FASTA文件与Aln文件合并.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 5585,
-      "exportedPath": "软件/python/格式转换/将fasta文件与aln文件合并.html",
-      "dependencies": []
-    },
-    "软件/Python/格式转换/将FASTA文件中的序列分组到指定的组中.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 3270,
-      "exportedPath": "软件/python/格式转换/将fasta文件中的序列分组到指定的组中.html",
-      "dependencies": []
-    },
-    "软件/Python/格式转换/将FASTA转换成Arp.md": {
-      "modifiedTime": 1721700142721,
-      "sourceSize": 10172,
-      "exportedPath": "软件/python/格式转换/将fasta转换成arp.html",
-      "dependencies": []
-    },
-    "软件/Python/格式转换/将VCF文件伪二倍体转化为单倍体fatsa文件.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 4892,
-      "exportedPath": "软件/python/格式转换/将vcf文件伪二倍体转化为单倍体fatsa文件.html",
-      "dependencies": []
-    },
-    "软件/Python/格式转换/将VCF文件转为rdf并重新命名ID.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 10575,
-      "exportedPath": "软件/python/格式转换/将vcf文件转为rdf并重新命名id.html",
-      "dependencies": []
-    },
-    "软件/Python/格式转换/利用Python将主成分表转换成R脚本.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 18560,
-      "exportedPath": "软件/python/格式转换/利用python将主成分表转换成r脚本.html",
-      "dependencies": []
-    },
-    "软件/Python/格式转换/利用Python快速填写频率表.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 5862,
-      "exportedPath": "软件/python/格式转换/利用python快速填写频率表.html",
-      "dependencies": []
-    },
-    "软件/Python/格式转换/利用python一键绘制线粒体单倍群频率热图.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 14433,
-      "exportedPath": "软件/python/格式转换/利用python一键绘制线粒体单倍群频率热图.html",
-      "dependencies": []
-    },
-    "软件/Python/格式转换/批量修改VCF文件至Arp格式.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 2062,
-      "exportedPath": "软件/python/格式转换/批量修改vcf文件至arp格式.html",
-      "dependencies": []
-    },
-    "软件/Python/格式转换/全矩阵与半矩阵的相互转化.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 2299,
-      "exportedPath": "软件/python/格式转换/全矩阵与半矩阵的相互转化.html",
-      "dependencies": []
-    },
-    "软件/Python/格式转换/删除fasta中的指定位点.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 1405,
-      "exportedPath": "软件/python/格式转换/删除fasta中的指定位点.html",
-      "dependencies": []
-    },
-    "软件/Python/格式转换/提取fasta序列至新的fasta.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 2596,
-      "exportedPath": "软件/python/格式转换/提取fasta序列至新的fasta.html",
-      "dependencies": []
-    },
-    "软件/Python/格式转换/一键生成Y染色体各级单倍群累加表格.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 3901,
-      "exportedPath": "软件/python/格式转换/一键生成y染色体各级单倍群累加表格.html",
-      "dependencies": []
-    },
-    "软件/Python/格式转换/AMOVA便捷分组.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 1643,
-      "exportedPath": "软件/python/格式转换/amova便捷分组.html",
-      "dependencies": []
-    },
-    "软件/Python/格式转换/AMOVA及Fst分析软件操作.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 5877,
-      "exportedPath": "软件/python/格式转换/amova及fst分析软件操作.html",
-      "dependencies": []
-    },
-    "软件/Python/格式转换/fasta文件加个单倍群label.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 1319,
-      "exportedPath": "软件/python/格式转换/fasta文件加个单倍群label.html",
-      "dependencies": []
-    },
-    "软件/Python/格式转换/FASTA文件转NEX（2024年6月12日更新）.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 14714,
-      "exportedPath": "软件/python/格式转换/fasta文件转nex（2024年6月12日更新）.html",
-      "dependencies": []
-    },
-    "软件/Python/格式转换/Python绘制省份频率地图.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 6554,
-      "exportedPath": "软件/python/格式转换/python绘制省份频率地图.html",
-      "dependencies": []
-    },
-    "软件/Python/格式转换/VCF文件转换成NEX.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 3425,
-      "exportedPath": "软件/python/格式转换/vcf文件转换成nex.html",
-      "dependencies": []
-    },
-    "软件/Python/数据获取/利用Python下载NCBI数据.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 6167,
-      "exportedPath": "软件/python/数据获取/利用python下载ncbi数据.html",
-      "dependencies": []
-    },
-    "软件/Python/数据获取/下载SRA.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 5556,
-      "exportedPath": "软件/python/数据获取/下载sra.html",
       "dependencies": []
     },
     "软件/Python/学习笔记/八、Python函数.md": {
@@ -2064,72 +1754,6 @@
       "modifiedTime": 1721117767063,
       "sourceSize": 14805,
       "exportedPath": "软件/python/学习笔记/scikit-learn-的建模万能模板！.html",
-      "dependencies": []
-    },
-    "软件/Python/python：绘制饼图和柱状图.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 4554,
-      "exportedPath": "软件/python/python：绘制饼图和柱状图.html",
-      "dependencies": []
-    },
-    "软件/R语言语法/基本数据集.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 2253,
-      "exportedPath": "软件/r语言语法/基本数据集.html",
-      "dependencies": []
-    },
-    "软件/R语言语法/基本运算符.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 949,
-      "exportedPath": "软件/r语言语法/基本运算符.html",
-      "dependencies": []
-    },
-    "软件/R语言语法/配色图.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 1961,
-      "exportedPath": "软件/r语言语法/配色图.html",
-      "dependencies": []
-    },
-    "软件/R语言语法/谱系树修饰.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 7552,
-      "exportedPath": "软件/r语言语法/谱系树修饰.html",
-      "dependencies": []
-    },
-    "软件/R语言语法/相关性热图.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 7606,
-      "exportedPath": "软件/r语言语法/相关性热图.html",
-      "dependencies": []
-    },
-    "软件/R语言语法/相关性图.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 8530,
-      "exportedPath": "软件/r语言语法/相关性图.html",
-      "dependencies": []
-    },
-    "软件/R语言语法/小提琴图.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 3214,
-      "exportedPath": "软件/r语言语法/小提琴图.html",
-      "dependencies": []
-    },
-    "软件/R语言语法/ggplot2个性化绘制散点图.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 9109,
-      "exportedPath": "软件/r语言语法/ggplot2个性化绘制散点图.html",
-      "dependencies": []
-    },
-    "软件/R语言语法/ggplot2简介.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 6484,
-      "exportedPath": "软件/r语言语法/ggplot2简介.html",
-      "dependencies": []
-    },
-    "软件/R语言语法/GWalkR——一行代码将数据集转化为交互式可视化分析工具.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 2067,
-      "exportedPath": "软件/r语言语法/gwalkr——一行代码将数据集转化为交互式可视化分析工具.html",
       "dependencies": []
     },
     "软件/SPSS/八、单因素方差分析及多重比较.md": {
@@ -3465,7 +3089,7 @@
       "dependencies": []
     },
     "术语/数据科学家 95 时间都在使用的 10 大基本分布.md": {
-      "modifiedTime": 1724227322006,
+      "modifiedTime": 1724402324103,
       "sourceSize": 10258,
       "exportedPath": "术语/数据科学家-95-时间都在使用的-10-大基本分布.html",
       "dependencies": []
@@ -3501,8 +3125,8 @@
       "dependencies": []
     },
     "术语/四种建树方法比较.md": {
-      "modifiedTime": 1722178073980,
-      "sourceSize": 5130,
+      "modifiedTime": 1724402324103,
+      "sourceSize": 5126,
       "exportedPath": "术语/四种建树方法比较.html",
       "dependencies": []
     },
@@ -5259,325 +4883,325 @@
       "dependencies": []
     },
     "lib/scripts/graph-wasm.wasm": {
-      "modifiedTime": 1724227322006,
+      "modifiedTime": 1724402324103,
       "sourceSize": 23377,
       "exportedPath": "lib/scripts/graph-wasm.wasm",
       "dependencies": []
     },
     "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1724227322006,
+      "modifiedTime": 1724402324103,
       "sourceSize": 66800,
       "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
       "dependencies": []
     },
     "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1724227322006,
+      "modifiedTime": 1724402324103,
       "sourceSize": 104232,
       "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
       "dependencies": []
     },
     "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1724227322006,
+      "modifiedTime": 1724402324103,
       "sourceSize": 104332,
       "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
       "dependencies": []
     },
     "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1724227322006,
+      "modifiedTime": 1724402324103,
       "sourceSize": 98868,
       "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
       "dependencies": []
     },
     "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1724227322006,
+      "modifiedTime": 1724402324103,
       "sourceSize": 106876,
       "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
       "dependencies": []
     },
     "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1724227322006,
+      "modifiedTime": 1724402324103,
       "sourceSize": 105804,
       "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
       "dependencies": []
     },
     "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1724227322006,
+      "modifiedTime": 1724402324103,
       "sourceSize": 106108,
       "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
       "dependencies": []
     },
     "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1724227322006,
+      "modifiedTime": 1724402324103,
       "sourceSize": 111708,
       "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
       "dependencies": []
     },
     "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1724227322006,
+      "modifiedTime": 1724402324103,
       "sourceSize": 192740,
       "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
       "dependencies": []
     },
     "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1724227322006,
+      "modifiedTime": 1724402324103,
       "sourceSize": 161376,
       "exportedPath": "lib/fonts/454577c22304619db035.ttf",
       "dependencies": []
     },
     "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1724227322006,
+      "modifiedTime": 1724402324103,
       "sourceSize": 191568,
       "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
       "dependencies": []
     },
     "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1724227322006,
+      "modifiedTime": 1724402324103,
       "sourceSize": 155288,
       "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
       "dependencies": []
     },
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1724227322006,
+      "modifiedTime": 1724402324103,
       "sourceSize": 7876,
       "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
       "dependencies": []
     },
     "lib/media/874d8b8e340f75575caa.svg": {
-      "modifiedTime": 1724227322006,
+      "modifiedTime": 1724402324103,
       "sourceSize": 317,
       "exportedPath": "lib/media/874d8b8e340f75575caa.svg",
       "dependencies": []
     },
     "lib/media/3d6c1bdc4d87cde4de67.svg": {
-      "modifiedTime": 1724227322006,
+      "modifiedTime": 1724402324103,
       "sourceSize": 279,
       "exportedPath": "lib/media/3d6c1bdc4d87cde4de67.svg",
       "dependencies": []
     },
     "lib/fonts/mathjax_zero.woff": {
-      "modifiedTime": 1724222592187,
+      "modifiedTime": 1724402324103,
       "sourceSize": 1368,
       "exportedPath": "lib/fonts/mathjax_zero.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_main-regular.woff": {
-      "modifiedTime": 1724222592187,
+      "modifiedTime": 1724402324103,
       "sourceSize": 34160,
       "exportedPath": "lib/fonts/mathjax_main-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_main-bold.woff": {
-      "modifiedTime": 1724222592187,
+      "modifiedTime": 1724402324103,
       "sourceSize": 34464,
       "exportedPath": "lib/fonts/mathjax_main-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_math-italic.woff": {
-      "modifiedTime": 1724222592187,
+      "modifiedTime": 1724402324103,
       "sourceSize": 19360,
       "exportedPath": "lib/fonts/mathjax_math-italic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_main-italic.woff": {
-      "modifiedTime": 1724222592187,
+      "modifiedTime": 1724402324103,
       "sourceSize": 20832,
       "exportedPath": "lib/fonts/mathjax_main-italic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_math-bolditalic.woff": {
-      "modifiedTime": 1724222592187,
+      "modifiedTime": 1724402324103,
       "sourceSize": 19776,
       "exportedPath": "lib/fonts/mathjax_math-bolditalic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size1-regular.woff": {
-      "modifiedTime": 1724222592187,
+      "modifiedTime": 1724402324103,
       "sourceSize": 5792,
       "exportedPath": "lib/fonts/mathjax_size1-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size2-regular.woff": {
-      "modifiedTime": 1724222592187,
+      "modifiedTime": 1724402324103,
       "sourceSize": 5464,
       "exportedPath": "lib/fonts/mathjax_size2-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size3-regular.woff": {
-      "modifiedTime": 1724222592187,
+      "modifiedTime": 1724402324103,
       "sourceSize": 3244,
       "exportedPath": "lib/fonts/mathjax_size3-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size4-regular.woff": {
-      "modifiedTime": 1724222592187,
+      "modifiedTime": 1724402324103,
       "sourceSize": 5148,
       "exportedPath": "lib/fonts/mathjax_size4-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_ams-regular.woff": {
-      "modifiedTime": 1724222592187,
+      "modifiedTime": 1724402324103,
       "sourceSize": 40808,
       "exportedPath": "lib/fonts/mathjax_ams-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_calligraphic-regular.woff": {
-      "modifiedTime": 1724222592187,
+      "modifiedTime": 1724402324103,
       "sourceSize": 9600,
       "exportedPath": "lib/fonts/mathjax_calligraphic-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_calligraphic-bold.woff": {
-      "modifiedTime": 1724222592187,
+      "modifiedTime": 1724402324103,
       "sourceSize": 9908,
       "exportedPath": "lib/fonts/mathjax_calligraphic-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_fraktur-regular.woff": {
-      "modifiedTime": 1724222592187,
+      "modifiedTime": 1724402324103,
       "sourceSize": 21480,
       "exportedPath": "lib/fonts/mathjax_fraktur-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_fraktur-bold.woff": {
-      "modifiedTime": 1724222592187,
+      "modifiedTime": 1724402324103,
       "sourceSize": 22340,
       "exportedPath": "lib/fonts/mathjax_fraktur-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_sansserif-regular.woff": {
-      "modifiedTime": 1724222592187,
+      "modifiedTime": 1724402324103,
       "sourceSize": 12660,
       "exportedPath": "lib/fonts/mathjax_sansserif-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_sansserif-bold.woff": {
-      "modifiedTime": 1724222592187,
+      "modifiedTime": 1724402324103,
       "sourceSize": 15944,
       "exportedPath": "lib/fonts/mathjax_sansserif-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_sansserif-italic.woff": {
-      "modifiedTime": 1724222592187,
+      "modifiedTime": 1724402324103,
       "sourceSize": 14628,
       "exportedPath": "lib/fonts/mathjax_sansserif-italic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_script-regular.woff": {
-      "modifiedTime": 1724222592187,
+      "modifiedTime": 1724402324103,
       "sourceSize": 11852,
       "exportedPath": "lib/fonts/mathjax_script-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_typewriter-regular.woff": {
-      "modifiedTime": 1724222592187,
+      "modifiedTime": 1724402324103,
       "sourceSize": 17604,
       "exportedPath": "lib/fonts/mathjax_typewriter-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_vector-regular.woff": {
-      "modifiedTime": 1724222592187,
+      "modifiedTime": 1724402324103,
       "sourceSize": 1136,
       "exportedPath": "lib/fonts/mathjax_vector-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_vector-bold.woff": {
-      "modifiedTime": 1724222592187,
+      "modifiedTime": 1724402324103,
       "sourceSize": 1116,
       "exportedPath": "lib/fonts/mathjax_vector-bold.woff",
       "dependencies": []
     },
     "lib/html/file-tree.html": {
-      "modifiedTime": 1724227322006,
-      "sourceSize": 612762,
+      "modifiedTime": 1724402324103,
+      "sourceSize": 612623,
       "exportedPath": "lib/html/file-tree.html",
       "dependencies": []
     },
     "lib/scripts/webpage.js": {
-      "modifiedTime": 1724227322006,
+      "modifiedTime": 1724402324103,
       "sourceSize": 47290,
       "exportedPath": "lib/scripts/webpage.js",
       "dependencies": []
     },
     "lib/scripts/graph-view.js": {
-      "modifiedTime": 1724227322006,
+      "modifiedTime": 1724402324103,
       "sourceSize": 15519,
       "exportedPath": "lib/scripts/graph-view.js",
       "dependencies": []
     },
     "lib/scripts/graph-wasm.js": {
-      "modifiedTime": 1724227322006,
+      "modifiedTime": 1724402324103,
       "sourceSize": 14021,
       "exportedPath": "lib/scripts/graph-wasm.js",
       "dependencies": []
     },
     "lib/scripts/graph-render-worker.js": {
-      "modifiedTime": 1724227322006,
+      "modifiedTime": 1724402324103,
       "sourceSize": 5179,
       "exportedPath": "lib/scripts/graph-render-worker.js",
       "dependencies": []
     },
     "lib/scripts/tinycolor.js": {
-      "modifiedTime": 1724227322006,
+      "modifiedTime": 1724402324103,
       "sourceSize": 29832,
       "exportedPath": "lib/scripts/tinycolor.js",
       "dependencies": []
     },
     "lib/scripts/pixi.js": {
-      "modifiedTime": 1724227322006,
+      "modifiedTime": 1724402324103,
       "sourceSize": 449509,
       "exportedPath": "lib/scripts/pixi.js",
       "dependencies": []
     },
     "lib/scripts/minisearch.js": {
-      "modifiedTime": 1724227322006,
+      "modifiedTime": 1724402324103,
       "sourceSize": 29422,
       "exportedPath": "lib/scripts/minisearch.js",
       "dependencies": []
     },
     "lib/media/favicon.png": {
-      "modifiedTime": 1724227322006,
+      "modifiedTime": 1724402324103,
       "sourceSize": 1105,
       "exportedPath": "lib/media/favicon.png",
       "dependencies": []
     },
     "lib/scripts/graph-data.js": {
-      "modifiedTime": 1724227322006,
-      "sourceSize": 65887,
+      "modifiedTime": 1724402324103,
+      "sourceSize": 66466,
       "exportedPath": "lib/scripts/graph-data.js",
       "dependencies": []
     },
     "lib/styles/obsidian.css": {
-      "modifiedTime": 1724227322006,
+      "modifiedTime": 1724402324103,
       "sourceSize": 130471,
       "exportedPath": "lib/styles/obsidian.css",
       "dependencies": []
     },
     "lib/styles/other-plugins.css": {
-      "modifiedTime": 1724227322006,
+      "modifiedTime": 1724402324103,
       "sourceSize": 52851,
       "exportedPath": "lib/styles/other-plugins.css",
       "dependencies": []
     },
     "lib/styles/theme.css": {
-      "modifiedTime": 1724227322006,
+      "modifiedTime": 1724402324103,
       "sourceSize": 41426,
       "exportedPath": "lib/styles/theme.css",
       "dependencies": []
     },
     "lib/styles/global-variable-styles.css": {
-      "modifiedTime": 1724227322006,
+      "modifiedTime": 1724402324103,
       "sourceSize": 367,
       "exportedPath": "lib/styles/global-variable-styles.css",
       "dependencies": []
     },
     "lib/styles/supported-plugins.css": {
-      "modifiedTime": 1724227322006,
+      "modifiedTime": 1724402324103,
       "sourceSize": 119,
       "exportedPath": "lib/styles/supported-plugins.css",
       "dependencies": []
     },
     "lib/styles/main-styles.css": {
-      "modifiedTime": 1724227322006,
+      "modifiedTime": 1724402324103,
       "sourceSize": 23130,
       "exportedPath": "lib/styles/main-styles.css",
       "dependencies": []
@@ -5586,12 +5210,6 @@
       "modifiedTime": 1721188787163,
       "sourceSize": 270,
       "exportedPath": "疾病与基因/溯祖理论（coalescent-theory）.html",
-      "dependencies": []
-    },
-    "软件/其它生信软件/群体遗传/R：利用DAPC进行mtDNA降维.md": {
-      "modifiedTime": 1722178073980,
-      "sourceSize": 4065,
-      "exportedPath": "软件/其它生信软件/群体遗传/r：利用dapc进行mtdna降维.html",
       "dependencies": []
     },
     "文献及报道/文献/2011 PNAS 农业起源后全球人口迅速扩张.md": {
@@ -5726,18 +5344,6 @@
       "exportedPath": "文献及报道/文献/2024-aas-古代基因组为了解中国西南历史时期的遗传史提供了见解.html",
       "dependencies": []
     },
-    "软件/其它生信软件/群体遗传/Haplogrep3：软件使用手册.md": {
-      "modifiedTime": 1721375012177,
-      "sourceSize": 4243,
-      "exportedPath": "软件/其它生信软件/群体遗传/haplogrep3：软件使用手册.html",
-      "dependencies": []
-    },
-    "软件/其它生信软件/群体遗传/Haplogrep2：生成突变位点信息的支系系统发育树.md": {
-      "modifiedTime": 1721375012177,
-      "sourceSize": 2765,
-      "exportedPath": "软件/其它生信软件/群体遗传/haplogrep2：生成突变位点信息的支系系统发育树.html",
-      "dependencies": []
-    },
     "文献及报道/报道/从单细胞多组学角度研究线粒体遗传学.md": {
       "modifiedTime": 1721375012177,
       "sourceSize": 9413,
@@ -5750,94 +5356,16 @@
       "exportedPath": "文献及报道/文献/2023-cr-线粒体基因组证明两次扩张事件以及母系祖先从中国北部沿海向美洲和日本的扩散.html",
       "dependencies": []
     },
-    "软件/其它生信软件/群体遗传/python：绘制单倍群成分柱状图.md": {
-      "modifiedTime": 1721696594279,
-      "sourceSize": 2165,
-      "exportedPath": "软件/其它生信软件/群体遗传/python：绘制单倍群成分柱状图.html",
-      "dependencies": []
-    },
-    "软件/其它生信软件/群体遗传/Arlequin：计算群体多样性指标.md": {
-      "modifiedTime": 1721745245430,
-      "sourceSize": 1068,
-      "exportedPath": "软件/其它生信软件/群体遗传/arlequin：计算群体多样性指标.html",
-      "dependencies": []
-    },
-    "软件/Python/格式转换/python：生成变换字体颜色代码给jsx.md": {
-      "modifiedTime": 1721745245430,
-      "sourceSize": 1674,
-      "exportedPath": "软件/python/格式转换/python：生成变换字体颜色代码给jsx.html",
-      "dependencies": []
-    },
     "术语/ρ（rho）方法.md": {
       "modifiedTime": 1722389505981,
       "sourceSize": 3027,
       "exportedPath": "术语/ρ（rho）方法.html",
       "dependencies": []
     },
-    "软件/Python/python：计算ρ（rho）和σ（sigma）.md": {
-      "modifiedTime": 1722389505981,
-      "sourceSize": 3587,
-      "exportedPath": "软件/python/python：计算ρ（rho）和σ（sigma）.html",
-      "dependencies": []
-    },
-    "软件/Python/python：ρ（rho）方法计算mtDNA共同祖先时间.md": {
-      "modifiedTime": 1722389505981,
-      "sourceSize": 3859,
-      "exportedPath": "软件/python/python：ρ（rho）方法计算mtdna共同祖先时间.html",
-      "dependencies": []
-    },
     "术语/σ方法.md": {
-      "modifiedTime": 1722389505981,
+      "modifiedTime": 1724402324103,
       "sourceSize": 2695,
       "exportedPath": "术语/σ方法.html",
-      "dependencies": []
-    },
-    "软件/其它生信软件/格式比对/序列比对（Align）软件评测.md": {
-      "modifiedTime": 1722178073980,
-      "sourceSize": 10760,
-      "exportedPath": "软件/其它生信软件/格式比对/序列比对（align）软件评测.html",
-      "dependencies": []
-    },
-    "软件/其它生信软件/格式比对/MAFFT：多序列比对教程.md": {
-      "modifiedTime": 1722178073980,
-      "sourceSize": 2120,
-      "exportedPath": "软件/其它生信软件/格式比对/mafft：多序列比对教程.html",
-      "dependencies": []
-    },
-    "软件/其它生信软件/格式比对/Partitionfinder：一站式解决系统发育树参数问题.md": {
-      "modifiedTime": 1722178073980,
-      "sourceSize": 9762,
-      "exportedPath": "软件/其它生信软件/格式比对/partitionfinder：一站式解决系统发育树参数问题.html",
-      "dependencies": []
-    },
-    "软件/其它生信软件/格式比对/PLINK：转换 VCF 到 BED, BIM, FAM.md": {
-      "modifiedTime": 1722178073980,
-      "sourceSize": 2392,
-      "exportedPath": "软件/其它生信软件/格式比对/plink：转换-vcf-到-bed,-bim,-fam.html",
-      "dependencies": []
-    },
-    "软件/其它生信软件/格式比对/The GUIDANCE2 Server ：多序列比对置信软件.md": {
-      "modifiedTime": 1722178073980,
-      "sourceSize": 5024,
-      "exportedPath": "软件/其它生信软件/格式比对/the-guidance2-server-：多序列比对置信软件.html",
-      "dependencies": []
-    },
-    "软件/其它生信软件/格式比对/Trimal：自动修剪序列不可靠区域.md": {
-      "modifiedTime": 1722178073980,
-      "sourceSize": 6540,
-      "exportedPath": "软件/其它生信软件/格式比对/trimal：自动修剪序列不可靠区域.html",
-      "dependencies": []
-    },
-    "软件/其它生信软件/全基因组/haplocheck：检测污染.md": {
-      "modifiedTime": 1722178073980,
-      "sourceSize": 783,
-      "exportedPath": "软件/其它生信软件/全基因组/haplocheck：检测污染.html",
-      "dependencies": []
-    },
-    "软件/其它生信软件/全基因组/mitofinder：软件安装和使用.md": {
-      "modifiedTime": 1722178073980,
-      "sourceSize": 3202,
-      "exportedPath": "软件/其它生信软件/全基因组/mitofinder：软件安装和使用.html",
       "dependencies": []
     },
     "软件/R语言语法/R：Fst绘制矩阵.md": {
@@ -5918,18 +5446,6 @@
       "exportedPath": "软件/地理绘图/surfer：使用z-score克里金插值等值线图.html",
       "dependencies": []
     },
-    "软件/其它生信软件/群体遗传/python：绘制差异性单倍群的曼哈顿图.md": {
-      "modifiedTime": 1724148068863,
-      "sourceSize": 8980,
-      "exportedPath": "软件/其它生信软件/群体遗传/python：绘制差异性单倍群的曼哈顿图.html",
-      "dependencies": []
-    },
-    "软件/Python/格式转换/Python：查找mtDNA上游单倍型（2024年6月19日更新）.md": {
-      "modifiedTime": 1723701431934,
-      "sourceSize": 230857,
-      "exportedPath": "软件/python/格式转换/python：查找mtdna上游单倍型（2024年6月19日更新）.html",
-      "dependencies": []
-    },
     "术语/卵母细胞闭锁（follicular atresia）.md": {
       "modifiedTime": 1722694584945,
       "sourceSize": 290,
@@ -5946,12 +5462,6 @@
       "modifiedTime": 1722694584945,
       "sourceSize": 815,
       "exportedPath": "术语/ddda衍生的胞嘧啶碱基编辑工具（ddda-derived-cytosine-base-editors，ddcbes）.html",
-      "dependencies": []
-    },
-    "软件/Python/python：根据频数求z-score.md": {
-      "modifiedTime": 1723701431934,
-      "sourceSize": 1173,
-      "exportedPath": "软件/python/python：根据频数求z-score.html",
       "dependencies": []
     },
     "术语/富含亮氨酸重复序列的G蛋白偶联受体(Leucine-rich repeat-containing G-protein coupled receptor, LGR).md": {
@@ -6044,12 +5554,6 @@
       "exportedPath": "文献及报道/文献/2024-nature-线粒体复合物i促进肾癌转移.html",
       "dependencies": []
     },
-    "软件/其它生信软件/群体遗传/python：phylotree多余信息删除.md": {
-      "modifiedTime": 1724059899548,
-      "sourceSize": 2111,
-      "exportedPath": "软件/其它生信软件/群体遗传/python：phylotree多余信息删除.html",
-      "dependencies": []
-    },
     "文献及报道/文献/PNAS 线粒体DNA第3243位异质性的逐渐增加导致突然的转录重编程——mtDNA转录的过山车效应.md": {
       "modifiedTime": 1724148068863,
       "sourceSize": 16192,
@@ -6108,6 +5612,546 @@
       "modifiedTime": 1724227322006,
       "sourceSize": 1417,
       "exportedPath": "软件/地理绘图/surfer：反距离加权插值制作贴合的等值线图.html",
+      "dependencies": []
+    },
+    "软件/其它生信软件/使用心得/简易的mtDNA分析流程.md": {
+      "modifiedTime": 1724402324103,
+      "sourceSize": 5899,
+      "exportedPath": "软件/其它生信软件/使用心得/简易的mtdna分析流程.html",
+      "dependencies": []
+    },
+    "软件/其它生信软件/使用心得/线粒体基因组分析流程.md": {
+      "modifiedTime": 1724402324103,
+      "sourceSize": 11618,
+      "exportedPath": "软件/其它生信软件/使用心得/线粒体基因组分析流程.html",
+      "dependencies": []
+    },
+    "软件/其它生信软件/使用心得/线粒体DNA工作流程.md": {
+      "modifiedTime": 1724402324103,
+      "sourceSize": 9911,
+      "exportedPath": "软件/其它生信软件/使用心得/线粒体dna工作流程.html",
+      "dependencies": []
+    },
+    "软件/其它生信软件/使用心得/序列比对（Align）软件评测.md": {
+      "modifiedTime": 1724402324103,
+      "sourceSize": 10760,
+      "exportedPath": "软件/其它生信软件/使用心得/序列比对（align）软件评测.html",
+      "dependencies": []
+    },
+    "软件/其它生信软件/使用心得/序列比对的思考.md": {
+      "modifiedTime": 1724402324103,
+      "sourceSize": 15326,
+      "exportedPath": "软件/其它生信软件/使用心得/序列比对的思考.html",
+      "dependencies": []
+    },
+    "软件/其它生信软件/A-J/Arlequin：计算群体多样性指标.md": {
+      "modifiedTime": 1724402324103,
+      "sourceSize": 1068,
+      "exportedPath": "软件/其它生信软件/a-j/arlequin：计算群体多样性指标.html",
+      "dependencies": []
+    },
+    "软件/其它生信软件/A-J/dinumt.md": {
+      "modifiedTime": 1724402324103,
+      "sourceSize": 4664,
+      "exportedPath": "软件/其它生信软件/a-j/dinumt.html",
+      "dependencies": []
+    },
+    "软件/其它生信软件/A-J/DnaSP：AMOVA及Fst分析软件操作.md": {
+      "modifiedTime": 1724402324103,
+      "sourceSize": 5877,
+      "exportedPath": "软件/其它生信软件/a-j/dnasp：amova及fst分析软件操作.html",
+      "dependencies": []
+    },
+    "软件/其它生信软件/A-J/fastsimcoal2.md": {
+      "modifiedTime": 1724402324103,
+      "sourceSize": 9957,
+      "exportedPath": "软件/其它生信软件/a-j/fastsimcoal2.html",
+      "dependencies": []
+    },
+    "软件/其它生信软件/A-J/GUIDANCE2 Server ：多序列比对置信软件.md": {
+      "modifiedTime": 1724402324103,
+      "sourceSize": 5024,
+      "exportedPath": "软件/其它生信软件/a-j/guidance2-server-：多序列比对置信软件.html",
+      "dependencies": []
+    },
+    "软件/其它生信软件/A-J/Haplocheck：检测污染.md": {
+      "modifiedTime": 1724402324103,
+      "sourceSize": 783,
+      "exportedPath": "软件/其它生信软件/a-j/haplocheck：检测污染.html",
+      "dependencies": []
+    },
+    "软件/其它生信软件/A-J/Haplogrep2：生成突变位点信息的支系系统发育树.md": {
+      "modifiedTime": 1724402324103,
+      "sourceSize": 2765,
+      "exportedPath": "软件/其它生信软件/a-j/haplogrep2：生成突变位点信息的支系系统发育树.html",
+      "dependencies": []
+    },
+    "软件/其它生信软件/A-J/Haplogrep3：软件使用手册.md": {
+      "modifiedTime": 1724402324103,
+      "sourceSize": 4243,
+      "exportedPath": "软件/其它生信软件/a-j/haplogrep3：软件使用手册.html",
+      "dependencies": []
+    },
+    "软件/其它生信软件/A-J/iTol：进化树美化网站.md": {
+      "modifiedTime": 1724402324103,
+      "sourceSize": 725,
+      "exportedPath": "软件/其它生信软件/a-j/itol：进化树美化网站.html",
+      "dependencies": []
+    },
+    "软件/其它生信软件/A-J/iTol：完全美化.md": {
+      "modifiedTime": 1724402324103,
+      "sourceSize": 30860,
+      "exportedPath": "软件/其它生信软件/a-j/itol：完全美化.html",
+      "dependencies": []
+    },
+    "软件/其它生信软件/A-J/iTol：注释编辑表格.md": {
+      "modifiedTime": 1724402324103,
+      "sourceSize": 9384,
+      "exportedPath": "软件/其它生信软件/a-j/itol：注释编辑表格.html",
+      "dependencies": []
+    },
+    "软件/其它生信软件/K-S/MAFFT：多序列比对教程.md": {
+      "modifiedTime": 1724402324103,
+      "sourceSize": 2120,
+      "exportedPath": "软件/其它生信软件/k-s/mafft：多序列比对教程.html",
+      "dependencies": []
+    },
+    "软件/其它生信软件/K-S/MEGA：基于Fst绘制Neighbor-Joining (NJ)树.md": {
+      "modifiedTime": 1724402324103,
+      "sourceSize": 10485,
+      "exportedPath": "软件/其它生信软件/k-s/mega：基于fst绘制neighbor-joining-(nj)树.html",
+      "dependencies": []
+    },
+    "软件/其它生信软件/K-S/mitofinder：软件安装和使用.md": {
+      "modifiedTime": 1724402324103,
+      "sourceSize": 3202,
+      "exportedPath": "软件/其它生信软件/k-s/mitofinder：软件安装和使用.html",
+      "dependencies": []
+    },
+    "软件/其它生信软件/K-S/MToolBox.md": {
+      "modifiedTime": 1724402324103,
+      "sourceSize": 13103,
+      "exportedPath": "软件/其它生信软件/k-s/mtoolbox.html",
+      "dependencies": []
+    },
+    "软件/其它生信软件/K-S/NUMT-detector.md": {
+      "modifiedTime": 1724402324103,
+      "sourceSize": 47108,
+      "exportedPath": "软件/其它生信软件/k-s/numt-detector.html",
+      "dependencies": []
+    },
+    "软件/其它生信软件/K-S/NUMT-detector错误排查.canvas": {
+      "modifiedTime": 1724402324103,
+      "sourceSize": 10645,
+      "exportedPath": "软件/其它生信软件/k-s/numt-detector错误排查.html",
+      "dependencies": []
+    },
+    "软件/其它生信软件/K-S/Partitionfinder：一站式解决系统发育树参数问题.md": {
+      "modifiedTime": 1724402324103,
+      "sourceSize": 9762,
+      "exportedPath": "软件/其它生信软件/k-s/partitionfinder：一站式解决系统发育树参数问题.html",
+      "dependencies": []
+    },
+    "软件/其它生信软件/K-S/pathPhynder：将古代DNA上到最大似然树.md": {
+      "modifiedTime": 1724402324103,
+      "sourceSize": 3956,
+      "exportedPath": "软件/其它生信软件/k-s/pathphynder：将古代dna上到最大似然树.html",
+      "dependencies": []
+    },
+    "软件/其它生信软件/K-S/PhyloSuite：不简单的工作让系统发育分析变得简单.md": {
+      "modifiedTime": 1724402324103,
+      "sourceSize": 4557,
+      "exportedPath": "软件/其它生信软件/k-s/phylosuite：不简单的工作让系统发育分析变得简单.html",
+      "dependencies": []
+    },
+    "软件/其它生信软件/K-S/PLINK：转换 VCF 到 BED, BIM, FAM.md": {
+      "modifiedTime": 1724402324103,
+      "sourceSize": 2392,
+      "exportedPath": "软件/其它生信软件/k-s/plink：转换-vcf-到-bed,-bim,-fam.html",
+      "dependencies": []
+    },
+    "软件/其它生信软件/K-S/PopArt：基于Fst绘制Network图.md": {
+      "modifiedTime": 1724402324103,
+      "sourceSize": 47426,
+      "exportedPath": "软件/其它生信软件/k-s/popart：基于fst绘制network图.html",
+      "dependencies": []
+    },
+    "软件/其它生信软件/T-Z/TBtools：Advanced Circos：绘制NUMT弦图教程.md": {
+      "modifiedTime": 1724402324103,
+      "sourceSize": 3607,
+      "exportedPath": "软件/其它生信软件/t-z/tbtools：advanced-circos：绘制numt弦图教程.html",
+      "dependencies": []
+    },
+    "软件/其它生信软件/T-Z/Trimal：自动修剪序列不可靠区域.md": {
+      "modifiedTime": 1724402324103,
+      "sourceSize": 6540,
+      "exportedPath": "软件/其它生信软件/t-z/trimal：自动修剪序列不可靠区域.html",
+      "dependencies": []
+    },
+    "软件/Python/地理经纬/python：根据国家、地区求经纬度.md": {
+      "modifiedTime": 1724402324103,
+      "sourceSize": 2581,
+      "exportedPath": "软件/python/地理经纬/python：根据国家、地区求经纬度.html",
+      "dependencies": []
+    },
+    "软件/Python/地理经纬/python：根据经纬度获取海拔.md": {
+      "modifiedTime": 1724402324103,
+      "sourceSize": 3661,
+      "exportedPath": "软件/python/地理经纬/python：根据经纬度获取海拔.html",
+      "dependencies": []
+    },
+    "软件/Python/地理经纬/python：根据经纬度求国家.md": {
+      "modifiedTime": 1724402324103,
+      "sourceSize": 2295,
+      "exportedPath": "软件/python/地理经纬/python：根据经纬度求国家.html",
+      "dependencies": []
+    },
+    "软件/Python/地理经纬/python：根据中文求拼音.md": {
+      "modifiedTime": 1724402324103,
+      "sourceSize": 693,
+      "exportedPath": "软件/python/地理经纬/python：根据中文求拼音.html",
+      "dependencies": []
+    },
+    "软件/Python/地理经纬/python：经纬度和地址互转.md": {
+      "modifiedTime": 1724402324103,
+      "sourceSize": 710,
+      "exportedPath": "软件/python/地理经纬/python：经纬度和地址互转.html",
+      "dependencies": []
+    },
+    "软件/Python/数据获取/python：下载NCBI数据.md": {
+      "modifiedTime": 1724402324103,
+      "sourceSize": 6167,
+      "exportedPath": "软件/python/数据获取/python：下载ncbi数据.html",
+      "dependencies": []
+    },
+    "软件/Python/数据获取/python：下载SRA.md": {
+      "modifiedTime": 1724402324103,
+      "sourceSize": 5555,
+      "exportedPath": "软件/python/数据获取/python：下载sra.html",
+      "dependencies": []
+    },
+    "软件/Python/数据科学与格式转换/python：查找末端单倍群.md": {
+      "modifiedTime": 1724402324103,
+      "sourceSize": 1179,
+      "exportedPath": "软件/python/数据科学与格式转换/python：查找末端单倍群.html",
+      "dependencies": []
+    },
+    "软件/Python/数据科学与格式转换/Python：查找mtDNA上游单倍型（2024年6月19日更新）.md": {
+      "modifiedTime": 1724402324103,
+      "sourceSize": 230857,
+      "exportedPath": "软件/python/数据科学与格式转换/python：查找mtdna上游单倍型（2024年6月19日更新）.html",
+      "dependencies": []
+    },
+    "软件/Python/数据科学与格式转换/python：多个fasta、txt合并为一个.md": {
+      "modifiedTime": 1724402324103,
+      "sourceSize": 2438,
+      "exportedPath": "软件/python/数据科学与格式转换/python：多个fasta、txt合并为一个.html",
+      "dependencies": []
+    },
+    "软件/Python/数据科学与格式转换/python：根据单倍群频率使用sklearn进行降维.md": {
+      "modifiedTime": 1724402324103,
+      "sourceSize": 3275,
+      "exportedPath": "软件/python/数据科学与格式转换/python：根据单倍群频率使用sklearn进行降维.html",
+      "dependencies": []
+    },
+    "软件/Python/数据科学与格式转换/python：根据共享单倍群频率绘制人群热图.md": {
+      "modifiedTime": 1724402324103,
+      "sourceSize": 5380,
+      "exportedPath": "软件/python/数据科学与格式转换/python：根据共享单倍群频率绘制人群热图.html",
+      "dependencies": []
+    },
+    "软件/Python/数据科学与格式转换/python：根据共享单倍群频率绘制人群柱状图.md": {
+      "modifiedTime": 1724402324103,
+      "sourceSize": 3035,
+      "exportedPath": "软件/python/数据科学与格式转换/python：根据共享单倍群频率绘制人群柱状图.html",
+      "dependencies": []
+    },
+    "软件/Python/数据科学与格式转换/python：根据频数求z-score.md": {
+      "modifiedTime": 1724402324103,
+      "sourceSize": 1173,
+      "exportedPath": "软件/python/数据科学与格式转换/python：根据频数求z-score.html",
+      "dependencies": []
+    },
+    "软件/Python/数据科学与格式转换/python：绘制饼图和柱状图.md": {
+      "modifiedTime": 1724402324103,
+      "sourceSize": 4554,
+      "exportedPath": "软件/python/数据科学与格式转换/python：绘制饼图和柱状图.html",
+      "dependencies": []
+    },
+    "软件/Python/数据科学与格式转换/python：绘制差异性单倍群的曼哈顿图.md": {
+      "modifiedTime": 1724402324103,
+      "sourceSize": 8980,
+      "exportedPath": "软件/python/数据科学与格式转换/python：绘制差异性单倍群的曼哈顿图.html",
+      "dependencies": []
+    },
+    "软件/Python/数据科学与格式转换/python：绘制单倍群成分柱状图.md": {
+      "modifiedTime": 1724402324103,
+      "sourceSize": 2165,
+      "exportedPath": "软件/python/数据科学与格式转换/python：绘制单倍群成分柱状图.html",
+      "dependencies": []
+    },
+    "软件/Python/数据科学与格式转换/python：绘制省份频率地图.md": {
+      "modifiedTime": 1724402324103,
+      "sourceSize": 6554,
+      "exportedPath": "软件/python/数据科学与格式转换/python：绘制省份频率地图.html",
+      "dependencies": []
+    },
+    "软件/Python/数据科学与格式转换/python：计算群体单倍群单倍型多样性.md": {
+      "modifiedTime": 1724402324103,
+      "sourceSize": 2848,
+      "exportedPath": "软件/python/数据科学与格式转换/python：计算群体单倍群单倍型多样性.html",
+      "dependencies": []
+    },
+    "软件/Python/数据科学与格式转换/python：计算下游单倍群数量.md": {
+      "modifiedTime": 1724402324103,
+      "sourceSize": 3392,
+      "exportedPath": "软件/python/数据科学与格式转换/python：计算下游单倍群数量.html",
+      "dependencies": []
+    },
+    "软件/Python/数据科学与格式转换/python：计算ρ（rho）和σ（sigma）.md": {
+      "modifiedTime": 1724402324103,
+      "sourceSize": 3587,
+      "exportedPath": "软件/python/数据科学与格式转换/python：计算ρ（rho）和σ（sigma）.html",
+      "dependencies": []
+    },
+    "软件/Python/数据科学与格式转换/python：将FASTA文件与Aln文件合并.md": {
+      "modifiedTime": 1724402324103,
+      "sourceSize": 5585,
+      "exportedPath": "软件/python/数据科学与格式转换/python：将fasta文件与aln文件合并.html",
+      "dependencies": []
+    },
+    "软件/Python/数据科学与格式转换/python：将FASTA文件中的序列分组到指定的组中.md": {
+      "modifiedTime": 1724402324103,
+      "sourceSize": 3306,
+      "exportedPath": "软件/python/数据科学与格式转换/python：将fasta文件中的序列分组到指定的组中.html",
+      "dependencies": []
+    },
+    "软件/Python/数据科学与格式转换/python：将FASTA转换成Arp.md": {
+      "modifiedTime": 1724402324103,
+      "sourceSize": 10172,
+      "exportedPath": "软件/python/数据科学与格式转换/python：将fasta转换成arp.html",
+      "dependencies": []
+    },
+    "软件/Python/数据科学与格式转换/python：将VCF文件伪二倍体转化为单倍体fatsa文件.md": {
+      "modifiedTime": 1724402324103,
+      "sourceSize": 4892,
+      "exportedPath": "软件/python/数据科学与格式转换/python：将vcf文件伪二倍体转化为单倍体fatsa文件.html",
+      "dependencies": []
+    },
+    "软件/Python/数据科学与格式转换/python：将VCF文件转为rdf并重新命名ID.md": {
+      "modifiedTime": 1724402324103,
+      "sourceSize": 10575,
+      "exportedPath": "软件/python/数据科学与格式转换/python：将vcf文件转为rdf并重新命名id.html",
+      "dependencies": []
+    },
+    "软件/Python/数据科学与格式转换/python：快速整理线粒体单倍群至目标上游单倍群.md": {
+      "modifiedTime": 1724402324103,
+      "sourceSize": 6483,
+      "exportedPath": "软件/python/数据科学与格式转换/python：快速整理线粒体单倍群至目标上游单倍群.html",
+      "dependencies": []
+    },
+    "软件/Python/数据科学与格式转换/python：利用Python将主成分表转换成R脚本.md": {
+      "modifiedTime": 1724402324103,
+      "sourceSize": 18579,
+      "exportedPath": "软件/python/数据科学与格式转换/python：利用python将主成分表转换成r脚本.html",
+      "dependencies": []
+    },
+    "软件/Python/数据科学与格式转换/python：利用Python快速填写频率表.md": {
+      "modifiedTime": 1724402324103,
+      "sourceSize": 5738,
+      "exportedPath": "软件/python/数据科学与格式转换/python：利用python快速填写频率表.html",
+      "dependencies": []
+    },
+    "软件/Python/数据科学与格式转换/python：批量修改VCF文件至Arp格式.md": {
+      "modifiedTime": 1724402324103,
+      "sourceSize": 2179,
+      "exportedPath": "软件/python/数据科学与格式转换/python：批量修改vcf文件至arp格式.html",
+      "dependencies": []
+    },
+    "软件/Python/数据科学与格式转换/python：全矩阵与半矩阵的相互转化.md": {
+      "modifiedTime": 1724402324103,
+      "sourceSize": 2299,
+      "exportedPath": "软件/python/数据科学与格式转换/python：全矩阵与半矩阵的相互转化.html",
+      "dependencies": []
+    },
+    "软件/Python/数据科学与格式转换/python：删除fasta中的指定位点.md": {
+      "modifiedTime": 1724402324103,
+      "sourceSize": 1405,
+      "exportedPath": "软件/python/数据科学与格式转换/python：删除fasta中的指定位点.html",
+      "dependencies": []
+    },
+    "软件/Python/数据科学与格式转换/python：生成变换字体颜色代码给jsx.md": {
+      "modifiedTime": 1724402324103,
+      "sourceSize": 1674,
+      "exportedPath": "软件/python/数据科学与格式转换/python：生成变换字体颜色代码给jsx.html",
+      "dependencies": []
+    },
+    "软件/Python/数据科学与格式转换/python：四分位分组箱型图绘制.md": {
+      "modifiedTime": 1724402324103,
+      "sourceSize": 6054,
+      "exportedPath": "软件/python/数据科学与格式转换/python：四分位分组箱型图绘制.html",
+      "dependencies": []
+    },
+    "软件/Python/数据科学与格式转换/python：提取fasta序列至新的fasta.md": {
+      "modifiedTime": 1724402324103,
+      "sourceSize": 2679,
+      "exportedPath": "软件/python/数据科学与格式转换/python：提取fasta序列至新的fasta.html",
+      "dependencies": []
+    },
+    "软件/Python/数据科学与格式转换/python：一键绘制线粒体单倍群频率热图.md": {
+      "modifiedTime": 1724402324103,
+      "sourceSize": 14433,
+      "exportedPath": "软件/python/数据科学与格式转换/python：一键绘制线粒体单倍群频率热图.html",
+      "dependencies": []
+    },
+    "软件/Python/数据科学与格式转换/python：一键生成Y染色体各级单倍群累加表格.md": {
+      "modifiedTime": 1724402324103,
+      "sourceSize": 3901,
+      "exportedPath": "软件/python/数据科学与格式转换/python：一键生成y染色体各级单倍群累加表格.html",
+      "dependencies": []
+    },
+    "软件/Python/数据科学与格式转换/python：AMOVA便捷分组.md": {
+      "modifiedTime": 1724402324103,
+      "sourceSize": 1651,
+      "exportedPath": "软件/python/数据科学与格式转换/python：amova便捷分组.html",
+      "dependencies": []
+    },
+    "软件/Python/数据科学与格式转换/python：fasta文件加个单倍群label.md": {
+      "modifiedTime": 1724402324103,
+      "sourceSize": 1401,
+      "exportedPath": "软件/python/数据科学与格式转换/python：fasta文件加个单倍群label.html",
+      "dependencies": []
+    },
+    "软件/Python/数据科学与格式转换/python：FASTA文件转NEX（2024年6月12日更新）.md": {
+      "modifiedTime": 1724402324103,
+      "sourceSize": 14714,
+      "exportedPath": "软件/python/数据科学与格式转换/python：fasta文件转nex（2024年6月12日更新）.html",
+      "dependencies": []
+    },
+    "软件/Python/数据科学与格式转换/python：phylotree多余信息删除.md": {
+      "modifiedTime": 1724402324103,
+      "sourceSize": 2111,
+      "exportedPath": "软件/python/数据科学与格式转换/python：phylotree多余信息删除.html",
+      "dependencies": []
+    },
+    "软件/Python/数据科学与格式转换/python：VCF文件转换成NEX.md": {
+      "modifiedTime": 1724402324103,
+      "sourceSize": 3425,
+      "exportedPath": "软件/python/数据科学与格式转换/python：vcf文件转换成nex.html",
+      "dependencies": []
+    },
+    "软件/Python/数据科学与格式转换/python：ρ（rho）方法计算mtDNA共同祖先时间.md": {
+      "modifiedTime": 1724402324103,
+      "sourceSize": 3859,
+      "exportedPath": "软件/python/数据科学与格式转换/python：ρ（rho）方法计算mtdna共同祖先时间.html",
+      "dependencies": []
+    },
+    "软件/R语言语法/R：根据Fst算MDS.md": {
+      "modifiedTime": 1724402324103,
+      "sourceSize": 6607,
+      "exportedPath": "软件/r语言语法/r：根据fst算mds.html",
+      "dependencies": []
+    },
+    "软件/R语言语法/R：基本数据集.md": {
+      "modifiedTime": 1724402324103,
+      "sourceSize": 2253,
+      "exportedPath": "软件/r语言语法/r：基本数据集.html",
+      "dependencies": []
+    },
+    "软件/R语言语法/R：基本运算符.md": {
+      "modifiedTime": 1724402324103,
+      "sourceSize": 949,
+      "exportedPath": "软件/r语言语法/r：基本运算符.html",
+      "dependencies": []
+    },
+    "软件/R语言语法/R：利用DAPC进行mtDNA降维.md": {
+      "modifiedTime": 1724402324103,
+      "sourceSize": 4065,
+      "exportedPath": "软件/r语言语法/r：利用dapc进行mtdna降维.html",
+      "dependencies": []
+    },
+    "软件/R语言语法/R：利用R进行iTol注释文件生成.md": {
+      "modifiedTime": 1724402324103,
+      "sourceSize": 11043,
+      "exportedPath": "软件/r语言语法/r：利用r进行itol注释文件生成.html",
+      "dependencies": []
+    },
+    "软件/R语言语法/R：利用R进行iTol注释文件生成 1.md": {
+      "modifiedTime": 1724402324103,
+      "sourceSize": 12006,
+      "exportedPath": "软件/r语言语法/r：利用r进行itol注释文件生成-1.html",
+      "dependencies": []
+    },
+    "软件/R语言语法/R：配色图.md": {
+      "modifiedTime": 1724402324103,
+      "sourceSize": 1961,
+      "exportedPath": "软件/r语言语法/r：配色图.html",
+      "dependencies": []
+    },
+    "软件/R语言语法/R：谱系树修饰.md": {
+      "modifiedTime": 1724402324103,
+      "sourceSize": 7552,
+      "exportedPath": "软件/r语言语法/r：谱系树修饰.html",
+      "dependencies": []
+    },
+    "软件/R语言语法/R：特定某个单倍群与经纬度相关性回归.md": {
+      "modifiedTime": 1724402324103,
+      "sourceSize": 3054,
+      "exportedPath": "软件/r语言语法/r：特定某个单倍群与经纬度相关性回归.html",
+      "dependencies": []
+    },
+    "软件/R语言语法/R：相关性热图.md": {
+      "modifiedTime": 1724402324103,
+      "sourceSize": 7606,
+      "exportedPath": "软件/r语言语法/r：相关性热图.html",
+      "dependencies": []
+    },
+    "软件/R语言语法/R：相关性热图绘制.md": {
+      "modifiedTime": 1724402324103,
+      "sourceSize": 8586,
+      "exportedPath": "软件/r语言语法/r：相关性热图绘制.html",
+      "dependencies": []
+    },
+    "软件/R语言语法/R：相关性图.md": {
+      "modifiedTime": 1724402324103,
+      "sourceSize": 8530,
+      "exportedPath": "软件/r语言语法/r：相关性图.html",
+      "dependencies": []
+    },
+    "软件/R语言语法/R：小提琴图.md": {
+      "modifiedTime": 1724402324103,
+      "sourceSize": 3214,
+      "exportedPath": "软件/r语言语法/r：小提琴图.html",
+      "dependencies": []
+    },
+    "软件/R语言语法/R：ggplot2个性化绘制散点图.md": {
+      "modifiedTime": 1724402324103,
+      "sourceSize": 9109,
+      "exportedPath": "软件/r语言语法/r：ggplot2个性化绘制散点图.html",
+      "dependencies": []
+    },
+    "软件/R语言语法/R：ggplot2简介.md": {
+      "modifiedTime": 1724402324103,
+      "sourceSize": 6484,
+      "exportedPath": "软件/r语言语法/r：ggplot2简介.html",
+      "dependencies": []
+    },
+    "软件/R语言语法/R：GWalkR——一行代码将数据集转化为交互式可视化分析工具.md": {
+      "modifiedTime": 1724402324103,
+      "sourceSize": 2067,
+      "exportedPath": "软件/r语言语法/r：gwalkr——一行代码将数据集转化为交互式可视化分析工具.html",
+      "dependencies": []
+    },
+    "软件/R语言语法/R：linkET相关性分析.md": {
+      "modifiedTime": 1724402324103,
+      "sourceSize": 10203,
+      "exportedPath": "软件/r语言语法/r：linket相关性分析.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/2024 MBE MtDNA基因组揭示了末次盛冰期后人口扩张过程中宽松的净化选择.md": {
+      "modifiedTime": 1724402324103,
+      "sourceSize": 14432,
+      "exportedPath": "文献及报道/文献/2024-mbe-mtdna基因组揭示了末次盛冰期后人口扩张过程中宽松的净化选择.html",
       "dependencies": []
     }
   }
