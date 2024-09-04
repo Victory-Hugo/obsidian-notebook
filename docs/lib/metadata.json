@@ -1,8 +1,8 @@
 {
   "vaultName": "思维领域",
-  "lastExport": 1725415196987,
+  "lastExport": 1725430967006,
   "pluginVersion": "1.8.01",
-  "validBodyClasses": "publish css-settings-manager theme-dark show-inline-title show-ribbon fancy-code h2-underline",
+  "validBodyClasses": "publish css-settings-manager theme-dark show-inline-title show-ribbon ctp-latte ctp-macchiato ctp-accent-green anuppuccin-accent-toggle anp-current-line-border-only anp-custom-checkboxes anp-speech-bubble anp-codeblock-numbers anp-list-toggle anp-table-toggle anp-table-auto anp-toggle-preview anp-h1-red anp-h2-peach anp-h3-green anp-h4-teal anp-h5-lavender anp-h6-mauve anp-decoration-toggle anp-bold-green anp-italic-green anp-highlight-yellow anp-canvas-dark-bg",
   "useCustomHeadContent": false,
   "useCustomFavicon": false,
   "files": [
@@ -158,7 +158,7 @@
     "软件/IQtree/iqtree：基础操作.md",
     "软件/IQtree/iqtree：线粒体最大似然树.md",
     "软件/IQtree/iqtree：寻找最优模型及分区.md",
-    "软件/Latex/Latex基本语法.md",
+    "软件/Latex/Latex基本语法：入门.md",
     "软件/origin绘图/Origin：教学—弦图绘制.md",
     "软件/Python/地理经纬/python：根据国家、地区求经纬度.md",
     "软件/Python/地理经纬/python：根据经纬度获取海拔.md",
@@ -272,6 +272,7 @@
     "软件/利用代理使Onedrive下载速度起飞.md",
     "软件/如何利用Obsidian构建自己的网址？.md",
     "软件/在VS Code中搭建你的R语言运行环境.md",
+    "软件/Excel：避雷指南.md",
     "软件/Latex：修改VScode默认为xelatex.md",
     "软件/Win10安装WSL1.0.md",
     "软件/Word：批量调整交叉引用的字体.md",
@@ -866,28 +867,6 @@
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
     "lib/media/874d8b8e340f75575caa.svg",
     "lib/media/3d6c1bdc4d87cde4de67.svg",
-    "lib/fonts/mathjax_zero.woff",
-    "lib/fonts/mathjax_main-regular.woff",
-    "lib/fonts/mathjax_main-bold.woff",
-    "lib/fonts/mathjax_math-italic.woff",
-    "lib/fonts/mathjax_main-italic.woff",
-    "lib/fonts/mathjax_math-bolditalic.woff",
-    "lib/fonts/mathjax_size1-regular.woff",
-    "lib/fonts/mathjax_size2-regular.woff",
-    "lib/fonts/mathjax_size3-regular.woff",
-    "lib/fonts/mathjax_size4-regular.woff",
-    "lib/fonts/mathjax_ams-regular.woff",
-    "lib/fonts/mathjax_calligraphic-regular.woff",
-    "lib/fonts/mathjax_calligraphic-bold.woff",
-    "lib/fonts/mathjax_fraktur-regular.woff",
-    "lib/fonts/mathjax_fraktur-bold.woff",
-    "lib/fonts/mathjax_sansserif-regular.woff",
-    "lib/fonts/mathjax_sansserif-bold.woff",
-    "lib/fonts/mathjax_sansserif-italic.woff",
-    "lib/fonts/mathjax_script-regular.woff",
-    "lib/fonts/mathjax_typewriter-regular.woff",
-    "lib/fonts/mathjax_vector-regular.woff",
-    "lib/fonts/mathjax_vector-bold.woff",
     "lib/html/file-tree.html",
     "lib/scripts/webpage.js",
     "lib/scripts/graph-view.js",
@@ -922,28 +901,6 @@
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
     "lib/media/874d8b8e340f75575caa.svg",
     "lib/media/3d6c1bdc4d87cde4de67.svg",
-    "lib/fonts/mathjax_zero.woff",
-    "lib/fonts/mathjax_main-regular.woff",
-    "lib/fonts/mathjax_main-bold.woff",
-    "lib/fonts/mathjax_math-italic.woff",
-    "lib/fonts/mathjax_main-italic.woff",
-    "lib/fonts/mathjax_math-bolditalic.woff",
-    "lib/fonts/mathjax_size1-regular.woff",
-    "lib/fonts/mathjax_size2-regular.woff",
-    "lib/fonts/mathjax_size3-regular.woff",
-    "lib/fonts/mathjax_size4-regular.woff",
-    "lib/fonts/mathjax_ams-regular.woff",
-    "lib/fonts/mathjax_calligraphic-regular.woff",
-    "lib/fonts/mathjax_calligraphic-bold.woff",
-    "lib/fonts/mathjax_fraktur-regular.woff",
-    "lib/fonts/mathjax_fraktur-bold.woff",
-    "lib/fonts/mathjax_sansserif-regular.woff",
-    "lib/fonts/mathjax_sansserif-bold.woff",
-    "lib/fonts/mathjax_sansserif-italic.woff",
-    "lib/fonts/mathjax_script-regular.woff",
-    "lib/fonts/mathjax_typewriter-regular.woff",
-    "lib/fonts/mathjax_vector-regular.woff",
-    "lib/fonts/mathjax_vector-bold.woff",
     "lib/html/file-tree.html",
     "lib/scripts/webpage.js",
     "lib/scripts/graph-view.js",
@@ -3105,7 +3062,7 @@
       "dependencies": []
     },
     "术语/数据科学家 95 时间都在使用的 10 大基本分布.md": {
-      "modifiedTime": 1725415196987,
+      "modifiedTime": 1725430967006,
       "sourceSize": 10258,
       "exportedPath": "术语/数据科学家-95-时间都在使用的-10-大基本分布.html",
       "dependencies": []
@@ -4899,97 +4856,97 @@
       "dependencies": []
     },
     "lib/scripts/graph-wasm.wasm": {
-      "modifiedTime": 1725415196987,
+      "modifiedTime": 1725430967006,
       "sourceSize": 23377,
       "exportedPath": "lib/scripts/graph-wasm.wasm",
       "dependencies": []
     },
     "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1725415196987,
+      "modifiedTime": 1725430967006,
       "sourceSize": 66800,
       "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
       "dependencies": []
     },
     "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1725415196987,
+      "modifiedTime": 1725430967006,
       "sourceSize": 104232,
       "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
       "dependencies": []
     },
     "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1725415196987,
+      "modifiedTime": 1725430967006,
       "sourceSize": 104332,
       "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
       "dependencies": []
     },
     "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1725415196987,
+      "modifiedTime": 1725430967006,
       "sourceSize": 98868,
       "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
       "dependencies": []
     },
     "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1725415196987,
+      "modifiedTime": 1725430967006,
       "sourceSize": 106876,
       "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
       "dependencies": []
     },
     "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1725415196987,
+      "modifiedTime": 1725430967006,
       "sourceSize": 105804,
       "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
       "dependencies": []
     },
     "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1725415196987,
+      "modifiedTime": 1725430967006,
       "sourceSize": 106108,
       "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
       "dependencies": []
     },
     "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1725415196987,
+      "modifiedTime": 1725430967006,
       "sourceSize": 111708,
       "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
       "dependencies": []
     },
     "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1725415196987,
+      "modifiedTime": 1725430967006,
       "sourceSize": 192740,
       "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
       "dependencies": []
     },
     "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1725415196987,
+      "modifiedTime": 1725430967006,
       "sourceSize": 161376,
       "exportedPath": "lib/fonts/454577c22304619db035.ttf",
       "dependencies": []
     },
     "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1725415196987,
+      "modifiedTime": 1725430967006,
       "sourceSize": 191568,
       "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
       "dependencies": []
     },
     "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1725415196987,
+      "modifiedTime": 1725430967006,
       "sourceSize": 155288,
       "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
       "dependencies": []
     },
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1725415196987,
+      "modifiedTime": 1725430967006,
       "sourceSize": 7876,
       "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
       "dependencies": []
     },
     "lib/media/874d8b8e340f75575caa.svg": {
-      "modifiedTime": 1725415196987,
+      "modifiedTime": 1725430967006,
       "sourceSize": 317,
       "exportedPath": "lib/media/874d8b8e340f75575caa.svg",
       "dependencies": []
     },
     "lib/media/3d6c1bdc4d87cde4de67.svg": {
-      "modifiedTime": 1725415196987,
+      "modifiedTime": 1725430967006,
       "sourceSize": 279,
       "exportedPath": "lib/media/3d6c1bdc4d87cde4de67.svg",
       "dependencies": []
@@ -5127,97 +5084,97 @@
       "dependencies": []
     },
     "lib/html/file-tree.html": {
-      "modifiedTime": 1725415196987,
-      "sourceSize": 633461,
+      "modifiedTime": 1725430967006,
+      "sourceSize": 634164,
       "exportedPath": "lib/html/file-tree.html",
       "dependencies": []
     },
     "lib/scripts/webpage.js": {
-      "modifiedTime": 1725415196987,
+      "modifiedTime": 1725430967006,
       "sourceSize": 47290,
       "exportedPath": "lib/scripts/webpage.js",
       "dependencies": []
     },
     "lib/scripts/graph-view.js": {
-      "modifiedTime": 1725415196987,
+      "modifiedTime": 1725430967006,
       "sourceSize": 15519,
       "exportedPath": "lib/scripts/graph-view.js",
       "dependencies": []
     },
     "lib/scripts/graph-wasm.js": {
-      "modifiedTime": 1725415196987,
+      "modifiedTime": 1725430967006,
       "sourceSize": 14021,
       "exportedPath": "lib/scripts/graph-wasm.js",
       "dependencies": []
     },
     "lib/scripts/graph-render-worker.js": {
-      "modifiedTime": 1725415196987,
+      "modifiedTime": 1725430967006,
       "sourceSize": 5179,
       "exportedPath": "lib/scripts/graph-render-worker.js",
       "dependencies": []
     },
     "lib/scripts/tinycolor.js": {
-      "modifiedTime": 1725415196987,
+      "modifiedTime": 1725430967006,
       "sourceSize": 29832,
       "exportedPath": "lib/scripts/tinycolor.js",
       "dependencies": []
     },
     "lib/scripts/pixi.js": {
-      "modifiedTime": 1725415196987,
+      "modifiedTime": 1725430967006,
       "sourceSize": 449509,
       "exportedPath": "lib/scripts/pixi.js",
       "dependencies": []
     },
     "lib/scripts/minisearch.js": {
-      "modifiedTime": 1725415196987,
+      "modifiedTime": 1725430967006,
       "sourceSize": 29422,
       "exportedPath": "lib/scripts/minisearch.js",
       "dependencies": []
     },
     "lib/media/favicon.png": {
-      "modifiedTime": 1725415196987,
+      "modifiedTime": 1725430967006,
       "sourceSize": 1105,
       "exportedPath": "lib/media/favicon.png",
       "dependencies": []
     },
     "lib/scripts/graph-data.js": {
-      "modifiedTime": 1725415196987,
-      "sourceSize": 69459,
+      "modifiedTime": 1725430967006,
+      "sourceSize": 69501,
       "exportedPath": "lib/scripts/graph-data.js",
       "dependencies": []
     },
     "lib/styles/obsidian.css": {
-      "modifiedTime": 1725415196987,
+      "modifiedTime": 1725430967006,
       "sourceSize": 130471,
       "exportedPath": "lib/styles/obsidian.css",
       "dependencies": []
     },
     "lib/styles/other-plugins.css": {
-      "modifiedTime": 1725415196987,
+      "modifiedTime": 1725430967006,
       "sourceSize": 52851,
       "exportedPath": "lib/styles/other-plugins.css",
       "dependencies": []
     },
     "lib/styles/theme.css": {
-      "modifiedTime": 1725415196987,
-      "sourceSize": 41426,
+      "modifiedTime": 1725430967006,
+      "sourceSize": 272363,
       "exportedPath": "lib/styles/theme.css",
       "dependencies": []
     },
     "lib/styles/global-variable-styles.css": {
-      "modifiedTime": 1725415196987,
-      "sourceSize": 367,
+      "modifiedTime": 1725430967006,
+      "sourceSize": 436,
       "exportedPath": "lib/styles/global-variable-styles.css",
       "dependencies": []
     },
     "lib/styles/supported-plugins.css": {
-      "modifiedTime": 1725415196987,
-      "sourceSize": 142,
+      "modifiedTime": 1725430967006,
+      "sourceSize": 135,
       "exportedPath": "lib/styles/supported-plugins.css",
       "dependencies": []
     },
     "lib/styles/main-styles.css": {
-      "modifiedTime": 1725415196987,
+      "modifiedTime": 1725430967006,
       "sourceSize": 23130,
       "exportedPath": "lib/styles/main-styles.css",
       "dependencies": []
@@ -5232,12 +5189,6 @@
       "modifiedTime": 1724222592187,
       "sourceSize": 9897,
       "exportedPath": "文献及报道/文献/2011-pnas-农业起源后全球人口迅速扩张.html",
-      "dependencies": []
-    },
-    "软件/Latex/Latex基本语法.md": {
-      "modifiedTime": 1721207428650,
-      "sourceSize": 1619,
-      "exportedPath": "软件/latex/latex基本语法.html",
       "dependencies": []
     },
     "文献及报道/文献/2019 NSR 新石器时代的粟（作）农（民）通过采用大麦农业为青藏高原的永久定居做出了贡献.md": {
@@ -6348,6 +6299,18 @@
       "modifiedTime": 1725415196987,
       "sourceSize": 6619,
       "exportedPath": "软件/python/数据科学与格式转换/python：计算ρ（rho）和σ（sigma）（2024年9月3日更新）.html",
+      "dependencies": []
+    },
+    "软件/Latex/Latex基本语法：入门.md": {
+      "modifiedTime": 1725430967006,
+      "sourceSize": 2020,
+      "exportedPath": "软件/latex/latex基本语法：入门.html",
+      "dependencies": []
+    },
+    "软件/Excel：避雷指南.md": {
+      "modifiedTime": 1725430967006,
+      "sourceSize": 5161,
+      "exportedPath": "软件/excel：避雷指南.html",
       "dependencies": []
     }
   }
