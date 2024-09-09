@@ -1,6 +1,6 @@
 {
   "vaultName": "思维领域",
-  "lastExport": 1725804405749,
+  "lastExport": 1725853713458,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager theme-dark show-inline-title show-ribbon fancy-code h2-underline",
   "useCustomHeadContent": false,
@@ -183,6 +183,7 @@
     "软件/Python/数据科学与格式转换/python：绘制差异性单倍群的曼哈顿图.md",
     "软件/Python/数据科学与格式转换/python：绘制单倍群成分柱状图.md",
     "软件/Python/数据科学与格式转换/python：绘制省份频率地图.md",
+    "软件/Python/数据科学与格式转换/python：计算各级别线粒体单倍群数量何频率.md",
     "软件/Python/数据科学与格式转换/python：计算群体单倍群单倍型多样性.md",
     "软件/Python/数据科学与格式转换/python：计算下游单倍群数量.md",
     "软件/Python/数据科学与格式转换/python：计算ρ（rho）和σ（sigma）（2024年9月3日更新）.md",
@@ -3069,7 +3070,7 @@
       "dependencies": []
     },
     "术语/数据科学家 95 时间都在使用的 10 大基本分布.md": {
-      "modifiedTime": 1725804405749,
+      "modifiedTime": 1725853713458,
       "sourceSize": 10258,
       "exportedPath": "术语/数据科学家-95-时间都在使用的-10-大基本分布.html",
       "dependencies": []
@@ -4821,8 +4822,8 @@
       "dependencies": []
     },
     "Home/Homepage.md": {
-      "modifiedTime": 1725004713927,
-      "sourceSize": 3163,
+      "modifiedTime": 1725853713458,
+      "sourceSize": 2969,
       "exportedPath": "home/homepage.html",
       "dependencies": []
     },
@@ -4863,97 +4864,97 @@
       "dependencies": []
     },
     "lib/scripts/graph-wasm.wasm": {
-      "modifiedTime": 1725804405749,
+      "modifiedTime": 1725853713458,
       "sourceSize": 23377,
       "exportedPath": "lib/scripts/graph-wasm.wasm",
       "dependencies": []
     },
     "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1725804405749,
+      "modifiedTime": 1725853713458,
       "sourceSize": 66800,
       "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
       "dependencies": []
     },
     "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1725804405749,
+      "modifiedTime": 1725853713458,
       "sourceSize": 104232,
       "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
       "dependencies": []
     },
     "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1725804405749,
+      "modifiedTime": 1725853713458,
       "sourceSize": 104332,
       "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
       "dependencies": []
     },
     "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1725804405749,
+      "modifiedTime": 1725853713458,
       "sourceSize": 98868,
       "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
       "dependencies": []
     },
     "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1725804405749,
+      "modifiedTime": 1725853713458,
       "sourceSize": 106876,
       "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
       "dependencies": []
     },
     "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1725804405749,
+      "modifiedTime": 1725853713458,
       "sourceSize": 105804,
       "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
       "dependencies": []
     },
     "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1725804405749,
+      "modifiedTime": 1725853713458,
       "sourceSize": 106108,
       "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
       "dependencies": []
     },
     "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1725804405749,
+      "modifiedTime": 1725853713458,
       "sourceSize": 111708,
       "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
       "dependencies": []
     },
     "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1725804405749,
+      "modifiedTime": 1725853713458,
       "sourceSize": 192740,
       "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
       "dependencies": []
     },
     "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1725804405749,
+      "modifiedTime": 1725853713458,
       "sourceSize": 161376,
       "exportedPath": "lib/fonts/454577c22304619db035.ttf",
       "dependencies": []
     },
     "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1725804405749,
+      "modifiedTime": 1725853713458,
       "sourceSize": 191568,
       "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
       "dependencies": []
     },
     "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1725804405749,
+      "modifiedTime": 1725853713458,
       "sourceSize": 155288,
       "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
       "dependencies": []
     },
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1725804405749,
+      "modifiedTime": 1725853713458,
       "sourceSize": 7876,
       "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
       "dependencies": []
     },
     "lib/media/874d8b8e340f75575caa.svg": {
-      "modifiedTime": 1725804405749,
+      "modifiedTime": 1725853713458,
       "sourceSize": 317,
       "exportedPath": "lib/media/874d8b8e340f75575caa.svg",
       "dependencies": []
     },
     "lib/media/3d6c1bdc4d87cde4de67.svg": {
-      "modifiedTime": 1725804405749,
+      "modifiedTime": 1725853713458,
       "sourceSize": 279,
       "exportedPath": "lib/media/3d6c1bdc4d87cde4de67.svg",
       "dependencies": []
@@ -5091,97 +5092,97 @@
       "dependencies": []
     },
     "lib/html/file-tree.html": {
-      "modifiedTime": 1725804405749,
-      "sourceSize": 639560,
+      "modifiedTime": 1725853713458,
+      "sourceSize": 640527,
       "exportedPath": "lib/html/file-tree.html",
       "dependencies": []
     },
     "lib/scripts/webpage.js": {
-      "modifiedTime": 1725804405749,
+      "modifiedTime": 1725853713458,
       "sourceSize": 47290,
       "exportedPath": "lib/scripts/webpage.js",
       "dependencies": []
     },
     "lib/scripts/graph-view.js": {
-      "modifiedTime": 1725804405749,
+      "modifiedTime": 1725853713458,
       "sourceSize": 15519,
       "exportedPath": "lib/scripts/graph-view.js",
       "dependencies": []
     },
     "lib/scripts/graph-wasm.js": {
-      "modifiedTime": 1725804405749,
+      "modifiedTime": 1725853713458,
       "sourceSize": 14021,
       "exportedPath": "lib/scripts/graph-wasm.js",
       "dependencies": []
     },
     "lib/scripts/graph-render-worker.js": {
-      "modifiedTime": 1725804405749,
+      "modifiedTime": 1725853713458,
       "sourceSize": 5179,
       "exportedPath": "lib/scripts/graph-render-worker.js",
       "dependencies": []
     },
     "lib/scripts/tinycolor.js": {
-      "modifiedTime": 1725804405749,
+      "modifiedTime": 1725853713458,
       "sourceSize": 29832,
       "exportedPath": "lib/scripts/tinycolor.js",
       "dependencies": []
     },
     "lib/scripts/pixi.js": {
-      "modifiedTime": 1725804405749,
+      "modifiedTime": 1725853713458,
       "sourceSize": 449509,
       "exportedPath": "lib/scripts/pixi.js",
       "dependencies": []
     },
     "lib/scripts/minisearch.js": {
-      "modifiedTime": 1725804405749,
+      "modifiedTime": 1725853713458,
       "sourceSize": 29422,
       "exportedPath": "lib/scripts/minisearch.js",
       "dependencies": []
     },
     "lib/media/favicon.png": {
-      "modifiedTime": 1725804405749,
+      "modifiedTime": 1725853713458,
       "sourceSize": 1105,
       "exportedPath": "lib/media/favicon.png",
       "dependencies": []
     },
     "lib/scripts/graph-data.js": {
-      "modifiedTime": 1725804405749,
-      "sourceSize": 70207,
+      "modifiedTime": 1725853713458,
+      "sourceSize": 70317,
       "exportedPath": "lib/scripts/graph-data.js",
       "dependencies": []
     },
     "lib/styles/obsidian.css": {
-      "modifiedTime": 1725804405749,
+      "modifiedTime": 1725853713458,
       "sourceSize": 130471,
       "exportedPath": "lib/styles/obsidian.css",
       "dependencies": []
     },
     "lib/styles/other-plugins.css": {
-      "modifiedTime": 1725804405749,
+      "modifiedTime": 1725853713458,
       "sourceSize": 52851,
       "exportedPath": "lib/styles/other-plugins.css",
       "dependencies": []
     },
     "lib/styles/theme.css": {
-      "modifiedTime": 1725804405749,
+      "modifiedTime": 1725853713458,
       "sourceSize": 41426,
       "exportedPath": "lib/styles/theme.css",
       "dependencies": []
     },
     "lib/styles/global-variable-styles.css": {
-      "modifiedTime": 1725804405749,
+      "modifiedTime": 1725853713458,
       "sourceSize": 477,
       "exportedPath": "lib/styles/global-variable-styles.css",
       "dependencies": []
     },
     "lib/styles/supported-plugins.css": {
-      "modifiedTime": 1725804405749,
-      "sourceSize": 187,
+      "modifiedTime": 1725853713458,
+      "sourceSize": 282,
       "exportedPath": "lib/styles/supported-plugins.css",
       "dependencies": []
     },
     "lib/styles/main-styles.css": {
-      "modifiedTime": 1725804405749,
+      "modifiedTime": 1725853713458,
       "sourceSize": 23130,
       "exportedPath": "lib/styles/main-styles.css",
       "dependencies": []
@@ -5805,8 +5806,8 @@
       "dependencies": []
     },
     "软件/Python/数据科学与格式转换/Python：查找mtDNA上游单倍型（2024年6月19日更新）.md": {
-      "modifiedTime": 1724402324103,
-      "sourceSize": 230857,
+      "modifiedTime": 1725853713458,
+      "sourceSize": 3992,
       "exportedPath": "软件/python/数据科学与格式转换/python：查找mtdna上游单倍型（2024年6月19日更新）.html",
       "dependencies": []
     },
@@ -6357,9 +6358,15 @@
       "dependencies": []
     },
     "软件/其它生信软件/K-S/RAxML-NG：使用基础.md": {
-      "modifiedTime": 1725804405749,
-      "sourceSize": 1952,
+      "modifiedTime": 1725853713458,
+      "sourceSize": 2248,
       "exportedPath": "软件/其它生信软件/k-s/raxml-ng：使用基础.html",
+      "dependencies": []
+    },
+    "软件/Python/数据科学与格式转换/python：计算各级别线粒体单倍群数量何频率.md": {
+      "modifiedTime": 1725853713458,
+      "sourceSize": 6828,
+      "exportedPath": "软件/python/数据科学与格式转换/python：计算各级别线粒体单倍群数量何频率.html",
       "dependencies": []
     }
   }
