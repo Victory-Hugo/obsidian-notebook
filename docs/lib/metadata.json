@@ -1,6 +1,6 @@
 {
   "vaultName": "思维领域",
-  "lastExport": 1725853796057,
+  "lastExport": 1726040526942,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager theme-dark show-inline-title show-ribbon fancy-code h2-underline",
   "useCustomHeadContent": false,
@@ -148,10 +148,12 @@
     "软件/Adobe illustrator绘图/第五节 形状工具.md",
     "软件/Adobe illustrator绘图/第一节 基础导入导出功能.md",
     "软件/Adobe illustrator绘图/思维总览.canvas",
+    "软件/BEAST/BEAST：日期随机化检测.md",
     "软件/BEAST/BEAST：替换模型.md",
     "软件/BEAST/BEAST：线粒体DNA的BSP设置.md",
     "软件/BEAST/BEAST：在服务器内运行.md",
     "软件/BEAST/MrBayes：贝叶斯方法建树.md",
+    "软件/BEAST/Mrbayes：系统发育树构建流程.md",
     "软件/FastHaN/自制FastHaN脚本——2024年5月13日更新.md",
     "软件/FastHaN/自制FastHaN脚本——2024年5月16日更新.md",
     "软件/FastHaN/自制FastHaN脚本——2024年5月22日更新.md",
@@ -160,6 +162,7 @@
     "软件/IQtree/iqtree：基础操作.md",
     "软件/IQtree/iqtree：线粒体最大似然树.md",
     "软件/IQtree/iqtree：寻找最优模型及分区.md",
+    "软件/Latex/Latex基本语法：公式.md",
     "软件/Latex/Latex基本语法：入门.md",
     "软件/Latex/Latex基本语法：字体.md",
     "软件/origin绘图/Origin：教学—弦图绘制.md",
@@ -183,6 +186,7 @@
     "软件/Python/数据科学与格式转换/python：绘制差异性单倍群的曼哈顿图.md",
     "软件/Python/数据科学与格式转换/python：绘制单倍群成分柱状图.md",
     "软件/Python/数据科学与格式转换/python：绘制省份频率地图.md",
+    "软件/Python/数据科学与格式转换/python：计算常染色体祖成分与单倍群的相关性表格.md",
     "软件/Python/数据科学与格式转换/python：计算各级别线粒体单倍群数量和频率.md",
     "软件/Python/数据科学与格式转换/python：计算群体单倍群单倍型多样性.md",
     "软件/Python/数据科学与格式转换/python：计算下游单倍群数量.md",
@@ -249,7 +253,6 @@
     "软件/R语言语法/R：基本运算符.md",
     "软件/R语言语法/R：利用DAPC进行mtDNA降维.md",
     "软件/R语言语法/R：利用R进行iTol注释文件生成.md",
-    "软件/R语言语法/R：利用R进行iTol注释文件生成 1.md",
     "软件/R语言语法/R：配色图.md",
     "软件/R语言语法/R：谱系树修饰.md",
     "软件/R语言语法/R：特定某个单倍群与经纬度相关性回归.md",
@@ -499,6 +502,7 @@
     "术语/全基因组测序（Whole Genome Sequencing，WGS）.md",
     "术语/人口扩散(demic diffusion).md",
     "术语/日本.md",
+    "术语/日期随机化检验（Date Randomization Tests, DRTs）.md",
     "术语/融生型民族.md",
     "术语/如何构思论文？.md",
     "术语/塞门德（Semende）.md",
@@ -1930,8 +1934,8 @@
       "dependencies": []
     },
     "术语/阿凡纳谢沃文化（Afanasievo）.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 884,
+      "modifiedTime": 1726040526942,
+      "sourceSize": 4046,
       "exportedPath": "术语/阿凡纳谢沃文化（afanasievo）.html",
       "dependencies": []
     },
@@ -2686,8 +2690,8 @@
       "dependencies": []
     },
     "术语/龙山文化.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 1,
+      "modifiedTime": 1726040526942,
+      "sourceSize": 1091,
       "exportedPath": "术语/龙山文化.html",
       "dependencies": []
     },
@@ -3070,7 +3074,7 @@
       "dependencies": []
     },
     "术语/数据科学家 95 时间都在使用的 10 大基本分布.md": {
-      "modifiedTime": 1725853796057,
+      "modifiedTime": 1726040526942,
       "sourceSize": 10258,
       "exportedPath": "术语/数据科学家-95-时间都在使用的-10-大基本分布.html",
       "dependencies": []
@@ -3322,8 +3326,8 @@
       "dependencies": []
     },
     "术语/辛塔什塔游牧文化（Sintashta pastoral cultures）.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 674,
+      "modifiedTime": 1726040526942,
+      "sourceSize": 673,
       "exportedPath": "术语/辛塔什塔游牧文化（sintashta-pastoral-cultures）.html",
       "dependencies": []
     },
@@ -3994,8 +3998,8 @@
       "dependencies": []
     },
     "文献及报道/报道/与灵长类动物的全基因组比对揭示了人类保守的DNA元件.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 6311,
+      "modifiedTime": 1726040526942,
+      "sourceSize": 6303,
       "exportedPath": "文献及报道/报道/与灵长类动物的全基因组比对揭示了人类保守的dna元件.html",
       "dependencies": []
     },
@@ -4318,8 +4322,8 @@
       "dependencies": []
     },
     "文献及报道/文献/墨西哥生物库推进不同祖先的人口和医学基因组学.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 14870,
+      "modifiedTime": 1726040526942,
+      "sourceSize": 14862,
       "exportedPath": "文献及报道/文献/墨西哥生物库推进不同祖先的人口和医学基因组学.html",
       "dependencies": []
     },
@@ -4588,8 +4592,8 @@
       "dependencies": []
     },
     "文献及报道/文献/中国母系摩梭人的线粒体起源.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 9738,
+      "modifiedTime": 1726040526942,
+      "sourceSize": 9724,
       "exportedPath": "文献及报道/文献/中国母系摩梭人的线粒体起源.html",
       "dependencies": []
     },
@@ -4864,97 +4868,97 @@
       "dependencies": []
     },
     "lib/scripts/graph-wasm.wasm": {
-      "modifiedTime": 1725853796057,
+      "modifiedTime": 1726040526942,
       "sourceSize": 23377,
       "exportedPath": "lib/scripts/graph-wasm.wasm",
       "dependencies": []
     },
     "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1725853796057,
+      "modifiedTime": 1726040526942,
       "sourceSize": 66800,
       "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
       "dependencies": []
     },
     "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1725853796057,
+      "modifiedTime": 1726040526942,
       "sourceSize": 104232,
       "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
       "dependencies": []
     },
     "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1725853796057,
+      "modifiedTime": 1726040526942,
       "sourceSize": 104332,
       "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
       "dependencies": []
     },
     "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1725853796057,
+      "modifiedTime": 1726040526942,
       "sourceSize": 98868,
       "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
       "dependencies": []
     },
     "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1725853796057,
+      "modifiedTime": 1726040526942,
       "sourceSize": 106876,
       "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
       "dependencies": []
     },
     "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1725853796057,
+      "modifiedTime": 1726040526942,
       "sourceSize": 105804,
       "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
       "dependencies": []
     },
     "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1725853796057,
+      "modifiedTime": 1726040526942,
       "sourceSize": 106108,
       "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
       "dependencies": []
     },
     "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1725853796057,
+      "modifiedTime": 1726040526942,
       "sourceSize": 111708,
       "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
       "dependencies": []
     },
     "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1725853796057,
+      "modifiedTime": 1726040526942,
       "sourceSize": 192740,
       "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
       "dependencies": []
     },
     "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1725853796057,
+      "modifiedTime": 1726040526942,
       "sourceSize": 161376,
       "exportedPath": "lib/fonts/454577c22304619db035.ttf",
       "dependencies": []
     },
     "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1725853796057,
+      "modifiedTime": 1726040526942,
       "sourceSize": 191568,
       "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
       "dependencies": []
     },
     "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1725853796057,
+      "modifiedTime": 1726040526942,
       "sourceSize": 155288,
       "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
       "dependencies": []
     },
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1725853796057,
+      "modifiedTime": 1726040526942,
       "sourceSize": 7876,
       "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
       "dependencies": []
     },
     "lib/media/874d8b8e340f75575caa.svg": {
-      "modifiedTime": 1725853796057,
+      "modifiedTime": 1726040526942,
       "sourceSize": 317,
       "exportedPath": "lib/media/874d8b8e340f75575caa.svg",
       "dependencies": []
     },
     "lib/media/3d6c1bdc4d87cde4de67.svg": {
-      "modifiedTime": 1725853796057,
+      "modifiedTime": 1726040526942,
       "sourceSize": 279,
       "exportedPath": "lib/media/3d6c1bdc4d87cde4de67.svg",
       "dependencies": []
@@ -5092,97 +5096,97 @@
       "dependencies": []
     },
     "lib/html/file-tree.html": {
-      "modifiedTime": 1725853796057,
-      "sourceSize": 640527,
+      "modifiedTime": 1726040526942,
+      "sourceSize": 643440,
       "exportedPath": "lib/html/file-tree.html",
       "dependencies": []
     },
     "lib/scripts/webpage.js": {
-      "modifiedTime": 1725853796057,
+      "modifiedTime": 1726040526942,
       "sourceSize": 47290,
       "exportedPath": "lib/scripts/webpage.js",
       "dependencies": []
     },
     "lib/scripts/graph-view.js": {
-      "modifiedTime": 1725853796057,
+      "modifiedTime": 1726040526942,
       "sourceSize": 15519,
       "exportedPath": "lib/scripts/graph-view.js",
       "dependencies": []
     },
     "lib/scripts/graph-wasm.js": {
-      "modifiedTime": 1725853796057,
+      "modifiedTime": 1726040526942,
       "sourceSize": 14021,
       "exportedPath": "lib/scripts/graph-wasm.js",
       "dependencies": []
     },
     "lib/scripts/graph-render-worker.js": {
-      "modifiedTime": 1725853796057,
+      "modifiedTime": 1726040526942,
       "sourceSize": 5179,
       "exportedPath": "lib/scripts/graph-render-worker.js",
       "dependencies": []
     },
     "lib/scripts/tinycolor.js": {
-      "modifiedTime": 1725853796057,
+      "modifiedTime": 1726040526942,
       "sourceSize": 29832,
       "exportedPath": "lib/scripts/tinycolor.js",
       "dependencies": []
     },
     "lib/scripts/pixi.js": {
-      "modifiedTime": 1725853796057,
+      "modifiedTime": 1726040526942,
       "sourceSize": 449509,
       "exportedPath": "lib/scripts/pixi.js",
       "dependencies": []
     },
     "lib/scripts/minisearch.js": {
-      "modifiedTime": 1725853796057,
+      "modifiedTime": 1726040526942,
       "sourceSize": 29422,
       "exportedPath": "lib/scripts/minisearch.js",
       "dependencies": []
     },
     "lib/media/favicon.png": {
-      "modifiedTime": 1725853796057,
+      "modifiedTime": 1726040526942,
       "sourceSize": 1105,
       "exportedPath": "lib/media/favicon.png",
       "dependencies": []
     },
     "lib/scripts/graph-data.js": {
-      "modifiedTime": 1725853796057,
-      "sourceSize": 70317,
+      "modifiedTime": 1726040526942,
+      "sourceSize": 70716,
       "exportedPath": "lib/scripts/graph-data.js",
       "dependencies": []
     },
     "lib/styles/obsidian.css": {
-      "modifiedTime": 1725853796057,
+      "modifiedTime": 1726040526942,
       "sourceSize": 130471,
       "exportedPath": "lib/styles/obsidian.css",
       "dependencies": []
     },
     "lib/styles/other-plugins.css": {
-      "modifiedTime": 1725853796057,
+      "modifiedTime": 1726040526942,
       "sourceSize": 52851,
       "exportedPath": "lib/styles/other-plugins.css",
       "dependencies": []
     },
     "lib/styles/theme.css": {
-      "modifiedTime": 1725853796057,
+      "modifiedTime": 1726040526942,
       "sourceSize": 41426,
       "exportedPath": "lib/styles/theme.css",
       "dependencies": []
     },
     "lib/styles/global-variable-styles.css": {
-      "modifiedTime": 1725853796057,
+      "modifiedTime": 1726040526942,
       "sourceSize": 477,
       "exportedPath": "lib/styles/global-variable-styles.css",
       "dependencies": []
     },
     "lib/styles/supported-plugins.css": {
-      "modifiedTime": 1725853796057,
+      "modifiedTime": 1726040526942,
       "sourceSize": 282,
       "exportedPath": "lib/styles/supported-plugins.css",
       "dependencies": []
     },
     "lib/styles/main-styles.css": {
-      "modifiedTime": 1725853796057,
+      "modifiedTime": 1726040526942,
       "sourceSize": 23130,
       "exportedPath": "lib/styles/main-styles.css",
       "dependencies": []
@@ -5608,8 +5612,8 @@
       "dependencies": []
     },
     "软件/其它生信软件/使用心得/序列比对（Align）软件评测.md": {
-      "modifiedTime": 1725804405749,
-      "sourceSize": 10986,
+      "modifiedTime": 1726040526942,
+      "sourceSize": 10985,
       "exportedPath": "软件/其它生信软件/使用心得/序列比对（align）软件评测.html",
       "dependencies": []
     },
@@ -6039,12 +6043,6 @@
       "exportedPath": "软件/r语言语法/r：利用r进行itol注释文件生成.html",
       "dependencies": []
     },
-    "软件/R语言语法/R：利用R进行iTol注释文件生成 1.md": {
-      "modifiedTime": 1724402324103,
-      "sourceSize": 12006,
-      "exportedPath": "软件/r语言语法/r：利用r进行itol注释文件生成-1.html",
-      "dependencies": []
-    },
     "软件/R语言语法/R：配色图.md": {
       "modifiedTime": 1724402324103,
       "sourceSize": 1961,
@@ -6316,8 +6314,8 @@
       "dependencies": []
     },
     "软件/Latex/Latex基本语法：字体.md": {
-      "modifiedTime": 1725541886892,
-      "sourceSize": 0,
+      "modifiedTime": 1726040526942,
+      "sourceSize": 3725,
       "exportedPath": "软件/latex/latex基本语法：字体.html",
       "dependencies": []
     },
@@ -6364,9 +6362,39 @@
       "dependencies": []
     },
     "软件/Python/数据科学与格式转换/python：计算各级别线粒体单倍群数量和频率.md": {
-      "modifiedTime": 1725853796057,
-      "sourceSize": 6828,
+      "modifiedTime": 1726040526942,
+      "sourceSize": 7096,
       "exportedPath": "软件/python/数据科学与格式转换/python：计算各级别线粒体单倍群数量和频率.html",
+      "dependencies": []
+    },
+    "软件/BEAST/BEAST：日期随机化检测.md": {
+      "modifiedTime": 1726040526942,
+      "sourceSize": 4650,
+      "exportedPath": "软件/beast/beast：日期随机化检测.html",
+      "dependencies": []
+    },
+    "软件/BEAST/Mrbayes：系统发育树构建流程.md": {
+      "modifiedTime": 1726040526942,
+      "sourceSize": 3541,
+      "exportedPath": "软件/beast/mrbayes：系统发育树构建流程.html",
+      "dependencies": []
+    },
+    "软件/Latex/Latex基本语法：公式.md": {
+      "modifiedTime": 1726040526942,
+      "sourceSize": 1083,
+      "exportedPath": "软件/latex/latex基本语法：公式.html",
+      "dependencies": []
+    },
+    "软件/Python/数据科学与格式转换/python：计算常染色体祖成分与单倍群的相关性表格.md": {
+      "modifiedTime": 1726040526942,
+      "sourceSize": 1706,
+      "exportedPath": "软件/python/数据科学与格式转换/python：计算常染色体祖成分与单倍群的相关性表格.html",
+      "dependencies": []
+    },
+    "术语/日期随机化检验（Date Randomization Tests, DRTs）.md": {
+      "modifiedTime": 1726040526942,
+      "sourceSize": 1022,
+      "exportedPath": "术语/日期随机化检验（date-randomization-tests,-drts）.html",
       "dependencies": []
     }
   }
