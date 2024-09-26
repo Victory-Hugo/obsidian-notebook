@@ -1,6 +1,6 @@
 {
   "vaultName": "思维领域",
-  "lastExport": 1727000033422,
+  "lastExport": 1727322233842,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager theme-dark show-inline-title show-ribbon trim-cols h1-l h2-l h3-l h4-l h5-l h6-l image-blend-light active-line-on checkbox-square hide-help styled-scrollbars fast-animations",
   "useCustomHeadContent": false,
@@ -141,6 +141,7 @@
     "软件/其它生信软件/K-S/PLINK：转换 VCF 到 BED, BIM, FAM.md",
     "软件/其它生信软件/K-S/PopArt：基于Fst绘制Network图.md",
     "软件/其它生信软件/K-S/RAxML-NG：使用基础.md",
+    "软件/其它生信软件/K-S/SLiM：群体演化历史建模软件安装教程.md",
     "软件/其它生信软件/T-Z/TBtools：Advanced Circos：绘制NUMT弦图教程.md",
     "软件/其它生信软件/T-Z/Trimal：自动修剪序列不可靠区域.md",
     "软件/Adobe illustrator绘图/第二节 倾斜工具.md",
@@ -166,6 +167,7 @@
     "软件/IQtree/iqtree：基础操作.md",
     "软件/IQtree/iqtree：线粒体最大似然树.md",
     "软件/IQtree/iqtree：寻找最优模型及分区.md",
+    "软件/Latex/Latex基本语法：插图.md",
     "软件/Latex/Latex基本语法：公式.md",
     "软件/Latex/Latex基本语法：入门.md",
     "软件/Latex/Latex基本语法：字体.md",
@@ -760,6 +762,7 @@
     "文献及报道/文献/2019 MBE 河流流域塑造了汉族的母系遗传景观.md",
     "文献及报道/文献/2019 NSR 新石器时代的粟（作）农（民）通过采用大麦农业为青藏高原的永久定居做出了贡献.md",
     "文献及报道/文献/2021 EJHG 完整的线粒体基因组记录了从欧亚草原到巴基斯坦北部印度-伊朗语使用者的巨大遗传贡献.md",
+    "文献及报道/文献/2023 BiB McAN：一种用于构建和可视化单倍型网络的新型计算算法和平台.md",
     "文献及报道/文献/2023 CR 线粒体基因组证明两次扩张事件以及母系祖先从中国北部沿海向美洲和日本的扩散.md",
     "文献及报道/文献/2023 PNAS 全新世人类扩散的基因组视角.md",
     "文献及报道/文献/2024 AAS 古代基因组为了解中国西南历史时期的遗传史提供了见解.md",
@@ -887,7 +890,6 @@
     "文献及报道/文献汇报分享/2024年6月12日.md",
     "文献及报道/文献汇报分享/2024年9月13日会议摘要.md",
     "文献及报道/文献汇报分享/思路：如何识别特定人群的特异性单倍群？.md",
-    "文献及报道/2023 BiB McAN：一种用于构建和可视化单倍型网络的新型计算算法和平台.md",
     "Home/英文期刊投稿中的简写与状态解读.md",
     "Home/注意事项.md",
     "Home/Homepage.md",
@@ -3152,7 +3154,7 @@
       "dependencies": []
     },
     "术语/数据科学家 95 时间都在使用的 10 大基本分布.md": {
-      "modifiedTime": 1727000033422,
+      "modifiedTime": 1727322233842,
       "sourceSize": 10258,
       "exportedPath": "术语/数据科学家-95-时间都在使用的-10-大基本分布.html",
       "dependencies": []
@@ -4946,325 +4948,325 @@
       "dependencies": []
     },
     "lib/scripts/graph-wasm.wasm": {
-      "modifiedTime": 1727000033422,
+      "modifiedTime": 1727322233842,
       "sourceSize": 23377,
       "exportedPath": "lib/scripts/graph-wasm.wasm",
       "dependencies": []
     },
     "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1727000033422,
+      "modifiedTime": 1727322233842,
       "sourceSize": 66800,
       "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
       "dependencies": []
     },
     "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1727000033422,
+      "modifiedTime": 1727322233842,
       "sourceSize": 104232,
       "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
       "dependencies": []
     },
     "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1727000033422,
+      "modifiedTime": 1727322233842,
       "sourceSize": 104332,
       "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
       "dependencies": []
     },
     "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1727000033422,
+      "modifiedTime": 1727322233842,
       "sourceSize": 98868,
       "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
       "dependencies": []
     },
     "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1727000033422,
+      "modifiedTime": 1727322233842,
       "sourceSize": 106876,
       "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
       "dependencies": []
     },
     "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1727000033422,
+      "modifiedTime": 1727322233842,
       "sourceSize": 105804,
       "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
       "dependencies": []
     },
     "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1727000033422,
+      "modifiedTime": 1727322233842,
       "sourceSize": 106108,
       "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
       "dependencies": []
     },
     "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1727000033422,
+      "modifiedTime": 1727322233842,
       "sourceSize": 111708,
       "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
       "dependencies": []
     },
     "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1727000033422,
+      "modifiedTime": 1727322233842,
       "sourceSize": 192740,
       "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
       "dependencies": []
     },
     "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1727000033422,
+      "modifiedTime": 1727322233842,
       "sourceSize": 161376,
       "exportedPath": "lib/fonts/454577c22304619db035.ttf",
       "dependencies": []
     },
     "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1727000033422,
+      "modifiedTime": 1727322233842,
       "sourceSize": 191568,
       "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
       "dependencies": []
     },
     "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1727000033422,
+      "modifiedTime": 1727322233842,
       "sourceSize": 155288,
       "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
       "dependencies": []
     },
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1727000033422,
+      "modifiedTime": 1727322233842,
       "sourceSize": 7876,
       "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
       "dependencies": []
     },
     "lib/media/874d8b8e340f75575caa.svg": {
-      "modifiedTime": 1727000033422,
+      "modifiedTime": 1727322233842,
       "sourceSize": 317,
       "exportedPath": "lib/media/874d8b8e340f75575caa.svg",
       "dependencies": []
     },
     "lib/media/3d6c1bdc4d87cde4de67.svg": {
-      "modifiedTime": 1727000033422,
+      "modifiedTime": 1727322233842,
       "sourceSize": 279,
       "exportedPath": "lib/media/3d6c1bdc4d87cde4de67.svg",
       "dependencies": []
     },
     "lib/fonts/mathjax_zero.woff": {
-      "modifiedTime": 1727000033422,
+      "modifiedTime": 1727322233842,
       "sourceSize": 1368,
       "exportedPath": "lib/fonts/mathjax_zero.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_main-regular.woff": {
-      "modifiedTime": 1727000033422,
+      "modifiedTime": 1727322233842,
       "sourceSize": 34160,
       "exportedPath": "lib/fonts/mathjax_main-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_main-bold.woff": {
-      "modifiedTime": 1727000033422,
+      "modifiedTime": 1727322233842,
       "sourceSize": 34464,
       "exportedPath": "lib/fonts/mathjax_main-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_math-italic.woff": {
-      "modifiedTime": 1727000033422,
+      "modifiedTime": 1727322233842,
       "sourceSize": 19360,
       "exportedPath": "lib/fonts/mathjax_math-italic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_main-italic.woff": {
-      "modifiedTime": 1727000033422,
+      "modifiedTime": 1727322233842,
       "sourceSize": 20832,
       "exportedPath": "lib/fonts/mathjax_main-italic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_math-bolditalic.woff": {
-      "modifiedTime": 1727000033422,
+      "modifiedTime": 1727322233842,
       "sourceSize": 19776,
       "exportedPath": "lib/fonts/mathjax_math-bolditalic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size1-regular.woff": {
-      "modifiedTime": 1727000033422,
+      "modifiedTime": 1727322233842,
       "sourceSize": 5792,
       "exportedPath": "lib/fonts/mathjax_size1-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size2-regular.woff": {
-      "modifiedTime": 1727000033422,
+      "modifiedTime": 1727322233842,
       "sourceSize": 5464,
       "exportedPath": "lib/fonts/mathjax_size2-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size3-regular.woff": {
-      "modifiedTime": 1727000033422,
+      "modifiedTime": 1727322233842,
       "sourceSize": 3244,
       "exportedPath": "lib/fonts/mathjax_size3-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size4-regular.woff": {
-      "modifiedTime": 1727000033422,
+      "modifiedTime": 1727322233842,
       "sourceSize": 5148,
       "exportedPath": "lib/fonts/mathjax_size4-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_ams-regular.woff": {
-      "modifiedTime": 1727000033422,
+      "modifiedTime": 1727322233842,
       "sourceSize": 40808,
       "exportedPath": "lib/fonts/mathjax_ams-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_calligraphic-regular.woff": {
-      "modifiedTime": 1727000033422,
+      "modifiedTime": 1727322233842,
       "sourceSize": 9600,
       "exportedPath": "lib/fonts/mathjax_calligraphic-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_calligraphic-bold.woff": {
-      "modifiedTime": 1727000033422,
+      "modifiedTime": 1727322233842,
       "sourceSize": 9908,
       "exportedPath": "lib/fonts/mathjax_calligraphic-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_fraktur-regular.woff": {
-      "modifiedTime": 1727000033422,
+      "modifiedTime": 1727322233842,
       "sourceSize": 21480,
       "exportedPath": "lib/fonts/mathjax_fraktur-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_fraktur-bold.woff": {
-      "modifiedTime": 1727000033422,
+      "modifiedTime": 1727322233842,
       "sourceSize": 22340,
       "exportedPath": "lib/fonts/mathjax_fraktur-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_sansserif-regular.woff": {
-      "modifiedTime": 1727000033422,
+      "modifiedTime": 1727322233842,
       "sourceSize": 12660,
       "exportedPath": "lib/fonts/mathjax_sansserif-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_sansserif-bold.woff": {
-      "modifiedTime": 1727000033422,
+      "modifiedTime": 1727322233842,
       "sourceSize": 15944,
       "exportedPath": "lib/fonts/mathjax_sansserif-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_sansserif-italic.woff": {
-      "modifiedTime": 1727000033422,
+      "modifiedTime": 1727322233842,
       "sourceSize": 14628,
       "exportedPath": "lib/fonts/mathjax_sansserif-italic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_script-regular.woff": {
-      "modifiedTime": 1727000033422,
+      "modifiedTime": 1727322233842,
       "sourceSize": 11852,
       "exportedPath": "lib/fonts/mathjax_script-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_typewriter-regular.woff": {
-      "modifiedTime": 1727000033422,
+      "modifiedTime": 1727322233842,
       "sourceSize": 17604,
       "exportedPath": "lib/fonts/mathjax_typewriter-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_vector-regular.woff": {
-      "modifiedTime": 1727000033422,
+      "modifiedTime": 1727322233842,
       "sourceSize": 1136,
       "exportedPath": "lib/fonts/mathjax_vector-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_vector-bold.woff": {
-      "modifiedTime": 1727000033422,
+      "modifiedTime": 1727322233842,
       "sourceSize": 1116,
       "exportedPath": "lib/fonts/mathjax_vector-bold.woff",
       "dependencies": []
     },
     "lib/html/file-tree.html": {
-      "modifiedTime": 1727000033422,
-      "sourceSize": 669074,
+      "modifiedTime": 1727322233842,
+      "sourceSize": 670510,
       "exportedPath": "lib/html/file-tree.html",
       "dependencies": []
     },
     "lib/scripts/webpage.js": {
-      "modifiedTime": 1727000033422,
+      "modifiedTime": 1727322233842,
       "sourceSize": 47290,
       "exportedPath": "lib/scripts/webpage.js",
       "dependencies": []
     },
     "lib/scripts/graph-view.js": {
-      "modifiedTime": 1727000033422,
+      "modifiedTime": 1727322233842,
       "sourceSize": 15519,
       "exportedPath": "lib/scripts/graph-view.js",
       "dependencies": []
     },
     "lib/scripts/graph-wasm.js": {
-      "modifiedTime": 1727000033422,
+      "modifiedTime": 1727322233842,
       "sourceSize": 14021,
       "exportedPath": "lib/scripts/graph-wasm.js",
       "dependencies": []
     },
     "lib/scripts/graph-render-worker.js": {
-      "modifiedTime": 1727000033422,
+      "modifiedTime": 1727322233842,
       "sourceSize": 5179,
       "exportedPath": "lib/scripts/graph-render-worker.js",
       "dependencies": []
     },
     "lib/scripts/tinycolor.js": {
-      "modifiedTime": 1727000033422,
+      "modifiedTime": 1727322233842,
       "sourceSize": 29832,
       "exportedPath": "lib/scripts/tinycolor.js",
       "dependencies": []
     },
     "lib/scripts/pixi.js": {
-      "modifiedTime": 1727000033422,
+      "modifiedTime": 1727322233842,
       "sourceSize": 449509,
       "exportedPath": "lib/scripts/pixi.js",
       "dependencies": []
     },
     "lib/scripts/minisearch.js": {
-      "modifiedTime": 1727000033422,
+      "modifiedTime": 1727322233842,
       "sourceSize": 29422,
       "exportedPath": "lib/scripts/minisearch.js",
       "dependencies": []
     },
     "lib/media/favicon.png": {
-      "modifiedTime": 1727000033422,
+      "modifiedTime": 1727322233842,
       "sourceSize": 1105,
       "exportedPath": "lib/media/favicon.png",
       "dependencies": []
     },
     "lib/scripts/graph-data.js": {
-      "modifiedTime": 1727000033422,
-      "sourceSize": 73893,
+      "modifiedTime": 1727322233842,
+      "sourceSize": 74030,
       "exportedPath": "lib/scripts/graph-data.js",
       "dependencies": []
     },
     "lib/styles/obsidian.css": {
-      "modifiedTime": 1727000033422,
+      "modifiedTime": 1727322233842,
       "sourceSize": 130471,
       "exportedPath": "lib/styles/obsidian.css",
       "dependencies": []
     },
     "lib/styles/other-plugins.css": {
-      "modifiedTime": 1727000033422,
+      "modifiedTime": 1727322233842,
       "sourceSize": 52851,
       "exportedPath": "lib/styles/other-plugins.css",
       "dependencies": []
     },
     "lib/styles/theme.css": {
-      "modifiedTime": 1727000033422,
+      "modifiedTime": 1727322233842,
       "sourceSize": 228400,
       "exportedPath": "lib/styles/theme.css",
       "dependencies": []
     },
     "lib/styles/global-variable-styles.css": {
-      "modifiedTime": 1727000033422,
+      "modifiedTime": 1727322233842,
       "sourceSize": 575,
       "exportedPath": "lib/styles/global-variable-styles.css",
       "dependencies": []
     },
     "lib/styles/supported-plugins.css": {
-      "modifiedTime": 1727000033422,
+      "modifiedTime": 1727322233842,
       "sourceSize": 983,
       "exportedPath": "lib/styles/supported-plugins.css",
       "dependencies": []
     },
     "lib/styles/main-styles.css": {
-      "modifiedTime": 1727000033422,
+      "modifiedTime": 1727322233842,
       "sourceSize": 23130,
       "exportedPath": "lib/styles/main-styles.css",
       "dependencies": []
@@ -6182,8 +6184,8 @@
       "dependencies": []
     },
     "文献及报道/文献/2024 MBE MtDNA基因组揭示了末次盛冰期后人口扩张过程中宽松的净化选择.md": {
-      "modifiedTime": 1724485589684,
-      "sourceSize": 14432,
+      "modifiedTime": 1727322233842,
+      "sourceSize": 15112,
       "exportedPath": "文献及报道/文献/2024-mbe-mtdna基因组揭示了末次盛冰期后人口扩张过程中宽松的净化选择.html",
       "dependencies": []
     },
@@ -6356,8 +6358,8 @@
       "dependencies": []
     },
     "术语/图解核苷酸替换模型（Nucleotide substitution models）.md": {
-      "modifiedTime": 1725356026445,
-      "sourceSize": 3075,
+      "modifiedTime": 1727322233842,
+      "sourceSize": 5010,
       "exportedPath": "术语/图解核苷酸替换模型（nucleotide-substitution-models）.html",
       "dependencies": []
     },
@@ -6668,15 +6670,27 @@
       "dependencies": []
     },
     "文献及报道/文献/2024 Science 前西班牙时期中部墨西哥的人口历史与遗传结构.md": {
-      "modifiedTime": 1727000033422,
+      "modifiedTime": 1727322233842,
       "sourceSize": 6476,
       "exportedPath": "文献及报道/文献/2024-science-前西班牙时期中部墨西哥的人口历史与遗传结构.html",
       "dependencies": []
     },
-    "文献及报道/2023 BiB McAN：一种用于构建和可视化单倍型网络的新型计算算法和平台.md": {
-      "modifiedTime": 1727000033422,
-      "sourceSize": 11507,
-      "exportedPath": "文献及报道/2023-bib-mcan：一种用于构建和可视化单倍型网络的新型计算算法和平台.html",
+    "软件/其它生信软件/K-S/SLiM：群体演化历史建模软件安装教程.md": {
+      "modifiedTime": 1727322233842,
+      "sourceSize": 2323,
+      "exportedPath": "软件/其它生信软件/k-s/slim：群体演化历史建模软件安装教程.html",
+      "dependencies": []
+    },
+    "软件/Latex/Latex基本语法：插图.md": {
+      "modifiedTime": 1727322233842,
+      "sourceSize": 2486,
+      "exportedPath": "软件/latex/latex基本语法：插图.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/2023 BiB McAN：一种用于构建和可视化单倍型网络的新型计算算法和平台.md": {
+      "modifiedTime": 1727322233842,
+      "sourceSize": 11530,
+      "exportedPath": "文献及报道/文献/2023-bib-mcan：一种用于构建和可视化单倍型网络的新型计算算法和平台.html",
       "dependencies": []
     }
   }
