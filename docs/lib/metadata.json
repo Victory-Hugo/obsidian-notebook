@@ -1,6 +1,6 @@
 {
   "vaultName": "思维领域",
-  "lastExport": 1728274513388,
+  "lastExport": 1728484886815,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager theme-dark show-inline-title show-ribbon trim-cols h1-l h2-l h3-l h4-l h5-l h6-l image-blend-light active-line-on checkbox-square hide-help styled-scrollbars fast-animations",
   "useCustomHeadContent": false,
@@ -179,6 +179,9 @@
     "软件/Python/数据获取/python：下载国家基因组科学数据中心数据（NGDC）.md",
     "软件/Python/数据获取/python：下载NCBI数据.md",
     "软件/Python/数据获取/python：下载SRA.md",
+    "软件/Python/数据科学与格式转换/ρ方法/python：计算ρ（rho）和σ（sigma）（2024年10月8日更新）.md",
+    "软件/Python/数据科学与格式转换/ρ方法/Python：一次性计算σ+ρ.md",
+    "软件/Python/数据科学与格式转换/ρ方法/python：ρ（rho）方法计算mtDNA共同祖先时间.md",
     "软件/Python/数据科学与格式转换/python：查找末端单倍群.md",
     "软件/Python/数据科学与格式转换/Python：查找mtDNA上游单倍型（2024年6月19日更新）.md",
     "软件/Python/数据科学与格式转换/python：差异性单倍群统计学检验.md",
@@ -195,7 +198,6 @@
     "软件/Python/数据科学与格式转换/python：计算各级别线粒体单倍群数量和频率.md",
     "软件/Python/数据科学与格式转换/python：计算群体单倍群单倍型多样性.md",
     "软件/Python/数据科学与格式转换/python：计算下游单倍群数量.md",
-    "软件/Python/数据科学与格式转换/python：计算ρ（rho）和σ（sigma）（2024年9月3日更新）.md",
     "软件/Python/数据科学与格式转换/python：将FASTA文件与Aln文件合并.md",
     "软件/Python/数据科学与格式转换/python：将FASTA文件中的序列分组到指定的组中.md",
     "软件/Python/数据科学与格式转换/python：将FASTA转换成Arp.md",
@@ -218,7 +220,6 @@
     "软件/Python/数据科学与格式转换/python：FASTA文件转NEX（2024年6月12日更新）.md",
     "软件/Python/数据科学与格式转换/python：phylotree多余信息删除.md",
     "软件/Python/数据科学与格式转换/python：VCF文件转换成NEX.md",
-    "软件/Python/数据科学与格式转换/python：ρ（rho）方法计算mtDNA共同祖先时间.md",
     "软件/Python/学习笔记/八、Python函数.md",
     "软件/Python/学习笔记/二、Python注释.md",
     "软件/Python/学习笔记/二十、 Numpy探索.md",
@@ -341,6 +342,7 @@
     "术语/比达友 (Bidayuh).md",
     "术语/避难所（Refuge）.md",
     "术语/扁扁.md",
+    "术语/变异聚合关联（variant aggregate association）.md",
     "术语/标准化的赔率比（standardized odds ratio，SOR）.md",
     "术语/博泰文化（Botai）.md",
     "术语/不完全谱系分选（incomplete lineage sorting，ILS）.md",
@@ -426,6 +428,7 @@
     "术语/基因频率和表达的综合选择 (Integrated Selection on Allele Frequency and Expression，iSAFE).md",
     "术语/基因突变（Gene mutation）.md",
     "术语/基因组测序技术.md",
+    "术语/基因组进化速率分析（Genomic Evolutionary Rate Profiling，GERP）.md",
     "术语/激活转录因子(Activating Transcription Factor, ATF).md",
     "术语/伽马分布（Gamma distribution,Γ）.md",
     "术语/嘉绒藏族.md",
@@ -453,6 +456,7 @@
     "术语/快车模型(Express-Train).md",
     "术语/扩展贝叶斯天际线图（Extended Bayesian Skyline Plot，EBSP）.md",
     "术语/扩展单倍型同源性（ extended haplotype homozygosity，EHH）.md",
+    "术语/垃圾注释残余变异不耐受评分（Junk Annotation Residual Variation Intolerance Score，JARVIS）.md",
     "术语/拉帕努伊（Rapa Nui）.md",
     "术语/拉皮塔文化.md",
     "术语/老挝.md",
@@ -597,6 +601,7 @@
     "术语/籼稻.md",
     "术语/线粒体内膜（Inner mitochondrial membrane，IMM）.md",
     "术语/线粒体外膜（Outer Mitochondrial Membrane，OMM）.md",
+    "术语/线粒体外膜通透性（mitochondrial outer membrane permeabilization,MOMP）.md",
     "术语/线粒体未折叠蛋白应激反应（mitochondrial unfolded protein response，UPRmt）.md",
     "术语/小河墓地（Xiaohe site）.md",
     "术语/辛塔什塔游牧文化（Sintashta pastoral cultures）.md",
@@ -663,6 +668,7 @@
     "术语/壮侗语（Kra–Dai languages）.md",
     "术语/宗日遗址.md",
     "术语/综合单倍型评分（integrated haplotype score, iHS）.md",
+    "术语/综合注释依赖耗减分值（Combined Annotation Dependent Depletion，CADD）.md",
     "术语/祖先反卷积（Ancestry deconvolution）.md",
     "术语/最大简约法（Maximum Parsimony）.md",
     "术语/最低成本树状网络（Minimum-cost Arborescence Network, McAN）.md",
@@ -785,6 +791,7 @@
     "文献及报道/文献/2024 Nature 拉帕努伊人口历史被改写.md",
     "文献及报道/文献/2024 Nature 溶酶体驱动线粒体内膜的逐步去除.md",
     "文献及报道/文献/2024 Nature 线粒体复合物I促进肾癌转移.md",
+    "文献及报道/文献/2024 NC 对333,100名个体的全基因组测序揭示了与身高相关的罕见非编码单一变异和聚合关联.md",
     "文献及报道/文献/2024 NC 过度活跃的线粒体 DNA 复制破坏围产期心脏成熟.md",
     "文献及报道/文献/2024 NC 线粒体DNA突变引起肠道老化的基础是依赖NAD+的线粒体蛋白质应激反应的激活.md",
     "文献及报道/文献/2024 NG 揭示人类细胞 mtDNA 突变的起源和力量.md",
@@ -847,7 +854,6 @@
     "文献及报道/文献/线粒体：健康与疾病.md",
     "文献及报道/文献/线粒体过氧化氢释放不会直接导致染色体 DNA 损伤.md",
     "文献及报道/文献/线粒体内共生的中断是炎症疾病的基础.md",
-    "文献及报道/文献/线粒体外膜通透性（mitochondrial outer membrane permeabilization,MOMP）.md",
     "文献及报道/文献/线粒体DNA变异和相关人类疾病.md",
     "文献及报道/文献/线粒体DNA分型指南.md",
     "文献及报道/文献/线粒体DNA基因内倒位：线粒体肌病患者的一种新型致病突变.md",
@@ -928,6 +934,28 @@
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
     "lib/media/874d8b8e340f75575caa.svg",
     "lib/media/3d6c1bdc4d87cde4de67.svg",
+    "lib/fonts/mathjax_zero.woff",
+    "lib/fonts/mathjax_main-regular.woff",
+    "lib/fonts/mathjax_main-bold.woff",
+    "lib/fonts/mathjax_math-italic.woff",
+    "lib/fonts/mathjax_main-italic.woff",
+    "lib/fonts/mathjax_math-bolditalic.woff",
+    "lib/fonts/mathjax_size1-regular.woff",
+    "lib/fonts/mathjax_size2-regular.woff",
+    "lib/fonts/mathjax_size3-regular.woff",
+    "lib/fonts/mathjax_size4-regular.woff",
+    "lib/fonts/mathjax_ams-regular.woff",
+    "lib/fonts/mathjax_calligraphic-regular.woff",
+    "lib/fonts/mathjax_calligraphic-bold.woff",
+    "lib/fonts/mathjax_fraktur-regular.woff",
+    "lib/fonts/mathjax_fraktur-bold.woff",
+    "lib/fonts/mathjax_sansserif-regular.woff",
+    "lib/fonts/mathjax_sansserif-bold.woff",
+    "lib/fonts/mathjax_sansserif-italic.woff",
+    "lib/fonts/mathjax_script-regular.woff",
+    "lib/fonts/mathjax_typewriter-regular.woff",
+    "lib/fonts/mathjax_vector-regular.woff",
+    "lib/fonts/mathjax_vector-bold.woff",
     "lib/html/file-tree.html",
     "lib/scripts/webpage.js",
     "lib/scripts/graph-view.js",
@@ -961,6 +989,28 @@
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
     "lib/media/874d8b8e340f75575caa.svg",
     "lib/media/3d6c1bdc4d87cde4de67.svg",
+    "lib/fonts/mathjax_zero.woff",
+    "lib/fonts/mathjax_main-regular.woff",
+    "lib/fonts/mathjax_main-bold.woff",
+    "lib/fonts/mathjax_math-italic.woff",
+    "lib/fonts/mathjax_main-italic.woff",
+    "lib/fonts/mathjax_math-bolditalic.woff",
+    "lib/fonts/mathjax_size1-regular.woff",
+    "lib/fonts/mathjax_size2-regular.woff",
+    "lib/fonts/mathjax_size3-regular.woff",
+    "lib/fonts/mathjax_size4-regular.woff",
+    "lib/fonts/mathjax_ams-regular.woff",
+    "lib/fonts/mathjax_calligraphic-regular.woff",
+    "lib/fonts/mathjax_calligraphic-bold.woff",
+    "lib/fonts/mathjax_fraktur-regular.woff",
+    "lib/fonts/mathjax_fraktur-bold.woff",
+    "lib/fonts/mathjax_sansserif-regular.woff",
+    "lib/fonts/mathjax_sansserif-bold.woff",
+    "lib/fonts/mathjax_sansserif-italic.woff",
+    "lib/fonts/mathjax_script-regular.woff",
+    "lib/fonts/mathjax_typewriter-regular.woff",
+    "lib/fonts/mathjax_vector-regular.woff",
+    "lib/fonts/mathjax_vector-bold.woff",
     "lib/html/file-tree.html",
     "lib/scripts/webpage.js",
     "lib/scripts/graph-view.js",
@@ -3115,7 +3165,7 @@
       "dependencies": []
     },
     "术语/数据科学家 95 时间都在使用的 10 大基本分布.md": {
-      "modifiedTime": 1728274513388,
+      "modifiedTime": 1728484886815,
       "sourceSize": 10258,
       "exportedPath": "术语/数据科学家-95-时间都在使用的-10-大基本分布.html",
       "dependencies": []
@@ -4542,12 +4592,6 @@
       "exportedPath": "文献及报道/文献/线粒体内共生的中断是炎症疾病的基础.html",
       "dependencies": []
     },
-    "文献及报道/文献/线粒体外膜通透性（mitochondrial outer membrane permeabilization,MOMP）.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 693,
-      "exportedPath": "文献及报道/文献/线粒体外膜通透性（mitochondrial-outer-membrane-permeabilization,momp）.html",
-      "dependencies": []
-    },
     "文献及报道/文献/线粒体DNA变异和相关人类疾病.md": {
       "modifiedTime": 1721117767063,
       "sourceSize": 6942,
@@ -4903,295 +4947,295 @@
       "dependencies": []
     },
     "lib/scripts/graph-wasm.wasm": {
-      "modifiedTime": 1728274513388,
+      "modifiedTime": 1728484886815,
       "sourceSize": 23377,
       "exportedPath": "lib/scripts/graph-wasm.wasm",
       "dependencies": []
     },
     "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1728274513388,
+      "modifiedTime": 1728484886815,
       "sourceSize": 66800,
       "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
       "dependencies": []
     },
     "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1728274513388,
+      "modifiedTime": 1728484886815,
       "sourceSize": 104232,
       "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
       "dependencies": []
     },
     "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1728274513388,
+      "modifiedTime": 1728484886815,
       "sourceSize": 104332,
       "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
       "dependencies": []
     },
     "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1728274513388,
+      "modifiedTime": 1728484886815,
       "sourceSize": 98868,
       "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
       "dependencies": []
     },
     "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1728274513388,
+      "modifiedTime": 1728484886815,
       "sourceSize": 106876,
       "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
       "dependencies": []
     },
     "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1728274513388,
+      "modifiedTime": 1728484886815,
       "sourceSize": 105804,
       "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
       "dependencies": []
     },
     "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1728274513388,
+      "modifiedTime": 1728484886815,
       "sourceSize": 106108,
       "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
       "dependencies": []
     },
     "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1728274513388,
+      "modifiedTime": 1728484886815,
       "sourceSize": 111708,
       "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
       "dependencies": []
     },
     "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1728274513388,
+      "modifiedTime": 1728484886815,
       "sourceSize": 192740,
       "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
       "dependencies": []
     },
     "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1728274513388,
+      "modifiedTime": 1728484886815,
       "sourceSize": 161376,
       "exportedPath": "lib/fonts/454577c22304619db035.ttf",
       "dependencies": []
     },
     "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1728274513388,
+      "modifiedTime": 1728484886815,
       "sourceSize": 191568,
       "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
       "dependencies": []
     },
     "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1728274513388,
+      "modifiedTime": 1728484886815,
       "sourceSize": 155288,
       "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
       "dependencies": []
     },
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1728274513388,
+      "modifiedTime": 1728484886815,
       "sourceSize": 7876,
       "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
       "dependencies": []
     },
     "lib/media/874d8b8e340f75575caa.svg": {
-      "modifiedTime": 1728274513388,
+      "modifiedTime": 1728484886815,
       "sourceSize": 317,
       "exportedPath": "lib/media/874d8b8e340f75575caa.svg",
       "dependencies": []
     },
     "lib/media/3d6c1bdc4d87cde4de67.svg": {
-      "modifiedTime": 1728274513388,
+      "modifiedTime": 1728484886815,
       "sourceSize": 279,
       "exportedPath": "lib/media/3d6c1bdc4d87cde4de67.svg",
       "dependencies": []
     },
     "lib/fonts/mathjax_zero.woff": {
-      "modifiedTime": 1727593967440,
+      "modifiedTime": 1728484886815,
       "sourceSize": 1368,
       "exportedPath": "lib/fonts/mathjax_zero.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_main-regular.woff": {
-      "modifiedTime": 1727593967440,
+      "modifiedTime": 1728484886815,
       "sourceSize": 34160,
       "exportedPath": "lib/fonts/mathjax_main-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_main-bold.woff": {
-      "modifiedTime": 1727593967440,
+      "modifiedTime": 1728484886815,
       "sourceSize": 34464,
       "exportedPath": "lib/fonts/mathjax_main-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_math-italic.woff": {
-      "modifiedTime": 1727593967440,
+      "modifiedTime": 1728484886815,
       "sourceSize": 19360,
       "exportedPath": "lib/fonts/mathjax_math-italic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_main-italic.woff": {
-      "modifiedTime": 1727593967440,
+      "modifiedTime": 1728484886815,
       "sourceSize": 20832,
       "exportedPath": "lib/fonts/mathjax_main-italic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_math-bolditalic.woff": {
-      "modifiedTime": 1727593967440,
+      "modifiedTime": 1728484886815,
       "sourceSize": 19776,
       "exportedPath": "lib/fonts/mathjax_math-bolditalic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size1-regular.woff": {
-      "modifiedTime": 1727593967440,
+      "modifiedTime": 1728484886815,
       "sourceSize": 5792,
       "exportedPath": "lib/fonts/mathjax_size1-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size2-regular.woff": {
-      "modifiedTime": 1727593967440,
+      "modifiedTime": 1728484886815,
       "sourceSize": 5464,
       "exportedPath": "lib/fonts/mathjax_size2-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size3-regular.woff": {
-      "modifiedTime": 1727593967440,
+      "modifiedTime": 1728484886815,
       "sourceSize": 3244,
       "exportedPath": "lib/fonts/mathjax_size3-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size4-regular.woff": {
-      "modifiedTime": 1727593967440,
+      "modifiedTime": 1728484886815,
       "sourceSize": 5148,
       "exportedPath": "lib/fonts/mathjax_size4-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_ams-regular.woff": {
-      "modifiedTime": 1727593967440,
+      "modifiedTime": 1728484886815,
       "sourceSize": 40808,
       "exportedPath": "lib/fonts/mathjax_ams-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_calligraphic-regular.woff": {
-      "modifiedTime": 1727593967440,
+      "modifiedTime": 1728484886815,
       "sourceSize": 9600,
       "exportedPath": "lib/fonts/mathjax_calligraphic-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_calligraphic-bold.woff": {
-      "modifiedTime": 1727593967440,
+      "modifiedTime": 1728484886815,
       "sourceSize": 9908,
       "exportedPath": "lib/fonts/mathjax_calligraphic-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_fraktur-regular.woff": {
-      "modifiedTime": 1727593967440,
+      "modifiedTime": 1728484886815,
       "sourceSize": 21480,
       "exportedPath": "lib/fonts/mathjax_fraktur-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_fraktur-bold.woff": {
-      "modifiedTime": 1727593967440,
+      "modifiedTime": 1728484886815,
       "sourceSize": 22340,
       "exportedPath": "lib/fonts/mathjax_fraktur-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_sansserif-regular.woff": {
-      "modifiedTime": 1727593967440,
+      "modifiedTime": 1728484886815,
       "sourceSize": 12660,
       "exportedPath": "lib/fonts/mathjax_sansserif-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_sansserif-bold.woff": {
-      "modifiedTime": 1727593967440,
+      "modifiedTime": 1728484886815,
       "sourceSize": 15944,
       "exportedPath": "lib/fonts/mathjax_sansserif-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_sansserif-italic.woff": {
-      "modifiedTime": 1727593967440,
+      "modifiedTime": 1728484886815,
       "sourceSize": 14628,
       "exportedPath": "lib/fonts/mathjax_sansserif-italic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_script-regular.woff": {
-      "modifiedTime": 1727593967440,
+      "modifiedTime": 1728484886815,
       "sourceSize": 11852,
       "exportedPath": "lib/fonts/mathjax_script-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_typewriter-regular.woff": {
-      "modifiedTime": 1727593967440,
+      "modifiedTime": 1728484886815,
       "sourceSize": 17604,
       "exportedPath": "lib/fonts/mathjax_typewriter-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_vector-regular.woff": {
-      "modifiedTime": 1727593967440,
+      "modifiedTime": 1728484886815,
       "sourceSize": 1136,
       "exportedPath": "lib/fonts/mathjax_vector-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_vector-bold.woff": {
-      "modifiedTime": 1727593967440,
+      "modifiedTime": 1728484886815,
       "sourceSize": 1116,
       "exportedPath": "lib/fonts/mathjax_vector-bold.woff",
       "dependencies": []
     },
     "lib/html/file-tree.html": {
-      "modifiedTime": 1728274513388,
-      "sourceSize": 351558,
+      "modifiedTime": 1728484886815,
+      "sourceSize": 355163,
       "exportedPath": "lib/html/file-tree.html",
       "dependencies": []
     },
     "lib/scripts/webpage.js": {
-      "modifiedTime": 1728274513388,
+      "modifiedTime": 1728484886815,
       "sourceSize": 47290,
       "exportedPath": "lib/scripts/webpage.js",
       "dependencies": []
     },
     "lib/scripts/graph-view.js": {
-      "modifiedTime": 1728274513388,
+      "modifiedTime": 1728484886815,
       "sourceSize": 15519,
       "exportedPath": "lib/scripts/graph-view.js",
       "dependencies": []
     },
     "lib/scripts/graph-wasm.js": {
-      "modifiedTime": 1728274513388,
+      "modifiedTime": 1728484886815,
       "sourceSize": 14021,
       "exportedPath": "lib/scripts/graph-wasm.js",
       "dependencies": []
     },
     "lib/scripts/graph-render-worker.js": {
-      "modifiedTime": 1728274513388,
+      "modifiedTime": 1728484886815,
       "sourceSize": 5179,
       "exportedPath": "lib/scripts/graph-render-worker.js",
       "dependencies": []
     },
     "lib/scripts/tinycolor.js": {
-      "modifiedTime": 1728274513388,
+      "modifiedTime": 1728484886815,
       "sourceSize": 29832,
       "exportedPath": "lib/scripts/tinycolor.js",
       "dependencies": []
     },
     "lib/scripts/pixi.js": {
-      "modifiedTime": 1728274513388,
+      "modifiedTime": 1728484886815,
       "sourceSize": 449509,
       "exportedPath": "lib/scripts/pixi.js",
       "dependencies": []
     },
     "lib/scripts/minisearch.js": {
-      "modifiedTime": 1728274513388,
+      "modifiedTime": 1728484886815,
       "sourceSize": 29422,
       "exportedPath": "lib/scripts/minisearch.js",
       "dependencies": []
     },
     "lib/media/favicon.png": {
-      "modifiedTime": 1728274513388,
+      "modifiedTime": 1728484886815,
       "sourceSize": 1105,
       "exportedPath": "lib/media/favicon.png",
       "dependencies": []
     },
     "lib/scripts/graph-data.js": {
-      "modifiedTime": 1728274513388,
-      "sourceSize": 75103,
+      "modifiedTime": 1728484886815,
+      "sourceSize": 75980,
       "exportedPath": "lib/scripts/graph-data.js",
       "dependencies": []
     },
     "lib/styles/obsidian.css": {
-      "modifiedTime": 1728274513388,
+      "modifiedTime": 1728484886815,
       "sourceSize": 130471,
       "exportedPath": "lib/styles/obsidian.css",
       "dependencies": []
@@ -5203,25 +5247,25 @@
       "dependencies": []
     },
     "lib/styles/theme.css": {
-      "modifiedTime": 1728274513388,
+      "modifiedTime": 1728484886815,
       "sourceSize": 228400,
       "exportedPath": "lib/styles/theme.css",
       "dependencies": []
     },
     "lib/styles/global-variable-styles.css": {
-      "modifiedTime": 1728274513388,
+      "modifiedTime": 1728484886815,
       "sourceSize": 575,
       "exportedPath": "lib/styles/global-variable-styles.css",
       "dependencies": []
     },
     "lib/styles/supported-plugins.css": {
-      "modifiedTime": 1728274513388,
+      "modifiedTime": 1728484886815,
       "sourceSize": 983,
       "exportedPath": "lib/styles/supported-plugins.css",
       "dependencies": []
     },
     "lib/styles/main-styles.css": {
-      "modifiedTime": 1728274513388,
+      "modifiedTime": 1728484886815,
       "sourceSize": 23130,
       "exportedPath": "lib/styles/main-styles.css",
       "dependencies": []
@@ -5371,14 +5415,14 @@
       "dependencies": []
     },
     "术语/ρ（rho）方法.md": {
-      "modifiedTime": 1725415196987,
-      "sourceSize": 3054,
+      "modifiedTime": 1728484886815,
+      "sourceSize": 3055,
       "exportedPath": "术语/ρ（rho）方法.html",
       "dependencies": []
     },
     "术语/σ方法.md": {
-      "modifiedTime": 1725415196987,
-      "sourceSize": 2722,
+      "modifiedTime": 1728484886815,
+      "sourceSize": 2723,
       "exportedPath": "术语/σ方法.html",
       "dependencies": []
     },
@@ -6024,12 +6068,6 @@
       "exportedPath": "软件/python/数据科学与格式转换/python：vcf文件转换成nex.html",
       "dependencies": []
     },
-    "软件/Python/数据科学与格式转换/python：ρ（rho）方法计算mtDNA共同祖先时间.md": {
-      "modifiedTime": 1725415196987,
-      "sourceSize": 3886,
-      "exportedPath": "软件/python/数据科学与格式转换/python：ρ（rho）方法计算mtdna共同祖先时间.html",
-      "dependencies": []
-    },
     "软件/R语言语法/R：根据Fst算MDS.md": {
       "modifiedTime": 1727601960137,
       "sourceSize": 6619,
@@ -6310,12 +6348,6 @@
       "modifiedTime": 1725415196987,
       "sourceSize": 1485,
       "exportedPath": "软件/其它生信软件/k-s/mtphyl：数据导入.html",
-      "dependencies": []
-    },
-    "软件/Python/数据科学与格式转换/python：计算ρ（rho）和σ（sigma）（2024年9月3日更新）.md": {
-      "modifiedTime": 1725415196987,
-      "sourceSize": 6619,
-      "exportedPath": "软件/python/数据科学与格式转换/python：计算ρ（rho）和σ（sigma）（2024年9月3日更新）.html",
       "dependencies": []
     },
     "软件/Latex/Latex基本语法：入门.md": {
@@ -6736,6 +6768,60 @@
       "modifiedTime": 1728274513388,
       "sourceSize": 8581,
       "exportedPath": "文献及报道/文献/2024-jgg-中国云南新石器时代至青铜时代的母系遗传史.html",
+      "dependencies": []
+    },
+    "软件/Python/数据科学与格式转换/ρ方法/python：计算ρ（rho）和σ（sigma）（2024年10月8日更新）.md": {
+      "modifiedTime": 1728484886815,
+      "sourceSize": 11184,
+      "exportedPath": "软件/python/数据科学与格式转换/ρ方法/python：计算ρ（rho）和σ（sigma）（2024年10月8日更新）.html",
+      "dependencies": []
+    },
+    "软件/Python/数据科学与格式转换/ρ方法/Python：一次性计算σ+ρ.md": {
+      "modifiedTime": 1728484886815,
+      "sourceSize": 15342,
+      "exportedPath": "软件/python/数据科学与格式转换/ρ方法/python：一次性计算σ+ρ.html",
+      "dependencies": []
+    },
+    "软件/Python/数据科学与格式转换/ρ方法/python：ρ（rho）方法计算mtDNA共同祖先时间.md": {
+      "modifiedTime": 1728484886815,
+      "sourceSize": 3713,
+      "exportedPath": "软件/python/数据科学与格式转换/ρ方法/python：ρ（rho）方法计算mtdna共同祖先时间.html",
+      "dependencies": []
+    },
+    "术语/变异聚合关联（variant aggregate association）.md": {
+      "modifiedTime": 1728484886815,
+      "sourceSize": 1166,
+      "exportedPath": "术语/变异聚合关联（variant-aggregate-association）.html",
+      "dependencies": []
+    },
+    "术语/基因组进化速率分析（Genomic Evolutionary Rate Profiling，GERP）.md": {
+      "modifiedTime": 1728484886815,
+      "sourceSize": 272,
+      "exportedPath": "术语/基因组进化速率分析（genomic-evolutionary-rate-profiling，gerp）.html",
+      "dependencies": []
+    },
+    "术语/垃圾注释残余变异不耐受评分（Junk Annotation Residual Variation Intolerance Score，JARVIS）.md": {
+      "modifiedTime": 1728484886815,
+      "sourceSize": 365,
+      "exportedPath": "术语/垃圾注释残余变异不耐受评分（junk-annotation-residual-variation-intolerance-score，jarvis）.html",
+      "dependencies": []
+    },
+    "术语/线粒体外膜通透性（mitochondrial outer membrane permeabilization,MOMP）.md": {
+      "modifiedTime": 1728484886815,
+      "sourceSize": 693,
+      "exportedPath": "术语/线粒体外膜通透性（mitochondrial-outer-membrane-permeabilization,momp）.html",
+      "dependencies": []
+    },
+    "术语/综合注释依赖耗减分值（Combined Annotation Dependent Depletion，CADD）.md": {
+      "modifiedTime": 1728484886815,
+      "sourceSize": 337,
+      "exportedPath": "术语/综合注释依赖耗减分值（combined-annotation-dependent-depletion，cadd）.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/2024 NC 对333,100名个体的全基因组测序揭示了与身高相关的罕见非编码单一变异和聚合关联.md": {
+      "modifiedTime": 1728484886815,
+      "sourceSize": 5243,
+      "exportedPath": "文献及报道/文献/2024-nc-对333,100名个体的全基因组测序揭示了与身高相关的罕见非编码单一变异和聚合关联.html",
       "dependencies": []
     }
   }
