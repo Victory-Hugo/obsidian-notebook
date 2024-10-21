@@ -1,99 +1,11 @@
 {
   "vaultName": "思维领域",
-  "lastExport": 1728960074794,
+  "lastExport": 1729482158155,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager theme-dark show-inline-title show-ribbon trim-cols h1-l h2-l h3-l h4-l h5-l h6-l image-blend-light active-line-on checkbox-square hide-help styled-scrollbars fast-animations",
   "useCustomHeadContent": false,
   "useCustomFavicon": false,
   "files": [
-    "疾病与基因/8-氧基脱氧鸟嘌呤（8-oxo-dG）.md",
-    "疾病与基因/伴随删除的倒置重复Inverted duplication associated with a deletion.md",
-    "疾病与基因/保守序列区块（CSBs）.md",
-    "疾病与基因/必需氨基酸 1.md",
-    "疾病与基因/表达定量性状位点（Expression Quantitative Trait Locus,eQTL）.md",
-    "疾病与基因/丙二酰辅酶-A-辅酶蛋白质转移酶(malonyl-CoA-acyl carrier protein transacylase,MCAT) 1.md",
-    "疾病与基因/并存实验（Parabiosis experiments）.md",
-    "疾病与基因/沉默突变.md",
-    "疾病与基因/成纤维细胞生长因子21（Fibroblast Growth Factor 21，FGF21）.md",
-    "疾病与基因/从头NUMTs（De novo NUMTs）.md",
-    "疾病与基因/错义变异（Missense）.md",
-    "疾病与基因/单链 DNA 结合蛋白 1（single stranded DNA binding protein 1 ，SSBP1） 1.md",
-    "疾病与基因/等位基因分数（allelic fractions）.md",
-    "疾病与基因/等位基因频谱(allele frequency spectrum,SFS).md",
-    "疾病与基因/颠换（transversion）.md",
-    "疾病与基因/典型mtDNA变异.md",
-    "疾病与基因/非必须氨基酸 1.md",
-    "疾病与基因/非同义突变（Non-Synonymous Mutation）.md",
-    "疾病与基因/冈崎片段（Okazaki frageme）.md",
-    "疾病与基因/共定位.md",
-    "疾病与基因/过氧化物酶体增殖物激活受体γ共激活因子-1α（PGC-1α）.md",
-    "疾病与基因/核-线片段（NUMTs）.md",
-    "疾病与基因/核内复制机器1（Ribonucleotide Reductase Regulatory Subunit M1,RRM1) 1.md",
-    "疾病与基因/后期有丝分裂组织（post-mitotic tissues）.md",
-    "疾病与基因/活性氧种(Reactive Oxygen Species,ROS).md",
-    "疾病与基因/基因间区域（intergenic regions）.md",
-    "疾病与基因/基因失活变异（Protein-truncating Loss-of-Function，pLoF）.md",
-    "疾病与基因/基因水平转移（horizontal gene transfer，HGT）.md",
-    "疾病与基因/嵴连接（Crista junction, CrJ）.md",
-    "疾病与基因/甲基化.md",
-    "疾病与基因/结构变异（Structural Variations, SVs）的机制.md",
-    "疾病与基因/联合衍生等位基因频率谱（joint Derived Allele Frequency spectrum， joint DAF）.md",
-    "疾病与基因/镰刀型细胞贫血病.md",
-    "疾病与基因/磷酸二羟丙酮.md",
-    "疾病与基因/硫酸乙酰肝素（Keratan sulfate，KS）.md",
-    "疾病与基因/梅勒氏卡盘.md",
-    "疾病与基因/内含子.md",
-    "疾病与基因/内体隔室（Endosomal compartment）.md",
-    "疾病与基因/嘌呤核苷酸磷酸化酶(Purine Nucleoside Phosphorylase,PNP).md",
-    "疾病与基因/葡萄糖-6-磷酸脱氢酶缺乏症(Glucose-6-Phosphate Dehydrogenase deficiency, G6PDD）.md",
-    "疾病与基因/轻链启动子（Light Strand Promoter,LSP）.md",
-    "疾病与基因/人类基因组计划二十年基石.md",
-    "疾病与基因/三羧酸循环（TCA）.md",
-    "疾病与基因/生长分化因子15（Growth Differentiation Factor 15，GDF15）.md",
-    "疾病与基因/失义或功能丧失（LoF）.md",
-    "疾病与基因/溯祖理论（coalescent theory）.md",
-    "疾病与基因/同义突变（Synonymous Mutation）.md",
-    "疾病与基因/同源型变异.md",
-    "疾病与基因/同源重组区域（recombination of homologous,ROH）.md",
-    "疾病与基因/微共线性（microsynteny）.md",
-    "疾病与基因/无嘌呤或无嘧啶核酸内切酶1（Apurinic ,Apyrimidinic Endonuclease 1,APEX1).md",
-    "疾病与基因/细胞外囊泡（Extracellular Vesicle (EV)）.md",
-    "疾病与基因/线粒体的RSRS和rCRS的区别.md",
-    "疾病与基因/线粒体呼吸链复合物I亚单位3（NADH Dehydrogenase Ubiquinone Flavoprotein 3,NDUFV3) 1.md",
-    "疾病与基因/线粒体基因组维护外切酶1(Mitochondrial Genome Maintenance Exonuclease 1，MGME1) 1.md",
-    "疾病与基因/线粒体融合蛋白2(Mitofusin 2,MFN2) 1.md",
-    "疾病与基因/线粒体树的标识符.md",
-    "疾病与基因/线粒体转录因子A（Transcription Factor A Mitochondrial，TFAM）.md",
-    "疾病与基因/线粒体DNA（mtDNA）.md",
-    "疾病与基因/线粒体DNA（mtDNA）的突变定义规则.md",
-    "疾病与基因/线粒体DNA编码、在细胞质中翻译的蛋白质（mtDNA-encoded protein arising from cytosolic translation，mPACT）.md",
-    "疾病与基因/线粒体DNA传播.md",
-    "疾病与基因/线粒体DNA结构（mt-DNA structure）.md",
-    "疾病与基因/线粒体DNA拷贝数（mtCN）.md",
-    "疾病与基因/限制性片段长度多态性（RFLP）.md",
-    "疾病与基因/氧化磷酸化系统调节蛋白1（Oxidative Phosphorylation System Regulator 1,OMA1） 1.md",
-    "疾病与基因/异龄联合（heterochronic parabiosis）.md",
-    "疾病与基因/英国生物银行（UK Biobank ,UKB）.md",
-    "疾病与基因/英国十万人基因组计划（100,000 Genomes Project in England）.md",
-    "疾病与基因/粘液样脂肪肉瘤（myxoid liposarcoma）.md",
-    "疾病与基因/整合应激反应（integrated stress response (ISR).md",
-    "疾病与基因/直系同源基因（Orthologs）与旁系同源基因（Paralogs）.md",
-    "疾病与基因/转换（transition）.md",
-    "疾病与基因/转座酶可访问染色质测定（Assay for Transposase-Accessible Chromatin with high-throughput sequencing，ATAC-seq）.md",
-    "疾病与基因/转座元件（Transposable Elements）.md",
-    "疾病与基因/最大等位基因频率（Maximum Minor Allele Frequency，Max MAF）.md",
-    "疾病与基因/All of Us（AOU）.md",
-    "疾病与基因/DNA翻片（DNA flap）.md",
-    "疾病与基因/Leigh综合征.md",
-    "疾病与基因/Max MAF.md",
-    "疾病与基因/MCAT基因（Mitochondrial Carnitine Acylcarnitine Carrier）.md",
-    "疾病与基因/MELAS综合症（Mitochondrial Encephalomyopathy, Lactic Acidosis, and Stroke-like Episodes）.md",
-    "疾病与基因/PR结构域锌指蛋白9（PRDM9）.md",
-    "疾病与基因/rCRS（revised Cambridge Reference Sequence）.md",
-    "疾病与基因/RSRS（Reconstructed Sapiens Reference Sequence）.md",
-    "疾病与基因/S-腺苷甲硫氨酸 (SAM).md",
-    "疾病与基因/Twinkle基因（TWNK）.md",
-    "疾病与基因/VAF.md",
     "软件/地理绘图/Arcgis Pro：使用克里金绘制单倍群等值线图.md",
     "软件/地理绘图/Arcgis：变换坐标系将中国地图校正.md",
     "软件/地理绘图/Arcgis：地理空间数据.md",
@@ -306,6 +218,7 @@
     "书籍/无字史记.md",
     "书籍/西西弗神话.md",
     "书籍/中国少数民族通史.md",
+    "术语/8-氧基脱氧鸟嘌呤（8-oxo-dG）.md",
     "术语/阿尔泰山脉.md",
     "术语/阿尔泰语系（Altaic languages）.md",
     "术语/阿尔乌斯塔（Al Wusta）.md",
@@ -328,7 +241,9 @@
     "术语/白马藏族.md",
     "术语/百越族群.md",
     "术语/班图语.md",
+    "术语/伴随删除的倒置重复Inverted duplication associated with a deletion.md",
     "术语/胞质线粒体内膜小泡（vesicles derived from the IMM，VDIMs）.md",
+    "术语/保守序列区块（CSBs）.md",
     "术语/北京猿人.md",
     "术语/北美洲（North America）.md",
     "术语/贝加尔湖.md",
@@ -340,10 +255,14 @@
     "术语/贝叶斯系统发育模型.md",
     "术语/贝冢（贝丘遗址）.md",
     "术语/比达友 (Bidayuh).md",
+    "术语/必需氨基酸 1.md",
     "术语/避难所（Refuge）.md",
     "术语/扁扁.md",
     "术语/变异聚合关联（variant aggregate association）.md",
     "术语/标准化的赔率比（standardized odds ratio，SOR）.md",
+    "术语/表达定量性状位点（Expression Quantitative Trait Locus,eQTL）.md",
+    "术语/丙二酰辅酶-A-辅酶蛋白质转移酶(malonyl-CoA-acyl carrier protein transacylase,MCAT) 1.md",
+    "术语/并存实验（Parabiosis experiments）.md",
     "术语/博泰文化（Botai）.md",
     "术语/不完全谱系分选（incomplete lineage sorting，ILS）.md",
     "术语/布哈拉绿洲假设（Bactrian Oasis Hypothesis）.md",
@@ -354,9 +273,13 @@
     "术语/测序后数据处理概览.md",
     "术语/测序深度（Sequencing Depth）.md",
     "术语/铲形门齿.md",
+    "术语/沉默突变.md",
+    "术语/成纤维细胞生长因子21（Fibroblast Growth Factor 21，FGF21）.md",
     "术语/冲绳岛（Okinawa island）.md",
     "术语/磁山遗址.md",
+    "术语/从头NUMTs（De novo NUMTs）.md",
     "术语/从遗传差异推断种群分离时间(Inference of population separation times from genetic divergence).md",
+    "术语/错义变异（Missense）.md",
     "术语/搭车变异（hitchhiked variants）.md",
     "术语/达尔德语（Dardic languages）.md",
     "术语/大松山.md",
@@ -366,23 +289,31 @@
     "术语/袋獾（Sarcophilus harrisii,塔斯马尼亚恶魔）.md",
     "术语/丹尼索瓦人（Denisovan）.md",
     "术语/单倍型（haplotypes）.md",
+    "术语/单链 DNA 结合蛋白 1（single stranded DNA binding protein 1 ，SSBP1） 1.md",
     "术语/稻（Oryza sativa L.）.md",
     "术语/德穆安(Temuan).md",
+    "术语/等位基因分数（allelic fractions）.md",
+    "术语/等位基因频谱(allele frequency spectrum,SFS).md",
     "术语/等位基因频谱(allele frequency spectrum).md",
     "术语/氐羌（古）.md",
     "术语/狄利克雷分布.md",
     "术语/抵消模型.md",
+    "术语/颠换（transversion）.md",
     "术语/典型的nDNA结构变异.md",
+    "术语/典型mtDNA变异.md",
     "术语/电压依赖性阴离子通道(Voltage-Dependent Anion Channel, VDAC).md",
     "术语/东南亚大陆（Mainland Southeast Asia,MSEA）.md",
     "术语/东乡族（Donghxiang）.md",
+    "术语/短散布核元件(Short Interspersed Nuclear Elements, SINEs).md",
     "术语/多态性（Polymorphism）.md",
     "术语/多维缩放（Multidimensional Scaling, MDS）.md",
     "术语/多中心假说.md",
     "术语/额济纳河（黑河，弱水）.md",
     "术语/二里头文化.md",
     "术语/二里头遗址.md",
+    "术语/非必须氨基酸 1.md",
     "术语/非陶器时期(aceramic,non-pottery).md",
+    "术语/非同义突变（Non-Synonymous Mutation）.md",
     "术语/非洲（Africa）.md",
     "术语/吠陀（Vedic）.md",
     "术语/分层LD分数回归（Stratified Linkage Disequilibrium Score Regression，S-LDSC,S-LDSC).md",
@@ -394,25 +325,32 @@
     "术语/富含亮氨酸重复序列的G蛋白偶联受体(Leucine-rich repeat-containing G-protein coupled receptor, LGR).md",
     "术语/富集分析之桃园三结义：GO、KEGG、GSEA.md",
     "术语/甘青地区.md",
+    "术语/冈崎片段（Okazaki frageme）.md",
     "术语/高棉人（Khmer）.md",
     "术语/高山古城遗址.md",
     "术语/高通量染色体构象捕获技术(High-throughput chromosome conformation capture,Hi-C).md",
     "术语/仡佬族.md",
     "术语/格鲁吉亚人.md",
     "术语/宫古岛（Myaaku(Miyako) island）.md",
+    "术语/共定位.md",
     "术语/估计突变率（Estimating mutation rates）.md",
+    "术语/古环境DNA (Ancient environmental DNA, aeDNA).md",
     "术语/古崎文化(Gusuku Culture).md",
     "术语/古丝绸之路.md",
     "术语/广西.md",
+    "术语/过氧化物酶体增殖物激活受体γ共激活因子-1α（PGC-1α）.md",
     "术语/哈萨克族.md",
     "术语/海德堡人.md",
     "术语/海南.md",
     "术语/汉藏语系.md",
     "术语/和平文化（HòabÌnhian Culture).md",
     "术语/河姆渡遗址.md",
+    "术语/核-线片段（NUMTs）.md",
+    "术语/核内复制机器1（Ribonucleotide Reductase Regulatory Subunit M1,RRM1) 1.md",
     "术语/恒定速率（invariable,I）.md",
     "术语/横北遗址.md",
     "术语/红山文化.md",
+    "术语/后期有丝分裂组织（post-mitotic tissues）.md",
     "术语/后验包含概率(Posterior Inclusion Probability,PIP).md",
     "术语/后验概率.md",
     "术语/华北地区.md",
@@ -423,20 +361,28 @@
     "术语/回辉人 Utsat.md",
     "术语/回族.md",
     "术语/汇总采样策略（pooled sampling strategy）.md",
+    "术语/活性氧种(Reactive Oxygen Species,ROS).md",
     "术语/基底欧亚人（basal Eurasian ancestry）.md",
     "术语/基因级稀有变异关联研究（RVAS）.md",
+    "术语/基因间区域（intergenic regions）.md",
     "术语/基因频率和表达的综合选择 (Integrated Selection on Allele Frequency and Expression，iSAFE).md",
+    "术语/基因失活变异（Protein-truncating Loss-of-Function，pLoF）.md",
+    "术语/基因适应（Exaptation）.md",
+    "术语/基因水平转移（horizontal gene transfer，HGT）.md",
     "术语/基因突变（Gene mutation）.md",
     "术语/基因组测序技术.md",
     "术语/基因组进化速率分析（Genomic Evolutionary Rate Profiling，GERP）.md",
     "术语/激活转录因子(Activating Transcription Factor, ATF).md",
+    "术语/嵴连接（Crista junction, CrJ）.md",
     "术语/伽马分布（Gamma distribution,Γ）.md",
     "术语/嘉绒藏族.md",
+    "术语/甲基化.md",
     "术语/贾湖遗址.md",
     "术语/假阳性（False positive）.md",
     "术语/假阴性（False negative）.md",
     "术语/简鼻亚目（Haplorrhini）.md",
     "术语/江苏.md",
+    "术语/结构变异（Structural Variations, SVs）的机制.md",
     "术语/截短突变（truncating mutations）.md",
     "术语/解剖学意义上现代人(anatomically modern human, AMH).md",
     "术语/近似贝叶斯计算 (Approximate Bayesian Computation, ABC).md",
@@ -463,11 +409,15 @@
     "术语/黎族（Li）.md",
     "术语/连锁不平衡（linkage disequilibrium，LD）.md",
     "术语/连续进化附带杂交假说.md",
+    "术语/联合衍生等位基因频率谱（joint Derived Allele Frequency spectrum， joint DAF）.md",
+    "术语/镰刀型细胞贫血病.md",
     "术语/良渚文化.md",
     "术语/亮岛.md",
     "术语/临床研究中基线信息的统计分析与统计图表.md",
+    "术语/磷酸二羟丙酮.md",
     "术语/琉球群岛（ Ryūkyū islands）.md",
     "术语/琉球王国（Ryukyu Kingdom）.md",
+    "术语/硫酸乙酰肝素（Keratan sulfate，KS）.md",
     "术语/龙山文化.md",
     "术语/卵母细胞闭锁（follicular atresia）.md",
     "术语/罗百氏傍人（Paranthropus robustus）.md",
@@ -475,6 +425,7 @@
     "术语/马尔科夫链蒙特卡罗（Markov Chain Monte Carlo，MCMC）.md",
     "术语/马家窑文化.md",
     "术语/马桥文化.md",
+    "术语/梅勒氏卡盘.md",
     "术语/梅山文化（蚩尤文化）.md",
     "术语/美拉尼西亚.md",
     "术语/美索美洲（Mesoamerica）.md",
@@ -502,18 +453,22 @@
     "术语/南岛语系（Austroasiatic language family）.md",
     "术语/南美洲（South America）.md",
     "术语/内边界膜（Inner Boundary Membrane, IBM）.md",
+    "术语/内含子.md",
     "术语/内涵体分选复合体（Endosomal Sorting Complex Required for Transport，ESCRT）.md",
+    "术语/内体隔室（Endosomal compartment）.md",
     "术语/内亚山区走廊（Inner Asian Mountain Corridor, (IAMC)).md",
     "术语/尼安德特人（Neanderthal）.md",
     "术语/尼格利陀人 (Negritos).md",
     "术语/宁夏.md",
     "术语/努拉吉（Nuragic culture）.md",
     "术语/努桑塔奥海上贸易和通信网络（Nusantao Maritime Trading and Communication Networks）.md",
+    "术语/嘌呤核苷酸磷酸化酶(Purine Nucleoside Phosphorylase,PNP).md",
     "术语/平埔族群（Pingpu）.md",
     "术语/平均成对核苷酸差异数（π值）.md",
     "术语/平行进化（Parallel Evolution）.md",
     "术语/瓶颈效应（bottleneck）.md",
     "术语/泊松分布（Poisson Distribution）.md",
+    "术语/葡萄糖-6-磷酸脱氢酶缺乏症(Glucose-6-Phosphate Dehydrogenase deficiency, G6PDD）.md",
     "术语/齐家文化.md",
     "术语/奇和.md",
     "术语/前西班牙（pre-Hispanic）.md",
@@ -521,6 +476,7 @@
     "术语/切穆尔切克文化（克尔木齐文化，Chemurchek）.md",
     "术语/青藏高原.md",
     "术语/青铜时期（Bronze Age，BA）.md",
+    "术语/轻链启动子（Light Strand Promoter,LSP）.md",
     "术语/区域特异性的单倍群.md",
     "术语/屈家岭文化.md",
     "术语/趋同进化（Convergent evolution）.md",
@@ -528,6 +484,7 @@
     "术语/全基因组测序（Whole Genome Sequencing，WGS）.md",
     "术语/群体多样性指标.md",
     "术语/人口扩散(demic diffusion).md",
+    "术语/人类基因组计划二十年基石.md",
     "术语/日本.md",
     "术语/日期随机化检验（Date Randomization Tests, DRTs）.md",
     "术语/融生型民族.md",
@@ -535,6 +492,7 @@
     "术语/塞门德（Semende）.md",
     "术语/赛拉特 (Selatar).md",
     "术语/三苗部落.md",
+    "术语/三羧酸循环（TCA）.md",
     "术语/三星堆遗址.md",
     "术语/桑巴基（Sambaquis）.md",
     "术语/山顶洞人.md",
@@ -543,8 +501,10 @@
     "术语/肾透明细胞癌(clear cell renal cell carcinomas , ccRCCs).md",
     "术语/生灭模型(birth-death model).md",
     "术语/生态学十大法则.md",
+    "术语/生长分化因子15（Growth Differentiation Factor 15，GDF15）.md",
     "术语/绳文人.md",
     "术语/绳文时代.md",
+    "术语/失义或功能丧失（LoF）.md",
     "术语/石峁遗址.md",
     "术语/石垣诸岛.md",
     "术语/时间复杂度（Time Complexity，TC）.md",
@@ -561,6 +521,7 @@
     "术语/四种建树方法比较.md",
     "术语/松嫩平原.md",
     "术语/粟（millet）.md",
+    "术语/溯祖理论（coalescent theory）.md",
     "术语/随机最小生成树（Randomized Minimum Spanning Tree，RMST）.md",
     "术语/塔岛技术悲剧.md",
     "术语/塔里木盆地（Tarim Basin）.md",
@@ -573,6 +534,9 @@
     "术语/田园洞人.md",
     "术语/铁器时代（Iron Age，IA）.md",
     "术语/铁死亡（ferroptosis）.md",
+    "术语/同义突变（Synonymous Mutation）.md",
+    "术语/同源型变异.md",
+    "术语/同源重组区域（recombination of homologous,ROH）.md",
     "术语/统一流形近似和投影（Uniform Manifold Approximation and Projection,UMAP）.md",
     "术语/透彻理解p值与假设检验.md",
     "术语/突变率（Mutation rate）.md",
@@ -580,6 +544,7 @@
     "术语/突厥语系(Turkic).md",
     "术语/图解核苷酸替换模型（Nucleotide substitution models）.md",
     "术语/吐火罗语(Tocharian language).md",
+    "术语/微共线性（microsynteny）.md",
     "术语/维吾尔族.md",
     "术语/伪异质性(pseudo-heteroplasmy).md",
     "术语/卫藏藏族.md",
@@ -588,21 +553,37 @@
     "术语/文化扩散(cultural diffusion).md",
     "术语/乌斯季伊希姆区（Ust’-Ishim）.md",
     "术语/乌孜别克族.md",
+    "术语/无嘌呤或无嘧啶核酸内切酶1（Apurinic ,Apyrimidinic Endonuclease 1,APEX1).md",
     "术语/物种分歧时间、分子进化速率计算（TimeTree、PAML mcmctree、codeml 、MEGA ).md",
     "术语/西辽地区.md",
     "术语/系统发育率（phylogenetic rate）.md",
     "术语/系统发育树.md",
     "术语/细胞竞争（cell competition）.md",
+    "术语/细胞外囊泡（Extracellular Vesicle (EV)）.md",
     "术语/细石器（microliths）.md",
     "术语/下田原文化（Shimotabaru Culture）.md",
     "术语/下一代测序（next-generation sequencing，NGS）.md",
     "术语/夏尔巴人.md",
     "术语/先验概率.md",
     "术语/籼稻.md",
+    "术语/线粒体的RSRS和rCRS的区别.md",
+    "术语/线粒体呼吸链复合物I亚单位3（NADH Dehydrogenase Ubiquinone Flavoprotein 3,NDUFV3) 1.md",
+    "术语/线粒体基因组维护外切酶1(Mitochondrial Genome Maintenance Exonuclease 1，MGME1) 1.md",
     "术语/线粒体内膜（Inner mitochondrial membrane，IMM）.md",
+    "术语/线粒体融合蛋白2(Mitofusin 2,MFN2) 1.md",
+    "术语/线粒体树的标识符.md",
     "术语/线粒体外膜（Outer Mitochondrial Membrane，OMM）.md",
     "术语/线粒体外膜通透性（mitochondrial outer membrane permeabilization,MOMP）.md",
     "术语/线粒体未折叠蛋白应激反应（mitochondrial unfolded protein response，UPRmt）.md",
+    "术语/线粒体转录因子A（Transcription Factor A Mitochondrial，TFAM）.md",
+    "术语/线粒体DNA（mtDNA）.md",
+    "术语/线粒体DNA（mtDNA）的突变定义规则.md",
+    "术语/线粒体DNA编码、在细胞质中翻译的蛋白质（mtDNA-encoded protein arising from cytosolic translation，mPACT）.md",
+    "术语/线粒体DNA传播.md",
+    "术语/线粒体DNA结构（mt-DNA structure）.md",
+    "术语/线粒体DNA拷贝数（mtCN）.md",
+    "术语/限制性片段长度多态性（RFLP）.md",
+    "术语/相近物种混合样本（species mixtures from closely related species）.md",
     "术语/小河墓地（Xiaohe site）.md",
     "术语/辛塔什塔游牧文化（Sintashta pastoral cultures）.md",
     "术语/新疆.md",
@@ -620,16 +601,20 @@
     "术语/烟酰胺单核苷酸（Nicotinamide Mononucleotide，NMN）.md",
     "术语/颜那亚文化（Yamna culture）.md",
     "术语/仰韶文化.md",
+    "术语/氧化磷酸化系统调节蛋白1（Oxidative Phosphorylation System Regulator 1,OMA1） 1.md",
     "术语/氧化烟酰胺腺嘌呤二核苷酸（NAD+）.md",
     "术语/遗传混合假说(The genetic admixture hypothesis).md",
     "术语/遗传力（heritability）.md",
     "术语/遗传漂变（genetic drift）.md",
+    "术语/异龄联合（heterochronic parabiosis）.md",
     "术语/异时性序列（heterochronous sequence）.md",
     "术语/异质性（Heteroplasmy）.md",
     "术语/因纽特人（Inuit）.md",
     "术语/隐马尔科夫模型（Hiden Markov Model）.md",
     "术语/印度-伊朗语（Indo-Iranian languages）.md",
     "术语/印欧语系(Indo-European languages).md",
+    "术语/英国生物银行（UK Biobank ,UKB）.md",
+    "术语/英国十万人基因组计划（100,000 Genomes Project in England）.md",
     "术语/尤尔模型(Yule model).md",
     "术语/尤皮克人（Yupik）.md",
     "术语/游牧民族.md",
@@ -640,12 +625,16 @@
     "术语/原生型民族.md",
     "术语/月氏国.md",
     "术语/云南.md",
+    "术语/粘液样脂肪肉瘤（myxoid liposarcoma）.md",
     "术语/占婆王国（ChămPa Kingdom）.md",
     "术语/长程单倍型（long-range haplotypes）.md",
     "术语/长读取测序技术.md",
     "术语/长读长 DNA 测序技术.md",
     "术语/长距离引物.md",
+    "术语/长散布核元件(Long Interspersed Nuclear Elements, LINEs).md",
+    "术语/整合应激反应（integrated stress response (ISR).md",
     "术语/正选择（Positive Selection）.md",
+    "术语/直系同源基因（Orthologs）与旁系同源基因（Paralogs）.md",
     "术语/置信区间.md",
     "术语/中国北方.md",
     "术语/中国东北.md",
@@ -665,20 +654,29 @@
     "术语/种群配对Fst值（Population pairwise Fst values）.md",
     "术语/烛台理论.md",
     "术语/主成分分析（Principal Component Analysis，PCA）.md",
+    "术语/转换（transition）.md",
+    "术语/转座酶可访问染色质测定（Assay for Transposase-Accessible Chromatin with high-throughput sequencing，ATAC-seq）.md",
+    "术语/转座元件（Transposable Elements）.md",
+    "术语/转座子(Transposable elements, TEs).md",
     "术语/壮侗语（Kra–Dai languages）.md",
     "术语/宗日遗址.md",
     "术语/综合单倍型评分（integrated haplotype score, iHS）.md",
     "术语/综合注释依赖耗减分值（Combined Annotation Dependent Depletion，CADD）.md",
     "术语/祖先反卷积（Ancestry deconvolution）.md",
+    "术语/祖先分化（ancestral divergence）.md",
+    "术语/最大等位基因频率（Maximum Minor Allele Frequency，Max MAF）.md",
     "术语/最大简约法（Maximum Parsimony）.md",
     "术语/最低成本树状网络（Minimum-cost Arborescence Network, McAN）.md",
     "术语/最近共同祖先时间(Time to most recent common ancestor，MRCA).md",
     "术语/最小生成网络（Minimum Spanning Network，MSN）.md",
+    "术语/All of Us（AOU）.md",
+    "术语/Alu元件.md",
     "术语/BSX-BAK巨孔.md",
     "术语/CpG甲基化.md",
     "术语/cross-population extended haplotype homozygosity (XP-EHH).md",
     "术语/D 统计量检验（Patterson’s D statistic）.md",
     "术语/DddA衍生的胞嘧啶碱基编辑工具（DddA derived cytosine base editors，DdCBEs）.md",
+    "术语/DNA翻片（DNA flap）.md",
     "术语/DNA聚合酶.md",
     "术语/DNA双链断裂(DSB).md",
     "术语/Epstein-Barr病毒转化.md",
@@ -689,10 +687,19 @@
     "术语/Illumina测序.md",
     "术语/integrated haplotype score (iHS).md",
     "术语/k-mer.md",
+    "术语/Leigh综合征.md",
+    "术语/LINE-1 元件（Long Interspersed Nuclear Element-1）.md",
+    "术语/Max MAF.md",
+    "术语/MCAT基因（Mitochondrial Carnitine Acylcarnitine Carrier）.md",
+    "术语/MELAS综合症（Mitochondrial Encephalomyopathy, Lactic Acidosis, and Stroke-like Episodes）.md",
     "术语/MESH1.md",
     "术语/Oxford Nanopore Technologies牛津纳米孔测序技术 (ONT).md",
     "术语/Pacific Biosciences测序技术（SMRT,PacBio）.md",
+    "术语/PR结构域锌指蛋白9（PRDM9）.md",
     "术语/qpAdm.md",
+    "术语/rCRS（revised Cambridge Reference Sequence）.md",
+    "术语/RSRS（Reconstructed Sapiens Reference Sequence）.md",
+    "术语/S-腺苷甲硫氨酸 (SAM).md",
     "术语/singleton density score (SDS).md",
     "术语/t-分布随机近邻嵌入（t-Distributed Stochastic Neighbor Embedding,t-SNE）.md",
     "术语/Tajima’s D.md",
@@ -700,7 +707,9 @@
     "术语/Templeton Crandall Sing 算法（Templeton Crandall and Sing algorithm，TCS）.md",
     "术语/TfamOE（Over expression of TFAM）.md",
     "术语/TreeMix分析（TreeMix analysis）.md",
+    "术语/Twinkle基因（TWNK）.md",
     "术语/TwOE（Over expression of Twinkle）.md",
+    "术语/VAF.md",
     "术语/Watterson 估计量（θw）.md",
     "术语/Y-染色体结构.md",
     "术语/Y-DNA（Y-染色体）.md",
@@ -727,6 +736,7 @@
     "文献及报道/报道/解码2022年诺贝尔奖背后的古基因组学：“我们来自哪里？”.md",
     "文献及报道/报道/解析结构变异，Hi-C优势显著！.md",
     "文献及报道/报道/解析全球瘤牛的基因组遗传多样性、种间渗入和适应性进化.md",
+    "文献及报道/报道/距今约5000年大墓被发现！.md",
     "文献及报道/报道/灵长类进化中大猿特异的基因组结构变异及其对大猿创新表型起源的贡献.md",
     "文献及报道/报道/目前：线粒体研究的5大热点.md",
     "文献及报道/报道/苹果泛基因组.md",
@@ -776,6 +786,7 @@
     "文献及报道/文献/2015 NC 人群重测序揭示欧洲父系支系的近期大规模扩张.md",
     "文献及报道/文献/2017 MBE 撒丁岛人的线粒体基因组多样性.md",
     "文献及报道/文献/2018 遗传学杂志 遗传学视角下东亚人群的起源和演化.md",
+    "文献及报道/文献/2018 GB 关于转座因子您应该了解的十件事.md",
     "文献及报道/文献/2019 MBE 河流流域塑造了汉族的母系遗传景观.md",
     "文献及报道/文献/2019 NSR 新石器时代的粟（作）农（民）通过采用大麦农业为青藏高原的永久定居做出了贡献.md",
     "文献及报道/文献/2021 EJHG 完整的线粒体基因组记录了从欧亚草原到巴基斯坦北部印度-伊朗语使用者的巨大遗传贡献.md",
@@ -788,6 +799,7 @@
     "文献及报道/文献/2024 JGG 中国云南新石器时代至青铜时代的母系遗传史.md",
     "文献及报道/文献/2024 JGG 自然选择塑造了线粒体DNA支系在汉族人群中对抵御肥胖的保护作用.md",
     "文献及报道/文献/2024 MBE MtDNA基因组揭示了末次盛冰期后人口扩张过程中宽松的净化选择.md",
+    "文献及报道/文献/2024 MBE soibean：利用线粒体泛基因组图对古代环境 DNA 进行高分辨率分类鉴定.md",
     "文献及报道/文献/2024 NA 母亲年龄增强了哺乳动物 mtDNA 复合物 I 致病性突变的净化选择.md",
     "文献及报道/文献/2024 Nature 拉帕努伊人口历史被改写.md",
     "文献及报道/文献/2024 Nature 溶酶体驱动线粒体内膜的逐步去除.md",
@@ -909,6 +921,7 @@
     "文献及报道/文献汇报分享/2024年6月12日.md",
     "文献及报道/文献汇报分享/2024年9月13日会议摘要.md",
     "文献及报道/文献汇报分享/2024年9月29日：张亚平：家犬和人类的趋同进化的历程.md",
+    "文献及报道/文献汇报分享/如何进行文献阅读？.md",
     "文献及报道/文献汇报分享/思路：如何识别特定人群的特异性单倍群？.md",
     "Home/英文期刊投稿中的简写与状态解读.md",
     "Home/注意事项.md",
@@ -934,7 +947,28 @@
     "lib/fonts/05b618077343fbbd92b7.ttf",
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
     "lib/media/874d8b8e340f75575caa.svg",
-    "lib/media/3d6c1bdc4d87cde4de67.svg",
+    "lib/fonts/mathjax_zero.woff",
+    "lib/fonts/mathjax_main-regular.woff",
+    "lib/fonts/mathjax_main-bold.woff",
+    "lib/fonts/mathjax_math-italic.woff",
+    "lib/fonts/mathjax_main-italic.woff",
+    "lib/fonts/mathjax_math-bolditalic.woff",
+    "lib/fonts/mathjax_size1-regular.woff",
+    "lib/fonts/mathjax_size2-regular.woff",
+    "lib/fonts/mathjax_size3-regular.woff",
+    "lib/fonts/mathjax_size4-regular.woff",
+    "lib/fonts/mathjax_ams-regular.woff",
+    "lib/fonts/mathjax_calligraphic-regular.woff",
+    "lib/fonts/mathjax_calligraphic-bold.woff",
+    "lib/fonts/mathjax_fraktur-regular.woff",
+    "lib/fonts/mathjax_fraktur-bold.woff",
+    "lib/fonts/mathjax_sansserif-regular.woff",
+    "lib/fonts/mathjax_sansserif-bold.woff",
+    "lib/fonts/mathjax_sansserif-italic.woff",
+    "lib/fonts/mathjax_script-regular.woff",
+    "lib/fonts/mathjax_typewriter-regular.woff",
+    "lib/fonts/mathjax_vector-regular.woff",
+    "lib/fonts/mathjax_vector-bold.woff",
     "lib/html/file-tree.html",
     "lib/scripts/webpage.js",
     "lib/scripts/graph-view.js",
@@ -967,7 +1001,28 @@
     "lib/fonts/05b618077343fbbd92b7.ttf",
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
     "lib/media/874d8b8e340f75575caa.svg",
-    "lib/media/3d6c1bdc4d87cde4de67.svg",
+    "lib/fonts/mathjax_zero.woff",
+    "lib/fonts/mathjax_main-regular.woff",
+    "lib/fonts/mathjax_main-bold.woff",
+    "lib/fonts/mathjax_math-italic.woff",
+    "lib/fonts/mathjax_main-italic.woff",
+    "lib/fonts/mathjax_math-bolditalic.woff",
+    "lib/fonts/mathjax_size1-regular.woff",
+    "lib/fonts/mathjax_size2-regular.woff",
+    "lib/fonts/mathjax_size3-regular.woff",
+    "lib/fonts/mathjax_size4-regular.woff",
+    "lib/fonts/mathjax_ams-regular.woff",
+    "lib/fonts/mathjax_calligraphic-regular.woff",
+    "lib/fonts/mathjax_calligraphic-bold.woff",
+    "lib/fonts/mathjax_fraktur-regular.woff",
+    "lib/fonts/mathjax_fraktur-bold.woff",
+    "lib/fonts/mathjax_sansserif-regular.woff",
+    "lib/fonts/mathjax_sansserif-bold.woff",
+    "lib/fonts/mathjax_sansserif-italic.woff",
+    "lib/fonts/mathjax_script-regular.woff",
+    "lib/fonts/mathjax_typewriter-regular.woff",
+    "lib/fonts/mathjax_vector-regular.woff",
+    "lib/fonts/mathjax_vector-bold.woff",
     "lib/html/file-tree.html",
     "lib/scripts/webpage.js",
     "lib/scripts/graph-view.js",
@@ -985,528 +1040,6 @@
     "lib/styles/main-styles.css"
   ],
   "fileInfo": {
-    "疾病与基因/8-氧基脱氧鸟嘌呤（8-oxo-dG）.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 1185,
-      "exportedPath": "疾病与基因/8-氧基脱氧鸟嘌呤（8-oxo-dg）.html",
-      "dependencies": []
-    },
-    "疾病与基因/伴随删除的倒置重复Inverted duplication associated with a deletion.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 1067,
-      "exportedPath": "疾病与基因/伴随删除的倒置重复inverted-duplication-associated-with-a-deletion.html",
-      "dependencies": []
-    },
-    "疾病与基因/保守序列区块（CSBs）.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 1,
-      "exportedPath": "疾病与基因/保守序列区块（csbs）.html",
-      "dependencies": []
-    },
-    "疾病与基因/必需氨基酸 1.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 398,
-      "exportedPath": "疾病与基因/必需氨基酸-1.html",
-      "dependencies": []
-    },
-    "疾病与基因/表达定量性状位点（Expression Quantitative Trait Locus,eQTL）.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 435,
-      "exportedPath": "疾病与基因/表达定量性状位点（expression-quantitative-trait-locus,eqtl）.html",
-      "dependencies": []
-    },
-    "疾病与基因/丙二酰辅酶-A-辅酶蛋白质转移酶(malonyl-CoA-acyl carrier protein transacylase,MCAT) 1.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 614,
-      "exportedPath": "疾病与基因/丙二酰辅酶-a-辅酶蛋白质转移酶(malonyl-coa-acyl-carrier-protein-transacylase,mcat)-1.html",
-      "dependencies": []
-    },
-    "疾病与基因/并存实验（Parabiosis experiments）.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 205,
-      "exportedPath": "疾病与基因/并存实验（parabiosis-experiments）.html",
-      "dependencies": []
-    },
-    "疾病与基因/沉默突变.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 115,
-      "exportedPath": "疾病与基因/沉默突变.html",
-      "dependencies": []
-    },
-    "疾病与基因/成纤维细胞生长因子21（Fibroblast Growth Factor 21，FGF21）.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 493,
-      "exportedPath": "疾病与基因/成纤维细胞生长因子21（fibroblast-growth-factor-21，fgf21）.html",
-      "dependencies": []
-    },
-    "疾病与基因/从头NUMTs（De novo NUMTs）.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 417,
-      "exportedPath": "疾病与基因/从头numts（de-novo-numts）.html",
-      "dependencies": []
-    },
-    "疾病与基因/错义变异（Missense）.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 109,
-      "exportedPath": "疾病与基因/错义变异（missense）.html",
-      "dependencies": []
-    },
-    "疾病与基因/单链 DNA 结合蛋白 1（single stranded DNA binding protein 1 ，SSBP1） 1.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 2,
-      "exportedPath": "疾病与基因/单链-dna-结合蛋白-1（single-stranded-dna-binding-protein-1-，ssbp1）-1.html",
-      "dependencies": []
-    },
-    "疾病与基因/等位基因分数（allelic fractions）.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 102,
-      "exportedPath": "疾病与基因/等位基因分数（allelic-fractions）.html",
-      "dependencies": []
-    },
-    "疾病与基因/等位基因频谱(allele frequency spectrum,SFS).md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 10239,
-      "exportedPath": "疾病与基因/等位基因频谱(allele-frequency-spectrum,sfs).html",
-      "dependencies": []
-    },
-    "疾病与基因/颠换（transversion）.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 323,
-      "exportedPath": "疾病与基因/颠换（transversion）.html",
-      "dependencies": []
-    },
-    "疾病与基因/典型mtDNA变异.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 3833,
-      "exportedPath": "疾病与基因/典型mtdna变异.html",
-      "dependencies": []
-    },
-    "疾病与基因/非必须氨基酸 1.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 551,
-      "exportedPath": "疾病与基因/非必须氨基酸-1.html",
-      "dependencies": []
-    },
-    "疾病与基因/非同义突变（Non-Synonymous Mutation）.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 419,
-      "exportedPath": "疾病与基因/非同义突变（non-synonymous-mutation）.html",
-      "dependencies": []
-    },
-    "疾病与基因/冈崎片段（Okazaki frageme）.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 251,
-      "exportedPath": "疾病与基因/冈崎片段（okazaki-frageme）.html",
-      "dependencies": []
-    },
-    "疾病与基因/共定位.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 831,
-      "exportedPath": "疾病与基因/共定位.html",
-      "dependencies": []
-    },
-    "疾病与基因/过氧化物酶体增殖物激活受体γ共激活因子-1α（PGC-1α）.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 1864,
-      "exportedPath": "疾病与基因/过氧化物酶体增殖物激活受体γ共激活因子-1α（pgc-1α）.html",
-      "dependencies": []
-    },
-    "疾病与基因/核-线片段（NUMTs）.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 122,
-      "exportedPath": "疾病与基因/核-线片段（numts）.html",
-      "dependencies": []
-    },
-    "疾病与基因/核内复制机器1（Ribonucleotide Reductase Regulatory Subunit M1,RRM1) 1.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 282,
-      "exportedPath": "疾病与基因/核内复制机器1（ribonucleotide-reductase-regulatory-subunit-m1,rrm1)-1.html",
-      "dependencies": []
-    },
-    "疾病与基因/后期有丝分裂组织（post-mitotic tissues）.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 280,
-      "exportedPath": "疾病与基因/后期有丝分裂组织（post-mitotic-tissues）.html",
-      "dependencies": []
-    },
-    "疾病与基因/活性氧种(Reactive Oxygen Species,ROS).md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 729,
-      "exportedPath": "疾病与基因/活性氧种(reactive-oxygen-species,ros).html",
-      "dependencies": []
-    },
-    "疾病与基因/基因间区域（intergenic regions）.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 454,
-      "exportedPath": "疾病与基因/基因间区域（intergenic-regions）.html",
-      "dependencies": []
-    },
-    "疾病与基因/基因失活变异（Protein-truncating Loss-of-Function，pLoF）.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 55,
-      "exportedPath": "疾病与基因/基因失活变异（protein-truncating-loss-of-function，plof）.html",
-      "dependencies": []
-    },
-    "疾病与基因/基因水平转移（horizontal gene transfer，HGT）.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 3461,
-      "exportedPath": "疾病与基因/基因水平转移（horizontal-gene-transfer，hgt）.html",
-      "dependencies": []
-    },
-    "疾病与基因/嵴连接（Crista junction, CrJ）.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 734,
-      "exportedPath": "疾病与基因/嵴连接（crista-junction,-crj）.html",
-      "dependencies": []
-    },
-    "疾病与基因/甲基化.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 1972,
-      "exportedPath": "疾病与基因/甲基化.html",
-      "dependencies": []
-    },
-    "疾病与基因/结构变异（Structural Variations, SVs）的机制.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 2845,
-      "exportedPath": "疾病与基因/结构变异（structural-variations,-svs）的机制.html",
-      "dependencies": []
-    },
-    "疾病与基因/联合衍生等位基因频率谱（joint Derived Allele Frequency spectrum， joint DAF）.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 2342,
-      "exportedPath": "疾病与基因/联合衍生等位基因频率谱（joint-derived-allele-frequency-spectrum，-joint-daf）.html",
-      "dependencies": []
-    },
-    "疾病与基因/镰刀型细胞贫血病.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 2234,
-      "exportedPath": "疾病与基因/镰刀型细胞贫血病.html",
-      "dependencies": []
-    },
-    "疾病与基因/磷酸二羟丙酮.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 214,
-      "exportedPath": "疾病与基因/磷酸二羟丙酮.html",
-      "dependencies": []
-    },
-    "疾病与基因/硫酸乙酰肝素（Keratan sulfate，KS）.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 550,
-      "exportedPath": "疾病与基因/硫酸乙酰肝素（keratan-sulfate，ks）.html",
-      "dependencies": []
-    },
-    "疾病与基因/梅勒氏卡盘.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 1124,
-      "exportedPath": "疾病与基因/梅勒氏卡盘.html",
-      "dependencies": []
-    },
-    "疾病与基因/内含子.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 424,
-      "exportedPath": "疾病与基因/内含子.html",
-      "dependencies": []
-    },
-    "疾病与基因/内体隔室（Endosomal compartment）.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 1704,
-      "exportedPath": "疾病与基因/内体隔室（endosomal-compartment）.html",
-      "dependencies": []
-    },
-    "疾病与基因/嘌呤核苷酸磷酸化酶(Purine Nucleoside Phosphorylase,PNP).md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 317,
-      "exportedPath": "疾病与基因/嘌呤核苷酸磷酸化酶(purine-nucleoside-phosphorylase,pnp).html",
-      "dependencies": []
-    },
-    "疾病与基因/葡萄糖-6-磷酸脱氢酶缺乏症(Glucose-6-Phosphate Dehydrogenase deficiency, G6PDD）.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 1535,
-      "exportedPath": "疾病与基因/葡萄糖-6-磷酸脱氢酶缺乏症(glucose-6-phosphate-dehydrogenase-deficiency,-g6pdd）.html",
-      "dependencies": []
-    },
-    "疾病与基因/轻链启动子（Light Strand Promoter,LSP）.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 194,
-      "exportedPath": "疾病与基因/轻链启动子（light-strand-promoter,lsp）.html",
-      "dependencies": []
-    },
-    "疾病与基因/人类基因组计划二十年基石.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 9554,
-      "exportedPath": "疾病与基因/人类基因组计划二十年基石.html",
-      "dependencies": []
-    },
-    "疾病与基因/三羧酸循环（TCA）.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 3568,
-      "exportedPath": "疾病与基因/三羧酸循环（tca）.html",
-      "dependencies": []
-    },
-    "疾病与基因/生长分化因子15（Growth Differentiation Factor 15，GDF15）.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 457,
-      "exportedPath": "疾病与基因/生长分化因子15（growth-differentiation-factor-15，gdf15）.html",
-      "dependencies": []
-    },
-    "疾病与基因/失义或功能丧失（LoF）.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 1068,
-      "exportedPath": "疾病与基因/失义或功能丧失（lof）.html",
-      "dependencies": []
-    },
-    "疾病与基因/同义突变（Synonymous Mutation）.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 418,
-      "exportedPath": "疾病与基因/同义突变（synonymous-mutation）.html",
-      "dependencies": []
-    },
-    "疾病与基因/同源型变异.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 1044,
-      "exportedPath": "疾病与基因/同源型变异.html",
-      "dependencies": []
-    },
-    "疾病与基因/同源重组区域（recombination of homologous,ROH）.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 2249,
-      "exportedPath": "疾病与基因/同源重组区域（recombination-of-homologous,roh）.html",
-      "dependencies": []
-    },
-    "疾病与基因/微共线性（microsynteny）.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 187,
-      "exportedPath": "疾病与基因/微共线性（microsynteny）.html",
-      "dependencies": []
-    },
-    "疾病与基因/无嘌呤或无嘧啶核酸内切酶1（Apurinic ,Apyrimidinic Endonuclease 1,APEX1).md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 258,
-      "exportedPath": "疾病与基因/无嘌呤或无嘧啶核酸内切酶1（apurinic-,apyrimidinic-endonuclease-1,apex1).html",
-      "dependencies": []
-    },
-    "疾病与基因/细胞外囊泡（Extracellular Vesicle (EV)）.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 2352,
-      "exportedPath": "疾病与基因/细胞外囊泡（extracellular-vesicle-(ev)）.html",
-      "dependencies": []
-    },
-    "疾病与基因/线粒体的RSRS和rCRS的区别.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 2483,
-      "exportedPath": "疾病与基因/线粒体的rsrs和rcrs的区别.html",
-      "dependencies": []
-    },
-    "疾病与基因/线粒体呼吸链复合物I亚单位3（NADH Dehydrogenase Ubiquinone Flavoprotein 3,NDUFV3) 1.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 146,
-      "exportedPath": "疾病与基因/线粒体呼吸链复合物i亚单位3（nadh-dehydrogenase-ubiquinone-flavoprotein-3,ndufv3)-1.html",
-      "dependencies": []
-    },
-    "疾病与基因/线粒体基因组维护外切酶1(Mitochondrial Genome Maintenance Exonuclease 1，MGME1) 1.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 776,
-      "exportedPath": "疾病与基因/线粒体基因组维护外切酶1(mitochondrial-genome-maintenance-exonuclease-1，mgme1)-1.html",
-      "dependencies": []
-    },
-    "疾病与基因/线粒体融合蛋白2(Mitofusin 2,MFN2) 1.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 255,
-      "exportedPath": "疾病与基因/线粒体融合蛋白2(mitofusin-2,mfn2)-1.html",
-      "dependencies": []
-    },
-    "疾病与基因/线粒体树的标识符.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 2425,
-      "exportedPath": "疾病与基因/线粒体树的标识符.html",
-      "dependencies": []
-    },
-    "疾病与基因/线粒体转录因子A（Transcription Factor A Mitochondrial，TFAM）.md": {
-      "modifiedTime": 1726797692856,
-      "sourceSize": 412,
-      "exportedPath": "疾病与基因/线粒体转录因子a（transcription-factor-a-mitochondrial，tfam）.html",
-      "dependencies": []
-    },
-    "疾病与基因/线粒体DNA（mtDNA）.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 1,
-      "exportedPath": "疾病与基因/线粒体dna（mtdna）.html",
-      "dependencies": []
-    },
-    "疾病与基因/线粒体DNA（mtDNA）的突变定义规则.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 2506,
-      "exportedPath": "疾病与基因/线粒体dna（mtdna）的突变定义规则.html",
-      "dependencies": []
-    },
-    "疾病与基因/线粒体DNA编码、在细胞质中翻译的蛋白质（mtDNA-encoded protein arising from cytosolic translation，mPACT）.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 1,
-      "exportedPath": "疾病与基因/线粒体dna编码、在细胞质中翻译的蛋白质（mtdna-encoded-protein-arising-from-cytosolic-translation，mpact）.html",
-      "dependencies": []
-    },
-    "疾病与基因/线粒体DNA传播.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 2033,
-      "exportedPath": "疾病与基因/线粒体dna传播.html",
-      "dependencies": []
-    },
-    "疾病与基因/线粒体DNA结构（mt-DNA structure）.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 1177,
-      "exportedPath": "疾病与基因/线粒体dna结构（mt-dna-structure）.html",
-      "dependencies": []
-    },
-    "疾病与基因/线粒体DNA拷贝数（mtCN）.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 125,
-      "exportedPath": "疾病与基因/线粒体dna拷贝数（mtcn）.html",
-      "dependencies": []
-    },
-    "疾病与基因/限制性片段长度多态性（RFLP）.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 443,
-      "exportedPath": "疾病与基因/限制性片段长度多态性（rflp）.html",
-      "dependencies": []
-    },
-    "疾病与基因/氧化磷酸化系统调节蛋白1（Oxidative Phosphorylation System Regulator 1,OMA1） 1.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 898,
-      "exportedPath": "疾病与基因/氧化磷酸化系统调节蛋白1（oxidative-phosphorylation-system-regulator-1,oma1）-1.html",
-      "dependencies": []
-    },
-    "疾病与基因/异龄联合（heterochronic parabiosis）.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 82,
-      "exportedPath": "疾病与基因/异龄联合（heterochronic-parabiosis）.html",
-      "dependencies": []
-    },
-    "疾病与基因/英国生物银行（UK Biobank ,UKB）.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 688,
-      "exportedPath": "疾病与基因/英国生物银行（uk-biobank-,ukb）.html",
-      "dependencies": []
-    },
-    "疾病与基因/英国十万人基因组计划（100,000 Genomes Project in England）.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 455,
-      "exportedPath": "疾病与基因/英国十万人基因组计划（100,000-genomes-project-in-england）.html",
-      "dependencies": []
-    },
-    "疾病与基因/粘液样脂肪肉瘤（myxoid liposarcoma）.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 429,
-      "exportedPath": "疾病与基因/粘液样脂肪肉瘤（myxoid-liposarcoma）.html",
-      "dependencies": []
-    },
-    "疾病与基因/整合应激反应（integrated stress response (ISR).md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 2594,
-      "exportedPath": "疾病与基因/整合应激反应（integrated-stress-response-(isr).html",
-      "dependencies": []
-    },
-    "疾病与基因/直系同源基因（Orthologs）与旁系同源基因（Paralogs）.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 999,
-      "exportedPath": "疾病与基因/直系同源基因（orthologs）与旁系同源基因（paralogs）.html",
-      "dependencies": []
-    },
-    "疾病与基因/转换（transition）.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 314,
-      "exportedPath": "疾病与基因/转换（transition）.html",
-      "dependencies": []
-    },
-    "疾病与基因/转座酶可访问染色质测定（Assay for Transposase-Accessible Chromatin with high-throughput sequencing，ATAC-seq）.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 1621,
-      "exportedPath": "疾病与基因/转座酶可访问染色质测定（assay-for-transposase-accessible-chromatin-with-high-throughput-sequencing，atac-seq）.html",
-      "dependencies": []
-    },
-    "疾病与基因/转座元件（Transposable Elements）.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 268,
-      "exportedPath": "疾病与基因/转座元件（transposable-elements）.html",
-      "dependencies": []
-    },
-    "疾病与基因/最大等位基因频率（Maximum Minor Allele Frequency，Max MAF）.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 400,
-      "exportedPath": "疾病与基因/最大等位基因频率（maximum-minor-allele-frequency，max-maf）.html",
-      "dependencies": []
-    },
-    "疾病与基因/All of Us（AOU）.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 1,
-      "exportedPath": "疾病与基因/all-of-us（aou）.html",
-      "dependencies": []
-    },
-    "疾病与基因/DNA翻片（DNA flap）.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 911,
-      "exportedPath": "疾病与基因/dna翻片（dna-flap）.html",
-      "dependencies": []
-    },
-    "疾病与基因/Leigh综合征.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 807,
-      "exportedPath": "疾病与基因/leigh综合征.html",
-      "dependencies": []
-    },
-    "疾病与基因/Max MAF.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 400,
-      "exportedPath": "疾病与基因/max-maf.html",
-      "dependencies": []
-    },
-    "疾病与基因/MCAT基因（Mitochondrial Carnitine Acylcarnitine Carrier）.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 862,
-      "exportedPath": "疾病与基因/mcat基因（mitochondrial-carnitine-acylcarnitine-carrier）.html",
-      "dependencies": []
-    },
-    "疾病与基因/MELAS综合症（Mitochondrial Encephalomyopathy, Lactic Acidosis, and Stroke-like Episodes）.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 1092,
-      "exportedPath": "疾病与基因/melas综合症（mitochondrial-encephalomyopathy,-lactic-acidosis,-and-stroke-like-episodes）.html",
-      "dependencies": []
-    },
-    "疾病与基因/PR结构域锌指蛋白9（PRDM9）.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 909,
-      "exportedPath": "疾病与基因/pr结构域锌指蛋白9（prdm9）.html",
-      "dependencies": []
-    },
-    "疾病与基因/rCRS（revised Cambridge Reference Sequence）.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 430,
-      "exportedPath": "疾病与基因/rcrs（revised-cambridge-reference-sequence）.html",
-      "dependencies": []
-    },
-    "疾病与基因/RSRS（Reconstructed Sapiens Reference Sequence）.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 403,
-      "exportedPath": "疾病与基因/rsrs（reconstructed-sapiens-reference-sequence）.html",
-      "dependencies": []
-    },
-    "疾病与基因/S-腺苷甲硫氨酸 (SAM).md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 347,
-      "exportedPath": "疾病与基因/s-腺苷甲硫氨酸-(sam).html",
-      "dependencies": []
-    },
-    "疾病与基因/Twinkle基因（TWNK）.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 931,
-      "exportedPath": "疾病与基因/twinkle基因（twnk）.html",
-      "dependencies": []
-    },
-    "疾病与基因/VAF.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 87,
-      "exportedPath": "疾病与基因/vaf.html",
-      "dependencies": []
-    },
     "软件/Adobe illustrator绘图/第二节 倾斜工具.md": {
       "modifiedTime": 1721117767063,
       "sourceSize": 764,
@@ -3116,7 +2649,7 @@
       "dependencies": []
     },
     "术语/数据科学家 95 时间都在使用的 10 大基本分布.md": {
-      "modifiedTime": 1728960074794,
+      "modifiedTime": 1729482158155,
       "sourceSize": 10258,
       "exportedPath": "术语/数据科学家-95-时间都在使用的-10-大基本分布.html",
       "dependencies": []
@@ -3902,8 +3435,8 @@
       "dependencies": []
     },
     "文献及报道/报道/环状染色体是“不致病的”染色体 还是“致病的”染色体.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 34113,
+      "modifiedTime": 1729482158155,
+      "sourceSize": 34097,
       "exportedPath": "文献及报道/报道/环状染色体是“不致病的”染色体-还是“致病的”染色体.html",
       "dependencies": []
     },
@@ -4034,8 +3567,8 @@
       "dependencies": []
     },
     "文献及报道/报道/新研究发现线粒体可通过应激反应调控肺泡细胞命运.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 1798,
+      "modifiedTime": 1729482158155,
+      "sourceSize": 1782,
       "exportedPath": "文献及报道/报道/新研究发现线粒体可通过应激反应调控肺泡细胞命运.html",
       "dependencies": []
     },
@@ -4112,8 +3645,8 @@
       "dependencies": []
     },
     "文献及报道/文献/66,083个人类基因组中的核嵌入线粒体DNA序列.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 8709,
+      "modifiedTime": 1729482158155,
+      "sourceSize": 8645,
       "exportedPath": "文献及报道/文献/66,083个人类基因组中的核嵌入线粒体dna序列.html",
       "dependencies": []
     },
@@ -4364,8 +3897,8 @@
       "dependencies": []
     },
     "文献及报道/文献/墨西哥生物库推进不同祖先的人口和医学基因组学.md": {
-      "modifiedTime": 1726040526942,
-      "sourceSize": 14862,
+      "modifiedTime": 1729482158155,
+      "sourceSize": 14830,
       "exportedPath": "文献及报道/文献/墨西哥生物库推进不同祖先的人口和医学基因组学.html",
       "dependencies": []
     },
@@ -4484,8 +4017,8 @@
       "dependencies": []
     },
     "文献及报道/文献/体细胞核线粒体DNA插入在人脑中普遍存在，并随着时间的推移在成纤维细胞中积累.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 11382,
+      "modifiedTime": 1729482158155,
+      "sourceSize": 11350,
       "exportedPath": "文献及报道/文献/体细胞核线粒体dna插入在人脑中普遍存在，并随着时间的推移在成纤维细胞中积累.html",
       "dependencies": []
     },
@@ -4562,8 +4095,8 @@
       "dependencies": []
     },
     "文献及报道/文献/线粒体DNA基因组揭示了末次冰期末后人口扩张中选择性净化作用的松弛.md": {
-      "modifiedTime": 1721117767063,
-      "sourceSize": 7409,
+      "modifiedTime": 1729482158155,
+      "sourceSize": 7377,
       "exportedPath": "文献及报道/文献/线粒体dna基因组揭示了末次冰期末后人口扩张中选择性净化作用的松弛.html",
       "dependencies": []
     },
@@ -4898,91 +4431,91 @@
       "dependencies": []
     },
     "lib/scripts/graph-wasm.wasm": {
-      "modifiedTime": 1728960074794,
+      "modifiedTime": 1729482158155,
       "sourceSize": 23377,
       "exportedPath": "lib/scripts/graph-wasm.wasm",
       "dependencies": []
     },
     "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1728960074794,
+      "modifiedTime": 1729482158155,
       "sourceSize": 66800,
       "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
       "dependencies": []
     },
     "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1728960074794,
+      "modifiedTime": 1729482158155,
       "sourceSize": 104232,
       "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
       "dependencies": []
     },
     "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1728960074794,
+      "modifiedTime": 1729482158155,
       "sourceSize": 104332,
       "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
       "dependencies": []
     },
     "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1728960074794,
+      "modifiedTime": 1729482158155,
       "sourceSize": 98868,
       "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
       "dependencies": []
     },
     "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1728960074794,
+      "modifiedTime": 1729482158155,
       "sourceSize": 106876,
       "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
       "dependencies": []
     },
     "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1728960074794,
+      "modifiedTime": 1729482158155,
       "sourceSize": 105804,
       "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
       "dependencies": []
     },
     "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1728960074794,
+      "modifiedTime": 1729482158155,
       "sourceSize": 106108,
       "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
       "dependencies": []
     },
     "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1728960074794,
+      "modifiedTime": 1729482158155,
       "sourceSize": 111708,
       "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
       "dependencies": []
     },
     "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1728960074794,
+      "modifiedTime": 1729482158155,
       "sourceSize": 192740,
       "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
       "dependencies": []
     },
     "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1728960074794,
+      "modifiedTime": 1729482158155,
       "sourceSize": 161376,
       "exportedPath": "lib/fonts/454577c22304619db035.ttf",
       "dependencies": []
     },
     "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1728960074794,
+      "modifiedTime": 1729482158155,
       "sourceSize": 191568,
       "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
       "dependencies": []
     },
     "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1728960074794,
+      "modifiedTime": 1729482158155,
       "sourceSize": 155288,
       "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
       "dependencies": []
     },
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1728960074794,
+      "modifiedTime": 1729482158155,
       "sourceSize": 7876,
       "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
       "dependencies": []
     },
     "lib/media/874d8b8e340f75575caa.svg": {
-      "modifiedTime": 1728960074794,
+      "modifiedTime": 1729482158155,
       "sourceSize": 317,
       "exportedPath": "lib/media/874d8b8e340f75575caa.svg",
       "dependencies": []
@@ -4994,200 +4527,200 @@
       "dependencies": []
     },
     "lib/fonts/mathjax_zero.woff": {
-      "modifiedTime": 1728484886815,
+      "modifiedTime": 1729482158155,
       "sourceSize": 1368,
       "exportedPath": "lib/fonts/mathjax_zero.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_main-regular.woff": {
-      "modifiedTime": 1728484886815,
+      "modifiedTime": 1729482158155,
       "sourceSize": 34160,
       "exportedPath": "lib/fonts/mathjax_main-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_main-bold.woff": {
-      "modifiedTime": 1728484886815,
+      "modifiedTime": 1729482158155,
       "sourceSize": 34464,
       "exportedPath": "lib/fonts/mathjax_main-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_math-italic.woff": {
-      "modifiedTime": 1728484886815,
+      "modifiedTime": 1729482158155,
       "sourceSize": 19360,
       "exportedPath": "lib/fonts/mathjax_math-italic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_main-italic.woff": {
-      "modifiedTime": 1728484886815,
+      "modifiedTime": 1729482158155,
       "sourceSize": 20832,
       "exportedPath": "lib/fonts/mathjax_main-italic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_math-bolditalic.woff": {
-      "modifiedTime": 1728484886815,
+      "modifiedTime": 1729482158155,
       "sourceSize": 19776,
       "exportedPath": "lib/fonts/mathjax_math-bolditalic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size1-regular.woff": {
-      "modifiedTime": 1728484886815,
+      "modifiedTime": 1729482158155,
       "sourceSize": 5792,
       "exportedPath": "lib/fonts/mathjax_size1-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size2-regular.woff": {
-      "modifiedTime": 1728484886815,
+      "modifiedTime": 1729482158155,
       "sourceSize": 5464,
       "exportedPath": "lib/fonts/mathjax_size2-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size3-regular.woff": {
-      "modifiedTime": 1728484886815,
+      "modifiedTime": 1729482158155,
       "sourceSize": 3244,
       "exportedPath": "lib/fonts/mathjax_size3-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size4-regular.woff": {
-      "modifiedTime": 1728484886815,
+      "modifiedTime": 1729482158155,
       "sourceSize": 5148,
       "exportedPath": "lib/fonts/mathjax_size4-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_ams-regular.woff": {
-      "modifiedTime": 1728484886815,
+      "modifiedTime": 1729482158155,
       "sourceSize": 40808,
       "exportedPath": "lib/fonts/mathjax_ams-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_calligraphic-regular.woff": {
-      "modifiedTime": 1728484886815,
+      "modifiedTime": 1729482158155,
       "sourceSize": 9600,
       "exportedPath": "lib/fonts/mathjax_calligraphic-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_calligraphic-bold.woff": {
-      "modifiedTime": 1728484886815,
+      "modifiedTime": 1729482158155,
       "sourceSize": 9908,
       "exportedPath": "lib/fonts/mathjax_calligraphic-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_fraktur-regular.woff": {
-      "modifiedTime": 1728484886815,
+      "modifiedTime": 1729482158155,
       "sourceSize": 21480,
       "exportedPath": "lib/fonts/mathjax_fraktur-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_fraktur-bold.woff": {
-      "modifiedTime": 1728484886815,
+      "modifiedTime": 1729482158155,
       "sourceSize": 22340,
       "exportedPath": "lib/fonts/mathjax_fraktur-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_sansserif-regular.woff": {
-      "modifiedTime": 1728484886815,
+      "modifiedTime": 1729482158155,
       "sourceSize": 12660,
       "exportedPath": "lib/fonts/mathjax_sansserif-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_sansserif-bold.woff": {
-      "modifiedTime": 1728484886815,
+      "modifiedTime": 1729482158155,
       "sourceSize": 15944,
       "exportedPath": "lib/fonts/mathjax_sansserif-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_sansserif-italic.woff": {
-      "modifiedTime": 1728484886815,
+      "modifiedTime": 1729482158155,
       "sourceSize": 14628,
       "exportedPath": "lib/fonts/mathjax_sansserif-italic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_script-regular.woff": {
-      "modifiedTime": 1728484886815,
+      "modifiedTime": 1729482158155,
       "sourceSize": 11852,
       "exportedPath": "lib/fonts/mathjax_script-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_typewriter-regular.woff": {
-      "modifiedTime": 1728484886815,
+      "modifiedTime": 1729482158155,
       "sourceSize": 17604,
       "exportedPath": "lib/fonts/mathjax_typewriter-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_vector-regular.woff": {
-      "modifiedTime": 1728484886815,
+      "modifiedTime": 1729482158155,
       "sourceSize": 1136,
       "exportedPath": "lib/fonts/mathjax_vector-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_vector-bold.woff": {
-      "modifiedTime": 1728484886815,
+      "modifiedTime": 1729482158155,
       "sourceSize": 1116,
       "exportedPath": "lib/fonts/mathjax_vector-bold.woff",
       "dependencies": []
     },
     "lib/html/file-tree.html": {
-      "modifiedTime": 1728960074794,
-      "sourceSize": 356157,
+      "modifiedTime": 1729482158155,
+      "sourceSize": 360524,
       "exportedPath": "lib/html/file-tree.html",
       "dependencies": []
     },
     "lib/scripts/webpage.js": {
-      "modifiedTime": 1728960074794,
+      "modifiedTime": 1729482158155,
       "sourceSize": 47290,
       "exportedPath": "lib/scripts/webpage.js",
       "dependencies": []
     },
     "lib/scripts/graph-view.js": {
-      "modifiedTime": 1728960074794,
+      "modifiedTime": 1729482158155,
       "sourceSize": 15519,
       "exportedPath": "lib/scripts/graph-view.js",
       "dependencies": []
     },
     "lib/scripts/graph-wasm.js": {
-      "modifiedTime": 1728960074794,
+      "modifiedTime": 1729482158155,
       "sourceSize": 14021,
       "exportedPath": "lib/scripts/graph-wasm.js",
       "dependencies": []
     },
     "lib/scripts/graph-render-worker.js": {
-      "modifiedTime": 1728960074794,
+      "modifiedTime": 1729482158155,
       "sourceSize": 5179,
       "exportedPath": "lib/scripts/graph-render-worker.js",
       "dependencies": []
     },
     "lib/scripts/tinycolor.js": {
-      "modifiedTime": 1728960074794,
+      "modifiedTime": 1729482158155,
       "sourceSize": 29832,
       "exportedPath": "lib/scripts/tinycolor.js",
       "dependencies": []
     },
     "lib/scripts/pixi.js": {
-      "modifiedTime": 1728960074794,
+      "modifiedTime": 1729482158155,
       "sourceSize": 449509,
       "exportedPath": "lib/scripts/pixi.js",
       "dependencies": []
     },
     "lib/scripts/minisearch.js": {
-      "modifiedTime": 1728960074794,
+      "modifiedTime": 1729482158155,
       "sourceSize": 29422,
       "exportedPath": "lib/scripts/minisearch.js",
       "dependencies": []
     },
     "lib/media/favicon.png": {
-      "modifiedTime": 1728960074794,
+      "modifiedTime": 1729482158155,
       "sourceSize": 1105,
       "exportedPath": "lib/media/favicon.png",
       "dependencies": []
     },
     "lib/scripts/graph-data.js": {
-      "modifiedTime": 1728960074794,
-      "sourceSize": 76160,
+      "modifiedTime": 1729482158155,
+      "sourceSize": 77254,
       "exportedPath": "lib/scripts/graph-data.js",
       "dependencies": []
     },
     "lib/styles/obsidian.css": {
-      "modifiedTime": 1728960074794,
-      "sourceSize": 130471,
+      "modifiedTime": 1729482158155,
+      "sourceSize": 131134,
       "exportedPath": "lib/styles/obsidian.css",
       "dependencies": []
     },
@@ -5198,33 +4731,27 @@
       "dependencies": []
     },
     "lib/styles/theme.css": {
-      "modifiedTime": 1728960074794,
+      "modifiedTime": 1729482158155,
       "sourceSize": 228400,
       "exportedPath": "lib/styles/theme.css",
       "dependencies": []
     },
     "lib/styles/global-variable-styles.css": {
-      "modifiedTime": 1728960074794,
+      "modifiedTime": 1729482158155,
       "sourceSize": 575,
       "exportedPath": "lib/styles/global-variable-styles.css",
       "dependencies": []
     },
     "lib/styles/supported-plugins.css": {
-      "modifiedTime": 1728960074794,
+      "modifiedTime": 1729482158155,
       "sourceSize": 983,
       "exportedPath": "lib/styles/supported-plugins.css",
       "dependencies": []
     },
     "lib/styles/main-styles.css": {
-      "modifiedTime": 1728960074794,
+      "modifiedTime": 1729482158155,
       "sourceSize": 23130,
       "exportedPath": "lib/styles/main-styles.css",
-      "dependencies": []
-    },
-    "疾病与基因/溯祖理论（coalescent theory）.md": {
-      "modifiedTime": 1721188787163,
-      "sourceSize": 270,
-      "exportedPath": "疾病与基因/溯祖理论（coalescent-theory）.html",
       "dependencies": []
     },
     "文献及报道/文献/2011 PNAS 农业起源后全球人口迅速扩张.md": {
@@ -6785,6 +6312,612 @@
       "modifiedTime": 1728831026420,
       "sourceSize": 9574,
       "exportedPath": "文献及报道/文献/2021-sciadv-古代中国新疆线粒体基因组揭示了塑造高度遗传多样性的强烈混合.html",
+      "dependencies": []
+    },
+    "术语/8-氧基脱氧鸟嘌呤（8-oxo-dG）.md": {
+      "modifiedTime": 1729482158155,
+      "sourceSize": 1185,
+      "exportedPath": "术语/8-氧基脱氧鸟嘌呤（8-oxo-dg）.html",
+      "dependencies": []
+    },
+    "术语/伴随删除的倒置重复Inverted duplication associated with a deletion.md": {
+      "modifiedTime": 1729482158155,
+      "sourceSize": 1067,
+      "exportedPath": "术语/伴随删除的倒置重复inverted-duplication-associated-with-a-deletion.html",
+      "dependencies": []
+    },
+    "术语/保守序列区块（CSBs）.md": {
+      "modifiedTime": 1729482158155,
+      "sourceSize": 1,
+      "exportedPath": "术语/保守序列区块（csbs）.html",
+      "dependencies": []
+    },
+    "术语/必需氨基酸 1.md": {
+      "modifiedTime": 1729482158155,
+      "sourceSize": 398,
+      "exportedPath": "术语/必需氨基酸-1.html",
+      "dependencies": []
+    },
+    "术语/表达定量性状位点（Expression Quantitative Trait Locus,eQTL）.md": {
+      "modifiedTime": 1729482158155,
+      "sourceSize": 435,
+      "exportedPath": "术语/表达定量性状位点（expression-quantitative-trait-locus,eqtl）.html",
+      "dependencies": []
+    },
+    "术语/丙二酰辅酶-A-辅酶蛋白质转移酶(malonyl-CoA-acyl carrier protein transacylase,MCAT) 1.md": {
+      "modifiedTime": 1729482158155,
+      "sourceSize": 614,
+      "exportedPath": "术语/丙二酰辅酶-a-辅酶蛋白质转移酶(malonyl-coa-acyl-carrier-protein-transacylase,mcat)-1.html",
+      "dependencies": []
+    },
+    "术语/并存实验（Parabiosis experiments）.md": {
+      "modifiedTime": 1729482158155,
+      "sourceSize": 205,
+      "exportedPath": "术语/并存实验（parabiosis-experiments）.html",
+      "dependencies": []
+    },
+    "术语/沉默突变.md": {
+      "modifiedTime": 1729482158155,
+      "sourceSize": 99,
+      "exportedPath": "术语/沉默突变.html",
+      "dependencies": []
+    },
+    "术语/成纤维细胞生长因子21（Fibroblast Growth Factor 21，FGF21）.md": {
+      "modifiedTime": 1729482158155,
+      "sourceSize": 493,
+      "exportedPath": "术语/成纤维细胞生长因子21（fibroblast-growth-factor-21，fgf21）.html",
+      "dependencies": []
+    },
+    "术语/从头NUMTs（De novo NUMTs）.md": {
+      "modifiedTime": 1729482158155,
+      "sourceSize": 417,
+      "exportedPath": "术语/从头numts（de-novo-numts）.html",
+      "dependencies": []
+    },
+    "术语/错义变异（Missense）.md": {
+      "modifiedTime": 1729482158155,
+      "sourceSize": 109,
+      "exportedPath": "术语/错义变异（missense）.html",
+      "dependencies": []
+    },
+    "术语/单链 DNA 结合蛋白 1（single stranded DNA binding protein 1 ，SSBP1） 1.md": {
+      "modifiedTime": 1729482158155,
+      "sourceSize": 2,
+      "exportedPath": "术语/单链-dna-结合蛋白-1（single-stranded-dna-binding-protein-1-，ssbp1）-1.html",
+      "dependencies": []
+    },
+    "术语/等位基因分数（allelic fractions）.md": {
+      "modifiedTime": 1729482158155,
+      "sourceSize": 102,
+      "exportedPath": "术语/等位基因分数（allelic-fractions）.html",
+      "dependencies": []
+    },
+    "术语/等位基因频谱(allele frequency spectrum,SFS).md": {
+      "modifiedTime": 1729482158155,
+      "sourceSize": 10239,
+      "exportedPath": "术语/等位基因频谱(allele-frequency-spectrum,sfs).html",
+      "dependencies": []
+    },
+    "术语/颠换（transversion）.md": {
+      "modifiedTime": 1729482158155,
+      "sourceSize": 323,
+      "exportedPath": "术语/颠换（transversion）.html",
+      "dependencies": []
+    },
+    "术语/典型mtDNA变异.md": {
+      "modifiedTime": 1729482158155,
+      "sourceSize": 3833,
+      "exportedPath": "术语/典型mtdna变异.html",
+      "dependencies": []
+    },
+    "术语/短散布核元件(Short Interspersed Nuclear Elements, SINEs).md": {
+      "modifiedTime": 1729482158155,
+      "sourceSize": 833,
+      "exportedPath": "术语/短散布核元件(short-interspersed-nuclear-elements,-sines).html",
+      "dependencies": []
+    },
+    "术语/非必须氨基酸 1.md": {
+      "modifiedTime": 1729482158155,
+      "sourceSize": 551,
+      "exportedPath": "术语/非必须氨基酸-1.html",
+      "dependencies": []
+    },
+    "术语/非同义突变（Non-Synonymous Mutation）.md": {
+      "modifiedTime": 1729482158155,
+      "sourceSize": 419,
+      "exportedPath": "术语/非同义突变（non-synonymous-mutation）.html",
+      "dependencies": []
+    },
+    "术语/冈崎片段（Okazaki frageme）.md": {
+      "modifiedTime": 1729482158155,
+      "sourceSize": 251,
+      "exportedPath": "术语/冈崎片段（okazaki-frageme）.html",
+      "dependencies": []
+    },
+    "术语/共定位.md": {
+      "modifiedTime": 1729482158155,
+      "sourceSize": 831,
+      "exportedPath": "术语/共定位.html",
+      "dependencies": []
+    },
+    "术语/古环境DNA (Ancient environmental DNA, aeDNA).md": {
+      "modifiedTime": 1729482158155,
+      "sourceSize": 1219,
+      "exportedPath": "术语/古环境dna-(ancient-environmental-dna,-aedna).html",
+      "dependencies": []
+    },
+    "术语/过氧化物酶体增殖物激活受体γ共激活因子-1α（PGC-1α）.md": {
+      "modifiedTime": 1729482158155,
+      "sourceSize": 1864,
+      "exportedPath": "术语/过氧化物酶体增殖物激活受体γ共激活因子-1α（pgc-1α）.html",
+      "dependencies": []
+    },
+    "术语/核-线片段（NUMTs）.md": {
+      "modifiedTime": 1729482158155,
+      "sourceSize": 122,
+      "exportedPath": "术语/核-线片段（numts）.html",
+      "dependencies": []
+    },
+    "术语/核内复制机器1（Ribonucleotide Reductase Regulatory Subunit M1,RRM1) 1.md": {
+      "modifiedTime": 1729482158155,
+      "sourceSize": 282,
+      "exportedPath": "术语/核内复制机器1（ribonucleotide-reductase-regulatory-subunit-m1,rrm1)-1.html",
+      "dependencies": []
+    },
+    "术语/后期有丝分裂组织（post-mitotic tissues）.md": {
+      "modifiedTime": 1729482158155,
+      "sourceSize": 280,
+      "exportedPath": "术语/后期有丝分裂组织（post-mitotic-tissues）.html",
+      "dependencies": []
+    },
+    "术语/活性氧种(Reactive Oxygen Species,ROS).md": {
+      "modifiedTime": 1729482158155,
+      "sourceSize": 729,
+      "exportedPath": "术语/活性氧种(reactive-oxygen-species,ros).html",
+      "dependencies": []
+    },
+    "术语/基因间区域（intergenic regions）.md": {
+      "modifiedTime": 1729482158155,
+      "sourceSize": 454,
+      "exportedPath": "术语/基因间区域（intergenic-regions）.html",
+      "dependencies": []
+    },
+    "术语/基因失活变异（Protein-truncating Loss-of-Function，pLoF）.md": {
+      "modifiedTime": 1729482158155,
+      "sourceSize": 55,
+      "exportedPath": "术语/基因失活变异（protein-truncating-loss-of-function，plof）.html",
+      "dependencies": []
+    },
+    "术语/基因适应（Exaptation）.md": {
+      "modifiedTime": 1729482158155,
+      "sourceSize": 414,
+      "exportedPath": "术语/基因适应（exaptation）.html",
+      "dependencies": []
+    },
+    "术语/基因水平转移（horizontal gene transfer，HGT）.md": {
+      "modifiedTime": 1729482158155,
+      "sourceSize": 3461,
+      "exportedPath": "术语/基因水平转移（horizontal-gene-transfer，hgt）.html",
+      "dependencies": []
+    },
+    "术语/嵴连接（Crista junction, CrJ）.md": {
+      "modifiedTime": 1729482158155,
+      "sourceSize": 734,
+      "exportedPath": "术语/嵴连接（crista-junction,-crj）.html",
+      "dependencies": []
+    },
+    "术语/甲基化.md": {
+      "modifiedTime": 1729482158155,
+      "sourceSize": 1972,
+      "exportedPath": "术语/甲基化.html",
+      "dependencies": []
+    },
+    "术语/结构变异（Structural Variations, SVs）的机制.md": {
+      "modifiedTime": 1729482158155,
+      "sourceSize": 2845,
+      "exportedPath": "术语/结构变异（structural-variations,-svs）的机制.html",
+      "dependencies": []
+    },
+    "术语/联合衍生等位基因频率谱（joint Derived Allele Frequency spectrum， joint DAF）.md": {
+      "modifiedTime": 1729482158155,
+      "sourceSize": 2342,
+      "exportedPath": "术语/联合衍生等位基因频率谱（joint-derived-allele-frequency-spectrum，-joint-daf）.html",
+      "dependencies": []
+    },
+    "术语/镰刀型细胞贫血病.md": {
+      "modifiedTime": 1729482158155,
+      "sourceSize": 2234,
+      "exportedPath": "术语/镰刀型细胞贫血病.html",
+      "dependencies": []
+    },
+    "术语/磷酸二羟丙酮.md": {
+      "modifiedTime": 1729482158155,
+      "sourceSize": 214,
+      "exportedPath": "术语/磷酸二羟丙酮.html",
+      "dependencies": []
+    },
+    "术语/硫酸乙酰肝素（Keratan sulfate，KS）.md": {
+      "modifiedTime": 1729482158155,
+      "sourceSize": 550,
+      "exportedPath": "术语/硫酸乙酰肝素（keratan-sulfate，ks）.html",
+      "dependencies": []
+    },
+    "术语/梅勒氏卡盘.md": {
+      "modifiedTime": 1729482158155,
+      "sourceSize": 1124,
+      "exportedPath": "术语/梅勒氏卡盘.html",
+      "dependencies": []
+    },
+    "术语/内含子.md": {
+      "modifiedTime": 1729482158155,
+      "sourceSize": 424,
+      "exportedPath": "术语/内含子.html",
+      "dependencies": []
+    },
+    "术语/内体隔室（Endosomal compartment）.md": {
+      "modifiedTime": 1729482158155,
+      "sourceSize": 1704,
+      "exportedPath": "术语/内体隔室（endosomal-compartment）.html",
+      "dependencies": []
+    },
+    "术语/嘌呤核苷酸磷酸化酶(Purine Nucleoside Phosphorylase,PNP).md": {
+      "modifiedTime": 1729482158155,
+      "sourceSize": 317,
+      "exportedPath": "术语/嘌呤核苷酸磷酸化酶(purine-nucleoside-phosphorylase,pnp).html",
+      "dependencies": []
+    },
+    "术语/葡萄糖-6-磷酸脱氢酶缺乏症(Glucose-6-Phosphate Dehydrogenase deficiency, G6PDD）.md": {
+      "modifiedTime": 1729482158155,
+      "sourceSize": 1535,
+      "exportedPath": "术语/葡萄糖-6-磷酸脱氢酶缺乏症(glucose-6-phosphate-dehydrogenase-deficiency,-g6pdd）.html",
+      "dependencies": []
+    },
+    "术语/轻链启动子（Light Strand Promoter,LSP）.md": {
+      "modifiedTime": 1729482158155,
+      "sourceSize": 194,
+      "exportedPath": "术语/轻链启动子（light-strand-promoter,lsp）.html",
+      "dependencies": []
+    },
+    "术语/人类基因组计划二十年基石.md": {
+      "modifiedTime": 1729482158155,
+      "sourceSize": 9554,
+      "exportedPath": "术语/人类基因组计划二十年基石.html",
+      "dependencies": []
+    },
+    "术语/三羧酸循环（TCA）.md": {
+      "modifiedTime": 1729482158155,
+      "sourceSize": 3568,
+      "exportedPath": "术语/三羧酸循环（tca）.html",
+      "dependencies": []
+    },
+    "术语/生长分化因子15（Growth Differentiation Factor 15，GDF15）.md": {
+      "modifiedTime": 1729482158155,
+      "sourceSize": 457,
+      "exportedPath": "术语/生长分化因子15（growth-differentiation-factor-15，gdf15）.html",
+      "dependencies": []
+    },
+    "术语/失义或功能丧失（LoF）.md": {
+      "modifiedTime": 1729482158155,
+      "sourceSize": 1068,
+      "exportedPath": "术语/失义或功能丧失（lof）.html",
+      "dependencies": []
+    },
+    "术语/溯祖理论（coalescent theory）.md": {
+      "modifiedTime": 1729482158155,
+      "sourceSize": 270,
+      "exportedPath": "术语/溯祖理论（coalescent-theory）.html",
+      "dependencies": []
+    },
+    "术语/同义突变（Synonymous Mutation）.md": {
+      "modifiedTime": 1729482158155,
+      "sourceSize": 402,
+      "exportedPath": "术语/同义突变（synonymous-mutation）.html",
+      "dependencies": []
+    },
+    "术语/同源型变异.md": {
+      "modifiedTime": 1729482158155,
+      "sourceSize": 1044,
+      "exportedPath": "术语/同源型变异.html",
+      "dependencies": []
+    },
+    "术语/同源重组区域（recombination of homologous,ROH）.md": {
+      "modifiedTime": 1729482158155,
+      "sourceSize": 2249,
+      "exportedPath": "术语/同源重组区域（recombination-of-homologous,roh）.html",
+      "dependencies": []
+    },
+    "术语/微共线性（microsynteny）.md": {
+      "modifiedTime": 1729482158155,
+      "sourceSize": 187,
+      "exportedPath": "术语/微共线性（microsynteny）.html",
+      "dependencies": []
+    },
+    "术语/无嘌呤或无嘧啶核酸内切酶1（Apurinic ,Apyrimidinic Endonuclease 1,APEX1).md": {
+      "modifiedTime": 1729482158155,
+      "sourceSize": 258,
+      "exportedPath": "术语/无嘌呤或无嘧啶核酸内切酶1（apurinic-,apyrimidinic-endonuclease-1,apex1).html",
+      "dependencies": []
+    },
+    "术语/细胞外囊泡（Extracellular Vesicle (EV)）.md": {
+      "modifiedTime": 1729482158155,
+      "sourceSize": 2352,
+      "exportedPath": "术语/细胞外囊泡（extracellular-vesicle-(ev)）.html",
+      "dependencies": []
+    },
+    "术语/线粒体的RSRS和rCRS的区别.md": {
+      "modifiedTime": 1729482158155,
+      "sourceSize": 2483,
+      "exportedPath": "术语/线粒体的rsrs和rcrs的区别.html",
+      "dependencies": []
+    },
+    "术语/线粒体呼吸链复合物I亚单位3（NADH Dehydrogenase Ubiquinone Flavoprotein 3,NDUFV3) 1.md": {
+      "modifiedTime": 1729482158155,
+      "sourceSize": 146,
+      "exportedPath": "术语/线粒体呼吸链复合物i亚单位3（nadh-dehydrogenase-ubiquinone-flavoprotein-3,ndufv3)-1.html",
+      "dependencies": []
+    },
+    "术语/线粒体基因组维护外切酶1(Mitochondrial Genome Maintenance Exonuclease 1，MGME1) 1.md": {
+      "modifiedTime": 1729482158155,
+      "sourceSize": 776,
+      "exportedPath": "术语/线粒体基因组维护外切酶1(mitochondrial-genome-maintenance-exonuclease-1，mgme1)-1.html",
+      "dependencies": []
+    },
+    "术语/线粒体融合蛋白2(Mitofusin 2,MFN2) 1.md": {
+      "modifiedTime": 1729482158155,
+      "sourceSize": 255,
+      "exportedPath": "术语/线粒体融合蛋白2(mitofusin-2,mfn2)-1.html",
+      "dependencies": []
+    },
+    "术语/线粒体树的标识符.md": {
+      "modifiedTime": 1729482158155,
+      "sourceSize": 2425,
+      "exportedPath": "术语/线粒体树的标识符.html",
+      "dependencies": []
+    },
+    "术语/线粒体转录因子A（Transcription Factor A Mitochondrial，TFAM）.md": {
+      "modifiedTime": 1729482158155,
+      "sourceSize": 412,
+      "exportedPath": "术语/线粒体转录因子a（transcription-factor-a-mitochondrial，tfam）.html",
+      "dependencies": []
+    },
+    "术语/线粒体DNA（mtDNA）.md": {
+      "modifiedTime": 1729482158155,
+      "sourceSize": 1,
+      "exportedPath": "术语/线粒体dna（mtdna）.html",
+      "dependencies": []
+    },
+    "术语/线粒体DNA（mtDNA）的突变定义规则.md": {
+      "modifiedTime": 1729482158155,
+      "sourceSize": 2506,
+      "exportedPath": "术语/线粒体dna（mtdna）的突变定义规则.html",
+      "dependencies": []
+    },
+    "术语/线粒体DNA编码、在细胞质中翻译的蛋白质（mtDNA-encoded protein arising from cytosolic translation，mPACT）.md": {
+      "modifiedTime": 1729482158155,
+      "sourceSize": 1,
+      "exportedPath": "术语/线粒体dna编码、在细胞质中翻译的蛋白质（mtdna-encoded-protein-arising-from-cytosolic-translation，mpact）.html",
+      "dependencies": []
+    },
+    "术语/线粒体DNA传播.md": {
+      "modifiedTime": 1729482158155,
+      "sourceSize": 2033,
+      "exportedPath": "术语/线粒体dna传播.html",
+      "dependencies": []
+    },
+    "术语/线粒体DNA结构（mt-DNA structure）.md": {
+      "modifiedTime": 1729482158155,
+      "sourceSize": 1177,
+      "exportedPath": "术语/线粒体dna结构（mt-dna-structure）.html",
+      "dependencies": []
+    },
+    "术语/线粒体DNA拷贝数（mtCN）.md": {
+      "modifiedTime": 1729482158155,
+      "sourceSize": 125,
+      "exportedPath": "术语/线粒体dna拷贝数（mtcn）.html",
+      "dependencies": []
+    },
+    "术语/限制性片段长度多态性（RFLP）.md": {
+      "modifiedTime": 1729482158155,
+      "sourceSize": 443,
+      "exportedPath": "术语/限制性片段长度多态性（rflp）.html",
+      "dependencies": []
+    },
+    "术语/相近物种混合样本（species mixtures from closely related species）.md": {
+      "modifiedTime": 1729482158155,
+      "sourceSize": 158,
+      "exportedPath": "术语/相近物种混合样本（species-mixtures-from-closely-related-species）.html",
+      "dependencies": []
+    },
+    "术语/氧化磷酸化系统调节蛋白1（Oxidative Phosphorylation System Regulator 1,OMA1） 1.md": {
+      "modifiedTime": 1729482158155,
+      "sourceSize": 898,
+      "exportedPath": "术语/氧化磷酸化系统调节蛋白1（oxidative-phosphorylation-system-regulator-1,oma1）-1.html",
+      "dependencies": []
+    },
+    "术语/异龄联合（heterochronic parabiosis）.md": {
+      "modifiedTime": 1729482158155,
+      "sourceSize": 82,
+      "exportedPath": "术语/异龄联合（heterochronic-parabiosis）.html",
+      "dependencies": []
+    },
+    "术语/英国生物银行（UK Biobank ,UKB）.md": {
+      "modifiedTime": 1729482158155,
+      "sourceSize": 688,
+      "exportedPath": "术语/英国生物银行（uk-biobank-,ukb）.html",
+      "dependencies": []
+    },
+    "术语/英国十万人基因组计划（100,000 Genomes Project in England）.md": {
+      "modifiedTime": 1729482158155,
+      "sourceSize": 455,
+      "exportedPath": "术语/英国十万人基因组计划（100,000-genomes-project-in-england）.html",
+      "dependencies": []
+    },
+    "术语/粘液样脂肪肉瘤（myxoid liposarcoma）.md": {
+      "modifiedTime": 1729482158155,
+      "sourceSize": 429,
+      "exportedPath": "术语/粘液样脂肪肉瘤（myxoid-liposarcoma）.html",
+      "dependencies": []
+    },
+    "术语/长散布核元件(Long Interspersed Nuclear Elements, LINEs).md": {
+      "modifiedTime": 1729482158155,
+      "sourceSize": 743,
+      "exportedPath": "术语/长散布核元件(long-interspersed-nuclear-elements,-lines).html",
+      "dependencies": []
+    },
+    "术语/整合应激反应（integrated stress response (ISR).md": {
+      "modifiedTime": 1729482158155,
+      "sourceSize": 2594,
+      "exportedPath": "术语/整合应激反应（integrated-stress-response-(isr).html",
+      "dependencies": []
+    },
+    "术语/直系同源基因（Orthologs）与旁系同源基因（Paralogs）.md": {
+      "modifiedTime": 1729482158155,
+      "sourceSize": 999,
+      "exportedPath": "术语/直系同源基因（orthologs）与旁系同源基因（paralogs）.html",
+      "dependencies": []
+    },
+    "术语/转换（transition）.md": {
+      "modifiedTime": 1729482158155,
+      "sourceSize": 314,
+      "exportedPath": "术语/转换（transition）.html",
+      "dependencies": []
+    },
+    "术语/转座酶可访问染色质测定（Assay for Transposase-Accessible Chromatin with high-throughput sequencing，ATAC-seq）.md": {
+      "modifiedTime": 1729482158155,
+      "sourceSize": 1621,
+      "exportedPath": "术语/转座酶可访问染色质测定（assay-for-transposase-accessible-chromatin-with-high-throughput-sequencing，atac-seq）.html",
+      "dependencies": []
+    },
+    "术语/转座元件（Transposable Elements）.md": {
+      "modifiedTime": 1729482158155,
+      "sourceSize": 268,
+      "exportedPath": "术语/转座元件（transposable-elements）.html",
+      "dependencies": []
+    },
+    "术语/转座子(Transposable elements, TEs).md": {
+      "modifiedTime": 1729482158155,
+      "sourceSize": 1715,
+      "exportedPath": "术语/转座子(transposable-elements,-tes).html",
+      "dependencies": []
+    },
+    "术语/祖先分化（ancestral divergence）.md": {
+      "modifiedTime": 1729482158155,
+      "sourceSize": 215,
+      "exportedPath": "术语/祖先分化（ancestral-divergence）.html",
+      "dependencies": []
+    },
+    "术语/最大等位基因频率（Maximum Minor Allele Frequency，Max MAF）.md": {
+      "modifiedTime": 1729482158155,
+      "sourceSize": 400,
+      "exportedPath": "术语/最大等位基因频率（maximum-minor-allele-frequency，max-maf）.html",
+      "dependencies": []
+    },
+    "术语/All of Us（AOU）.md": {
+      "modifiedTime": 1729482158155,
+      "sourceSize": 1,
+      "exportedPath": "术语/all-of-us（aou）.html",
+      "dependencies": []
+    },
+    "术语/Alu元件.md": {
+      "modifiedTime": 1729482158155,
+      "sourceSize": 1857,
+      "exportedPath": "术语/alu元件.html",
+      "dependencies": []
+    },
+    "术语/DNA翻片（DNA flap）.md": {
+      "modifiedTime": 1729482158155,
+      "sourceSize": 911,
+      "exportedPath": "术语/dna翻片（dna-flap）.html",
+      "dependencies": []
+    },
+    "术语/Leigh综合征.md": {
+      "modifiedTime": 1729482158155,
+      "sourceSize": 807,
+      "exportedPath": "术语/leigh综合征.html",
+      "dependencies": []
+    },
+    "术语/LINE-1 元件（Long Interspersed Nuclear Element-1）.md": {
+      "modifiedTime": 1729482158155,
+      "sourceSize": 1325,
+      "exportedPath": "术语/line-1-元件（long-interspersed-nuclear-element-1）.html",
+      "dependencies": []
+    },
+    "术语/Max MAF.md": {
+      "modifiedTime": 1729482158155,
+      "sourceSize": 400,
+      "exportedPath": "术语/max-maf.html",
+      "dependencies": []
+    },
+    "术语/MCAT基因（Mitochondrial Carnitine Acylcarnitine Carrier）.md": {
+      "modifiedTime": 1729482158155,
+      "sourceSize": 862,
+      "exportedPath": "术语/mcat基因（mitochondrial-carnitine-acylcarnitine-carrier）.html",
+      "dependencies": []
+    },
+    "术语/MELAS综合症（Mitochondrial Encephalomyopathy, Lactic Acidosis, and Stroke-like Episodes）.md": {
+      "modifiedTime": 1729482158155,
+      "sourceSize": 1092,
+      "exportedPath": "术语/melas综合症（mitochondrial-encephalomyopathy,-lactic-acidosis,-and-stroke-like-episodes）.html",
+      "dependencies": []
+    },
+    "术语/PR结构域锌指蛋白9（PRDM9）.md": {
+      "modifiedTime": 1729482158155,
+      "sourceSize": 909,
+      "exportedPath": "术语/pr结构域锌指蛋白9（prdm9）.html",
+      "dependencies": []
+    },
+    "术语/rCRS（revised Cambridge Reference Sequence）.md": {
+      "modifiedTime": 1729482158155,
+      "sourceSize": 430,
+      "exportedPath": "术语/rcrs（revised-cambridge-reference-sequence）.html",
+      "dependencies": []
+    },
+    "术语/RSRS（Reconstructed Sapiens Reference Sequence）.md": {
+      "modifiedTime": 1729482158155,
+      "sourceSize": 403,
+      "exportedPath": "术语/rsrs（reconstructed-sapiens-reference-sequence）.html",
+      "dependencies": []
+    },
+    "术语/S-腺苷甲硫氨酸 (SAM).md": {
+      "modifiedTime": 1729482158155,
+      "sourceSize": 347,
+      "exportedPath": "术语/s-腺苷甲硫氨酸-(sam).html",
+      "dependencies": []
+    },
+    "术语/Twinkle基因（TWNK）.md": {
+      "modifiedTime": 1729482158155,
+      "sourceSize": 931,
+      "exportedPath": "术语/twinkle基因（twnk）.html",
+      "dependencies": []
+    },
+    "术语/VAF.md": {
+      "modifiedTime": 1729482158155,
+      "sourceSize": 87,
+      "exportedPath": "术语/vaf.html",
+      "dependencies": []
+    },
+    "文献及报道/报道/距今约5000年大墓被发现！.md": {
+      "modifiedTime": 1729482158155,
+      "sourceSize": 1791,
+      "exportedPath": "文献及报道/报道/距今约5000年大墓被发现！.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/2018 GB 关于转座因子您应该了解的十件事.md": {
+      "modifiedTime": 1729482158155,
+      "sourceSize": 13986,
+      "exportedPath": "文献及报道/文献/2018-gb-关于转座因子您应该了解的十件事.html",
+      "dependencies": []
+    },
+    "文献及报道/文献/2024 MBE soibean：利用线粒体泛基因组图对古代环境 DNA 进行高分辨率分类鉴定.md": {
+      "modifiedTime": 1729482158155,
+      "sourceSize": 8943,
+      "exportedPath": "文献及报道/文献/2024-mbe-soibean：利用线粒体泛基因组图对古代环境-dna-进行高分辨率分类鉴定.html",
+      "dependencies": []
+    },
+    "文献及报道/文献汇报分享/如何进行文献阅读？.md": {
+      "modifiedTime": 1729482158155,
+      "sourceSize": 1726,
+      "exportedPath": "文献及报道/文献汇报分享/如何进行文献阅读？.html",
       "dependencies": []
     }
   }
